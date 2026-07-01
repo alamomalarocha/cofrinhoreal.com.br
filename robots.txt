@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# Protótipo visual em validação.
+# Remover este bloqueio quando o site estiver pronto para indexação pública.
