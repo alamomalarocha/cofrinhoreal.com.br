@@ -36,6 +36,23 @@ No MVP, nao criar todos os personagens. Primeiro deve existir um Pig principal f
 
 Documento principal: `docs/FAMILIA_PIG.md`.
 
+## Vila Fazenda Pig
+
+A Vila Fazenda Pig, ou Vila Pig, organiza a comunidade futura de personagens do Cofrinho Real.
+
+Regra conceitual:
+
+> O Pig e o guia. O avatar e a pessoa. A Vila Pig e a comunidade.
+
+O Pig principal continua sendo o personagem central da marca. O avatar dentro do app representa o usuario. Os demais personagens pertencem a comunidade narrativa da Vila Pig.
+
+Base estatica atual:
+
+- `data/vila-pig-personagens.json`
+- `data/vila-pig-personagens.csv`
+
+Cada personagem possui numero, slug e caminho futuro de imagem.
+
 ## Logo/arte principal atual
 
 Neste momento, a arte principal atual do Pig e do Cofrinho Real no prototipo visual e:

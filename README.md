@@ -44,3 +44,14 @@ Abra o arquivo `index.html` no navegador ou rode um servidor estático simples n
 - `public/`: futuros arquivos públicos da aplicação.
 - `tests/`: futuros testes.
 - `scripts/`: futuros scripts auxiliares.
+
+## Vila Pig
+
+A base estatica do universo de personagens fica em:
+
+- `data/vila-pig-personagens.json`
+- `data/vila-pig-personagens.csv`
+
+A previa visual fica em `personagens.html`.
+
+As imagens dos personagens ainda nao foram criadas. Cada imagem futura devera seguir o padrao `assets/characters/NUMERO-SLUG.png`.

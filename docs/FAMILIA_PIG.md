@@ -8,6 +8,28 @@ Ideia central:
 
 > O Cofrinho Real nao conecta apenas dinheiro. Ele conecta familias, amigos, escola, comercio local e comunidade em torno de pequenos valores que fazem diferenca.
 
+## Vila Fazenda Pig
+
+A evolucao oficial deste universo passa a ser chamada de **Vila Fazenda Pig**, ou internamente **Vila Pig**.
+
+Frase conceitual:
+
+> O Pig e o guia. O avatar e a pessoa. A Vila Pig e a comunidade.
+
+Documentos principais:
+
+- `docs/VILA_PIG.md`
+- `docs/PERSONAGENS_VILA_PIG.md`
+- `docs/ASSETS_PERSONAGENS.md`
+- `docs/AVATARES.md`
+
+A base estatica atual fica em:
+
+- `data/vila-pig-personagens.json`
+- `data/vila-pig-personagens.csv`
+
+Cada personagem possui numero, nome, slug e `asset_futuro` no padrao `assets/characters/NUMERO-SLUG.png`.
+
 ## Principios
 
 - A Familia Pig deve reforcar afeto, educacao, planejamento e solidariedade.

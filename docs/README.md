@@ -12,6 +12,10 @@ Antes de desenvolver qualquer funcionalidade, leia:
 ## Documentos de produto e marca
 
 - `FAMILIA_PIG.md`: universo futuro de personagens da Familia Pig, categorias, fases e regras para nao criar tudo no MVP.
+- `VILA_PIG.md`: conceito oficial da Vila Fazenda Pig, comunidade de personagens do Cofrinho Real.
+- `PERSONAGENS_VILA_PIG.md`: base de 200 personagens colecionaveis, com numero, slug e uso futuro.
+- `ASSETS_PERSONAGENS.md`: regra para vincular imagens futuras por numero e slug.
+- `AVATARES.md`: diferenca entre Pig principal, avatar do usuario e personagens fixos.
 - `EDUCACAO_FINANCEIRA.md`: principios de educacao financeira sem culpa, medo ou julgamento.
 - `JOGOS_EDUCATIVOS.md`: direcao futura para jogos e albuns educativos sem aposta, loot box ou vicio.
 - `COOKIES_PRIVACIDADE_TERMOS.md`: memoria das paginas legais estaticas do prototipo.
@@ -19,6 +23,7 @@ Antes de desenvolver qualquer funcionalidade, leia:
 - `CHECKPOINT_REFINAMENTO_GERAL_001.md`: checkpoint da rodada geral de refinamento visual e documental.
 - `CHECKPOINT_REESTRUTURA_MULTIPAGINAS_001.md`: checkpoint da mudanca de landing unica para prototipo estatico multipaginas.
 - Arte principal atual do Pig/Cofrinho Real: `assets/brand/cofrinho-real-pig-logo-principal.png`.
+- Base estatica atual de personagens: `data/vila-pig-personagens.json` e `data/vila-pig-personagens.csv`.
 
 Regra central:
 
