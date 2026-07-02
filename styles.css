@@ -71,15 +71,16 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: clamp(20px, 2.2vw, 30px);
+  gap: clamp(24px, 3vw, 42px);
   padding: 12px 0;
   overflow: visible;
 }
 
 .brand {
   display: inline-flex;
-  flex: 0 0 auto;
+  flex: 0 0 clamp(320px, 25vw, 360px);
   align-items: center;
+  justify-content: flex-start;
   min-width: 0;
   overflow: visible;
   padding: 2px 0;
@@ -112,7 +113,7 @@ button {
   flex: 1 1 auto;
   align-items: center;
   justify-content: flex-end;
-  gap: clamp(8px, 1.2vw, 16px);
+  gap: clamp(8px, 1vw, 14px);
   min-width: 0;
 }
 
@@ -271,6 +272,55 @@ button {
   background: var(--pink);
   color: var(--white);
   box-shadow: 0 12px 28px rgba(247, 37, 101, 0.18);
+}
+
+@media (min-width: 1321px) and (max-width: 1480px) {
+  .nav-panel {
+    gap: 8px;
+  }
+
+  .nav-links {
+    gap: 7px;
+    font-size: 0.73rem;
+  }
+
+  .nav-links a {
+    min-height: 32px;
+    padding: 7px 8px;
+  }
+
+  .nav-group {
+    gap: 5px;
+  }
+
+  .nav-group + .nav-group {
+    margin-left: 10px;
+  }
+
+  .nav-group + .nav-group::before {
+    left: -15px;
+  }
+
+  .site-search {
+    width: 44px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 0;
+  }
+
+  .site-search input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .login-link,
+  .create-account-link {
+    padding-inline: 12px;
+    font-size: 0.84rem;
+  }
 }
 
 .menu-button {
@@ -2504,6 +2554,10 @@ h3 {
     padding: 10px 0;
   }
 
+  .brand {
+    flex-basis: 220px;
+  }
+
   .header-logo {
     width: 190px;
     height: 90px;
@@ -2667,6 +2721,10 @@ h3 {
   .header-logo {
     width: 154px;
     height: 72px;
+  }
+
+  .brand {
+    flex-basis: 174px;
   }
 
   .nav-panel {
