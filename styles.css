@@ -55,7 +55,7 @@ button {
   grid-template-columns: auto 1fr;
   align-items: center;
   gap: 24px;
-  padding: 16px clamp(18px, 5vw, 72px);
+  padding: 12px clamp(18px, 5vw, 72px);
   border-bottom: 1px solid rgba(225, 231, 228, 0.72);
   background: rgba(251, 250, 246, 0.86);
   backdrop-filter: blur(18px);
@@ -64,15 +64,15 @@ button {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   min-width: 0;
   font-weight: 900;
 }
 
 .brand-pig {
   position: relative;
-  width: 50px;
-  height: 42px;
+  width: 58px;
+  height: 48px;
   flex: 0 0 auto;
   border: 3px solid var(--pink);
   border-radius: 50%;
@@ -87,26 +87,26 @@ button {
 .brand-pig::before,
 .brand-pig::after {
   position: absolute;
-  top: 3px;
-  width: 14px;
-  height: 14px;
+  top: 4px;
+  width: 16px;
+  height: 16px;
   content: "";
   border-radius: 5px 10px 5px 10px;
   background: #ff9bad;
 }
 
 .brand-pig::before {
-  left: -4px;
+  left: -5px;
   transform: rotate(-22deg);
 }
 
 .brand-pig::after {
-  right: -4px;
+  right: -5px;
   transform: rotate(112deg);
 }
 
 .brand-name {
-  font-size: 1.1rem;
+  font-size: 1.24rem;
   letter-spacing: 0;
 }
 
@@ -161,8 +161,8 @@ button {
   grid-template-columns: minmax(0, 1.05fr) minmax(310px, 0.72fr);
   gap: clamp(30px, 5vw, 70px);
   align-items: center;
-  min-height: calc(88vh - 74px);
-  padding: clamp(40px, 6vw, 66px) 0 clamp(34px, 5vw, 58px);
+  min-height: calc(84vh - 72px);
+  padding: clamp(24px, 4.5vw, 48px) 0 clamp(30px, 5vw, 54px);
 }
 
 .eyebrow {
@@ -253,9 +253,10 @@ h3 {
 }
 
 .button.secondary {
-  border-color: var(--line);
-  background: var(--white);
-  color: var(--blue);
+  border-color: rgba(15, 107, 79, 0.28);
+  background: linear-gradient(180deg, #ffffff, #f2fbf6);
+  color: var(--green-dark);
+  box-shadow: 0 14px 30px rgba(15, 107, 79, 0.09);
 }
 
 .hero-notes {
@@ -281,11 +282,13 @@ h3 {
 }
 
 .prototype-note {
-  max-width: 620px;
-  margin: 12px 0 0;
+  max-width: 700px;
+  margin: 10px 0 0;
   color: var(--muted);
-  font-size: 0.9rem;
-  font-weight: 800;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.35;
+  opacity: 0.74;
 }
 
 .hero-visual {
@@ -301,10 +304,13 @@ h3 {
   border: 1px solid #ecdedf;
   border-radius: 36px;
   background:
+    radial-gradient(circle at 24% 0%, rgba(255, 213, 223, 0.62), transparent 24%),
     radial-gradient(circle at 80% 8%, rgba(244, 91, 131, 0.18), transparent 24%),
     linear-gradient(180deg, #ffffff, #fff7f8 56%, #f0fbf5),
     var(--white);
-  box-shadow: var(--shadow);
+  box-shadow:
+    0 34px 90px rgba(16, 38, 74, 0.13),
+    0 10px 24px rgba(244, 91, 131, 0.08);
 }
 
 .phone-top {
@@ -375,6 +381,16 @@ h3 {
   background: var(--green-soft);
 }
 
+.pig-card::after {
+  position: absolute;
+  inset: auto 18px 18px auto;
+  width: 42px;
+  height: 42px;
+  content: "";
+  border-radius: 50%;
+  background: rgba(255, 213, 223, 0.72);
+}
+
 .pig-card p {
   margin: 10px 0 2px;
   color: var(--muted);
@@ -412,11 +428,25 @@ h3 {
   display: inline-block;
   width: 160px;
   height: 150px;
+  z-index: 1;
 }
 
 .pig-illustration.big {
-  width: 168px;
-  height: 158px;
+  width: 174px;
+  height: 162px;
+}
+
+.pig-illustration::after {
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  width: 26px;
+  height: 22px;
+  content: "";
+  border-top: 5px solid #e96984;
+  border-left: 5px solid transparent;
+  border-radius: 50%;
+  transform: translateX(-50%) rotate(-18deg);
 }
 
 .pig-illustration .head,
@@ -424,6 +454,25 @@ h3 {
   position: absolute;
   inset: 24px 16px 12px;
   border-radius: 48% 48% 44% 44%;
+}
+
+.pig-illustration .face::before,
+.pig-illustration .face::after {
+  position: absolute;
+  top: 82px;
+  width: 18px;
+  height: 10px;
+  content: "";
+  border-radius: 50%;
+  background: rgba(244, 91, 131, 0.22);
+}
+
+.pig-illustration .face::before {
+  left: 34px;
+}
+
+.pig-illustration .face::after {
+  right: 34px;
 }
 
 .pig-illustration .head {
@@ -456,8 +505,8 @@ h3 {
 .pig-illustration .eye {
   position: absolute;
   top: 56px;
-  width: 22px;
-  height: 28px;
+  width: 23px;
+  height: 29px;
   border-radius: 50%;
   background:
     radial-gradient(circle at 38% 28%, #ffffff 0 18%, transparent 19%),
@@ -475,7 +524,7 @@ h3 {
 .pig-illustration .snout {
   position: absolute;
   left: 50%;
-  top: 78px;
+  top: 80px;
   width: 58px;
   height: 40px;
   border: 3px solid #e35f7b;
@@ -491,9 +540,9 @@ h3 {
   position: absolute;
   left: 50%;
   top: 114px;
-  width: 36px;
-  height: 16px;
-  border-bottom: 4px solid #9c2e4b;
+  width: 42px;
+  height: 18px;
+  border-bottom: 4px solid #8f2b45;
   border-radius: 0 0 999px 999px;
   transform: translateX(-50%);
 }
@@ -948,7 +997,7 @@ h3 {
 
   .nav-links {
     position: fixed;
-    inset: 73px 12px auto;
+    inset: 69px 12px auto;
     display: none;
     justify-self: stretch;
     flex-direction: column;
@@ -983,7 +1032,7 @@ h3 {
 
   .hero {
     min-height: auto;
-    padding-top: 42px;
+    padding-top: 28px;
   }
 
   .hero-visual {
@@ -1016,11 +1065,16 @@ h3 {
   }
 
   .brand-name {
-    font-size: 1rem;
+    font-size: 1.08rem;
+  }
+
+  .brand-pig {
+    width: 52px;
+    height: 43px;
   }
 
   .hero {
-    padding-top: 32px;
+    padding-top: 22px;
   }
 
   h1 {
@@ -1051,8 +1105,8 @@ h3 {
   }
 
   .pig-illustration.big {
-    width: 156px;
-    height: 148px;
+    width: 158px;
+    height: 150px;
   }
 
   .floating-coin {
