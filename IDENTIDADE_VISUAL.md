@@ -307,6 +307,23 @@ Mensagem principal:
 
 A logo deve ter versões flexíveis para diferentes usos.
 
+### Arte principal atual do protótipo
+
+Neste momento, a arte principal atual do Cofrinho Real/Pig no protótipo visual é:
+
+`assets/brand/cofrinho-real-pig-logo-principal.png`
+
+Essa imagem mostra:
+
+- o Pig como mascote principal;
+- o nome Cofrinho Real;
+- o nome Pig;
+- o slogan "Guarde. Cresça. Realize."
+
+Ela deve ser usada como referência visual principal do projeto neste momento, especialmente em áreas de apresentação, hero, identidade visual e materiais conceituais.
+
+Essa decisão pode ser revisada futuramente. Caso a logo mude, o arquivo oficial e esta documentação deverão ser atualizados.
+
 ### Versão principal
 
 Símbolo do Pig acompanhado do texto "Cofrinho Real".

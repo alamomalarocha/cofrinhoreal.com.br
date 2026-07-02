@@ -9,7 +9,11 @@ Antes de desenvolver qualquer funcionalidade, leia:
 3. `IDENTIDADE_VISUAL.md`
 4. Os documentos desta pasta relacionados ao tema da mudanca.
 
+## Documentos de produto e marca
+
+- `FAMILIA_PIG.md`: universo futuro de personagens da Familia Pig, categorias, fases e regras para nao criar tudo no MVP.
+- Arte principal atual do Pig/Cofrinho Real: `assets/brand/cofrinho-real-pig-logo-principal.png`.
+
 Regra central:
 
 > O projeto deve crescer sem bagunca, sem recomecar do zero e sem adicionar complexidade desnecessaria.
-
