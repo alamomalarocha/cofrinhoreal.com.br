@@ -1204,6 +1204,109 @@ h3 {
   padding: clamp(70px, 10vw, 126px) 0;
 }
 
+.page-hero {
+  padding: clamp(54px, 8vw, 96px) 0 clamp(40px, 6vw, 70px);
+}
+
+.page-hero-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(280px, 0.58fr);
+  gap: clamp(26px, 5vw, 64px);
+  align-items: center;
+}
+
+.page-hero h1 {
+  max-width: 760px;
+  margin-bottom: 16px;
+  font-size: clamp(2.3rem, 5vw, 4.6rem);
+}
+
+.page-hero p {
+  max-width: 760px;
+  color: var(--muted);
+  font-size: clamp(1.06rem, 2vw, 1.28rem);
+  font-weight: 750;
+}
+
+.page-hero-card,
+.callout-card {
+  border: 1px solid rgba(255, 79, 131, 0.18);
+  border-radius: var(--radius);
+  padding: clamp(22px, 4vw, 34px);
+  background:
+    radial-gradient(circle at 94% 8%, rgba(255, 214, 227, 0.72), transparent 28%),
+    var(--white);
+  box-shadow: 0 22px 60px rgba(16, 38, 74, 0.1);
+}
+
+.page-hero-card strong,
+.callout-card strong {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--blue);
+  font-size: clamp(1.25rem, 2.5vw, 1.7rem);
+  line-height: 1.12;
+}
+
+.page-content {
+  padding: 0 0 clamp(70px, 10vw, 128px);
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.detail-grid.two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.detail-card {
+  min-height: 220px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+  box-shadow: 0 16px 40px rgba(16, 38, 74, 0.06);
+}
+
+.detail-card h2,
+.detail-card h3 {
+  margin-bottom: 10px;
+}
+
+.detail-card p,
+.detail-card li {
+  color: var(--muted);
+  font-weight: 750;
+}
+
+.detail-list {
+  margin: 12px 0 0;
+  padding-left: 20px;
+}
+
+.cta-band {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: clamp(30px, 6vw, 54px);
+  border: 1px solid rgba(255, 79, 131, 0.18);
+  border-radius: var(--radius);
+  padding: clamp(22px, 4vw, 34px);
+  background: linear-gradient(135deg, var(--blush), #ffffff);
+}
+
+.cta-band p {
+  max-width: 680px;
+  margin: 0;
+  color: var(--muted);
+  font-weight: 800;
+}
+
 .section-heading {
   max-width: 820px;
   margin-bottom: 34px;
@@ -2589,6 +2692,7 @@ h3 {
   }
 
   .hero,
+  .page-hero-inner,
   .split-section,
   .coin-section,
   .pig-family-inner,
@@ -2617,6 +2721,8 @@ h3 {
 
   .intro-band,
   .concept-grid,
+  .detail-grid,
+  .detail-grid.two,
   .steps-grid,
   .poster-grid,
   .education-grid,

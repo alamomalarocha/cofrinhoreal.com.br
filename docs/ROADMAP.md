@@ -8,6 +8,7 @@ Este roadmap organiza a evolucao do Cofrinho Real por fases.
 - Identidade visual.
 - Estrutura de projeto.
 - Prototipo navegavel.
+- Reestrutura do site em Home + paginas internas estaticas.
 - Validacao de conceito.
 
 ## Fase 1 — MVP
@@ -21,6 +22,7 @@ Este roadmap organiza a evolucao do Cofrinho Real por fases.
 - Paginas legais estaticas iniciais para prototipo.
 - Busca visual e modal de login apenas como simulacao.
 - Conceito de jogos educativos sem mecanicas funcionais.
+- Site multipaginas estatico com noindex, sem backend e sem operacao real.
 
 ## Fase 2 — Produto inicial
 

@@ -17,6 +17,7 @@ Antes de desenvolver qualquer funcionalidade, leia:
 - `COOKIES_PRIVACIDADE_TERMOS.md`: memoria das paginas legais estaticas do prototipo.
 - `PESQUISA_REFERENCIAS_001.md`: pesquisa inicial sobre LGPD, cookies, badges de app, Cloudflare e referencias visuais.
 - `CHECKPOINT_REFINAMENTO_GERAL_001.md`: checkpoint da rodada geral de refinamento visual e documental.
+- `CHECKPOINT_REESTRUTURA_MULTIPAGINAS_001.md`: checkpoint da mudanca de landing unica para prototipo estatico multipaginas.
 - Arte principal atual do Pig/Cofrinho Real: `assets/brand/cofrinho-real-pig-logo-principal.png`.
 
 Regra central:
