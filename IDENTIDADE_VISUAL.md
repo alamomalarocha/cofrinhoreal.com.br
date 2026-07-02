@@ -116,13 +116,16 @@ Ela pode combinar o calor do Pig com cores de segurança, educação e crescimen
 
 ### Cores principais
 
-- Verde Cofrinho: `#0F6B4F`
-  - Uso: ações principais, confiança, crescimento, áreas institucionais.
+- Rosa Pig: `#FF4F83`
+  - Uso: Pig, ações principais, destaques emocionais, detalhes de carinho e marca.
 
-- Rosa Pig: `#F45B83`
-  - Uso: Pig, destaques emocionais, detalhes de carinho, marca.
+- Pink Forte: `#F72565`
+  - Uso: botões principais, estados de destaque e chamadas de ação.
 
-- Azul Confiança: `#10264A`
+- Blush: `#FFF1F5`
+  - Uso: fundos suaves, áreas de acolhimento, cards e mockups.
+
+- Azul Confiança: `#10264F`
   - Uso: textos fortes, contraste, navegação, segurança.
 
 - Branco Leve: `#FBFAF6`
@@ -130,17 +133,17 @@ Ela pode combinar o calor do Pig com cores de segurança, educação e crescimen
 
 ### Cores secundárias
 
-- Verde Suave: `#DFF4E9`
-  - Uso: cards leves, áreas infantis, conquistas.
-
-- Rosa Claro: `#FFD5DF`
+- Rosa Claro: `#FFD6E3`
   - Uso: expressões do Pig, recompensas, momentos afetuosos.
 
-- Amarelo Conquista: `#FDBA3B`
+- Amarelo/Dourado Pig Coin: `#F6B33B`
   - Uso: medalhas, estrelas, progresso, celebrações.
 
 - Azul Sereno: `#6EA1DF`
   - Uso: faixas jovens, informação, materiais educativos.
+
+- Verde Apoio: `#D9F3E8`
+  - Uso: apenas apoio discreto para mensagens positivas, confiança leve e confirmações.
 
 - Lilás Aprendizado: `#DCCAF6`
   - Uso: pré-adolescente, criatividade, descoberta.
@@ -150,7 +153,11 @@ Ela pode combinar o calor do Pig com cores de segurança, educação e crescimen
 
 ### Regra de uso
 
-O Cofrinho Real não deve ser dominado por uma única cor. A paleta deve parecer viva e familiar, mas com equilíbrio suficiente para transmitir segurança.
+O Cofrinho Real deve ficar mais ligado ao Pig por meio de rosa, pink, blush e variações suaves de tom sobre tom.
+
+O azul escuro continua sendo essencial para contraste, confiança e leitura. O verde não deve dominar a identidade visual; ele deve aparecer apenas como apoio discreto quando houver sentido de confirmação, cuidado ou sinal positivo.
+
+A paleta não deve virar rosa exagerado. O resultado precisa continuar moderno, confiável e familiar, sem parecer brinquedo barato, jogo ou aposta.
 
 ---
 
