@@ -109,6 +109,8 @@ A Familia Pig podera ajudar a:
 - tornar transferencias simuladas ou reais mais humanas e compreensiveis;
 - reforcar que o Cofrinho Real e uma plataforma de educacao, familia e comunidade.
 
+No prototipo visual atual, a Familia Pig aparece apenas como conceito de apresentacao. Os personagens ainda nao sao artes finais.
+
 Exemplos de mensagens futuras:
 
 - "A vovo mandou um Pig para voce."

@@ -13,9 +13,9 @@ Leia também:
 
 MVP de validação visual e conceitual.
 
-Nada será publicado neste momento.
+O site pode estar publicado em `https://cofrinhoreal.com.br` apenas para análise, com `noindex` temporário.
 
-Não há backend, banco de dados ou integrações.
+Não há backend, banco de dados, login funcional, PIX real, app real ou movimentação real de dinheiro.
 
 ## Princípios
 

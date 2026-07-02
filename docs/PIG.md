@@ -45,3 +45,15 @@ Neste momento, a arte principal atual do Pig e do Cofrinho Real no prototipo vis
 Ela mostra o Pig como mascote, o nome Cofrinho Real, o nome Pig e o slogan "Guarde. Cresça. Realize."
 
 Essa imagem deve ser usada como referencia principal visual do projeto ate nova orientacao. Ela ainda pode ser substituida futuramente.
+
+## Uso no prototipo visual publicado
+
+O Pig deve aparecer no header, no mockup do app, nas secoes de familia, nos materiais A4 e nas mensagens educativas de forma consistente.
+
+No prototipo atual, qualquer imagem, botao ou texto do Pig deve reforcar:
+
+- carinho;
+- confianca;
+- educacao;
+- familia;
+- ausencia de aposta, vicio ou pressao de consumo.

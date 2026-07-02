@@ -551,6 +551,22 @@ Se a resposta não for sim, a decisão visual deve ser revista.
 
 ---
 
+## Refinamento geral 001
+
+Em 2026-07-02, o protótipo visual passou a reforçar ainda mais a direção rosa/pink do Pig, mantendo o azul escuro como cor de confiança e leitura.
+
+Direções registradas:
+
+- A logo/arte principal atual continua sendo `assets/brand/cofrinho-real-pig-logo-principal.png`.
+- O header deve usar a identidade atual de forma limpa, sem voltar a porquinhos provisórios antigos.
+- Botões de App Store e Google Play são visuais e provisórios enquanto não houver app real publicado.
+- O mockup do app deve sempre exibir dados fictícios e avisos de protótipo.
+- Páginas legais estáticas devem ser claras, simples e provisórias.
+- Jogos educativos devem parecer educativos e saudáveis, nunca aposta, cassino, loot box ou vício.
+- Pig Coin deve continuar com visual de recompensa simbólica, sem aparência de ficha de cassino ou promessa financeira.
+
+---
+
 ## Direção final
 
 A identidade do Cofrinho Real deve unir tecnologia moderna com afeto familiar.

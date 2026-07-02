@@ -2,7 +2,7 @@
 
 Este projeto e um prototipo visual estatico.
 
-Nao existe backend, banco de dados, login funcional, PIX ou publicacao.
+Nao existe backend, banco de dados, login funcional, PIX real ou publicacao operacional.
 
 ## Opcao 1 — Abrir direto pelo arquivo
 

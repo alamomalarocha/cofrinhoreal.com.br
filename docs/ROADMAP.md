@@ -17,6 +17,10 @@ Este roadmap organiza a evolucao do Cofrinho Real por fases.
 - Experiencia basica do comerciante.
 - Pig como mascote emocional.
 - Materiais A4 para comerciantes.
+- Organizacao conceitual da Familia Pig, sem criar todos os personagens.
+- Paginas legais estaticas iniciais para prototipo.
+- Busca visual e modal de login apenas como simulacao.
+- Conceito de jogos educativos sem mecanicas funcionais.
 
 ## Fase 2 — Produto inicial
 
@@ -33,9 +37,22 @@ Este roadmap organiza a evolucao do Cofrinho Real por fases.
 - Doacoes opcionais.
 - Evolucao visual por idade.
 - Albuns e conquistas nao financeiras.
+- Expansao gradual da Familia Pig por fases.
+- Jogos educativos simples, sem aposta, loot box, FOMO ou compra de vantagem.
+- Politicas juridicas e de privacidade revisadas para operacao real.
+
+## Familia Pig
+
+A Familia Pig deve evoluir em fases:
+
+- Fase 1: Pig Principal, Pig Crianca, Pig Adolescente, Pig Adulto, Pig Comerciante, Pig Vovó, Pig Vovô e Pig Familia.
+- Fase 2: nucleo familiar ampliado.
+- Fase 3: escola, amigos, vizinhos e comercio local.
+- Fase 4: proposito social e comunidade.
+
+Documento principal: `docs/FAMILIA_PIG.md`.
 
 ## Fases futuras
 
 - Integracoes financeiras reais somente quando houver maturidade tecnica, juridica e operacional.
 - Chat, marketplace, rede social e funcionalidades avancadas ficam fora do MVP.
-

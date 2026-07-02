@@ -21,6 +21,11 @@ Criar uma experiencia navegavel e compreensivel para testar:
 - Conteudo educativo basico.
 - Area conceitual do comerciante.
 - Materiais A4 simulados.
+- Organizacao conceitual da Familia Pig, sem criar imagens ou personagens finais.
+- Busca visual estatica, sem backend.
+- Modal visual de login, sem autenticacao.
+- Paginas legais iniciais para prototipo visual.
+- Secoes conceituais de educacao financeira e jogos educativos.
 
 ## Fora do MVP
 
@@ -32,8 +37,14 @@ Criar uma experiencia navegavel e compreensivel para testar:
 - Chat.
 - Rede social.
 - Compra ou venda de Pig Coin.
+- Criacao completa da Familia Pig.
+- Assets oficiais de personagens.
+- Login real.
+- Busca real.
+- App publicado nas lojas.
+- Jogos funcionais.
+- Coleta real de dados.
 
 ## Regra
 
 Se uma funcionalidade nao ajuda a validar a ideia central agora, ela deve esperar.
-
