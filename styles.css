@@ -15,6 +15,7 @@
   --muted: #716672;
   --shadow: 0 24px 70px rgba(16, 38, 74, 0.12);
   --radius: 8px;
+  --header-offset: 174px;
 }
 
 * {
@@ -23,6 +24,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: var(--header-offset);
 }
 
 body {
@@ -70,7 +72,7 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: clamp(20px, 2.2vw, 30px);
-  padding: 10px 0;
+  padding: 12px 0;
   overflow: visible;
 }
 
@@ -80,15 +82,17 @@ button {
   align-items: center;
   min-width: 0;
   overflow: visible;
+  padding: 2px 0;
   font-weight: 900;
 }
 
 .header-logo {
   display: block;
-  width: clamp(250px, 19vw, 286px);
+  width: clamp(244px, 19vw, 286px);
   max-width: 100%;
-  height: auto;
+  height: clamp(114px, 9vw, 136px);
   object-fit: contain;
+  object-position: center;
 }
 
 .brand-name {
@@ -2489,14 +2493,20 @@ h3 {
 }
 
 @media (max-width: 1320px) {
+  :root {
+    --header-offset: 132px;
+  }
+
   .site-header-inner {
     width: min(1320px, calc(100% - 32px));
     flex-wrap: wrap;
     gap: 18px;
+    padding: 10px 0;
   }
 
   .header-logo {
     width: 190px;
+    height: 90px;
   }
 
   .menu-button {
@@ -2646,12 +2656,17 @@ h3 {
 }
 
 @media (max-width: 620px) {
+  :root {
+    --header-offset: 112px;
+  }
+
   .section-shell {
     width: min(100% - 32px, 1180px);
   }
 
   .header-logo {
-    width: 142px;
+    width: 154px;
+    height: 72px;
   }
 
   .nav-panel {
