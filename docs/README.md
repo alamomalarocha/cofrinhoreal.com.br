@@ -16,10 +16,13 @@ Antes de desenvolver qualquer funcionalidade, leia:
 - `PERSONAGENS_VILA_PIG.md`: base de 200 personagens colecionaveis, com numero, slug e uso futuro.
 - `ASSETS_PERSONAGENS.md`: regra para vincular imagens futuras por numero e slug.
 - `AVATARES.md`: diferenca entre Pig principal, avatar do usuario e personagens fixos.
+- `PLANO_IMAGENS_PERSONAGENS_001.md`: plano da proxima fase para criacao e recebimento das imagens dos personagens.
 - `EDUCACAO_FINANCEIRA.md`: principios de educacao financeira sem culpa, medo ou julgamento.
 - `JOGOS_EDUCATIVOS.md`: direcao futura para jogos e albuns educativos sem aposta, loot box ou vicio.
 - `COOKIES_PRIVACIDADE_TERMOS.md`: memoria das paginas legais estaticas do prototipo.
 - `PESQUISA_REFERENCIAS_001.md`: pesquisa inicial sobre LGPD, cookies, badges de app, Cloudflare e referencias visuais.
+- `RELATORIO_GERAL_PROJETO_001.md`: relatorio consolidado da fase atual do projeto.
+- `CHECKPOINT_ORGANIZACAO_GERAL_001.md`: checkpoint da organizacao geral antes da fase de imagens.
 - `CHECKPOINT_REFINAMENTO_GERAL_001.md`: checkpoint da rodada geral de refinamento visual e documental.
 - `CHECKPOINT_REESTRUTURA_MULTIPAGINAS_001.md`: checkpoint da mudanca de landing unica para prototipo estatico multipaginas.
 - Arte principal atual do Pig/Cofrinho Real: `assets/brand/cofrinho-real-pig-logo-principal.png`.

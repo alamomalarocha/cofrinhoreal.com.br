@@ -55,3 +55,5 @@ A base estatica do universo de personagens fica em:
 A previa visual fica em `personagens.html`.
 
 As imagens dos personagens ainda nao foram criadas. Cada imagem futura devera seguir o padrao `assets/characters/NUMERO-SLUG.png`.
+
+A pasta `assets/characters/` esta reservada para receber essas imagens futuras.
