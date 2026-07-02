@@ -60,11 +60,11 @@ button {
 .site-header-inner {
   width: min(1180px, calc(100% - 40px));
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
   align-items: center;
-  gap: clamp(20px, 3vw, 40px);
-  padding: 12px 0;
+  justify-content: space-between;
+  gap: clamp(28px, 4vw, 56px);
+  padding: 10px 0;
 }
 
 .brand {
@@ -77,8 +77,8 @@ button {
 .header-logo {
   display: block;
   width: auto;
-  height: clamp(44px, 5vw, 58px);
-  max-width: clamp(118px, 18vw, 170px);
+  height: clamp(64px, 6.4vw, 78px);
+  max-width: clamp(190px, 25vw, 270px);
   object-fit: contain;
 }
 
@@ -95,12 +95,11 @@ button {
 }
 
 .nav-links {
-  justify-self: end;
   display: flex;
   align-items: center;
-  gap: clamp(10px, 1.35vw, 18px);
+  gap: clamp(18px, 2.1vw, 26px);
   color: #213452;
-  font-size: 0.92rem;
+  font-size: clamp(0.95rem, 1.25vw, 1rem);
   font-weight: 800;
 }
 
@@ -2026,8 +2025,13 @@ h3 {
 
 @media (max-width: 980px) {
   .site-header-inner {
-    grid-template-columns: auto auto;
     width: min(1180px, calc(100% - 32px));
+    gap: 18px;
+  }
+
+  .header-logo {
+    height: 60px;
+    max-width: 220px;
   }
 
   .menu-button {
@@ -2036,7 +2040,7 @@ h3 {
 
   .nav-links {
     position: fixed;
-    top: 69px;
+    top: 82px;
     left: 50%;
     width: min(1180px, calc(100% - 24px));
     display: none;
@@ -2126,8 +2130,9 @@ h3 {
     width: min(100% - 32px, 1180px);
   }
 
-  .brand-name {
-    font-size: 1.08rem;
+  .header-logo {
+    height: 52px;
+    max-width: 172px;
   }
 
   .hero {
