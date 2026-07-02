@@ -1130,9 +1130,48 @@ h3 {
   background: var(--white);
 }
 
+.problem-band {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  background:
+    radial-gradient(circle at 8% 10%, rgba(255, 214, 227, 0.72), transparent 28%),
+    var(--white);
+}
+
+.problem-heading {
+  grid-column: 1 / -1;
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: clamp(46px, 7vw, 78px) 0 24px;
+}
+
+.problem-heading h2 {
+  max-width: 780px;
+  margin-bottom: 10px;
+  font-size: clamp(2rem, 4vw, 3.6rem);
+}
+
+.problem-heading p {
+  margin: 0;
+  color: var(--pink);
+  font-size: clamp(1.05rem, 2vw, 1.32rem);
+  font-weight: 950;
+}
+
 .intro-band article {
   padding: 34px clamp(20px, 5vw, 64px);
   border-right: 1px solid var(--line);
+}
+
+.problem-band article {
+  padding-top: 28px;
+  padding-bottom: 42px;
+}
+
+.problem-band article h2 {
+  margin-bottom: 10px;
+  font-size: clamp(1.24rem, 2vw, 1.7rem);
+  line-height: 1.12;
 }
 
 .intro-band article:last-child {
