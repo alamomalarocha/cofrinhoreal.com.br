@@ -32,7 +32,7 @@
     <meta name="twitter:image" content="https://cofrinhoreal.com.br/assets/hero-cofrinho-real.png" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="site.webmanifest" />
-    <link rel="stylesheet" href="styles.css?v=5" />
+    <link rel="stylesheet" href="styles.css?v=6" />
   </head>
   <body>
     <header class="site-header">
@@ -65,12 +65,56 @@
           <p>
             O Cofrinho Real ajuda comerciantes a oferecer troco digital e
             famílias a transformar pequenos valores em conquistas, com o Pig
-            acompanhando cada passo, sem culpa, sem pressão e sem cara de banco.
+            acompanhando cada passo.
           </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#como-funciona">Conhecer o Cofrinho Real</a>
-            <a class="button secondary" href="#comerciantes">Sou comerciante</a>
+
+          <div class="entry-panel" aria-label="Escolha de entrada no Cofrinho Real">
+            <h2>Como você quer entrar no Cofrinho Real?</h2>
+            <div class="entry-grid">
+              <article class="entry-card">
+                <span class="entry-icon" aria-hidden="true">PF</span>
+                <div>
+                  <h3>Pessoa Física</h3>
+                  <p>
+                    Para famílias, crianças, adolescentes, adultos e avós que
+                    querem guardar, receber ou enviar um Pig.
+                  </p>
+                </div>
+                <button class="button primary visual-button" type="button" aria-disabled="true">
+                  Entrar como pessoa física
+                </button>
+              </article>
+              <article class="entry-card merchant-entry">
+                <span class="entry-icon" aria-hidden="true">PJ</span>
+                <div>
+                  <h3>Pessoa Jurídica</h3>
+                  <p>
+                    Para comerciantes que querem oferecer troco digital quando
+                    falta moeda no caixa.
+                  </p>
+                </div>
+                <button class="button secondary visual-button" type="button" aria-disabled="true">
+                  Entrar como comerciante
+                </button>
+              </article>
+            </div>
           </div>
+
+          <div class="download-panel" aria-label="Botões visuais de aplicativo">
+            <span>Baixe o app</span>
+            <div class="store-buttons">
+              <button class="store-button" type="button" aria-disabled="true">
+                <small>Disponível na</small>
+                <strong>App Store</strong>
+              </button>
+              <button class="store-button" type="button" aria-disabled="true">
+                <small>Disponível no</small>
+                <strong>Google Play</strong>
+              </button>
+            </div>
+            <p>Aplicativo em fase de protótipo visual.</p>
+          </div>
+
           <div class="hero-notes" aria-label="Avisos importantes do Cofrinho Real">
             <span>Não é banco</span>
             <span>Protótipo visual</span>
@@ -518,6 +562,6 @@
       </nav>
     </footer>
 
-    <script src="script.js?v=5"></script>
+    <script src="script.js?v=6"></script>
   </body>
 </html>
