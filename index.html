@@ -32,7 +32,7 @@
     <meta name="twitter:image" content="https://cofrinhoreal.com.br/assets/hero-cofrinho-real.png" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="site.webmanifest" />
-    <link rel="stylesheet" href="styles.css?v=10" />
+    <link rel="stylesheet" href="styles.css?v=11" />
   </head>
   <body>
     <header class="site-header">
@@ -136,17 +136,23 @@
               alt="Cofrinho Real"
             />
           </figure>
-          <div class="phone-preview">
-            <div class="phone-top">
-              <span></span>
-              <strong>Meu Cofrinho</strong>
+          <div class="phone-preview app-mockup">
+            <div class="app-chrome" aria-hidden="true"></div>
+            <div class="app-header">
+              <div>
+                <span class="app-brand">Cofrinho Real</span>
+                <strong>Meu Cofrinho</strong>
+              </div>
+              <small>Protótipo visual</small>
             </div>
+
             <div class="app-status">
               <span>Saldo fictício</span>
               <strong>R$ 24,80</strong>
-              <small>exemplo visual</small>
+              <small>Exemplo visual, sem dinheiro real</small>
             </div>
-            <div class="pig-card">
+
+            <div class="pig-card app-pig-card">
               <div class="pig-illustration big" aria-hidden="true">
                 <span class="ear left"></span>
                 <span class="ear right"></span>
@@ -158,17 +164,53 @@
                   <span class="smile"></span>
                 </span>
               </div>
-              <p>Pig diz:</p>
-              <strong>Você recebeu um Pig de R$ 1,50.</strong>
+              <div class="pig-message">
+                <span>Pig diz:</span>
+                <strong>Você recebeu um Pig de R$ 1,50.</strong>
+              </div>
             </div>
-            <div class="balance-card">
-              <span>Troco digital recebido</span>
-              <strong>+ R$ 1,50</strong>
+
+            <div class="app-actions" aria-label="Ações visuais do aplicativo">
+              <button type="button" aria-disabled="true">Receber Pig</button>
+              <button type="button" aria-disabled="true">Enviar Pig</button>
+              <button type="button" aria-disabled="true">Pagar com Pig</button>
+              <button type="button" aria-disabled="true">Sacar via PIX <small>futuro</small></button>
             </div>
-            <button class="send-pig-button" type="button" aria-disabled="true">
-              Enviar Pig
-            </button>
-            <p class="phone-disclaimer">Exemplo visual, sem transação real.</p>
+
+            <div class="send-preview">
+              <h3>Enviar um Pig</h3>
+              <div class="visual-fields">
+                <span>Número do cofrinho ou celular</span>
+                <span>Valor</span>
+                <span>Mensagem opcional</span>
+              </div>
+              <div class="value-chips" aria-label="Valores de exemplo">
+                <span>R$ 0,50</span>
+                <span>R$ 1,00</span>
+                <span>R$ 1,50</span>
+                <span>R$ 5,00</span>
+                <span>Outro</span>
+              </div>
+              <button class="send-pig-button" type="button" aria-disabled="true">
+                Prévia de envio
+              </button>
+              <p>Nenhuma transação real é feita neste protótipo.</p>
+            </div>
+
+            <div class="app-history">
+              <div class="history-title">
+                <strong>Histórico visual</strong>
+                <span>+10 Pig Coins</span>
+              </div>
+              <ul>
+                <li><span>Restaurante</span><strong>enviou R$ 1,50</strong></li>
+                <li><span>Vovó</span><strong>mandou R$ 5,00</strong></li>
+                <li><span>Pig Coin</span><strong>conquistada</strong></li>
+              </ul>
+              <p>Recompensa interna, sem valor financeiro.</p>
+            </div>
+
+            <p class="phone-disclaimer">Exemplo visual, sem login, sem PIX e sem movimentação real.</p>
           </div>
           <div class="floating-coin" aria-hidden="true">P</div>
         </div>
@@ -574,6 +616,6 @@
       </nav>
     </footer>
 
-    <script src="script.js?v=10"></script>
+    <script src="script.js?v=11"></script>
   </body>
 </html>

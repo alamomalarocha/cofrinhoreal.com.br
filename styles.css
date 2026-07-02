@@ -503,7 +503,7 @@ h3 {
 .phone-preview {
   position: relative;
   z-index: 2;
-  width: min(382px, 100%);
+  width: min(430px, 100%);
   padding: 16px;
   border: 1px solid #ecdedf;
   border-radius: 36px;
@@ -515,6 +515,57 @@ h3 {
   box-shadow:
     0 34px 90px rgba(16, 38, 74, 0.13),
     0 10px 24px rgba(244, 91, 131, 0.08);
+}
+
+.app-mockup {
+  max-height: min(760px, 86vh);
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(16, 38, 74, 0.24) transparent;
+}
+
+.app-chrome {
+  width: 74px;
+  height: 7px;
+  margin: 0 auto 16px;
+  border-radius: 999px;
+  background: #d8e1dc;
+}
+
+.app-header {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.app-header div {
+  display: grid;
+  gap: 2px;
+}
+
+.app-brand {
+  color: var(--pink);
+  font-size: 0.76rem;
+  font-weight: 950;
+}
+
+.app-header strong {
+  color: var(--blue);
+  font-size: 1.28rem;
+  line-height: 1.1;
+}
+
+.app-header small {
+  padding: 6px 9px;
+  border: 1px solid rgba(16, 38, 74, 0.08);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 900;
+  white-space: nowrap;
 }
 
 .phone-top {
@@ -534,7 +585,9 @@ h3 {
 
 .pig-card,
 .balance-card,
-.app-status {
+.app-status,
+.send-preview,
+.app-history {
   border-radius: 24px;
   background: var(--white);
   box-shadow: 0 14px 38px rgba(16, 38, 74, 0.08);
@@ -566,6 +619,20 @@ h3 {
 .app-status small {
   font-size: 0.78rem;
   text-transform: uppercase;
+}
+
+.app-mockup .app-status {
+  grid-template-columns: 1fr;
+  align-items: start;
+}
+
+.app-mockup .app-status strong {
+  grid-row: auto;
+}
+
+.app-mockup .app-status small {
+  max-width: 230px;
+  text-transform: none;
 }
 
 .pig-card {
@@ -606,6 +673,134 @@ h3 {
   font-size: 1.12rem;
 }
 
+.app-pig-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 14px;
+  align-items: center;
+  padding: 16px;
+  text-align: left;
+}
+
+.app-pig-card::before {
+  inset: 12px 12px auto auto;
+  width: 44px;
+  height: 44px;
+}
+
+.app-pig-card::after {
+  display: none;
+}
+
+.app-pig-card .pig-illustration.big {
+  width: 116px;
+  height: 108px;
+}
+
+.app-pig-card .pig-illustration::after {
+  top: 2px;
+  width: 18px;
+  height: 16px;
+  border-top-width: 4px;
+}
+
+.app-pig-card .pig-illustration .head,
+.app-pig-card .pig-illustration .face {
+  inset: 18px 12px 8px;
+}
+
+.app-pig-card .pig-illustration .ear {
+  top: 18px;
+  width: 36px;
+  height: 38px;
+}
+
+.app-pig-card .pig-illustration .eye {
+  top: 40px;
+  width: 16px;
+  height: 21px;
+}
+
+.app-pig-card .pig-illustration .eye.left {
+  left: 35px;
+}
+
+.app-pig-card .pig-illustration .eye.right {
+  right: 35px;
+}
+
+.app-pig-card .pig-illustration .snout {
+  top: 58px;
+  width: 42px;
+  height: 30px;
+  border-width: 2px;
+}
+
+.app-pig-card .pig-illustration .smile {
+  top: 86px;
+  width: 30px;
+  height: 12px;
+  border-bottom-width: 3px;
+}
+
+.app-pig-card .pig-illustration .face::before,
+.app-pig-card .pig-illustration .face::after {
+  top: 60px;
+  width: 13px;
+  height: 8px;
+}
+
+.app-pig-card .pig-illustration .face::before {
+  left: 24px;
+}
+
+.app-pig-card .pig-illustration .face::after {
+  right: 24px;
+}
+
+.pig-message span {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
+.pig-message strong {
+  color: var(--green-dark);
+  font-size: 1rem;
+  line-height: 1.18;
+}
+
+.app-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.app-actions button {
+  min-height: 42px;
+  border: 1px solid rgba(16, 38, 74, 0.08);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--blue);
+  font-size: 0.84rem;
+  font-weight: 950;
+  cursor: default;
+}
+
+.app-actions small {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 2px 5px;
+  border-radius: 999px;
+  background: var(--pink-soft);
+  color: #8d2942;
+  font-size: 0.62rem;
+  font-weight: 950;
+}
+
 .balance-card {
   margin-top: 12px;
   padding: 16px 18px;
@@ -638,6 +833,122 @@ h3 {
   font-weight: 950;
   box-shadow: 0 16px 34px rgba(15, 107, 79, 0.2);
   cursor: default;
+}
+
+.send-preview {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+  padding: 16px;
+}
+
+.send-preview h3 {
+  margin: 0;
+  color: var(--green-dark);
+  font-size: 1rem;
+}
+
+.visual-fields {
+  display: grid;
+  gap: 7px;
+}
+
+.visual-fields span {
+  display: block;
+  padding: 10px 12px;
+  border: 1px solid rgba(16, 38, 74, 0.08);
+  border-radius: 12px;
+  background: #fbfaf6;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 850;
+}
+
+.value-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.value-chips span {
+  padding: 7px 9px;
+  border-radius: 999px;
+  background: var(--green-soft);
+  color: var(--green-dark);
+  font-size: 0.76rem;
+  font-weight: 950;
+}
+
+.send-preview .send-pig-button {
+  min-height: 42px;
+  margin-top: 0;
+}
+
+.send-preview p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.app-history {
+  margin-top: 12px;
+  padding: 16px;
+}
+
+.history-title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.history-title strong {
+  color: var(--green-dark);
+  font-size: 0.96rem;
+}
+
+.history-title span {
+  padding: 6px 8px;
+  border-radius: 999px;
+  background: #fff0c7;
+  color: #86540f;
+  font-size: 0.74rem;
+  font-weight: 950;
+  white-space: nowrap;
+}
+
+.app-history ul {
+  display: grid;
+  gap: 7px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.app-history li {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--blue);
+  font-size: 0.8rem;
+}
+
+.app-history li span {
+  color: var(--muted);
+  font-weight: 850;
+}
+
+.app-history li strong {
+  font-weight: 950;
+}
+
+.app-history p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 800;
 }
 
 .phone-disclaimer {
@@ -1949,9 +2260,37 @@ h3 {
     border-radius: 26px;
   }
 
+  .app-mockup {
+    max-height: none;
+    overflow: visible;
+  }
+
+  .app-header {
+    align-items: flex-start;
+  }
+
+  .app-pig-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .app-pig-card .pig-illustration.big {
+    justify-self: center;
+  }
+
   .hero-brand-art {
     padding: 8px;
     border-radius: 14px;
+  }
+
+  .app-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .history-title,
+  .app-history li {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .pig-illustration.big {
