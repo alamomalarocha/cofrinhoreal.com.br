@@ -69,42 +69,16 @@ button {
   font-weight: 900;
 }
 
-.brand-pig {
-  position: relative;
-  width: 54px;
-  height: 54px;
+.brand-mark {
+  width: 52px;
+  height: 52px;
   flex: 0 0 auto;
-  border: 2px solid rgba(244, 91, 131, 0.22);
-  border-radius: 18px;
-  background:
-    radial-gradient(circle at 36% 42%, var(--blue) 0 4%, transparent 5%),
-    radial-gradient(circle at 64% 42%, var(--blue) 0 4%, transparent 5%),
-    radial-gradient(ellipse at 50% 60%, #ff8ba3 0 15%, transparent 16%),
-    linear-gradient(145deg, #ffe0e7, #ff9caf 58%, #f45b83);
-  box-shadow:
-    0 14px 28px rgba(16, 38, 74, 0.09),
-    inset 0 1px 0 rgba(255, 255, 255, 0.75);
-}
-
-.brand-pig::before,
-.brand-pig::after {
-  position: absolute;
-  top: 7px;
-  width: 15px;
-  height: 15px;
-  content: "";
-  border-radius: 5px 12px 5px 12px;
-  background: #f9859e;
-}
-
-.brand-pig::before {
-  left: 3px;
-  transform: rotate(-26deg);
-}
-
-.brand-pig::after {
-  right: 3px;
-  transform: rotate(112deg);
+  border: 1px solid rgba(16, 38, 74, 0.08);
+  border-radius: 15px;
+  background: var(--white);
+  object-fit: cover;
+  object-position: 50% 42%;
+  box-shadow: 0 12px 26px rgba(16, 38, 74, 0.1);
 }
 
 .brand-name {
@@ -692,70 +666,13 @@ h3 {
   display: none;
 }
 
-.app-pig-card .pig-illustration.big {
-  width: 116px;
-  height: 108px;
-}
-
-.app-pig-card .pig-illustration::after {
-  top: 2px;
-  width: 18px;
-  height: 16px;
-  border-top-width: 4px;
-}
-
-.app-pig-card .pig-illustration .head,
-.app-pig-card .pig-illustration .face {
-  inset: 18px 12px 8px;
-}
-
-.app-pig-card .pig-illustration .ear {
-  top: 18px;
-  width: 36px;
-  height: 38px;
-}
-
-.app-pig-card .pig-illustration .eye {
-  top: 40px;
-  width: 16px;
-  height: 21px;
-}
-
-.app-pig-card .pig-illustration .eye.left {
-  left: 35px;
-}
-
-.app-pig-card .pig-illustration .eye.right {
-  right: 35px;
-}
-
-.app-pig-card .pig-illustration .snout {
-  top: 58px;
-  width: 42px;
-  height: 30px;
-  border-width: 2px;
-}
-
-.app-pig-card .pig-illustration .smile {
-  top: 86px;
-  width: 30px;
-  height: 12px;
-  border-bottom-width: 3px;
-}
-
-.app-pig-card .pig-illustration .face::before,
-.app-pig-card .pig-illustration .face::after {
-  top: 60px;
-  width: 13px;
-  height: 8px;
-}
-
-.app-pig-card .pig-illustration .face::before {
-  left: 24px;
-}
-
-.app-pig-card .pig-illustration .face::after {
-  right: 24px;
+.app-pig-logo {
+  width: 126px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 18px;
+  background: var(--white);
+  box-shadow: 0 14px 30px rgba(16, 38, 74, 0.08);
 }
 
 .pig-message span {
@@ -959,6 +876,7 @@ h3 {
   text-align: center;
 }
 
+/* Placeholder Pig CSS used only in older conceptual sections until official assets are created. */
 .pig-illustration {
   position: relative;
   display: inline-block;
@@ -1292,6 +1210,17 @@ h3 {
   font-weight: 750;
 }
 
+.pig-family-official {
+  width: 74px;
+  height: 74px;
+  border: 3px solid var(--white);
+  border-radius: 22px;
+  object-fit: cover;
+  object-position: 50% 42%;
+  box-shadow: 0 14px 26px rgba(16, 38, 74, 0.1);
+}
+
+/* Placeholder family mini-Pigs used only as a temporary visual note. */
 .mini-pig-group {
   display: flex;
   align-items: flex-end;
@@ -1425,6 +1354,66 @@ h3 {
   font-weight: 750;
 }
 
+.stage-pig-logo {
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  left: 50%;
+  width: 132px;
+  height: 132px;
+  border: 5px solid rgba(255, 255, 255, 0.88);
+  border-radius: 34px;
+  background: var(--white);
+  object-fit: cover;
+  object-position: 50% 42%;
+  box-shadow: 0 18px 34px rgba(16, 38, 74, 0.1);
+  transform: translateX(-50%);
+}
+
+.stage-child .stage-pig-logo {
+  width: 112px;
+  height: 112px;
+  top: 42px;
+}
+
+.stage-merchant .stage-pig-logo {
+  border-color: rgba(253, 186, 59, 0.4);
+}
+
+.stage-grandma .stage-pig-logo,
+.stage-grandpa .stage-pig-logo {
+  border-color: rgba(223, 244, 233, 0.95);
+}
+
+.stage-official-family {
+  position: absolute;
+  z-index: 1;
+  top: 42px;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  transform: translateX(-50%);
+}
+
+.stage-official-family img {
+  width: 84px;
+  height: 84px;
+  margin-left: -22px;
+  border: 4px solid rgba(255, 255, 255, 0.9);
+  border-radius: 26px;
+  background: var(--white);
+  object-fit: cover;
+  object-position: 50% 42%;
+  box-shadow: 0 16px 28px rgba(16, 38, 74, 0.09);
+}
+
+.stage-official-family img:first-child {
+  margin-left: 0;
+  width: 100px;
+  height: 100px;
+}
+
+/* Placeholder stage Pigs used only for future-character concept cards. */
 .stage-pig,
 .stage-family-icons {
   position: absolute;
@@ -2006,6 +1995,14 @@ h3 {
     linear-gradient(145deg, #ffd3dc, #ff91a8);
 }
 
+.poster-pig-logo {
+  width: min(210px, 72%);
+  height: auto;
+  border-radius: 24px;
+  background: var(--white);
+  box-shadow: 0 16px 34px rgba(16, 38, 74, 0.08);
+}
+
 .principles-section {
   padding: clamp(72px, 10vw, 128px) 0;
   background: linear-gradient(180deg, #fff8fa, #fbfaf6);
@@ -2096,12 +2093,6 @@ h3 {
   gap: 14px 24px;
   color: rgba(255, 255, 255, 0.78);
   font-weight: 800;
-}
-
-.footer-brand .brand-pig {
-  width: 46px;
-  height: 46px;
-  border-radius: 16px;
 }
 
 @media (max-width: 980px) {
@@ -2209,7 +2200,7 @@ h3 {
     font-size: 1.08rem;
   }
 
-  .brand-pig {
+  .brand-mark {
     width: 48px;
     height: 48px;
     border-radius: 16px;
@@ -2274,8 +2265,9 @@ h3 {
     text-align: center;
   }
 
-  .app-pig-card .pig-illustration.big {
+  .app-pig-logo {
     justify-self: center;
+    width: 140px;
   }
 
   .hero-brand-art {
