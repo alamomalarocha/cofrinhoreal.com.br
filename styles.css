@@ -471,8 +471,8 @@ h3 {
 .phone-preview {
   position: relative;
   z-index: 2;
-  width: min(430px, 100%);
-  padding: 16px;
+  width: min(410px, 100%);
+  padding: 14px;
   border: 1px solid #ecdedf;
   border-radius: 36px;
   background:
@@ -486,26 +486,23 @@ h3 {
 }
 
 .app-mockup {
-  max-height: min(760px, 86vh);
-  overflow: auto;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(16, 38, 74, 0.24) transparent;
+  overflow: hidden;
 }
 
 .app-chrome {
   width: 74px;
   height: 7px;
-  margin: 0 auto 16px;
+  margin: 0 auto 12px;
   border-radius: 999px;
   background: #d8e1dc;
 }
 
 .app-header {
   display: flex;
-  gap: 16px;
+  gap: 12px;
   align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .app-header div {
@@ -515,14 +512,20 @@ h3 {
 
 .app-brand {
   color: var(--pink);
-  font-size: 0.76rem;
+  font-size: 0.82rem;
   font-weight: 950;
 }
 
 .app-header strong {
   color: var(--blue);
-  font-size: 1.28rem;
+  font-size: 1.22rem;
   line-height: 1.1;
+}
+
+.app-account {
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 900;
 }
 
 .app-header small {
@@ -554,8 +557,7 @@ h3 {
 .pig-card,
 .balance-card,
 .app-status,
-.send-preview,
-.app-history {
+.send-preview {
   border-radius: 24px;
   background: var(--white);
   box-shadow: 0 14px 38px rgba(16, 38, 74, 0.08);
@@ -566,8 +568,8 @@ h3 {
   grid-template-columns: 1fr auto;
   gap: 2px 12px;
   align-items: end;
-  margin-bottom: 12px;
-  padding: 16px;
+  margin-bottom: 10px;
+  padding: 14px;
   border: 1px solid rgba(15, 107, 79, 0.1);
 }
 
@@ -580,7 +582,7 @@ h3 {
 .app-status strong {
   grid-row: span 2;
   color: var(--green);
-  font-size: 1.82rem;
+  font-size: 1.7rem;
   line-height: 1;
 }
 
@@ -644,9 +646,9 @@ h3 {
 .app-pig-card {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 14px;
+  gap: 12px;
   align-items: center;
-  padding: 16px;
+  padding: 14px;
   text-align: left;
 }
 
@@ -661,7 +663,7 @@ h3 {
 }
 
 .app-pig-logo {
-  width: 126px;
+  width: 112px;
   max-width: 100%;
   height: auto;
   border-radius: 18px;
@@ -686,17 +688,17 @@ h3 {
 .app-actions {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
-  margin-top: 12px;
+  gap: 7px;
+  margin-top: 10px;
 }
 
 .app-actions button {
-  min-height: 42px;
+  min-height: 38px;
   border: 1px solid rgba(16, 38, 74, 0.08);
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.82);
   color: var(--blue);
-  font-size: 0.84rem;
+  font-size: 0.8rem;
   font-weight: 950;
   cursor: default;
 }
@@ -748,9 +750,9 @@ h3 {
 
 .send-preview {
   display: grid;
-  gap: 10px;
-  margin-top: 12px;
-  padding: 16px;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 14px;
 }
 
 .send-preview h3 {
@@ -761,12 +763,13 @@ h3 {
 
 .visual-fields {
   display: grid;
+  grid-template-columns: 1.4fr 0.8fr;
   gap: 7px;
 }
 
 .visual-fields span {
   display: block;
-  padding: 10px 12px;
+  padding: 9px 10px;
   border: 1px solid rgba(16, 38, 74, 0.08);
   border-radius: 12px;
   background: #fbfaf6;
@@ -778,11 +781,11 @@ h3 {
 .value-chips {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 5px;
 }
 
 .value-chips span {
-  padding: 7px 9px;
+  padding: 6px 8px;
   border-radius: 999px;
   background: var(--green-soft);
   color: var(--green-dark);
@@ -791,7 +794,7 @@ h3 {
 }
 
 .send-preview .send-pig-button {
-  min-height: 42px;
+  min-height: 40px;
   margin-top: 0;
 }
 
@@ -802,70 +805,10 @@ h3 {
   font-weight: 800;
 }
 
-.app-history {
-  margin-top: 12px;
-  padding: 16px;
-}
-
-.history-title {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 8px;
-}
-
-.history-title strong {
-  color: var(--green-dark);
-  font-size: 0.96rem;
-}
-
-.history-title span {
-  padding: 6px 8px;
-  border-radius: 999px;
-  background: #fff0c7;
-  color: #86540f;
-  font-size: 0.74rem;
-  font-weight: 950;
-  white-space: nowrap;
-}
-
-.app-history ul {
-  display: grid;
-  gap: 7px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.app-history li {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  color: var(--blue);
-  font-size: 0.8rem;
-}
-
-.app-history li span {
-  color: var(--muted);
-  font-weight: 850;
-}
-
-.app-history li strong {
-  font-weight: 950;
-}
-
-.app-history p {
-  margin: 8px 0 0;
-  color: var(--muted);
-  font-size: 0.74rem;
-  font-weight: 800;
-}
-
 .phone-disclaimer {
-  margin: 10px 0 0;
+  margin: 9px 0 0;
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 800;
   text-align: center;
 }
@@ -2245,7 +2188,7 @@ h3 {
 
   .app-mockup {
     max-height: none;
-    overflow: visible;
+    overflow: hidden;
   }
 
   .app-header {
@@ -2269,12 +2212,6 @@ h3 {
 
   .app-actions {
     grid-template-columns: 1fr;
-  }
-
-  .history-title,
-  .app-history li {
-    align-items: flex-start;
-    flex-direction: column;
   }
 
   .pig-illustration.big {
