@@ -372,3 +372,13 @@ Pense sempre como uma startup em fase inicial.
 Esse documento é a constituição do projeto Cofrinho Real.
 
 A partir dele, tudo o que for criado deverá manter a mesma filosofia, identidade e propósito.
+
+## REGRA DE IDENTIDADE PÚBLICA E LOGADA
+
+Princípio de identidade visual para fases futuras:
+
+> Antes do login, o Cofrinho Real usa a identidade padrão do Pig Principal, neutra e universal. Depois do login, a experiência pode se adaptar ao tipo de conta, faixa etária e estilo visual escolhido pelo usuário.
+
+> O público geral vê o Pig Principal neutro. O usuário logado vê o seu próprio universo Pig personalizado.
+
+Essa regra não autoriza criar login real, backend, banco de dados, PIX real, aplicativo real ou personalização dinâmica no MVP. Ela apenas orienta a evolução futura do site/app.

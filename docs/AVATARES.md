@@ -141,3 +141,19 @@ As imagens antigas de `002` a `010` foram preservadas como rascunhos em `assets/
 ## Regra visual
 
 Avatares devem ser afetuosos, modernos e respeitosos. Nunca devem virar caricatura, ranking social, mecanismo de vicio ou incentivo a consumo compulsivo.
+
+## Avatar style na experiência logada
+
+A escolha de avatar style pertence à experiência logada futura. Antes do login, o site/app usa a identidade padrão do Pig Principal, neutra e universal.
+
+Depois do login, o usuário poderá ver seu próprio universo Pig personalizado conforme tipo de conta, faixa etária e estilo visual escolhido.
+
+Regra de referência:
+
+> O público geral vê o Pig Principal neutro. O usuário logado vê o seu próprio universo Pig personalizado.
+
+A pergunta pública continua sendo:
+
+> Como você quer personalizar seu Pig?
+
+Essa pergunta deve tratar a escolha como estilo visual, sem coletar informação sensível e sem usar publicamente termos como "menino", "menina", "LGBT" ou "neutro".

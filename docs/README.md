@@ -16,6 +16,8 @@ Antes de desenvolver qualquer funcionalidade, leia:
 - `PERSONAGENS_VILA_PIG.md`: base de 200 personagens colecionaveis, com numero, slug e uso futuro.
 - `ASSETS_PERSONAGENS.md`: regra para vincular imagens futuras por numero e slug.
 - `AVATARES.md`: diferenca entre Pig Principal, Avatar Pig do usuario, opcoes publicas de estilo visual e personagens fixos.
+- `EXPERIENCIA_LOGADA.md`: regra de identidade visual publica antes do login e experiencia personalizada futura depois do login.
+- `IDENTIDADE_VISUAL.md`: complemento documental da identidade visual dentro de `docs/`.
 - `PLANO_IMAGENS_PERSONAGENS_001.md`: plano da proxima fase para criacao e recebimento das imagens dos personagens.
 - `PROTOCOLO_IMAGENS_PERSONAGENS.md`: fluxo oficial guiado ChatGPT -> Alamo -> Codex para salvar uma imagem por vez, atualizar status, devolver apenas o proximo pendente, separar prompt visual limpo dos dados tecnicos e entregar o prompt tecnico para salvamento.
 - `EDUCACAO_FINANCEIRA.md`: principios de educacao financeira sem culpa, medo ou julgamento.
@@ -51,3 +53,13 @@ O projeto possui duas versões principais da logo Pig: uma versão com Pig em p�
 - Alternativa interna: `assets/brand/cofrinho-real-logo-pig-face-full-transparent.png` e alias `assets/brand/cofrinho-real-logo-site-full-transparent.png`.
 
 O personagem 001 continua separado em `assets/characters/001-pig-principal.png`. As logos completas ficam em `assets/brand/` e não substituem o personagem individual.
+
+## Identidade pública e experiência logada
+
+Regra registrada:
+
+> Antes do login, o Cofrinho Real usa a identidade padrão do Pig Principal, neutra e universal. Depois do login, a experiência pode se adaptar ao tipo de conta, faixa etária e estilo visual escolhido pelo usuário.
+
+> O público geral vê o Pig Principal neutro. O usuário logado vê o seu próprio universo Pig personalizado.
+
+Essa regra está detalhada em EXPERIENCIA_LOGADA.md, IDENTIDADE_VISUAL.md e AVATARES.md. Não existe implementação real de login ou personalização dinâmica nesta fase.

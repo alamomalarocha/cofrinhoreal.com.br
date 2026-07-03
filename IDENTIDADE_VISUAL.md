@@ -593,3 +593,15 @@ O projeto possui duas versões principais da logo Pig: uma versão com Pig em p�
 - Alternativa interna: `assets/brand/cofrinho-real-logo-pig-face-full-transparent.png` e alias `assets/brand/cofrinho-real-logo-site-full-transparent.png`.
 
 O personagem 001 continua separado em `assets/characters/001-pig-principal.png`. As logos completas ficam em `assets/brand/` e não substituem o personagem individual.
+
+## Identidade pública e experiência logada
+
+> Antes do login, o Cofrinho Real usa a identidade padrão do Pig Principal, neutra e universal. Depois do login, a experiência pode se adaptar ao tipo de conta, faixa etária e estilo visual escolhido pelo usuário.
+
+> O público geral vê o Pig Principal neutro. O usuário logado vê o seu próprio universo Pig personalizado.
+
+A experiência pública não logada deve representar marca, confiança, educação, acolhimento e neutralidade visual. Ela deve ser baseada no 001 - Pig Principal e não deve parecer voltada apenas a menina, menino, criança, empresa ou adulto.
+
+A experiência logada futura poderá adaptar identidade visual para Pessoa Jurídica, criança, jovem/adolescente, adulto e sênior. Essa adaptação deve respeitar privacidade, segurança, faixa etária, supervisão responsável quando houver crianças e ausência de aposta, cassino, loot box, FOMO ou indução a consumo.
+
+O Pig Principal continua sendo a marca pública e universal. O Avatar Pig do usuário é o universo pessoal e personalizável do usuário logado.
