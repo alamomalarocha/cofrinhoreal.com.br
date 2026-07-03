@@ -303,3 +303,17 @@ Pig Arco-iris e a opcao visual colorida/inclusiva. Ele deve ter arco-iris claram
 Nao tratar Pig Arco-iris como apenas detalhe pastel discreto. Ele precisa continuar reconhecivel como arco-iris mesmo em miniatura/card.
 
 Nome publico principal: Pig Arco-iris. Se for necessario suavizar em algum material especifico, Pig Colorido pode aparecer apenas como apelido visual.
+
+## Referencia aprovada do estilo Pig Arco-iris
+
+A imagem `assets/characters/002-pig-bebe-arco-iris.png` e a primeira referencia visual aprovada para o estilo Pig Arco-iris.
+
+Nos avatares estilo `arco_iris`, a roupa principal deve ter faixas fortes e reconheciveis de arco-iris, seguindo a referencia visual do arquivo `assets/characters/002-pig-bebe-arco-iris.png`. Nao usar apenas detalhes pastel discretos.
+
+Prompts futuros de `arco_iris` devem pedir roupa principal com faixas fortes em vermelho, laranja, amarelo, verde, azul e roxo/lilas, mantendo visual neutro/universal e sem laco, flor, saia, acessorio feminino, bone ou elemento que puxe para masculino.
+
+Frase obrigatoria para prompts futuros de avatar `arco_iris`:
+
+> Visual arco-iris claramente visivel, com roupa principal usando faixas fortes de arco-iris em vermelho, laranja, amarelo, verde, azul e roxo/lilas, seguindo o mesmo padrao visual aprovado no avatar Pig Bebe arco-iris.
+
+Nao voltar a usar prompts fracos como pequenos detalhes em arco-iris, tons pastel discretos, colorido suave sem faixas ou arco-iris apenas em acessorio pequeno.

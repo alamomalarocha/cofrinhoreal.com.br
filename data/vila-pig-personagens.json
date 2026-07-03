@@ -89,13 +89,15 @@
       "padrao": "criada",
       "azul": "criada",
       "rosa": "criada",
-      "arco_iris": "pendente"
+      "arco_iris": "criada"
     },
     "variacoes_criadas": [
       "padrao",
       "azul",
-      "rosa"
-    ]
+      "rosa",
+      "arco_iris"
+    ],
+    "referencia_visual_arco_iris": "assets/characters/002-pig-bebe-arco-iris.png"
   },
   {
     "numero": "003",

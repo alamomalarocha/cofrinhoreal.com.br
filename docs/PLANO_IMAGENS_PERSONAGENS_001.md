@@ -218,3 +218,19 @@ Pig Arco-iris e a opcao visual colorida/inclusiva. Ele deve ter arco-iris claram
 Nao tratar Pig Arco-iris como apenas detalhe pastel discreto. Ele precisa continuar reconhecivel como arco-iris mesmo em miniatura/card.
 
 Nome publico principal: Pig Arco-iris. Se for necessario suavizar em algum material especifico, Pig Colorido pode aparecer apenas como apelido visual.
+
+## Progresso - 002 Pig Bebe arco_iris
+
+A variacao `arco_iris` do avatar `002 - Pig Bebe` foi criada e registrada.
+
+- arquivo criado: `assets/characters/002-pig-bebe-arco-iris.png`
+- status da variacao: `criada`
+- variacoes ja criadas: `padrao`, `azul`, `rosa`, `arco_iris`
+- proximo item pendente: `003 - Pig Primeirinhos - padrao`
+- proximo arquivo esperado: `assets/characters/003-pig-primeirinhos-padrao.png`
+
+A imagem `assets/characters/002-pig-bebe-arco-iris.png` e a primeira referencia visual aprovada para o estilo Pig Arco-iris.
+
+Nos avatares estilo `arco_iris`, a roupa principal deve ter faixas fortes e reconheciveis de arco-iris, seguindo a referencia visual do arquivo `assets/characters/002-pig-bebe-arco-iris.png`. Nao usar apenas detalhes pastel discretos.
+
+Prompts futuros de `arco_iris` devem pedir roupa principal com faixas fortes em vermelho, laranja, amarelo, verde, azul e roxo/lilas, mantendo visual neutro/universal e sem laco, flor, saia, acessorio feminino, bone ou elemento que puxe para masculino.

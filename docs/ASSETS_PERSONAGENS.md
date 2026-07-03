@@ -152,3 +152,19 @@ Esse arquivo representa o estilo visual `rosa` do avatar de 0 a 2 anos. Ele nao 
 Assets no estilo `arco_iris` devem mostrar faixas ou linhas de arco-iris claramente visiveis na roupa ou nos acessorios principais. Nao basta usar pequenos detalhes pastel.
 
 O estilo `padrao` continua sendo a opcao neutra/universal para quem prefere nao escolher.
+
+## Asset criado - 002 Pig Bebe arco_iris
+
+A variacao arco_iris oficial do avatar `002 - Pig Bebe` foi salva em:
+
+```text
+assets/characters/002-pig-bebe-arco-iris.png
+```
+
+Esse arquivo representa o estilo visual `arco_iris` do avatar de 0 a 2 anos. Ele nao substitui o Pig Principal 001, o Vantajinho 201 ou qualquer logo oficial.
+
+A imagem `assets/characters/002-pig-bebe-arco-iris.png` e a primeira referencia visual aprovada para o estilo Pig Arco-iris.
+
+Nos avatares estilo `arco_iris`, a roupa principal deve ter faixas fortes e reconheciveis de arco-iris, seguindo a referencia visual do arquivo `assets/characters/002-pig-bebe-arco-iris.png`. Nao usar apenas detalhes pastel discretos.
+
+Prompts futuros de `arco_iris` devem pedir roupa principal com faixas fortes em vermelho, laranja, amarelo, verde, azul e roxo/lilas, mantendo visual neutro/universal e sem laco, flor, saia, acessorio feminino, bone ou elemento que puxe para masculino.
