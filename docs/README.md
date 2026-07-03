@@ -75,3 +75,9 @@ No dinheiro real, ele apenas orienta. No PigCoin, ele pode gerar consequencias f
 Os avatares do usuario devem ser imagens limpas do personagem, sem texto, letras, moedas, medalhas, logotipos ou simbolos. Se a geracao vier com esses elementos, a imagem deve ser descartada e uma nova deve ser gerada do zero com prompt simplificado.
 
 A etapa atual cria as variacoes dos avatares `002` a `011`, uma imagem por vez, nos estilos `padrao`, `azul`, `rosa` e `arco_iris`.
+
+## Diferenca entre Pig Padrao e Pig Arco-iris
+
+Pig Padrao e a opcao neutra/universal para quem prefere nao escolher. Pig Arco-iris e a opcao visual colorida/inclusiva e deve ter faixas de arco-iris claramente visiveis na roupa ou acessorios principais.
+
+O nome publico principal continua sendo Pig Arco-iris. Pig Colorido pode ser usado apenas como apelido visual se algum material precisar suavizar a linguagem.

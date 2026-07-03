@@ -208,3 +208,13 @@ A variacao `rosa` do avatar `002 - Pig Bebe` foi criada e registrada.
 - variacoes ja criadas: `padrao`, `azul`, `rosa`
 - proxima variacao pendente: `002 - Pig Bebe - arco_iris`
 - proximo arquivo esperado: `assets/characters/002-pig-bebe-arco-iris.png`
+
+## Diferenca entre Pig Padrao e Pig Arco-iris
+
+Pig Padrao e a opcao neutra/universal para quem prefere nao escolher. Ele segue a identidade do Pig Principal, equilibrando azul, rosa, amarelo/dourado, branco/off-white e azul escuro, sem predominancia forte de rosa, azul ou arco-iris.
+
+Pig Arco-iris e a opcao visual colorida/inclusiva. Ele deve ter arco-iris claramente visivel, com roupa ou acessorios principais usando faixas ou linhas inspiradas em arco-iris. As cores vermelho, laranja, amarelo, verde, azul e lilas/roxo devem aparecer de forma organizada, mantendo visual infantil, bonito e limpo.
+
+Nao tratar Pig Arco-iris como apenas detalhe pastel discreto. Ele precisa continuar reconhecivel como arco-iris mesmo em miniatura/card.
+
+Nome publico principal: Pig Arco-iris. Se for necessario suavizar em algum material especifico, Pig Colorido pode aparecer apenas como apelido visual.

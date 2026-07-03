@@ -58,8 +58,8 @@ Opcoes publicas:
 
 1. **Pig Azul**: estilo azul, calmo, classico e amigavel.
 2. **Pig Rosa**: estilo rosa, doce, afetivo e carinhoso.
-3. **Pig Arco-iris**: estilo colorido, livre e inclusivo.
-4. **Pig Padrao**: visual padrao do Cofrinho Real, para quem prefere nao escolher ou nao informar.
+3. **Pig Arco-iris**: estilo colorido e inclusivo, com faixas de arco-iris claramente visiveis na roupa ou nos acessorios principais.
+4. **Pig Padrao**: visual neutro/universal do Cofrinho Real, para quem prefere nao escolher ou nao informar.
 
 Regras publicas:
 
@@ -218,3 +218,13 @@ A variacao `rosa` do avatar `002 - Pig Bebe` foi criada e salva como asset ofici
 - arquivo da variacao: `assets/characters/002-pig-bebe-rosa.png`
 
 O asset principal `assets/characters/002-pig-bebe.png` permanece como referencia principal planejada do personagem. A proxima variacao pendente e: arco_iris.
+
+## Diferenca entre Pig Padrao e Pig Arco-iris
+
+Pig Padrao e a opcao neutra/universal para quem prefere nao escolher. Ele segue a identidade do Pig Principal, equilibrando azul, rosa, amarelo/dourado, branco/off-white e azul escuro, sem predominancia forte de rosa, azul ou arco-iris.
+
+Pig Arco-iris e a opcao visual colorida/inclusiva. Ele deve ter arco-iris claramente visivel, com roupa ou acessorios principais usando faixas ou linhas inspiradas em arco-iris. As cores vermelho, laranja, amarelo, verde, azul e lilas/roxo devem aparecer de forma organizada, mantendo visual infantil, bonito e limpo.
+
+Nao tratar Pig Arco-iris como apenas detalhe pastel discreto. Ele precisa continuar reconhecivel como arco-iris mesmo em miniatura/card.
+
+Nome publico principal: Pig Arco-iris. Se for necessario suavizar em algum material especifico, Pig Colorido pode aparecer apenas como apelido visual.

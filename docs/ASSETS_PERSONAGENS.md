@@ -146,3 +146,9 @@ assets/characters/002-pig-bebe-rosa.png
 ```
 
 Esse arquivo representa o estilo visual `rosa` do avatar de 0 a 2 anos. Ele nao substitui o Pig Principal 001, o Vantajinho 201 ou qualquer logo oficial.
+
+## Direcao visual do asset Pig Arco-iris
+
+Assets no estilo `arco_iris` devem mostrar faixas ou linhas de arco-iris claramente visiveis na roupa ou nos acessorios principais. Nao basta usar pequenos detalhes pastel.
+
+O estilo `padrao` continua sendo a opcao neutra/universal para quem prefere nao escolher.
