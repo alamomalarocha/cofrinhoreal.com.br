@@ -8,6 +8,27 @@ A base atual possui **200 personagens**.
 
 O card `001` e sempre o **Pig Principal**.
 
+## Separacao conceitual
+
+O Pig Principal, os avatares do usuario e os personagens da Vila Pig nao sao a mesma coisa.
+
+- `001 - Pig Principal`: mascote/guia da marca, professor-amigo e rosto do Cofrinho Real.
+- `002` a `011`: avatares base por faixa etaria do usuario.
+- `012` em diante: personagens fixos da Vila Pig / Familia Pig, usados no universo narrativo.
+
+O Avatar Pig do usuario deve ser tratado como personalizacao visual opcional, com a pergunta:
+
+> Como voce quer personalizar seu Pig?
+
+Opcoes iniciais:
+
+- Pig Rosa;
+- Pig Azul;
+- Pig Neutro;
+- Prefiro nao informar / usar padrao.
+
+Nao criar variacoes por estilo agora. As imagens atuais `002` a `011` continuam sendo as versoes base/padrao por idade.
+
 ## Imagens oficiais criadas
 
 - `001` Pig Principal: `assets/characters/001-pig-principal.png`

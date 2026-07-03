@@ -16,6 +16,25 @@ Esta fase nao cria imagens automaticamente. Ela define o processo para receber e
 - Os personagens `001 - Pig Principal`, `002 - Pig Bebe`, `003 - Pig Primeirinhos`, `004 - Pig Crianca`, `005 - Pig Pre-Adolescente`, `006 - Pig Adolescente`, `007 - Pig Jovem`, `008 - Pig Jovem Adulto`, `009 - Pig Adulto` e `010 - Pig Coroa` ja possuem imagens oficiais criadas em `assets/characters/`.
 - Os demais personagens seguem com `status_imagem: "pendente"`.
 
+## Conceito de avatar do usuario
+
+Os assets `002` a `011` sao avatares base/padrao por faixa etaria.
+
+Eles nao substituem o Pig Principal e tambem nao sao os personagens fixos da Vila Pig.
+
+A personalizacao futura do Avatar Pig do usuario deve usar a pergunta:
+
+> Como voce quer personalizar seu Pig?
+
+Opcoes futuras:
+
+- Pig Rosa;
+- Pig Azul;
+- Pig Neutro;
+- Prefiro nao informar / usar padrao.
+
+Nao criar variacoes por estilo agora. O fluxo atual deve continuar apenas com as faixas etarias base.
+
 ## Como as imagens serao criadas
 
 As imagens serao criadas fora do Codex e arquivadas uma por uma.

@@ -99,6 +99,27 @@ O prompt visual limpo deve conter somente a descricao artistica:
 - fundo transparente;
 - restricoes visuais como sem texto, sem numeros, sem cenario e sem outros personagens.
 
+## Conceito dos avatares por idade
+
+Antes de criar novas imagens, manter esta separacao:
+
+- `001 - Pig Principal`: mascote/guia da marca.
+- `002` a `011`: avatares base/padrao por faixa etaria do usuario.
+- `012` em diante: personagens fixos da Vila Pig / Familia Pig.
+
+O Avatar Pig do usuario e uma personalizacao visual opcional. A pergunta oficial e:
+
+> Como voce quer personalizar seu Pig?
+
+Opcoes futuras:
+
+- Pig Rosa;
+- Pig Azul;
+- Pig Neutro;
+- Prefiro nao informar / usar padrao.
+
+Nao incluir variacoes rosa, azul, neutro ou padrao no fluxo atual de imagens. Primeiro concluir as faixas etarias base.
+
 ## Formato obrigatorio da resposta apos salvar uma imagem
 
 Depois de cada imagem salva, a resposta do Codex deve seguir este formato:
