@@ -6,14 +6,14 @@ Data: 2026-07-02
 
 Preparar a proxima fase do Cofrinho Real: criacao gradual das imagens dos personagens da Vila Fazenda Pig.
 
-Esta fase ainda nao cria imagens. Ela apenas define o processo para receber e organizar imagens futuramente.
+Esta fase nao cria imagens automaticamente. Ela define o processo para receber e organizar imagens oficiais enviadas por Alamo, uma por uma.
 
 ## Estado atual
 
 - A base de personagens existe em `data/vila-pig-personagens.json`.
 - A versao CSV existe em `data/vila-pig-personagens.csv`.
 - Existem 200 personagens cadastrados.
-- Os personagens `001 — Pig Principal` e `002 — Pig Bebe` ja possuem imagens oficiais criadas em `assets/characters/`.
+- Os personagens `001 - Pig Principal`, `002 - Pig Bebe` e `003 - Pig Primeirinhos` ja possuem imagens oficiais criadas em `assets/characters/`.
 - Os demais personagens seguem com `status_imagem: "pendente"`.
 
 ## Como as imagens serao criadas
@@ -49,8 +49,9 @@ NUMERO-SLUG.png
 Exemplos:
 
 - `001-pig-principal.png`
+- `002-pig-bebe.png`
+- `003-pig-primeirinhos.png`
 - `012-pinguinha.png`
-- `013-mae-helena.png`
 - `017-vovo-zefa.png`
 - `018-vovo-joao.png`
 - `025-seu-damiao-padaria.png`
@@ -78,11 +79,11 @@ assets/characters/NUMERO-SLUG.png
 
 ## Proximo personagem pendente
 
-Depois da criacao dos personagens `001 - Pig Principal` e `002 - Pig Bebe`, o proximo personagem pendente da sequencia e:
+Depois da criacao dos personagens `001 - Pig Principal`, `002 - Pig Bebe` e `003 - Pig Primeirinhos`, o proximo personagem pendente da sequencia e:
 
-- `003` Pig Primeirinhos
-- slug: `pig-primeirinhos`
-- asset futuro: `assets/characters/003-pig-primeirinhos.png`
+- `004` Pig Crianca
+- slug: `pig-crianca`
+- asset futuro: `assets/characters/004-pig-crianca.png`
 
 ## Cuidados visuais
 

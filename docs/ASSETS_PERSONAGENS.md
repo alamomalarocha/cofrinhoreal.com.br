@@ -1,6 +1,6 @@
 # Assets Futuros dos Personagens
 
-As imagens da Vila Pig ainda nao foram criadas.
+As imagens da Vila Pig serao criadas e arquivadas gradualmente, uma por vez, sempre respeitando numero, slug e caminho oficial.
 
 ## Regra de nome
 
@@ -33,19 +33,27 @@ Quando uma imagem futura for enviada com o mesmo numero e slug, o projeto podera
 
 ## Imagens oficiais criadas
 
-Atualmente existem 2 imagens oficiais criadas:
+Atualmente existem 3 imagens oficiais criadas:
 
 ```text
 assets/characters/001-pig-principal.png
 assets/characters/002-pig-bebe.png
+assets/characters/003-pig-primeirinhos.png
 ```
 
 ## Status atual
 
-Os personagens `001 — Pig Principal` e `002 — Pig Bebe` estao com:
+Os personagens `001 - Pig Principal`, `002 - Pig Bebe` e `003 - Pig Primeirinhos` estao com:
 
 ```json
 "status_imagem": "criada"
+```
+
+O proximo personagem pendente da sequencia e:
+
+```text
+004 - Pig Crianca
+assets/characters/004-pig-crianca.png
 ```
 
 Os demais personagens continuam com:
@@ -54,4 +62,4 @@ Os demais personagens continuam com:
 "status_imagem": "pendente"
 ```
 
-Nao criar imagens agora. Nao usar IA para gerar imagens nesta etapa. Nao adicionar arquivos falsos ou placeholders como se fossem artes finais.
+Nao criar imagens sozinho. Nao usar IA dentro do Codex para gerar imagens nesta etapa. Nao adicionar arquivos falsos ou placeholders como se fossem artes finais.
