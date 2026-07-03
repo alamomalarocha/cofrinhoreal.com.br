@@ -198,3 +198,13 @@ A variacao `azul` do avatar `002 - Pig Bebe` foi criada e registrada.
 - variacoes ja criadas: `padrao`, `azul`
 - proxima variacao pendente: `002 - Pig Bebe - rosa`
 - proximo arquivo esperado: `assets/characters/002-pig-bebe-rosa.png`
+
+## Progresso - 002 Pig Bebe rosa
+
+A variacao `rosa` do avatar `002 - Pig Bebe` foi criada e registrada.
+
+- arquivo criado: `assets/characters/002-pig-bebe-rosa.png`
+- status da variacao: `criada`
+- variacoes ja criadas: `padrao`, `azul`, `rosa`
+- proxima variacao pendente: `002 - Pig Bebe - arco_iris`
+- proximo arquivo esperado: `assets/characters/002-pig-bebe-arco-iris.png`

@@ -136,3 +136,13 @@ assets/characters/002-pig-bebe-azul.png
 ```
 
 Esse arquivo representa o estilo visual `azul` do avatar de 0 a 2 anos. Ele nao substitui o Pig Principal 001, o Vantajinho 201 ou qualquer logo oficial.
+
+## Asset criado - 002 Pig Bebe rosa
+
+A variacao rosa oficial do avatar `002 - Pig Bebe` foi salva em:
+
+```text
+assets/characters/002-pig-bebe-rosa.png
+```
+
+Esse arquivo representa o estilo visual `rosa` do avatar de 0 a 2 anos. Ele nao substitui o Pig Principal 001, o Vantajinho 201 ou qualquer logo oficial.

@@ -206,3 +206,15 @@ A variacao `azul` do avatar `002 - Pig Bebe` foi criada e salva como asset ofici
 - arquivo da variacao: `assets/characters/002-pig-bebe-azul.png`
 
 O asset principal `assets/characters/002-pig-bebe.png` permanece como referencia principal planejada do personagem. As proximas variacoes seguem pendentes: rosa e arco_iris.
+
+## Variacao criada - 002 Pig Bebe rosa
+
+A variacao `rosa` do avatar `002 - Pig Bebe` foi criada e salva como asset oficial de avatar.
+
+- numero principal: `002`
+- nome principal: `Pig Bebe`
+- slug principal: `pig-bebe`
+- estilo visual: `rosa`
+- arquivo da variacao: `assets/characters/002-pig-bebe-rosa.png`
+
+O asset principal `assets/characters/002-pig-bebe.png` permanece como referencia principal planejada do personagem. A proxima variacao pendente e: arco_iris.
