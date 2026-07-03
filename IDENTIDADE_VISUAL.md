@@ -584,3 +584,12 @@ O Pig Principal 001 é também a referência visual oficial da marca no website.
 O visual público do Cofrinho Real segue a identidade neutra do Pig Principal, equilibrando azul, rosa, amarelo/dourado e branco/off-white para não parecer voltado apenas a menino ou menina. O rosa continua como destaque afetivo, mas a base pública usa branco quente, creme claro e azul escuro para manter confiança, família e modernidade.
 
 As moedas do menu usam CR e animação sutil de giro/brilho com respeito a prefers-reduced-motion. A animação deve parecer uma moeda premium do Cofrinho Real, nunca cassino, aposta ou mecanismo de vício.
+
+## Logos Pig oficiais do site
+
+O projeto possui duas versões principais da logo Pig: uma versão com Pig em pé para header e uma versão alternativa com Pig integrado à composição da marca para uso interno.
+
+- Header/site: `assets/brand/cofrinho-real-logo-pig-standing-full-transparent.png` e alias `assets/brand/cofrinho-real-logo-header-full-transparent.png`.
+- Alternativa interna: `assets/brand/cofrinho-real-logo-pig-face-full-transparent.png` e alias `assets/brand/cofrinho-real-logo-site-full-transparent.png`.
+
+O personagem 001 continua separado em `assets/characters/001-pig-principal.png`. As logos completas ficam em `assets/brand/` e não substituem o personagem individual.

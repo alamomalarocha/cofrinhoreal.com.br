@@ -76,7 +76,7 @@ button {
   width: min(1480px, calc(100% - 40px));
   margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(320px, 360px) minmax(0, 1fr);
+  grid-template-columns: minmax(320px, 380px) minmax(0, 1fr);
   align-items: center;
   column-gap: clamp(32px, 3.2vw, 48px);
   padding: 12px 0;
@@ -96,9 +96,9 @@ button {
 
 .header-logo {
   display: block;
-  width: clamp(244px, 19vw, 286px);
+  width: clamp(280px, 24vw, 380px);
   max-width: 100%;
-  height: clamp(114px, 9vw, 136px);
+  height: clamp(124px, 9.5vw, 150px);
   object-fit: contain;
   object-position: center;
 }
@@ -2743,12 +2743,12 @@ h3 {
   }
 
   .brand {
-    flex-basis: 220px;
+    flex-basis: 230px;
   }
 
   .header-logo {
-    width: 190px;
-    height: 90px;
+    width: 220px;
+    height: 96px;
   }
 
   .menu-button {
@@ -2898,7 +2898,7 @@ h3 {
 
 @media (max-width: 620px) {
   :root {
-    --header-offset: 112px;
+    --header-offset: 116px;
   }
 
   .section-shell {
@@ -2906,12 +2906,12 @@ h3 {
   }
 
   .header-logo {
-    width: 154px;
-    height: 72px;
+    width: 172px;
+    height: 80px;
   }
 
   .brand {
-    flex-basis: 174px;
+    flex-basis: 188px;
   }
 
   .nav-panel {
