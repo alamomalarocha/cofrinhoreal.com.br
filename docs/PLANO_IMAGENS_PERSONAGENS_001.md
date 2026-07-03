@@ -18,16 +18,25 @@ Esta fase ainda nao cria imagens. Ela apenas define o processo para receber e or
 
 ## Como as imagens serao criadas
 
-As imagens serao criadas fora do Codex, uma por uma ou em pequenos lotes.
+As imagens serao criadas fora do Codex e arquivadas uma por uma.
+
+Nao trabalhar em lote.
+Nao pedir proximos 5 personagens.
+Nao separar painel com varios personagens.
+Nao alterar a sequencia oficial dos personagens.
 
 Fluxo operacional oficial:
 
-1. ChatGPT cria a imagem.
-2. Alamo envia a imagem ao Codex.
-3. Codex salva a imagem no caminho `asset_futuro`.
-4. Codex atualiza JSON/CSV e documentacao se necessario.
-5. Codex faz commit e push.
-6. Codex informa os proximos 5 personagens pendentes.
+1. ChatGPT cria a imagem fora do Codex.
+2. Alamo envia uma imagem oficial de personagem ao Codex.
+3. Codex salva a imagem no caminho `asset_futuro` correspondente.
+4. Codex atualiza JSON/CSV e documentacao obrigatoria.
+5. Codex muda `status_imagem` de `"pendente"` para `"criada"`.
+6. Codex faz commit e push.
+7. Codex informa apenas o proximo personagem pendente da sequencia.
+8. Codex devolve dois prompts prontos:
+   - prompt para criar a proxima imagem no ChatGPT;
+   - prompt para salvar a proxima imagem no Codex.
 
 Documento de protocolo: `docs/PROTOCOLO_IMAGENS_PERSONAGENS.md`.
 
@@ -67,19 +76,13 @@ O campo `asset_futuro` deve continuar apontando para:
 assets/characters/NUMERO-SLUG.png
 ```
 
-## Primeira leva sugerida
+## Proximo personagem pendente
 
-1. `012` Pinguinha
-2. `013` Mae Helena
-3. `014` Pai Raimundo
-4. `017` Vovo Zefa
-5. `018` Vovo Joao
-6. `025` Seu Damiao da Padaria
-7. `026` Tia Carmem da Cantina
-8. Professora Lucia
-9. Pedrinho
-10. Aninha
-11. Tia Maria
+Depois da criacao dos personagens `001 - Pig Principal` e `002 - Pig Bebe`, o proximo personagem pendente da sequencia e:
+
+- `003` Pig Primeirinhos
+- slug: `pig-primeirinhos`
+- asset futuro: `assets/characters/003-pig-primeirinhos.png`
 
 ## Cuidados visuais
 
