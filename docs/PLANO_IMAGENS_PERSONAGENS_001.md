@@ -20,6 +20,17 @@ Esta fase ainda nao cria imagens. Ela apenas define o processo para receber e or
 
 As imagens serao criadas fora do Codex, uma por uma ou em pequenos lotes.
 
+Fluxo operacional oficial:
+
+1. ChatGPT cria a imagem.
+2. Alamo envia a imagem ao Codex.
+3. Codex salva a imagem no caminho `asset_futuro`.
+4. Codex atualiza JSON/CSV e documentacao se necessario.
+5. Codex faz commit e push.
+6. Codex informa os proximos 5 personagens pendentes.
+
+Documento de protocolo: `docs/PROTOCOLO_IMAGENS_PERSONAGENS.md`.
+
 Cada imagem devera ser enviada com nome correspondente ao personagem:
 
 ```text
