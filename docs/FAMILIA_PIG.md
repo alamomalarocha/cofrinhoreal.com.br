@@ -53,6 +53,17 @@ Essa escolha e opcional e nao deve ser tratada como declaracao obrigatoria de id
 
 Os personagens `002` a `011` sao avatares base por faixa etaria. No futuro, cada faixa podera ter variacoes rosa, azul, neutro e padrao, mas essas variacoes nao devem ser criadas agora.
 
+## Estado atual dos assets
+
+Neste momento, apenas `001 - Pig Principal` permanece como imagem oficial criada.
+
+As imagens antigas de `002` a `010` foram movidas para `assets/characters/_drafts/` e nao devem ser usadas como assets oficiais.
+
+Os personagens `002` em diante serao recriados uma imagem por vez, com prompt visual limpo e controle pelo Codex.
+
+Alguns personagens e avatares futuros poderao ter representacao neutra com elementos sutis de arco-iris ou combinacao de cores, de forma natural, sem rotulo publico forcado e sem caricatura.
+
+A porcentagem desse tipo de representacao deve ser pequena, natural e equilibrada dentro do universo, suficiente para representar diversidade sem parecer forcado.
 ## Principios
 
 - A Familia Pig deve reforcar afeto, educacao, planejamento e solidariedade.
@@ -67,7 +78,7 @@ Neste momento, a arte principal atual do universo Pig/Cofrinho Real no prototipo
 
 `assets/brand/cofrinho-real-pig-logo-principal.png`
 
-Essa imagem mostra o Pig como mascote, o nome Cofrinho Real, o nome Pig e o slogan "Guarde. CresÃ§a. Realize."
+Essa imagem mostra o Pig como mascote, o nome Cofrinho Real, o nome Pig e o slogan "Guarde. CresÃƒÂ§a. Realize."
 
 Ela deve ser usada como referencia visual principal enquanto os personagens oficiais da Familia Pig ainda nao forem criados um por um.
 
@@ -88,8 +99,8 @@ Se a marca evoluir futuramente, esta decisao devera ser revisada e documentada.
 
 ### 2. Familia estendida
 
-- Pig VovÃ´
-- Pig VovÃ³
+- Pig VovÃƒÂ´
+- Pig VovÃƒÂ³
 - Pig Neto
 - Pig Neta
 - Pig Tio
@@ -99,7 +110,7 @@ Se a marca evoluir futuramente, esta decisao devera ser revisada e documentada.
 - Pig Padrinho
 - Pig Madrinha
 
-Observacao: manter a diferenca visual e textual entre `Pig VovÃ´` e `Pig VovÃ³`, especialmente em mensagens para criancas e netos.
+Observacao: manter a diferenca visual e textual entre `Pig VovÃƒÂ´` e `Pig VovÃƒÂ³`, especialmente em mensagens para criancas e netos.
 
 ### 3. Escola e infancia
 
@@ -209,20 +220,20 @@ O marketing nunca deve usar urgencia artificial, medo, vergonha, ganancia ou pro
 
 Apesar de existir uma lista ampla de personagens, nao devemos criar tudo de uma vez no MVP.
 
-### Fase 1 â€” Personagens essenciais
+### Fase 1 Ã¢â‚¬â€ Personagens essenciais
 
 - Pig Principal
 - Pig Crianca
 - Pig Adolescente
 - Pig Adulto
 - Pig Comerciante
-- Pig VovÃ³
-- Pig VovÃ´
+- Pig VovÃƒÂ³
+- Pig VovÃƒÂ´
 - Pig Familia
 
 Objetivo: validar a linguagem visual principal, a evolucao por idade e a presenca do comercio.
 
-### Fase 2 â€” Nucleo familiar ampliado
+### Fase 2 Ã¢â‚¬â€ Nucleo familiar ampliado
 
 - Pig Pai
 - Pig Mae
@@ -237,7 +248,7 @@ Objetivo: validar a linguagem visual principal, a evolucao por idade e a presenc
 
 Objetivo: ampliar relacoes familiares depois que o Pig principal estiver bem definido.
 
-### Fase 3 â€” Escola e comunidade
+### Fase 3 Ã¢â‚¬â€ Escola e comunidade
 
 - Pig Amigo
 - Pig Amiga
@@ -250,7 +261,7 @@ Objetivo: ampliar relacoes familiares depois que o Pig principal estiver bem def
 
 Objetivo: aproximar o Cofrinho Real da rotina escolar, do bairro e do comercio local.
 
-### Fase 4 â€” Proposito social
+### Fase 4 Ã¢â‚¬â€ Proposito social
 
 - Pig Solidario
 - Pig Voluntario
@@ -259,7 +270,7 @@ Objetivo: aproximar o Cofrinho Real da rotina escolar, do bairro e do comercio l
 
 Objetivo: preparar a linguagem para doacoes e causas futuras, sempre opcionais e sem pressao.
 
-## Personagens futuros â€” nao criar ainda
+## Personagens futuros Ã¢â‚¬â€ nao criar ainda
 
 As imagens da Familia Pig serao criadas futuramente, uma por uma.
 

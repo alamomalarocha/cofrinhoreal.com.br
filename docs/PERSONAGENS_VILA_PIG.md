@@ -27,20 +27,13 @@ Opcoes iniciais:
 - Pig Neutro;
 - Prefiro nao informar / usar padrao.
 
-Nao criar variacoes por estilo agora. As imagens atuais `002` a `011` continuam sendo as versoes base/padrao por idade.
+Nao criar variacoes por estilo agora. Os personagens `002` a `011` continuam sendo a sequencia de avatares base/padrao por idade, mas as imagens deles serao recriadas uma por uma.
 
-## Imagens oficiais criadas
+## Imagem oficial criada
 
 - `001` Pig Principal: `assets/characters/001-pig-principal.png`
-- `002` Pig Bebe: `assets/characters/002-pig-bebe.png`
-- `003` Pig Primeirinhos: `assets/characters/003-pig-primeirinhos.png`
-- `004` Pig Crianca: `assets/characters/004-pig-crianca.png`
-- `005` Pig Pre-Adolescente: `assets/characters/005-pig-pre-adolescente.png`
-- `006` Pig Adolescente: `assets/characters/006-pig-adolescente.png`
-- `007` Pig Jovem: `assets/characters/007-pig-jovem.png`
-- `008` Pig Jovem Adulto: `assets/characters/008-pig-jovem-adulto.png`
-- `009` Pig Adulto: `assets/characters/009-pig-adulto.png`
-- `010` Pig Coroa: `assets/characters/010-pig-coroa.png`
+
+As imagens antigas de `002` a `010` foram movidas para `assets/characters/_drafts/` e nao contam como assets oficiais.
 
 A ordem inicial oficial e:
 

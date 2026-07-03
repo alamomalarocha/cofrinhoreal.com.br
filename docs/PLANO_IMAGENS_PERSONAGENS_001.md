@@ -13,8 +13,8 @@ Esta fase nao cria imagens automaticamente. Ela define o processo para receber e
 - A base de personagens existe em `data/vila-pig-personagens.json`.
 - A versao CSV existe em `data/vila-pig-personagens.csv`.
 - Existem 200 personagens cadastrados.
-- Os personagens `001 - Pig Principal`, `002 - Pig Bebe`, `003 - Pig Primeirinhos`, `004 - Pig Crianca`, `005 - Pig Pre-Adolescente`, `006 - Pig Adolescente`, `007 - Pig Jovem`, `008 - Pig Jovem Adulto`, `009 - Pig Adulto` e `010 - Pig Coroa` ja possuem imagens oficiais criadas em `assets/characters/`.
-- Os demais personagens seguem com `status_imagem: "pendente"`.
+- Apenas o personagem `001 - Pig Principal` possui imagem oficial criada em `assets/characters/`.
+- Os personagens `002` em diante seguem com `status_imagem: "pendente"`.
 
 ## Conceito de avatar do usuario
 
@@ -117,11 +117,13 @@ assets/characters/NUMERO-SLUG.png
 
 ## Proximo personagem pendente
 
-Depois da criacao dos personagens `001 - Pig Principal`, `002 - Pig Bebe`, `003 - Pig Primeirinhos`, `004 - Pig Crianca`, `005 - Pig Pre-Adolescente`, `006 - Pig Adolescente`, `007 - Pig Jovem`, `008 - Pig Jovem Adulto`, `009 - Pig Adulto` e `010 - Pig Coroa`, o proximo personagem pendente da sequencia e:
+Depois de manter apenas `001 - Pig Principal` como imagem oficial, o proximo personagem pendente da sequencia e:
 
-- `011` Pig Senior
-- slug: `pig-senior`
-- asset futuro: `assets/characters/011-pig-senior.png`
+- `002` Pig Bebe
+- slug: `pig-bebe`
+- asset futuro: `assets/characters/002-pig-bebe.png`
+
+As imagens antigas de `002` a `010` foram preservadas em `assets/characters/_drafts/` e nao devem ser consideradas assets oficiais.
 
 ## Cuidados visuais
 

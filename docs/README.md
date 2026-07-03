@@ -28,6 +28,7 @@ Antes de desenvolver qualquer funcionalidade, leia:
 - `CHECKPOINT_REESTRUTURA_MULTIPAGINAS_001.md`: checkpoint da mudanca de landing unica para prototipo estatico multipaginas.
 - Arte principal atual do Pig/Cofrinho Real: `assets/brand/cofrinho-real-pig-logo-principal.png`.
 - Base estatica atual de personagens: `data/vila-pig-personagens.json` e `data/vila-pig-personagens.csv`.
+- Estado atual de imagens: apenas `001 - Pig Principal` esta oficial; `002` em diante estao pendentes e rascunhos antigos ficam em `assets/characters/_drafts/`.
 
 Regra central:
 

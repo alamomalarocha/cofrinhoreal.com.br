@@ -31,36 +31,39 @@ Quando uma imagem futura for enviada com o mesmo numero e slug, o projeto podera
 - arquivos de imagem;
 - cards visuais.
 
-## Imagens oficiais criadas
+## Imagem oficial criada
 
-Atualmente existem 10 imagens oficiais criadas:
+Neste momento existe apenas 1 imagem oficial criada:
 
 ```text
 assets/characters/001-pig-principal.png
-assets/characters/002-pig-bebe.png
-assets/characters/003-pig-primeirinhos.png
-assets/characters/004-pig-crianca.png
-assets/characters/005-pig-pre-adolescente.png
-assets/characters/006-pig-adolescente.png
-assets/characters/007-pig-jovem.png
-assets/characters/008-pig-jovem-adulto.png
-assets/characters/009-pig-adulto.png
-assets/characters/010-pig-coroa.png
 ```
 
-## Status atual
-
-Os personagens `001 - Pig Principal`, `002 - Pig Bebe`, `003 - Pig Primeirinhos`, `004 - Pig Crianca`, `005 - Pig Pre-Adolescente`, `006 - Pig Adolescente`, `007 - Pig Jovem`, `008 - Pig Jovem Adulto`, `009 - Pig Adulto` e `010 - Pig Coroa` estao com:
+O personagem `001 - Pig Principal` esta com:
 
 ```json
 "status_imagem": "criada"
 ```
 
+O Pig Principal e o mascote/guia da marca e permanece aprovado.
+
+## Rascunhos preservados
+
+As imagens antigas dos personagens `002` a `010` foram movidas para:
+
+```text
+assets/characters/_drafts/
+```
+
+Esses arquivos sao rascunhos historicos e nao devem ser usados como assets oficiais.
+
+## Proximo personagem pendente
+
 O proximo personagem pendente da sequencia e:
 
 ```text
-011 - Pig Senior
-assets/characters/011-pig-senior.png
+002 - Pig Bebe
+assets/characters/002-pig-bebe.png
 ```
 
 Os demais personagens continuam com:

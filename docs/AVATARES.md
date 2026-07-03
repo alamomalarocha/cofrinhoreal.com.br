@@ -113,6 +113,13 @@ Eles sao personagens fixos do universo narrativo, como:
 - Tia Carmem;
 - amigos, vizinhos, comerciantes, escola e comunidade.
 
+## Estado atual da fase de imagens
+
+Neste momento, apenas `001 - Pig Principal` esta oficializado como imagem criada.
+
+Os avatares `002` a `011` continuam como sequencia base/padrao por faixa etaria, mas suas imagens serao recriadas uma por uma com o conceito correto.
+
+As imagens antigas de `002` a `010` foram preservadas como rascunhos em `assets/characters/_drafts/` e nao devem ser tratadas como assets oficiais.
 ## Regra visual
 
 Avatares devem ser afetuosos, modernos e respeitosos. Nunca devem virar caricatura, ranking social, mecanismo de vicio ou incentivo a consumo compulsivo.

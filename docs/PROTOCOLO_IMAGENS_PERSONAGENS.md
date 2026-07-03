@@ -248,22 +248,15 @@ As imagens futuras devem preferencialmente ser:
 
 ## Estado atual
 
-Em 2026-07-02:
+Em 2026-07-03:
 
 - `001 - Pig Principal`: `status_imagem: "criada"`
-- `002 - Pig Bebe`: `status_imagem: "criada"`
-- `003 - Pig Primeirinhos`: `status_imagem: "criada"`
-- `004 - Pig Crianca`: `status_imagem: "criada"`
-- `005 - Pig Pre-Adolescente`: `status_imagem: "criada"`
-- `006 - Pig Adolescente`: `status_imagem: "criada"`
-- `007 - Pig Jovem`: `status_imagem: "criada"`
-- `008 - Pig Jovem Adulto`: `status_imagem: "criada"`
-- `009 - Pig Adulto`: `status_imagem: "criada"`
-- `010 - Pig Coroa`: `status_imagem: "criada"`
-- proximo personagem pendente: `011 - Pig Senior`
+- `002` em diante: `status_imagem: "pendente"`
+- imagens antigas de `002` a `010`: movidas para `assets/characters/_drafts/` como rascunhos
+- proximo personagem pendente: `002 - Pig Bebe`
 
-O proximo arquivo esperado e:
+O proximo arquivo oficial esperado e:
 
 ```text
-assets/characters/011-pig-senior.png
+assets/characters/002-pig-bebe.png
 ```
