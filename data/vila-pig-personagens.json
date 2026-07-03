@@ -145,7 +145,16 @@
       "azul": "assets/characters/003-pig-primeirinhos-azul.png",
       "rosa": "assets/characters/003-pig-primeirinhos-rosa.png",
       "arco_iris": "assets/characters/003-pig-primeirinhos-arco-iris.png"
-    }
+    },
+    "status_variacoes": {
+      "padrao": "criada",
+      "azul": "pendente",
+      "rosa": "pendente",
+      "arco_iris": "pendente"
+    },
+    "variacoes_criadas": [
+      "padrao"
+    ]
   },
   {
     "numero": "004",

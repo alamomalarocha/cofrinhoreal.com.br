@@ -234,3 +234,12 @@ A imagem `assets/characters/002-pig-bebe-arco-iris.png` e a primeira referencia 
 Nos avatares estilo `arco_iris`, a roupa principal deve ter faixas fortes e reconheciveis de arco-iris, seguindo a referencia visual do arquivo `assets/characters/002-pig-bebe-arco-iris.png`. Nao usar apenas detalhes pastel discretos.
 
 Prompts futuros de `arco_iris` devem pedir roupa principal com faixas fortes em vermelho, laranja, amarelo, verde, azul e roxo/lilas, mantendo visual neutro/universal e sem laco, flor, saia, acessorio feminino, bone ou elemento que puxe para masculino.
+
+## Progresso - 003 Pig Primeirinhos padrao
+
+A variacao `padrao` do avatar `003 - Pig Primeirinhos` foi criada e registrada.
+
+- arquivo criado: `assets/characters/003-pig-primeirinhos-padrao.png`
+- status da variacao: `criada`
+- proxima variacao pendente: `003 - Pig Primeirinhos - azul`
+- proximo arquivo esperado: `assets/characters/003-pig-primeirinhos-azul.png`
