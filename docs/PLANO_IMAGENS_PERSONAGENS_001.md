@@ -179,3 +179,12 @@ Checklist minimo para aceitar uma imagem de avatar:
 - sem cenario;
 - sem painel;
 - sem outros personagens.
+
+## Progresso - 002 Pig Bebe padrao
+
+A variacao `padrao` do avatar `002 - Pig Bebe` foi criada e registrada.
+
+- arquivo criado: `assets/characters/002-pig-bebe-padrao.png`
+- status da variacao: `criada`
+- proxima variacao pendente: `002 - Pig Bebe - azul`
+- proximo arquivo esperado: `assets/characters/002-pig-bebe-azul.png`

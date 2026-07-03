@@ -84,7 +84,16 @@
       "azul": "assets/characters/002-pig-bebe-azul.png",
       "rosa": "assets/characters/002-pig-bebe-rosa.png",
       "arco_iris": "assets/characters/002-pig-bebe-arco-iris.png"
-    }
+    },
+    "status_variacoes": {
+      "padrao": "criada",
+      "azul": "pendente",
+      "rosa": "pendente",
+      "arco_iris": "pendente"
+    },
+    "variacoes_criadas": [
+      "padrao"
+    ]
   },
   {
     "numero": "003",

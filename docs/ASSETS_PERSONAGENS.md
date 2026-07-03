@@ -116,3 +116,13 @@ Esse asset pertence aos personagens da Vila Pig e nao substitui o Pig Principal 
 Assets de avatar dos usuarios devem ser limpos e mostrar apenas o personagem. Nao aceitar arquivos com texto, letras, numeros, logos, moedas, medalhas, patches, etiquetas, placas, monogramas, simbolos escritos, cenario, painel ou outros personagens.
 
 Se isso acontecer, descartar a imagem e gerar uma nova do zero com prompt visual mais simples.
+
+## Asset criado - 002 Pig Bebe padrao
+
+A primeira variacao oficial do avatar `002 - Pig Bebe` foi salva em:
+
+```text
+assets/characters/002-pig-bebe-padrao.png
+```
+
+Esse arquivo representa o estilo visual `padrao` do avatar de 0 a 2 anos. Ele nao substitui o Pig Principal 001, o Vantajinho 201 ou qualquer logo oficial.

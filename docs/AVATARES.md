@@ -182,3 +182,15 @@ Checklist minimo para aceitar uma imagem de avatar:
 - sem cenario;
 - sem painel;
 - sem outros personagens.
+
+## Variacao criada - 002 Pig Bebe padrao
+
+A variacao `padrao` do avatar `002 - Pig Bebe` foi criada e salva como asset oficial de avatar.
+
+- numero principal: `002`
+- nome principal: `Pig Bebe`
+- slug principal: `pig-bebe`
+- estilo visual: `padrao`
+- arquivo da variacao: `assets/characters/002-pig-bebe-padrao.png`
+
+O asset principal `assets/characters/002-pig-bebe.png` permanece como referencia principal planejada do personagem. As proximas variacoes seguem pendentes: azul, rosa e arco_iris.
