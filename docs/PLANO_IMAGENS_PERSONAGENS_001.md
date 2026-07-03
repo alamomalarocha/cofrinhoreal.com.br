@@ -142,3 +142,7 @@ Imagem so vira asset oficial quando:
 - arquivo esta salvo em `assets/characters/`;
 - status foi atualizado em JSON/CSV;
 - imagem foi revisada contra a identidade visual e os principios do projeto.
+
+## Uso no website
+
+O Pig Principal 001 é também a referência visual oficial da marca no website. Ele representa o mascote oficial, o guia visual do Cofrinho Real e a principal referência do universo Pig no protótipo atual. Essa decisão não altera a sequência de personagens nem as regras de avatar.

@@ -574,3 +574,7 @@ A identidade do Cofrinho Real deve unir tecnologia moderna com afeto familiar.
 O produto deve parecer seguro o suficiente para os pais, divertido o suficiente para crianças, respeitoso para adultos e acolhedor para avós.
 
 O Pig deve ser sempre o ponto emocional da marca: um companheiro de jornada que ensina, celebra e ajuda a transformar pequenos valores em grandes conquistas.
+
+## Pig Principal no website
+
+O Pig Principal 001 é também a referência visual oficial da marca no website. Ele representa o mascote oficial, o guia visual do Cofrinho Real e a principal referência do universo Pig no protótipo atual. Essa decisão não altera a sequência de personagens nem as regras de avatar.

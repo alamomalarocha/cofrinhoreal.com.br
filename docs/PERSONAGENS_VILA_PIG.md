@@ -116,3 +116,7 @@ Os personagens poderao ser usados em:
 - campanhas de familia, escola, comercio e comunidade.
 
 No MVP atual, eles existem apenas como estrutura documental e base de dados estatica.
+
+## Uso no website
+
+O Pig Principal 001 é também a referência visual oficial da marca no website. Ele representa o mascote oficial, o guia visual do Cofrinho Real e a principal referência do universo Pig no protótipo atual. Essa decisão não altera a sequência de personagens nem as regras de avatar.
