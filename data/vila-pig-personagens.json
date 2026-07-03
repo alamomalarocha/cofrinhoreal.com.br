@@ -86,18 +86,19 @@
       "arco_iris": "assets/characters/002-pig-bebe-arco-iris.png"
     },
     "status_variacoes": {
-      "padrao": "criada",
-      "azul": "criada",
-      "rosa": "criada",
-      "arco_iris": "criada"
+      "padrao": "pendente",
+      "azul": "pendente",
+      "rosa": "pendente",
+      "arco_iris": "pendente"
     },
-    "variacoes_criadas": [
-      "padrao",
-      "azul",
-      "rosa",
-      "arco_iris"
-    ],
-    "referencia_visual_arco_iris": "assets/characters/002-pig-bebe-arco-iris.png"
+    "variacoes_criadas": [],
+    "padrao_visual_avatar": "camisa_calca_tenis",
+    "assets_variacoes_rascunho": {
+      "padrao": "assets/characters/_drafts/avatars/002-pig-bebe-padrao-rascunho-pre-sistema-simples.png",
+      "azul": "assets/characters/_drafts/avatars/002-pig-bebe-azul-rascunho-pre-sistema-simples.png",
+      "rosa": "assets/characters/_drafts/avatars/002-pig-bebe-rosa-rascunho-pre-sistema-simples.png",
+      "arco_iris": "assets/characters/_drafts/avatars/002-pig-bebe-arco-iris-rascunho-pre-sistema-simples.png"
+    }
   },
   {
     "numero": "003",
@@ -147,14 +148,16 @@
       "arco_iris": "assets/characters/003-pig-primeirinhos-arco-iris.png"
     },
     "status_variacoes": {
-      "padrao": "criada",
+      "padrao": "pendente",
       "azul": "pendente",
       "rosa": "pendente",
       "arco_iris": "pendente"
     },
-    "variacoes_criadas": [
-      "padrao"
-    ]
+    "variacoes_criadas": [],
+    "padrao_visual_avatar": "camisa_calca_tenis",
+    "assets_variacoes_rascunho": {
+      "padrao": "assets/characters/_drafts/avatars/003-pig-primeirinhos-padrao-rascunho-pre-sistema-simples.png"
+    }
   },
   {
     "numero": "004",
@@ -202,7 +205,15 @@
       "azul": "assets/characters/004-pig-crianca-azul.png",
       "rosa": "assets/characters/004-pig-crianca-rosa.png",
       "arco_iris": "assets/characters/004-pig-crianca-arco-iris.png"
-    }
+    },
+    "padrao_visual_avatar": "camisa_calca_tenis",
+    "status_variacoes": {
+      "padrao": "pendente",
+      "azul": "pendente",
+      "rosa": "pendente",
+      "arco_iris": "pendente"
+    },
+    "variacoes_criadas": []
   },
   {
     "numero": "005",
@@ -250,7 +261,15 @@
       "azul": "assets/characters/005-pig-pre-adolescente-azul.png",
       "rosa": "assets/characters/005-pig-pre-adolescente-rosa.png",
       "arco_iris": "assets/characters/005-pig-pre-adolescente-arco-iris.png"
-    }
+    },
+    "padrao_visual_avatar": "camisa_calca_tenis",
+    "status_variacoes": {
+      "padrao": "pendente",
+      "azul": "pendente",
+      "rosa": "pendente",
+      "arco_iris": "pendente"
+    },
+    "variacoes_criadas": []
   },
   {
     "numero": "006",
@@ -298,7 +317,15 @@
       "azul": "assets/characters/006-pig-adolescente-azul.png",
       "rosa": "assets/characters/006-pig-adolescente-rosa.png",
       "arco_iris": "assets/characters/006-pig-adolescente-arco-iris.png"
-    }
+    },
+    "padrao_visual_avatar": "camisa_calca_tenis",
+    "status_variacoes": {
+      "padrao": "pendente",
+      "azul": "pendente",
+      "rosa": "pendente",
+      "arco_iris": "pendente"
+    },
+    "variacoes_criadas": []
   },
   {
     "numero": "007",
@@ -346,7 +373,15 @@
       "azul": "assets/characters/007-pig-jovem-azul.png",
       "rosa": "assets/characters/007-pig-jovem-rosa.png",
       "arco_iris": "assets/characters/007-pig-jovem-arco-iris.png"
-    }
+    },
+    "padrao_visual_avatar": "camisa_calca_tenis",
+    "status_variacoes": {
+      "padrao": "pendente",
+      "azul": "pendente",
+      "rosa": "pendente",
+      "arco_iris": "pendente"
+    },
+    "variacoes_criadas": []
   },
   {
     "numero": "008",
@@ -394,7 +429,15 @@
       "azul": "assets/characters/008-pig-jovem-adulto-azul.png",
       "rosa": "assets/characters/008-pig-jovem-adulto-rosa.png",
       "arco_iris": "assets/characters/008-pig-jovem-adulto-arco-iris.png"
-    }
+    },
+    "padrao_visual_avatar": "camisa_calca_tenis",
+    "status_variacoes": {
+      "padrao": "pendente",
+      "azul": "pendente",
+      "rosa": "pendente",
+      "arco_iris": "pendente"
+    },
+    "variacoes_criadas": []
   },
   {
     "numero": "009",
@@ -442,7 +485,15 @@
       "azul": "assets/characters/009-pig-adulto-azul.png",
       "rosa": "assets/characters/009-pig-adulto-rosa.png",
       "arco_iris": "assets/characters/009-pig-adulto-arco-iris.png"
-    }
+    },
+    "padrao_visual_avatar": "camisa_calca_tenis",
+    "status_variacoes": {
+      "padrao": "pendente",
+      "azul": "pendente",
+      "rosa": "pendente",
+      "arco_iris": "pendente"
+    },
+    "variacoes_criadas": []
   },
   {
     "numero": "010",
@@ -490,7 +541,15 @@
       "azul": "assets/characters/010-pig-coroa-azul.png",
       "rosa": "assets/characters/010-pig-coroa-rosa.png",
       "arco_iris": "assets/characters/010-pig-coroa-arco-iris.png"
-    }
+    },
+    "padrao_visual_avatar": "camisa_calca_tenis",
+    "status_variacoes": {
+      "padrao": "pendente",
+      "azul": "pendente",
+      "rosa": "pendente",
+      "arco_iris": "pendente"
+    },
+    "variacoes_criadas": []
   },
   {
     "numero": "011",
@@ -538,7 +597,15 @@
       "azul": "assets/characters/011-pig-senior-azul.png",
       "rosa": "assets/characters/011-pig-senior-rosa.png",
       "arco_iris": "assets/characters/011-pig-senior-arco-iris.png"
-    }
+    },
+    "padrao_visual_avatar": "camisa_calca_tenis",
+    "status_variacoes": {
+      "padrao": "pendente",
+      "azul": "pendente",
+      "rosa": "pendente",
+      "arco_iris": "pendente"
+    },
+    "variacoes_criadas": []
   },
   {
     "numero": "012",

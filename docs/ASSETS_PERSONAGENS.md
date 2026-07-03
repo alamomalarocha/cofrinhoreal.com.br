@@ -178,3 +178,17 @@ assets/characters/003-pig-primeirinhos-padrao.png
 ```
 
 Esse arquivo representa o estilo visual `padrao` do avatar de 3 a 5 anos. Ele nao substitui o Pig Principal 001, o Vantajinho 201 ou qualquer logo oficial.
+
+## Reset visual dos assets de avatar
+
+Os assets oficiais dos avatares `002` a `011` serao recriados com o sistema simples de camisa, calca/short e tenis.
+
+Arquivos antigos movidos para rascunho:
+
+- assets/characters/002-pig-bebe-padrao.png -> assets/characters/_drafts/avatars/002-pig-bebe-padrao-rascunho-pre-sistema-simples.png
+- assets/characters/002-pig-bebe-azul.png -> assets/characters/_drafts/avatars/002-pig-bebe-azul-rascunho-pre-sistema-simples.png
+- assets/characters/002-pig-bebe-rosa.png -> assets/characters/_drafts/avatars/002-pig-bebe-rosa-rascunho-pre-sistema-simples.png
+- assets/characters/002-pig-bebe-arco-iris.png -> assets/characters/_drafts/avatars/002-pig-bebe-arco-iris-rascunho-pre-sistema-simples.png
+- assets/characters/003-pig-primeirinhos-padrao.png -> assets/characters/_drafts/avatars/003-pig-primeirinhos-padrao-rascunho-pre-sistema-simples.png
+
+Esses rascunhos nao substituem os novos assets oficiais.

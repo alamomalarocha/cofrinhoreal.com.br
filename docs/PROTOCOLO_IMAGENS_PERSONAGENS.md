@@ -317,3 +317,24 @@ Frase obrigatoria para prompts futuros de avatar `arco_iris`:
 > Visual arco-iris claramente visivel, com roupa principal usando faixas fortes de arco-iris em vermelho, laranja, amarelo, verde, azul e roxo/lilas, seguindo o mesmo padrao visual aprovado no avatar Pig Bebe arco-iris.
 
 Nao voltar a usar prompts fracos como pequenos detalhes em arco-iris, tons pastel discretos, colorido suave sem faixas ou arco-iris apenas em acessorio pequeno.
+
+## Reset visual dos avatares - camisa, calca/short e tenis
+
+A partir deste reset, os avatares do usuario `002` a `011` devem usar uma base visual simples e consistente: camisa, calca/short e tenis. As variacoes `padrao`, `azul`, `rosa` e `arco_iris` mudam principalmente as cores dessas pecas.
+
+Nao usar bones, chapeus, toucas, lacos, flores, saias, bolsas, brinquedos, moedas, medalhas, estrelas, simbolos, letras, numeros, logos, patches, etiquetas, broches, objetos circulares com marca, texto na roupa, cenario, painel ou outros personagens.
+
+Roupa permitida:
+
+- camisa lisa, exceto no estilo `arco_iris`, que pode ter faixas fortes de arco-iris;
+- calca ou short simples;
+- tenis simples.
+
+Variações:
+
+- `padrao`: camisa off-white/creme, calca ou short bege/creme/branco quente/cinza claro e tenis branco/off-white.
+- `azul`: camisa azul lisa, calca ou short azul ou claro e tenis branco/off-white com detalhe azul.
+- `rosa`: camisa rosa lisa, calca ou short rosa ou claro e tenis branco/off-white com detalhe rosa.
+- `arco_iris`: camisa com faixas fortes de arco-iris em vermelho, laranja, amarelo, verde, azul e roxo/lilas; calca ou short neutro; tenis branco/off-white com pequenos detalhes arco-iris.
+
+As variacoes anteriores de avatar foram movidas para `assets/characters/_drafts/avatars/` como rascunhos e nao devem ser tratadas como assets oficiais.

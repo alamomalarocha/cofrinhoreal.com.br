@@ -81,3 +81,11 @@ A etapa atual cria as variacoes dos avatares `002` a `011`, uma imagem por vez, 
 Pig Padrao e a opcao neutra/universal para quem prefere nao escolher. Pig Arco-iris e a opcao visual colorida/inclusiva e deve ter faixas de arco-iris claramente visiveis na roupa ou acessorios principais.
 
 O nome publico principal continua sendo Pig Arco-iris. Pig Colorido pode ser usado apenas como apelido visual se algum material precisar suavizar a linguagem.
+
+## Reset visual dos avatares
+
+Os avatares do usuario `002` a `011` foram reabertos para recriacao com uma base visual simples e consistente: camisa, calca/short e tenis.
+
+As variacoes `padrao`, `azul`, `rosa` e `arco_iris` passam a mudar principalmente as cores dessas pecas. Nao usar bones, acessorios, simbolos, moedas, medalhas, textos ou elementos extras nos avatares-base.
+
+As imagens antigas de variacoes de avatar foram movidas para `assets/characters/_drafts/avatars/`.
