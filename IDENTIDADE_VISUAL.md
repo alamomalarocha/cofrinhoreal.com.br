@@ -578,3 +578,9 @@ O Pig deve ser sempre o ponto emocional da marca: um companheiro de jornada que 
 ## Pig Principal no website
 
 O Pig Principal 001 é também a referência visual oficial da marca no website. Ele representa o mascote oficial, o guia visual do Cofrinho Real e a principal referência do universo Pig no protótipo atual. Essa decisão não altera a sequência de personagens nem as regras de avatar.
+
+## Identidade neutra pública do site
+
+O visual público do Cofrinho Real segue a identidade neutra do Pig Principal, equilibrando azul, rosa, amarelo/dourado e branco/off-white para não parecer voltado apenas a menino ou menina. O rosa continua como destaque afetivo, mas a base pública usa branco quente, creme claro e azul escuro para manter confiança, família e modernidade.
+
+As moedas do menu usam CR e animação sutil de giro/brilho com respeito a prefers-reduced-motion. A animação deve parecer uma moeda premium do Cofrinho Real, nunca cassino, aposta ou mecanismo de vício.
