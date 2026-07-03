@@ -279,3 +279,11 @@ Variações:
 - `arco_iris`: camisa com faixas fortes de arco-iris em vermelho, laranja, amarelo, verde, azul e roxo/lilas; calca ou short neutro; tenis branco/off-white com pequenos detalhes arco-iris.
 
 As variacoes anteriores de avatar foram movidas para `assets/characters/_drafts/avatars/` como rascunhos e nao devem ser tratadas como assets oficiais.
+## Avatar 002 - Pig Bebe - padrao recriado
+
+A variacao `padrao` do avatar `002 - Pig Bebe` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/002-pig-bebe-padrao.png`
+- asset principal preservado: `assets/characters/002-pig-bebe.png`
+- status da variacao `padrao`: `criada`
+- proxima variacao pendente: `002 - Pig Bebe - azul`

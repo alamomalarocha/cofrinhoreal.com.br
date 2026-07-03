@@ -192,3 +192,11 @@ Arquivos antigos movidos para rascunho:
 - assets/characters/003-pig-primeirinhos-padrao.png -> assets/characters/_drafts/avatars/003-pig-primeirinhos-padrao-rascunho-pre-sistema-simples.png
 
 Esses rascunhos nao substituem os novos assets oficiais.
+## Avatar 002 - Pig Bebe - padrao recriado
+
+A variacao `padrao` do avatar `002 - Pig Bebe` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/002-pig-bebe-padrao.png`
+- asset principal preservado: `assets/characters/002-pig-bebe.png`
+- status da variacao `padrao`: `criada`
+- proxima variacao pendente: `002 - Pig Bebe - azul`

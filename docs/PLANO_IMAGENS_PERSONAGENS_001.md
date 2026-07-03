@@ -268,3 +268,11 @@ As variacoes anteriores de avatar foram movidas para `assets/characters/_drafts/
 Proximo item pendente apos o reset: `002 - Pig Bebe - padrao`.
 
 Arquivo esperado: `assets/characters/002-pig-bebe-padrao.png`.
+## Avatar 002 - Pig Bebe - padrao recriado
+
+A variacao `padrao` do avatar `002 - Pig Bebe` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/002-pig-bebe-padrao.png`
+- asset principal preservado: `assets/characters/002-pig-bebe.png`
+- status da variacao `padrao`: `criada`
+- proxima variacao pendente: `002 - Pig Bebe - azul`
