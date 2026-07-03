@@ -13,8 +13,8 @@ Esta fase ainda nao cria imagens. Ela apenas define o processo para receber e or
 - A base de personagens existe em `data/vila-pig-personagens.json`.
 - A versao CSV existe em `data/vila-pig-personagens.csv`.
 - Existem 200 personagens cadastrados.
-- Todos estao com `status_imagem: "pendente"`.
-- Nenhuma imagem oficial de personagem foi criada.
+- O personagem `001 — Pig Principal` ja possui imagem oficial criada em `assets/characters/001-pig-principal.png`.
+- Os demais personagens seguem com `status_imagem: "pendente"`.
 
 ## Como as imagens serao criadas
 
@@ -69,18 +69,17 @@ assets/characters/NUMERO-SLUG.png
 
 ## Primeira leva sugerida
 
-1. `001` Pig Principal
-2. `012` Pinguinha
-3. `013` Mae Helena
-4. `014` Pai Raimundo
-5. `017` Vovo Zefa
-6. `018` Vovo Joao
-7. `025` Seu Damiao da Padaria
-8. `026` Tia Carmem da Cantina
-9. Professora Lucia
-10. Pedrinho
-11. Aninha
-12. Tia Maria
+1. `012` Pinguinha
+2. `013` Mae Helena
+3. `014` Pai Raimundo
+4. `017` Vovo Zefa
+5. `018` Vovo Joao
+6. `025` Seu Damiao da Padaria
+7. `026` Tia Carmem da Cantina
+8. Professora Lucia
+9. Pedrinho
+10. Aninha
+11. Tia Maria
 
 ## Cuidados visuais
 

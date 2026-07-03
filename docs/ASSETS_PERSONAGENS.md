@@ -31,9 +31,23 @@ Quando uma imagem futura for enviada com o mesmo numero e slug, o projeto podera
 - arquivos de imagem;
 - cards visuais.
 
+## Imagens oficiais criadas
+
+Atualmente existe 1 imagem oficial criada:
+
+```text
+assets/characters/001-pig-principal.png
+```
+
 ## Status atual
 
-Todos os personagens estao com:
+O personagem `001 — Pig Principal` esta com:
+
+```json
+"status_imagem": "criada"
+```
+
+Os demais personagens continuam com:
 
 ```json
 "status_imagem": "pendente"
