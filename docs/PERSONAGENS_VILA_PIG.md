@@ -19,6 +19,7 @@ O card `001` e sempre o **Pig Principal**.
 - `007` Pig Jovem: `assets/characters/007-pig-jovem.png`
 - `008` Pig Jovem Adulto: `assets/characters/008-pig-jovem-adulto.png`
 - `009` Pig Adulto: `assets/characters/009-pig-adulto.png`
+- `010` Pig Coroa: `assets/characters/010-pig-coroa.png`
 
 A ordem inicial oficial e:
 
