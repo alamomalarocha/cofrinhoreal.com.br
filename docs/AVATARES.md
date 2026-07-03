@@ -114,7 +114,7 @@ assets/characters/004-pig-crianca-rosa.png
 assets/characters/004-pig-crianca-arco-iris.png
 ```
 
-Nao criar essas variacoes agora.
+Criar essas variacoes apenas pelo fluxo guiado, uma imagem por vez, com aceite visual antes de salvar.
 
 ## Vila Pig e personagens fixos
 
@@ -157,3 +157,28 @@ A pergunta pública continua sendo:
 > Como você quer personalizar seu Pig?
 
 Essa pergunta deve tratar a escolha como estilo visual, sem coletar informação sensível e sem usar publicamente termos como "menino", "menina", "LGBT" ou "neutro".
+
+## Regra visual para imagens-base de avatares
+
+Avatares do usuario devem ser imagens limpas do personagem, sem texto, letras, numeros, moedas, medalhas, placas, etiquetas, broches, patches, logotipos, monogramas ou simbolos escritos.
+
+A imagem-base do avatar deve mostrar apenas o personagem. Moedas, PigCoins, simbolos e textos podem aparecer em telas, cards, jogos e pecas de interface, mas nao na imagem-base do avatar.
+
+Se a geracao vier com texto, letra, numero, logotipo, simbolo indevido, moeda com letra, roupa com palavra, fundo nao transparente, cenario, painel ou outro personagem, a imagem deve ser descartada. Nao tentar corrigir a imagem antiga; gerar nova imagem do zero com prompt simplificado.
+
+Checklist minimo para aceitar uma imagem de avatar:
+
+- personagem unico;
+- corpo inteiro;
+- centralizado;
+- fundo transparente;
+- sem texto;
+- sem letras;
+- sem numeros;
+- sem logos;
+- sem moedas;
+- sem medalhas;
+- sem simbolos escritos;
+- sem cenario;
+- sem painel;
+- sem outros personagens.

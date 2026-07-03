@@ -41,7 +41,7 @@ Nomes internos planejados:
 
 Nao usar publicamente "menino", "menina", "LGBT", "neutro" ou "o que voce e".
 
-Nao criar variacoes por estilo agora sem solicitacao explicita. O fluxo de imagem deve continuar guiado uma imagem por vez.
+A solicitacao atual iniciou a criacao das variacoes por estilo dos avatares. O fluxo de imagem deve continuar guiado uma imagem por vez.
 
 ## Como as imagens serao criadas
 
@@ -154,3 +154,28 @@ Imagem so vira asset oficial quando:
 ## Uso no website
 
 O Pig Principal 001 é também a referência visual oficial da marca no website. Ele representa o mascote oficial, o guia visual do Cofrinho Real e a principal referência do universo Pig no protótipo atual. Essa decisão não altera a sequência de personagens nem as regras de avatar.
+
+## Regra visual para imagens-base de avatares
+
+Avatares do usuario devem ser imagens limpas do personagem, sem texto, letras, numeros, moedas, medalhas, placas, etiquetas, broches, patches, logotipos, monogramas ou simbolos escritos.
+
+A imagem-base do avatar deve mostrar apenas o personagem. Moedas, PigCoins, simbolos e textos podem aparecer em telas, cards, jogos e pecas de interface, mas nao na imagem-base do avatar.
+
+Se a geracao vier com texto, letra, numero, logotipo, simbolo indevido, moeda com letra, roupa com palavra, fundo nao transparente, cenario, painel ou outro personagem, a imagem deve ser descartada. Nao tentar corrigir a imagem antiga; gerar nova imagem do zero com prompt simplificado.
+
+Checklist minimo para aceitar uma imagem de avatar:
+
+- personagem unico;
+- corpo inteiro;
+- centralizado;
+- fundo transparente;
+- sem texto;
+- sem letras;
+- sem numeros;
+- sem logos;
+- sem moedas;
+- sem medalhas;
+- sem simbolos escritos;
+- sem cenario;
+- sem painel;
+- sem outros personagens.

@@ -126,7 +126,7 @@ As opcoes de avatar sao estilos visuais: Pig Azul, Pig Rosa, Pig Arco-iris e Pig
 
 Internamente, usar apenas `avatar_style: azul`, `avatar_style: rosa`, `avatar_style: arco_iris` e `avatar_style: padrao`.
 
-Nao incluir variacoes de estilo no fluxo atual de imagens ate Alamo solicitar explicitamente. O proximo passo podera ser guiado um por um, por exemplo Pig Bebe Padrao, Pig Bebe Azul, Pig Bebe Rosa e Pig Bebe Arco-iris.
+A solicitacao atual iniciou o fluxo guiado de variacoes dos avatares, sempre uma imagem por vez: Pig Bebe Padrao, Pig Bebe Azul, Pig Bebe Rosa, Pig Bebe Arco-iris e assim por diante ate o Pig Senior.
 
 ## Formato obrigatorio da resposta apos salvar uma imagem
 
@@ -268,3 +268,28 @@ O proximo arquivo oficial esperado e:
 ```text
 assets/characters/002-pig-bebe.png
 ```
+
+## Regra visual para imagens-base de avatares
+
+Avatares do usuario devem ser imagens limpas do personagem, sem texto, letras, numeros, moedas, medalhas, placas, etiquetas, broches, patches, logotipos, monogramas ou simbolos escritos.
+
+A imagem-base do avatar deve mostrar apenas o personagem. Moedas, PigCoins, simbolos e textos podem aparecer em telas, cards, jogos e pecas de interface, mas nao na imagem-base do avatar.
+
+Se a geracao vier com texto, letra, numero, logotipo, simbolo indevido, moeda com letra, roupa com palavra, fundo nao transparente, cenario, painel ou outro personagem, a imagem deve ser descartada. Nao tentar corrigir a imagem antiga; gerar nova imagem do zero com prompt simplificado.
+
+Checklist minimo para aceitar uma imagem de avatar:
+
+- personagem unico;
+- corpo inteiro;
+- centralizado;
+- fundo transparente;
+- sem texto;
+- sem letras;
+- sem numeros;
+- sem logos;
+- sem moedas;
+- sem medalhas;
+- sem simbolos escritos;
+- sem cenario;
+- sem painel;
+- sem outros personagens.

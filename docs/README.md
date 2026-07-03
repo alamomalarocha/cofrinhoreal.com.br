@@ -69,3 +69,9 @@ Essa regra está detalhada em EXPERIENCIA_LOGADA.md, IDENTIDADE_VISUAL.md e AVAT
 O personagem especial 201 - Vantajinho foi registrado como contraponto educativo do Pig.
 
 No dinheiro real, ele apenas orienta. No PigCoin, ele pode gerar consequencias ficticias dentro dos jogos educativos. O asset oficial fica em assets/characters/201-vantajinho.png.
+
+## Regra de prompts para avatares
+
+Os avatares do usuario devem ser imagens limpas do personagem, sem texto, letras, moedas, medalhas, logotipos ou simbolos. Se a geracao vier com esses elementos, a imagem deve ser descartada e uma nova deve ser gerada do zero com prompt simplificado.
+
+A etapa atual cria as variacoes dos avatares `002` a `011`, uma imagem por vez, nos estilos `padrao`, `azul`, `rosa` e `arco_iris`.

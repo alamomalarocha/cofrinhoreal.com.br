@@ -110,3 +110,9 @@ O personagem especial Vantajinho possui imagem oficial em:
 assets/characters/201-vantajinho.png
 
 Esse asset pertence aos personagens da Vila Pig e nao substitui o Pig Principal 001 nem as logos de marca em assets/brand/.
+
+## Regra de aceite para assets de avatar
+
+Assets de avatar dos usuarios devem ser limpos e mostrar apenas o personagem. Nao aceitar arquivos com texto, letras, numeros, logos, moedas, medalhas, patches, etiquetas, placas, monogramas, simbolos escritos, cenario, painel ou outros personagens.
+
+Se isso acontecer, descartar a imagem e gerar uma nova do zero com prompt visual mais simples.
