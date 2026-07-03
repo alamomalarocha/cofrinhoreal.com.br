@@ -20,14 +20,22 @@ O Avatar Pig do usuario deve ser tratado como personalizacao visual opcional, co
 
 > Como voce quer personalizar seu Pig?
 
-Opcoes iniciais:
+Texto de apoio:
 
-- Pig Rosa;
-- Pig Azul;
-- Pig Neutro;
-- Prefiro nao informar / usar padrao.
+> Voce pode mudar isso depois.
 
-Nao criar variacoes por estilo agora. Os personagens `002` a `011` continuam sendo a sequencia de avatares base/padrao por idade, mas as imagens deles serao recriadas uma por uma.
+As opcoes publicas de avatar sao estilos visuais: Pig Azul, Pig Rosa, Pig Arco-iris e Pig Padrao. Elas nao representam declaracao obrigatoria de identidade pessoal.
+
+Nomes internos planejados:
+
+- `avatar_style: azul`
+- `avatar_style: rosa`
+- `avatar_style: arco_iris`
+- `avatar_style: padrao`
+
+Nao usar publicamente "menino", "menina", "LGBT", "neutro" ou "o que voce e".
+
+Nao criar variacoes por estilo agora. Os personagens `002` a `011` continuam sendo a sequencia de avatares base/padrao por idade, mas ja possuem variacoes planejadas para `padrao`, `azul`, `rosa` e `arco_iris`.
 
 ## Imagem oficial criada
 

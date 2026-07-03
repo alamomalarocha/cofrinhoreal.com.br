@@ -2,14 +2,14 @@
 
 Os avatares do usuario nao sao personagens fixos da historia.
 
-Eles representam a pessoa dona da conta e poderao ser personalizados no futuro.
+Eles representam a conta da pessoa dentro do app e poderao ser personalizados visualmente no futuro.
 
 ## Separacao essencial
 
 O Cofrinho Real separa oficialmente tres conceitos:
 
-- **Pig Principal**: mascote oficial, guia, comunicador e professor-amigo da marca.
-- **Avatar Pig do usuario**: representacao visual da pessoa dentro do app.
+- **Pig Principal**: mascote oficial, guia, comunicador, professor-amigo, personagem da logo e referencia visual da marca.
+- **Avatar Pig do usuario**: representacao visual escolhida pela pessoa dentro do app.
 - **Vila Pig / Familia Pig**: universo de personagens fixos, historias, familia, escola, comercio e comunidade.
 
 Frase de referencia:
@@ -29,7 +29,7 @@ Ele e:
 - personagem da logo;
 - personagem que orienta o projeto.
 
-Ele nao representa uma pessoa especifica.
+Ele nao representa uma pessoa especifica e nao e avatar de usuario.
 
 O Pig Principal continua sendo:
 
@@ -42,29 +42,44 @@ assets/characters/001-pig-principal.png
 
 O Avatar Pig do usuario e a representacao visual da pessoa dentro do app.
 
-A pergunta oficial no onboarding deve ser:
+## Opcoes publicas de avatar
+
+As opcoes de avatar sao estilos visuais: Pig Azul, Pig Rosa, Pig Arco-iris e Pig Padrao. Elas nao representam declaracao obrigatoria de identidade pessoal.
+
+Pergunta oficial no onboarding:
 
 > Como voce quer personalizar seu Pig?
 
-Opcoes iniciais:
+Texto de apoio:
 
-1. Pig Rosa
-2. Pig Azul
-3. Pig Neutro
-4. Prefiro nao informar / usar padrao
+> Voce pode mudar isso depois.
 
-Regras:
+Opcoes publicas:
 
+1. **Pig Azul**: estilo azul, calmo, classico e amigavel.
+2. **Pig Rosa**: estilo rosa, doce, afetivo e carinhoso.
+3. **Pig Arco-iris**: estilo colorido, livre e inclusivo.
+4. **Pig Padrao**: visual padrao do Cofrinho Real, para quem prefere nao escolher ou nao informar.
+
+Regras publicas:
+
+- nao usar publicamente "menino";
+- nao usar publicamente "menina";
+- nao usar publicamente "LGBT";
+- nao usar publicamente "neutro";
 - nao perguntar "o que voce e";
-- nao tratar como declaracao obrigatoria de identidade pessoal;
-- tratar apenas como personalizacao visual do avatar;
-- escolha opcional;
-- usuario pode mudar depois;
-- a opcao "Prefiro nao informar / usar padrao" deve existir;
-- Pig Neutro usa cores do arco-iris de forma visual, leve e inclusiva;
-- Pig Rosa tende ao rosa;
-- Pig Azul tende ao azul;
-- Pig Principal da marca continua separado.
+- nao coletar informacao sensivel;
+- nao transformar escolha visual em declaracao de identidade pessoal;
+- tratar tudo como personalizacao visual do avatar.
+
+Nomes internos:
+
+- `avatar_style: azul`
+- `avatar_style: rosa`
+- `avatar_style: arco_iris`
+- `avatar_style: padrao`
+
+Esses valores representam apenas estilo visual.
 
 ## Avatares por faixa etaria
 
@@ -85,17 +100,19 @@ Esses assets sao versoes base/padrao por idade:
 
 No futuro, cada faixa etaria podera ter variacoes visuais:
 
-- rosa;
+- padrao;
 - azul;
-- neutro;
-- padrao.
+- rosa;
+- arco_iris.
 
 Exemplo futuro:
 
-- Pig Crianca Rosa;
-- Pig Crianca Azul;
-- Pig Crianca Neutro;
-- Pig Crianca Padrao.
+```text
+assets/characters/004-pig-crianca-padrao.png
+assets/characters/004-pig-crianca-azul.png
+assets/characters/004-pig-crianca-rosa.png
+assets/characters/004-pig-crianca-arco-iris.png
+```
 
 Nao criar essas variacoes agora.
 
@@ -120,6 +137,7 @@ Neste momento, apenas `001 - Pig Principal` esta oficializado como imagem criada
 Os avatares `002` a `011` continuam como sequencia base/padrao por faixa etaria, mas suas imagens serao recriadas uma por uma com o conceito correto.
 
 As imagens antigas de `002` a `010` foram preservadas como rascunhos em `assets/characters/_drafts/` e nao devem ser tratadas como assets oficiais.
+
 ## Regra visual
 
 Avatares devem ser afetuosos, modernos e respeitosos. Nunca devem virar caricatura, ranking social, mecanismo de vicio ou incentivo a consumo compulsivo.

@@ -15,7 +15,7 @@ Antes de desenvolver qualquer funcionalidade, leia:
 - `VILA_PIG.md`: conceito oficial da Vila Fazenda Pig, comunidade de personagens do Cofrinho Real.
 - `PERSONAGENS_VILA_PIG.md`: base de 200 personagens colecionaveis, com numero, slug e uso futuro.
 - `ASSETS_PERSONAGENS.md`: regra para vincular imagens futuras por numero e slug.
-- `AVATARES.md`: diferenca entre Pig principal, avatar do usuario, opcoes de personalizacao visual e personagens fixos.
+- `AVATARES.md`: diferenca entre Pig Principal, Avatar Pig do usuario, opcoes publicas de estilo visual e personagens fixos.
 - `PLANO_IMAGENS_PERSONAGENS_001.md`: plano da proxima fase para criacao e recebimento das imagens dos personagens.
 - `PROTOCOLO_IMAGENS_PERSONAGENS.md`: fluxo oficial guiado ChatGPT -> Alamo -> Codex para salvar uma imagem por vez, atualizar status, devolver apenas o proximo pendente, separar prompt visual limpo dos dados tecnicos e entregar o prompt tecnico para salvamento.
 - `EDUCACAO_FINANCEIRA.md`: principios de educacao financeira sem culpa, medo ou julgamento.
@@ -29,6 +29,7 @@ Antes de desenvolver qualquer funcionalidade, leia:
 - Arte principal atual do Pig/Cofrinho Real: `assets/brand/cofrinho-real-pig-logo-principal.png`.
 - Base estatica atual de personagens: `data/vila-pig-personagens.json` e `data/vila-pig-personagens.csv`.
 - Estado atual de imagens: apenas `001 - Pig Principal` esta oficial; `002` em diante estao pendentes e rascunhos antigos ficam em `assets/characters/_drafts/`.
+- Opcoes publicas de avatar: Pig Azul, Pig Rosa, Pig Arco-iris e Pig Padrao; internamente `avatar_style` usa `azul`, `rosa`, `arco_iris` ou `padrao`.
 
 Regra central:
 

@@ -77,3 +77,19 @@ Nao criar imagens sozinho. Nao usar IA dentro do Codex para gerar imagens nesta 
 ## Uso no website
 
 O Pig Principal 001 é também a referência visual oficial da marca no website. Ele representa o mascote oficial, o guia visual do Cofrinho Real e a principal referência do universo Pig no protótipo atual. Essa decisão não altera a sequência de personagens nem as regras de avatar.
+
+
+## Variacoes futuras de avatar
+
+Os avatares `002` a `011` possuem variacoes planejadas para os estilos internos `padrao`, `azul`, `rosa` e `arco_iris`.
+
+Exemplo futuro:
+
+```text
+assets/characters/004-pig-crianca-padrao.png
+assets/characters/004-pig-crianca-azul.png
+assets/characters/004-pig-crianca-rosa.png
+assets/characters/004-pig-crianca-arco-iris.png
+```
+
+Nao criar essas imagens agora.

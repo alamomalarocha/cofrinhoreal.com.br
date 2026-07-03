@@ -72,7 +72,19 @@
       "avatares_do_usuario",
       "0 a 2 anos",
       "vila_pig"
-    ]
+    ],
+    "variacoes_planejadas": [
+      "padrao",
+      "azul",
+      "rosa",
+      "arco_iris"
+    ],
+    "assets_variacoes_futuras": {
+      "padrao": "assets/characters/002-pig-bebe-padrao.png",
+      "azul": "assets/characters/002-pig-bebe-azul.png",
+      "rosa": "assets/characters/002-pig-bebe-rosa.png",
+      "arco_iris": "assets/characters/002-pig-bebe-arco-iris.png"
+    }
   },
   {
     "numero": "003",
@@ -108,7 +120,19 @@
       "avatares_do_usuario",
       "3 a 5 anos",
       "vila_pig"
-    ]
+    ],
+    "variacoes_planejadas": [
+      "padrao",
+      "azul",
+      "rosa",
+      "arco_iris"
+    ],
+    "assets_variacoes_futuras": {
+      "padrao": "assets/characters/003-pig-primeirinhos-padrao.png",
+      "azul": "assets/characters/003-pig-primeirinhos-azul.png",
+      "rosa": "assets/characters/003-pig-primeirinhos-rosa.png",
+      "arco_iris": "assets/characters/003-pig-primeirinhos-arco-iris.png"
+    }
   },
   {
     "numero": "004",
@@ -144,7 +168,19 @@
       "avatares_do_usuario",
       "6 a 9 anos",
       "vila_pig"
-    ]
+    ],
+    "variacoes_planejadas": [
+      "padrao",
+      "azul",
+      "rosa",
+      "arco_iris"
+    ],
+    "assets_variacoes_futuras": {
+      "padrao": "assets/characters/004-pig-crianca-padrao.png",
+      "azul": "assets/characters/004-pig-crianca-azul.png",
+      "rosa": "assets/characters/004-pig-crianca-rosa.png",
+      "arco_iris": "assets/characters/004-pig-crianca-arco-iris.png"
+    }
   },
   {
     "numero": "005",
@@ -180,7 +216,19 @@
       "avatares_do_usuario",
       "10 a 12 anos",
       "vila_pig"
-    ]
+    ],
+    "variacoes_planejadas": [
+      "padrao",
+      "azul",
+      "rosa",
+      "arco_iris"
+    ],
+    "assets_variacoes_futuras": {
+      "padrao": "assets/characters/005-pig-pre-adolescente-padrao.png",
+      "azul": "assets/characters/005-pig-pre-adolescente-azul.png",
+      "rosa": "assets/characters/005-pig-pre-adolescente-rosa.png",
+      "arco_iris": "assets/characters/005-pig-pre-adolescente-arco-iris.png"
+    }
   },
   {
     "numero": "006",
@@ -216,7 +264,19 @@
       "avatares_do_usuario",
       "13 a 17 anos",
       "vila_pig"
-    ]
+    ],
+    "variacoes_planejadas": [
+      "padrao",
+      "azul",
+      "rosa",
+      "arco_iris"
+    ],
+    "assets_variacoes_futuras": {
+      "padrao": "assets/characters/006-pig-adolescente-padrao.png",
+      "azul": "assets/characters/006-pig-adolescente-azul.png",
+      "rosa": "assets/characters/006-pig-adolescente-rosa.png",
+      "arco_iris": "assets/characters/006-pig-adolescente-arco-iris.png"
+    }
   },
   {
     "numero": "007",
@@ -252,7 +312,19 @@
       "avatares_do_usuario",
       "18 a 24 anos",
       "vila_pig"
-    ]
+    ],
+    "variacoes_planejadas": [
+      "padrao",
+      "azul",
+      "rosa",
+      "arco_iris"
+    ],
+    "assets_variacoes_futuras": {
+      "padrao": "assets/characters/007-pig-jovem-padrao.png",
+      "azul": "assets/characters/007-pig-jovem-azul.png",
+      "rosa": "assets/characters/007-pig-jovem-rosa.png",
+      "arco_iris": "assets/characters/007-pig-jovem-arco-iris.png"
+    }
   },
   {
     "numero": "008",
@@ -288,7 +360,19 @@
       "avatares_do_usuario",
       "25 a 34 anos",
       "vila_pig"
-    ]
+    ],
+    "variacoes_planejadas": [
+      "padrao",
+      "azul",
+      "rosa",
+      "arco_iris"
+    ],
+    "assets_variacoes_futuras": {
+      "padrao": "assets/characters/008-pig-jovem-adulto-padrao.png",
+      "azul": "assets/characters/008-pig-jovem-adulto-azul.png",
+      "rosa": "assets/characters/008-pig-jovem-adulto-rosa.png",
+      "arco_iris": "assets/characters/008-pig-jovem-adulto-arco-iris.png"
+    }
   },
   {
     "numero": "009",
@@ -324,7 +408,19 @@
       "avatares_do_usuario",
       "35 a 49 anos",
       "vila_pig"
-    ]
+    ],
+    "variacoes_planejadas": [
+      "padrao",
+      "azul",
+      "rosa",
+      "arco_iris"
+    ],
+    "assets_variacoes_futuras": {
+      "padrao": "assets/characters/009-pig-adulto-padrao.png",
+      "azul": "assets/characters/009-pig-adulto-azul.png",
+      "rosa": "assets/characters/009-pig-adulto-rosa.png",
+      "arco_iris": "assets/characters/009-pig-adulto-arco-iris.png"
+    }
   },
   {
     "numero": "010",
@@ -360,7 +456,19 @@
       "avatares_do_usuario",
       "50 a 64 anos",
       "vila_pig"
-    ]
+    ],
+    "variacoes_planejadas": [
+      "padrao",
+      "azul",
+      "rosa",
+      "arco_iris"
+    ],
+    "assets_variacoes_futuras": {
+      "padrao": "assets/characters/010-pig-coroa-padrao.png",
+      "azul": "assets/characters/010-pig-coroa-azul.png",
+      "rosa": "assets/characters/010-pig-coroa-rosa.png",
+      "arco_iris": "assets/characters/010-pig-coroa-arco-iris.png"
+    }
   },
   {
     "numero": "011",
@@ -396,7 +504,19 @@
       "avatares_do_usuario",
       "65+",
       "vila_pig"
-    ]
+    ],
+    "variacoes_planejadas": [
+      "padrao",
+      "azul",
+      "rosa",
+      "arco_iris"
+    ],
+    "assets_variacoes_futuras": {
+      "padrao": "assets/characters/011-pig-senior-padrao.png",
+      "azul": "assets/characters/011-pig-senior-azul.png",
+      "rosa": "assets/characters/011-pig-senior-rosa.png",
+      "arco_iris": "assets/characters/011-pig-senior-arco-iris.png"
+    }
   },
   {
     "numero": "012",

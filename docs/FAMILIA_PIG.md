@@ -42,16 +42,22 @@ O Avatar Pig do usuario deve ser apresentado com a pergunta:
 
 > Como voce quer personalizar seu Pig?
 
-Opcoes iniciais:
+Texto de apoio:
 
-- Pig Rosa;
-- Pig Azul;
-- Pig Neutro;
-- Prefiro nao informar / usar padrao.
+> Voce pode mudar isso depois.
 
-Essa escolha e opcional e nao deve ser tratada como declaracao obrigatoria de identidade pessoal.
+As opcoes publicas de avatar sao estilos visuais: Pig Azul, Pig Rosa, Pig Arco-iris e Pig Padrao. Elas nao representam declaracao obrigatoria de identidade pessoal.
 
-Os personagens `002` a `011` sao avatares base por faixa etaria. No futuro, cada faixa podera ter variacoes rosa, azul, neutro e padrao, mas essas variacoes nao devem ser criadas agora.
+Nomes internos planejados:
+
+- `avatar_style: azul`
+- `avatar_style: rosa`
+- `avatar_style: arco_iris`
+- `avatar_style: padrao`
+
+Nao usar publicamente "menino", "menina", "LGBT", "neutro" ou "o que voce e".
+
+Os personagens `002` a `011` sao avatares base por faixa etaria. No futuro, cada faixa podera ter variacoes `padrao`, `azul`, `rosa` e `arco_iris`, mas essas variacoes nao devem ser criadas agora.
 
 ## Estado atual dos assets
 
@@ -61,7 +67,7 @@ As imagens antigas de `002` a `010` foram movidas para `assets/characters/_draft
 
 Os personagens `002` em diante serao recriados uma imagem por vez, com prompt visual limpo e controle pelo Codex.
 
-Alguns personagens e avatares futuros poderao ter representacao neutra com elementos sutis de arco-iris ou combinacao de cores, de forma natural, sem rotulo publico forcado e sem caricatura.
+Alguns avatares futuros poderao usar estilo Arco-iris como escolha visual colorida, livre e inclusiva, de forma natural, sem rotulo publico forcado e sem caricatura.
 
 A porcentagem desse tipo de representacao deve ser pequena, natural e equilibrada dentro do universo, suficiente para representar diversidade sem parecer forcado.
 ## Principios
@@ -78,7 +84,7 @@ Neste momento, a arte principal atual do universo Pig/Cofrinho Real no prototipo
 
 `assets/brand/cofrinho-real-pig-logo-principal.png`
 
-Essa imagem mostra o Pig como mascote, o nome Cofrinho Real, o nome Pig e o slogan "Guarde. CresÃƒÂ§a. Realize."
+Essa imagem mostra o Pig como mascote, o nome Cofrinho Real, o nome Pig e o slogan "Guarde. Cresca. Realize."
 
 Ela deve ser usada como referencia visual principal enquanto os personagens oficiais da Familia Pig ainda nao forem criados um por um.
 
