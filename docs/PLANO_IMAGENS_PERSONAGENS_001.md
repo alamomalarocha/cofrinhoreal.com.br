@@ -34,9 +34,28 @@ Fluxo operacional oficial:
 5. Codex muda `status_imagem` de `"pendente"` para `"criada"`.
 6. Codex faz commit e push.
 7. Codex informa apenas o proximo personagem pendente da sequencia.
-8. Codex devolve dois prompts prontos:
-   - prompt para criar a proxima imagem no ChatGPT;
-   - prompt para salvar a proxima imagem no Codex.
+8. Codex devolve os blocos prontos:
+   - dados tecnicos do proximo personagem;
+   - prompt visual limpo para criar a proxima imagem no ChatGPT Images;
+   - prompt tecnico para salvar a proxima imagem no Codex.
+
+## Prompt visual limpo
+
+O prompt visual enviado ao ChatGPT Images deve conter apenas a descricao artistica do personagem.
+
+Nao incluir no prompt visual:
+
+- numero do personagem;
+- slug;
+- nome do arquivo;
+- caminho `assets/characters`;
+- `asset_futuro`;
+- instrucoes de commit;
+- instrucoes de JSON ou CSV;
+- instrucoes de documentacao;
+- blocos tecnicos.
+
+Os dados tecnicos ficam separados para uso do Codex.
 
 Documento de protocolo: `docs/PROTOCOLO_IMAGENS_PERSONAGENS.md`.
 

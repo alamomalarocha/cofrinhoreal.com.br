@@ -17,7 +17,7 @@ Antes de desenvolver qualquer funcionalidade, leia:
 - `ASSETS_PERSONAGENS.md`: regra para vincular imagens futuras por numero e slug.
 - `AVATARES.md`: diferenca entre Pig principal, avatar do usuario e personagens fixos.
 - `PLANO_IMAGENS_PERSONAGENS_001.md`: plano da proxima fase para criacao e recebimento das imagens dos personagens.
-- `PROTOCOLO_IMAGENS_PERSONAGENS.md`: fluxo oficial guiado ChatGPT -> Alamo -> Codex para salvar uma imagem por vez, atualizar status, devolver apenas o proximo pendente e entregar os dois prompts prontos.
+- `PROTOCOLO_IMAGENS_PERSONAGENS.md`: fluxo oficial guiado ChatGPT -> Alamo -> Codex para salvar uma imagem por vez, atualizar status, devolver apenas o proximo pendente, separar prompt visual limpo dos dados tecnicos e entregar o prompt tecnico para salvamento.
 - `EDUCACAO_FINANCEIRA.md`: principios de educacao financeira sem culpa, medo ou julgamento.
 - `JOGOS_EDUCATIVOS.md`: direcao futura para jogos e albuns educativos sem aposta, loot box ou vicio.
 - `COOKIES_PRIVACIDADE_TERMOS.md`: memoria das paginas legais estaticas do prototipo.

@@ -63,9 +63,41 @@ O fluxo oficial de imagens da Vila Pig / Familia Pig e guiado uma imagem por vez
 5. O Codex faz commit e push.
 6. O Codex responde confirmando que salvou a imagem e que Alamo pode mandar a proxima.
 7. O Codex informa apenas o proximo personagem pendente da sequencia.
-8. O Codex fornece dois blocos prontos:
-   - prompt para Alamo mandar ao ChatGPT criar a proxima imagem;
-   - prompt para Alamo mandar de volta ao Codex quando a imagem estiver pronta.
+8. O Codex fornece tres blocos separados:
+   - dados tecnicos do proximo personagem;
+   - prompt visual limpo para Alamo mandar ao ChatGPT Images;
+   - prompt tecnico para Alamo mandar de volta ao Codex quando a imagem estiver pronta.
+
+## Separacao obrigatoria entre imagem e dados tecnicos
+
+O ChatGPT Images deve receber apenas um prompt visual limpo.
+
+O prompt visual limpo nao deve conter:
+
+- numero do personagem;
+- slug;
+- nome do arquivo;
+- caminho `assets/characters`;
+- `asset_futuro`;
+- instrucoes de commit;
+- instrucoes de JSON ou CSV;
+- instrucoes de documentacao;
+- palavras como "prompt";
+- blocos tecnicos;
+- listas longas com dados internos do projeto.
+
+Essas informacoes tecnicas devem aparecer apenas nos blocos de dados do personagem e no prompt para o Codex salvar a imagem.
+
+O prompt visual limpo deve conter somente a descricao artistica:
+
+- tipo de personagem;
+- faixa etaria ou papel visual;
+- personalidade;
+- roupa e acessorios;
+- estilo visual;
+- pose;
+- fundo transparente;
+- restricoes visuais como sem texto, sem numeros, sem cenario e sem outros personagens.
 
 ## Formato obrigatorio da resposta apos salvar uma imagem
 
@@ -100,35 +132,10 @@ PROXIMO PERSONAGEM PENDENTE
 - asset_futuro:
 
 ==================================================
-PROMPT PARA MANDAR AO CHATGPT CRIAR A PROXIMA IMAGEM
+PROMPT VISUAL LIMPO PARA CHATGPT IMAGES
 ==================================================
 
-Crie a imagem oficial do personagem:
-
-[NUMERO] - [NOME]
-slug: [SLUG]
-arquivo final esperado: [ASSET_FUTURO]
-
-Esse personagem faz parte da Vila Pig / Familia Pig do projeto Cofrinho Real.
-
-Padrao visual:
-- PNG com fundo transparente;
-- personagem individual;
-- corpo inteiro;
-- em pe;
-- centralizado;
-- pose limpa para card colecionavel;
-- estilo 3D/cartoon premium;
-- fofo, profissional, amigavel e consistente com a identidade do Cofrinho Real;
-- sem cenario;
-- sem texto escrito na imagem;
-- sem fundo colorido;
-- pronto para usar em cards, app, site, posts e materiais.
-
-Descricao do personagem:
-[usar a descricao/historia/papel do personagem conforme data/vila-pig-personagens.json]
-
-Crie do zero apenas esse personagem, sem gerar outros personagens juntos.
+[Colocar aqui apenas a descricao artistica, sem numero, sem slug, sem nome de arquivo, sem caminho tecnico, sem instrucoes de commit, sem JSON, sem CSV e sem documentacao.]
 
 ==================================================
 PROMPT PARA MANDAR AO CODEX QUANDO A IMAGEM ESTIVER PRONTA
@@ -167,8 +174,8 @@ Add character [NUMERO] [NOME] image
 - commit criado;
 - push realizado;
 - proximo personagem pendente da sequencia, com numero, nome, slug e asset_futuro;
-- prompt para ChatGPT criar a proxima imagem;
-- prompt para Codex salvar a proxima imagem.
+- prompt visual limpo para ChatGPT Images criar a proxima imagem;
+- prompt tecnico para Codex salvar a proxima imagem.
 
 Importante:
 Nao criar backend.
