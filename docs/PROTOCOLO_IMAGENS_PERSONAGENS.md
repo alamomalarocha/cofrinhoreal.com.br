@@ -225,10 +225,11 @@ Em 2026-07-02:
 - `001 - Pig Principal`: `status_imagem: "criada"`
 - `002 - Pig Bebe`: `status_imagem: "criada"`
 - `003 - Pig Primeirinhos`: `status_imagem: "criada"`
-- proximo personagem pendente: `004 - Pig Crianca`
+- `004 - Pig Crianca`: `status_imagem: "criada"`
+- proximo personagem pendente: `005 - Pig Pre-Adolescente`
 
 O proximo arquivo esperado e:
 
 ```text
-assets/characters/004-pig-crianca.png
+assets/characters/005-pig-pre-adolescente.png
 ```

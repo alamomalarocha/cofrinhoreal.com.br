@@ -33,17 +33,18 @@ Quando uma imagem futura for enviada com o mesmo numero e slug, o projeto podera
 
 ## Imagens oficiais criadas
 
-Atualmente existem 3 imagens oficiais criadas:
+Atualmente existem 4 imagens oficiais criadas:
 
 ```text
 assets/characters/001-pig-principal.png
 assets/characters/002-pig-bebe.png
 assets/characters/003-pig-primeirinhos.png
+assets/characters/004-pig-crianca.png
 ```
 
 ## Status atual
 
-Os personagens `001 - Pig Principal`, `002 - Pig Bebe` e `003 - Pig Primeirinhos` estao com:
+Os personagens `001 - Pig Principal`, `002 - Pig Bebe`, `003 - Pig Primeirinhos` e `004 - Pig Crianca` estao com:
 
 ```json
 "status_imagem": "criada"
@@ -52,8 +53,8 @@ Os personagens `001 - Pig Principal`, `002 - Pig Bebe` e `003 - Pig Primeirinhos
 O proximo personagem pendente da sequencia e:
 
 ```text
-004 - Pig Crianca
-assets/characters/004-pig-crianca.png
+005 - Pig Pre-Adolescente
+assets/characters/005-pig-pre-adolescente.png
 ```
 
 Os demais personagens continuam com:
