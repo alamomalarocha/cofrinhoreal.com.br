@@ -63,3 +63,9 @@ Regra registrada:
 > O público geral vê o Pig Principal neutro. O usuário logado vê o seu próprio universo Pig personalizado.
 
 Essa regra está detalhada em EXPERIENCIA_LOGADA.md, IDENTIDADE_VISUAL.md e AVATARES.md. Não existe implementação real de login ou personalização dinâmica nesta fase.
+
+## Personagem especial Vantajinho
+
+O personagem especial 201 - Vantajinho foi registrado como contraponto educativo do Pig.
+
+No dinheiro real, ele apenas orienta. No PigCoin, ele pode gerar consequencias ficticias dentro dos jogos educativos. O asset oficial fica em assets/characters/201-vantajinho.png.

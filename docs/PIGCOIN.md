@@ -27,3 +27,10 @@ Pig Coin recompensa bons habitos, constancia e aprendizado.
 
 Nao recompensa vicio.
 
+## Vantajinho no PigCoin
+
+O Vantajinho pode aparecer em jogos educativos futuros ligados a PigCoin para transformar descuido em aprendizado.
+
+Regra principal: no dinheiro real, ele so orienta. No PigCoin, por ser ficticio e educativo, ele pode gerar consequencias simbolicas dentro do jogo.
+
+PigCoin continua sem valor financeiro, sem PIX, sem compra, sem venda e sem saque.

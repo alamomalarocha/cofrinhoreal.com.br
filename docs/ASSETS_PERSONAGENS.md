@@ -102,3 +102,11 @@ O projeto possui duas versões principais da logo Pig: uma versão com Pig em p�
 - Alternativa interna: `assets/brand/cofrinho-real-logo-pig-face-full-transparent.png` e alias `assets/brand/cofrinho-real-logo-site-full-transparent.png`.
 
 O personagem 001 continua separado em `assets/characters/001-pig-principal.png`. As logos completas ficam em `assets/brand/` e não substituem o personagem individual.
+
+## Asset oficial 201 - Vantajinho
+
+O personagem especial Vantajinho possui imagem oficial em:
+
+assets/characters/201-vantajinho.png
+
+Esse asset pertence aos personagens da Vila Pig e nao substitui o Pig Principal 001 nem as logos de marca em assets/brand/.

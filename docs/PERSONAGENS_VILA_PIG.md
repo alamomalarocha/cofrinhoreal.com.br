@@ -128,3 +128,23 @@ No MVP atual, eles existem apenas como estrutura documental e base de dados esta
 ## Uso no website
 
 O Pig Principal 001 é também a referência visual oficial da marca no website. Ele representa o mascote oficial, o guia visual do Cofrinho Real e a principal referência do universo Pig no protótipo atual. Essa decisão não altera a sequência de personagens nem as regras de avatar.
+
+## Personagem especial 201 - Vantajinho
+
+O Vantajinho e um quati brasileiro esperto, travesso e educativo da Vila Pig. Ele representa impulso, descuido, custo escondido e escolhas mal planejadas de forma leve, sempre como aprendizado.
+
+Regra principal: **No dinheiro real, o Vantajinho so ensina. No PigCoin, ele entra no jogo.**
+
+Ele e o contraponto educativo do Pig. No dinheiro real, ele apenas orienta. No PigCoin, ele pode gerar consequencias ficticias dentro dos jogos educativos.
+
+Dados oficiais:
+
+- numero: 201
+- nome: Vantajinho
+- slug: vantajinho
+- tipo_personagem: personagem_especial
+- especie: quati
+- universo: vila_pig
+- funcao_educativa: contraponto_ao_erro
+- status_imagem: criada
+- asset_futuro: assets/characters/201-vantajinho.png

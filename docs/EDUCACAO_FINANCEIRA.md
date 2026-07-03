@@ -47,3 +47,18 @@ Nao deve criar:
 Jogos e albuns podem existir no futuro apenas como apoio ao aprendizado.
 
 Documento principal: `docs/JOGOS_EDUCATIVOS.md`.
+
+## Vantajinho como alerta educativo
+
+O Vantajinho ajuda a explicar impulso, descuido, custo escondido e escolhas mal planejadas sem bronca e sem medo.
+
+Frases de referencia:
+
+- "Ops! Essa moedinha escapou."
+- "Gastou sem pensar? O Vantajinho passou."
+- "Cuidado: vantagem rapida pode virar perda depois."
+- "Pensou pouco, pagou caro."
+- "No PigCoin, descuido custa moedinha."
+- "No dinheiro real, eu so aviso. No PigCoin, eu entro no jogo."
+
+A mensagem deve sempre deixar claro que dinheiro real recebe apenas orientacao educativa e que PigCoin e ficticio.

@@ -7405,5 +7405,59 @@
       "adulto",
       "vila_pig"
     ]
+  },
+  {
+    "numero": "201",
+    "nome": "Vantajinho",
+    "slug": "vantajinho",
+    "apelido": "Vantajinho",
+    "aliases": [
+      "Vantajinho",
+      "Quati Vantajinho",
+      "Vantajinho da Vila Pig"
+    ],
+    "tipo": "personagem_especial",
+    "tipo_personagem": "personagem_especial",
+    "categoria": "Contraponto educativo",
+    "faixa_etaria": "atemporal",
+    "papel": "Contraponto educativo do Pig para impulso, descuido e escolhas mal planejadas",
+    "descricao_curta": "O Vantajinho mostra, de forma leve, que descuido e impulso podem ter consequencias educativas.",
+    "historia": "Quati brasileiro esperto e travesso da Vila Pig, criado para transformar erros em aprendizado sem assustar.",
+    "relacoes": [
+      "Pig",
+      "PigCoin",
+      "Vila Fazenda Pig"
+    ],
+    "uso_no_projeto": [
+      "site",
+      "app",
+      "jogos educativos futuros",
+      "PigCoins",
+      "cards colecionaveis",
+      "educacao financeira"
+    ],
+    "ideia_visual": "Quati brasileiro esperto, simpatico e travesso, com moedas ficticias e expressao educativa.",
+    "status_imagem": "criada",
+    "asset_futuro": "assets/characters/201-vantajinho.png",
+    "tags": [
+      "personagem_especial",
+      "vantajinho",
+      "quati",
+      "educacao",
+      "pigcoin",
+      "contraponto_ao_erro"
+    ],
+    "especie": "quati",
+    "universo": "vila_pig",
+    "funcao_educativa": "contraponto_ao_erro",
+    "regra_principal": "No dinheiro real, o Vantajinho so ensina. No PigCoin, ele entra no jogo.",
+    "frases": [
+      "Ops! Essa moedinha escapou.",
+      "Gastou sem pensar? O Vantajinho passou.",
+      "Cuidado: vantagem rapida pode virar perda depois.",
+      "Pensou pouco, pagou caro.",
+      "No PigCoin, descuido custa moedinha.",
+      "No dinheiro real, eu so aviso. No PigCoin, eu entro no jogo."
+    ]
   }
 ]
