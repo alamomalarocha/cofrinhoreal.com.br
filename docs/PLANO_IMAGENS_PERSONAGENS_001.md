@@ -13,7 +13,7 @@ Esta fase ainda nao cria imagens. Ela apenas define o processo para receber e or
 - A base de personagens existe em `data/vila-pig-personagens.json`.
 - A versao CSV existe em `data/vila-pig-personagens.csv`.
 - Existem 200 personagens cadastrados.
-- O personagem `001 — Pig Principal` ja possui imagem oficial criada em `assets/characters/001-pig-principal.png`.
+- Os personagens `001 — Pig Principal` e `002 — Pig Bebe` ja possuem imagens oficiais criadas em `assets/characters/`.
 - Os demais personagens seguem com `status_imagem: "pendente"`.
 
 ## Como as imagens serao criadas

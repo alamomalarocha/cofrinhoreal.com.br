@@ -33,15 +33,16 @@ Quando uma imagem futura for enviada com o mesmo numero e slug, o projeto podera
 
 ## Imagens oficiais criadas
 
-Atualmente existe 1 imagem oficial criada:
+Atualmente existem 2 imagens oficiais criadas:
 
 ```text
 assets/characters/001-pig-principal.png
+assets/characters/002-pig-bebe.png
 ```
 
 ## Status atual
 
-O personagem `001 — Pig Principal` esta com:
+Os personagens `001 — Pig Principal` e `002 — Pig Bebe` estao com:
 
 ```json
 "status_imagem": "criada"

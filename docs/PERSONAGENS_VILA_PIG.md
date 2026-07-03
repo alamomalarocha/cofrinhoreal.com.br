@@ -11,6 +11,7 @@ O card `001` e sempre o **Pig Principal**.
 ## Imagens oficiais criadas
 
 - `001` Pig Principal: `assets/characters/001-pig-principal.png`
+- `002` Pig Bebe: `assets/characters/002-pig-bebe.png`
 
 A ordem inicial oficial e:
 
