@@ -95,3 +95,7 @@ As imagens antigas de variacoes de avatar foram movidas para `assets/characters/
 A pagina `personagens.html` apresenta a Colecao Pig: uma galeria estatica de cards colecionaveis dos personagens, avatares e especiais do Cofrinho Real. Ela usa `data/vila-pig-personagens.json` e assets de `assets/characters/`, sem backend, banco real, login real, PIX real ou movimentacao real.
 
 Sempre que uma imagem oficial de personagem ou avatar for criada, atualizar tambem a pagina/personagens e os dados que alimentam a Colecao Pig para que o card correspondente apareca no site.
+
+## Regra atual dos prompts visuais
+
+Os prompts visuais para ChatGPT Images devem ser isolados e comecar pedindo para ignorar qualquer imagem, print, screenshot, tela, interface, card, logo ou arquivo visual anterior da conversa. Isso evita que a geracao use contexto visual errado em vez de criar apenas o personagem ou avatar solicitado.

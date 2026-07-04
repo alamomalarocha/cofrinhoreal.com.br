@@ -344,3 +344,21 @@ As variacoes anteriores de avatar foram movidas para `assets/characters/_drafts/
 Sempre que uma imagem oficial de personagem ou avatar for criada, atualizar tambem a pagina `personagens.html` / Colecao Pig, para que o card correspondente apareca no site.
 
 A Colecao Pig deve continuar estatica, educativa e institucional: sem backend, sem banco real, sem login real, sem PIX real, sem movimentacao real, sem compra de cartas, sem raridade de aposta e sem loot box.
+
+## Prompt visual isolado contra contexto anterior
+
+Todo prompt visual enviado ao ChatGPT Images deve comecar com a frase:
+
+```text
+Crie do zero uma unica imagem individual. Ignore qualquer imagem, print, screenshot, tela, interface, card, logo ou arquivo visual anterior da conversa. Use somente a descricao abaixo.
+```
+
+Essa regra evita que prints do site, cards da Colecao Pig, logos ou imagens anteriores sejam usados como referencia involuntaria. O prompt visual deve ser um bloco isolado, limpo e fechado, sem dados tecnicos de arquivo, JSON, CSV, commit ou caminhos do projeto.
+
+O bloco deve usar o titulo:
+
+```text
+PROMPT VISUAL LIMPO - USAR SOZINHO
+```
+
+E deve terminar reforcando: personagem unico, corpo inteiro, centralizado, fundo transparente, sem texto, sem letras, sem numeros, sem logotipo, sem moeda, sem medalha, sem simbolo, sem patch, sem etiqueta, sem broche, sem cenario, sem painel, sem print, sem interface e sem outro personagem.

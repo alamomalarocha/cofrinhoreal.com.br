@@ -288,3 +288,13 @@ A variacao `azul` do avatar `002 - Pig Bebe` foi recriada no sistema visual simp
 - asset principal preservado: `assets/characters/002-pig-bebe.png`
 - status da variacao `azul`: `criada`
 - proxima variacao pendente: `002 - Pig Bebe - rosa`
+
+## Prompt visual isolado - regra vigente
+
+Antes de gerar qualquer nova imagem, o prompt visual deve ser entregue em bloco isolado e comecar assim:
+
+```text
+Crie do zero uma unica imagem individual. Ignore qualquer imagem, print, screenshot, tela, interface, card, logo ou arquivo visual anterior da conversa. Use somente a descricao abaixo.
+```
+
+Essa frase e obrigatoria para evitar confusao com screenshots, cards da Colecao Pig, logos ou outras imagens da conversa.
