@@ -206,3 +206,11 @@ A variacao `padrao` do avatar `002 - Pig Bebe` foi recriada no sistema visual si
 Os assets oficiais de personagens em `assets/characters/` alimentam a pagina `personagens.html`, chamada Colecao Pig. Cada imagem criada deve aparecer como card visual educativo, sem valor financeiro e sem linguagem de aposta.
 
 Quando uma nova imagem oficial for salva, atualizar os dados em `data/vila-pig-personagens.json` e confirmar que o card correspondente aparece na Colecao Pig.
+## Avatar 002 - Pig Bebe - azul recriado
+
+A variacao `azul` do avatar `002 - Pig Bebe` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/002-pig-bebe-azul.png`
+- asset principal preservado: `assets/characters/002-pig-bebe.png`
+- status da variacao `azul`: `criada`
+- proxima variacao pendente: `002 - Pig Bebe - rosa`
