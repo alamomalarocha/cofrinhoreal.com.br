@@ -154,12 +154,13 @@
     },
     "status_variacoes": {
       "padrao": "criada",
-      "azul": "pendente",
+      "azul": "criada",
       "rosa": "pendente",
       "arco_iris": "pendente"
     },
     "variacoes_criadas": [
-      "padrao"
+      "padrao",
+      "azul"
     ],
     "padrao_visual_avatar": "camisa_calca_tenis",
     "assets_variacoes_rascunho": {

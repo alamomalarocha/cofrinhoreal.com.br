@@ -325,3 +325,12 @@ A variacao `padrao` do avatar `003 - Pig Primeirinhos` foi recriada no sistema v
 - asset principal preservado: `assets/characters/003-pig-primeirinhos.png`
 - status da variacao `padrao`: `criada`
 - proxima variacao pendente: `003 - Pig Primeirinhos - azul`
+
+## Avatar 003 - Pig Primeirinhos - azul recriado
+
+A variacao `azul` do avatar `003 - Pig Primeirinhos` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/003-pig-primeirinhos-azul.png`
+- asset principal preservado: `assets/characters/003-pig-primeirinhos.png`
+- status da variacao `azul`: `criada`
+- proxima variacao pendente: `003 - Pig Primeirinhos - rosa`
