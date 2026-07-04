@@ -218,12 +218,14 @@
     },
     "padrao_visual_avatar": "camisa_calca_tenis",
     "status_variacoes": {
-      "padrao": "pendente",
+      "padrao": "criada",
       "azul": "pendente",
       "rosa": "pendente",
       "arco_iris": "pendente"
     },
-    "variacoes_criadas": []
+    "variacoes_criadas": [
+      "padrao"
+    ]
   },
   {
     "numero": "005",
