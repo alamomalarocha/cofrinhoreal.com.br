@@ -276,3 +276,7 @@ A variacao `padrao` do avatar `002 - Pig Bebe` foi recriada no sistema visual si
 - asset principal preservado: `assets/characters/002-pig-bebe.png`
 - status da variacao `padrao`: `criada`
 - proxima variacao pendente: `002 - Pig Bebe - azul`
+
+## Colecao Pig durante o plano de imagens
+
+A cada novo avatar ou personagem oficial salvo em `assets/characters/`, o controle de dados deve permitir que `personagens.html` exiba o card correspondente na Colecao Pig. Cards pendentes podem aparecer com placeholder visual simples.

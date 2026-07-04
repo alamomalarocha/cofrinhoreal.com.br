@@ -148,3 +148,9 @@ Dados oficiais:
 - funcao_educativa: contraponto_ao_erro
 - status_imagem: criada
 - asset_futuro: assets/characters/201-vantajinho.png
+
+## Colecao Pig
+
+A Colecao Pig e a representacao visual em cards dos personagens, avatares e especiais do universo Cofrinho Real. Os cards sao institucionais, educativos e colecionaveis apenas no sentido visual. Nao possuem valor financeiro, nao sao vendidos e nao devem ser tratados como aposta, cassino, loot box ou mecanismo de recompensa financeira.
+
+A pagina estatica `personagens.html` deve ser atualizada sempre que uma imagem oficial de personagem ou avatar for criada.

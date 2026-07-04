@@ -89,3 +89,9 @@ Os avatares do usuario `002` a `011` foram reabertos para recriacao com uma base
 As variacoes `padrao`, `azul`, `rosa` e `arco_iris` passam a mudar principalmente as cores dessas pecas. Nao usar bones, acessorios, simbolos, moedas, medalhas, textos ou elementos extras nos avatares-base.
 
 As imagens antigas de variacoes de avatar foram movidas para `assets/characters/_drafts/avatars/`.
+
+## Colecao Pig
+
+A pagina `personagens.html` apresenta a Colecao Pig: uma galeria estatica de cards colecionaveis dos personagens, avatares e especiais do Cofrinho Real. Ela usa `data/vila-pig-personagens.json` e assets de `assets/characters/`, sem backend, banco real, login real, PIX real ou movimentacao real.
+
+Sempre que uma imagem oficial de personagem ou avatar for criada, atualizar tambem a pagina/personagens e os dados que alimentam a Colecao Pig para que o card correspondente apareca no site.

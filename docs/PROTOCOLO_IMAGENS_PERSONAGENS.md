@@ -338,3 +338,9 @@ Variações:
 - `arco_iris`: camisa com faixas fortes de arco-iris em vermelho, laranja, amarelo, verde, azul e roxo/lilas; calca ou short neutro; tenis branco/off-white com pequenos detalhes arco-iris.
 
 As variacoes anteriores de avatar foram movidas para `assets/characters/_drafts/avatars/` como rascunhos e nao devem ser tratadas como assets oficiais.
+
+## Atualizacao obrigatoria da Colecao Pig
+
+Sempre que uma imagem oficial de personagem ou avatar for criada, atualizar tambem a pagina `personagens.html` / Colecao Pig, para que o card correspondente apareca no site.
+
+A Colecao Pig deve continuar estatica, educativa e institucional: sem backend, sem banco real, sem login real, sem PIX real, sem movimentacao real, sem compra de cartas, sem raridade de aposta e sem loot box.
