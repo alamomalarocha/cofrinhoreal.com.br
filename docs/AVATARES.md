@@ -301,3 +301,11 @@ A variacao `azul` do avatar `002 - Pig Bebe` foi recriada no sistema visual simp
 Todo prompt visual de avatar deve ser isolado e pedir explicitamente para ignorar qualquer imagem, print, screenshot, tela, interface, card, logo ou arquivo visual anterior da conversa.
 
 O objetivo e criar somente o avatar descrito, dentro do sistema simples `camisa_calca_tenis`, sem puxar referencia visual de prints do site ou de cards da Colecao Pig.
+## Avatar 002 - Pig Bebe - rosa recriado
+
+A variacao `rosa` do avatar `002 - Pig Bebe` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/002-pig-bebe-rosa.png`
+- asset principal preservado: `assets/characters/002-pig-bebe.png`
+- status da variacao `rosa`: `criada`
+- proxima variacao pendente: `002 - Pig Bebe - arco_iris`

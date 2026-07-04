@@ -298,3 +298,11 @@ Crie do zero uma unica imagem individual. Ignore qualquer imagem, print, screens
 ```
 
 Essa frase e obrigatoria para evitar confusao com screenshots, cards da Colecao Pig, logos ou outras imagens da conversa.
+## Avatar 002 - Pig Bebe - rosa recriado
+
+A variacao `rosa` do avatar `002 - Pig Bebe` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/002-pig-bebe-rosa.png`
+- asset principal preservado: `assets/characters/002-pig-bebe.png`
+- status da variacao `rosa`: `criada`
+- proxima variacao pendente: `002 - Pig Bebe - arco_iris`

@@ -214,3 +214,11 @@ A variacao `azul` do avatar `002 - Pig Bebe` foi recriada no sistema visual simp
 - asset principal preservado: `assets/characters/002-pig-bebe.png`
 - status da variacao `azul`: `criada`
 - proxima variacao pendente: `002 - Pig Bebe - rosa`
+## Avatar 002 - Pig Bebe - rosa recriado
+
+A variacao `rosa` do avatar `002 - Pig Bebe` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/002-pig-bebe-rosa.png`
+- asset principal preservado: `assets/characters/002-pig-bebe.png`
+- status da variacao `rosa`: `criada`
+- proxima variacao pendente: `002 - Pig Bebe - arco_iris`
