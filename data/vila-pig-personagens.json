@@ -153,12 +153,14 @@
       "arco_iris": "assets/characters/003-pig-primeirinhos-arco-iris.png"
     },
     "status_variacoes": {
-      "padrao": "pendente",
+      "padrao": "criada",
       "azul": "pendente",
       "rosa": "pendente",
       "arco_iris": "pendente"
     },
-    "variacoes_criadas": [],
+    "variacoes_criadas": [
+      "padrao"
+    ],
     "padrao_visual_avatar": "camisa_calca_tenis",
     "assets_variacoes_rascunho": {
       "padrao": "assets/characters/_drafts/avatars/003-pig-primeirinhos-padrao-rascunho-pre-sistema-simples.png"
