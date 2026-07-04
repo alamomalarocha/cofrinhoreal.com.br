@@ -256,3 +256,13 @@ A variacao `rosa` do avatar `003 - Pig Primeirinhos` foi recriada no sistema vis
 - asset principal preservado: `assets/characters/003-pig-primeirinhos.png`
 - status da variacao `rosa`: `criada`
 - proxima variacao pendente: `003 - Pig Primeirinhos - arco_iris`
+
+## Avatar 003 - Pig Primeirinhos - arco_iris recriado
+
+A variacao `arco_iris` do avatar `003 - Pig Primeirinhos` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/003-pig-primeirinhos-arco-iris.png`
+- asset principal preservado: `assets/characters/003-pig-primeirinhos.png`
+- status da variacao `arco_iris`: `criada`
+- variacoes do `003 - Pig Primeirinhos` criadas: `padrao`, `azul`, `rosa`, `arco_iris`
+- proximo item pendente: `004 - Pig Crianca - padrao`
