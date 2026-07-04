@@ -289,15 +289,53 @@ A variacao `azul` do avatar `002 - Pig Bebe` foi recriada no sistema visual simp
 - status da variacao `azul`: `criada`
 - proxima variacao pendente: `002 - Pig Bebe - rosa`
 
-## Prompt visual isolado - regra vigente
+## Prompt visual ultra curto - regra vigente
 
-Antes de gerar qualquer nova imagem, o prompt visual deve ser entregue em bloco isolado e comecar assim:
+Antes de gerar qualquer nova imagem de avatar, o prompt visual deve ser ultra curto, isolado e com no maximo 8 linhas.
+
+Sempre comecar assim:
 
 ```text
-Crie do zero uma unica imagem individual. Ignore qualquer imagem, print, screenshot, tela, interface, card, logo ou arquivo visual anterior da conversa. Use somente a descricao abaixo.
+Crie do zero. Ignore prints, telas, logos, cards e imagens anteriores.
 ```
 
-Essa frase e obrigatoria para evitar confusao com screenshots, cards da Colecao Pig, logos ou outras imagens da conversa.
+O prompt visual deve descrever apenas idade/faixa, pose, roupa, cor, proibicoes essenciais e fundo transparente. Nao incluir dados tecnicos, arquivo, caminho, JSON, CSV, commit, listas longas ou explicacao do projeto.
+
+Modelos de avatar:
+
+```text
+Crie do zero. Ignore prints, telas, logos, cards e imagens anteriores.
+Porquinho [idade/faixa], corpo inteiro, em pe, centralizado, estilo 3D/cartoon premium.
+Roupa: camisa lisa off-white, short bege claro, tenis branco simples.
+Sem acessorios, sem texto, sem letras, sem numeros, sem simbolos, sem moeda, sem logo, sem cenario.
+Fundo transparente.
+```
+
+```text
+Crie do zero. Ignore prints, telas, logos, cards e imagens anteriores.
+Porquinho [idade/faixa], corpo inteiro, em pe, centralizado, estilo 3D/cartoon premium.
+Roupa: camisa azul lisa, short azul claro, tenis branco simples.
+Sem acessorios, sem texto, sem letras, sem numeros, sem simbolos, sem moeda, sem logo, sem cenario.
+Fundo transparente.
+```
+
+```text
+Crie do zero. Ignore prints, telas, logos, cards e imagens anteriores.
+Porquinho [idade/faixa], corpo inteiro, em pe, centralizado, estilo 3D/cartoon premium.
+Roupa: camisa rosa lisa, short rosa claro, tenis branco simples.
+Sem acessorios, sem texto, sem letras, sem numeros, sem simbolos, sem moeda, sem logo, sem cenario.
+Fundo transparente.
+```
+
+```text
+Crie do zero. Ignore prints, telas, logos, cards e imagens anteriores.
+Porquinho [idade/faixa], corpo inteiro, em pe, centralizado, estilo 3D/cartoon premium.
+Roupa: camisa com listras horizontais fortes de arco-iris vermelho, laranja, amarelo, verde, azul e roxo; short off-white; tenis branco simples.
+Sem acessorios, sem texto, sem letras, sem numeros, sem simbolos, sem moeda, sem logo, sem cenario.
+Fundo transparente.
+```
+
+Excecao: `002 - Pig Bebe` pode ficar sentado. Do `003` ao `011`, sempre usar `corpo inteiro, em pe, centralizado`.
 ## Avatar 002 - Pig Bebe - rosa recriado
 
 A variacao `rosa` do avatar `002 - Pig Bebe` foi recriada no sistema visual simples `camisa_calca_tenis`.

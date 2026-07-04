@@ -98,4 +98,6 @@ Sempre que uma imagem oficial de personagem ou avatar for criada, atualizar tamb
 
 ## Regra atual dos prompts visuais
 
-Os prompts visuais para ChatGPT Images devem ser isolados e comecar pedindo para ignorar qualquer imagem, print, screenshot, tela, interface, card, logo ou arquivo visual anterior da conversa. Isso evita que a geracao use contexto visual errado em vez de criar apenas o personagem ou avatar solicitado.
+Os prompts visuais para ChatGPT Images devem ser ultra curtos, isolados e com no maximo 8 linhas. Sempre comecar com: `Crie do zero. Ignore prints, telas, logos, cards e imagens anteriores.`
+
+Para avatares, o prompt deve trazer apenas idade/faixa, pose, roupa, cor, proibicoes essenciais e fundo transparente. Nao misturar dados tecnicos, caminhos, JSON, CSV, commit ou explicacoes longas no prompt visual.

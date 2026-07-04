@@ -296,11 +296,19 @@ A variacao `azul` do avatar `002 - Pig Bebe` foi recriada no sistema visual simp
 - status da variacao `azul`: `criada`
 - proxima variacao pendente: `002 - Pig Bebe - rosa`
 
-## Regra de prompt isolado para avatares
+## Regra de prompt ultra curto para avatares
 
-Todo prompt visual de avatar deve ser isolado e pedir explicitamente para ignorar qualquer imagem, print, screenshot, tela, interface, card, logo ou arquivo visual anterior da conversa.
+Todo prompt visual de avatar deve ser isolado, ultra curto e ter no maximo 8 linhas.
 
-O objetivo e criar somente o avatar descrito, dentro do sistema simples `camisa_calca_tenis`, sem puxar referencia visual de prints do site ou de cards da Colecao Pig.
+Sempre comecar com:
+
+```text
+Crie do zero. Ignore prints, telas, logos, cards e imagens anteriores.
+```
+
+O prompt deve dizer apenas faixa etaria, pose, roupa, cor, proibicoes essenciais e fundo transparente. Nao incluir dados tecnicos, caminhos, JSON, CSV, commit, explicacoes longas ou listas extensas.
+
+Para `002 - Pig Bebe`, usar bebe de 0 a 2 anos sentado. Do `003` ao `011`, usar sempre corpo inteiro, em pe e centralizado.
 ## Avatar 002 - Pig Bebe - rosa recriado
 
 A variacao `rosa` do avatar `002 - Pig Bebe` foi recriada no sistema visual simples `camisa_calca_tenis`.

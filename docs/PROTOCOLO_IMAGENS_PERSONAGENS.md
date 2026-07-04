@@ -345,20 +345,69 @@ Sempre que uma imagem oficial de personagem ou avatar for criada, atualizar tamb
 
 A Colecao Pig deve continuar estatica, educativa e institucional: sem backend, sem banco real, sem login real, sem PIX real, sem movimentacao real, sem compra de cartas, sem raridade de aposta e sem loot box.
 
-## Prompt visual isolado contra contexto anterior
+## Prompt visual ultra curto para avatares
 
-Todo prompt visual enviado ao ChatGPT Images deve comecar com a frase:
+Todo prompt visual de avatar enviado ao ChatGPT Images deve ser ultra curto, direto e isolado.
 
-```text
-Crie do zero uma unica imagem individual. Ignore qualquer imagem, print, screenshot, tela, interface, card, logo ou arquivo visual anterior da conversa. Use somente a descricao abaixo.
-```
-
-Essa regra evita que prints do site, cards da Colecao Pig, logos ou imagens anteriores sejam usados como referencia involuntaria. O prompt visual deve ser um bloco isolado, limpo e fechado, sem dados tecnicos de arquivo, JSON, CSV, commit ou caminhos do projeto.
-
-O bloco deve usar o titulo:
+O prompt deve ter no maximo 8 linhas e comecar exatamente com:
 
 ```text
-PROMPT VISUAL LIMPO - USAR SOZINHO
+Crie do zero. Ignore prints, telas, logos, cards e imagens anteriores.
 ```
 
-E deve terminar reforcando: personagem unico, corpo inteiro, centralizado, fundo transparente, sem texto, sem letras, sem numeros, sem logotipo, sem moeda, sem medalha, sem simbolo, sem patch, sem etiqueta, sem broche, sem cenario, sem painel, sem print, sem interface e sem outro personagem.
+O prompt visual deve conter apenas:
+
+- idade ou faixa;
+- pose;
+- roupa;
+- cor;
+- proibicoes essenciais;
+- fundo transparente.
+
+Nao usar textos longos, listas extensas, dados tecnicos, nome de arquivo, caminho, JSON, CSV, commit ou explicacoes do projeto.
+
+Modelos oficiais:
+
+Padrao:
+
+```text
+Crie do zero. Ignore prints, telas, logos, cards e imagens anteriores.
+Porquinho [idade/faixa], corpo inteiro, em pe, centralizado, estilo 3D/cartoon premium.
+Roupa: camisa lisa off-white, short bege claro, tenis branco simples.
+Sem acessorios, sem texto, sem letras, sem numeros, sem simbolos, sem moeda, sem logo, sem cenario.
+Fundo transparente.
+```
+
+Azul:
+
+```text
+Crie do zero. Ignore prints, telas, logos, cards e imagens anteriores.
+Porquinho [idade/faixa], corpo inteiro, em pe, centralizado, estilo 3D/cartoon premium.
+Roupa: camisa azul lisa, short azul claro, tenis branco simples.
+Sem acessorios, sem texto, sem letras, sem numeros, sem simbolos, sem moeda, sem logo, sem cenario.
+Fundo transparente.
+```
+
+Rosa:
+
+```text
+Crie do zero. Ignore prints, telas, logos, cards e imagens anteriores.
+Porquinho [idade/faixa], corpo inteiro, em pe, centralizado, estilo 3D/cartoon premium.
+Roupa: camisa rosa lisa, short rosa claro, tenis branco simples.
+Sem acessorios, sem texto, sem letras, sem numeros, sem simbolos, sem moeda, sem logo, sem cenario.
+Fundo transparente.
+```
+
+Arco-iris:
+
+```text
+Crie do zero. Ignore prints, telas, logos, cards e imagens anteriores.
+Porquinho [idade/faixa], corpo inteiro, em pe, centralizado, estilo 3D/cartoon premium.
+Roupa: camisa com listras horizontais fortes de arco-iris vermelho, laranja, amarelo, verde, azul e roxo; short off-white; tenis branco simples.
+Sem acessorios, sem texto, sem letras, sem numeros, sem simbolos, sem moeda, sem logo, sem cenario.
+Fundo transparente.
+```
+
+Excecao para `002 - Pig Bebe`: por ser bebe de 0 a 2 anos, pode ficar sentado. Usar `Porquinho bebe 0 a 2 anos, corpo inteiro, sentado, centralizado...`.
+
+Regra para `003` a `011`: todos devem estar em pe. Usar sempre `corpo inteiro, em pe, centralizado`.
