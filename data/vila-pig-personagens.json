@@ -220,12 +220,13 @@
     "status_variacoes": {
       "padrao": "criada",
       "azul": "criada",
-      "rosa": "pendente",
+      "rosa": "criada",
       "arco_iris": "pendente"
     },
     "variacoes_criadas": [
       "padrao",
-      "azul"
+      "azul",
+      "rosa"
     ]
   },
   {
