@@ -26,6 +26,7 @@ Antes de desenvolver qualquer funcionalidade, leia:
 - `PESQUISA_REFERENCIAS_001.md`: pesquisa inicial sobre LGPD, cookies, badges de app, Cloudflare e referencias visuais.
 - `RELATORIO_GERAL_PROJETO_001.md`: relatorio consolidado da fase atual do projeto.
 - `CHECKPOINT_ORGANIZACAO_GERAL_001.md`: checkpoint da organizacao geral antes da fase de imagens.
+- `ORGANIZACAO_DIGITAL_ALAMO_2026_07_04.md`: nova base de contas, Drive, GitHub, Cloudflare, GoDaddy e regras operacionais para projetos do Alamo.
 - `CHECKPOINT_REFINAMENTO_GERAL_001.md`: checkpoint da rodada geral de refinamento visual e documental.
 - `CHECKPOINT_REESTRUTURA_MULTIPAGINAS_001.md`: checkpoint da mudanca de landing unica para prototipo estatico multipaginas.
 - Arte principal atual do Pig/Cofrinho Real: `assets/brand/cofrinho-real-pig-logo-principal.png`.
