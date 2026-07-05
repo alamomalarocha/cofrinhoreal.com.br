@@ -303,3 +303,12 @@ A variacao `arco_iris` do avatar `004 - Pig Crianca` foi recriada no sistema vis
 - status da variacao `arco_iris`: `criada`
 - variacoes do `004 - Pig Crianca` criadas: `padrao`, `azul`, `rosa`, `arco_iris`
 - proximo item pendente: `005 - Pig Pre-Adolescente - padrao`
+
+## Avatar 005 - Pig Pre-Adolescente - padrao recriado
+
+A variacao `padrao` do avatar `005 - Pig Pre-Adolescente` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/005-pig-pre-adolescente-padrao.png`
+- asset principal preservado: `assets/characters/005-pig-pre-adolescente.png`
+- status da variacao `padrao`: `criada`
+- proxima variacao pendente: `005 - Pig Pre-Adolescente - azul`
