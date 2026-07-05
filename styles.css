@@ -79,7 +79,8 @@ button {
   grid-template-columns: minmax(320px, 380px) minmax(0, 1fr);
   align-items: center;
   column-gap: clamp(32px, 3.2vw, 48px);
-  padding: 12px 0;
+  min-height: 124px;
+  padding: 14px 0;
   overflow: visible;
 }
 
@@ -90,17 +91,18 @@ button {
   width: 100%;
   min-width: 0;
   overflow: visible;
-  padding: 2px 0;
+  padding: 6px 0;
   font-weight: 900;
 }
 
 .header-logo {
   display: block;
-  width: clamp(280px, 24vw, 380px);
+  width: clamp(260px, 22vw, 340px);
   max-width: 100%;
-  height: clamp(124px, 9.5vw, 150px);
+  height: auto;
+  max-height: 104px;
   object-fit: contain;
-  object-position: center;
+  object-position: left center;
 }
 
 .brand-name {
@@ -3064,16 +3066,18 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 18px;
-    padding: 10px 0;
+    min-height: 112px;
+    padding: 12px 0;
   }
 
   .brand {
-    flex-basis: 230px;
+    flex-basis: 240px;
   }
 
   .header-logo {
-    width: 220px;
-    height: 96px;
+    width: 232px;
+    height: auto;
+    max-height: 88px;
   }
 
   .menu-button {
@@ -3293,7 +3297,8 @@ h3 {
 
   .header-logo {
     width: 172px;
-    height: 80px;
+    height: auto;
+    max-height: 66px;
   }
 
   .brand {
