@@ -275,3 +275,12 @@ A variacao `padrao` do avatar `004 - Pig Crianca` foi recriada no sistema visual
 - asset principal preservado: `assets/characters/004-pig-crianca.png`
 - status da variacao `padrao`: `criada`
 - proxima variacao pendente: `004 - Pig Crianca - azul`
+
+## Avatar 004 - Pig Crianca - azul recriado
+
+A variacao `azul` do avatar `004 - Pig Crianca` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/004-pig-crianca-azul.png`
+- asset principal preservado: `assets/characters/004-pig-crianca.png`
+- status da variacao `azul`: `criada`
+- proxima variacao pendente: `004 - Pig Crianca - rosa`
