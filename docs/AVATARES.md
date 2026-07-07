@@ -407,3 +407,12 @@ A variacao `padrao` do avatar `005 - Pig Pre-Adolescente` foi recriada no sistem
 - asset principal preservado: `assets/characters/005-pig-pre-adolescente.png`
 - status da variacao `padrao`: `criada`
 - proxima variacao pendente: `005 - Pig Pre-Adolescente - azul`
+
+## Avatar 005 - Pig Pre-Adolescente - azul recriado
+
+A variacao `azul` do avatar `005 - Pig Pre-Adolescente` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/005-pig-pre-adolescente-azul.png`
+- asset principal preservado: `assets/characters/005-pig-pre-adolescente.png`
+- status da variacao `azul`: `criada`
+- proxima variacao pendente: `005 - Pig Pre-Adolescente - rosa`
