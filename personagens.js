@@ -3,6 +3,7 @@ const statusLabel = document.querySelector("[data-collection-status]");
 const countLabel = document.querySelector("[data-collection-count]");
 const filters = document.querySelector("[data-character-filters]");
 const collectionYear = "2026";
+const assetVersion = "38";
 
 const styleCodes = {
   padrao: "PAD",
@@ -72,6 +73,11 @@ function footerLine(person) {
   return "Uma historia da Vila Pig para aprender com carinho.";
 }
 
+function versionedAsset(path) {
+  if (!path || path.includes("?")) return path;
+  return path + "?v=" + assetVersion;
+}
+
 function tagsFor(person, style, status) {
   const tags = ["todos", status];
 
@@ -98,7 +104,7 @@ function makeCard(person, options = {}) {
   const created = status === "criada";
   const title = style ? person.nome + " " + styleLabel : person.nome;
   const imageMarkup = created
-    ? '<img src="' + escapeHtml(image) + '" alt="' + escapeHtml(title) + '" loading="lazy" />'
+    ? '<img src="' + escapeHtml(versionedAsset(image)) + '" alt="' + escapeHtml(title) + '" loading="lazy" />'
     : '<div class="card-placeholder" aria-label="Imagem pendente"><span>' +
       escapeHtml(person.numero) +
       "</span><small>Imagem pendente</small></div>";
