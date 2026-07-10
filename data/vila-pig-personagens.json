@@ -402,12 +402,13 @@
     "padrao_visual_avatar": "camisa_calca_tenis",
     "status_variacoes": {
       "padrao": "criada",
-      "azul": "pendente",
+      "azul": "criada",
       "rosa": "pendente",
       "arco_iris": "pendente"
     },
     "variacoes_criadas": [
-      "padrao"
+      "padrao",
+      "azul"
     ]
   },
   {
