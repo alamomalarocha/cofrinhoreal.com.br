@@ -489,3 +489,13 @@ A variacao `rosa` do avatar `006 - Pig Adolescente` foi recriada no sistema visu
 - asset principal preservado: `assets/characters/006-pig-adolescente.png`
 - status da variacao `rosa`: `criada`
 - proxima variacao pendente: `006 - Pig Adolescente - arco_iris`
+
+## Avatar 006 - Pig Adolescente - arco_iris recriado
+
+A variacao `arco_iris` do avatar `006 - Pig Adolescente` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/006-pig-adolescente-arco-iris.png`
+- asset principal preservado: `assets/characters/006-pig-adolescente.png`
+- status da variacao `arco_iris`: `criada`
+- variacoes do `006 - Pig Adolescente` criadas: `padrao`, `azul`, `rosa`, `arco_iris`
+- proximo item pendente: `007 - Pig Jovem - padrao`
