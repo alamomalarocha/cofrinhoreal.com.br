@@ -395,3 +395,12 @@ A variacao `azul` do avatar `007 - Pig Jovem` foi recriada no sistema visual sim
 - asset principal preservado: `assets/characters/007-pig-jovem.png`
 - status da variacao `azul`: `criada`
 - proxima variacao pendente: `007 - Pig Jovem - rosa`
+
+## Avatar 007 - Pig Jovem - rosa recriado
+
+A variacao `rosa` do avatar `007 - Pig Jovem` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/007-pig-jovem-rosa.png`
+- asset principal preservado: `assets/characters/007-pig-jovem.png`
+- status da variacao `rosa`: `criada`
+- proxima variacao pendente: `007 - Pig Jovem - arco_iris`
