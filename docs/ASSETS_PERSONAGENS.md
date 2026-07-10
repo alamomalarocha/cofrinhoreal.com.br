@@ -432,3 +432,12 @@ A variacao `azul` do avatar `008 - Pig Jovem Adulto` foi recriada no sistema vis
 - asset principal preservado: `assets/characters/008-pig-jovem-adulto.png`
 - status da variacao `azul`: `criada`
 - proxima variacao pendente: `008 - Pig Jovem Adulto - rosa`
+
+## Avatar 008 - Pig Jovem Adulto - rosa recriado
+
+A variacao `rosa` do avatar `008 - Pig Jovem Adulto` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/008-pig-jovem-adulto-rosa.png`
+- asset principal preservado: `assets/characters/008-pig-jovem-adulto.png`
+- status da variacao `rosa`: `criada`
+- proxima variacao pendente: `008 - Pig Jovem Adulto - arco_iris`
