@@ -472,3 +472,12 @@ A variacao `arco_iris` do avatar `006 - Pig Adolescente` foi recriada no sistema
 - status da variacao `arco_iris`: `criada`
 - variacoes do `006 - Pig Adolescente` criadas: `padrao`, `azul`, `rosa`, `arco_iris`
 - proximo item pendente: `007 - Pig Jovem - padrao`
+
+## Avatar 007 - Pig Jovem - padrao recriado
+
+A variacao `padrao` do avatar `007 - Pig Jovem` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/007-pig-jovem-padrao.png`
+- asset principal preservado: `assets/characters/007-pig-jovem.png`
+- status da variacao `padrao`: `criada`
+- proxima variacao pendente: `007 - Pig Jovem - azul`
