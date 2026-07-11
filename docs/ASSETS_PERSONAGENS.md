@@ -525,3 +525,12 @@ A variacao `arco_iris` do avatar `010 - Pig Coroa` foi recriada no sistema visua
 - status da variacao `arco_iris`: `criada`
 - variacoes do `010 - Pig Coroa` criadas: `padrao`, `azul`, `rosa`, `arco_iris`
 - proximo item pendente: `011 - Pig Senior - padrao`
+
+## Avatar 011 - Pig Senior - padrao recriado
+
+A variacao `padrao` do avatar `011 - Pig Senior` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/011-pig-senior-padrao.png`
+- asset principal preservado: `assets/characters/011-pig-senior.png`
+- status da variacao `padrao`: `criada`
+- proxima variacao pendente: `011 - Pig Senior - azul`
