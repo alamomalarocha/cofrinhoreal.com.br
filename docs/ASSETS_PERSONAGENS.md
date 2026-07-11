@@ -497,3 +497,12 @@ A variacao `padrao` do avatar `010 - Pig Coroa` foi recriada no sistema visual s
 - asset principal preservado: `assets/characters/010-pig-coroa.png`
 - status da variacao `padrao`: `criada`
 - proxima variacao pendente: `010 - Pig Coroa - azul`
+
+## Avatar 010 - Pig Coroa - azul recriado
+
+A variacao `azul` do avatar `010 - Pig Coroa` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/010-pig-coroa-azul.png`
+- asset principal preservado: `assets/characters/010-pig-coroa.png`
+- status da variacao `azul`: `criada`
+- proxima variacao pendente: `010 - Pig Coroa - rosa`
