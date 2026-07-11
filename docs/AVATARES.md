@@ -610,3 +610,13 @@ A variacao `rosa` do avatar `010 - Pig Coroa` foi recriada no sistema visual sim
 - asset principal preservado: `assets/characters/010-pig-coroa.png`
 - status da variacao `rosa`: `criada`
 - proxima variacao pendente: `010 - Pig Coroa - arco_iris`
+
+## Avatar 010 - Pig Coroa - arco_iris recriado
+
+A variacao `arco_iris` do avatar `010 - Pig Coroa` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/010-pig-coroa-arco-iris.png`
+- asset principal preservado: `assets/characters/010-pig-coroa.png`
+- status da variacao `arco_iris`: `criada`
+- variacoes do `010 - Pig Coroa` criadas: `padrao`, `azul`, `rosa`, `arco_iris`
+- proximo item pendente: `011 - Pig Senior - padrao`
