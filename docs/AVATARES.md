@@ -564,3 +564,12 @@ A variacao `azul` do avatar `009 - Pig Adulto` foi recriada no sistema visual si
 - asset principal preservado: `assets/characters/009-pig-adulto.png`
 - status da variacao `azul`: `criada`
 - proxima variacao pendente: `009 - Pig Adulto - rosa`
+
+## Avatar 009 - Pig Adulto - rosa recriado
+
+A variacao `rosa` do avatar `009 - Pig Adulto` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/009-pig-adulto-rosa.png`
+- asset principal preservado: `assets/characters/009-pig-adulto.png`
+- status da variacao `rosa`: `criada`
+- proxima variacao pendente: `009 - Pig Adulto - arco_iris`
