@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cofrinhoreal.com.br/schemas/geracao.schema.json",
+  "title": "Geracao configuravel",
+  "type": "object",
+  "required": ["id_estavel", "nome_exibicao", "slug", "ano_inicio", "ano_fim", "status_nome", "nome_editavel"],
+  "properties": {
+    "id_estavel": {"type": "string", "pattern": "^cohort_[0-9]{4}_[0-9]{4}$"},
+    "nome_exibicao": {"type": "string", "minLength": 1},
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "ano_inicio": {"type": "integer", "minimum": 1800},
+    "ano_fim": {"type": "integer", "minimum": 1800},
+    "status_nome": {"enum": ["consolidado", "configuravel", "provisorio", "reservado"]},
+    "nome_editavel": {"type": "boolean"},
+    "fontes": {"type": "array"}
+  },
+  "additionalProperties": false
+}

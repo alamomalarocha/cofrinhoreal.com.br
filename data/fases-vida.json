@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0.0",
+  "atualizado_em": "2026-07-12",
+  "regra": "A fase da vida e calculada pela idade atual e pode mudar; a geracao e calculada pelo ano de nascimento e permanece estavel.",
+  "fases": [
+    {
+      "id": "fase_bebe",
+      "nome_exibicao": "Pig Bebe",
+      "avatar_numero": "002",
+      "idade_minima": 0,
+      "idade_maxima": 2,
+      "descricao": "Primeiros cuidados, vinculos e descobertas.",
+      "acessibilidade": ["interface acompanhada", "sem pressao de consumo"],
+      "tipo_linguagem": "responsavel_e_cuidador",
+      "supervisao": "responsavel_obrigatorio"
+    },
+    {
+      "id": "fase_primeirinhos",
+      "nome_exibicao": "Pig Primeirinhos",
+      "avatar_numero": "003",
+      "idade_minima": 3,
+      "idade_maxima": 5,
+      "descricao": "Aprendizado inicial por exemplos simples e positivos.",
+      "acessibilidade": ["frases curtas", "apoio visual"],
+      "tipo_linguagem": "infantil_inicial",
+      "supervisao": "responsavel_obrigatorio"
+    },
+    {
+      "id": "fase_crianca",
+      "nome_exibicao": "Pig Crianca",
+      "avatar_numero": "004",
+      "idade_minima": 6,
+      "idade_maxima": 9,
+      "descricao": "Pequenas escolhas, rotina e primeiros objetivos.",
+      "acessibilidade": ["linguagem concreta", "confirmacoes claras"],
+      "tipo_linguagem": "infantil",
+      "supervisao": "responsavel_obrigatorio"
+    },
+    {
+      "id": "fase_pre_adolescente",
+      "nome_exibicao": "Pig Pre-Adolescente",
+      "avatar_numero": "005",
+      "idade_minima": 10,
+      "idade_maxima": 12,
+      "descricao": "Autonomia gradual com orientacao de pessoas de confianca.",
+      "acessibilidade": ["explicacoes objetivas", "sem tecnicas de pressao"],
+      "tipo_linguagem": "juvenil_inicial",
+      "supervisao": "responsavel_obrigatorio"
+    },
+    {
+      "id": "fase_adolescente",
+      "nome_exibicao": "Pig Adolescente",
+      "avatar_numero": "006",
+      "idade_minima": 13,
+      "idade_maxima": 17,
+      "descricao": "Planejamento, responsabilidade e escolhas conscientes.",
+      "acessibilidade": ["transparencia", "controle de notificacoes"],
+      "tipo_linguagem": "juvenil",
+      "supervisao": "responsavel_conforme_regra_do_produto"
+    },
+    {
+      "id": "fase_jovem",
+      "nome_exibicao": "Pig Jovem",
+      "avatar_numero": "007",
+      "idade_minima": 18,
+      "idade_maxima": 24,
+      "descricao": "Inicio da vida adulta e organizacao de objetivos.",
+      "acessibilidade": ["linguagem direta", "controles reversiveis"],
+      "tipo_linguagem": "adulta_jovem",
+      "supervisao": "nao_aplicavel"
+    },
+    {
+      "id": "fase_jovem_adulto",
+      "nome_exibicao": "Pig Jovem Adulto",
+      "avatar_numero": "008",
+      "idade_minima": 25,
+      "idade_maxima": 34,
+      "descricao": "Consolidacao de projetos, familia e carreira.",
+      "acessibilidade": ["informacao comparavel", "sem urgencia artificial"],
+      "tipo_linguagem": "adulta",
+      "supervisao": "nao_aplicavel"
+    },
+    {
+      "id": "fase_adulto",
+      "nome_exibicao": "Pig Adulto",
+      "avatar_numero": "009",
+      "idade_minima": 35,
+      "idade_maxima": 49,
+      "descricao": "Planejamento equilibrado para responsabilidades e conquistas.",
+      "acessibilidade": ["densidade controlada", "resumos claros"],
+      "tipo_linguagem": "adulta",
+      "supervisao": "nao_aplicavel"
+    },
+    {
+      "id": "fase_maduro",
+      "nome_exibicao": "Pig Coroa / Maduro",
+      "avatar_numero": "010",
+      "idade_minima": 50,
+      "idade_maxima": 64,
+      "descricao": "Experiencia, continuidade e novos planos.",
+      "acessibilidade": ["tipografia legivel", "navegacao previsivel"],
+      "tipo_linguagem": "adulta",
+      "supervisao": "nao_aplicavel"
+    },
+    {
+      "id": "fase_senior",
+      "nome_exibicao": "Pig Senior",
+      "avatar_numero": "011",
+      "idade_minima": 65,
+      "idade_maxima": null,
+      "descricao": "Autonomia, legado, vinculos e experiencia.",
+      "acessibilidade": ["alto contraste", "alvos de toque amplos", "linguagem simples"],
+      "tipo_linguagem": "adulta_clara",
+      "supervisao": "nao_aplicavel"
+    }
+  ]
+}

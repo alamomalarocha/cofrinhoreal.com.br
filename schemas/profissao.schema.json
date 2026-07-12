@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cofrinhoreal.com.br/schemas/profissao.schema.json",
+  "title": "Profissao do Universo Pig",
+  "type": "object",
+  "required": ["id_estavel", "nome_exibicao", "categoria", "status", "status_pesquisa"],
+  "properties": {
+    "id_estavel": {"type": "string", "pattern": "^PROF-[A-Z0-9-]+$"},
+    "nome_exibicao": {"type": "string", "minLength": 1},
+    "categoria": {"type": "string"},
+    "status": {"type": "string"},
+    "nome_editavel": {"type": "boolean"},
+    "ano_estimado": {"type": "integer", "minimum": 2026},
+    "fontes": {"type": "array"}
+  },
+  "additionalProperties": true
+}

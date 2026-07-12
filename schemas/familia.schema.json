@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cofrinhoreal.com.br/schemas/familia.schema.json",
+  "title": "Familia da Vila Pig",
+  "type": "object",
+  "required": ["uid", "nome_exibicao", "slug", "status_pesquisa", "status_personagens"],
+  "properties": {
+    "uid": {"type": "string", "pattern": "^FAM-[A-Z0-9-]+$"},
+    "nome_exibicao": {"type": "string", "minLength": 1},
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "composicao": {"type": "array", "items": {"type": "string"}},
+    "origens_culturais": {"type": "array", "items": {"type": "string"}},
+    "comunidades": {"type": "array", "items": {"type": "string"}},
+    "fontes": {"type": "array"}
+  },
+  "additionalProperties": true
+}

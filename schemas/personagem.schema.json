@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cofrinhoreal.com.br/schemas/personagem.schema.json",
+  "title": "Personagem do Universo Pig",
+  "type": "object",
+  "required": ["numero", "nome", "slug", "tipo", "categoria", "status_imagem", "asset_futuro"],
+  "properties": {
+    "uid": {"type": "string", "pattern": "^[A-Z0-9-]+$"},
+    "numero": {"type": "string", "pattern": "^[0-9]{3,}$"},
+    "numero_legacy": {"type": "string", "pattern": "^[0-9]{3,}$"},
+    "card_code": {"type": "string"},
+    "nome": {"type": "string", "minLength": 1},
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "tipo": {"type": "string"},
+    "tipo_personagem": {"type": "string"},
+    "classificacao_principal": {"type": "string"},
+    "categoria": {"type": "string"},
+    "subcategoria": {"type": ["string", "null"]},
+    "fase_vida": {"type": ["string", "null"]},
+    "geracao": {"type": ["string", "null"]},
+    "geracao_calculada_pelo_usuario": {"type": "boolean"},
+    "regiao": {"type": ["string", "null"]},
+    "uf": {"type": ["string", "null"]},
+    "familia_uid": {"type": ["string", "null"]},
+    "origens_culturais": {"type": "array", "items": {"type": "string"}},
+    "profissoes": {"type": "array", "items": {"type": "string"}},
+    "folclore": {"type": "array", "items": {"type": "string"}},
+    "status_pesquisa": {"type": "string"},
+    "status_imagem": {"enum": ["pendente", "criada"]},
+    "asset_futuro": {"type": "string", "pattern": "^assets/characters/.+\\.png$"}
+  },
+  "additionalProperties": true
+}
