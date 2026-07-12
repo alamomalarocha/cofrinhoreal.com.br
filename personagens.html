@@ -12,7 +12,7 @@
     <meta name="theme-color" content="#ff4f83" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="site.webmanifest" />
-    <link rel="stylesheet" href="styles.css?v=37" />
+    <link rel="stylesheet" href="styles.css?v=39" />
   </head>
   <body>
     <header class="site-header">
@@ -101,11 +101,73 @@
           <button type="button" data-filter="criado">Criados</button>
           <button type="button" data-filter="pendente">Pendentes</button>
         </div>
+
+        <form class="collection-advanced-filters" data-advanced-filters>
+          <label class="collection-search-field">
+            <span>Buscar na colecao</span>
+            <input
+              type="search"
+              placeholder="Nome, codigo, categoria ou palavra-chave"
+              autocomplete="off"
+              data-collection-search
+            />
+          </label>
+          <label>
+            <span>Tipo</span>
+            <select data-filter-field="tipo_personagem"><option value="">Todos</option></select>
+          </label>
+          <label>
+            <span>Regiao</span>
+            <select data-filter-field="regiao"><option value="">Todas</option></select>
+          </label>
+          <label>
+            <span>UF</span>
+            <select data-filter-field="uf"><option value="">Todas</option></select>
+          </label>
+          <label>
+            <span>Familia</span>
+            <select data-filter-field="familia_uid"><option value="">Todas</option></select>
+          </label>
+          <label>
+            <span>Profissao</span>
+            <select data-filter-field="profissoes"><option value="">Todas</option></select>
+          </label>
+          <label>
+            <span>Geracao</span>
+            <select data-filter-field="geracao"><option value="">Todas</option></select>
+          </label>
+          <label>
+            <span>Fase da vida</span>
+            <select data-filter-field="fase_vida"><option value="">Todas</option></select>
+          </label>
+          <label>
+            <span>Estilo</span>
+            <select data-filter-field="estilo"><option value="">Todos</option></select>
+          </label>
+          <label>
+            <span>Folclore</span>
+            <select data-filter-field="folclore"><option value="">Todos</option></select>
+          </label>
+          <label>
+            <span>Status</span>
+            <select data-filter-field="status">
+              <option value="">Todos</option>
+              <option value="criada">Criados</option>
+              <option value="pendente">Pendentes</option>
+            </select>
+          </label>
+          <button class="collection-clear-filters" type="button" data-clear-filters>Limpar filtros</button>
+        </form>
       </section>
 
       <section class="section-shell collection-section" aria-live="polite">
         <div class="collection-status" data-collection-status>Carregando Colecao Pig...</div>
         <div class="collectible-grid" data-character-gallery></div>
+        <nav class="collection-pagination" aria-label="Paginacao da Colecao Pig" data-collection-pagination hidden>
+          <button type="button" data-page-action="previous">Anterior</button>
+          <span data-page-label>Pagina 1</span>
+          <button type="button" data-page-action="next">Proxima</button>
+        </nav>
       </section>
     </main>
 
@@ -147,6 +209,6 @@
     </div>
 
     <script src="script.js?v=37"></script>
-    <script src="personagens.js?v=38"></script>
+    <script src="personagens.js?v=39"></script>
   </body>
 </html>
