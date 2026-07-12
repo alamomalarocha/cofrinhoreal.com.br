@@ -543,3 +543,12 @@ A variacao `azul` do avatar `011 - Pig Senior` foi recriada no sistema visual si
 - asset principal preservado: `assets/characters/011-pig-senior.png`
 - status da variacao `azul`: `criada`
 - proxima variacao pendente: `011 - Pig Senior - rosa`
+
+## Avatar 011 - Pig Senior - rosa recriado
+
+A variacao `rosa` do avatar `011 - Pig Senior` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/011-pig-senior-rosa.png`
+- asset principal preservado: `assets/characters/011-pig-senior.png`
+- status da variacao `rosa`: `criada`
+- proxima variacao pendente: `011 - Pig Senior - arco_iris`
