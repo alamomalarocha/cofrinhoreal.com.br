@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "atualizado_em": "2026-07-12",
+  "fonte": {
+    "titulo": "API de localidades",
+    "instituicao": "IBGE",
+    "url": "https://servicodados.ibge.gov.br/api/docs/localidades",
+    "data_acesso": "2026-07-12"
+  },
+  "regioes": [
+    {"id_ibge": 1, "slug": "norte", "nome": "Norte", "ufs": ["AC", "AM", "AP", "PA", "RO", "RR", "TO"]},
+    {"id_ibge": 2, "slug": "nordeste", "nome": "Nordeste", "ufs": ["AL", "BA", "CE", "MA", "PB", "PE", "PI", "RN", "SE"]},
+    {"id_ibge": 3, "slug": "sudeste", "nome": "Sudeste", "ufs": ["ES", "MG", "RJ", "SP"]},
+    {"id_ibge": 4, "slug": "sul", "nome": "Sul", "ufs": ["PR", "RS", "SC"]},
+    {"id_ibge": 5, "slug": "centro-oeste", "nome": "Centro-Oeste", "ufs": ["DF", "GO", "MS", "MT"]}
+  ]
+}

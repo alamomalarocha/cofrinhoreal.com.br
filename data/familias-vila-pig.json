@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0.0",
+  "atualizado_em": "2026-07-12",
+  "politicas": [
+    "Nenhuma familia sozinha representa todo um povo, pais, regiao ou comunidade.",
+    "Pais, etnias, racas, religioes, regioes e culturas sao campos diferentes.",
+    "A composicao familiar nao determina profissao, renda, personalidade ou estilo visual.",
+    "Representacoes de comunidades especificas exigem pesquisa, fontes e consulta quando aplicavel."
+  ],
+  "familias": [
+    {
+      "uid": "FAM-BR-URB-0001",
+      "nome_exibicao": "Familia intergeracional urbana em pesquisa",
+      "slug": "familia-intergeracional-urbana-0001",
+      "composicao": ["adultos", "criancas", "pessoas_idosas"],
+      "regiao_atual": null,
+      "uf": null,
+      "origens_culturais": [],
+      "comunidades": [],
+      "idiomas": ["pt-BR"],
+      "status_pesquisa": "pendente",
+      "status_personagens": "nao_iniciado",
+      "fontes": []
+    },
+    {
+      "uid": "FAM-BR-RUR-0001",
+      "nome_exibicao": "Familia de territorio rural em pesquisa",
+      "slug": "familia-territorio-rural-0001",
+      "composicao": [],
+      "regiao_atual": null,
+      "uf": null,
+      "origens_culturais": [],
+      "comunidades": [],
+      "idiomas": ["pt-BR"],
+      "status_pesquisa": "pendente",
+      "status_personagens": "nao_iniciado",
+      "fontes": []
+    },
+    {
+      "uid": "FAM-BR-LIT-0001",
+      "nome_exibicao": "Familia de territorio litoraneo em pesquisa",
+      "slug": "familia-territorio-litoraneo-0001",
+      "composicao": [],
+      "regiao_atual": null,
+      "uf": null,
+      "origens_culturais": [],
+      "comunidades": [],
+      "idiomas": ["pt-BR"],
+      "status_pesquisa": "pendente",
+      "status_personagens": "nao_iniciado",
+      "fontes": []
+    },
+    {
+      "uid": "FAM-BR-MIG-0001",
+      "nome_exibicao": "Familia com historia migratoria em pesquisa",
+      "slug": "familia-historia-migratoria-0001",
+      "composicao": [],
+      "regiao_atual": null,
+      "uf": null,
+      "origens_culturais": [],
+      "comunidades": [],
+      "paises_relacionados": [],
+      "geracao_migratoria": null,
+      "idiomas": ["pt-BR"],
+      "status_pesquisa": "pendente",
+      "status_personagens": "nao_iniciado",
+      "fontes": []
+    },
+    {
+      "uid": "FAM-BR-MISTA-0001",
+      "nome_exibicao": "Familia de origens regionais diversas em pesquisa",
+      "slug": "familia-origens-regionais-diversas-0001",
+      "composicao": [],
+      "regiao_atual": null,
+      "uf": null,
+      "origens_culturais": [],
+      "comunidades": [],
+      "idiomas": ["pt-BR"],
+      "status_pesquisa": "pendente",
+      "status_personagens": "nao_iniciado",
+      "fontes": []
+    }
+  ]
+}

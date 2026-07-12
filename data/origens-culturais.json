@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "atualizado_em": "2026-07-12",
+  "regra": "Os registros sao trilhas de pesquisa e nao autorizam estereotipos ou atribuicoes regionais automaticas.",
+  "categorias": [
+    {"id": "origem_povo_indigena_especifico", "nome": "Povo indigena especifico", "tipo": "povo_especifico", "status_pesquisa": "consulta_obrigatoria"},
+    {"id": "origem_afro_brasileira", "nome": "Afro-brasileira", "tipo": "origem_etnico_cultural", "status_pesquisa": "pendente"},
+    {"id": "origem_portuguesa", "nome": "Portuguesa", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_italiana", "nome": "Italiana", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_alema", "nome": "Alema", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_japonesa", "nome": "Japonesa", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_chinesa", "nome": "Chinesa", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_coreana", "nome": "Coreana", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_espanhola", "nome": "Espanhola", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_polonesa", "nome": "Polonesa", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_ucraniana", "nome": "Ucraniana", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_libanesa", "nome": "Libanesa", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_siria", "nome": "Siria", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_judaica", "nome": "Judaica", "tipo": "origem_etnico_cultural_religiosa", "status_pesquisa": "consulta_obrigatoria"},
+    {"id": "origem_romani", "nome": "Romani", "tipo": "povo_e_historia_migratoria", "status_pesquisa": "consulta_obrigatoria"},
+    {"id": "origem_boliviana", "nome": "Boliviana", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_peruana", "nome": "Peruana", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_venezuelana", "nome": "Venezuelana", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_haitiana", "nome": "Haitiana", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_senegalesa", "nome": "Senegalesa", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_angolana", "nome": "Angolana", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_cabo_verdiana", "nome": "Cabo-verdiana", "tipo": "historia_migratoria", "status_pesquisa": "pendente"},
+    {"id": "origem_mocambicana", "nome": "Mocambicana", "tipo": "historia_migratoria", "status_pesquisa": "pendente"}
+  ],
+  "fontes_base": [
+    {
+      "titulo": "Censo Demografico 2022",
+      "instituicao": "IBGE",
+      "url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html",
+      "data_acesso": "2026-07-12"
+    }
+  ]
+}

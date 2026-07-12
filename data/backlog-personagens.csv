@@ -1,0 +1,12 @@
+backlog_uid,camada,tema,regiao,uf,prioridade,status_pesquisa,status_personagem,observacoes
+BACKLOG-0001,familia,familias_intergeracionais,,,alta,pendente,nao_iniciado,Nenhuma familia representa todo um grupo
+BACKLOG-0002,regiao,capitais_e_interiores,norte,,media,pendente,nao_iniciado,Cobrir contextos urbanos e rurais
+BACKLOG-0003,regiao,capitais_e_interiores,nordeste,,media,pendente,nao_iniciado,Cobrir litoral e sertoes sem generalizar
+BACKLOG-0004,regiao,capitais_e_interiores,centro-oeste,,media,pendente,nao_iniciado,Cobrir cidades biomas e fronteiras com fonte
+BACKLOG-0005,regiao,capitais_e_interiores,sudeste,,media,pendente,nao_iniciado,Cobrir metropoles interiores e litoral
+BACKLOG-0006,regiao,capitais_e_interiores,sul,,media,pendente,nao_iniciado,Cobrir diversidade regional sem traje generico
+BACKLOG-0007,profissao,economia_popular,,,alta,pendente,nao_iniciado,Representar com dignidade e contexto
+BACKLOG-0008,profissao,ciencia_tecnologia,,,media,pendente,nao_iniciado,Sem logos ou vinculos institucionais
+BACKLOG-0009,folclore,figuras_e_variantes_regionais,,,media,pendente,nao_iniciado,Interpretacao visual original
+BACKLOG-0010,comunidade,povos_e_comunidades_tradicionais,,,alta,consulta_obrigatoria,nao_iniciado,Nao criar representacao generica
+BACKLOG-0011,especial,Mestre_Satochi,,,baixa,pendente,nao_iniciado,Personagem ficticio sem vinculo com pessoa real

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "atualizado_em": "2026-07-12",
+  "politica_visual": "Criar interpretacoes originais depois de pesquisa. Nao copiar versoes protegidas de televisao, cinema, livros ou marcas.",
+  "fontes_base": [
+    {
+      "titulo": "Patrimonio Imaterial",
+      "instituicao": "IPHAN",
+      "url": "https://www.gov.br/iphan/pt-br/patrimonio-cultural/patrimonio-imaterial",
+      "data_acesso": "2026-07-12"
+    },
+    {
+      "titulo": "Programa Nacional do Patrimonio Imaterial",
+      "instituicao": "IPHAN",
+      "url": "https://www.gov.br/iphan/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-nacional-do-patrimonio-imaterial-pnpi",
+      "data_acesso": "2026-07-12"
+    }
+  ],
+  "figuras": [
+    {"uid": "FOL-BR-SACI-0001", "nome": "Saci-Perere", "slug": "saci-perere", "origem_conhecida": null, "regioes_circulacao": [], "versoes_regionais": [], "status_pesquisa": "pendente", "fontes": []},
+    {"uid": "FOL-BR-CUCA-0001", "nome": "Cuca", "slug": "cuca", "origem_conhecida": null, "regioes_circulacao": [], "versoes_regionais": [], "status_pesquisa": "pendente", "fontes": []},
+    {"uid": "FOL-BR-CURUPIRA-0001", "nome": "Curupira", "slug": "curupira", "origem_conhecida": null, "regioes_circulacao": [], "versoes_regionais": [], "status_pesquisa": "pendente", "fontes": []},
+    {"uid": "FOL-BR-IARA-0001", "nome": "Iara", "slug": "iara", "origem_conhecida": null, "regioes_circulacao": [], "versoes_regionais": [], "status_pesquisa": "pendente", "fontes": []},
+    {"uid": "FOL-BR-BOTO-0001", "nome": "Boto-cor-de-rosa", "slug": "boto-cor-de-rosa", "origem_conhecida": null, "regioes_circulacao": [], "versoes_regionais": [], "status_pesquisa": "pendente", "fontes": []},
+    {"uid": "FOL-BR-BOITATA-0001", "nome": "Boitata", "slug": "boitata", "origem_conhecida": null, "regioes_circulacao": [], "versoes_regionais": [], "status_pesquisa": "pendente", "fontes": []},
+    {"uid": "FOL-BR-MULA-0001", "nome": "Mula sem Cabeca", "slug": "mula-sem-cabeca", "origem_conhecida": null, "regioes_circulacao": [], "versoes_regionais": [], "status_pesquisa": "pendente", "fontes": []},
+    {"uid": "FOL-BR-NEGRINHO-0001", "nome": "Negrinho do Pastoreio", "slug": "negrinho-do-pastoreio", "origem_conhecida": null, "regioes_circulacao": [], "versoes_regionais": [], "status_pesquisa": "pendente", "fontes": []}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "atualizado_em": "2026-07-12",
+  "fonte": {
+    "titulo": "Biomas brasileiros",
+    "instituicao": "IBGE",
+    "url": "https://educa.ibge.gov.br/jovens/conheca-o-brasil/territorio/18307-biomas-brasileiros.html",
+    "data_acesso": "2026-07-12"
+  },
+  "biomas": [
+    {"id": "bioma_amazonia", "nome": "Amazonia", "slug": "amazonia", "status_pesquisa": "revisado"},
+    {"id": "bioma_caatinga", "nome": "Caatinga", "slug": "caatinga", "status_pesquisa": "revisado"},
+    {"id": "bioma_cerrado", "nome": "Cerrado", "slug": "cerrado", "status_pesquisa": "revisado"},
+    {"id": "bioma_mata_atlantica", "nome": "Mata Atlantica", "slug": "mata-atlantica", "status_pesquisa": "revisado"},
+    {"id": "bioma_pampa", "nome": "Pampa", "slug": "pampa", "status_pesquisa": "revisado"},
+    {"id": "bioma_pantanal", "nome": "Pantanal", "slug": "pantanal", "status_pesquisa": "revisado"}
+  ],
+  "sistemas_complementares": [
+    {"id": "sistema_costeiro_marinho", "nome": "Sistema Costeiro-Marinho", "slug": "sistema-costeiro-marinho", "status_pesquisa": "revisado"}
+  ]
+}

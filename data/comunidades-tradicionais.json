@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "atualizado_em": "2026-07-12",
+  "regra": "Cada representacao exige pesquisa territorial, fontes e protagonismo ou consulta das comunidades envolvidas.",
+  "fonte": {
+    "titulo": "Politicas Publicas para Povos e Comunidades Tradicionais",
+    "instituicao": "Ministerio do Desenvolvimento Agrario e Agricultura Familiar",
+    "url": "https://www.gov.br/mda/pt-br/assuntos/povos-e-comunidades-tradicionais/politicas-publicas-para-povos-e-comunidades-tradicionais",
+    "data_acesso": "2026-07-12"
+  },
+  "comunidades": [
+    {"id": "com_povos_indigenas", "nome": "Povos indigenas", "status_pesquisa": "povo_especifico_obrigatorio"},
+    {"id": "com_quilombolas", "nome": "Comunidades quilombolas", "status_pesquisa": "consulta_obrigatoria"},
+    {"id": "com_terreiro_matriz_africana", "nome": "Povos e comunidades de terreiro e matriz africana", "status_pesquisa": "consulta_obrigatoria"},
+    {"id": "com_romani", "nome": "Povos Romani", "status_pesquisa": "consulta_obrigatoria"},
+    {"id": "com_pescadores_artesanais", "nome": "Pescadores artesanais", "status_pesquisa": "pendente"},
+    {"id": "com_extrativistas", "nome": "Extrativistas", "status_pesquisa": "pendente"},
+    {"id": "com_extrativistas_costeiros", "nome": "Extrativistas costeiros e marinhos", "status_pesquisa": "pendente"},
+    {"id": "com_caicaras", "nome": "Caicaras", "status_pesquisa": "pendente"},
+    {"id": "com_faxinalenses", "nome": "Faxinalenses", "status_pesquisa": "pendente"},
+    {"id": "com_benzedeiros", "nome": "Benzedeiros", "status_pesquisa": "pendente"},
+    {"id": "com_ilheus", "nome": "Ilheus", "status_pesquisa": "pendente"},
+    {"id": "com_raizeiros", "nome": "Raizeiros", "status_pesquisa": "pendente"},
+    {"id": "com_geraizeiros", "nome": "Geraizeiros", "status_pesquisa": "pendente"},
+    {"id": "com_caatingueiros", "nome": "Caatingueiros", "status_pesquisa": "pendente"},
+    {"id": "com_vazanteiros", "nome": "Vazanteiros", "status_pesquisa": "pendente"},
+    {"id": "com_veredeiros", "nome": "Veredeiros", "status_pesquisa": "pendente"},
+    {"id": "com_apanhadores_flores", "nome": "Apanhadores de flores sempre-vivas", "status_pesquisa": "pendente"},
+    {"id": "com_pantaneiros", "nome": "Pantaneiros", "status_pesquisa": "pendente"},
+    {"id": "com_morroquianos", "nome": "Morroquianos", "status_pesquisa": "pendente"},
+    {"id": "com_pomeranos", "nome": "Povo pomerano", "status_pesquisa": "pendente"},
+    {"id": "com_catadores_mangaba", "nome": "Catadores de mangaba", "status_pesquisa": "pendente"},
+    {"id": "com_quebradeiras_coco", "nome": "Quebradeiras de coco babacu", "status_pesquisa": "pendente"},
+    {"id": "com_retireiros_araguaia", "nome": "Retireiros do Araguaia", "status_pesquisa": "pendente"},
+    {"id": "com_fundos_fechos_pasto", "nome": "Comunidades de fundos e fechos de pasto", "status_pesquisa": "pendente"},
+    {"id": "com_ribeirinhos", "nome": "Ribeirinhos", "status_pesquisa": "pendente"},
+    {"id": "com_cipozeiros", "nome": "Cipozeiros", "status_pesquisa": "pendente"},
+    {"id": "com_andirobeiros", "nome": "Andirobeiros", "status_pesquisa": "pendente"},
+    {"id": "com_caboclos", "nome": "Caboclos", "status_pesquisa": "pendente"}
+  ]
+}

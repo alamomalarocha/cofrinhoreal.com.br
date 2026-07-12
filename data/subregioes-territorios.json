@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "atualizado_em": "2026-07-12",
+  "regra": "Tipos de territorio nao substituem recortes oficiais do IBGE e podem coexistir no mesmo personagem.",
+  "tipos": [
+    {"id": "territorio_capital", "nome": "Capital", "status_pesquisa": "taxonomia"},
+    {"id": "territorio_interior", "nome": "Interior", "status_pesquisa": "taxonomia"},
+    {"id": "territorio_litoral", "nome": "Litoral", "status_pesquisa": "taxonomia"},
+    {"id": "territorio_sertao", "nome": "Sertao", "status_pesquisa": "requer_contexto_regional"},
+    {"id": "territorio_fronteira", "nome": "Fronteira", "status_pesquisa": "requer_contexto_oficial"},
+    {"id": "territorio_metropolitano", "nome": "Area metropolitana", "status_pesquisa": "requer_contexto_oficial"},
+    {"id": "territorio_rural", "nome": "Area rural", "status_pesquisa": "taxonomia"},
+    {"id": "territorio_urbano", "nome": "Area urbana", "status_pesquisa": "taxonomia"},
+    {"id": "territorio_ribeirinho", "nome": "Territorio ribeirinho", "status_pesquisa": "requer_consulta_comunitaria"},
+    {"id": "territorio_indigena", "nome": "Terra ou territorio indigena", "status_pesquisa": "requer_dados_funai_e_consulta"},
+    {"id": "territorio_quilombola", "nome": "Territorio quilombola", "status_pesquisa": "requer_dados_ibge_incra_palmares_e_consulta"}
+  ],
+  "fontes": [
+    {
+      "titulo": "API de localidades",
+      "instituicao": "IBGE",
+      "url": "https://servicodados.ibge.gov.br/api/docs/localidades",
+      "data_acesso": "2026-07-12"
+    },
+    {
+      "titulo": "Terras Indigenas: Dados Geoespaciais e Mapas",
+      "instituicao": "Funai",
+      "url": "https://www.gov.br/funai/pt-br/atuacao/terras-indigenas/geoprocessamento-e-mapas",
+      "data_acesso": "2026-07-12"
+    }
+  ]
+}
