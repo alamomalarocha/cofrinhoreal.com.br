@@ -647,3 +647,9 @@ A variacao `rosa` do avatar `011 - Pig Senior` foi recriada no sistema visual si
 - asset principal preservado: `assets/characters/011-pig-senior.png`
 - status da variacao `rosa`: `criada`
 - proxima variacao pendente: `011 - Pig Senior - arco_iris`
+
+## Arquitetura de geracoes e fases
+
+Os avatares `002` a `011` continuam representando fases da vida. Geracao e um dado separado, calculado futuramente pelo ano de nascimento e sem inferencia de personalidade. Ver `GERACOES_E_FASES_DA_VIDA.md` e `data/fases-vida.json`.
+
+Os estilos `padrao`, `azul`, `rosa` e `arco_iris` continuam sendo apenas personalizacao visual.

@@ -298,3 +298,7 @@ Os assets oficiais poderao ser organizados futuramente em:
 - `assets/pig/comercio/`
 
 Nada disso faz parte do MVP atual. O MVP deve continuar simples, estatico e focado em validacao visual e conceitual.
+
+## Nova camada de familias
+
+Familias futuras devem usar `data/familias-vila-pig.json` e as regras de `FAMILIAS_ORIGENS_CULTURAIS.md`. Familia, origem cultural, comunidade, regiao e religiao nao sao o mesmo campo. Nenhuma familia representa sozinha um povo ou regiao inteira.

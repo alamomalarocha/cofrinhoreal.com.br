@@ -54,6 +54,13 @@ A base estatica do universo de personagens fica em:
 
 A previa visual fica em `personagens.html`.
 
-As imagens dos personagens ainda nao foram criadas. Cada imagem futura devera seguir o padrao `assets/characters/NUMERO-SLUG.png`.
+As imagens aprovadas ficam em `assets/characters/`. O status oficial de cada personagem e variacao fica no JSON, e o proximo item nunca deve ser presumido.
 
-A pasta `assets/characters/` esta reservada para receber essas imagens futuras.
+O universo escalavel tambem usa:
+
+- catalogos territoriais, culturais, familiares e profissionais em `data/`;
+- esquemas em `schemas/`;
+- validacao com `node scripts/validate-universo-pig.mjs`;
+- arquitetura documentada em `docs/ARQUITETURA_UNIVERSO_PIG.md`.
+
+O projeto continua um prototipo estatico, sem backend, banco real, login real, PIX real ou movimentacao real.

@@ -674,3 +674,10 @@ A variacao `rosa` do avatar `011 - Pig Senior` foi recriada no sistema visual si
 - asset principal preservado: `assets/characters/011-pig-senior.png`
 - status da variacao `rosa`: `criada`
 - proxima variacao pendente: `011 - Pig Senior - arco_iris`
+
+## Ponto preservado pela reorganizacao
+
+- ultima variacao criada: `011 - Pig Senior - rosa`;
+- proxima variacao: `011 - Pig Senior - arco_iris`;
+- variacoes criadas antes da migracao: 39;
+- nenhuma imagem deve ser recriada por causa da nova arquitetura.

@@ -411,3 +411,9 @@ Fundo transparente.
 Excecao para `002 - Pig Bebe`: por ser bebe de 0 a 2 anos, pode ficar sentado. Usar `Porquinho bebe 0 a 2 anos, corpo inteiro, sentado, centralizado...`.
 
 Regra para `003` a `011`: todos devem estar em pe. Usar sempre `corpo inteiro, em pe, centralizado`.
+
+## Continuidade apos reorganizacao
+
+A reorganizacao nao reinicia a fila. Sempre executar `node scripts/validate-universo-pig.mjs`, ler `status_variacoes` e confirmar o asset antes de sugerir o proximo prompt. O ponto preservado e `011 - Pig Senior - arco_iris`.
+
+Personagens regionais, comunitarios, profissionais ou folcloricos exigem pesquisa e aprovacao conceitual antes do prompt visual.

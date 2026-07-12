@@ -552,3 +552,9 @@ A variacao `rosa` do avatar `011 - Pig Senior` foi recriada no sistema visual si
 - asset principal preservado: `assets/characters/011-pig-senior.png`
 - status da variacao `rosa`: `criada`
 - proxima variacao pendente: `011 - Pig Senior - arco_iris`
+
+## Validacao de assets
+
+Antes de marcar uma imagem como criada, conferir PNG, canal alfa, margem segura, ausencia de texto e caminho oficial. `scripts/validate-universo-pig.mjs` confirma a existencia e assinatura PNG dos assets registrados.
+
+As regras completas estao em `GUIA_VISUAL_PERSONAGENS.md`.

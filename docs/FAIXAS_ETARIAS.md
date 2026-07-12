@@ -96,3 +96,9 @@ assets/characters/004-pig-crianca-arco-iris.png
 ```
 
 Nao criar essas imagens agora.
+
+## Documento de compatibilidade
+
+Este documento preserva a nomenclatura historica. A fonte estruturada atual das fases e `data/fases-vida.json`, documentada em `GERACOES_E_FASES_DA_VIDA.md`.
+
+Faixa etaria e fase da vida nao substituem geracao. A fase muda com a idade; a coorte de nascimento permanece.

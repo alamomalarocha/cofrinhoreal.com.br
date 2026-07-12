@@ -11,6 +11,17 @@ Antes de desenvolver qualquer funcionalidade, leia:
 
 ## Documentos de produto e marca
 
+- `ARQUITETURA_UNIVERSO_PIG.md`: camadas, identificadores canonicos e compatibilidade do universo escalavel.
+- `GERACOES_E_FASES_DA_VIDA.md`: separacao entre coorte de nascimento e fase atual da vida.
+- `BRASIL_REGIOES_CULTURAS.md`: regioes, UFs, territorios, biomas e regras de pesquisa cultural.
+- `FAMILIAS_ORIGENS_CULTURAIS.md`: familias, origens, comunidades e cuidados de representacao.
+- `PROFISSOES_E_FUTURO_DO_TRABALHO.md`: trabalhos historicos, atuais, populares, emergentes e futuros.
+- `FOLCLORE_E_CULTURA_BRASILEIRA.md`: pesquisa de figuras e versoes regionais com imagens originais.
+- `GUIA_VISUAL_PERSONAGENS.md`: padrao visual, nomenclatura e checklist de aprovacao.
+- `MATRIZ_COBERTURA_PERSONAGENS.md`: processo para identificar lacunas reais.
+- `PLANO_EXPANSAO_PERSONAGENS.md`: crescimento para centenas ou milhares de personagens.
+- `PESQUISA_E_FONTES.md`: hierarquia de fontes e status de pesquisa.
+- `CHECKPOINT_REORGANIZACAO_PERSONAGENS_001.md`: ponto seguro e inventario anterior a migracao.
 - `FAMILIA_PIG.md`: universo futuro de personagens da Familia Pig, categorias, fases e regras para nao criar tudo no MVP.
 - `VILA_PIG.md`: conceito oficial da Vila Fazenda Pig, comunidade de personagens do Cofrinho Real.
 - `PERSONAGENS_VILA_PIG.md`: base de 200 personagens colecionaveis, com numero, slug e uso futuro.
@@ -31,7 +42,7 @@ Antes de desenvolver qualquer funcionalidade, leia:
 - `CHECKPOINT_REESTRUTURA_MULTIPAGINAS_001.md`: checkpoint da mudanca de landing unica para prototipo estatico multipaginas.
 - Arte principal atual do Pig/Cofrinho Real: `assets/brand/cofrinho-real-pig-logo-principal.png`.
 - Base estatica atual de personagens: `data/vila-pig-personagens.json` e `data/vila-pig-personagens.csv`.
-- Estado atual de imagens: apenas `001 - Pig Principal` esta oficial; `002` em diante estao pendentes e rascunhos antigos ficam em `assets/characters/_drafts/`.
+- Estado das imagens: consultar `status_variacoes` no JSON e validar com `node scripts/validate-universo-pig.mjs`; a reorganizacao preservou 39 variacoes criadas e o proximo item `011 - Pig Senior - arco_iris`.
 - Opcoes publicas de avatar: Pig Azul, Pig Rosa, Pig Arco-iris e Pig Padrao; internamente `avatar_style` usa `azul`, `rosa`, `arco_iris` ou `padrao`.
 
 Regra central:

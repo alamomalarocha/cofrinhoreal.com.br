@@ -382,3 +382,11 @@ Princípio de identidade visual para fases futuras:
 > O público geral vê o Pig Principal neutro. O usuário logado vê o seu próprio universo Pig personalizado.
 
 Essa regra não autoriza criar login real, backend, banco de dados, PIX real, aplicativo real ou personalização dinâmica no MVP. Ela apenas orienta a evolução futura do site/app.
+
+## CONSTITUICAO DO UNIVERSO PIG
+
+O Pig e o guia. O avatar representa o usuario. A geracao conta quando ele nasceu. A fase da vida mostra o momento atual. A Vila Pig representa o Brasil e suas historias.
+
+Geracao, fase da vida, estilo visual, familia, origem cultural, comunidade, regiao e profissao sao camadas diferentes. Nenhuma delas deve ser usada para inferir personalidade, capacidade financeira ou identidade sensivel.
+
+Os numeros e assets historicos sao preservados. Novos registros usam UIDs canonicos e pesquisa com fontes. Ver `docs/ARQUITETURA_UNIVERSO_PIG.md`.

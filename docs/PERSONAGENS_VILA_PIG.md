@@ -154,3 +154,9 @@ Dados oficiais:
 A Colecao Pig e a representacao visual em cards dos personagens, avatares e especiais do universo Cofrinho Real. Os cards sao institucionais, educativos e colecionaveis apenas no sentido visual. Nao possuem valor financeiro, nao sao vendidos e nao devem ser tratados como aposta, cassino, loot box ou mecanismo de recompensa financeira.
 
 A pagina estatica `personagens.html` deve ser atualizada sempre que uma imagem oficial de personagem ou avatar for criada.
+
+## Catalogo escalavel
+
+O numero 200 deixou de ser limite de expansao. Os numeros legados permanecem, enquanto `uid`, `numero_legacy` e `card_code` permitem crescimento para milhares de registros. A matriz de cobertura define prioridades por necessidade cultural e educativa, nao por contagem.
+
+Ver `ARQUITETURA_UNIVERSO_PIG.md`, `MATRIZ_COBERTURA_PERSONAGENS.md` e `data/backlog-personagens.csv`.
