@@ -41,3 +41,11 @@ Nao afirmar conformidade total. Usar “arquitetura em pesquisa”, “sujeito a
 - `docs/INTERNACIONALIZACAO_E_CONFORMIDADE.md`
 - `docs/CONTEUDO_POR_IDADE.md`
 - `docs/AUDITORIA_EXPOSICAO_CONCEITO_TROCO_001.md`
+
+<!-- CATALOGO_BRASILEIRO_INICIO -->
+## Leitura estrutural obrigatoria
+
+Antes de qualquer tarefa estrutural, ler docs/DECISOES_MESTRAS_PROJETO.md e data/decisoes-projeto.json.
+
+A expansao do catalogo nao autoriza publicar perfis culturais sensiveis, criar imagens bloqueadas ou expor estrategia interna.
+<!-- CATALOGO_BRASILEIRO_FIM -->

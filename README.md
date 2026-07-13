@@ -45,3 +45,9 @@ git diff --check
 - A Colecao Pig nao envolve compra de cards, raridade paga, aposta ou loot box.
 
 Consulte [docs/README.md](docs/README.md) para o indice tecnico.
+
+<!-- CATALOGO_BRASILEIRO_INICIO -->
+## Catalogo brasileiro de personagens
+
+O repositorio compila 3251 registros fixos a partir de lotes segmentados em `data/personagens/`. A Colecao Pig publica apenas perfis liberados. Consulte `docs/CATALOGO_BRASILEIRO_PERSONAGENS.md` e `data/relatorio-validacao-catalogo.json`. O projeto continua um prototipo visual estatico.
+<!-- CATALOGO_BRASILEIRO_FIM -->

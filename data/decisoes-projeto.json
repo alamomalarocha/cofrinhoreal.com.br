@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0.0",
+  "atualizado_em": "2026-07-12",
+  "principio": "Fonte cumulativa de decisoes estruturais; substituicoes exigem referencia explicita.",
+  "decisoes": [
+    {
+      "id": "DEC-001",
+      "data": "2026-07-12",
+      "titulo": "Pig Principal como identidade universal publica",
+      "descricao": "O personagem 001 permanece mascote oficial e referencia visual antes de qualquer autenticacao futura.",
+      "motivo": "Preservar consistencia de marca sem inferir dados do visitante.",
+      "arquivos_afetados": [
+        "assets/characters/001-pig-principal.png",
+        "docs/IDENTIDADE_VISUAL.md"
+      ],
+      "status": "vigente",
+      "decisao_substituida": null,
+      "visibilidade": "publica",
+      "observacoes": "As logos completas continuam separadas em assets/brand/."
+    },
+    {
+      "id": "DEC-002",
+      "data": "2026-07-12",
+      "titulo": "Prototipo visual estatico",
+      "descricao": "O projeto continua sem backend, banco real, login funcional, PIX real, aplicativo real ou movimentacao financeira.",
+      "motivo": "Manter o escopo de pesquisa e demonstracao visual.",
+      "arquivos_afetados": [
+        "README.md",
+        "PROMPT_MESTRE.md"
+      ],
+      "status": "vigente",
+      "decisao_substituida": null,
+      "visibilidade": "publica",
+      "observacoes": "Nenhum dado pessoal real deve ser coletado."
+    },
+    {
+      "id": "DEC-003",
+      "data": "2026-07-12",
+      "titulo": "PigCoin como recurso educativo ficticio",
+      "descricao": "PigCoin nao e moeda, criptoativo, investimento, compra, saque, PIX ou promessa de valorizacao.",
+      "motivo": "Evitar confusao financeira e gamificacao predatoria.",
+      "arquivos_afetados": [
+        "PROMPT_MESTRE.md",
+        "docs/REPOSICIONAMENTO_PUBLICO_PIGCOIN.md"
+      ],
+      "status": "vigente",
+      "decisao_substituida": null,
+      "visibilidade": "publica",
+      "observacoes": "A comunicacao publica permanece educativa."
+    },
+    {
+      "id": "DEC-004",
+      "data": "2026-07-12",
+      "titulo": "Estrategia interna nao exposta em documentos publicos",
+      "descricao": "Decisoes estrategicas reservadas devem permanecer fora do repositorio publico.",
+      "motivo": "Separar documentacao operacional publica de informacao confidencial.",
+      "arquivos_afetados": [
+        "docs/DECISOES_PRIVADAS_TEMPLATE.md",
+        ".gitignore"
+      ],
+      "status": "vigente",
+      "decisao_substituida": null,
+      "visibilidade": "publica",
+      "observacoes": "O template nao contem segredo nem descreve a estrategia reservada."
+    },
+    {
+      "id": "DEC-005",
+      "data": "2026-07-12",
+      "titulo": "Avatares nao inferem identidade",
+      "descricao": "Estilo visual, cor ou variacao de avatar nao define genero, idade, orientacao, identidade ou permissao.",
+      "motivo": "Manter inclusao e privacidade por padrao.",
+      "arquivos_afetados": [
+        "docs/AVATARES.md",
+        "docs/PROTOCOLO_IMAGENS_PERSONAGENS.md"
+      ],
+      "status": "vigente",
+      "decisao_substituida": null,
+      "visibilidade": "publica",
+      "observacoes": "As variacoes sao apenas opcoes visuais."
+    },
+    {
+      "id": "DEC-006",
+      "data": "2026-07-12",
+      "titulo": "Perfis culturais sensiveis bloqueados ate revisao",
+      "descricao": "Perfis indigenas, tradicionais e folcloricos permanecem nao publicaveis e sem imagem enquanto faltarem pesquisa e revisao adequadas.",
+      "motivo": "Completude nao autoriza inventar nomes, roupas, historias ou praticas culturais.",
+      "arquivos_afetados": [
+        "data/povos-indigenas.json",
+        "data/folclore-brasileiro.json",
+        "data/fila-imagens-personagens.json"
+      ],
+      "status": "vigente",
+      "decisao_substituida": null,
+      "visibilidade": "publica",
+      "observacoes": "599 registros estao bloqueados para pesquisa ou revisao."
+    },
+    {
+      "id": "DEC-007",
+      "data": "2026-07-12",
+      "titulo": "Catalogo compilado de fontes segmentadas",
+      "descricao": "Os registros fixos vivem em lotes de no maximo 100 e geram JSON, CSV e lotes publicos deterministicamente.",
+      "motivo": "Permitir escala, auditoria e reexecucao sem editar um arquivo monolitico manualmente.",
+      "arquivos_afetados": [
+        "data/personagens/",
+        "scripts/build-personagens-catalog.mjs"
+      ],
+      "status": "vigente",
+      "decisao_substituida": null,
+      "visibilidade": "publica",
+      "observacoes": "40 lotes-fonte e 27 lotes publicos."
+    },
+    {
+      "id": "DEC-008",
+      "data": "2026-07-12",
+      "titulo": "Imagens produzidas uma por vez",
+      "descricao": "O ChatGPT cria a imagem; o Codex salva, registra, valida, commita e devolve o proximo prompt.",
+      "motivo": "Preservar controle de qualidade e sequencia oficial.",
+      "arquivos_afetados": [
+        "data/fila-imagens-personagens.csv",
+        "docs/FILA_CRIACAO_IMAGENS.md"
+      ],
+      "status": "vigente",
+      "decisao_substituida": null,
+      "visibilidade": "publica",
+      "observacoes": "O proximo item e 011 - Pig Senior - arco_iris."
+    },
+    {
+      "id": "DEC-009",
+      "data": "2026-07-12",
+      "titulo": "Colecao Pig exibe somente perfis publicaveis",
+      "descricao": "A galeria publica consome lotes filtrados e nao inclui perfis culturais bloqueados.",
+      "motivo": "Impedir publicacao acidental de pesquisa incompleta.",
+      "arquivos_afetados": [
+        "data/personagens-publicos/",
+        "personagens.js"
+      ],
+      "status": "vigente",
+      "decisao_substituida": null,
+      "visibilidade": "publica",
+      "observacoes": "2652 perfis publicaveis no catalogo atual."
+    }
+  ]
+}

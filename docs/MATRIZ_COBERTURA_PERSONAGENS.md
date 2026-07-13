@@ -26,3 +26,11 @@ Campos principais:
 7. atualizar matriz e Colecao Pig.
 
 `data/backlog-personagens.csv` guarda temas ainda sem personagem. Uma linha pendente nao deve aparecer como fato confirmado no site.
+
+<!-- CATALOGO_BRASILEIRO_INICIO -->
+## Catalogo brasileiro compilado
+
+Em 2026-07-12, o catalogo passou a ter 3251 registros fixos, 1430 familias e cobertura das 27 UFs. As fontes ficam em `data/personagens/`; os arquivos monoliticos sao gerados. Perfis culturais sensiveis permanecem nao publicaveis ate pesquisa e revisao.
+
+Referencias: `docs/CATALOGO_BRASILEIRO_PERSONAGENS.md`, `docs/REVISAO_CULTURAL_PERSONAGENS.md` e `data/relatorio-validacao-catalogo.json`.
+<!-- CATALOGO_BRASILEIRO_FIM -->

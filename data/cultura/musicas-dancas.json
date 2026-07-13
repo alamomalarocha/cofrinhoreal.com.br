@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "atualizado_em": "2026-07-12",
+  "tipo": "musicas_dancas",
+  "escopo": "Musicas, dancas e variacoes territoriais",
+  "status": "estrutura_criada_pesquisa_pendente",
+  "politica": "Nao atribuir exclusividade territorial nem relacionar personagens sem fonte especifica e revisao.",
+  "fontes_prioritarias": [
+    "iphan-patrimonio-imaterial",
+    "fontes-estaduais",
+    "fontes-comunitarias-confiaveis"
+  ],
+  "itens": []
+}

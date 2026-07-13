@@ -681,3 +681,11 @@ A variacao `rosa` do avatar `011 - Pig Senior` foi recriada no sistema visual si
 - proxima variacao: `011 - Pig Senior - arco_iris`;
 - variacoes criadas antes da migracao: 39;
 - nenhuma imagem deve ser recriada por causa da nova arquitetura.
+
+<!-- CATALOGO_BRASILEIRO_INICIO -->
+## Catalogo brasileiro compilado
+
+Em 2026-07-12, o catalogo passou a ter 3251 registros fixos, 1430 familias e cobertura das 27 UFs. As fontes ficam em `data/personagens/`; os arquivos monoliticos sao gerados. Perfis culturais sensiveis permanecem nao publicaveis ate pesquisa e revisao.
+
+Referencias: `docs/CATALOGO_BRASILEIRO_PERSONAGENS.md`, `docs/REVISAO_CULTURAL_PERSONAGENS.md` e `data/relatorio-validacao-catalogo.json`.
+<!-- CATALOGO_BRASILEIRO_FIM -->

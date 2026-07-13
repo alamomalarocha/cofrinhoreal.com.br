@@ -160,3 +160,11 @@ A pagina estatica `personagens.html` deve ser atualizada sempre que uma imagem o
 O numero 200 deixou de ser limite de expansao. Os numeros legados permanecem, enquanto `uid`, `numero_legacy` e `card_code` permitem crescimento para milhares de registros. A matriz de cobertura define prioridades por necessidade cultural e educativa, nao por contagem.
 
 Ver `ARQUITETURA_UNIVERSO_PIG.md`, `MATRIZ_COBERTURA_PERSONAGENS.md` e `data/backlog-personagens.csv`.
+
+<!-- CATALOGO_BRASILEIRO_INICIO -->
+## Catalogo brasileiro compilado
+
+Em 2026-07-12, o catalogo passou a ter 3251 registros fixos, 1430 familias e cobertura das 27 UFs. As fontes ficam em `data/personagens/`; os arquivos monoliticos sao gerados. Perfis culturais sensiveis permanecem nao publicaveis ate pesquisa e revisao.
+
+Referencias: `docs/CATALOGO_BRASILEIRO_PERSONAGENS.md`, `docs/REVISAO_CULTURAL_PERSONAGENS.md` e `data/relatorio-validacao-catalogo.json`.
+<!-- CATALOGO_BRASILEIRO_FIM -->

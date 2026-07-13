@@ -127,3 +127,18 @@ Sempre que uma imagem oficial de personagem ou avatar for criada, atualizar tamb
 Os prompts visuais para ChatGPT Images devem ser ultra curtos, isolados e com no maximo 8 linhas. Sempre comecar com: `Crie do zero. Ignore prints, telas, logos, cards e imagens anteriores.`
 
 Para avatares, o prompt deve trazer apenas idade/faixa, pose, roupa, cor, proibicoes essenciais e fundo transparente. Nao misturar dados tecnicos, caminhos, JSON, CSV, commit ou explicacoes longas no prompt visual.
+
+<!-- CATALOGO_BRASILEIRO_INICIO -->
+## Catalogo brasileiro completo
+
+- [Catalogo brasileiro](CATALOGO_BRASILEIRO_PERSONAGENS.md)
+- [Cobertura regional](COBERTURA_REGIONAL_UFS.md)
+- [Cobertura etnico-cultural](COBERTURA_ETNICO_CULTURAL.md)
+- [Cobertura de profissoes](COBERTURA_PROFISSOES.md)
+- [Cobertura de folclore](COBERTURA_FOLCLORE.md)
+- [Familias do catalogo](FAMILIAS_CATALOGO_COMPLETO.md)
+- [Revisao cultural](REVISAO_CULTURAL_PERSONAGENS.md)
+- [Fila de imagens](FILA_CRIACAO_IMAGENS.md)
+- [Decisoes mestras](DECISOES_MESTRAS_PROJETO.md)
+- [Relatorio da expansao](RELATORIO_EXPANSAO_CATALOGO_001.md)
+<!-- CATALOGO_BRASILEIRO_FIM -->
