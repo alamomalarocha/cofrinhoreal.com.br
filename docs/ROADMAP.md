@@ -1,60 +1,21 @@
 # Roadmap
 
-Este roadmap organiza a evolucao do Cofrinho Real por fases.
+## Fase atual
 
-## Fase 0 — Fundacao
+- Site estatico reposicionado em PigCoin ficticio, educacao e entretenimento.
+- Colecao Pig orientada por dados.
+- Arquitetura de pesquisa por jurisdicao, idade e conteudo.
+- Paginas legais como rascunhos sem vigencia.
 
-- Documentacao principal.
-- Identidade visual.
-- Estrutura de projeto.
-- Prototipo navegavel.
-- Reestrutura do site em Home + paginas internas estaticas.
-- Validacao de conceito.
+## Proximas validacoes
 
-## Fase 1 — MVP
+- Revisar clareza publica, acessibilidade e responsividade.
+- Continuar imagens dos avatares sem reiniciar a sequencia.
+- Mapear conteudo educativo para classificacoes oficiais com especialistas.
+- Revisar protecao infantojuvenil e internacionalizacao profissionalmente.
 
-- Fluxos principais simulados.
-- Experiencia do usuario comum.
-- Experiencia basica do comerciante.
-- Pig como mascote emocional.
-- Materiais A4 para comerciantes.
-- Organizacao conceitual da Familia Pig, sem criar todos os personagens.
-- Paginas legais estaticas iniciais para prototipo.
-- Busca visual e modal de login apenas como simulacao.
-- Conceito de jogos educativos sem mecanicas funcionais.
-- Site multipaginas estatico com noindex, sem backend e sem operacao real.
+## Nao autorizado
 
-## Fase 2 — Produto inicial
+Backend, conta real, coleta de dados, pagamento, compra, saque, PIX, criptoativo, chat, rede social ou publicidade para menores.
 
-- Autenticacao.
-- Contas de usuario.
-- Contas de comerciante.
-- Historico de movimentacoes.
-- Regras iniciais de seguranca.
-
-## Fase 3 — Ecossistema
-
-- Familia e contas infantis.
-- Pig Coins educativas.
-- Doacoes opcionais.
-- Evolucao visual por idade.
-- Albuns e conquistas nao financeiras.
-- Expansao gradual da Familia Pig por fases.
-- Jogos educativos simples, sem aposta, loot box, FOMO ou compra de vantagem.
-- Politicas juridicas e de privacidade revisadas para operacao real.
-
-## Familia Pig
-
-A Familia Pig deve evoluir em fases:
-
-- Fase 1: Pig Principal, Pig Crianca, Pig Adolescente, Pig Adulto, Pig Comerciante, Pig Vovó, Pig Vovô e Pig Familia.
-- Fase 2: nucleo familiar ampliado.
-- Fase 3: escola, amigos, vizinhos e comercio local.
-- Fase 4: proposito social e comunidade.
-
-Documento principal: `docs/FAMILIA_PIG.md`.
-
-## Fases futuras
-
-- Integracoes financeiras reais somente quando houver maturidade tecnica, juridica e operacional.
-- Chat, marketplace, rede social e funcionalidades avancadas ficam fora do MVP.
+Qualquer funcionalidade reservada depende de decisao expressa e nova auditoria.

@@ -1,5 +1,19 @@
 # Documentacao do Cofrinho Real
 
+## Posicionamento e protecao - 2026-07
+
+- [Reposicionamento publico PigCoin](REPOSICIONAMENTO_PUBLICO_PIGCOIN.md)
+- [Internacionalizacao e conformidade](INTERNACIONALIZACAO_E_CONFORMIDADE.md)
+- [Protecao infantojuvenil](PROTECAO_INFANTOJUVENIL.md)
+- [Afericao de idade e responsaveis](AFERICAO_DE_IDADE_E_RESPONSAVEIS.md)
+- [Conteudo por idade](CONTEUDO_POR_IDADE.md)
+- [Classificacao indicativa](CLASSIFICACAO_INDICATIVA.md)
+- [Plano de revelacao futura](PLANO_REVELACAO_FUTURA.md)
+- [Auditoria de exposicao](AUDITORIA_EXPOSICAO_CONCEITO_TROCO_001.md)
+- [Checkpoint do reposicionamento](CHECKPOINT_REPOSICIONAMENTO_PUBLICO_001.md)
+
+Os documentos historicos abaixo podem descrever etapas anteriores. O posicionamento vigente e definido pelos arquivos acima e pelo `PROMPT_MESTRE.md` da raiz.
+
 Esta pasta concentra a memoria de produto, negocio, arquitetura, seguranca e evolucao do Cofrinho Real.
 
 Antes de desenvolver qualquer funcionalidade, leia:

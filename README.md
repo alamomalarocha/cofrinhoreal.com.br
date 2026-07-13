@@ -1,66 +1,47 @@
 # Cofrinho Real
 
-Protótipo navegável do projeto Cofrinho Real.
+Prototipo visual estatico do universo Pig: personagens, historias, jogos e PigCoins ficticios para educacao financeira, educacao digital, energia, seguranca e escolhas responsaveis.
 
-Antes de qualquer evolução, leia o arquivo [PROMPT_MESTRE.md](PROMPT_MESTRE.md). Ele define a filosofia, limites, identidade e direção do projeto.
+## Posicionamento publico atual
 
-Leia também:
+**Aprender, brincar e crescer com o Pig.**
 
-- [IDENTIDADE_VISUAL.md](IDENTIDADE_VISUAL.md)
-- [docs/README.md](docs/README.md)
+PigCoin e uma linguagem educativa interna. Nao e dinheiro, criptoativo, investimento, premio conversivel ou promessa de ganho. O projeto nao possui backend funcional, banco real, login real, PIX, compra, saque ou movimentacao real.
 
-## Fase atual
+## Paginas
 
-MVP de validação visual e conceitual.
+- `index.html`: apresentacao publica.
+- `pig-coins.html`: PigCoin ficticio e narrativa educativa.
+- `educacao.html`: trilhas por idade e temas.
+- `jogos.html`: jogos educativos conceituais.
+- `personagens.html`: Colecao Pig orientada por dados.
+- `familias.html`: familias e supervisao responsavel.
+- `seguranca.html`: seguranca digital em linguagem educativa.
+- `faq.html`: duvidas e limites do prototipo.
 
-O site pode estar publicado em `https://cofrinhoreal.com.br` apenas para análise, com `noindex` temporário.
+## Dados e arquitetura
 
-Não há backend, banco de dados, login funcional, PIX real, app real ou movimentação real de dinheiro.
+- `data/vila-pig-personagens.json`: catalogo de personagens e variacoes.
+- `data/content/`: niveis e descritores editoriais internos.
+- `data/compliance/jurisdictions/`: pesquisa por jurisdicao, com contas reais desabilitadas.
+- `schemas/`: contratos JSON.
+- `locales/`: esqueletos de localizacao.
+- `legal/`: estruturas de pesquisa, nao textos aprovados.
 
-## Princípios
+## Validacao
 
-- Simples
-- Organizado
-- Seguro
-- Escalável
-- Baixo custo
-- Fácil manutenção
+```powershell
+node scripts/validate-universo-pig.mjs
+node --check script.js
+node --check personagens.js
+git diff --check
+```
 
-## Como abrir localmente
+## Avisos
 
-Abra o arquivo `index.html` no navegador ou rode um servidor estático simples na pasta do projeto.
+- Repositorio e site de prototipo em validacao, mantidos com `noindex`.
+- Pesquisa tecnica nao equivale a parecer juridico.
+- Nenhum pais esta habilitado para conta real.
+- A Colecao Pig nao envolve compra de cards, raridade paga, aposta ou loot box.
 
-## Estrutura do projeto
-
-- `docs/`: missão, roadmap, MVP, regras de negócio, fluxos, segurança e arquitetura.
-- `design/`: diretrizes futuras de UX, UI e protótipos.
-- `branding/`: marca, tom de voz e mascote Pig.
-- `frontend/`: futura aplicação web.
-- `backend/`: futuro backend.
-- `mobile/`: futuro aplicativo mobile.
-- `api/`: futura documentação de contratos e endpoints.
-- `database/`: futuro modelo de dados.
-- `assets/`: imagens e materiais visuais.
-- `public/`: futuros arquivos públicos da aplicação.
-- `tests/`: futuros testes.
-- `scripts/`: futuros scripts auxiliares.
-
-## Vila Pig
-
-A base estatica do universo de personagens fica em:
-
-- `data/vila-pig-personagens.json`
-- `data/vila-pig-personagens.csv`
-
-A previa visual fica em `personagens.html`.
-
-As imagens aprovadas ficam em `assets/characters/`. O status oficial de cada personagem e variacao fica no JSON, e o proximo item nunca deve ser presumido.
-
-O universo escalavel tambem usa:
-
-- catalogos territoriais, culturais, familiares e profissionais em `data/`;
-- esquemas em `schemas/`;
-- validacao com `node scripts/validate-universo-pig.mjs`;
-- arquitetura documentada em `docs/ARQUITETURA_UNIVERSO_PIG.md`.
-
-O projeto continua um prototipo estatico, sem backend, banco real, login real, PIX real ou movimentacao real.
+Consulte [docs/README.md](docs/README.md) para o indice tecnico.

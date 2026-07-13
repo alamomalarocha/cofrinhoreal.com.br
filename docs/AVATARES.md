@@ -1,5 +1,7 @@
 # Avatares do Usuario
 
+> Regra atual: estilos `padrao`, `azul`, `rosa` e `arco_iris` sao escolhas visuais. Nao definem genero, idade, orientacao, identidade, jurisdicao, conta ou nivel de conteudo. A permissao futura depende de regras locais e da idade atual, nunca da aparencia escolhida.
+
 Os avatares do usuario nao sao personagens fixos da historia.
 
 Eles representam a conta da pessoa dentro do app e poderao ser personalizados visualmente no futuro.

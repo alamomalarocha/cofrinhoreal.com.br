@@ -1,36 +1,18 @@
-# Pig Coin
+# PigCoin
 
-Pig Coin e uma moeda simbolica de recompensa.
+PigCoin e uma unidade narrativa ficticia do universo Pig.
 
-Ela nao representa dinheiro.
+## Pode representar
 
-## Pode ser usada para
+- progresso educativo;
+- conclusao de historias ou desafios;
+- escolhas responsaveis;
+- reconhecimento interno sem valor financeiro.
 
-- Acessorios do Pig.
-- Roupas.
-- Decoracao.
-- Albuns.
-- Recompensas educativas.
-- Evolucao visual.
+## Nunca representa
 
-## Nunca pode
+- dinheiro, criptoativo, investimento ou premio conversivel;
+- compra, venda, saque, PIX ou promessa de valorizacao;
+- aposta, cassino, loot box, urgencia artificial ou pressao de consumo.
 
-- Virar dinheiro.
-- Virar PIX.
-- Ser comprada.
-- Ser vendida.
-- Ser usada como aposta.
-
-## Filosofia
-
-Pig Coin recompensa bons habitos, constancia e aprendizado.
-
-Nao recompensa vicio.
-
-## Vantajinho no PigCoin
-
-O Vantajinho pode aparecer em jogos educativos futuros ligados a PigCoin para transformar descuido em aprendizado.
-
-Regra principal: no dinheiro real, ele so orienta. No PigCoin, por ser ficticio e educativo, ele pode gerar consequencias simbolicas dentro do jogo.
-
-PigCoin continua sem valor financeiro, sem PIX, sem compra, sem venda e sem saque.
+Mestre Satochi explica energia, criptografia e responsabilidade em linguagem educativa. Vantajinho mostra por que atalhos, golpes e promessas faceis merecem desconfianca.
