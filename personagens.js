@@ -91,7 +91,7 @@ function footerLine(person) {
   if (person.numero === "201") {
     return "No dinheiro real, ele so ensina. No PigCoin, ele entra no jogo.";
   }
-  if (person.tipo === "avatar_usuario") return "Troco pequeno tambem tem valor.";
+  if (person.tipo === "avatar_usuario") return "Aprender acompanha todas as fases da vida.";
   if (person.tipo === "mascote_principal") return "O Pig acompanha cada pequena conquista.";
   return "Uma historia da Vila Pig para aprender com carinho.";
 }

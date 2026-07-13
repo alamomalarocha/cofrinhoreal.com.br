@@ -14,7 +14,7 @@
     "faixa_etaria": "atemporal",
     "papel": "Professor-amigo e comunicador do Cofrinho Real",
     "descricao_curta": "O Pig e o guia principal do Cofrinho Real.",
-    "historia": "Personagem central que ajuda criancas, familias e comerciantes a entenderem o valor do troco pequeno.",
+    "historia": "Personagem central que ajuda criancas, familias e comunidades a aprender sobre escolhas, planejamento e seguranca.",
     "relacoes": [
       "Pinguinha",
       "Vovo Zefa",
@@ -1216,7 +1216,7 @@
     "categoria": "Familia principal",
     "faixa_etaria": "crianca",
     "papel": "Irmao brincalhao que aprende a contar moedas",
-    "descricao_curta": "Transforma troco em pequenas descobertas.",
+    "descricao_curta": "Participa de historias educativas sobre escolhas, planejamento e comunidade.",
     "historia": "Juninho faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -1708,8 +1708,8 @@
     "tipo": "comercio_local",
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
-    "papel": "Padeiro que enfrenta a falta de moeda no caixa",
-    "descricao_curta": "Mostra o troco digital no comercio de bairro.",
+    "papel": "Padeiro que compartilha historias do comercio de bairro",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Seu Damiao da Padaria faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -1764,7 +1764,7 @@
     "categoria": "Cantina e eventos escolares",
     "faixa_etaria": "adulto",
     "papel": "Cantineira querida da escola",
-    "descricao_curta": "Ajuda em exemplos educativos de troco supervisionado.",
+    "descricao_curta": "Participa de historias educativas sobre escolhas, planejamento e comunidade.",
     "historia": "Tia Carmem da Cantina faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -1876,7 +1876,7 @@
     "categoria": "Mascote e guias",
     "faixa_etaria": "atemporal",
     "papel": "Guia de numeros e moedas",
-    "descricao_curta": "Ensina soma, troco e pequenos calculos.",
+    "descricao_curta": "Participa de historias educativas sobre escolhas, planejamento e comunidade.",
     "historia": "Pig Contador faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -2435,7 +2435,7 @@
     "categoria": "Escola",
     "faixa_etaria": "adulto",
     "papel": "Professor de matematica do cotidiano",
-    "descricao_curta": "Transforma troco em aula simples.",
+    "descricao_curta": "Participa de historias educativas sobre escolhas, planejamento e comunidade.",
     "historia": "Professor Marcos faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -2934,7 +2934,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Dona de mercearia",
-    "descricao_curta": "Resolve falta de troco com simplicidade.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Dona Graca da Mercearia faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -2989,7 +2989,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Dono de bodega",
-    "descricao_curta": "Conhece a vizinhanca e usa troco digital.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Seu Ze da Bodega faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -3209,7 +3209,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "jovem",
     "papel": "Garcom do restaurante",
-    "descricao_curta": "Oferece troco digital de forma educada.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Nandinho Garcom faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -3319,7 +3319,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Feirante",
-    "descricao_curta": "Mostra troco pequeno na feira.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Bento da Feira faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -3429,7 +3429,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "jovem",
     "papel": "Caixa de mercado",
-    "descricao_curta": "Representa rotina de troco no caixa.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Davi Caixa do Mercado faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -4652,7 +4652,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Lia do Bazar faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -5096,7 +5096,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Paulo do Transporte faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -5540,7 +5540,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Samuel do Mercado faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -5984,7 +5984,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Luan da Robotica faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -6428,7 +6428,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Marta da Arrecadacao faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -6872,7 +6872,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Mirela da Meta faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -7316,7 +7316,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Seu Abel da Praca faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -7760,7 +7760,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Toni da Farmacia faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -8204,7 +8204,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Mara Atendente faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -8648,7 +8648,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Aline do Brecho faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -9092,7 +9092,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Miguel da Conta faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -9536,7 +9536,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Branca Madrinha faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -9980,7 +9980,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Dona Marlene Sindica faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -10424,7 +10424,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Bruno Protetor faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -10868,7 +10868,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Dona Amara da Renda faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",
@@ -11312,7 +11312,7 @@
     "categoria": "Comercio local",
     "faixa_etaria": "adulto",
     "papel": "Pessoa do comercio de bairro",
-    "descricao_curta": "Mostra o problema da falta de moeda e do troco miudo.",
+    "descricao_curta": "Representa o dia a dia do bairro em historias de educacao e comunidade.",
     "historia": "Seu Jaime da Serra faz parte da Vila Fazenda Pig, um universo comunitario para explicar pequenos valores, familia, escola e comercio local.",
     "relacoes": [
       "Pig",

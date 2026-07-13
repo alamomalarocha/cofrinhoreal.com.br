@@ -1,7 +1,7 @@
 {
   "name": "Cofrinho Real",
   "short_name": "Cofrinho Real",
-  "description": "Protótipo visual em validação do Cofrinho Real.",
+  "description": "Universo educativo do Pig com historias, personagens, jogos e PigCoins ficticios.",
   "id": "/",
   "start_url": "./",
   "scope": "./",
