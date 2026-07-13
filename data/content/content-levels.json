@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "status": "internal_research",
+  "notice": "Niveis editoriais internos; nao substituem classificacao oficial nem regra juridica local.",
+  "levels": [
+    { "id": "primeira_infancia", "order": 1, "indicative_age_min": 0, "indicative_age_max": 2, "themes": ["cores", "formas", "contagem", "repeticao"], "guardian_context": "acompanhado" },
+    { "id": "pre_escolar", "order": 2, "indicative_age_min": 3, "indicative_age_max": 5, "themes": ["numeros", "historias_curtas", "seguranca_basica"], "guardian_context": "acompanhado" },
+    { "id": "infantil_inicial", "order": 3, "indicative_age_min": 6, "indicative_age_max": 9, "themes": ["metas_simples", "escolhas", "memoria"], "guardian_context": "supervisionado" },
+    { "id": "infantil", "order": 4, "indicative_age_min": 9, "indicative_age_max": 11, "themes": ["planejamento_simples", "energia", "consumo_consciente"], "guardian_context": "supervisionado" },
+    { "id": "pre_adolescente", "order": 5, "indicative_age_min": 10, "indicative_age_max": 12, "themes": ["orcamento", "comparacao", "seguranca_digital"], "guardian_context": "conforme_jurisdicao" },
+    { "id": "adolescente_inicial", "order": 6, "indicative_age_min": 13, "indicative_age_max": 15, "themes": ["privacidade", "golpes", "tecnologia"], "guardian_context": "conforme_jurisdicao" },
+    { "id": "adolescente", "order": 7, "indicative_age_min": 16, "indicative_age_max": 17, "themes": ["risco", "criptografia", "carreiras", "simulacoes"], "guardian_context": "conforme_jurisdicao" },
+    { "id": "adulto", "order": 8, "indicative_age_min": 18, "indicative_age_max": 59, "themes": ["planejamento", "familia", "seguranca"], "guardian_context": "nao_aplicavel" },
+    { "id": "adulto_maduro", "order": 9, "indicative_age_min": 60, "indicative_age_max": null, "themes": ["golpes", "acessibilidade", "legado", "organizacao_familiar"], "guardian_context": "nao_aplicavel" }
+  ]
+}

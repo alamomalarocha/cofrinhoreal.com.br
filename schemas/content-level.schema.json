@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cofrinhoreal.com.br/schemas/content-level.schema.json",
+  "title": "Internal content level",
+  "type": "object",
+  "required": ["id", "order", "themes", "guardian_context"],
+  "properties": {
+    "id": { "enum": ["primeira_infancia", "pre_escolar", "infantil_inicial", "infantil", "pre_adolescente", "adolescente_inicial", "adolescente", "adulto", "adulto_maduro"] },
+    "order": { "type": "integer", "minimum": 1 },
+    "indicative_age_min": { "type": ["integer", "null"], "minimum": 0 },
+    "indicative_age_max": { "type": ["integer", "null"], "minimum": 0 },
+    "themes": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "guardian_context": { "type": "string" }
+  },
+  "additionalProperties": false
+}

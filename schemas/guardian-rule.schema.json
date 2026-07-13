@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cofrinhoreal.com.br/schemas/guardian-rule.schema.json",
+  "title": "Conceptual guardian rule",
+  "type": "object",
+  "required": ["jurisdiction_id", "status", "real_collection_enabled", "permissions"],
+  "properties": {
+    "jurisdiction_id": { "type": "string" },
+    "status": { "enum": ["research_only", "pending_legal_review", "approved"] },
+    "age_below": { "type": ["integer", "null"], "minimum": 0 },
+    "real_collection_enabled": { "const": false },
+    "guardian_verification_required": { "type": ["boolean", "null"] },
+    "permissions": {
+      "type": "object",
+      "properties": {
+        "manage_privacy": { "type": "boolean" },
+        "manage_content": { "type": "boolean" },
+        "manage_deletion": { "type": "boolean" },
+        "enable_social": { "const": false },
+        "enable_purchases": { "const": false }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

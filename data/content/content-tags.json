@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "tags": [
+    "medo", "violencia", "linguagem", "humor_adulto", "drogas", "sexualidade",
+    "compras", "interacao", "dados", "localizacao", "publicidade",
+    "comunicacao_entre_usuarios", "conteudo_gerado_por_usuarios",
+    "educacao_financeira", "investimento_simulado", "risco", "criptografia", "seguranca"
+  ],
+  "disabled_in_prototype": [
+    "compras", "interacao", "localizacao", "publicidade", "comunicacao_entre_usuarios", "conteudo_gerado_por_usuarios"
+  ]
+}

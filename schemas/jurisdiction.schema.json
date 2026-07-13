@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cofrinhoreal.com.br/schemas/jurisdiction.schema.json",
+  "title": "Jurisdiction research profile",
+  "type": "object",
+  "required": ["jurisdiction_id", "supported", "account_creation_enabled", "legal_review_status", "official_sources"],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "jurisdiction_id": { "type": "string", "minLength": 2 },
+    "country_code": { "type": ["string", "null"], "pattern": "^[A-Z]{2}$" },
+    "region_code": { "type": ["string", "null"] },
+    "supported": { "type": "boolean" },
+    "public_prototype_allowed": { "type": "boolean" },
+    "account_creation_enabled": { "type": "boolean" },
+    "legal_review_status": { "enum": ["research_only", "pending_legal_review", "approved"] },
+    "effective_from": { "type": ["string", "null"], "format": "date" },
+    "effective_to": { "type": ["string", "null"], "format": "date" },
+    "last_reviewed_at": { "type": ["string", "null"], "format": "date" },
+    "reviewed_by": { "type": ["string", "null"] },
+    "minimum_age_independent_account": { "type": ["integer", "null"], "minimum": 0 },
+    "parental_consent_required_below": { "type": ["integer", "null"], "minimum": 0 },
+    "parental_supervision_required_below": { "type": ["integer", "null"], "minimum": 0 },
+    "age_assurance_required": { "type": ["boolean", "null"] },
+    "content_rating_system": { "type": ["string", "null"] },
+    "personalized_ads_to_minors": { "const": false },
+    "official_sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "authority", "url", "consulted_at", "status"],
+        "properties": {
+          "title": { "type": "string" },
+          "authority": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "consulted_at": { "type": "string", "format": "date" },
+          "status": { "enum": ["official", "research_only"] }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

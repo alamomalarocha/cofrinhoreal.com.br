@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0.0",
+  "status": "research_only",
+  "mappings": [
+    { "jurisdiction_id": "BR", "system": "Classificacao Indicativa - MJSP", "mapping_status": "pending_professional_review", "levels": [] },
+    { "jurisdiction_id": "US", "system": null, "mapping_status": "pending_professional_review", "levels": [] },
+    { "jurisdiction_id": "EU-TEMPLATE", "system": null, "mapping_status": "country_specific_required", "levels": [] }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cofrinhoreal.com.br/schemas/content-item.schema.json",
+  "title": "Age-aware educational content item",
+  "type": "object",
+  "required": ["content_id", "title", "internal_level", "tags", "countries", "review_status"],
+  "properties": {
+    "content_id": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "internal_level": { "$ref": "#/$defs/levelId" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "countries": { "type": "array", "items": { "type": "string" } },
+    "local_ratings": { "type": "object" },
+    "guardian_supervision": { "type": ["boolean", "null"] },
+    "review_status": { "enum": ["draft", "research_only", "pending_review", "approved"] }
+  },
+  "$defs": {
+    "levelId": { "enum": ["primeira_infancia", "pre_escolar", "infantil_inicial", "infantil", "pre_adolescente", "adolescente_inicial", "adolescente", "adulto", "adulto_maduro"] }
+  },
+  "additionalProperties": false
+}
