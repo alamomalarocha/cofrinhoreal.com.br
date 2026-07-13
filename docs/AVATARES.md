@@ -650,6 +650,16 @@ A variacao `rosa` do avatar `011 - Pig Senior` foi recriada no sistema visual si
 - status da variacao `rosa`: `criada`
 - proxima variacao pendente: `011 - Pig Senior - arco_iris`
 
+## Avatar 011 - Pig Senior - arco_iris recriado
+
+A variacao `arco_iris` do avatar `011 - Pig Senior` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/011-pig-senior-arco-iris.png`
+- asset principal preservado: `assets/characters/011-pig-senior.png`
+- status da variacao `arco_iris`: `criada`
+- variacoes do `011 - Pig Senior` criadas: `padrao`, `azul`, `rosa`, `arco_iris`
+- proximo item pendente: `202 - Mestre Satochi - principal`
+
 ## Arquitetura de geracoes e fases
 
 Os avatares `002` a `011` continuam representando fases da vida. Geracao e um dado separado, calculado futuramente pelo ano de nascimento e sem inferencia de personalidade. Ver `GERACOES_E_FASES_DA_VIDA.md` e `data/fases-vida.json`.

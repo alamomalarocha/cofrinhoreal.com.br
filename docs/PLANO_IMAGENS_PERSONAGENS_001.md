@@ -675,11 +675,21 @@ A variacao `rosa` do avatar `011 - Pig Senior` foi recriada no sistema visual si
 - status da variacao `rosa`: `criada`
 - proxima variacao pendente: `011 - Pig Senior - arco_iris`
 
+## Avatar 011 - Pig Senior - arco_iris recriado
+
+A variacao `arco_iris` do avatar `011 - Pig Senior` foi recriada no sistema visual simples `camisa_calca_tenis`.
+
+- arquivo oficial: `assets/characters/011-pig-senior-arco-iris.png`
+- asset principal preservado: `assets/characters/011-pig-senior.png`
+- status da variacao `arco_iris`: `criada`
+- variacoes do `011 - Pig Senior` criadas: `padrao`, `azul`, `rosa`, `arco_iris`
+- proximo item pendente: `202 - Mestre Satochi - principal`
+
 ## Ponto preservado pela reorganizacao
 
-- ultima variacao criada: `011 - Pig Senior - rosa`;
-- proxima variacao: `011 - Pig Senior - arco_iris`;
-- variacoes criadas antes da migracao: 39;
+- ultima variacao criada: `011 - Pig Senior - arco_iris`;
+- proximo item: `202 - Mestre Satochi - principal`;
+- variacoes de avatar criadas: 40;
 - nenhuma imagem deve ser recriada por causa da nova arquitetura.
 
 <!-- CATALOGO_BRASILEIRO_INICIO -->

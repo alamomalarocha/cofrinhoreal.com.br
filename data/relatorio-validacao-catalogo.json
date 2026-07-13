@@ -57,7 +57,7 @@
     "lotes_fonte": 40,
     "lotes_publicos": 27,
     "imagens_principais_criadas": 2,
-    "variacoes_criadas": 39
+    "variacoes_criadas": 40
   },
   "verificacoes": [
     {
@@ -547,6 +547,11 @@
     },
     {
       "id": "avatar_011_arco_iris",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_011_arco_iris_png",
       "status": "ok",
       "details": "ok"
     },

@@ -414,7 +414,7 @@ Regra para `003` a `011`: todos devem estar em pe. Usar sempre `corpo inteiro, e
 
 ## Continuidade apos reorganizacao
 
-A reorganizacao nao reinicia a fila. Sempre executar `node scripts/validate-universo-pig.mjs`, ler `status_variacoes` e confirmar o asset antes de sugerir o proximo prompt. O ponto preservado e `011 - Pig Senior - arco_iris`.
+A reorganizacao nao reinicia a fila. Sempre executar `node scripts/validate-universo-pig.mjs`, ler `status_variacoes` e confirmar o asset antes de sugerir o proximo prompt. Os 40 avatares de fase de vida foram concluidos; o proximo item e `202 - Mestre Satochi - principal`.
 
 Personagens regionais, comunitarios, profissionais ou folcloricos exigem pesquisa e aprovacao conceitual antes do prompt visual.
 

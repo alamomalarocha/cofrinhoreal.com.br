@@ -118,8 +118,8 @@ writeJson("data/fila-imagens-personagens.json", {
 });
 
 const first = rows[0];
-if (!first || first.numero !== "011" || first.estilo !== "arco_iris") {
-  throw new Error("A fila deve iniciar por 011 - Pig Senior - arco_iris.");
+if (!first || first.numero !== "202" || first.estilo !== "principal") {
+  throw new Error("A fila deve iniciar por 202 - Mestre Satochi - principal apos concluir os avatares.");
 }
 
 for (const row of rows) {

@@ -188,7 +188,7 @@ const expectedAvatarStatuses = {
   "008": { padrao: "criada", azul: "criada", rosa: "criada", arco_iris: "criada" },
   "009": { padrao: "criada", azul: "criada", rosa: "criada", arco_iris: "criada" },
   "010": { padrao: "criada", azul: "criada", rosa: "criada", arco_iris: "criada" },
-  "011": { padrao: "criada", azul: "criada", rosa: "criada", arco_iris: "pendente" },
+  "011": { padrao: "criada", azul: "criada", rosa: "criada", arco_iris: "criada" },
 };
 for (const [number, expected] of Object.entries(expectedAvatarStatuses)) {
   const avatar = people.find((person) => person.numero === number);
