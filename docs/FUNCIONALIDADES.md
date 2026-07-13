@@ -1,44 +1,19 @@
-# Funcionalidades
+# Funcionalidades do prototipo
 
-Este documento lista funcionalidades previstas, sem obrigacao de implementacao imediata.
+## Disponiveis
 
-## Nucleo
+- Navegacao estatica por temas.
+- Conteudo educativo demonstrativo.
+- Colecao Pig com busca, filtros e paginacao local.
+- PigCoin ficticio como narrativa.
+- Teaser futuro sem data ou desbloqueio.
 
-- Receber um Pig.
-- Enviar um Pig.
-- Visualizar saldo.
-- Visualizar historico.
-- QR Code do usuario.
-- Numero do cofrinho.
-- Perfil do usuario.
+## Conceituais
 
-## Comerciante
+- Localizacao por idioma e pais.
+- Curadoria por nivel editorial e classificacao local.
+- Supervisao responsavel conforme jurisdicao.
 
-- Conta empresarial.
-- Adicionar saldo ao sistema.
-- Enviar troco digital.
-- Visualizar movimentacoes.
-- Imprimir materiais A4.
+## Nao disponiveis
 
-## Familia
-
-- Conta infantil.
-- Responsavel legal.
-- Envio por pais, avos e padrinhos.
-- Controle de permissao.
-
-## Educacao
-
-- Metas.
-- Reflexoes antes de gastar.
-- Conteudo simples por idade.
-- Evolucao do Pig.
-
-## Futuro
-
-- Doacoes.
-- Albuns.
-- Pig Coins.
-- Chat.
-- Integracoes financeiras reais.
-
+Backend, banco, conta, autenticacao, coleta de dados, compra, pagamento, saque, chat, rede social e publicidade comportamental.

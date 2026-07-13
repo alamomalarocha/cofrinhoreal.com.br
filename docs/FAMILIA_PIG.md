@@ -177,7 +177,7 @@ Exemplos de mensagens futuras:
 
 - "A vovo mandou um Pig para voce."
 - "Seu pai ajudou seu sonho a chegar mais perto."
-- "O comerciante enviou seu troco digital."
+- "O comerciante contou uma historia do bairro."
 - "Seu amigo mandou um Pig com carinho."
 
 ## Uso futuro na educacao financeira
@@ -207,7 +207,7 @@ A Familia Pig tambem deve representar o comercio local:
 - mercado;
 - lanchonete.
 
-Esses personagens ajudam a mostrar o Cofrinho Real como solucao simples para troco digital no dia a dia, especialmente quando falta moeda no caixa.
+Esses personagens aproximam educacao, cultura e comunidade do dia a dia da Vila Pig.
 
 ## Uso futuro no marketing
 
@@ -216,7 +216,7 @@ A Familia Pig podera apoiar campanhas com linguagem emocional, brasileira, famil
 - avos enviando um Pig para netos;
 - pais ensinando filhos a guardar;
 - escola falando sobre pequenos objetivos;
-- comercio de bairro oferecendo troco digital;
+- comercio de bairro participando de historias educativas;
 - comunidade ajudando causas sociais futuras;
 - familias celebrando conquistas pequenas.
 

@@ -1,27 +1,7 @@
-# Comerciante
+# Parcerias educativas futuras
 
-O comerciante e parte essencial do Cofrinho Real.
+O posicionamento publico atual nao oferece conta empresarial, integracao comercial ou servico operacional.
 
-## Papel
+Parcerias futuras podem envolver escolas, cultura, comunidade, sustentabilidade e educacao, desde que transparentes, adequadas por idade, identificadas e revisadas profissionalmente.
 
-- Oferecer troco digital.
-- Manter saldo para envio de Pig.
-- Ajudar o dinheiro a circular entre cofrinhos.
-
-## MVP
-
-No MVP, o comerciante precisa apenas de:
-
-- explicacao clara
-- fluxo simples de envio
-- materiais A4
-- QR Code conceitual
-- painel basico simulado
-
-## Materiais
-
-- "Aceitamos Cofrinho Real"
-- "Receba seu troco no Cofrinho Real"
-- "Manda um Pig"
-- QR Code do estabelecimento
-
+Nao existe cadastro, saldo, pagamento, publicidade infantil ou programa de parceria ativo.

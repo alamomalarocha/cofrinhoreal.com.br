@@ -16,7 +16,7 @@ A Vila Fazenda Pig e o universo de personagens do Cofrinho Real. Ela representa 
 
 A Vila Pig ajuda a explicar pequenos valores de forma humana:
 
-- troco miudo;
+- escolhas do cotidiano;
 - familia;
 - escola;
 - comercio local;
