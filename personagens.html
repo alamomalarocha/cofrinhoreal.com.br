@@ -12,7 +12,7 @@
     <meta name="theme-color" content="#ff4f83" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="site.webmanifest" />
-    <link rel="stylesheet" href="styles.css?v=40" />
+    <link rel="stylesheet" href="styles.css?v=41" />
   </head>
   <body>
     <header class="site-header">
@@ -137,6 +137,14 @@
             <select data-filter-field="folclore"><option value="">Todos</option></select>
           </label>
           <label>
+            <span>Origem cultural</span>
+            <select data-filter-field="origens_culturais"><option value="">Todas</option></select>
+          </label>
+          <label>
+            <span>Comunidade</span>
+            <select data-filter-field="comunidades"><option value="">Todas</option></select>
+          </label>
+          <label>
             <span>Status</span>
             <select data-filter-field="status">
               <option value="">Todos</option>
@@ -144,11 +152,24 @@
               <option value="pendente">Pendentes</option>
             </select>
           </label>
+          <label>
+            <span>Publicacao</span>
+            <select data-filter-field="publicavel">
+              <option value="">Todos</option>
+              <option value="true">Publicados</option>
+            </select>
+          </label>
           <button class="collection-clear-filters" type="button" data-clear-filters>Limpar filtros</button>
         </form>
       </section>
 
       <section class="section-shell collection-section" aria-live="polite">
+        <div class="collection-load-progress" data-load-progress role="status" aria-live="polite">
+          <span data-load-progress-label>Preparando catalogo...</span>
+          <div class="collection-load-track" aria-hidden="true">
+            <span data-load-progress-bar></span>
+          </div>
+        </div>
         <div class="collection-status" data-collection-status>Carregando Colecao Pig...</div>
         <div class="collectible-grid" data-character-gallery></div>
         <nav class="collection-pagination" aria-label="Paginacao da Colecao Pig" data-collection-pagination hidden>
@@ -180,7 +201,7 @@
       </nav>
       <p class="footer-prototype">Colecao educativa, sem compra, aposta ou valor financeiro.</p>
     </footer>
-    <script src="script.js?v=40"></script>
-    <script src="personagens.js?v=40"></script>
+    <script src="script.js?v=41"></script>
+    <script src="personagens.js?v=41"></script>
   </body>
 </html>
