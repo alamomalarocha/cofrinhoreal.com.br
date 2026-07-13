@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "public_mode": "pigcoin_educacao_entretenimento",
+  "reserved_feature": {
+    "public_visible": false,
+    "teaser_visible": true,
+    "unlock_status": "future",
+    "unlock_date": null,
+    "unlock_threshold": null
+  },
+  "real_accounts_enabled": false,
+  "real_money_enabled": false,
+  "last_updated_at": "2026-07-12"
+}
