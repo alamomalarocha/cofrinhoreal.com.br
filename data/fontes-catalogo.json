@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "atualizado_em": "2026-07-12",
+  "fontes": [
+    {
+      "id": "ibge-nomes-brasil",
+      "titulo": "Nomes no Brasil",
+      "instituicao": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/nomes/",
+      "data_consulta": "2026-07-12",
+      "assunto": "Referencia editorial para nomes brasileiros"
+    },
+    {
+      "id": "ibge-localidades",
+      "titulo": "API de Localidades",
+      "instituicao": "IBGE",
+      "url": "https://servicodados.ibge.gov.br/api/docs/localidades",
+      "data_consulta": "2026-07-12",
+      "assunto": "Regioes, UFs e municipios"
+    },
+    {
+      "id": "ibge-censo-2022-povos-indigenas",
+      "titulo": "Censo Demografico 2022 - Etnias e linguas indigenas",
+      "instituicao": "IBGE",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Etnias_e_Linguas_Indigenas_principais_caracteristicas_sociodemograficas_Resultados_do_universo/Apendices/xlsx/",
+      "data_consulta": "2026-07-12",
+      "assunto": "Lista oficial de povos, etnias ou grupos indigenas"
+    },
+    {
+      "id": "mte-cbo-2002",
+      "titulo": "Classificacao Brasileira de Ocupacoes - CBO 2002",
+      "instituicao": "Ministerio do Trabalho e Emprego",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/cbo/servicos/downloads/cbo2002-ocupacao.csv",
+      "data_consulta": "2026-07-12",
+      "assunto": "Ocupacoes oficiais"
+    },
+    {
+      "id": "mda-povos-comunidades-tradicionais",
+      "titulo": "Povos e Comunidades Tradicionais",
+      "instituicao": "Ministerio do Desenvolvimento Agrario e Agricultura Familiar",
+      "url": "https://www.gov.br/mda/pt-br/assuntos/povos-e-comunidades-tradicionais",
+      "data_consulta": "2026-07-12",
+      "assunto": "Segmentos de povos e comunidades tradicionais"
+    },
+    {
+      "id": "iphan-patrimonio-imaterial",
+      "titulo": "Patrimonio Cultural Imaterial",
+      "instituicao": "IPHAN",
+      "url": "https://www.gov.br/iphan/pt-br/patrimonio-cultural/patrimonio-imaterial",
+      "data_consulta": "2026-07-12",
+      "assunto": "Referencia para pesquisa cultural e folclore"
+    },
+    {
+      "id": "museu-imigracao-acervo",
+      "titulo": "Acervo e pesquisa",
+      "instituicao": "Museu da Imigracao do Estado de Sao Paulo",
+      "url": "https://museudaimigracao.org.br/acervo-e-pesquisa/pesquisa",
+      "data_consulta": "2026-07-12",
+      "assunto": "Trilhas de pesquisa sobre migracoes"
+    }
+  ]
+}

@@ -1,0 +1,4959 @@
+{
+  "schema_version": "2.0.0",
+  "categoria": "regiao_sudeste",
+  "lote": 8,
+  "registros": [
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1863",
+      "numero_legacy": "1863",
+      "uid": "VIL-SE-SP-001661",
+      "card_code": "CR-VIL-SE-SP-001661",
+      "nome": "Alexandre",
+      "nome_completo": "Alexandre Gabriel Mendes Medeiros",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "alexandre-gabriel-mendes-medeiros-sp-0089",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0089",
+      "familia_uid": "FAM-SP-0089",
+      "household_id": "FAM-SP-0089",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001660",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        },
+        {
+          "uid": "VIL-SE-SP-001662",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Pereira Barreto",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_2010_2024",
+      "geracao": "cohort_2010_2024",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_crianca",
+      "faixa_etaria": "Pig Crianca",
+      "idade_aproximada": 8,
+      "profissao_atual": null,
+      "profissoes": [],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "estudante_ou_infancia",
+      "papel_na_vila": "filha_ou_filho",
+      "papel": "filha_ou_filho",
+      "descricao_curta": "Alexandre integra um nucleo ficticio de Pereira Barreto, SP.",
+      "historia": "Alexandre participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho jovem, roupa cotidiana simples e uma mochila sem marca.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "mochila sem marca"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1863-alexandre-gabriel-mendes-medeiros-sp-0089.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1864",
+      "numero_legacy": "1864",
+      "uid": "VIL-SE-SP-001662",
+      "card_code": "CR-VIL-SE-SP-001662",
+      "nome": "Pedro",
+      "nome_completo": "Pedro Celia Mendes Medeiros",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "pedro-celia-mendes-medeiros-sp-0089",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0089",
+      "familia_uid": "FAM-SP-0089",
+      "household_id": "FAM-SP-0089",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001660",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        },
+        {
+          "uid": "VIL-SE-SP-001661",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Pereira Barreto",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_2010_2024",
+      "geracao": "cohort_2010_2024",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_adolescente",
+      "faixa_etaria": "Pig Adolescente",
+      "idade_aproximada": 14,
+      "profissao_atual": null,
+      "profissoes": [],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "estudante_ou_infancia",
+      "papel_na_vila": "filha_ou_filho",
+      "papel": "filha_ou_filho",
+      "descricao_curta": "Pedro integra um nucleo ficticio de Pereira Barreto, SP.",
+      "historia": "Pedro participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho jovem, roupa cotidiana simples e uma mochila sem marca.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "mochila sem marca"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1864-pedro-celia-mendes-medeiros-sp-0089.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1865",
+      "numero_legacy": "1865",
+      "uid": "VIL-SE-SP-001663",
+      "card_code": "CR-VIL-SE-SP-001663",
+      "nome": "Tiago",
+      "nome_completo": "Tiago Rafael Moura Viana",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "tiago-rafael-moura-viana-sp-0090",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0090",
+      "familia_uid": "FAM-SP-0090",
+      "household_id": "FAM-SP-0090",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001664",
+          "tipo": "nucleo intergeracional"
+        },
+        {
+          "uid": "VIL-SE-SP-001665",
+          "tipo": "nucleo intergeracional"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Pirajuí",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1946_1964",
+      "geracao": "cohort_1946_1964",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_senior",
+      "faixa_etaria": "Pig Senior",
+      "idade_aproximada": 68,
+      "profissao_atual": {
+        "id": "CBO-232125",
+        "codigo_cbo": "232125",
+        "titulo": "Professor de filosofia no ensino médio"
+      },
+      "profissoes": [
+        "CBO-232125"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "avo_ou_avo",
+      "papel": "avo_ou_avo",
+      "descricao_curta": "Tiago integra um nucleo ficticio de Pirajuí, SP.",
+      "historia": "Tiago participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1865-tiago-rafael-moura-viana-sp-0090.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1866",
+      "numero_legacy": "1866",
+      "uid": "VIL-SE-SP-001664",
+      "card_code": "CR-VIL-SE-SP-001664",
+      "nome": "Rafael",
+      "nome_completo": "Rafael Teresa Moura Viana",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "rafael-teresa-moura-viana-sp-0090",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0090",
+      "familia_uid": "FAM-SP-0090",
+      "household_id": "FAM-SP-0090",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001663",
+          "tipo": "nucleo intergeracional"
+        },
+        {
+          "uid": "VIL-SE-SP-001665",
+          "tipo": "nucleo intergeracional"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Pirajuí",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1981_1996",
+      "geracao": "cohort_1981_1996",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem_adulto",
+      "faixa_etaria": "Pig Jovem Adulto",
+      "idade_aproximada": 34,
+      "profissao_atual": {
+        "id": "CBO-232130",
+        "codigo_cbo": "232130",
+        "titulo": "Professor de física no ensino médio"
+      },
+      "profissoes": [
+        "CBO-232130"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "filha_ou_filho_adulto",
+      "papel": "filha_ou_filho_adulto",
+      "descricao_curta": "Rafael integra um nucleo ficticio de Pirajuí, SP.",
+      "historia": "Rafael participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1866-rafael-teresa-moura-viana-sp-0090.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1867",
+      "numero_legacy": "1867",
+      "uid": "VIL-SE-SP-001665",
+      "card_code": "CR-VIL-SE-SP-001665",
+      "nome": "Davi",
+      "nome_completo": "Davi Valentina Moura Viana",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "davi-valentina-moura-viana-sp-0090",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0090",
+      "familia_uid": "FAM-SP-0090",
+      "household_id": "FAM-SP-0090",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001663",
+          "tipo": "nucleo intergeracional"
+        },
+        {
+          "uid": "VIL-SE-SP-001664",
+          "tipo": "nucleo intergeracional"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Pirajuí",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_2010_2024",
+      "geracao": "cohort_2010_2024",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_primeirinhos",
+      "faixa_etaria": "Pig Primeirinhos",
+      "idade_aproximada": 5,
+      "profissao_atual": null,
+      "profissoes": [],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "estudante_ou_infancia",
+      "papel_na_vila": "neta_ou_neto",
+      "papel": "neta_ou_neto",
+      "descricao_curta": "Davi integra um nucleo ficticio de Pirajuí, SP.",
+      "historia": "Davi participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho jovem, roupa cotidiana simples e uma mochila sem marca.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "mochila sem marca"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1867-davi-valentina-moura-viana-sp-0090.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1868",
+      "numero_legacy": "1868",
+      "uid": "VIL-SE-SP-001666",
+      "card_code": "CR-VIL-SE-SP-001666",
+      "nome": "Bruno",
+      "nome_completo": "Bruno Benedita Batista Carvalho",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "bruno-benedita-batista-carvalho-sp-0091",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0091",
+      "familia_uid": "FAM-SP-0091",
+      "household_id": "FAM-SP-0091",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001667",
+          "tipo": "pessoa madura e jovens adultos"
+        },
+        {
+          "uid": "VIL-SE-SP-001668",
+          "tipo": "pessoa madura e jovens adultos"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Sao Paulo",
+      "ambiente": "urbano_capital",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1965_1980",
+      "geracao": "cohort_1965_1980",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_maduro",
+      "faixa_etaria": "Pig Coroa / Maduro",
+      "idade_aproximada": 54,
+      "profissao_atual": {
+        "id": "CBO-232135",
+        "codigo_cbo": "232135",
+        "titulo": "Professor de geografia no ensino médio"
+      },
+      "profissoes": [
+        "CBO-232135"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Bruno integra um nucleo ficticio de Sao Paulo, SP.",
+      "historia": "Bruno participa da rotina de urbano capital e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1868-bruno-benedita-batista-carvalho-sp-0091.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1869",
+      "numero_legacy": "1869",
+      "uid": "VIL-SE-SP-001667",
+      "card_code": "CR-VIL-SE-SP-001667",
+      "nome": "Raimundo",
+      "nome_completo": "Raimundo Isabel Batista Carvalho",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "raimundo-isabel-batista-carvalho-sp-0091",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0091",
+      "familia_uid": "FAM-SP-0091",
+      "household_id": "FAM-SP-0091",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001666",
+          "tipo": "pessoa madura e jovens adultos"
+        },
+        {
+          "uid": "VIL-SE-SP-001668",
+          "tipo": "pessoa madura e jovens adultos"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Sao Paulo",
+      "ambiente": "urbano_capital",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1997_2009",
+      "geracao": "cohort_1997_2009",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem_adulto",
+      "faixa_etaria": "Pig Jovem Adulto",
+      "idade_aproximada": 26,
+      "profissao_atual": {
+        "id": "CBO-232140",
+        "codigo_cbo": "232140",
+        "titulo": "Professor de história no ensino médio"
+      },
+      "profissoes": [
+        "CBO-232140"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "filha_ou_filho_adulto",
+      "papel": "filha_ou_filho_adulto",
+      "descricao_curta": "Raimundo integra um nucleo ficticio de Sao Paulo, SP.",
+      "historia": "Raimundo participa da rotina de urbano capital e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1869-raimundo-isabel-batista-carvalho-sp-0091.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1870",
+      "numero_legacy": "1870",
+      "uid": "VIL-SE-SP-001668",
+      "card_code": "CR-VIL-SE-SP-001668",
+      "nome": "Gilberto",
+      "nome_completo": "Gilberto Regina Batista Carvalho",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "gilberto-regina-batista-carvalho-sp-0091",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0091",
+      "familia_uid": "FAM-SP-0091",
+      "household_id": "FAM-SP-0091",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001666",
+          "tipo": "pessoa madura e jovens adultos"
+        },
+        {
+          "uid": "VIL-SE-SP-001667",
+          "tipo": "pessoa madura e jovens adultos"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Sao Paulo",
+      "ambiente": "urbano_capital",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1997_2009",
+      "geracao": "cohort_1997_2009",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem",
+      "faixa_etaria": "Pig Jovem",
+      "idade_aproximada": 22,
+      "profissao_atual": {
+        "id": "CBO-232145",
+        "codigo_cbo": "232145",
+        "titulo": "Professor de língua e literatura brasileira no ensino médio"
+      },
+      "profissoes": [
+        "CBO-232145"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "filha_ou_filho_adulto",
+      "papel": "filha_ou_filho_adulto",
+      "descricao_curta": "Gilberto integra um nucleo ficticio de Sao Paulo, SP.",
+      "historia": "Gilberto participa da rotina de urbano capital e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1870-gilberto-regina-batista-carvalho-sp-0091.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1871",
+      "numero_legacy": "1871",
+      "uid": "VIL-SE-SP-001669",
+      "card_code": "CR-VIL-SE-SP-001669",
+      "nome": "Otavio",
+      "nome_completo": "Otavio Cristina Medeiros Cardoso",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "otavio-cristina-medeiros-cardoso-sp-0092",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0092",
+      "familia_uid": "FAM-SP-0092",
+      "household_id": "FAM-SP-0092",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001670",
+          "tipo": "amigos que compartilham moradia"
+        },
+        {
+          "uid": "VIL-SE-SP-001671",
+          "tipo": "amigos que compartilham moradia"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Presidente Epitácio",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1997_2009",
+      "geracao": "cohort_1997_2009",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem",
+      "faixa_etaria": "Pig Jovem",
+      "idade_aproximada": 24,
+      "profissao_atual": {
+        "id": "CBO-232150",
+        "codigo_cbo": "232150",
+        "titulo": "Professor de língua estrangeira moderna no ensino médio"
+      },
+      "profissoes": [
+        "CBO-232150"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "amiga_ou_amigo",
+      "papel": "amiga_ou_amigo",
+      "descricao_curta": "Otavio integra um nucleo ficticio de Presidente Epitácio, SP.",
+      "historia": "Otavio participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1871-otavio-cristina-medeiros-cardoso-sp-0092.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1872",
+      "numero_legacy": "1872",
+      "uid": "VIL-SE-SP-001670",
+      "card_code": "CR-VIL-SE-SP-001670",
+      "nome": "Jose",
+      "nome_completo": "Jose de Fatima Medeiros Cardoso",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "jose-de-fatima-medeiros-cardoso-sp-0092",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0092",
+      "familia_uid": "FAM-SP-0092",
+      "household_id": "FAM-SP-0092",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001669",
+          "tipo": "amigos que compartilham moradia"
+        },
+        {
+          "uid": "VIL-SE-SP-001671",
+          "tipo": "amigos que compartilham moradia"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Presidente Epitácio",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1997_2009",
+      "geracao": "cohort_1997_2009",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem",
+      "faixa_etaria": "Pig Jovem",
+      "idade_aproximada": 23,
+      "profissao_atual": {
+        "id": "CBO-232155",
+        "codigo_cbo": "232155",
+        "titulo": "Professor de matemática no ensino médio"
+      },
+      "profissoes": [
+        "CBO-232155"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "amiga_ou_amigo",
+      "papel": "amiga_ou_amigo",
+      "descricao_curta": "Jose integra um nucleo ficticio de Presidente Epitácio, SP.",
+      "historia": "Jose participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1872-jose-de-fatima-medeiros-cardoso-sp-0092.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1873",
+      "numero_legacy": "1873",
+      "uid": "VIL-SE-SP-001671",
+      "card_code": "CR-VIL-SE-SP-001671",
+      "nome": "Rodrigo",
+      "nome_completo": "Rodrigo Vitoria Medeiros Cardoso",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "rodrigo-vitoria-medeiros-cardoso-sp-0092",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0092",
+      "familia_uid": "FAM-SP-0092",
+      "household_id": "FAM-SP-0092",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001669",
+          "tipo": "amigos que compartilham moradia"
+        },
+        {
+          "uid": "VIL-SE-SP-001670",
+          "tipo": "amigos que compartilham moradia"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Presidente Epitácio",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1997_2009",
+      "geracao": "cohort_1997_2009",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem",
+      "faixa_etaria": "Pig Jovem",
+      "idade_aproximada": 21,
+      "profissao_atual": {
+        "id": "CBO-232160",
+        "codigo_cbo": "232160",
+        "titulo": "Professor de psicologia no ensino médio"
+      },
+      "profissoes": [
+        "CBO-232160"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "amiga_ou_amigo",
+      "papel": "amiga_ou_amigo",
+      "descricao_curta": "Rodrigo integra um nucleo ficticio de Presidente Epitácio, SP.",
+      "historia": "Rodrigo participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1873-rodrigo-vitoria-medeiros-cardoso-sp-0092.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1874",
+      "numero_legacy": "1874",
+      "uid": "VIL-SE-SP-001672",
+      "card_code": "CR-VIL-SE-SP-001672",
+      "nome": "Carlos",
+      "nome_completo": "Carlos Eduarda Queiroz Pinto",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "carlos-eduarda-queiroz-pinto-sp-0093",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0093",
+      "familia_uid": "FAM-SP-0093",
+      "household_id": "FAM-SP-0093",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001673",
+          "tipo": "casal maduro e jovem"
+        },
+        {
+          "uid": "VIL-SE-SP-001674",
+          "tipo": "casal maduro e jovem"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Registro",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1946_1964",
+      "geracao": "cohort_1946_1964",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_maduro",
+      "faixa_etaria": "Pig Coroa / Maduro",
+      "idade_aproximada": 62,
+      "profissao_atual": {
+        "id": "CBO-232165",
+        "codigo_cbo": "232165",
+        "titulo": "Professor de química no ensino médio"
+      },
+      "profissoes": [
+        "CBO-232165"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "companheira_ou_companheiro",
+      "papel": "companheira_ou_companheiro",
+      "descricao_curta": "Carlos integra um nucleo ficticio de Registro, SP.",
+      "historia": "Carlos participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1874-carlos-eduarda-queiroz-pinto-sp-0093.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1875",
+      "numero_legacy": "1875",
+      "uid": "VIL-SE-SP-001673",
+      "card_code": "CR-VIL-SE-SP-001673",
+      "nome": "Leandro",
+      "nome_completo": "Leandro Henrique Queiroz Pinto",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "leandro-henrique-queiroz-pinto-sp-0093",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0093",
+      "familia_uid": "FAM-SP-0093",
+      "household_id": "FAM-SP-0093",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001672",
+          "tipo": "casal maduro e jovem"
+        },
+        {
+          "uid": "VIL-SE-SP-001674",
+          "tipo": "casal maduro e jovem"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Registro",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1965_1980",
+      "geracao": "cohort_1965_1980",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_maduro",
+      "faixa_etaria": "Pig Coroa / Maduro",
+      "idade_aproximada": 58,
+      "profissao_atual": {
+        "id": "CBO-232170",
+        "codigo_cbo": "232170",
+        "titulo": "Professor de sociologia no ensino médio"
+      },
+      "profissoes": [
+        "CBO-232170"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "companheira_ou_companheiro",
+      "papel": "companheira_ou_companheiro",
+      "descricao_curta": "Leandro integra um nucleo ficticio de Registro, SP.",
+      "historia": "Leandro participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1875-leandro-henrique-queiroz-pinto-sp-0093.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1876",
+      "numero_legacy": "1876",
+      "uid": "VIL-SE-SP-001674",
+      "card_code": "CR-VIL-SE-SP-001674",
+      "nome": "Marcelo",
+      "nome_completo": "Marcelo Miguel Queiroz Pinto",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "marcelo-miguel-queiroz-pinto-sp-0093",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0093",
+      "familia_uid": "FAM-SP-0093",
+      "household_id": "FAM-SP-0093",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001672",
+          "tipo": "casal maduro e jovem"
+        },
+        {
+          "uid": "VIL-SE-SP-001673",
+          "tipo": "casal maduro e jovem"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Registro",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1997_2009",
+      "geracao": "cohort_1997_2009",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem",
+      "faixa_etaria": "Pig Jovem",
+      "idade_aproximada": 18,
+      "profissao_atual": {
+        "id": "CBO-233105",
+        "codigo_cbo": "233105",
+        "titulo": "Professor da área de meio ambiente"
+      },
+      "profissoes": [
+        "CBO-233105"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "filha_ou_filho",
+      "papel": "filha_ou_filho",
+      "descricao_curta": "Marcelo integra um nucleo ficticio de Registro, SP.",
+      "historia": "Marcelo participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1876-marcelo-miguel-queiroz-pinto-sp-0093.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1877",
+      "numero_legacy": "1877",
+      "uid": "VIL-SE-SP-001675",
+      "card_code": "CR-VIL-SE-SP-001675",
+      "nome": "Samuel",
+      "nome_completo": "Samuel Carlos Siqueira Vasconcelos",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "samuel-carlos-siqueira-vasconcelos-sp-0094",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0094",
+      "familia_uid": "FAM-SP-0094",
+      "household_id": "FAM-SP-0094",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001676",
+          "tipo": "duas pessoas cuidadoras e bebe"
+        },
+        {
+          "uid": "VIL-SE-SP-001677",
+          "tipo": "duas pessoas cuidadoras e bebe"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Sao Paulo",
+      "ambiente": "urbano_capital",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1981_1996",
+      "geracao": "cohort_1981_1996",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem_adulto",
+      "faixa_etaria": "Pig Jovem Adulto",
+      "idade_aproximada": 31,
+      "profissao_atual": {
+        "id": "CBO-233110",
+        "codigo_cbo": "233110",
+        "titulo": "Professor de desenho técnico"
+      },
+      "profissoes": [
+        "CBO-233110"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Samuel integra um nucleo ficticio de Sao Paulo, SP.",
+      "historia": "Samuel participa da rotina de urbano capital e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1877-samuel-carlos-siqueira-vasconcelos-sp-0094.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1878",
+      "numero_legacy": "1878",
+      "uid": "VIL-SE-SP-001676",
+      "card_code": "CR-VIL-SE-SP-001676",
+      "nome": "Heitor",
+      "nome_completo": "Heitor Luiz Siqueira Vasconcelos",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "heitor-luiz-siqueira-vasconcelos-sp-0094",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0094",
+      "familia_uid": "FAM-SP-0094",
+      "household_id": "FAM-SP-0094",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001675",
+          "tipo": "duas pessoas cuidadoras e bebe"
+        },
+        {
+          "uid": "VIL-SE-SP-001677",
+          "tipo": "duas pessoas cuidadoras e bebe"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Sao Paulo",
+      "ambiente": "urbano_capital",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1997_2009",
+      "geracao": "cohort_1997_2009",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem_adulto",
+      "faixa_etaria": "Pig Jovem Adulto",
+      "idade_aproximada": 29,
+      "profissao_atual": {
+        "id": "CBO-233115",
+        "codigo_cbo": "233115",
+        "titulo": "Professor de técnicas agrícolas"
+      },
+      "profissoes": [
+        "CBO-233115"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Heitor integra um nucleo ficticio de Sao Paulo, SP.",
+      "historia": "Heitor participa da rotina de urbano capital e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1878-heitor-luiz-siqueira-vasconcelos-sp-0094.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1879",
+      "numero_legacy": "1879",
+      "uid": "VIL-SE-SP-001677",
+      "card_code": "CR-VIL-SE-SP-001677",
+      "nome": "Daniel",
+      "nome_completo": "Daniel Marina Siqueira Vasconcelos",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "daniel-marina-siqueira-vasconcelos-sp-0094",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0094",
+      "familia_uid": "FAM-SP-0094",
+      "household_id": "FAM-SP-0094",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001675",
+          "tipo": "duas pessoas cuidadoras e bebe"
+        },
+        {
+          "uid": "VIL-SE-SP-001676",
+          "tipo": "duas pessoas cuidadoras e bebe"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Sao Paulo",
+      "ambiente": "urbano_capital",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_2010_2024",
+      "geracao": "cohort_2010_2024",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_bebe",
+      "faixa_etaria": "Pig Bebe",
+      "idade_aproximada": 2,
+      "profissao_atual": null,
+      "profissoes": [],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "estudante_ou_infancia",
+      "papel_na_vila": "filha_ou_filho",
+      "papel": "filha_ou_filho",
+      "descricao_curta": "Daniel integra um nucleo ficticio de Sao Paulo, SP.",
+      "historia": "Daniel participa da rotina de urbano capital e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho jovem, roupa cotidiana simples e uma mochila sem marca.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "mochila sem marca"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1879-daniel-marina-siqueira-vasconcelos-sp-0094.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1880",
+      "numero_legacy": "1880",
+      "uid": "VIL-SE-SP-001678",
+      "card_code": "CR-VIL-SE-SP-001678",
+      "nome": "Wilson",
+      "nome_completo": "Wilson Celia Silva Ribeiro",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "wilson-celia-silva-ribeiro-sp-0095",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0095",
+      "familia_uid": "FAM-SP-0095",
+      "household_id": "FAM-SP-0095",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001679",
+          "tipo": "duas pessoas cuidadoras e adolescente"
+        },
+        {
+          "uid": "VIL-SE-SP-001680",
+          "tipo": "duas pessoas cuidadoras e adolescente"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Salmourão",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1965_1980",
+      "geracao": "cohort_1965_1980",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_adulto",
+      "faixa_etaria": "Pig Adulto",
+      "idade_aproximada": 47,
+      "profissao_atual": {
+        "id": "CBO-233120",
+        "codigo_cbo": "233120",
+        "titulo": "Professor de técnicas comerciais e secretariais"
+      },
+      "profissoes": [
+        "CBO-233120"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Wilson integra um nucleo ficticio de Salmourão, SP.",
+      "historia": "Wilson participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1880-wilson-celia-silva-ribeiro-sp-0095.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1881",
+      "numero_legacy": "1881",
+      "uid": "VIL-SE-SP-001679",
+      "card_code": "CR-VIL-SE-SP-001679",
+      "nome": "Marcos",
+      "nome_completo": "Marcos Lucia Silva Ribeiro",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "marcos-lucia-silva-ribeiro-sp-0095",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0095",
+      "familia_uid": "FAM-SP-0095",
+      "household_id": "FAM-SP-0095",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001678",
+          "tipo": "duas pessoas cuidadoras e adolescente"
+        },
+        {
+          "uid": "VIL-SE-SP-001680",
+          "tipo": "duas pessoas cuidadoras e adolescente"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Salmourão",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1981_1996",
+      "geracao": "cohort_1981_1996",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_adulto",
+      "faixa_etaria": "Pig Adulto",
+      "idade_aproximada": 44,
+      "profissao_atual": {
+        "id": "CBO-233125",
+        "codigo_cbo": "233125",
+        "titulo": "Professor de técnicas de enfermagem"
+      },
+      "profissoes": [
+        "CBO-233125"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Marcos integra um nucleo ficticio de Salmourão, SP.",
+      "historia": "Marcos participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1881-marcos-lucia-silva-ribeiro-sp-0095.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1882",
+      "numero_legacy": "1882",
+      "uid": "VIL-SE-SP-001680",
+      "card_code": "CR-VIL-SE-SP-001680",
+      "nome": "Bento",
+      "nome_completo": "Bento Catarina Silva Ribeiro",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "bento-catarina-silva-ribeiro-sp-0095",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0095",
+      "familia_uid": "FAM-SP-0095",
+      "household_id": "FAM-SP-0095",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001678",
+          "tipo": "duas pessoas cuidadoras e adolescente"
+        },
+        {
+          "uid": "VIL-SE-SP-001679",
+          "tipo": "duas pessoas cuidadoras e adolescente"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Salmourão",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_2010_2024",
+      "geracao": "cohort_2010_2024",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_adolescente",
+      "faixa_etaria": "Pig Adolescente",
+      "idade_aproximada": 16,
+      "profissao_atual": null,
+      "profissoes": [],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "estudante_ou_infancia",
+      "papel_na_vila": "filha_ou_filho",
+      "papel": "filha_ou_filho",
+      "descricao_curta": "Bento integra um nucleo ficticio de Salmourão, SP.",
+      "historia": "Bento participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho jovem, roupa cotidiana simples e uma mochila sem marca.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "mochila sem marca"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1882-bento-catarina-silva-ribeiro-sp-0095.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1883",
+      "numero_legacy": "1883",
+      "uid": "VIL-SE-SP-001681",
+      "card_code": "CR-VIL-SE-SP-001681",
+      "nome": "Diego",
+      "nome_completo": "Diego Valentina Pereira Mendes",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "diego-valentina-pereira-mendes-sp-0096",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0096",
+      "familia_uid": "FAM-SP-0096",
+      "household_id": "FAM-SP-0096",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001682",
+          "tipo": "duas pessoas cuidadoras e uma crianca"
+        },
+        {
+          "uid": "VIL-SE-SP-001683",
+          "tipo": "duas pessoas cuidadoras e uma crianca"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Santa Cruz do Rio Pardo",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1981_1996",
+      "geracao": "cohort_1981_1996",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_adulto",
+      "faixa_etaria": "Pig Adulto",
+      "idade_aproximada": 42,
+      "profissao_atual": {
+        "id": "CBO-233130",
+        "codigo_cbo": "233130",
+        "titulo": "Professor de técnicas industriais"
+      },
+      "profissoes": [
+        "CBO-233130"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Diego integra um nucleo ficticio de Santa Cruz do Rio Pardo, SP.",
+      "historia": "Diego participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1883-diego-valentina-pereira-mendes-sp-0096.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1884",
+      "numero_legacy": "1884",
+      "uid": "VIL-SE-SP-001682",
+      "card_code": "CR-VIL-SE-SP-001682",
+      "nome": "Jorge",
+      "nome_completo": "Jorge Aparecida Pereira Mendes",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "jorge-aparecida-pereira-mendes-sp-0096",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0096",
+      "familia_uid": "FAM-SP-0096",
+      "household_id": "FAM-SP-0096",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001681",
+          "tipo": "duas pessoas cuidadoras e uma crianca"
+        },
+        {
+          "uid": "VIL-SE-SP-001683",
+          "tipo": "duas pessoas cuidadoras e uma crianca"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Santa Cruz do Rio Pardo",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1981_1996",
+      "geracao": "cohort_1981_1996",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_adulto",
+      "faixa_etaria": "Pig Adulto",
+      "idade_aproximada": 39,
+      "profissao_atual": {
+        "id": "CBO-233135",
+        "codigo_cbo": "233135",
+        "titulo": "Professor de tecnologia e cálculo técnico"
+      },
+      "profissoes": [
+        "CBO-233135"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Jorge integra um nucleo ficticio de Santa Cruz do Rio Pardo, SP.",
+      "historia": "Jorge participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1884-jorge-aparecida-pereira-mendes-sp-0096.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1885",
+      "numero_legacy": "1885",
+      "uid": "VIL-SE-SP-001683",
+      "card_code": "CR-VIL-SE-SP-001683",
+      "nome": "Francisco",
+      "nome_completo": "Francisco Conceicao Pereira Mendes",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "francisco-conceicao-pereira-mendes-sp-0096",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0096",
+      "familia_uid": "FAM-SP-0096",
+      "household_id": "FAM-SP-0096",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001681",
+          "tipo": "duas pessoas cuidadoras e uma crianca"
+        },
+        {
+          "uid": "VIL-SE-SP-001682",
+          "tipo": "duas pessoas cuidadoras e uma crianca"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Santa Cruz do Rio Pardo",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_2010_2024",
+      "geracao": "cohort_2010_2024",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_pre_adolescente",
+      "faixa_etaria": "Pig Pre-Adolescente",
+      "idade_aproximada": 11,
+      "profissao_atual": null,
+      "profissoes": [],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "estudante_ou_infancia",
+      "papel_na_vila": "filha_ou_filho",
+      "papel": "filha_ou_filho",
+      "descricao_curta": "Francisco integra um nucleo ficticio de Santa Cruz do Rio Pardo, SP.",
+      "historia": "Francisco participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho jovem, roupa cotidiana simples e uma mochila sem marca.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "mochila sem marca"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1885-francisco-conceicao-pereira-mendes-sp-0096.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1886",
+      "numero_legacy": "1886",
+      "uid": "VIL-SE-SP-001684",
+      "card_code": "CR-VIL-SE-SP-001684",
+      "nome": "Alexandre",
+      "nome_completo": "Alexandre Regina Almeida Reis",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "alexandre-regina-almeida-reis-sp-0097",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0097",
+      "familia_uid": "FAM-SP-0097",
+      "household_id": "FAM-SP-0097",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001685",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        },
+        {
+          "uid": "VIL-SE-SP-001686",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Sao Paulo",
+      "ambiente": "urbano_capital",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1981_1996",
+      "geracao": "cohort_1981_1996",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_adulto",
+      "faixa_etaria": "Pig Adulto",
+      "idade_aproximada": 37,
+      "profissao_atual": {
+        "id": "CBO-233205",
+        "codigo_cbo": "233205",
+        "titulo": "Instrutor de aprendizagem e treinamento agropecuário"
+      },
+      "profissoes": [
+        "CBO-233205"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Alexandre integra um nucleo ficticio de Sao Paulo, SP.",
+      "historia": "Alexandre participa da rotina de urbano capital e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1886-alexandre-regina-almeida-reis-sp-0097.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1887",
+      "numero_legacy": "1887",
+      "uid": "VIL-SE-SP-001685",
+      "card_code": "CR-VIL-SE-SP-001685",
+      "nome": "Pedro",
+      "nome_completo": "Pedro das Gracas Almeida Reis",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "pedro-das-gracas-almeida-reis-sp-0097",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0097",
+      "familia_uid": "FAM-SP-0097",
+      "household_id": "FAM-SP-0097",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001684",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        },
+        {
+          "uid": "VIL-SE-SP-001686",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Sao Paulo",
+      "ambiente": "urbano_capital",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_2010_2024",
+      "geracao": "cohort_2010_2024",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_crianca",
+      "faixa_etaria": "Pig Crianca",
+      "idade_aproximada": 8,
+      "profissao_atual": null,
+      "profissoes": [],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "estudante_ou_infancia",
+      "papel_na_vila": "filha_ou_filho",
+      "papel": "filha_ou_filho",
+      "descricao_curta": "Pedro integra um nucleo ficticio de Sao Paulo, SP.",
+      "historia": "Pedro participa da rotina de urbano capital e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho jovem, roupa cotidiana simples e uma mochila sem marca.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "mochila sem marca"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1887-pedro-das-gracas-almeida-reis-sp-0097.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1888",
+      "numero_legacy": "1888",
+      "uid": "VIL-SE-SP-001686",
+      "card_code": "CR-VIL-SE-SP-001686",
+      "nome": "Henrique",
+      "nome_completo": "Henrique Augusto Almeida Reis",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "henrique-augusto-almeida-reis-sp-0097",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0097",
+      "familia_uid": "FAM-SP-0097",
+      "household_id": "FAM-SP-0097",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001684",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        },
+        {
+          "uid": "VIL-SE-SP-001685",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Sao Paulo",
+      "ambiente": "urbano_capital",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_2010_2024",
+      "geracao": "cohort_2010_2024",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_adolescente",
+      "faixa_etaria": "Pig Adolescente",
+      "idade_aproximada": 14,
+      "profissao_atual": null,
+      "profissoes": [],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "estudante_ou_infancia",
+      "papel_na_vila": "filha_ou_filho",
+      "papel": "filha_ou_filho",
+      "descricao_curta": "Henrique integra um nucleo ficticio de Sao Paulo, SP.",
+      "historia": "Henrique participa da rotina de urbano capital e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho jovem, roupa cotidiana simples e uma mochila sem marca.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "mochila sem marca"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1888-henrique-augusto-almeida-reis-sp-0097.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1889",
+      "numero_legacy": "1889",
+      "uid": "VIL-SE-SP-001687",
+      "card_code": "CR-VIL-SE-SP-001687",
+      "nome": "Rafael",
+      "nome_completo": "Rafael Vitoria Dias Paiva",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "rafael-vitoria-dias-paiva-sp-0098",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0098",
+      "familia_uid": "FAM-SP-0098",
+      "household_id": "FAM-SP-0098",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001688",
+          "tipo": "nucleo intergeracional"
+        },
+        {
+          "uid": "VIL-SE-SP-001689",
+          "tipo": "nucleo intergeracional"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "São Francisco",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1946_1964",
+      "geracao": "cohort_1946_1964",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_senior",
+      "faixa_etaria": "Pig Senior",
+      "idade_aproximada": 68,
+      "profissao_atual": {
+        "id": "CBO-233210",
+        "codigo_cbo": "233210",
+        "titulo": "Instrutor de aprendizagem e treinamento industrial"
+      },
+      "profissoes": [
+        "CBO-233210"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "avo_ou_avo",
+      "papel": "avo_ou_avo",
+      "descricao_curta": "Rafael integra um nucleo ficticio de São Francisco, SP.",
+      "historia": "Rafael participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1889-rafael-vitoria-dias-paiva-sp-0098.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1890",
+      "numero_legacy": "1890",
+      "uid": "VIL-SE-SP-001688",
+      "card_code": "CR-VIL-SE-SP-001688",
+      "nome": "Davi",
+      "nome_completo": "Davi Roberto Dias Paiva",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "davi-roberto-dias-paiva-sp-0098",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0098",
+      "familia_uid": "FAM-SP-0098",
+      "household_id": "FAM-SP-0098",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001687",
+          "tipo": "nucleo intergeracional"
+        },
+        {
+          "uid": "VIL-SE-SP-001689",
+          "tipo": "nucleo intergeracional"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "São Francisco",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1981_1996",
+      "geracao": "cohort_1981_1996",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem_adulto",
+      "faixa_etaria": "Pig Jovem Adulto",
+      "idade_aproximada": 34,
+      "profissao_atual": {
+        "id": "CBO-233215",
+        "codigo_cbo": "233215",
+        "titulo": "Instrutor de aprendizagem e treinamento comercial"
+      },
+      "profissoes": [
+        "CBO-233215"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "filha_ou_filho_adulto",
+      "papel": "filha_ou_filho_adulto",
+      "descricao_curta": "Davi integra um nucleo ficticio de São Francisco, SP.",
+      "historia": "Davi participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1890-davi-roberto-dias-paiva-sp-0098.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1891",
+      "numero_legacy": "1891",
+      "uid": "VIL-SE-SP-001689",
+      "card_code": "CR-VIL-SE-SP-001689",
+      "nome": "Nelson",
+      "nome_completo": "Nelson Gabriel Dias Paiva",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "nelson-gabriel-dias-paiva-sp-0098",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0098",
+      "familia_uid": "FAM-SP-0098",
+      "household_id": "FAM-SP-0098",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001687",
+          "tipo": "nucleo intergeracional"
+        },
+        {
+          "uid": "VIL-SE-SP-001688",
+          "tipo": "nucleo intergeracional"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "São Francisco",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_2010_2024",
+      "geracao": "cohort_2010_2024",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_primeirinhos",
+      "faixa_etaria": "Pig Primeirinhos",
+      "idade_aproximada": 5,
+      "profissao_atual": null,
+      "profissoes": [],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "estudante_ou_infancia",
+      "papel_na_vila": "neta_ou_neto",
+      "papel": "neta_ou_neto",
+      "descricao_curta": "Nelson integra um nucleo ficticio de São Francisco, SP.",
+      "historia": "Nelson participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho jovem, roupa cotidiana simples e uma mochila sem marca.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "mochila sem marca"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1891-nelson-gabriel-dias-paiva-sp-0098.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1892",
+      "numero_legacy": "1892",
+      "uid": "VIL-SE-SP-001690",
+      "card_code": "CR-VIL-SE-SP-001690",
+      "nome": "Raimundo",
+      "nome_completo": "Raimundo Miguel Mendes Gomes",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "raimundo-miguel-mendes-gomes-sp-0099",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0099",
+      "familia_uid": "FAM-SP-0099",
+      "household_id": "FAM-SP-0099",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001691",
+          "tipo": "pessoa madura e jovens adultos"
+        },
+        {
+          "uid": "VIL-SE-SP-001692",
+          "tipo": "pessoa madura e jovens adultos"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "São Miguel Arcanjo",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1965_1980",
+      "geracao": "cohort_1965_1980",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_maduro",
+      "faixa_etaria": "Pig Coroa / Maduro",
+      "idade_aproximada": 54,
+      "profissao_atual": {
+        "id": "CBO-233220",
+        "codigo_cbo": "233220",
+        "titulo": "Professor instrutor de ensino e aprendizagem agroflorestal"
+      },
+      "profissoes": [
+        "CBO-233220"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Raimundo integra um nucleo ficticio de São Miguel Arcanjo, SP.",
+      "historia": "Raimundo participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1892-raimundo-miguel-mendes-gomes-sp-0099.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1893",
+      "numero_legacy": "1893",
+      "uid": "VIL-SE-SP-001691",
+      "card_code": "CR-VIL-SE-SP-001691",
+      "nome": "Gilberto",
+      "nome_completo": "Gilberto Rafael Mendes Gomes",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "gilberto-rafael-mendes-gomes-sp-0099",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0099",
+      "familia_uid": "FAM-SP-0099",
+      "household_id": "FAM-SP-0099",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001690",
+          "tipo": "pessoa madura e jovens adultos"
+        },
+        {
+          "uid": "VIL-SE-SP-001692",
+          "tipo": "pessoa madura e jovens adultos"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "São Miguel Arcanjo",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1997_2009",
+      "geracao": "cohort_1997_2009",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem_adulto",
+      "faixa_etaria": "Pig Jovem Adulto",
+      "idade_aproximada": 26,
+      "profissao_atual": {
+        "id": "CBO-233225",
+        "codigo_cbo": "233225",
+        "titulo": "Professor instrutor de ensino e aprendizagem em serviços"
+      },
+      "profissoes": [
+        "CBO-233225"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "filha_ou_filho_adulto",
+      "papel": "filha_ou_filho_adulto",
+      "descricao_curta": "Gilberto integra um nucleo ficticio de São Miguel Arcanjo, SP.",
+      "historia": "Gilberto participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1893-gilberto-rafael-mendes-gomes-sp-0099.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1894",
+      "numero_legacy": "1894",
+      "uid": "VIL-SE-SP-001692",
+      "card_code": "CR-VIL-SE-SP-001692",
+      "nome": "Gustavo",
+      "nome_completo": "Gustavo Teresa Mendes Gomes",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "gustavo-teresa-mendes-gomes-sp-0099",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0099",
+      "familia_uid": "FAM-SP-0099",
+      "household_id": "FAM-SP-0099",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001690",
+          "tipo": "pessoa madura e jovens adultos"
+        },
+        {
+          "uid": "VIL-SE-SP-001691",
+          "tipo": "pessoa madura e jovens adultos"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "São Miguel Arcanjo",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1997_2009",
+      "geracao": "cohort_1997_2009",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem",
+      "faixa_etaria": "Pig Jovem",
+      "idade_aproximada": 22,
+      "profissao_atual": {
+        "id": "CBO-234105",
+        "codigo_cbo": "234105",
+        "titulo": "Professor de matemática aplicada (no ensino superior)"
+      },
+      "profissoes": [
+        "CBO-234105"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "filha_ou_filho_adulto",
+      "papel": "filha_ou_filho_adulto",
+      "descricao_curta": "Gustavo integra um nucleo ficticio de São Miguel Arcanjo, SP.",
+      "historia": "Gustavo participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1894-gustavo-teresa-mendes-gomes-sp-0099.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1895",
+      "numero_legacy": "1895",
+      "uid": "VIL-SE-SP-001693",
+      "card_code": "CR-VIL-SE-SP-001693",
+      "nome": "Jose",
+      "nome_completo": "Jose Marina Moura Marques",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "jose-marina-moura-marques-sp-0100",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0100",
+      "familia_uid": "FAM-SP-0100",
+      "household_id": "FAM-SP-0100",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001694",
+          "tipo": "amigos que compartilham moradia"
+        },
+        {
+          "uid": "VIL-SE-SP-001695",
+          "tipo": "amigos que compartilham moradia"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Sao Paulo",
+      "ambiente": "urbano_capital",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1997_2009",
+      "geracao": "cohort_1997_2009",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem",
+      "faixa_etaria": "Pig Jovem",
+      "idade_aproximada": 24,
+      "profissao_atual": {
+        "id": "CBO-234110",
+        "codigo_cbo": "234110",
+        "titulo": "Professor de matemática pura (no ensino superior)"
+      },
+      "profissoes": [
+        "CBO-234110"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "amiga_ou_amigo",
+      "papel": "amiga_ou_amigo",
+      "descricao_curta": "Jose integra um nucleo ficticio de Sao Paulo, SP.",
+      "historia": "Jose participa da rotina de urbano capital e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1895-jose-marina-moura-marques-sp-0100.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1896",
+      "numero_legacy": "1896",
+      "uid": "VIL-SE-SP-001694",
+      "card_code": "CR-VIL-SE-SP-001694",
+      "nome": "Rodrigo",
+      "nome_completo": "Rodrigo Benedita Moura Marques",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "rodrigo-benedita-moura-marques-sp-0100",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0100",
+      "familia_uid": "FAM-SP-0100",
+      "household_id": "FAM-SP-0100",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001693",
+          "tipo": "amigos que compartilham moradia"
+        },
+        {
+          "uid": "VIL-SE-SP-001695",
+          "tipo": "amigos que compartilham moradia"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Sao Paulo",
+      "ambiente": "urbano_capital",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1997_2009",
+      "geracao": "cohort_1997_2009",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem",
+      "faixa_etaria": "Pig Jovem",
+      "idade_aproximada": 23,
+      "profissao_atual": {
+        "id": "CBO-234115",
+        "codigo_cbo": "234115",
+        "titulo": "Professor de estatística (no ensino superior)"
+      },
+      "profissoes": [
+        "CBO-234115"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "amiga_ou_amigo",
+      "papel": "amiga_ou_amigo",
+      "descricao_curta": "Rodrigo integra um nucleo ficticio de Sao Paulo, SP.",
+      "historia": "Rodrigo participa da rotina de urbano capital e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1896-rodrigo-benedita-moura-marques-sp-0100.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1897",
+      "numero_legacy": "1897",
+      "uid": "VIL-SE-SP-001695",
+      "card_code": "CR-VIL-SE-SP-001695",
+      "nome": "Ricardo",
+      "nome_completo": "Ricardo Isabel Moura Marques",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "ricardo-isabel-moura-marques-sp-0100",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0100",
+      "familia_uid": "FAM-SP-0100",
+      "household_id": "FAM-SP-0100",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001693",
+          "tipo": "amigos que compartilham moradia"
+        },
+        {
+          "uid": "VIL-SE-SP-001694",
+          "tipo": "amigos que compartilham moradia"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Sao Paulo",
+      "ambiente": "urbano_capital",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1997_2009",
+      "geracao": "cohort_1997_2009",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem",
+      "faixa_etaria": "Pig Jovem",
+      "idade_aproximada": 21,
+      "profissao_atual": {
+        "id": "CBO-234120",
+        "codigo_cbo": "234120",
+        "titulo": "Professor de computação (no ensino superior)"
+      },
+      "profissoes": [
+        "CBO-234120"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "amiga_ou_amigo",
+      "papel": "amiga_ou_amigo",
+      "descricao_curta": "Ricardo integra um nucleo ficticio de Sao Paulo, SP.",
+      "historia": "Ricardo participa da rotina de urbano capital e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1897-ricardo-isabel-moura-marques-sp-0100.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1898",
+      "numero_legacy": "1898",
+      "uid": "VIL-SE-SP-001696",
+      "card_code": "CR-VIL-SE-SP-001696",
+      "nome": "Leandro",
+      "nome_completo": "Leandro Catarina Batista Borges",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "leandro-catarina-batista-borges-sp-0101",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0101",
+      "familia_uid": "FAM-SP-0101",
+      "household_id": "FAM-SP-0101",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001697",
+          "tipo": "casal maduro e jovem"
+        },
+        {
+          "uid": "VIL-SE-SP-001698",
+          "tipo": "casal maduro e jovem"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Taciba",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1946_1964",
+      "geracao": "cohort_1946_1964",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_maduro",
+      "faixa_etaria": "Pig Coroa / Maduro",
+      "idade_aproximada": 62,
+      "profissao_atual": {
+        "id": "CBO-234125",
+        "codigo_cbo": "234125",
+        "titulo": "Professor de pesquisa operacional (no ensino superior)"
+      },
+      "profissoes": [
+        "CBO-234125"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "companheira_ou_companheiro",
+      "papel": "companheira_ou_companheiro",
+      "descricao_curta": "Leandro integra um nucleo ficticio de Taciba, SP.",
+      "historia": "Leandro participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "masculina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1898-leandro-catarina-batista-borges-sp-0101.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1899",
+      "numero_legacy": "1899",
+      "uid": "VIL-SE-SP-001697",
+      "card_code": "CR-VIL-SE-SP-001697",
+      "nome": "Kim",
+      "nome_completo": "Kim Cristina Batista Borges",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "kim-cristina-batista-borges-sp-0101",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0101",
+      "familia_uid": "FAM-SP-0101",
+      "household_id": "FAM-SP-0101",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001696",
+          "tipo": "casal maduro e jovem"
+        },
+        {
+          "uid": "VIL-SE-SP-001698",
+          "tipo": "casal maduro e jovem"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Taciba",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1965_1980",
+      "geracao": "cohort_1965_1980",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_maduro",
+      "faixa_etaria": "Pig Coroa / Maduro",
+      "idade_aproximada": 58,
+      "profissao_atual": {
+        "id": "CBO-234205",
+        "codigo_cbo": "234205",
+        "titulo": "Professor de física (ensino superior)"
+      },
+      "profissoes": [
+        "CBO-234205"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "companheira_ou_companheiro",
+      "papel": "companheira_ou_companheiro",
+      "descricao_curta": "Kim integra um nucleo ficticio de Taciba, SP.",
+      "historia": "Kim participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "inclusiva",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1899-kim-cristina-batista-borges-sp-0101.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1900",
+      "numero_legacy": "1900",
+      "uid": "VIL-SE-SP-001698",
+      "card_code": "CR-VIL-SE-SP-001698",
+      "nome": "Celi",
+      "nome_completo": "Celi de Fatima Batista Borges",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "celi-de-fatima-batista-borges-sp-0101",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0101",
+      "familia_uid": "FAM-SP-0101",
+      "household_id": "FAM-SP-0101",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001696",
+          "tipo": "casal maduro e jovem"
+        },
+        {
+          "uid": "VIL-SE-SP-001697",
+          "tipo": "casal maduro e jovem"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Taciba",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1997_2009",
+      "geracao": "cohort_1997_2009",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem",
+      "faixa_etaria": "Pig Jovem",
+      "idade_aproximada": 18,
+      "profissao_atual": {
+        "id": "CBO-234210",
+        "codigo_cbo": "234210",
+        "titulo": "Professor de química (ensino superior)"
+      },
+      "profissoes": [
+        "CBO-234210"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "filha_ou_filho",
+      "papel": "filha_ou_filho",
+      "descricao_curta": "Celi integra um nucleo ficticio de Taciba, SP.",
+      "historia": "Celi participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "inclusiva",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1900-celi-de-fatima-batista-borges-sp-0101.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1901",
+      "numero_legacy": "1901",
+      "uid": "VIL-SE-SP-001699",
+      "card_code": "CR-VIL-SE-SP-001699",
+      "nome": "Toni",
+      "nome_completo": "Toni Conceicao Medeiros Amaral",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "toni-conceicao-medeiros-amaral-sp-0102",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0102",
+      "familia_uid": "FAM-SP-0102",
+      "household_id": "FAM-SP-0102",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001700",
+          "tipo": "duas pessoas cuidadoras e bebe"
+        },
+        {
+          "uid": "VIL-SE-SP-001701",
+          "tipo": "duas pessoas cuidadoras e bebe"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Tatuí",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1981_1996",
+      "geracao": "cohort_1981_1996",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem_adulto",
+      "faixa_etaria": "Pig Jovem Adulto",
+      "idade_aproximada": 31,
+      "profissao_atual": {
+        "id": "CBO-234215",
+        "codigo_cbo": "234215",
+        "titulo": "Professor de astronomia (ensino superior)"
+      },
+      "profissoes": [
+        "CBO-234215"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Toni integra um nucleo ficticio de Tatuí, SP.",
+      "historia": "Toni participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "inclusiva",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1901-toni-conceicao-medeiros-amaral-sp-0102.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1902",
+      "numero_legacy": "1902",
+      "uid": "VIL-SE-SP-001700",
+      "card_code": "CR-VIL-SE-SP-001700",
+      "nome": "Patricia",
+      "nome_completo": "Patricia Eduarda Medeiros Amaral",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "patricia-eduarda-medeiros-amaral-sp-0102",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0102",
+      "familia_uid": "FAM-SP-0102",
+      "household_id": "FAM-SP-0102",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001699",
+          "tipo": "duas pessoas cuidadoras e bebe"
+        },
+        {
+          "uid": "VIL-SE-SP-001701",
+          "tipo": "duas pessoas cuidadoras e bebe"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Tatuí",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1997_2009",
+      "geracao": "cohort_1997_2009",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_jovem_adulto",
+      "faixa_etaria": "Pig Jovem Adulto",
+      "idade_aproximada": 29,
+      "profissao_atual": {
+        "id": "CBO-234305",
+        "codigo_cbo": "234305",
+        "titulo": "Professor de arquitetura"
+      },
+      "profissoes": [
+        "CBO-234305"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Patricia integra um nucleo ficticio de Tatuí, SP.",
+      "historia": "Patricia participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "feminina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1902-patricia-eduarda-medeiros-amaral-sp-0102.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1903",
+      "numero_legacy": "1903",
+      "uid": "VIL-SE-SP-001701",
+      "card_code": "CR-VIL-SE-SP-001701",
+      "nome": "Noemi",
+      "nome_completo": "Noemi Henrique Medeiros Amaral",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "noemi-henrique-medeiros-amaral-sp-0102",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0102",
+      "familia_uid": "FAM-SP-0102",
+      "household_id": "FAM-SP-0102",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001699",
+          "tipo": "duas pessoas cuidadoras e bebe"
+        },
+        {
+          "uid": "VIL-SE-SP-001700",
+          "tipo": "duas pessoas cuidadoras e bebe"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Tatuí",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_2010_2024",
+      "geracao": "cohort_2010_2024",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_bebe",
+      "faixa_etaria": "Pig Bebe",
+      "idade_aproximada": 2,
+      "profissao_atual": null,
+      "profissoes": [],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "estudante_ou_infancia",
+      "papel_na_vila": "filha_ou_filho",
+      "papel": "filha_ou_filho",
+      "descricao_curta": "Noemi integra um nucleo ficticio de Tatuí, SP.",
+      "historia": "Noemi participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho jovem, roupa cotidiana simples e uma mochila sem marca.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "mochila sem marca"
+      ],
+      "apresentacao_editorial": "feminina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1903-noemi-henrique-medeiros-amaral-sp-0102.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1904",
+      "numero_legacy": "1904",
+      "uid": "VIL-SE-SP-001702",
+      "card_code": "CR-VIL-SE-SP-001702",
+      "nome": "Mariana",
+      "nome_completo": "Mariana Augusto Queiroz Pereira",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "mariana-augusto-queiroz-pereira-sp-0103",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0103",
+      "familia_uid": "FAM-SP-0103",
+      "household_id": "FAM-SP-0103",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001703",
+          "tipo": "duas pessoas cuidadoras e adolescente"
+        },
+        {
+          "uid": "VIL-SE-SP-001704",
+          "tipo": "duas pessoas cuidadoras e adolescente"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Sao Paulo",
+      "ambiente": "urbano_capital",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1965_1980",
+      "geracao": "cohort_1965_1980",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_adulto",
+      "faixa_etaria": "Pig Adulto",
+      "idade_aproximada": 47,
+      "profissao_atual": {
+        "id": "CBO-234310",
+        "codigo_cbo": "234310",
+        "titulo": "Professor de engenharia"
+      },
+      "profissoes": [
+        "CBO-234310"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Mariana integra um nucleo ficticio de Sao Paulo, SP.",
+      "historia": "Mariana participa da rotina de urbano capital e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "feminina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1904-mariana-augusto-queiroz-pereira-sp-0103.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1905",
+      "numero_legacy": "1905",
+      "uid": "VIL-SE-SP-001703",
+      "card_code": "CR-VIL-SE-SP-001703",
+      "nome": "Samara",
+      "nome_completo": "Samara Carlos Queiroz Pereira",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "samara-carlos-queiroz-pereira-sp-0103",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0103",
+      "familia_uid": "FAM-SP-0103",
+      "household_id": "FAM-SP-0103",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001702",
+          "tipo": "duas pessoas cuidadoras e adolescente"
+        },
+        {
+          "uid": "VIL-SE-SP-001704",
+          "tipo": "duas pessoas cuidadoras e adolescente"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Sao Paulo",
+      "ambiente": "urbano_capital",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1981_1996",
+      "geracao": "cohort_1981_1996",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_adulto",
+      "faixa_etaria": "Pig Adulto",
+      "idade_aproximada": 44,
+      "profissao_atual": {
+        "id": "CBO-234315",
+        "codigo_cbo": "234315",
+        "titulo": "Professor de geofísica"
+      },
+      "profissoes": [
+        "CBO-234315"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Samara integra um nucleo ficticio de Sao Paulo, SP.",
+      "historia": "Samara participa da rotina de urbano capital e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "feminina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1905-samara-carlos-queiroz-pereira-sp-0103.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1906",
+      "numero_legacy": "1906",
+      "uid": "VIL-SE-SP-001704",
+      "card_code": "CR-VIL-SE-SP-001704",
+      "nome": "Ana",
+      "nome_completo": "Ana Luiz Queiroz Pereira",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "ana-luiz-queiroz-pereira-sp-0103",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0103",
+      "familia_uid": "FAM-SP-0103",
+      "household_id": "FAM-SP-0103",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001702",
+          "tipo": "duas pessoas cuidadoras e adolescente"
+        },
+        {
+          "uid": "VIL-SE-SP-001703",
+          "tipo": "duas pessoas cuidadoras e adolescente"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Sao Paulo",
+      "ambiente": "urbano_capital",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_2010_2024",
+      "geracao": "cohort_2010_2024",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_adolescente",
+      "faixa_etaria": "Pig Adolescente",
+      "idade_aproximada": 16,
+      "profissao_atual": null,
+      "profissoes": [],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "estudante_ou_infancia",
+      "papel_na_vila": "filha_ou_filho",
+      "papel": "filha_ou_filho",
+      "descricao_curta": "Ana integra um nucleo ficticio de Sao Paulo, SP.",
+      "historia": "Ana participa da rotina de urbano capital e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho jovem, roupa cotidiana simples e uma mochila sem marca.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "mochila sem marca"
+      ],
+      "apresentacao_editorial": "feminina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1906-ana-luiz-queiroz-pereira-sp-0103.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1907",
+      "numero_legacy": "1907",
+      "uid": "VIL-SE-SP-001705",
+      "card_code": "CR-VIL-SE-SP-001705",
+      "nome": "Simone",
+      "nome_completo": "Simone Gabriel Siqueira Moreira",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "simone-gabriel-siqueira-moreira-sp-0104",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0104",
+      "familia_uid": "FAM-SP-0104",
+      "household_id": "FAM-SP-0104",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001706",
+          "tipo": "duas pessoas cuidadoras e uma crianca"
+        },
+        {
+          "uid": "VIL-SE-SP-001707",
+          "tipo": "duas pessoas cuidadoras e uma crianca"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Vargem",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1981_1996",
+      "geracao": "cohort_1981_1996",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_adulto",
+      "faixa_etaria": "Pig Adulto",
+      "idade_aproximada": 42,
+      "profissao_atual": {
+        "id": "CBO-234320",
+        "codigo_cbo": "234320",
+        "titulo": "Professor de geologia"
+      },
+      "profissoes": [
+        "CBO-234320"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Simone integra um nucleo ficticio de Vargem, SP.",
+      "historia": "Simone participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "feminina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1907-simone-gabriel-siqueira-moreira-sp-0104.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1908",
+      "numero_legacy": "1908",
+      "uid": "VIL-SE-SP-001706",
+      "card_code": "CR-VIL-SE-SP-001706",
+      "nome": "Clara",
+      "nome_completo": "Clara Celia Siqueira Moreira",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "clara-celia-siqueira-moreira-sp-0104",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0104",
+      "familia_uid": "FAM-SP-0104",
+      "household_id": "FAM-SP-0104",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001705",
+          "tipo": "duas pessoas cuidadoras e uma crianca"
+        },
+        {
+          "uid": "VIL-SE-SP-001707",
+          "tipo": "duas pessoas cuidadoras e uma crianca"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Vargem",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1981_1996",
+      "geracao": "cohort_1981_1996",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_adulto",
+      "faixa_etaria": "Pig Adulto",
+      "idade_aproximada": 39,
+      "profissao_atual": {
+        "id": "CBO-234405",
+        "codigo_cbo": "234405",
+        "titulo": "Professor de ciências biológicas do ensino superior"
+      },
+      "profissoes": [
+        "CBO-234405"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Clara integra um nucleo ficticio de Vargem, SP.",
+      "historia": "Clara participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "feminina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1908-clara-celia-siqueira-moreira-sp-0104.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1909",
+      "numero_legacy": "1909",
+      "uid": "VIL-SE-SP-001707",
+      "card_code": "CR-VIL-SE-SP-001707",
+      "nome": "Cecilia",
+      "nome_completo": "Cecilia Lucia Siqueira Moreira",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "cecilia-lucia-siqueira-moreira-sp-0104",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0104",
+      "familia_uid": "FAM-SP-0104",
+      "household_id": "FAM-SP-0104",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001705",
+          "tipo": "duas pessoas cuidadoras e uma crianca"
+        },
+        {
+          "uid": "VIL-SE-SP-001706",
+          "tipo": "duas pessoas cuidadoras e uma crianca"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Vargem",
+      "ambiente": "urbano_interior",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_2010_2024",
+      "geracao": "cohort_2010_2024",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_pre_adolescente",
+      "faixa_etaria": "Pig Pre-Adolescente",
+      "idade_aproximada": 11,
+      "profissao_atual": null,
+      "profissoes": [],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "estudante_ou_infancia",
+      "papel_na_vila": "filha_ou_filho",
+      "papel": "filha_ou_filho",
+      "descricao_curta": "Cecilia integra um nucleo ficticio de Vargem, SP.",
+      "historia": "Cecilia participa da rotina de urbano interior e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho jovem, roupa cotidiana simples e uma mochila sem marca.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "mochila sem marca"
+      ],
+      "apresentacao_editorial": "feminina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1909-cecilia-lucia-siqueira-moreira-sp-0104.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1910",
+      "numero_legacy": "1910",
+      "uid": "VIL-SE-SP-001708",
+      "card_code": "CR-VIL-SE-SP-001708",
+      "nome": "Sofia",
+      "nome_completo": "Sofia Teresa Silva Cavalcante",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "sofia-teresa-silva-cavalcante-sp-0105",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0105",
+      "familia_uid": "FAM-SP-0105",
+      "household_id": "FAM-SP-0105",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001709",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        },
+        {
+          "uid": "VIL-SE-SP-001710",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Adamantina",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_1981_1996",
+      "geracao": "cohort_1981_1996",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_adulto",
+      "faixa_etaria": "Pig Adulto",
+      "idade_aproximada": 37,
+      "profissao_atual": {
+        "id": "CBO-234410",
+        "codigo_cbo": "234410",
+        "titulo": "Professor de educação física no ensino superior"
+      },
+      "profissoes": [
+        "CBO-234410"
+      ],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "ocupacao_atual_ficcional",
+      "papel_na_vila": "responsavel",
+      "papel": "responsavel",
+      "descricao_curta": "Sofia integra um nucleo ficticio de Adamantina, SP.",
+      "historia": "Sofia participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho adulto, roupa cotidiana simples e um objeto profissional discreto.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "objeto profissional discreto"
+      ],
+      "apresentacao_editorial": "feminina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1910-sofia-teresa-silva-cavalcante-sp-0105.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades",
+        "mte-cbo-2002"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1911",
+      "numero_legacy": "1911",
+      "uid": "VIL-SE-SP-001709",
+      "card_code": "CR-VIL-SE-SP-001709",
+      "nome": "Marta",
+      "nome_completo": "Marta Valentina Silva Cavalcante",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "marta-valentina-silva-cavalcante-sp-0105",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0105",
+      "familia_uid": "FAM-SP-0105",
+      "household_id": "FAM-SP-0105",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001708",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        },
+        {
+          "uid": "VIL-SE-SP-001710",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Adamantina",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_2010_2024",
+      "geracao": "cohort_2010_2024",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_crianca",
+      "faixa_etaria": "Pig Crianca",
+      "idade_aproximada": 8,
+      "profissao_atual": null,
+      "profissoes": [],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "estudante_ou_infancia",
+      "papel_na_vila": "filha_ou_filho",
+      "papel": "filha_ou_filho",
+      "descricao_curta": "Marta integra um nucleo ficticio de Adamantina, SP.",
+      "historia": "Marta participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho jovem, roupa cotidiana simples e uma mochila sem marca.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "mochila sem marca"
+      ],
+      "apresentacao_editorial": "feminina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1911-marta-valentina-silva-cavalcante-sp-0105.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades"
+      ]
+    },
+    {
+      "schema_version_personagem": "2.0.0",
+      "numero": "1912",
+      "numero_legacy": "1912",
+      "uid": "VIL-SE-SP-001710",
+      "card_code": "CR-VIL-SE-SP-001710",
+      "nome": "Rosa",
+      "nome_completo": "Rosa Aparecida Silva Cavalcante",
+      "nome_status": "confirmado",
+      "apelido": "",
+      "aliases": [],
+      "slug": "rosa-aparecida-silva-cavalcante-sp-0105",
+      "tipo": "personagem_regional",
+      "tipo_personagem": "personagem_regional",
+      "categoria": "familia_e_comunidade",
+      "classificacao_principal": "familia_e_comunidade",
+      "subcategoria": "nucleo_domestico_regional",
+      "familia_id": "FAM-SP-0105",
+      "familia_uid": "FAM-SP-0105",
+      "household_id": "FAM-SP-0105",
+      "relacoes": [
+        {
+          "uid": "VIL-SE-SP-001708",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        },
+        {
+          "uid": "VIL-SE-SP-001709",
+          "tipo": "uma pessoa cuidadora e duas criancas"
+        }
+      ],
+      "regiao": "sudeste",
+      "uf": "SP",
+      "municipio_ou_territorio": "Adamantina",
+      "ambiente": "rural_ou_periurbano",
+      "bioma": "",
+      "origens_culturais": [],
+      "paises_relacionados": [],
+      "povo_indigena_id": null,
+      "comunidades_tradicionais": [],
+      "comunidades": [],
+      "idiomas": [
+        "pt-BR"
+      ],
+      "geracao_id": "cohort_2010_2024",
+      "geracao": "cohort_2010_2024",
+      "geracao_calculada_pelo_usuario": false,
+      "fase_vida": "fase_adolescente",
+      "faixa_etaria": "Pig Adolescente",
+      "idade_aproximada": 14,
+      "profissao_atual": null,
+      "profissoes": [],
+      "profissoes_anteriores": [],
+      "profissao_futura_desejada": null,
+      "situacao_profissional": "estudante_ou_infancia",
+      "papel_na_vila": "filha_ou_filho",
+      "papel": "filha_ou_filho",
+      "descricao_curta": "Rosa integra um nucleo ficticio de Adamantina, SP.",
+      "historia": "Rosa participa da rotina de rural ou periurbano e mantem vinculos com escola, trabalho, vizinhanca e comercio local, sem representar sozinho toda a diversidade de Sao Paulo.",
+      "personalidade": [
+        "acolhedor",
+        "curioso"
+      ],
+      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "comidas_relacionadas": [],
+      "festas_relacionadas": [],
+      "musicas_dancas_relacionadas": [],
+      "folclore_relacionado": [],
+      "folclore": [],
+      "visual_brief": "Porquinho jovem, roupa cotidiana simples e uma mochila sem marca.",
+      "marcadores_visuais": [
+        "roupa cotidiana",
+        "mochila sem marca"
+      ],
+      "apresentacao_editorial": "feminina",
+      "status_pesquisa": "parcial",
+      "status_revisao_cultural": "aprovado_editorial_generico",
+      "publicavel": true,
+      "status_imagem": "pendente",
+      "asset_futuro": "assets/characters/1912-rosa-aparecida-silva-cavalcante-sp-0105.png",
+      "tags": [
+        "familia_e_comunidade",
+        "sudeste",
+        "SP"
+      ],
+      "variacoes_planejadas": [],
+      "assets_variacoes_futuras": {},
+      "status_variacoes": {},
+      "fontes": [
+        "ibge-nomes-brasil",
+        "ibge-localidades"
+      ]
+    }
+  ]
+}

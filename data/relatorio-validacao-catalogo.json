@@ -1,0 +1,928 @@
+{
+  "schema_version": "1.0.0",
+  "gerado_em": "2026-07-12",
+  "comando": "node scripts/validate-personagens-catalog.mjs",
+  "resultado": "aprovado",
+  "metricas": {
+    "total_personagens": 3251,
+    "total_publicavel": 2652,
+    "total_nao_publicavel": 599,
+    "familias": 1430,
+    "regioes": {
+      "norte": 390,
+      "nordeste": 570,
+      "sudeste": 750,
+      "sul": 450,
+      "centro-oeste": 270
+    },
+    "ufs": {
+      "RO": 48,
+      "AC": 42,
+      "AM": 72,
+      "RR": 36,
+      "PA": 96,
+      "AP": 36,
+      "TO": 60,
+      "MA": 66,
+      "PI": 54,
+      "CE": 78,
+      "RN": 51,
+      "PB": 54,
+      "PE": 72,
+      "AL": 51,
+      "SE": 48,
+      "BA": 96,
+      "MG": 180,
+      "ES": 75,
+      "RJ": 180,
+      "SP": 315,
+      "PR": 165,
+      "SC": 126,
+      "RS": 159,
+      "MS": 60,
+      "MT": 66,
+      "GO": 84,
+      "DF": 60
+    },
+    "povos_indigenas": 391,
+    "perfis_indigenas": 391,
+    "comunidades_tradicionais": 28,
+    "perfis_comunidades_tradicionais": 28,
+    "migracoes": 30,
+    "familias_mistas": 30,
+    "profissoes_catalogadas": 2728,
+    "profissoes_atribuidas_distintas": 700,
+    "figuras_folcloricas": 100,
+    "folclore_pesquisa_concluida": 0,
+    "lotes_fonte": 40,
+    "lotes_publicos": 27,
+    "imagens_principais_criadas": 2,
+    "variacoes_criadas": 39
+  },
+  "verificacoes": [
+    {
+      "id": "catalog_minimum",
+      "status": "ok",
+      "details": "3251 personagens"
+    },
+    {
+      "id": "unique_numero",
+      "status": "ok",
+      "details": "3251 valores unicos"
+    },
+    {
+      "id": "unique_numero_legacy",
+      "status": "ok",
+      "details": "3251 valores unicos"
+    },
+    {
+      "id": "unique_uid",
+      "status": "ok",
+      "details": "3251 valores unicos"
+    },
+    {
+      "id": "unique_card_code",
+      "status": "ok",
+      "details": "3251 valores unicos"
+    },
+    {
+      "id": "unique_slug",
+      "status": "ok",
+      "details": "3251 valores unicos"
+    },
+    {
+      "id": "unique_asset_futuro",
+      "status": "ok",
+      "details": "3251 valores unicos"
+    },
+    {
+      "id": "continuous_numbering",
+      "status": "ok",
+      "details": "001 a 3251"
+    },
+    {
+      "id": "legacy_numbering",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "no_literal_undefined",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "required_fields",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "names_or_justification",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "visual_markers",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "image_status",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "no_generated_images",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "protected_001",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "protected_001_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "protected_201",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "protected_201_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_002_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_002_padrao_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_002_azul",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_002_azul_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_002_rosa",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_002_rosa_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_002_arco_iris",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_002_arco_iris_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_003_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_003_padrao_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_003_azul",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_003_azul_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_003_rosa",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_003_rosa_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_003_arco_iris",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_003_arco_iris_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_004_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_004_padrao_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_004_azul",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_004_azul_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_004_rosa",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_004_rosa_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_004_arco_iris",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_004_arco_iris_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_005_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_005_padrao_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_005_azul",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_005_azul_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_005_rosa",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_005_rosa_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_005_arco_iris",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_005_arco_iris_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_006_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_006_padrao_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_006_azul",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_006_azul_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_006_rosa",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_006_rosa_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_006_arco_iris",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_006_arco_iris_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_007_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_007_padrao_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_007_azul",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_007_azul_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_007_rosa",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_007_rosa_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_007_arco_iris",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_007_arco_iris_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_008_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_008_padrao_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_008_azul",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_008_azul_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_008_rosa",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_008_rosa_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_008_arco_iris",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_008_arco_iris_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_009_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_009_padrao_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_009_azul",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_009_azul_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_009_rosa",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_009_rosa_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_009_arco_iris",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_009_arco_iris_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_010_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_010_padrao_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_010_azul",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_010_azul_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_010_rosa",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_010_rosa_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_010_arco_iris",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_010_arco_iris_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_011_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_011_padrao_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_011_azul",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_011_azul_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_011_rosa",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_011_rosa_png",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_011_arco_iris",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "regions_catalog",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "states_catalog",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "region_norte",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "region_nordeste",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "region_sudeste",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "region_sul",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "region_centro-oeste",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_RO",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_AC",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_AM",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_RR",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_PA",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_AP",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_TO",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_MA",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_PI",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_CE",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_RN",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_PB",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_PE",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_AL",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_SE",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_BA",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_MG",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_ES",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_RJ",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_SP",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_PR",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_SC",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_RS",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_MS",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_MT",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_GO",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "state_DF",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "families_minimum",
+      "status": "ok",
+      "details": "1430 nucleos"
+    },
+    {
+      "id": "unique_uid",
+      "status": "ok",
+      "details": "1430 valores unicos"
+    },
+    {
+      "id": "family_references",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "family_members",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "indigenous_official_count",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "indigenous_catalog_count",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "unique_id",
+      "status": "ok",
+      "details": "391 valores unicos"
+    },
+    {
+      "id": "unique_codigo_ibge",
+      "status": "ok",
+      "details": "391 valores unicos"
+    },
+    {
+      "id": "unique_nome_oficial",
+      "status": "ok",
+      "details": "391 valores unicos"
+    },
+    {
+      "id": "indigenous_official_link",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "indigenous_profiles",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "unique_povo_indigena_id",
+      "status": "ok",
+      "details": "391 valores unicos"
+    },
+    {
+      "id": "indigenous_safety",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "traditional_communities",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "unique_id",
+      "status": "ok",
+      "details": "28 valores unicos"
+    },
+    {
+      "id": "traditional_profiles",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "traditional_safety",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "migration_slots",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "mixed_family_slots",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "migration_safety",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "mixed_safety",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "unique_id_estavel",
+      "status": "ok",
+      "details": "2728 valores unicos"
+    },
+    {
+      "id": "cbo_import",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "profession_references",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "profession_coverage",
+      "status": "ok",
+      "details": "700 ocupacoes atribuidas"
+    },
+    {
+      "id": "folklore_slots",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "unique_uid",
+      "status": "ok",
+      "details": "100 valores unicos"
+    },
+    {
+      "id": "folklore_profiles",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "folklore_research",
+      "status": "aviso",
+      "details": "100 slots existem, mas nenhum esta marcado como pesquisa concluida"
+    },
+    {
+      "id": "folklore_safety",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "origin_references",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "source_references",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "sensitive_not_public",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "source_batch_size",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "source_manifest_files",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "source_manifest_total",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "public_batch_size",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "public_manifest_total",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "public_batch_content",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "csv_count",
+      "status": "ok",
+      "details": "ok"
+    }
+  ],
+  "avisos": [
+    "folklore_research: 100 slots existem, mas nenhum esta marcado como pesquisa concluida"
+  ],
+  "erros": []
+}

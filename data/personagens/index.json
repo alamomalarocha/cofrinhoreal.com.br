@@ -1,0 +1,249 @@
+{
+  "schema_version": "2.0.0",
+  "gerado_em": "2026-07-12",
+  "gerador": "scripts/generate-personagens-sources.mjs",
+  "compilador": "scripts/build-personagens-catalog.mjs",
+  "total_esperado": 3251,
+  "fontes": [
+    {
+      "ordem": 1,
+      "categoria": "core_existente",
+      "arquivo": "data/personagens/core/core-001.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 2,
+      "categoria": "core_existente",
+      "arquivo": "data/personagens/core/core-002.json",
+      "quantidade": 90
+    },
+    {
+      "ordem": 3,
+      "categoria": "avatares_existentes",
+      "arquivo": "data/personagens/avatares/avatares-001.json",
+      "quantidade": 10
+    },
+    {
+      "ordem": 4,
+      "categoria": "personagens_especiais",
+      "arquivo": "data/personagens/especiais/especiais-001.json",
+      "quantidade": 2
+    },
+    {
+      "ordem": 5,
+      "categoria": "regiao_norte",
+      "arquivo": "data/personagens/regioes/norte/norte-001.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 6,
+      "categoria": "regiao_norte",
+      "arquivo": "data/personagens/regioes/norte/norte-002.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 7,
+      "categoria": "regiao_norte",
+      "arquivo": "data/personagens/regioes/norte/norte-003.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 8,
+      "categoria": "regiao_norte",
+      "arquivo": "data/personagens/regioes/norte/norte-004.json",
+      "quantidade": 90
+    },
+    {
+      "ordem": 9,
+      "categoria": "regiao_nordeste",
+      "arquivo": "data/personagens/regioes/nordeste/nordeste-001.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 10,
+      "categoria": "regiao_nordeste",
+      "arquivo": "data/personagens/regioes/nordeste/nordeste-002.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 11,
+      "categoria": "regiao_nordeste",
+      "arquivo": "data/personagens/regioes/nordeste/nordeste-003.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 12,
+      "categoria": "regiao_nordeste",
+      "arquivo": "data/personagens/regioes/nordeste/nordeste-004.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 13,
+      "categoria": "regiao_nordeste",
+      "arquivo": "data/personagens/regioes/nordeste/nordeste-005.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 14,
+      "categoria": "regiao_nordeste",
+      "arquivo": "data/personagens/regioes/nordeste/nordeste-006.json",
+      "quantidade": 70
+    },
+    {
+      "ordem": 15,
+      "categoria": "regiao_sudeste",
+      "arquivo": "data/personagens/regioes/sudeste/sudeste-001.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 16,
+      "categoria": "regiao_sudeste",
+      "arquivo": "data/personagens/regioes/sudeste/sudeste-002.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 17,
+      "categoria": "regiao_sudeste",
+      "arquivo": "data/personagens/regioes/sudeste/sudeste-003.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 18,
+      "categoria": "regiao_sudeste",
+      "arquivo": "data/personagens/regioes/sudeste/sudeste-004.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 19,
+      "categoria": "regiao_sudeste",
+      "arquivo": "data/personagens/regioes/sudeste/sudeste-005.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 20,
+      "categoria": "regiao_sudeste",
+      "arquivo": "data/personagens/regioes/sudeste/sudeste-006.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 21,
+      "categoria": "regiao_sudeste",
+      "arquivo": "data/personagens/regioes/sudeste/sudeste-007.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 22,
+      "categoria": "regiao_sudeste",
+      "arquivo": "data/personagens/regioes/sudeste/sudeste-008.json",
+      "quantidade": 50
+    },
+    {
+      "ordem": 23,
+      "categoria": "regiao_sul",
+      "arquivo": "data/personagens/regioes/sul/sul-001.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 24,
+      "categoria": "regiao_sul",
+      "arquivo": "data/personagens/regioes/sul/sul-002.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 25,
+      "categoria": "regiao_sul",
+      "arquivo": "data/personagens/regioes/sul/sul-003.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 26,
+      "categoria": "regiao_sul",
+      "arquivo": "data/personagens/regioes/sul/sul-004.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 27,
+      "categoria": "regiao_sul",
+      "arquivo": "data/personagens/regioes/sul/sul-005.json",
+      "quantidade": 50
+    },
+    {
+      "ordem": 28,
+      "categoria": "regiao_centro-oeste",
+      "arquivo": "data/personagens/regioes/centro-oeste/centro-oeste-001.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 29,
+      "categoria": "regiao_centro-oeste",
+      "arquivo": "data/personagens/regioes/centro-oeste/centro-oeste-002.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 30,
+      "categoria": "regiao_centro-oeste",
+      "arquivo": "data/personagens/regioes/centro-oeste/centro-oeste-003.json",
+      "quantidade": 70
+    },
+    {
+      "ordem": 31,
+      "categoria": "povos_indigenas",
+      "arquivo": "data/personagens/povos-indigenas/povos-indigenas-001.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 32,
+      "categoria": "povos_indigenas",
+      "arquivo": "data/personagens/povos-indigenas/povos-indigenas-002.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 33,
+      "categoria": "povos_indigenas",
+      "arquivo": "data/personagens/povos-indigenas/povos-indigenas-003.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 34,
+      "categoria": "povos_indigenas",
+      "arquivo": "data/personagens/povos-indigenas/povos-indigenas-004.json",
+      "quantidade": 91
+    },
+    {
+      "ordem": 35,
+      "categoria": "comunidades_tradicionais",
+      "arquivo": "data/personagens/comunidades-tradicionais/comunidades-tradicionais-001.json",
+      "quantidade": 28
+    },
+    {
+      "ordem": 36,
+      "categoria": "migracoes",
+      "arquivo": "data/personagens/migracoes/migracoes-001.json",
+      "quantidade": 30
+    },
+    {
+      "ordem": 37,
+      "categoria": "familias_mistas",
+      "arquivo": "data/personagens/familias-mistas/familias-mistas-001.json",
+      "quantidade": 30
+    },
+    {
+      "ordem": 38,
+      "categoria": "folclore",
+      "arquivo": "data/personagens/folclore/folclore-001.json",
+      "quantidade": 100
+    },
+    {
+      "ordem": 39,
+      "categoria": "educacao",
+      "arquivo": "data/personagens/educacao/educacao-001.json",
+      "quantidade": 20
+    },
+    {
+      "ordem": 40,
+      "categoria": "futuro",
+      "arquivo": "data/personagens/futuro/futuro-001.json",
+      "quantidade": 20
+    }
+  ]
+}

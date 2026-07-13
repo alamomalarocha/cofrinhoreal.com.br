@@ -1,0 +1,1193 @@
+{
+  "schema_version": "1.0.0",
+  "fonte": {
+    "data_consulta": "2026-07-12",
+    "status": "importado_de_fonte_oficial",
+    "titulo": "Censo Demografico 2022 - Etnias e linguas indigenas, Apendice 2",
+    "instituicao": "IBGE",
+    "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Etnias_e_Linguas_Indigenas_principais_caracteristicas_sociodemograficas_Resultados_do_universo/Apendices/xlsx/"
+  },
+  "criterio": "295 nomes oficiais apos retirar categorias residuais, nao especificadas e sem declaracao do apendice.",
+  "linguas": [
+    {
+      "codigo_ibge": "1010110001",
+      "nome_oficial": "Bororo"
+    },
+    {
+      "codigo_ibge": "1010120001",
+      "nome_oficial": "Umutina"
+    },
+    {
+      "codigo_ibge": "8000150001",
+      "nome_oficial": "Brobó"
+    },
+    {
+      "codigo_ibge": "1030410001",
+      "nome_oficial": "Apinayé"
+    },
+    {
+      "codigo_ibge": "1030530001",
+      "nome_oficial": "Gavião Kykatejê"
+    },
+    {
+      "codigo_ibge": "1030540001",
+      "nome_oficial": "Gavião Parkatêjê"
+    },
+    {
+      "codigo_ibge": "1030550001",
+      "nome_oficial": "Gavião Pykopjê"
+    },
+    {
+      "codigo_ibge": "1030610001",
+      "nome_oficial": "Kaingang"
+    },
+    {
+      "codigo_ibge": "1030520001",
+      "nome_oficial": "Kanela Apanyekrá"
+    },
+    {
+      "codigo_ibge": "1030510001",
+      "nome_oficial": "Kanela Rankokamekrá"
+    },
+    {
+      "codigo_ibge": "1030710001",
+      "nome_oficial": "Kayapó"
+    },
+    {
+      "codigo_ibge": "1030910001",
+      "nome_oficial": "Kisêdjê"
+    },
+    {
+      "codigo_ibge": "1030560001",
+      "nome_oficial": "Krahô"
+    },
+    {
+      "codigo_ibge": "8000170001",
+      "nome_oficial": "Kreepyn-Katejê"
+    },
+    {
+      "codigo_ibge": "1030570001",
+      "nome_oficial": "Krenyê"
+    },
+    {
+      "codigo_ibge": "1030580001",
+      "nome_oficial": "Krikati"
+    },
+    {
+      "codigo_ibge": "1030711002",
+      "nome_oficial": "Mebêngôkre Kayapó"
+    },
+    {
+      "codigo_ibge": "1030711003",
+      "nome_oficial": "Menkrangnoti"
+    },
+    {
+      "codigo_ibge": "1030711004",
+      "nome_oficial": "Mentuktire"
+    },
+    {
+      "codigo_ibge": "1030810001",
+      "nome_oficial": "Panará"
+    },
+    {
+      "codigo_ibge": "1030920001",
+      "nome_oficial": "Tapayuna"
+    },
+    {
+      "codigo_ibge": "1030004001",
+      "nome_oficial": "Timbira"
+    },
+    {
+      "codigo_ibge": "1031010001",
+      "nome_oficial": "Xacriabá"
+    },
+    {
+      "codigo_ibge": "1031110001",
+      "nome_oficial": "Xavante"
+    },
+    {
+      "codigo_ibge": "1031210001",
+      "nome_oficial": "Xerente"
+    },
+    {
+      "codigo_ibge": "1030711005",
+      "nome_oficial": "Xikrin"
+    },
+    {
+      "codigo_ibge": "1031310001",
+      "nome_oficial": "Xokléng"
+    },
+    {
+      "codigo_ibge": "8100210001",
+      "nome_oficial": "Kamakã"
+    },
+    {
+      "codigo_ibge": "1041410001",
+      "nome_oficial": "Karajá"
+    },
+    {
+      "codigo_ibge": "1041420001",
+      "nome_oficial": "Karajá Javaé"
+    },
+    {
+      "codigo_ibge": "1041430001",
+      "nome_oficial": "Xambioá"
+    },
+    {
+      "codigo_ibge": "8100230001",
+      "nome_oficial": "Dzubokuá"
+    },
+    {
+      "codigo_ibge": "6012410001",
+      "nome_oficial": "Kariri"
+    },
+    {
+      "codigo_ibge": "8100200001",
+      "nome_oficial": "Kipéa"
+    },
+    {
+      "codigo_ibge": "6015510001",
+      "nome_oficial": "Xocó"
+    },
+    {
+      "codigo_ibge": "1051610001",
+      "nome_oficial": "Krenák"
+    },
+    {
+      "codigo_ibge": "1061710001",
+      "nome_oficial": "Maxakali"
+    },
+    {
+      "codigo_ibge": "1061810001",
+      "nome_oficial": "Pataxó"
+    },
+    {
+      "codigo_ibge": "6013610001",
+      "nome_oficial": "Pataxó Hã-Hã-Hãe"
+    },
+    {
+      "codigo_ibge": "1071910001",
+      "nome_oficial": "Ofayé"
+    },
+    {
+      "codigo_ibge": "1082010001",
+      "nome_oficial": "Rikbaktsa"
+    },
+    {
+      "codigo_ibge": "1092110001",
+      "nome_oficial": "Yathê"
+    },
+    {
+      "codigo_ibge": "2010110001",
+      "nome_oficial": "Karitiana"
+    },
+    {
+      "codigo_ibge": "2030410001",
+      "nome_oficial": "Xipáya"
+    },
+    {
+      "codigo_ibge": "2030310001",
+      "nome_oficial": "Yudjá"
+    },
+    {
+      "codigo_ibge": "2040510001",
+      "nome_oficial": "Sateré-Mawé"
+    },
+    {
+      "codigo_ibge": "2050610001",
+      "nome_oficial": "Aruá"
+    },
+    {
+      "codigo_ibge": "2050640001",
+      "nome_oficial": "Gavião de Rondônia"
+    },
+    {
+      "codigo_ibge": "2050810001",
+      "nome_oficial": "Paiter"
+    },
+    {
+      "codigo_ibge": "2050710001",
+      "nome_oficial": "Salamãy"
+    },
+    {
+      "codigo_ibge": "8100030001",
+      "nome_oficial": "Tupi-Mondé"
+    },
+    {
+      "codigo_ibge": "2050650001",
+      "nome_oficial": "Zoró"
+    },
+    {
+      "codigo_ibge": "2061010001",
+      "nome_oficial": "Kuruáya"
+    },
+    {
+      "codigo_ibge": "2060910001",
+      "nome_oficial": "Munduruku"
+    },
+    {
+      "codigo_ibge": "2071110001",
+      "nome_oficial": "Puroborá"
+    },
+    {
+      "codigo_ibge": "2081210001",
+      "nome_oficial": "Arara de Rondônia (Arara Karo)"
+    },
+    {
+      "codigo_ibge": "2091310001",
+      "nome_oficial": "Ajuru"
+    },
+    {
+      "codigo_ibge": "2091410001",
+      "nome_oficial": "Akuntsu"
+    },
+    {
+      "codigo_ibge": "2091510001",
+      "nome_oficial": "Makuráp"
+    },
+    {
+      "codigo_ibge": "2091610001",
+      "nome_oficial": "Sakurabiat"
+    },
+    {
+      "codigo_ibge": "2091710001",
+      "nome_oficial": "Tuparí"
+    },
+    {
+      "codigo_ibge": "2101810001",
+      "nome_oficial": "Amanayé"
+    },
+    {
+      "codigo_ibge": "8000670001",
+      "nome_oficial": "Anambé"
+    },
+    {
+      "codigo_ibge": "2101910001",
+      "nome_oficial": "Apiaká"
+    },
+    {
+      "codigo_ibge": "2102010001",
+      "nome_oficial": "Araweté"
+    },
+    {
+      "codigo_ibge": "2102110001",
+      "nome_oficial": "Asurini do Tocantins"
+    },
+    {
+      "codigo_ibge": "2102210001",
+      "nome_oficial": "Asurini do Xingu"
+    },
+    {
+      "codigo_ibge": "8000111001",
+      "nome_oficial": "Avá Guarani"
+    },
+    {
+      "codigo_ibge": "2102310001",
+      "nome_oficial": "Avá-Canoeiro"
+    },
+    {
+      "codigo_ibge": "2102410001",
+      "nome_oficial": "Awa Guajá"
+    },
+    {
+      "codigo_ibge": "2020210001",
+      "nome_oficial": "Aweti"
+    },
+    {
+      "codigo_ibge": "2103310001",
+      "nome_oficial": "Guajajara"
+    },
+    {
+      "codigo_ibge": "8000110001",
+      "nome_oficial": "Guarani"
+    },
+    {
+      "codigo_ibge": "8000111002",
+      "nome_oficial": "Guarani Kaiowá"
+    },
+    {
+      "codigo_ibge": "8000111003",
+      "nome_oficial": "Guarani Mbya"
+    },
+    {
+      "codigo_ibge": "8000111004",
+      "nome_oficial": "Guarani Nhandeva"
+    },
+    {
+      "codigo_ibge": "2102820001",
+      "nome_oficial": "Jiahui"
+    },
+    {
+      "codigo_ibge": "2102830001",
+      "nome_oficial": "Juma"
+    },
+    {
+      "codigo_ibge": "2102610001",
+      "nome_oficial": "Ka'apor"
+    },
+    {
+      "codigo_ibge": "2102910001",
+      "nome_oficial": "Kaiabi (Kawaiwete)"
+    },
+    {
+      "codigo_ibge": "2102710001",
+      "nome_oficial": "Kamayurá"
+    },
+    {
+      "codigo_ibge": "2103020001",
+      "nome_oficial": "Kambéba"
+    },
+    {
+      "codigo_ibge": "2102810001",
+      "nome_oficial": "Kawahíba dos Amondáwa"
+    },
+    {
+      "codigo_ibge": "2102840001",
+      "nome_oficial": "Kawahíba dos Karipuna"
+    },
+    {
+      "codigo_ibge": "2103010001",
+      "nome_oficial": "Kokama"
+    },
+    {
+      "codigo_ibge": "2103110001",
+      "nome_oficial": "Nheengatu"
+    },
+    {
+      "codigo_ibge": "2102120001",
+      "nome_oficial": "Parakanã (Awaeté Xeenga)"
+    },
+    {
+      "codigo_ibge": "2102850001",
+      "nome_oficial": "Parintintim"
+    },
+    {
+      "codigo_ibge": "2102130001",
+      "nome_oficial": "Suruí do Pará"
+    },
+    {
+      "codigo_ibge": "2103210001",
+      "nome_oficial": "Tapirapé"
+    },
+    {
+      "codigo_ibge": "2103320001",
+      "nome_oficial": "Tembé"
+    },
+    {
+      "codigo_ibge": "8100050001",
+      "nome_oficial": "Tenetehára"
+    },
+    {
+      "codigo_ibge": "2102860001",
+      "nome_oficial": "Tenharim"
+    },
+    {
+      "codigo_ibge": "8000040001",
+      "nome_oficial": "Tupi-Guarani (**)"
+    },
+    {
+      "codigo_ibge": "6014010001",
+      "nome_oficial": "Tupi-Potiguara"
+    },
+    {
+      "codigo_ibge": "2103510001",
+      "nome_oficial": "Wajãpi"
+    },
+    {
+      "codigo_ibge": "2103610001",
+      "nome_oficial": "Xetá"
+    },
+    {
+      "codigo_ibge": "2103710001",
+      "nome_oficial": "Zo'é"
+    },
+    {
+      "codigo_ibge": "3050110001",
+      "nome_oficial": "Arawá"
+    },
+    {
+      "codigo_ibge": "3050210001",
+      "nome_oficial": "Banawá"
+    },
+    {
+      "codigo_ibge": "3050310001",
+      "nome_oficial": "Dení"
+    },
+    {
+      "codigo_ibge": "3050410001",
+      "nome_oficial": "Jamamadi"
+    },
+    {
+      "codigo_ibge": "3050510001",
+      "nome_oficial": "Jarawára"
+    },
+    {
+      "codigo_ibge": "3050610001",
+      "nome_oficial": "Kulina Madijá"
+    },
+    {
+      "codigo_ibge": "3050710001",
+      "nome_oficial": "Paumarí"
+    },
+    {
+      "codigo_ibge": "3050810001",
+      "nome_oficial": "Suruwaha"
+    },
+    {
+      "codigo_ibge": "3010110001",
+      "nome_oficial": "Apurinã"
+    },
+    {
+      "codigo_ibge": "3010210001",
+      "nome_oficial": "Ashaninka"
+    },
+    {
+      "codigo_ibge": "3010310001",
+      "nome_oficial": "Baniwa"
+    },
+    {
+      "codigo_ibge": "3010510001",
+      "nome_oficial": "Enawenê-Nawê"
+    },
+    {
+      "codigo_ibge": "3010610001",
+      "nome_oficial": "Kaixana"
+    },
+    {
+      "codigo_ibge": "3010710001",
+      "nome_oficial": "Kinikinau"
+    },
+    {
+      "codigo_ibge": "3010320001",
+      "nome_oficial": "Kuripako"
+    },
+    {
+      "codigo_ibge": "3010810001",
+      "nome_oficial": "Manchineri"
+    },
+    {
+      "codigo_ibge": "3010910001",
+      "nome_oficial": "Mawayána"
+    },
+    {
+      "codigo_ibge": "3011010001",
+      "nome_oficial": "Mehináku"
+    },
+    {
+      "codigo_ibge": "3011110001",
+      "nome_oficial": "Palikur"
+    },
+    {
+      "codigo_ibge": "3011210001",
+      "nome_oficial": "Paresí"
+    },
+    {
+      "codigo_ibge": "3011310001",
+      "nome_oficial": "Tariana"
+    },
+    {
+      "codigo_ibge": "3011410001",
+      "nome_oficial": "Terena"
+    },
+    {
+      "codigo_ibge": "3011510001",
+      "nome_oficial": "Wapixana"
+    },
+    {
+      "codigo_ibge": "3011610001",
+      "nome_oficial": "Warekena"
+    },
+    {
+      "codigo_ibge": "3011710001",
+      "nome_oficial": "Waura"
+    },
+    {
+      "codigo_ibge": "8000130001",
+      "nome_oficial": "Wayuu"
+    },
+    {
+      "codigo_ibge": "3011810001",
+      "nome_oficial": "Yawalapití"
+    },
+    {
+      "codigo_ibge": "3110210001",
+      "nome_oficial": "Miránha"
+    },
+    {
+      "codigo_ibge": "3150110001",
+      "nome_oficial": "Chiquitáno"
+    },
+    {
+      "codigo_ibge": "3120110001",
+      "nome_oficial": "Kadiwéu"
+    },
+    {
+      "codigo_ibge": "3160110001",
+      "nome_oficial": "Arikapú"
+    },
+    {
+      "codigo_ibge": "3160210001",
+      "nome_oficial": "Djeoromitxí-Jaboti"
+    },
+    {
+      "codigo_ibge": "8100070001",
+      "nome_oficial": "Akawaio"
+    },
+    {
+      "codigo_ibge": "8000610001",
+      "nome_oficial": "Akuriyó"
+    },
+    {
+      "codigo_ibge": "3020110001",
+      "nome_oficial": "Apalai"
+    },
+    {
+      "codigo_ibge": "3020210001",
+      "nome_oficial": "Arara do Pará"
+    },
+    {
+      "codigo_ibge": "8100100001",
+      "nome_oficial": "Arekuna"
+    },
+    {
+      "codigo_ibge": "3020310001",
+      "nome_oficial": "Bakairi"
+    },
+    {
+      "codigo_ibge": "8000740001",
+      "nome_oficial": "Faruk'woto"
+    },
+    {
+      "codigo_ibge": "3020410001",
+      "nome_oficial": "Galibi Kali'na"
+    },
+    {
+      "codigo_ibge": "3020510001",
+      "nome_oficial": "Hixkaryana"
+    },
+    {
+      "codigo_ibge": "3020610001",
+      "nome_oficial": "Ikpeng"
+    },
+    {
+      "codigo_ibge": "3020710001",
+      "nome_oficial": "Ingarikó"
+    },
+    {
+      "codigo_ibge": "3020810001",
+      "nome_oficial": "Kalapalo"
+    },
+    {
+      "codigo_ibge": "8000290001",
+      "nome_oficial": "Kamarakoto"
+    },
+    {
+      "codigo_ibge": "3021520001",
+      "nome_oficial": "Katwena"
+    },
+    {
+      "codigo_ibge": "3021010001",
+      "nome_oficial": "Katxuyana"
+    },
+    {
+      "codigo_ibge": "3020920001",
+      "nome_oficial": "Kuikuro"
+    },
+    {
+      "codigo_ibge": "3021110001",
+      "nome_oficial": "Makuxí"
+    },
+    {
+      "codigo_ibge": "3020930001",
+      "nome_oficial": "Matipú"
+    },
+    {
+      "codigo_ibge": "3020940001",
+      "nome_oficial": "Nahukuá"
+    },
+    {
+      "codigo_ibge": "3021210001",
+      "nome_oficial": "Patamóna"
+    },
+    {
+      "codigo_ibge": "3021310001",
+      "nome_oficial": "Taurepang"
+    },
+    {
+      "codigo_ibge": "3021410001",
+      "nome_oficial": "Tiriyó"
+    },
+    {
+      "codigo_ibge": "8100150001",
+      "nome_oficial": "Tunayana"
+    },
+    {
+      "codigo_ibge": "3021510001",
+      "nome_oficial": "Wai Wai"
+    },
+    {
+      "codigo_ibge": "3021610001",
+      "nome_oficial": "Waimiri Atroari"
+    },
+    {
+      "codigo_ibge": "3021710001",
+      "nome_oficial": "Wayana"
+    },
+    {
+      "codigo_ibge": "8100110001",
+      "nome_oficial": "Xerewyana"
+    },
+    {
+      "codigo_ibge": "3021810001",
+      "nome_oficial": "Ye'kwana"
+    },
+    {
+      "codigo_ibge": "3060110001",
+      "nome_oficial": "Kanamarí"
+    },
+    {
+      "codigo_ibge": "3060210001",
+      "nome_oficial": "Katawixí"
+    },
+    {
+      "codigo_ibge": "3060120001",
+      "nome_oficial": "Katukina do Rio Biá (Pedá Djapá)"
+    },
+    {
+      "codigo_ibge": "3130110001",
+      "nome_oficial": "Múra"
+    },
+    {
+      "codigo_ibge": "3130210001",
+      "nome_oficial": "Pirahã"
+    },
+    {
+      "codigo_ibge": "8000540001",
+      "nome_oficial": "Warapakai"
+    },
+    {
+      "codigo_ibge": "3070110001",
+      "nome_oficial": "Dâw"
+    },
+    {
+      "codigo_ibge": "3070210001",
+      "nome_oficial": "Hupd'äh"
+    },
+    {
+      "codigo_ibge": "3070310001",
+      "nome_oficial": "Nadëb"
+    },
+    {
+      "codigo_ibge": "8000590001",
+      "nome_oficial": "Puinave"
+    },
+    {
+      "codigo_ibge": "3070410001",
+      "nome_oficial": "Yuhupdëh"
+    },
+    {
+      "codigo_ibge": "8100170001",
+      "nome_oficial": "Alantesú"
+    },
+    {
+      "codigo_ibge": "8000081008",
+      "nome_oficial": "Hahaintesu"
+    },
+    {
+      "codigo_ibge": "8000081003",
+      "nome_oficial": "Halotesu"
+    },
+    {
+      "codigo_ibge": "8000081004",
+      "nome_oficial": "Kithaulu"
+    },
+    {
+      "codigo_ibge": "8000081011",
+      "nome_oficial": "Latundê"
+    },
+    {
+      "codigo_ibge": "8000081013",
+      "nome_oficial": "Mamaindê"
+    },
+    {
+      "codigo_ibge": "8000081002",
+      "nome_oficial": "Manduka"
+    },
+    {
+      "codigo_ibge": "8000080001",
+      "nome_oficial": "Nambikwára"
+    },
+    {
+      "codigo_ibge": "8000081012",
+      "nome_oficial": "Negarotê"
+    },
+    {
+      "codigo_ibge": "8000081015",
+      "nome_oficial": "Sabanê"
+    },
+    {
+      "codigo_ibge": "8000081014",
+      "nome_oficial": "Tawandê"
+    },
+    {
+      "codigo_ibge": "8000081010",
+      "nome_oficial": "Waikisu"
+    },
+    {
+      "codigo_ibge": "8000081001",
+      "nome_oficial": "Wasusu"
+    },
+    {
+      "codigo_ibge": "3030110001",
+      "nome_oficial": "Arara do Acre (Arara Shawãdawa)"
+    },
+    {
+      "codigo_ibge": "3030310001",
+      "nome_oficial": "Kaxarari"
+    },
+    {
+      "codigo_ibge": "3030410001",
+      "nome_oficial": "Kaxinawá"
+    },
+    {
+      "codigo_ibge": "3030510001",
+      "nome_oficial": "Korubo"
+    },
+    {
+      "codigo_ibge": "3030610001",
+      "nome_oficial": "Kulina Pano"
+    },
+    {
+      "codigo_ibge": "3030710001",
+      "nome_oficial": "Marúbo"
+    },
+    {
+      "codigo_ibge": "8000720001",
+      "nome_oficial": "Mastanawa"
+    },
+    {
+      "codigo_ibge": "3030810001",
+      "nome_oficial": "Matís"
+    },
+    {
+      "codigo_ibge": "3030910001",
+      "nome_oficial": "Matsés"
+    },
+    {
+      "codigo_ibge": "8100140001",
+      "nome_oficial": "Mayoruna"
+    },
+    {
+      "codigo_ibge": "8000310001",
+      "nome_oficial": "Noke Vana"
+    },
+    {
+      "codigo_ibge": "3031010001",
+      "nome_oficial": "Nukiní"
+    },
+    {
+      "codigo_ibge": "3031110001",
+      "nome_oficial": "Poyanáwa"
+    },
+    {
+      "codigo_ibge": "3031210001",
+      "nome_oficial": "Shanenáwa"
+    },
+    {
+      "codigo_ibge": "3031310001",
+      "nome_oficial": "Yamináwa"
+    },
+    {
+      "codigo_ibge": "3031410001",
+      "nome_oficial": "Yawanawá"
+    },
+    {
+      "codigo_ibge": "3040110001",
+      "nome_oficial": "Arapaso"
+    },
+    {
+      "codigo_ibge": "3040210001",
+      "nome_oficial": "Bará"
+    },
+    {
+      "codigo_ibge": "3040310001",
+      "nome_oficial": "Barasána"
+    },
+    {
+      "codigo_ibge": "3040410001",
+      "nome_oficial": "Desána"
+    },
+    {
+      "codigo_ibge": "3040510001",
+      "nome_oficial": "Karapanã"
+    },
+    {
+      "codigo_ibge": "3040710001",
+      "nome_oficial": "Kubeo"
+    },
+    {
+      "codigo_ibge": "3040810001",
+      "nome_oficial": "Makúna"
+    },
+    {
+      "codigo_ibge": "3041410001",
+      "nome_oficial": "Mirititapuia"
+    },
+    {
+      "codigo_ibge": "3041310001",
+      "nome_oficial": "Piratapuia (Waikhana)"
+    },
+    {
+      "codigo_ibge": "3040910001",
+      "nome_oficial": "Siriano (Siriãmahsã)"
+    },
+    {
+      "codigo_ibge": "8000600001",
+      "nome_oficial": "Tanimuka"
+    },
+    {
+      "codigo_ibge": "3041010001",
+      "nome_oficial": "Tukano"
+    },
+    {
+      "codigo_ibge": "3041110001",
+      "nome_oficial": "Tuyúca"
+    },
+    {
+      "codigo_ibge": "3040610001",
+      "nome_oficial": "Wanano"
+    },
+    {
+      "codigo_ibge": "3090110001",
+      "nome_oficial": "Kujubim"
+    },
+    {
+      "codigo_ibge": "3090410001",
+      "nome_oficial": "Torá (*)"
+    },
+    {
+      "codigo_ibge": "3090611004",
+      "nome_oficial": "Oro At"
+    },
+    {
+      "codigo_ibge": "3090611003",
+      "nome_oficial": "Oro Eo"
+    },
+    {
+      "codigo_ibge": "3090611005",
+      "nome_oficial": "Oro Mon"
+    },
+    {
+      "codigo_ibge": "3090611002",
+      "nome_oficial": "Oro Náo"
+    },
+    {
+      "codigo_ibge": "3090611006",
+      "nome_oficial": "Oro Waram"
+    },
+    {
+      "codigo_ibge": "3090611007",
+      "nome_oficial": "Oro Waram Xijein"
+    },
+    {
+      "codigo_ibge": "3090611001",
+      "nome_oficial": "Oro Win"
+    },
+    {
+      "codigo_ibge": "3090610001",
+      "nome_oficial": "Pakaa Nova (Wari')"
+    },
+    {
+      "codigo_ibge": "3170110001",
+      "nome_oficial": "Witóto"
+    },
+    {
+      "codigo_ibge": "3100411001",
+      "nome_oficial": "Ninám"
+    },
+    {
+      "codigo_ibge": "3100411002",
+      "nome_oficial": "Sanumá"
+    },
+    {
+      "codigo_ibge": "3100411003",
+      "nome_oficial": "Xiriana"
+    },
+    {
+      "codigo_ibge": "3100411005",
+      "nome_oficial": "Xirixana"
+    },
+    {
+      "codigo_ibge": "3100410001",
+      "nome_oficial": "Yanomami"
+    },
+    {
+      "codigo_ibge": "3100411004",
+      "nome_oficial": "Yanomán"
+    },
+    {
+      "codigo_ibge": "4010110001",
+      "nome_oficial": "Aikanã"
+    },
+    {
+      "codigo_ibge": "8000160001",
+      "nome_oficial": "Akroá Gamela"
+    },
+    {
+      "codigo_ibge": "1020310001",
+      "nome_oficial": "Guató"
+    },
+    {
+      "codigo_ibge": "4010210001",
+      "nome_oficial": "Irántxe"
+    },
+    {
+      "codigo_ibge": "4010410001",
+      "nome_oficial": "Kanoé"
+    },
+    {
+      "codigo_ibge": "4010310001",
+      "nome_oficial": "Kwazá"
+    },
+    {
+      "codigo_ibge": "4010220001",
+      "nome_oficial": "Menkü (Myky Manoki)"
+    },
+    {
+      "codigo_ibge": "8000350001",
+      "nome_oficial": "Ruãynyn'reue"
+    },
+    {
+      "codigo_ibge": "4010510001",
+      "nome_oficial": "Tikúna"
+    },
+    {
+      "codigo_ibge": "4010610001",
+      "nome_oficial": "Trumái"
+    },
+    {
+      "codigo_ibge": "6015610001",
+      "nome_oficial": "Xukuru"
+    },
+    {
+      "codigo_ibge": "8100250001",
+      "nome_oficial": "Xukurú-Kariri"
+    },
+    {
+      "codigo_ibge": "8000440001",
+      "nome_oficial": "Creole do Amapá"
+    },
+    {
+      "codigo_ibge": "5010110001",
+      "nome_oficial": "Kheuól Galibí Marwórno"
+    },
+    {
+      "codigo_ibge": "5010210001",
+      "nome_oficial": "Kheuól Karipuna"
+    },
+    {
+      "codigo_ibge": "7010610001",
+      "nome_oficial": "Patuá (Crioula)"
+    },
+    {
+      "codigo_ibge": "6010710001",
+      "nome_oficial": "Aconã"
+    },
+    {
+      "codigo_ibge": "6010810001",
+      "nome_oficial": "Anacé"
+    },
+    {
+      "codigo_ibge": "8000500001",
+      "nome_oficial": "Arapium"
+    },
+    {
+      "codigo_ibge": "6011210001",
+      "nome_oficial": "Atikum"
+    },
+    {
+      "codigo_ibge": "8000460001",
+      "nome_oficial": "Borari"
+    },
+    {
+      "codigo_ibge": "6011310001",
+      "nome_oficial": "Botocudo (*)"
+    },
+    {
+      "codigo_ibge": "8000250001",
+      "nome_oficial": "Bremem Taipwenya"
+    },
+    {
+      "codigo_ibge": "6011510001",
+      "nome_oficial": "Kaimbé"
+    },
+    {
+      "codigo_ibge": "6011810001",
+      "nome_oficial": "Kambiwá"
+    },
+    {
+      "codigo_ibge": "6011910001",
+      "nome_oficial": "Kambiwá-Pipipã"
+    },
+    {
+      "codigo_ibge": "6012010001",
+      "nome_oficial": "Kanindé"
+    },
+    {
+      "codigo_ibge": "6012210001",
+      "nome_oficial": "Kapinawá"
+    },
+    {
+      "codigo_ibge": "6012310001",
+      "nome_oficial": "Karapotó"
+    },
+    {
+      "codigo_ibge": "6012510001",
+      "nome_oficial": "Kariri-Xocó"
+    },
+    {
+      "codigo_ibge": "6012610001",
+      "nome_oficial": "Kaxixó"
+    },
+    {
+      "codigo_ibge": "6012710001",
+      "nome_oficial": "Kiriri"
+    },
+    {
+      "codigo_ibge": "8000520001",
+      "nome_oficial": "Kumaruara"
+    },
+    {
+      "codigo_ibge": "8000280001",
+      "nome_oficial": "Kwaytikindo (Puri)"
+    },
+    {
+      "codigo_ibge": "8100020001",
+      "nome_oficial": "Maraguá"
+    },
+    {
+      "codigo_ibge": "6012810001",
+      "nome_oficial": "Maytapu"
+    },
+    {
+      "codigo_ibge": "3031710001",
+      "nome_oficial": "Nawa"
+    },
+    {
+      "codigo_ibge": "6012910001",
+      "nome_oficial": "Paiaku (Jenipapo-Kanindé)"
+    },
+    {
+      "codigo_ibge": "6013010001",
+      "nome_oficial": "Pankará"
+    },
+    {
+      "codigo_ibge": "6013110001",
+      "nome_oficial": "Pankararé"
+    },
+    {
+      "codigo_ibge": "6013210001",
+      "nome_oficial": "Pankararú"
+    },
+    {
+      "codigo_ibge": "6013910001",
+      "nome_oficial": "Pitaguari"
+    },
+    {
+      "codigo_ibge": "8100240001",
+      "nome_oficial": "Sabujá"
+    },
+    {
+      "codigo_ibge": "6014110001",
+      "nome_oficial": "Tabajara"
+    },
+    {
+      "codigo_ibge": "6014210001",
+      "nome_oficial": "Tapajós (*)"
+    },
+    {
+      "codigo_ibge": "6014310001",
+      "nome_oficial": "Tapeba"
+    },
+    {
+      "codigo_ibge": "6014510001",
+      "nome_oficial": "Tapuia"
+    },
+    {
+      "codigo_ibge": "6014710001",
+      "nome_oficial": "Tremembé"
+    },
+    {
+      "codigo_ibge": "6014810001",
+      "nome_oficial": "Truká"
+    },
+    {
+      "codigo_ibge": "6015010001",
+      "nome_oficial": "Tupinambá"
+    },
+    {
+      "codigo_ibge": "6015110001",
+      "nome_oficial": "Tupinambarana"
+    },
+    {
+      "codigo_ibge": "6015210001",
+      "nome_oficial": "Tupiniquim"
+    },
+    {
+      "codigo_ibge": "6015310001",
+      "nome_oficial": "Tuxá"
+    },
+    {
+      "codigo_ibge": "8000370001",
+      "nome_oficial": "Tuxi"
+    },
+    {
+      "codigo_ibge": "6015410001",
+      "nome_oficial": "Wassú"
+    },
+    {
+      "codigo_ibge": "8000240001",
+      "nome_oficial": "Ybutritê"
+    },
+    {
+      "codigo_ibge": "2103720001",
+      "nome_oficial": "Ypy"
+    },
+    {
+      "codigo_ibge": "2102630001",
+      "nome_oficial": "Língua de Sinais Kiriri"
+    },
+    {
+      "codigo_ibge": "2102670001",
+      "nome_oficial": "Língua de Sinais Terena"
+    },
+    {
+      "codigo_ibge": "2102620001",
+      "nome_oficial": "Língua de Sinais Urubu Ka’apor"
+    },
+    {
+      "codigo_ibge": "7010110001",
+      "nome_oficial": "Aimara"
+    },
+    {
+      "codigo_ibge": "8000550001",
+      "nome_oficial": "Eñepá"
+    },
+    {
+      "codigo_ibge": "7010510001",
+      "nome_oficial": "Mapuche"
+    },
+    {
+      "codigo_ibge": "7010710001",
+      "nome_oficial": "Quechua"
+    },
+    {
+      "codigo_ibge": "8100260001",
+      "nome_oficial": "Quíchua"
+    },
+    {
+      "codigo_ibge": "8000120001",
+      "nome_oficial": "Warao"
+    }
+  ]
+}
