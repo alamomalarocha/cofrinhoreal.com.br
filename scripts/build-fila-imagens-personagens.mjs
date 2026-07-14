@@ -15,13 +15,16 @@ function addRow(person, overrides = {}) {
   rows.push({
     numero: person.numero,
     uid: overrides.uid || person.uid,
-    nome: person.nome,
+    nome: person.nome_exibicao || person.nome,
     slug: person.slug,
     categoria: person.categoria || person.tipo_personagem || person.tipo,
     regiao: person.regiao || "",
     uf: person.uf || "",
     familia: person.familia_uid || "",
-    profissao: person.profissao_atual?.titulo || "",
+    profissao:
+      person.profissao_atual?.nome_exibicao ||
+      person.profissao_atual?.titulo ||
+      "",
     estilo: overrides.estilo || "principal",
     visual_brief: overrides.visual_brief || person.visual_brief || person.ideia_visual || "",
     asset_futuro: overrides.asset_futuro || person.asset_futuro,
@@ -34,8 +37,8 @@ function addRow(person, overrides = {}) {
     motivo_prioridade:
       overrides.motivo_prioridade ||
       (blocked
-        ? "Aguardar pesquisa, consulta ou revisao cultural antes de definir imagem."
-        : "Personagem publico com imagem pendente."),
+        ? "Aguardar pesquisa, consulta ou revisão cultural antes de definir imagem."
+        : "Personagem público com imagem pendente."),
   });
 }
 
@@ -51,7 +54,7 @@ for (const person of people) {
         status_imagem: status,
         prioridade: 10,
         bloqueada: false,
-        motivo_prioridade: "Concluir primeiro a sequencia oficial dos avatares de fase de vida.",
+        motivo_prioridade: "Concluir primeiro a sequência oficial dos avatares de fase de vida.",
       });
     }
     continue;
@@ -62,7 +65,7 @@ for (const person of people) {
       prioridade: person.numero === "202" ? 20 : person.publicavel ? 30 : 90,
       motivo_prioridade:
         person.numero === "202"
-          ? "Primeiro personagem publico apos a conclusao dos avatares."
+          ? "Primeiro personagem público após a conclusão dos avatares."
           : undefined,
     });
   }
