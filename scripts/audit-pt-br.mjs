@@ -8,6 +8,8 @@ const IGNORED_FILES = new Set(["scripts/audit-pt-br.mjs"]);
 const PUBLIC_JAVASCRIPT_FILES = new Set(["script.js", "personagens.js"]);
 
 const PUBLIC_JSON_FIELDS = new Set([
+  "apelido",
+  "aliases",
   "apresentacao_editorial",
   "assunto",
   "composicao",
@@ -23,6 +25,7 @@ const PUBLIC_JSON_FIELDS = new Set([
   "motivo",
   "motivo_prioridade",
   "nome_exibicao",
+  "nome_completo",
   "nome_regiao",
   "nome_uf",
   "observacoes",
@@ -43,12 +46,14 @@ const PUBLIC_JSON_FIELDS = new Set([
 ]);
 
 const PUBLIC_CSV_COLUMNS = new Set([
+  "apelido",
   "apresentacao_editorial",
   "descricao_curta",
   "historia",
   "marcadores_visuais",
   "motivo_prioridade",
   "nome_exibicao",
+  "nome_completo",
   "objetivo",
   "papel",
   "papel_educativo",
@@ -83,6 +88,7 @@ const PUBLIC_TERMS = [
   ["Educacao", "Educação"],
   ["especifica", "específica"],
   ["expressao", "expressão"],
+  ["simpatica", "simpática"],
   ["Familia", "Família"],
   ["ficticia", "fictícia"],
   ["ficticio", "fictício"],
@@ -132,6 +138,15 @@ const PUBLIC_TERMS = [
   ["variacao", "variação"],
   ["vinculo", "vínculo"],
   ["vizinhanca", "vizinhança"],
+  ["Joao", "João"],
+  ["Otavio", "Otávio"],
+  ["Coordenacao", "Coordenação"],
+  ["Diario", "Diário"],
+  ["Noemia", "Noêmia"],
+  ["Praca", "Praça"],
+  ["Rodoviaria", "Rodoviária"],
+  ["Farmacia", "Farmácia"],
+  ["Guardiao", "Guardião"],
 ];
 
 function relative(file) {
@@ -314,6 +329,28 @@ function auditFile(file) {
     const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     const regex = new RegExp(`(?<![\\p{L}\\p{N}_/-])${escaped}(?![\\p{L}\\p{N}_/-])`, "giu");
     addMatches(findings, source, regex, "termo-sem-acentuacao", "aviso", `Preferir “${preferred}” em texto público.`);
+  }
+
+  if (extension === ".json" && rel.startsWith("data/personagens/")) {
+    try {
+      const parsed = JSON.parse(raw);
+      for (const record of parsed.registros ?? []) {
+        if (record.publicavel === false) continue;
+        for (const field of ["nome_exibicao", "descricao_curta", "papel"]) {
+          if (typeof record[field] !== "string" || !record[field].trim()) {
+            findings.push({
+              kind: "texto-publico-vazio",
+              severity: "erro",
+              line: 1,
+              value: `${record.numero ?? record.uid ?? "registro"}.${field}`,
+              suggestion: `Preencher o campo público ${field}.`,
+            });
+          }
+        }
+      }
+    } catch {
+      // A estrutura inválida já foi registrada acima.
+    }
   }
 
   return findings.map((finding) => ({ file: rel, ...finding }));

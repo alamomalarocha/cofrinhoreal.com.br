@@ -137,7 +137,7 @@ Primeira leva sugerida para imagens:
 - Mae Helena;
 - Pai Raimundo;
 - Vovo Zefa;
-- Vovo Joao;
+- Vovô João;
 - Seu Damiao da Padaria;
 - Tia Carmem da Cantina;
 - Professora Lucia;

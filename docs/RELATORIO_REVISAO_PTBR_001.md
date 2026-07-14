@@ -2,37 +2,40 @@
 
 ## Identificação
 
-- Data: 2026-07-13.
+- Data: 2026-07-14.
 - Workspace: `C:\Users\alamo\OneDrive\Documents\cofrinhoreal.com.br 2`.
 - Branch: `main`.
-- Commit-base: `3ad8514ff9f785c37ac2102fe173f0c057934111`.
-- Checkpoint: `checkpoint-pre-revisao-ptbr-e-fluxo-imagens-2026-07`.
+- Commit-base: `dff56ef`.
+- Checkpoint: `checkpoint-pre-reset-visual-automacao-imagens-2026-07`.
 - Idioma editorial: português brasileiro (`pt-BR`).
 
 ## Escopo auditado
 
-A revisão cobriu 229 arquivos textuais, incluindo páginas HTML, textos públicos gerados por JavaScript, fontes segmentadas do catálogo, JSON e CSV compilados, documentação, metadados, textos alternativos e rótulos de acessibilidade.
+A revisão cobriu 234 arquivos textuais, incluindo páginas HTML, textos públicos gerados por JavaScript, fontes segmentadas do catálogo, JSON e CSV compilados, documentação, metadados, textos alternativos e rótulos de acessibilidade.
 
-Na primeira execução consolidada, o auditor registrou 96 ocorrências editoriais. Após as correções nas fontes e a regeneração dos derivados, a execução final ficou limpa. A medida verificável adotada é:
+Na primeira execução consolidada após a migração visual, o auditor registrou 647 ocorrências editoriais. Após as correções nas fontes e a regeneração dos derivados, a execução final ficou limpa. A medida verificável adotada é:
 
-- arquivos analisados na execução final: 229;
-- ocorrências registradas no início da revisão: 96;
+- arquivos analisados na execução final: 234;
+- ocorrências registradas no início da revisão: 647;
 - erros residuais: 0;
 - avisos residuais: 0;
 - ocorrências residuais: 0;
-- arquivos abrangidos por correções, documentação ou regeneração antes dos commits: 211.
+- fontes normalizadas automaticamente: 45 arquivos analisados e 999 registros revisados na primeira passagem;
+- arquivos derivados regenerados somente pelos compiladores oficiais do projeto.
 
 ## Correções realizadas
 
 - Correção de ortografia, acentuação, pontuação, capitalização e espaçamento em textos editoriais.
-- Padronização de formas públicas como **Pig Bebê**, **Pig Criança**, **Pig Pré-Adolescente**, **Pig Sênior**, **Padrão** e **Arco-íris**.
+- Padronização de formas públicas como **Pig Bebê**, **Pig Criança**, **Pig Pré-Adolescente**, **Pig Sênior** e **Arco-íris**.
+- Separação explícita entre cópia editorial acentuada e identificadores técnicos estáveis.
 - Inclusão de `nome_exibicao` no catálogo público para separar a grafia editorial dos identificadores técnicos.
 - Preservação de slugs, caminhos, URLs, UIDs, códigos de card, chaves JSON e valores internos como `padrao` e `arco_iris`.
 - Normalização da busca da Coleção Pig para encontrar nomes com ou sem acento, sem alterar o texto exibido.
 - Confirmação de `lang="pt-BR"`, UTF-8 e textos públicos de acessibilidade.
 - Correção nas fontes do catálogo e regeneração dos arquivos compilados e da fila de imagens.
-- Atualização do cache busting público para a versão 42.
 - Preservação do posicionamento público atual: nenhuma ocorrência de `troco` permanece nas páginas HTML públicas.
+
+O sistema de quatro variações foi substituído por três identidades visuais: Azul/Masculino, Rosa/Feminino e Arco-íris/Neutro.
 
 ## Fluxo antecipado de imagens
 
@@ -53,10 +56,10 @@ O teste com exclusão do item atual retornou corretamente:
 ## Validações executadas
 
 - Catálogo reconstruído: 3.251 registros totais, 2.652 publicáveis e 27 lotes públicos.
-- Fila reconstruída: 3.239 itens, 2.640 prontos e 599 bloqueados.
+- Fila reconstruída: 3.270 itens, 2.671 prontos e 599 bloqueados.
 - `validate-personagens-catalog.mjs`: aprovado, sem erros.
 - `validate-universo-pig.mjs`: aprovado, sem erros ou avisos.
-- `audit-pt-br.mjs`: 229 arquivos analisados, sem ocorrências.
+- `audit-pt-br.mjs`: 234 arquivos analisados, sem ocorrências.
 - Verificação sintática de `script.js`, `personagens.js`, `audit-pt-br.mjs` e `next-image-prompt.mjs`: aprovada.
 - `git diff --check`: sem erros de conteúdo; apenas avisos locais de conversão de fim de linha.
 

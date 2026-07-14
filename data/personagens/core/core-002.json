@@ -30,7 +30,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/111-ivo-do-congresso-escolar.png",
       "tags": [
@@ -103,7 +103,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/112-leo-da-cantina.png",
       "tags": [
@@ -177,7 +177,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/113-beta-da-gincana.png",
       "tags": [
@@ -230,16 +230,16 @@
       "slug": "zuleide-da-coordenacao",
       "apelido": "Zuleide",
       "aliases": [
-        "Zuleide da Coordenacao",
+        "Zuleide da Coordenação",
         "Zuleide",
-        "zuleide da coordenacao"
+        "zuleide da coordenação"
       ],
       "tipo": "educativo_comunidade",
       "categoria": "Comunidade educativa",
       "faixa_etaria": "senior",
-      "papel": "Guardiao de saberes locais",
+      "papel": "Guardião de saberes locais",
       "descricao_curta": "Ensina pelo exemplo e pela memória comunitária.",
-      "historia": "Zuleide da Coordenacao faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
+      "historia": "Zuleide da Coordenação faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -251,7 +251,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/114-zuleide-da-coordenacao.png",
       "tags": [
@@ -285,7 +285,7 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ensina pelo exemplo e pela memória comunitária.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Zuleide da Coordenacao",
+      "nome_exibicao": "Zuleide da Coordenação",
       "historico_status_imagem": [
         {
           "evento": "reset_visual_tres_identidades_2026_07",
@@ -309,7 +309,7 @@
         "nico do xadrez"
       ],
       "tipo": "familia_estendida",
-      "categoria": "Familia estendida",
+      "categoria": "Família estendida",
       "faixa_etaria": "adulto",
       "papel": "Parente ou pessoa próxima da família",
       "descricao_curta": "Fortalece vínculos familiares e pequenos combinados.",
@@ -325,7 +325,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/115-nico-do-xadrez.png",
       "tags": [
@@ -398,7 +398,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/116-sofia-das-moedas.png",
       "tags": [
@@ -471,7 +471,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/117-theo-do-cofrinho.png",
       "tags": [
@@ -545,7 +545,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/118-mirela-da-meta.png",
       "tags": [
@@ -618,7 +618,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/119-vivi-do-sonho.png",
       "tags": [
@@ -668,18 +668,18 @@
       "numero": "120",
       "nome": "Otavio da Planilha",
       "slug": "otavio-da-planilha",
-      "apelido": "Otavio",
+      "apelido": "Otávio",
       "aliases": [
-        "Otavio da Planilha",
-        "Otavio",
-        "otavio da planilha"
+        "Otávio da Planilha",
+        "Otávio",
+        "otávio da planilha"
       ],
       "tipo": "relacoes_confianca",
       "categoria": "Relacoes de confianca",
       "faixa_etaria": "adulto",
       "papel": "Pessoa autorizada ou de confiança",
       "descricao_curta": "Representa cuidado e vínculos seguros.",
-      "historia": "Otavio da Planilha faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
+      "historia": "Otávio da Planilha faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -691,7 +691,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/120-otavio-da-planilha.png",
       "tags": [
@@ -725,7 +725,7 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa cuidado e vínculos seguros.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Otavio da Planilha",
+      "nome_exibicao": "Otávio da Planilha",
       "historico_status_imagem": [
         {
           "evento": "reset_visual_tres_identidades_2026_07",
@@ -744,16 +744,16 @@
       "slug": "celina-do-diario",
       "apelido": "Celina",
       "aliases": [
-        "Celina do Diario",
+        "Celina do Diário",
         "Celina",
-        "celina do diario"
+        "celina do diário"
       ],
       "tipo": "proposito_social",
       "categoria": "Proposito social futuro",
       "faixa_etaria": "adulto",
       "papel": "Personagem de solidariedade futura",
       "descricao_curta": "Mostra doacao opcional, sem pressão.",
-      "historia": "Celina do Diario faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
+      "historia": "Celina do Diário faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -765,7 +765,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/121-celina-do-diario.png",
       "tags": [
@@ -799,7 +799,7 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Mostra doacao opcional, sem pressão.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Celina do Diario",
+      "nome_exibicao": "Celina do Diário",
       "historico_status_imagem": [
         {
           "evento": "reset_visual_tres_identidades_2026_07",
@@ -825,7 +825,7 @@
       "tipo": "educativo_comunidade",
       "categoria": "Comunidade educativa",
       "faixa_etaria": "senior",
-      "papel": "Guardiao de saberes locais",
+      "papel": "Guardião de saberes locais",
       "descricao_curta": "Ensina pelo exemplo e pela memória comunitária.",
       "historia": "Lara da Mesada faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
@@ -839,7 +839,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/122-lara-da-mesada.png",
       "tags": [
@@ -897,7 +897,7 @@
         "hugo do porquinho"
       ],
       "tipo": "familia_estendida",
-      "categoria": "Familia estendida",
+      "categoria": "Família estendida",
       "faixa_etaria": "adulto",
       "papel": "Parente ou pessoa próxima da família",
       "descricao_curta": "Fortalece vínculos familiares e pequenos combinados.",
@@ -913,7 +913,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/123-hugo-do-porquinho.png",
       "tags": [
@@ -986,7 +986,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/124-renata-do-planejamento.png",
       "tags": [
@@ -1038,16 +1038,16 @@
       "slug": "dona-noemia-da-igreja",
       "apelido": "Dona",
       "aliases": [
-        "Dona Noemia da Igreja",
+        "Dona Noêmia da Igreja",
         "Dona",
-        "dona noemia da igreja"
+        "dona noêmia da igreja"
       ],
       "tipo": "escola_eventos",
       "categoria": "Cantina e eventos escolares",
       "faixa_etaria": "adolescente",
       "papel": "Personagem de evento escolar supervisionado",
       "descricao_curta": "Ajuda a explicar arrecadacoes e festas sem pressão.",
-      "historia": "Dona Noemia da Igreja faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
+      "historia": "Dona Noêmia da Igreja faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -1059,7 +1059,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/125-dona-noemia-da-igreja.png",
       "tags": [
@@ -1093,7 +1093,7 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda a explicar arrecadacoes e festas sem pressão.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Dona Noemia da Igreja",
+      "nome_exibicao": "Dona Noêmia da Igreja",
       "historico_status_imagem": [
         {
           "evento": "reset_visual_tres_identidades_2026_07",
@@ -1112,16 +1112,16 @@
       "slug": "seu-abel-da-praca",
       "apelido": "Seu",
       "aliases": [
-        "Seu Abel da Praca",
+        "Seu Abel da Praça",
         "Seu",
-        "seu abel da praca"
+        "seu abel da praça"
       ],
       "tipo": "comercio_local",
       "categoria": "Comercio local",
       "faixa_etaria": "adulto",
       "papel": "Pessoa do comércio de bairro",
       "descricao_curta": "Representa o dia a dia do bairro em histórias de educação e comunidade.",
-      "historia": "Seu Abel da Praca faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
+      "historia": "Seu Abel da Praça faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -1133,7 +1133,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/126-seu-abel-da-praca.png",
       "tags": [
@@ -1166,7 +1166,7 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa o dia a dia do bairro em histórias de educação e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Seu Abel da Praca",
+      "nome_exibicao": "Seu Abel da Praça",
       "historico_status_imagem": [
         {
           "evento": "reset_visual_tres_identidades_2026_07",
@@ -1206,7 +1206,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/127-luzia-da-rua-alta.png",
       "tags": [
@@ -1279,7 +1279,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/128-marquinhos-do-bairro.png",
       "tags": [
@@ -1353,7 +1353,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/129-dalva-do-quintal.png",
       "tags": [
@@ -1413,7 +1413,7 @@
       "tipo": "educativo_comunidade",
       "categoria": "Comunidade educativa",
       "faixa_etaria": "senior",
-      "papel": "Guardiao de saberes locais",
+      "papel": "Guardião de saberes locais",
       "descricao_curta": "Ensina pelo exemplo e pela memória comunitária.",
       "historia": "Rute do Interior faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
@@ -1427,7 +1427,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/130-rute-do-interior.png",
       "tags": [
@@ -1485,7 +1485,7 @@
         "elias da cidade grande"
       ],
       "tipo": "familia_estendida",
-      "categoria": "Familia estendida",
+      "categoria": "Família estendida",
       "faixa_etaria": "adulto",
       "papel": "Parente ou pessoa próxima da família",
       "descricao_curta": "Fortalece vínculos familiares e pequenos combinados.",
@@ -1501,7 +1501,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/131-elias-da-cidade-grande.png",
       "tags": [
@@ -1551,18 +1551,18 @@
       "numero": "132",
       "nome": "Fatima da Rodoviaria",
       "slug": "fatima-da-rodoviaria",
-      "apelido": "Fatima",
+      "apelido": "Fátima",
       "aliases": [
-        "Fatima da Rodoviaria",
-        "Fatima",
-        "fatima da rodoviaria"
+        "Fátima da Rodoviária",
+        "Fátima",
+        "fatima da rodoviária"
       ],
       "tipo": "escola",
       "categoria": "Escola",
       "faixa_etaria": "crianca",
       "papel": "Aluno, educador ou apoio escolar",
       "descricao_curta": "Apoia aprendizado de moedas, metas e escolhas.",
-      "historia": "Fatima da Rodoviaria faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
+      "historia": "Fátima da Rodoviária faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -1574,7 +1574,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/132-fatima-da-rodoviaria.png",
       "tags": [
@@ -1607,7 +1607,7 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Apoia aprendizado de moedas, metas e escolhas.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Fatima da Rodoviaria",
+      "nome_exibicao": "Fátima da Rodoviária",
       "historico_status_imagem": [
         {
           "evento": "reset_visual_tres_identidades_2026_07",
@@ -1647,7 +1647,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/133-cacau-do-mercadinho.png",
       "tags": [
@@ -1700,16 +1700,16 @@
       "slug": "toni-da-farmacia",
       "apelido": "Toni",
       "aliases": [
-        "Toni da Farmacia",
+        "Toni da Farmácia",
         "Toni",
-        "toni da farmacia"
+        "toni da farmácia"
       ],
       "tipo": "comercio_local",
       "categoria": "Comercio local",
       "faixa_etaria": "adulto",
       "papel": "Pessoa do comércio de bairro",
       "descricao_curta": "Representa o dia a dia do bairro em histórias de educação e comunidade.",
-      "historia": "Toni da Farmacia faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
+      "historia": "Toni da Farmácia faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -1721,7 +1721,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/134-toni-da-farmacia.png",
       "tags": [
@@ -1754,7 +1754,7 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa o dia a dia do bairro em histórias de educação e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Toni da Farmacia",
+      "nome_exibicao": "Toni da Farmácia",
       "historico_status_imagem": [
         {
           "evento": "reset_visual_tres_identidades_2026_07",
@@ -1794,7 +1794,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/135-mel-da-lanchonete.png",
       "tags": [
@@ -1867,7 +1867,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/136-dona-ivone-da-padaria.png",
       "tags": [
@@ -1941,7 +1941,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/137-seu-pedro-da-feira.png",
       "tags": [
@@ -2001,7 +2001,7 @@
       "tipo": "educativo_comunidade",
       "categoria": "Comunidade educativa",
       "faixa_etaria": "senior",
-      "papel": "Guardiao de saberes locais",
+      "papel": "Guardião de saberes locais",
       "descricao_curta": "Ensina pelo exemplo e pela memória comunitária.",
       "historia": "Sil da Loja faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
@@ -2015,7 +2015,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/138-sil-da-loja.png",
       "tags": [
@@ -2073,7 +2073,7 @@
         "marina caixa"
       ],
       "tipo": "familia_estendida",
-      "categoria": "Familia estendida",
+      "categoria": "Família estendida",
       "faixa_etaria": "adulto",
       "papel": "Parente ou pessoa próxima da família",
       "descricao_curta": "Fortalece vínculos familiares e pequenos combinados.",
@@ -2089,7 +2089,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/139-marina-caixa.png",
       "tags": [
@@ -2162,7 +2162,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/140-val-do-restaurante.png",
       "tags": [
@@ -2235,7 +2235,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/141-guga-garcom.png",
       "tags": [
@@ -2309,7 +2309,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/142-mara-atendente.png",
       "tags": [
@@ -2382,7 +2382,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/143-nelson-cliente.png",
       "tags": [
@@ -2455,7 +2455,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/144-joana-da-mercearia.png",
       "tags": [
@@ -2529,7 +2529,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/145-sandro-da-bodega.png",
       "tags": [
@@ -2589,7 +2589,7 @@
       "tipo": "educativo_comunidade",
       "categoria": "Comunidade educativa",
       "faixa_etaria": "senior",
-      "papel": "Guardiao de saberes locais",
+      "papel": "Guardião de saberes locais",
       "descricao_curta": "Ensina pelo exemplo e pela memória comunitária.",
       "historia": "Dona Olga da Banquinha faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
@@ -2603,7 +2603,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/146-dona-olga-da-banquinha.png",
       "tags": [
@@ -2661,7 +2661,7 @@
         "seu getulio do armazem"
       ],
       "tipo": "familia_estendida",
-      "categoria": "Familia estendida",
+      "categoria": "Família estendida",
       "faixa_etaria": "adulto",
       "papel": "Parente ou pessoa próxima da família",
       "descricao_curta": "Fortalece vínculos familiares e pequenos combinados.",
@@ -2677,7 +2677,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/147-seu-getulio-do-armazem.png",
       "tags": [
@@ -2750,7 +2750,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/148-lourenco-do-frango.png",
       "tags": [
@@ -2823,7 +2823,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/149-berenice-da-doceria.png",
       "tags": [
@@ -2897,7 +2897,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/150-aline-do-brecho.png",
       "tags": [
@@ -2970,7 +2970,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/151-vitor-da-papelaria.png",
       "tags": [
@@ -3043,7 +3043,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/152-paty-da-cantina.png",
       "tags": [
@@ -3117,7 +3117,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/153-ruan-da-escola.png",
       "tags": [
@@ -3177,7 +3177,7 @@
       "tipo": "educativo_comunidade",
       "categoria": "Comunidade educativa",
       "faixa_etaria": "senior",
-      "papel": "Guardiao de saberes locais",
+      "papel": "Guardião de saberes locais",
       "descricao_curta": "Ensina pelo exemplo e pela memória comunitária.",
       "historia": "Kelly da Turma faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
@@ -3191,7 +3191,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/154-kelly-da-turma.png",
       "tags": [
@@ -3249,7 +3249,7 @@
         "neto do gremio"
       ],
       "tipo": "familia_estendida",
-      "categoria": "Familia estendida",
+      "categoria": "Família estendida",
       "faixa_etaria": "adulto",
       "papel": "Parente ou pessoa próxima da família",
       "descricao_curta": "Fortalece vínculos familiares e pequenos combinados.",
@@ -3265,7 +3265,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/155-neto-do-gremio.png",
       "tags": [
@@ -3338,7 +3338,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/156-duda-da-sala.png",
       "tags": [
@@ -3411,7 +3411,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/157-livia-da-leitura.png",
       "tags": [
@@ -3485,7 +3485,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/158-miguel-da-conta.png",
       "tags": [
@@ -3558,7 +3558,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/159-carol-da-tabuada.png",
       "tags": [
@@ -3631,7 +3631,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/160-breno-da-corrida.png",
       "tags": [
@@ -3705,7 +3705,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/161-jade-da-feira-de-ciencias.png",
       "tags": [
@@ -3758,14 +3758,14 @@
       "slug": "amanda-da-familia",
       "apelido": "Amanda",
       "aliases": [
-        "Amanda da Familia",
+        "Amanda da Família",
         "Amanda",
-        "amanda da familia"
+        "amanda da família"
       ],
       "tipo": "educativo_comunidade",
       "categoria": "Comunidade educativa",
       "faixa_etaria": "senior",
-      "papel": "Guardiao de saberes locais",
+      "papel": "Guardião de saberes locais",
       "descricao_curta": "Ensina pelo exemplo e pela memória comunitária.",
       "historia": "Amanda da Família faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
@@ -3779,7 +3779,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/162-amanda-da-familia.png",
       "tags": [
@@ -3837,7 +3837,7 @@
         "ricardo responsavel"
       ],
       "tipo": "familia_estendida",
-      "categoria": "Familia estendida",
+      "categoria": "Família estendida",
       "faixa_etaria": "adulto",
       "papel": "Parente ou pessoa próxima da família",
       "descricao_curta": "Fortalece vínculos familiares e pequenos combinados.",
@@ -3853,7 +3853,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/163-ricardo-responsavel.png",
       "tags": [
@@ -3926,7 +3926,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/164-sueli-cuidadora.png",
       "tags": [
@@ -3999,7 +3999,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/165-tadeu-cuidador.png",
       "tags": [
@@ -4073,7 +4073,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/166-branca-madrinha.png",
       "tags": [
@@ -4146,7 +4146,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/167-cesar-padrinho.png",
       "tags": [
@@ -4219,7 +4219,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/168-marcia-tia-de-fora.png",
       "tags": [
@@ -4293,7 +4293,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/169-ivan-primo-visitante.png",
       "tags": [
@@ -4353,7 +4353,7 @@
       "tipo": "educativo_comunidade",
       "categoria": "Comunidade educativa",
       "faixa_etaria": "senior",
-      "papel": "Guardiao de saberes locais",
+      "papel": "Guardião de saberes locais",
       "descricao_curta": "Ensina pelo exemplo e pela memória comunitária.",
       "historia": "Helio Vizinho faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
@@ -4367,7 +4367,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/170-helio-vizinho.png",
       "tags": [
@@ -4425,7 +4425,7 @@
         "geisa vizinha"
       ],
       "tipo": "familia_estendida",
-      "categoria": "Familia estendida",
+      "categoria": "Família estendida",
       "faixa_etaria": "adulto",
       "papel": "Parente ou pessoa próxima da família",
       "descricao_curta": "Fortalece vínculos familiares e pequenos combinados.",
@@ -4441,7 +4441,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/171-geisa-vizinha.png",
       "tags": [
@@ -4514,7 +4514,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/172-pietra-da-rua.png",
       "tags": [
@@ -4587,7 +4587,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/173-yan-do-condominio.png",
       "tags": [
@@ -4661,7 +4661,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/174-dona-marlene-sindica.png",
       "tags": [
@@ -4734,7 +4734,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/175-seu-arlindo-zelador.png",
       "tags": [
@@ -4807,7 +4807,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/176-catarina-do-predio.png",
       "tags": [
@@ -4881,7 +4881,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/177-roni-da-casa-nova.png",
       "tags": [
@@ -4932,16 +4932,16 @@
       "numero": "178",
       "nome": "Familia Batista",
       "slug": "familia-batista",
-      "apelido": "Familia",
+      "apelido": "Família",
       "aliases": [
-        "Familia Batista",
-        "Familia",
-        "familia batista"
+        "Família Batista",
+        "Família",
+        "família batista"
       ],
       "tipo": "educativo_comunidade",
       "categoria": "Comunidade educativa",
       "faixa_etaria": "senior",
-      "papel": "Guardiao de saberes locais",
+      "papel": "Guardião de saberes locais",
       "descricao_curta": "Ensina pelo exemplo e pela memória comunitária.",
       "historia": "Família Batista faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
@@ -4955,7 +4955,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/178-familia-batista.png",
       "tags": [
@@ -5006,14 +5006,14 @@
       "numero": "179",
       "nome": "Familia Santana",
       "slug": "familia-santana",
-      "apelido": "Familia",
+      "apelido": "Família",
       "aliases": [
-        "Familia Santana",
-        "Familia",
-        "familia santana"
+        "Família Santana",
+        "Família",
+        "família santana"
       ],
       "tipo": "familia_estendida",
-      "categoria": "Familia estendida",
+      "categoria": "Família estendida",
       "faixa_etaria": "adulto",
       "papel": "Parente ou pessoa próxima da família",
       "descricao_curta": "Fortalece vínculos familiares e pequenos combinados.",
@@ -5029,7 +5029,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/179-familia-santana.png",
       "tags": [
@@ -5102,7 +5102,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/180-nayara-voluntaria.png",
       "tags": [
@@ -5175,7 +5175,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/181-dona-celeste-solidaria.png",
       "tags": [
@@ -5249,7 +5249,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/182-bruno-protetor.png",
       "tags": [
@@ -5322,7 +5322,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/183-lia-comunidade.png",
       "tags": [
@@ -5374,7 +5374,7 @@
       "slug": "padre-antonio-conselheiro",
       "apelido": "Padre",
       "aliases": [
-        "Padre Antonio Conselheiro",
+        "Padre Antônio Conselheiro",
         "Padre",
         "padre antonio conselheiro"
       ],
@@ -5383,7 +5383,7 @@
       "faixa_etaria": "adulto",
       "papel": "Pessoa autorizada ou de confiança",
       "descricao_curta": "Representa cuidado e vínculos seguros.",
-      "historia": "Padre Antonio Conselheiro faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
+      "historia": "Padre Antônio Conselheiro faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -5395,7 +5395,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/184-padre-antonio-conselheiro.png",
       "tags": [
@@ -5429,7 +5429,7 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa cuidado e vínculos seguros.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Padre Antonio Conselheiro",
+      "nome_exibicao": "Padre Antônio Conselheiro",
       "historico_status_imagem": [
         {
           "evento": "reset_visual_tres_identidades_2026_07",
@@ -5469,7 +5469,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/185-dona-salete-da-novena.png",
       "tags": [
@@ -5529,7 +5529,7 @@
       "tipo": "educativo_comunidade",
       "categoria": "Comunidade educativa",
       "faixa_etaria": "senior",
-      "papel": "Guardiao de saberes locais",
+      "papel": "Guardião de saberes locais",
       "descricao_curta": "Ensina pelo exemplo e pela memória comunitária.",
       "historia": "Pastor Elias Visitante faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
@@ -5543,7 +5543,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/186-pastor-elias-visitante.png",
       "tags": [
@@ -5601,7 +5601,7 @@
         "yuri da oficina cultural"
       ],
       "tipo": "familia_estendida",
-      "categoria": "Familia estendida",
+      "categoria": "Família estendida",
       "faixa_etaria": "adulto",
       "papel": "Parente ou pessoa próxima da família",
       "descricao_curta": "Fortalece vínculos familiares e pequenos combinados.",
@@ -5617,7 +5617,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/187-yuri-da-oficina-cultural.png",
       "tags": [
@@ -5690,7 +5690,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/188-bia-da-dan-a.png",
       "tags": [
@@ -5763,7 +5763,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/189-nilo-do-cordel.png",
       "tags": [
@@ -5837,7 +5837,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/190-dona-amara-da-renda.png",
       "tags": [
@@ -5910,7 +5910,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/191-seu-raul-do-forro.png",
       "tags": [
@@ -5962,16 +5962,16 @@
       "slug": "cida-do-sao-joao",
       "apelido": "Cida",
       "aliases": [
-        "Cida do Sao Joao",
+        "Cida do Sao João",
         "Cida",
-        "cida do sao joao"
+        "cida do sao joão"
       ],
       "tipo": "relacoes_confianca",
       "categoria": "Relacoes de confianca",
       "faixa_etaria": "adulto",
       "papel": "Pessoa autorizada ou de confiança",
       "descricao_curta": "Representa cuidado e vínculos seguros.",
-      "historia": "Cida do São Joao faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
+      "historia": "Cida do São João faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -5983,7 +5983,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/192-cida-do-sao-joao.png",
       "tags": [
@@ -6017,7 +6017,7 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa cuidado e vínculos seguros.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Cida do São Joao",
+      "nome_exibicao": "Cida do São João",
       "historico_status_imagem": [
         {
           "evento": "reset_visual_tres_identidades_2026_07",
@@ -6057,7 +6057,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual propósito social futuro, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/193-benicio-do-cordel.png",
       "tags": [
@@ -6117,7 +6117,7 @@
       "tipo": "educativo_comunidade",
       "categoria": "Comunidade educativa",
       "faixa_etaria": "senior",
-      "papel": "Guardiao de saberes locais",
+      "papel": "Guardião de saberes locais",
       "descricao_curta": "Ensina pelo exemplo e pela memória comunitária.",
       "historia": "Lourival do Repente faz parte da Vila Fazenda Pig, um universo comunitário para explicar pequenos valores, família, escola e comércio local.",
       "relacoes": [
@@ -6131,7 +6131,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comunidade educativa, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/194-lourival-do-repente.png",
       "tags": [
@@ -6189,7 +6189,7 @@
         "tais do artesanato"
       ],
       "tipo": "familia_estendida",
-      "categoria": "Familia estendida",
+      "categoria": "Família estendida",
       "faixa_etaria": "adulto",
       "papel": "Parente ou pessoa próxima da família",
       "descricao_curta": "Fortalece vínculos familiares e pequenos combinados.",
@@ -6205,7 +6205,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual família estendida, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/195-tais-do-artesanato.png",
       "tags": [
@@ -6278,7 +6278,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual escola, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/196-malu-da-horta.png",
       "tags": [
@@ -6351,7 +6351,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual cantina e eventos escolares, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/197-dona-dete-da-cozinha.png",
       "tags": [
@@ -6425,7 +6425,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual comércio local, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/198-seu-jaime-da-serra.png",
       "tags": [
@@ -6498,7 +6498,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual vizinhança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/199-nadia-do-sertao.png",
       "tags": [
@@ -6571,7 +6571,7 @@
         "jogos educativos futuros",
         "materiais de campanha"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual relações de confiança, expressão simpática e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/200-ramon-da-praia.png",
       "tags": [

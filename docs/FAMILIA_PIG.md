@@ -138,7 +138,7 @@ Observação: manter a diferença visual e textual entre `Pig Vovô` e `Pig Vov�
 - Pig Cliente
 - Pig Dono da Padaria
 - Pig Dona da Mercearia
-- Pig Farmacia
+- Pig Farmácia
 - Pig Mercado
 - Pig Lanchonete
 
@@ -203,7 +203,7 @@ A Família Pig tambem deve representar o comércio local:
 - cliente;
 - padaria;
 - mercearia;
-- farmacia;
+- farmácia;
 - mercado;
 - lanchonete.
 

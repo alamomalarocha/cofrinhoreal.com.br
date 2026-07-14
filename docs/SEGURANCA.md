@@ -1,6 +1,6 @@
 # Segurança
 
-O Pig atua como guardiao digital e o Vantajinho representa atalhos suspeitos. A abordagem deve ensinar senhas, privacidade, golpes, verificação de fontes, energia e criptografia sem ensinar fraude.
+O Pig atua como guardião digital e o Vantajinho representa atalhos suspeitos. A abordagem deve ensinar senhas, privacidade, golpes, verificação de fontes, energia e criptografia sem ensinar fraude.
 
 ## Padroes futuros
 

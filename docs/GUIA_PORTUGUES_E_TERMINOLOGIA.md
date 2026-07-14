@@ -22,10 +22,9 @@ Este guia define a escrita pública e editorial do Cofrinho Real em português b
 | Vantajinho | `vantajinho` |
 | Mestre Satochi | `mestre-satochi` |
 | Avatar do usuário | `avatar_usuario` |
-| Pig Padrão | `padrao` |
-| Pig Azul | `azul` |
-| Pig Rosa | `rosa` |
-| Pig Arco-íris | `arco_iris` |
+| Azul/Masculino | `azul` |
+| Rosa/Feminino | `rosa` |
+| Arco-íris/Neutro | `arco_iris` |
 | Geração | `geracao` |
 | Fase da vida | `fase_vida` |
 | Região | `regiao` |
@@ -38,6 +37,8 @@ Este guia define a escrita pública e editorial do Cofrinho Real em português b
 | Fundo transparente | canal alfa real no PNG |
 
 Na interface, usar sempre a forma pública acentuada apresentada na tabela. Os valores técnicos permanecem entre crases e não devem ser exibidos ao usuário quando houver um rótulo editorial correspondente.
+
+O sistema de quatro variações foi substituído por três identidades visuais: Azul/Masculino, Rosa/Feminino e Arco-íris/Neutro.
 
 ## Nomes públicos dos avatares
 

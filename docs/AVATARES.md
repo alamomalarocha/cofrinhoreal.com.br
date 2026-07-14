@@ -126,7 +126,7 @@ Eles são personagens fixos do universo narrativo, como:
 
 - Pinguinha;
 - Vovo Zefa;
-- Vovo Joao;
+- Vovô João;
 - Mae Helena;
 - Seu Damiao;
 - Tia Carmem;

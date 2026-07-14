@@ -62,7 +62,7 @@ A ordem inicial oficial e:
 - `015` Bia
 - `016` Juninho
 - `017` Vovo Zefa
-- `018` Vovo Joao
+- `018` Vovô João
 - `019` Vovo Lourdes
 - `020` Vovo Severino
 - `021` Tia Maria
