@@ -1,1 +1,5 @@
 .private/
+.env
+data/image-automation/STOP
+data/image-automation/runs/
+data/image-automation/tmp/

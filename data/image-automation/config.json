@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "mode": "dry-run",
+  "provider": {
+    "name": "disabled",
+    "enabled": false,
+    "model": "image-provider-not-configured",
+    "estimated_cost_usd_per_image": 0,
+    "implementation": "safe-placeholder"
+  },
+  "authorization": {
+    "environment_variable": "IMAGE_GENERATION_AUTHORIZED",
+    "required_value": "ALAMO_AUTORIZOU_GERACAO_PAGA",
+    "require_execute_flag": true
+  },
+  "limits": {
+    "max_cost_usd": 0,
+    "max_attempts": 3,
+    "pause_ms": 1500,
+    "commit_batch_size": 25
+  },
+  "validation": {
+    "max_file_bytes": 12582912,
+    "min_width": 512,
+    "min_height": 512,
+    "max_width": 4096,
+    "max_height": 4096,
+    "min_transparent_fraction": 0.08,
+    "max_edge_opaque_fraction": 0.08,
+    "background_color_tolerance": 38
+  },
+  "review_policy": "automatic-safe",
+  "storage": {
+    "provider": "r2-planned",
+    "enabled": false,
+    "upload_implemented": false,
+    "local_pilot": true,
+    "object_prefix": "characters"
+  },
+  "references": {
+    "pig_principal": "assets/characters/001-pig-principal.png",
+    "phase_directory": "assets/references/fases-vida",
+    "identity_directory": "assets/references/identidades",
+    "profession_directory": "assets/references/profissoes"
+  },
+  "pilot": {
+    "numbers": ["004", "006", "009", "011"],
+    "identities": ["azul", "rosa", "arco_iris"],
+    "total": 12
+  }
+}
