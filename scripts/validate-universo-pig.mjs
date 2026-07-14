@@ -95,7 +95,7 @@ unique(people, "uid", "personagens");
 unique(people, "slug", "personagens");
 unique(people, "card_code", "personagens");
 
-const allowedStyles = new Set(["padrao", "azul", "rosa", "arco_iris"]);
+const allowedStyles = new Set(["azul", "rosa", "arco_iris"]);
 const variationUids = [];
 const variationCodes = [];
 for (const person of people) {
@@ -106,6 +106,25 @@ for (const person of people) {
     errors.push(`${person.numero}: slug invalido (${person.slug})`);
   }
   if (person.status_imagem === "criada") isPng(person.asset_futuro, person.uid);
+
+  if (person.numero !== "001" && person.status_imagem !== "pendente") {
+    errors.push(`${person.numero}: apenas o Pig Principal pode permanecer com imagem criada apos o reset`);
+  }
+
+  const isAvatar = person.tipo_personagem === "avatar_usuario" || person.tipo === "avatar_usuario";
+  if (isAvatar) {
+    const activeStyles = person.variacoes_planejadas || [];
+    if (JSON.stringify(activeStyles) !== JSON.stringify(["azul", "rosa", "arco_iris"])) {
+      errors.push(`${person.numero}: estilos ativos devem ser azul, rosa e arco_iris nessa ordem`);
+    }
+    if (person.status_variacoes?.padrao || person.assets_variacoes_futuras?.padrao) {
+      errors.push(`${person.numero}: estilo padrao continua ativo`);
+    }
+    const discontinued = (person.variacoes_descontinuadas || []).find((item) => item.estilo === "padrao");
+    if (discontinued?.status !== "descontinuado" || discontinued?.publicavel !== false) {
+      errors.push(`${person.numero}: historico descontinuado do estilo padrao ausente`);
+    }
+  }
 
   for (const style of person.variacoes_planejadas || []) {
     if (!allowedStyles.has(style)) errors.push(`${person.numero}: estilo invalido (${style})`);
@@ -120,11 +139,16 @@ for (const person of people) {
 unique(variationUids.map((uid) => ({ uid })), "uid", "variacoes de avatar");
 unique(variationCodes.map((card_code) => ({ card_code })), "card_code", "cards de avatar");
 
-for (const protectedNumber of ["001", "201"]) {
-  const person = people.find((item) => item.numero === protectedNumber);
-  if (!person) errors.push(`Personagem protegido ${protectedNumber} ausente`);
-  else isPng(person.asset_futuro, `personagem protegido ${protectedNumber}`);
+const principal = people.find((item) => item.numero === "001");
+if (!principal) errors.push("Pig Principal 001 ausente");
+else {
+  isPng(principal.asset_futuro, "Pig Principal 001");
+  if (principal.status_imagem !== "criada") errors.push("Pig Principal 001 deve permanecer criado");
 }
+
+const vantajinho = people.find((item) => item.numero === "201");
+if (!vantajinho) errors.push("Vantajinho 201 ausente");
+else if (vantajinho.status_imagem !== "pendente") errors.push("Vantajinho 201 deve voltar para a fila pendente");
 
 const generations = generationsFile?.geracoes || [];
 unique(generations, "id_estavel", "geracoes");

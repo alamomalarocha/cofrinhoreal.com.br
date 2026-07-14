@@ -103,6 +103,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2213-nadia-lucia-pereira-lima-rs-0004.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -205,6 +216,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2214-debora-catarina-pereira-lima-rs-0004.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -300,6 +322,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2215-fernanda-cristina-pereira-lima-rs-0004.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -402,6 +435,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2216-cristina-aparecida-almeida-nunes-rs-0005.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -504,6 +548,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2217-aline-conceicao-almeida-nunes-rs-0005.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -599,6 +654,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2218-monica-eduarda-almeida-nunes-rs-0005.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -701,6 +767,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2219-isabela-das-gracas-dias-batista-rs-0006.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -803,6 +880,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2220-gabriela-augusto-dias-batista-rs-0006.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -898,6 +986,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2221-livia-carlos-dias-batista-rs-0006.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -1000,6 +1099,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2222-luiza-roberto-mendes-bezerra-rs-0007.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -1095,6 +1205,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2223-camila-gabriel-mendes-bezerra-rs-0007.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -1190,6 +1311,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2224-lorena-celia-mendes-bezerra-rs-0007.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -1292,6 +1424,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2225-patricia-rafael-moura-alves-rs-0008.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -1394,6 +1537,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2226-noemi-teresa-moura-alves-rs-0008.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -1489,6 +1643,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2227-eliane-valentina-moura-alves-rs-0008.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -1591,6 +1756,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2228-samara-benedita-batista-andrade-rs-0009.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -1693,6 +1869,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2229-ana-isabel-batista-andrade-rs-0009.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -1795,6 +1982,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2230-carolina-regina-batista-andrade-rs-0009.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -1897,6 +2095,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2231-clara-cristina-medeiros-campos-rs-0010.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -1999,6 +2208,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2232-cecilia-de-fatima-medeiros-campos-rs-0010.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -2101,6 +2321,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2233-alice-vitoria-medeiros-campos-rs-0010.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -2203,6 +2434,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2234-marta-eduarda-queiroz-xavier-rs-0011.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -2305,6 +2547,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2235-rosa-henrique-queiroz-xavier-rs-0011.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -2407,6 +2660,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2236-renata-miguel-queiroz-xavier-rs-0011.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -2509,6 +2773,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2237-debora-carlos-siqueira-rodrigues-rs-0012.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -2611,6 +2886,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2238-fernanda-luiz-siqueira-rodrigues-rs-0012.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -2706,6 +2992,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2239-tainara-marina-siqueira-rodrigues-rs-0012.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -2808,6 +3105,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2240-aline-celia-silva-dias-rs-0013.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -2910,6 +3218,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2241-monica-lucia-silva-dias-rs-0013.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -3005,6 +3324,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2242-helena-catarina-silva-dias-rs-0013.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -3107,6 +3437,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2243-gabriela-valentina-pereira-melo-rs-0014.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -3209,6 +3550,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2244-livia-aparecida-pereira-melo-rs-0014.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -3304,6 +3656,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2245-rita-conceicao-pereira-melo-rs-0014.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -3406,6 +3769,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2246-camila-regina-almeida-sales-rs-0015.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -3501,6 +3875,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2247-lorena-das-gracas-almeida-sales-rs-0015.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -3596,6 +3981,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2248-mirela-augusto-almeida-sales-rs-0015.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -3698,6 +4094,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2249-noemi-vitoria-dias-oliveira-rs-0016.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -3800,6 +4207,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2250-eliane-roberto-dias-oliveira-rs-0016.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -3895,6 +4313,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2251-felipe-gabriel-dias-oliveira-rs-0016.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -3997,6 +4426,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2252-joao-miguel-mendes-barbosa-rs-0017.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -4099,6 +4539,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2253-caio-rafael-mendes-barbosa-rs-0017.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -4201,6 +4652,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2254-fabio-teresa-mendes-barbosa-rs-0017.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -4303,6 +4765,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2255-renato-marina-moura-correia-rs-0018.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -4405,6 +4878,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2256-roberto-benedita-moura-correia-rs-0018.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -4507,6 +4991,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2257-lucas-isabel-moura-correia-rs-0018.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -4609,6 +5104,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2258-nicolas-catarina-batista-cunha-rs-0019.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -4711,6 +5217,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2259-gabriel-cristina-batista-cunha-rs-0019.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -4813,6 +5330,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2260-vitor-de-fatima-batista-cunha-rs-0019.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -4915,6 +5443,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2261-andre-conceicao-medeiros-silva-rs-0020.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -5017,6 +5556,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2262-severino-eduarda-medeiros-silva-rs-0020.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -5112,6 +5662,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2263-mauricio-henrique-medeiros-silva-rs-0020.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -5214,6 +5775,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2264-murilo-augusto-queiroz-fernandes-rs-0021.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -5316,6 +5888,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2265-antonio-carlos-queiroz-fernandes-rs-0021.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -5411,6 +5994,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2266-eduardo-luiz-queiroz-fernandes-rs-0021.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -5513,6 +6107,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2267-paulo-gabriel-siqueira-teixeira-rs-0022.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -5615,6 +6220,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2268-thiago-celia-siqueira-teixeira-rs-0022.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -5710,6 +6326,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2269-tiago-lucia-siqueira-teixeira-rs-0022.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -5812,6 +6439,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2270-miguel-teresa-silva-tavares-rs-0023.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -5907,6 +6545,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2271-cesar-valentina-silva-tavares-rs-0023.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -6002,6 +6651,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2272-bruno-aparecida-silva-tavares-rs-0023.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -6104,6 +6764,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2273-elias-isabel-pereira-cordeiro-rs-0024.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -6206,6 +6877,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2274-felipe-regina-pereira-cordeiro-rs-0024.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -6301,6 +6983,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2275-otavio-das-gracas-pereira-cordeiro-rs-0024.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -6403,6 +7096,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2276-caio-de-fatima-almeida-lopes-rs-0025.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -6505,6 +7209,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2277-fabio-vitoria-almeida-lopes-rs-0025.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -6607,6 +7322,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2278-carlos-roberto-almeida-lopes-rs-0025.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -6709,6 +7435,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2279-roberto-henrique-dias-goncalves-rs-0026.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -6811,6 +7548,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2280-lucas-miguel-dias-goncalves-rs-0026.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -6913,6 +7661,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2281-samuel-rafael-dias-goncalves-rs-0026.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -7015,6 +7774,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2282-gabriel-luiz-mendes-medeiros-rs-0027.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -7117,6 +7887,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2283-vitor-marina-mendes-medeiros-rs-0027.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -7219,6 +8000,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2284-wilson-benedita-mendes-medeiros-rs-0027.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -7321,6 +8113,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2285-severino-lucia-moura-viana-rs-0028.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -7423,6 +8226,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2286-mauricio-catarina-moura-viana-rs-0028.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -7518,6 +8332,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2287-diego-cristina-moura-viana-rs-0028.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -7620,6 +8445,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2288-antonio-aparecida-batista-carvalho-rs-0029.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -7722,6 +8558,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2289-eduardo-conceicao-batista-carvalho-rs-0029.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -7817,6 +8664,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2290-alexandre-eduarda-batista-carvalho-rs-0029.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -7919,6 +8777,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2291-thiago-das-gracas-medeiros-cardoso-rs-0030.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -8021,6 +8890,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2292-tiago-augusto-medeiros-cardoso-rs-0030.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -8116,6 +8996,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2293-rafael-carlos-medeiros-cardoso-rs-0030.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -8218,6 +9109,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2294-cesar-roberto-queiroz-pinto-rs-0031.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -8313,6 +9215,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2295-bruno-gabriel-queiroz-pinto-rs-0031.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -8408,6 +9321,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2296-raimundo-celia-queiroz-pinto-rs-0031.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -8510,6 +9434,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2297-felipe-rafael-siqueira-vasconcelos-rs-0032.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -8612,6 +9547,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2298-otavio-teresa-siqueira-vasconcelos-rs-0032.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -8690,7 +9636,7 @@
         "roupa cotidiana",
         "mochila sem marca"
       ],
-      "apresentacao_editorial": "inclusiva",
+      "apresentacao_editorial": "neutra",
       "status_pesquisa": "parcial",
       "status_revisao_cultural": "aprovado_editorial_generico",
       "publicavel": true,
@@ -8707,6 +9653,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2299-cris-valentina-siqueira-vasconcelos-rs-0032.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -8791,7 +9748,7 @@
         "roupa cotidiana",
         "objeto profissional discreto"
       ],
-      "apresentacao_editorial": "inclusiva",
+      "apresentacao_editorial": "neutra",
       "status_pesquisa": "parcial",
       "status_revisao_cultural": "aprovado_editorial_generico",
       "publicavel": true,
@@ -8809,6 +9766,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2300-noa-benedita-silva-ribeiro-rs-0033.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -8893,7 +9861,7 @@
         "roupa cotidiana",
         "objeto profissional discreto"
       ],
-      "apresentacao_editorial": "inclusiva",
+      "apresentacao_editorial": "neutra",
       "status_pesquisa": "parcial",
       "status_revisao_cultural": "aprovado_editorial_generico",
       "publicavel": true,
@@ -8911,6 +9879,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2301-niki-isabel-silva-ribeiro-rs-0033.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -9013,6 +9992,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2302-teresa-regina-silva-ribeiro-rs-0033.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -9115,6 +10105,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2303-laura-cristina-pereira-mendes-rs-0034.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -9217,6 +10218,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2304-elisa-de-fatima-pereira-mendes-rs-0034.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -9319,6 +10331,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2305-eva-vitoria-pereira-mendes-rs-0034.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -9421,6 +10444,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2306-iara-eduarda-almeida-reis-rs-0035.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -9523,6 +10557,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2307-vanessa-henrique-almeida-reis-rs-0035.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -9625,6 +10670,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2308-mariana-miguel-almeida-reis-rs-0035.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -9727,6 +10783,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2309-celina-carlos-dias-paiva-rs-0036.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -9829,6 +10896,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2310-bianca-luiz-dias-paiva-rs-0036.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -9924,6 +11002,17 @@
       "fontes": [
         "ibge-nomes-brasil",
         "ibge-localidades"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2311-simone-marina-dias-paiva-rs-0036.png",
+          "asset_arquivado": null
+        }
       ]
     },
     {
@@ -10026,6 +11115,17 @@
         "ibge-nomes-brasil",
         "ibge-localidades",
         "mte-cbo-2002"
+      ],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/2312-joana-celia-mendes-gomes-rs-0037.png",
+          "asset_arquivado": null
+        }
       ]
     }
   ]

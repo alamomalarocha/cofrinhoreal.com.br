@@ -9,7 +9,7 @@ import {
   writeJson,
 } from "./catalogo-lib.mjs";
 
-const BUILD_DATE = "2026-07-12";
+const BUILD_DATE = "2026-07-14";
 const MAX_SOURCE_BATCH = 100;
 const PUBLIC_BATCH = 100;
 
@@ -84,6 +84,13 @@ const CSV_COLUMNS = [
   "status_variacoes",
   "uids_variacoes",
   "card_codes_variacoes",
+  "estilos_visuais_ativos",
+  "identidades_avatar",
+  "identidade_avatar",
+  "apresentacao_visual",
+  "nomes_publicos_identidades",
+  "variacoes_descontinuadas",
+  "historico_status_imagem",
   "fontes",
 ];
 
@@ -130,6 +137,11 @@ function compactPublicRecord(record) {
     status_variacoes: record.status_variacoes || {},
     uids_variacoes: record.uids_variacoes || {},
     card_codes_variacoes: record.card_codes_variacoes || {},
+    estilos_visuais_ativos: record.estilos_visuais_ativos || [],
+    identidades_avatar: record.identidades_avatar || [],
+    identidade_avatar: record.identidade_avatar || {},
+    apresentacao_visual: record.apresentacao_visual || {},
+    nomes_publicos_identidades: record.nomes_publicos_identidades || {},
   };
 }
 

@@ -127,7 +127,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Curiosa, carinhosa e animada com pequenas conquistas.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Pinguinha"
+      "nome_exibicao": "Pinguinha",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/012-pinguinha.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "013",
@@ -189,7 +200,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda a família a falar de dinheiro com calma.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Mae Helena"
+      "nome_exibicao": "Mae Helena",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/013-mae-helena.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "014",
@@ -251,7 +273,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Valoriza planejamento e pequenas metas.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Pai Raimundo"
+      "nome_exibicao": "Pai Raimundo",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/014-pai-raimundo.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "015",
@@ -312,7 +345,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Gosta de organizar pequenas economias.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Bia"
+      "nome_exibicao": "Bia",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/015-bia.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "016",
@@ -373,7 +417,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Participa de histórias educativas sobre escolhas, planejamento e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Juninho"
+      "nome_exibicao": "Juninho",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/016-juninho.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "017",
@@ -435,7 +490,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa afeto, memória e cuidado familiar.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Vovo Zefa"
+      "nome_exibicao": "Vovo Zefa",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/017-vovo-zefa.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "018",
@@ -497,7 +563,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Valoriza paciencia, história e simplicidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Vovo Joao"
+      "nome_exibicao": "Vovo Joao",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/018-vovo-joao.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "019",
@@ -559,7 +636,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Guarda receitas, histórias e pequenos conselhos.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Vovo Lourdes"
+      "nome_exibicao": "Vovo Lourdes",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/019-vovo-lourdes.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "020",
@@ -621,7 +709,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Mostra que cada moeda tem história.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Vovo Severino"
+      "nome_exibicao": "Vovo Severino",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/020-vovo-severino.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "021",
@@ -682,7 +781,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda sobrinhos a planejar sonhos simples.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Tia Maria"
+      "nome_exibicao": "Tia Maria",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/021-tia-maria.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "022",
@@ -743,7 +853,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ensina escolhas com bom humor.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Tio Chico"
+      "nome_exibicao": "Tio Chico",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/022-tio-chico.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "023",
@@ -805,7 +926,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Gosta de álbuns, cores e desafios saudaveis.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Prima Lala"
+      "nome_exibicao": "Prima Lala",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/023-prima-lala.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "024",
@@ -867,7 +999,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Fala de metas maiores sem pressa.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Primo Toninho"
+      "nome_exibicao": "Primo Toninho",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/024-primo-toninho.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "025",
@@ -929,7 +1072,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa o dia a dia do bairro em histórias de educação e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Seu Damiao da Padaria"
+      "nome_exibicao": "Seu Damiao da Padaria",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/025-seu-damiao-padaria.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "026",
@@ -992,7 +1146,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Participa de histórias educativas sobre escolhas, planejamento e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Tia Carmem da Cantina"
+      "nome_exibicao": "Tia Carmem da Cantina",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/026-tia-carmem-cantina.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "027",
@@ -1055,7 +1220,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda a pensar antes de gastar.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Pig Sabio"
+      "nome_exibicao": "Pig Sabio",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/027-pig-sabio.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "028",
@@ -1118,7 +1294,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Participa de histórias educativas sobre escolhas, planejamento e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Pig Contador"
+      "nome_exibicao": "Pig Contador",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/028-pig-contador.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "029",
@@ -1181,7 +1368,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Lembra que protótipo não movimenta dinheiro real.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Pig Guardiao"
+      "nome_exibicao": "Pig Guardiao",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/029-pig-guardiao.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "030",
@@ -1244,7 +1442,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Mostra solidariedade sem pressão.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Pig Solidario"
+      "nome_exibicao": "Pig Solidario",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/030-pig-solidario.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "031",
@@ -1307,7 +1516,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Comemora progresso sem criar vício.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Pig Campeao"
+      "nome_exibicao": "Pig Campeao",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/031-pig-campeao.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "032",
@@ -1370,7 +1590,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Convida a refletir com carinho.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Pig Pensativo"
+      "nome_exibicao": "Pig Pensativo",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/032-pig-pensativo.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "033",
@@ -1433,7 +1664,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Conta histórias sobre guardar com paciencia.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Bisavo Nena"
+      "nome_exibicao": "Bisavo Nena",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/033-bisavo-nena.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "034",
@@ -1496,7 +1738,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ensina que devagar tambem chega.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Bisavo Joaquim"
+      "nome_exibicao": "Bisavo Joaquim",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/034-bisavo-joaquim.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "035",
@@ -1559,7 +1812,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Traz afeto de feira, quintal e família.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Dona Tereza do Interior"
+      "nome_exibicao": "Dona Tereza do Interior",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/035-dona-tereza-do-interior.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "036",
@@ -1622,7 +1886,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Manda Pig em datas especiais da família.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Seu Cid de Outra Cidade"
+      "nome_exibicao": "Seu Cid de Outra Cidade",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/036-seu-cid-de-outra-cidade.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "037",
@@ -1684,7 +1959,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ensina moedas, escolhas e combinados.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Professora Lucia"
+      "nome_exibicao": "Professora Lucia",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/037-professora-lucia.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "038",
@@ -1746,7 +2032,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Participa de histórias educativas sobre escolhas, planejamento e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Professor Marcos"
+      "nome_exibicao": "Professor Marcos",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/038-professor-marcos.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "039",
@@ -1808,7 +2105,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Conhece todos pelo nome e cuida da rotina.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Tio Naldo da Portaria"
+      "nome_exibicao": "Tio Naldo da Portaria",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/039-tio-naldo-da-portaria.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "040",
@@ -1870,7 +2178,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Organiza projetos com responsabilidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Dona Elza Coordenadora"
+      "nome_exibicao": "Dona Elza Coordenadora",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/040-dona-elza-coordenadora.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "041",
@@ -1932,7 +2251,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Aprende metas em grupo.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Aninha da Escola"
+      "nome_exibicao": "Aninha da Escola",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/041-aninha-da-escola.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "042",
@@ -1994,7 +2324,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Gosta de desafios de contagem.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Pedrinho da Escola"
+      "nome_exibicao": "Pedrinho da Escola",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/042-pedrinho-da-escola.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "043",
@@ -2057,7 +2398,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda campanhas supervisionadas.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Luana do Gremio"
+      "nome_exibicao": "Luana do Gremio",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/043-luana-do-gremio.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "044",
@@ -2120,7 +2472,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Leva alegria sem consumo exagerado.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Mateus da Quadrilha"
+      "nome_exibicao": "Mateus da Quadrilha",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/044-mateus-da-quadrilha.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "045",
@@ -2183,7 +2546,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa cultura local com carinho.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Malu Rainha do Milho"
+      "nome_exibicao": "Malu Rainha do Milho",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/045-malu-rainha-do-milho.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "046",
@@ -2246,7 +2620,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Valoriza disciplina e equipe.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Caio dos Jogos da Juventude"
+      "nome_exibicao": "Caio dos Jogos da Juventude",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/046-caio-dos-jogos-da-juventude.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "047",
@@ -2308,7 +2693,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa o dia a dia do bairro em histórias de educação e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Dona Graca da Mercearia"
+      "nome_exibicao": "Dona Graca da Mercearia",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/047-dona-graca-da-mercearia.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "048",
@@ -2370,7 +2766,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa o dia a dia do bairro em histórias de educação e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Seu Ze da Bodega"
+      "nome_exibicao": "Seu Ze da Bodega",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/048-seu-ze-da-bodega.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "049",
@@ -2432,7 +2839,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Atende famílias do bairro.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Cicero do Mercadinho"
+      "nome_exibicao": "Cicero do Mercadinho",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/049-cicero-do-mercadinho.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "050",
@@ -2494,7 +2912,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda clientes com gentileza.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Francisca da Farmacia"
+      "nome_exibicao": "Francisca da Farmacia",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/050-francisca-da-farmacia.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "051",
@@ -2556,7 +2985,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Usa linguagem simples com clientes.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Rafa da Lanchonete"
+      "nome_exibicao": "Rafa da Lanchonete",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/051-rafa-da-lanchonete.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "052",
@@ -2618,7 +3058,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa o dia a dia do bairro em histórias de educação e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Nandinho Garcom"
+      "nome_exibicao": "Nandinho Garcom",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/052-nandinho-garcom.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "053",
@@ -2680,7 +3131,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Cuida do caixa e dos clientes.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Dona Cida da Loja"
+      "nome_exibicao": "Dona Cida da Loja",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/053-dona-cida-da-loja.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "054",
@@ -2742,7 +3204,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa o dia a dia do bairro em histórias de educação e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Bento da Feira"
+      "nome_exibicao": "Bento da Feira",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/054-bento-da-feira.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "055",
@@ -2804,7 +3277,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda em compras rapidas do bairro.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Yasmin da Banquinha"
+      "nome_exibicao": "Yasmin da Banquinha",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/055-yasmin-da-banquinha.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "056",
@@ -2866,7 +3350,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa o dia a dia do bairro em histórias de educação e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Davi Caixa do Mercado"
+      "nome_exibicao": "Davi Caixa do Mercado",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/056-davi-caixa-do-mercado.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "057",
@@ -2928,7 +3423,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Liga famílias, escola e bairro.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Vizinha Socorro"
+      "nome_exibicao": "Vizinha Socorro",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/057-vizinha-socorro.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "058",
@@ -2990,7 +3496,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Guarda memória da comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Seu Ze Vizinho Antigo"
+      "nome_exibicao": "Seu Ze Vizinho Antigo",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/058-seu-ze-vizinho-antigo.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "059",
@@ -3052,7 +3569,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda em recados e combinados.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Nena da Rua de Cima"
+      "nome_exibicao": "Nena da Rua de Cima",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/059-nena-da-rua-de-cima.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "060",
@@ -3114,7 +3642,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Aprende com brincadeiras seguras.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Lili da Rua de Baixo"
+      "nome_exibicao": "Lili da Rua de Baixo",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/060-lili-da-rua-de-baixo.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "061",
@@ -3176,7 +3715,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda a manter combinados claros.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Rafa Sindico"
+      "nome_exibicao": "Rafa Sindico",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/061-rafa-sindico.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "062",
@@ -3238,7 +3788,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Mostra acolhimento e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Família Oliveira Recem-Chegada"
+      "nome_exibicao": "Família Oliveira Recem-Chegada",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/062-familia-oliveira-recem-chegada.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "063",
@@ -3301,7 +3862,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Visita a família e manda Pig em datas especiais.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Tia Bela de São Paulo"
+      "nome_exibicao": "Tia Bela de São Paulo",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/063-tia-bela-de-sao-paulo.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "064",
@@ -3364,7 +3936,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Mantém vínculo familiar a distancia.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Primo Dudu de Fora"
+      "nome_exibicao": "Primo Dudu de Fora",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/064-primo-dudu-de-fora.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "065",
@@ -3427,7 +4010,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Acompanha metas com afeto.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Madrinha Socorro"
+      "nome_exibicao": "Madrinha Socorro",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/065-madrinha-socorro.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "066",
@@ -3490,7 +4084,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda em sonhos pequenos sem pressão.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Padrinho Beto"
+      "nome_exibicao": "Padrinho Beto",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/066-padrinho-beto.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "067",
@@ -3553,7 +4158,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa responsabilidade e segurança.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Cuidadora Rosa"
+      "nome_exibicao": "Cuidadora Rosa",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/067-cuidadora-rosa.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "068",
@@ -3616,7 +4232,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Compartilha metas saudaveis.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Amiga Lari"
+      "nome_exibicao": "Amiga Lari",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/068-amiga-lari.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "069",
@@ -3679,7 +4306,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Incentiva escolhas boas.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Amigo Bento"
+      "nome_exibicao": "Amigo Bento",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/069-amigo-bento.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "070",
@@ -3742,7 +4380,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Mostra solidariedade opcional.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Voluntaria Ana"
+      "nome_exibicao": "Voluntaria Ana",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/070-voluntaria-ana.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "071",
@@ -3805,7 +4454,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Liga cuidado e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Protetor Davi"
+      "nome_exibicao": "Protetor Davi",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/071-protetor-davi.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "072",
@@ -3868,7 +4528,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa doacoes futuras com responsabilidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Dra Luiza do Hospital"
+      "nome_exibicao": "Dra Luiza do Hospital",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/072-dra-luiza-do-hospital.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "073",
@@ -3931,7 +4602,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ensina paciencia, ciclo e cuidado.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Mestre Joaquim da Horta"
+      "nome_exibicao": "Mestre Joaquim da Horta",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/073-mestre-joaquim-da-horta.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "074",
@@ -3994,7 +4676,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda a organizar colecoes sem vício.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Tia Francisca dos Albuns"
+      "nome_exibicao": "Tia Francisca dos Albuns",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/074-tia-francisca-dos-albuns.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "075",
@@ -4056,7 +4749,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Fortalece vínculos familiares e pequenos combinados.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Zeca do Coco"
+      "nome_exibicao": "Zeca do Coco",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/075-zeca-do-coco.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "076",
@@ -4118,7 +4822,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Apoia aprendizado de moedas, metas e escolhas.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Dona Iraci da Feira"
+      "nome_exibicao": "Dona Iraci da Feira",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/076-dona-iraci-da-feira.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "077",
@@ -4181,7 +4896,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda a explicar arrecadacoes e festas sem pressão.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Seu Manoel do Acougue"
+      "nome_exibicao": "Seu Manoel do Acougue",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/077-seu-manoel-do-acougue.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "078",
@@ -4243,7 +4969,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa o dia a dia do bairro em histórias de educação e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Lia do Bazar"
+      "nome_exibicao": "Lia do Bazar",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/078-lia-do-bazar.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "079",
@@ -4305,7 +5042,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Reforca convivencia, respeito e ajuda mutua.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Nina da Biblioteca"
+      "nome_exibicao": "Nina da Biblioteca",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/079-nina-da-biblioteca.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "080",
@@ -4368,7 +5116,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa cuidado e vínculos seguros.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Bruno da Bicicletaria"
+      "nome_exibicao": "Bruno da Bicicletaria",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/080-bruno-da-bicicletaria.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "081",
@@ -4431,7 +5190,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Mostra doacao opcional, sem pressão.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Dona Fafa da Costura"
+      "nome_exibicao": "Dona Fafa da Costura",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/081-dona-fafa-da-costura.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "082",
@@ -4494,7 +5264,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ensina pelo exemplo e pela memória comunitária.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Seu Osmar do Sapato"
+      "nome_exibicao": "Seu Osmar do Sapato",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/082-seu-osmar-do-sapato.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "083",
@@ -4556,7 +5337,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Fortalece vínculos familiares e pequenos combinados.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Clara da Papelaria"
+      "nome_exibicao": "Clara da Papelaria",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/083-clara-da-papelaria.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "084",
@@ -4618,7 +5410,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Apoia aprendizado de moedas, metas e escolhas.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Juca da Tapioca"
+      "nome_exibicao": "Juca da Tapioca",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/084-juca-da-tapioca.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "085",
@@ -4681,7 +5484,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda a explicar arrecadacoes e festas sem pressão.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Dona Mira do Cafe"
+      "nome_exibicao": "Dona Mira do Cafe",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/085-dona-mira-do-cafe.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "086",
@@ -4743,7 +5557,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa o dia a dia do bairro em histórias de educação e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Paulo do Transporte"
+      "nome_exibicao": "Paulo do Transporte",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/086-paulo-do-transporte.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "087",
@@ -4805,7 +5630,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Reforca convivencia, respeito e ajuda mutua.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Rita da Floricultura"
+      "nome_exibicao": "Rita da Floricultura",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/087-rita-da-floricultura.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "088",
@@ -4868,7 +5704,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa cuidado e vínculos seguros.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Gil do Sorvete"
+      "nome_exibicao": "Gil do Sorvete",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/088-gil-do-sorvete.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "089",
@@ -4931,7 +5778,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Mostra doacao opcional, sem pressão.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Nara da Peixaria"
+      "nome_exibicao": "Nara da Peixaria",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/089-nara-da-peixaria.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "090",
@@ -4994,7 +5852,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ensina pelo exemplo e pela memória comunitária.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Beto do Caldo"
+      "nome_exibicao": "Beto do Caldo",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/090-beto-do-caldo.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "091",
@@ -5056,7 +5925,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Fortalece vínculos familiares e pequenos combinados.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Teca da Horta"
+      "nome_exibicao": "Teca da Horta",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/091-teca-da-horta.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "092",
@@ -5118,7 +5998,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Apoia aprendizado de moedas, metas e escolhas.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Miro da Oficina"
+      "nome_exibicao": "Miro da Oficina",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/092-miro-da-oficina.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "093",
@@ -5181,7 +6072,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda a explicar arrecadacoes e festas sem pressão.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Lena da Pracinha"
+      "nome_exibicao": "Lena da Pracinha",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/093-lena-da-pracinha.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "094",
@@ -5243,7 +6145,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa o dia a dia do bairro em histórias de educação e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Samuel do Mercado"
+      "nome_exibicao": "Samuel do Mercado",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/094-samuel-do-mercado.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "095",
@@ -5305,7 +6218,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Reforca convivencia, respeito e ajuda mutua.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Dona Vanda da Casa Azul"
+      "nome_exibicao": "Dona Vanda da Casa Azul",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/095-dona-vanda-da-casa-azul.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "096",
@@ -5368,7 +6292,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa cuidado e vínculos seguros.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Seu Ari da Rua Nova"
+      "nome_exibicao": "Seu Ari da Rua Nova",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/096-seu-ari-da-rua-nova.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "097",
@@ -5431,7 +6366,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Mostra doacao opcional, sem pressão.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Cris da Escola"
+      "nome_exibicao": "Cris da Escola",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/097-cris-da-escola.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "098",
@@ -5494,7 +6440,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ensina pelo exemplo e pela memória comunitária.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Fabio do Esporte"
+      "nome_exibicao": "Fabio do Esporte",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/098-fabio-do-esporte.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "099",
@@ -5556,7 +6513,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Fortalece vínculos familiares e pequenos combinados.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Sol da Quadrilha"
+      "nome_exibicao": "Sol da Quadrilha",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/099-sol-da-quadrilha.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "100",
@@ -5618,7 +6586,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Apoia aprendizado de moedas, metas e escolhas.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Mila do Teatro"
+      "nome_exibicao": "Mila do Teatro",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/100-mila-do-teatro.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "101",
@@ -5681,7 +6660,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda a explicar arrecadacoes e festas sem pressão.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Gabi do Coral"
+      "nome_exibicao": "Gabi do Coral",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/101-gabi-do-coral.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "102",
@@ -5743,7 +6733,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa o dia a dia do bairro em histórias de educação e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Luan da Robótica"
+      "nome_exibicao": "Luan da Robótica",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/102-luan-da-robotica.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "103",
@@ -5805,7 +6806,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Reforca convivencia, respeito e ajuda mutua.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Iara do Desenho"
+      "nome_exibicao": "Iara do Desenho",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/103-iara-do-desenho.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "104",
@@ -5868,7 +6880,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa cuidado e vínculos seguros.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Noe da Capoeira"
+      "nome_exibicao": "Noe da Capoeira",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/104-noe-da-capoeira.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "105",
@@ -5931,7 +6954,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Mostra doacao opcional, sem pressão.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Tina da Biblioteca Movel"
+      "nome_exibicao": "Tina da Biblioteca Movel",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/105-tina-da-biblioteca-movel.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "106",
@@ -5994,7 +7028,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ensina pelo exemplo e pela memória comunitária.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Dona Quiteria da Tapioca"
+      "nome_exibicao": "Dona Quiteria da Tapioca",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/106-dona-quiteria-da-tapioca.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "107",
@@ -6056,7 +7101,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Fortalece vínculos familiares e pequenos combinados.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Seu Firmino do Milho"
+      "nome_exibicao": "Seu Firmino do Milho",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/107-seu-firmino-do-milho.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "108",
@@ -6118,7 +7174,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Apoia aprendizado de moedas, metas e escolhas.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Rosa da Barraca"
+      "nome_exibicao": "Rosa da Barraca",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/108-rosa-da-barraca.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "109",
@@ -6181,7 +7248,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Ajuda a explicar arrecadacoes e festas sem pressão.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Dora da Festa Junina"
+      "nome_exibicao": "Dora da Festa Junina",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/109-dora-da-festa-junina.png",
+          "asset_arquivado": null
+        }
+      ]
     },
     {
       "numero": "110",
@@ -6243,7 +7321,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "Representa o dia a dia do bairro em histórias de educação e comunidade.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Marta da Arrecadacao"
+      "nome_exibicao": "Marta da Arrecadacao",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/110-marta-da-arrecadacao.png",
+          "asset_arquivado": null
+        }
+      ]
     }
   ]
 }

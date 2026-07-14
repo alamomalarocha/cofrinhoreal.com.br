@@ -19,20 +19,18 @@ function option(name) {
   return index >= 0 ? process.argv[index + 1] || "" : "";
 }
 
-function correctEditorialAccents(value) {
-  return value
-    .replace(/\btecnico\b/giu, "técnico")
-    .replace(/\btecnica\b/giu, "técnica")
-    .replace(/\bcrianca\b/giu, "criança")
-    .replace(/\beducacao\b/giu, "educação")
-    .replace(/\bprofissao\b/giu, "profissão")
-    .replace(/\bregiao\b/giu, "região")
-    .replace(/\bpublico\b/giu, "público")
-    .replace(/\bpublica\b/giu, "pública");
+function options(name) {
+  const values = [];
+  for (let index = 0; index < process.argv.length; index += 1) {
+    const argument = process.argv[index];
+    if (argument.startsWith(`${name}=`)) values.push(argument.slice(name.length + 1));
+    if (argument === name && process.argv[index + 1]) values.push(process.argv[index + 1]);
+  }
+  return values;
 }
 
 function sentence(value) {
-  const clean = correctEditorialAccents(value.trim());
+  const clean = value.trim();
   if (!clean) return "Um único personagem do universo Cofrinho Real";
   return /[.!?]$/u.test(clean) ? clean : `${clean}.`;
 }
@@ -41,7 +39,8 @@ function visualPrompt(item) {
   return [
     "Crie uma imagem nova do zero.",
     "",
-    `${sentence(item.visual_brief)} Corpo inteiro, em pé, centralizado, estilo 3D/cartoon premium, coerente com o universo Cofrinho Real.`,
+    sentence(item.visual_brief),
+    item.roupa ? `Roupa: ${sentence(item.roupa)}` : "Roupa simples e sem marcas.",
     "",
     "Sem texto, letras, números, símbolos, moedas, medalhas, logos, cenário, painel ou outros personagens.",
     "",
@@ -49,16 +48,16 @@ function visualPrompt(item) {
   ].join("\n");
 }
 
-const excludedAsset = normalizeAsset(option("--exclude"));
+const excludedAssets = new Set(options("--exclude").map(normalizeAsset).filter(Boolean));
+const dryRun = process.argv.includes("--dry-run");
 const queue = readJson("data/fila-imagens-personagens.json");
 const catalog = readJson("data/vila-pig-personagens.json");
-const catalogByUid = new Map(catalog.map((person) => [person.uid, person]));
 
 const candidates = queue.itens
   .filter((item) => item.status_imagem === "pendente")
   .filter((item) => item.situacao_fila === "pronta_para_criacao")
   .filter((item) => item.publicavel !== false)
-  .filter((item) => normalizeAsset(item.asset_futuro) !== excludedAsset)
+  .filter((item) => !excludedAssets.has(normalizeAsset(item.asset_futuro)))
   .sort((left, right) => Number(left.ordem) - Number(right.ordem));
 
 const next = candidates[0];
@@ -67,7 +66,9 @@ if (!next) {
   process.exit(0);
 }
 
-const person = catalogByUid.get(next.uid);
+const person = catalog.find(
+  (item) => item.numero === next.numero && item.slug === next.slug,
+);
 if (!person) throw new Error(`Item da fila sem registro no catálogo: ${next.uid}`);
 if (person.numero !== next.numero || person.slug !== next.slug) {
   throw new Error(`Metadados divergentes entre fila e catálogo: ${next.uid}`);
@@ -86,3 +87,4 @@ console.log(`- slug: ${next.slug}`);
 console.log(`- arquivo correto: ${normalizeAsset(next.asset_futuro)}`);
 console.log("\nPROMPT VISUAL PURO PARA CHATGPT IMAGES\n");
 console.log(visualPrompt(next));
+if (dryRun) console.log("\nModo dry-run: nenhum arquivo foi alterado.");

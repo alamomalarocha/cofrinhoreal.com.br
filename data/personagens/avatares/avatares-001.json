@@ -40,29 +40,21 @@
         "vila_pig"
       ],
       "variacoes_planejadas": [
-        "padrao",
         "azul",
         "rosa",
         "arco_iris"
       ],
       "assets_variacoes_futuras": {
-        "padrao": "assets/characters/002-pig-bebe-padrao.png",
         "azul": "assets/characters/002-pig-bebe-azul.png",
         "rosa": "assets/characters/002-pig-bebe-rosa.png",
         "arco_iris": "assets/characters/002-pig-bebe-arco-iris.png"
       },
       "status_variacoes": {
-        "padrao": "criada",
-        "azul": "criada",
-        "rosa": "criada",
-        "arco_iris": "criada"
+        "azul": "pendente",
+        "rosa": "pendente",
+        "arco_iris": "pendente"
       },
-      "variacoes_criadas": [
-        "padrao",
-        "azul",
-        "rosa",
-        "arco_iris"
-      ],
+      "variacoes_criadas": [],
       "padrao_visual_avatar": "camisa_calca_tenis",
       "assets_variacoes_rascunho": {
         "padrao": "assets/characters/_drafts/avatars/002-pig-bebe-padrao-rascunho-pre-sistema-simples.png",
@@ -75,13 +67,11 @@
       "numero_legacy": "002",
       "card_code": "CR-002-AVA-2026",
       "uids_variacoes": {
-        "padrao": "AVA-002-PAD",
         "azul": "AVA-002-AZL",
         "rosa": "AVA-002-RSA",
         "arco_iris": "AVA-002-ARC"
       },
       "card_codes_variacoes": {
-        "padrao": "CR-002-PAD-2026",
         "azul": "CR-002-AZL-2026",
         "rosa": "CR-002-RSA-2026",
         "arco_iris": "CR-002-ARC-2026"
@@ -106,7 +96,75 @@
       "publicavel": true,
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "camisa_calca_tenis",
-      "marcadores_visuais": []
+      "marcadores_visuais": [],
+      "estilos_visuais_ativos": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
+      "variacoes_descontinuadas": [
+        {
+          "estilo": "padrao",
+          "status": "descontinuado",
+          "motivo": "Substituído pelo sistema visual de três identidades",
+          "publicavel": false,
+          "asset_anterior": "assets/characters/002-pig-bebe-padrao.png",
+          "arquivado_em": "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/002-pig-bebe-padrao.png",
+          "status_anterior": "criada",
+          "uid_anterior": "AVA-002-PAD",
+          "card_code_anterior": "CR-002-PAD-2026"
+        }
+      ],
+      "identidades_avatar": [
+        {
+          "estilo_visual": "azul",
+          "identidade_avatar": "menino",
+          "apresentacao_visual": "masculina",
+          "nome_publico": "Menino Azul"
+        },
+        {
+          "estilo_visual": "rosa",
+          "identidade_avatar": "menina",
+          "apresentacao_visual": "feminina",
+          "nome_publico": "Menina Rosa"
+        },
+        {
+          "estilo_visual": "arco_iris",
+          "identidade_avatar": "neutro",
+          "apresentacao_visual": "neutra",
+          "nome_publico": "Neutro Arco-íris"
+        }
+      ],
+      "identidade_avatar": {
+        "azul": "menino",
+        "rosa": "menina",
+        "arco_iris": "neutro"
+      },
+      "apresentacao_visual": {
+        "azul": "masculina",
+        "rosa": "feminina",
+        "arco_iris": "neutra"
+      },
+      "nomes_publicos_identidades": {
+        "azul": "Menino Azul",
+        "rosa": "Menina Rosa",
+        "arco_iris": "Neutro Arco-íris"
+      },
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "variacoes_criadas",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "assets_arquivados": [
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/002-pig-bebe-padrao.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/002-pig-bebe-azul.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/002-pig-bebe-rosa.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/002-pig-bebe-arco-iris.png"
+          ]
+        }
+      ]
     },
     {
       "numero": "003",
@@ -145,29 +203,21 @@
         "vila_pig"
       ],
       "variacoes_planejadas": [
-        "padrao",
         "azul",
         "rosa",
         "arco_iris"
       ],
       "assets_variacoes_futuras": {
-        "padrao": "assets/characters/003-pig-primeirinhos-padrao.png",
         "azul": "assets/characters/003-pig-primeirinhos-azul.png",
         "rosa": "assets/characters/003-pig-primeirinhos-rosa.png",
         "arco_iris": "assets/characters/003-pig-primeirinhos-arco-iris.png"
       },
       "status_variacoes": {
-        "padrao": "criada",
-        "azul": "criada",
-        "rosa": "criada",
-        "arco_iris": "criada"
+        "azul": "pendente",
+        "rosa": "pendente",
+        "arco_iris": "pendente"
       },
-      "variacoes_criadas": [
-        "padrao",
-        "azul",
-        "rosa",
-        "arco_iris"
-      ],
+      "variacoes_criadas": [],
       "padrao_visual_avatar": "camisa_calca_tenis",
       "assets_variacoes_rascunho": {
         "padrao": "assets/characters/_drafts/avatars/003-pig-primeirinhos-padrao-rascunho-pre-sistema-simples.png"
@@ -177,13 +227,11 @@
       "numero_legacy": "003",
       "card_code": "CR-003-AVA-2026",
       "uids_variacoes": {
-        "padrao": "AVA-003-PAD",
         "azul": "AVA-003-AZL",
         "rosa": "AVA-003-RSA",
         "arco_iris": "AVA-003-ARC"
       },
       "card_codes_variacoes": {
-        "padrao": "CR-003-PAD-2026",
         "azul": "CR-003-AZL-2026",
         "rosa": "CR-003-RSA-2026",
         "arco_iris": "CR-003-ARC-2026"
@@ -208,7 +256,75 @@
       "publicavel": true,
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "camisa_calca_tenis",
-      "marcadores_visuais": []
+      "marcadores_visuais": [],
+      "estilos_visuais_ativos": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
+      "variacoes_descontinuadas": [
+        {
+          "estilo": "padrao",
+          "status": "descontinuado",
+          "motivo": "Substituído pelo sistema visual de três identidades",
+          "publicavel": false,
+          "asset_anterior": "assets/characters/003-pig-primeirinhos-padrao.png",
+          "arquivado_em": "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/003-pig-primeirinhos-padrao.png",
+          "status_anterior": "criada",
+          "uid_anterior": "AVA-003-PAD",
+          "card_code_anterior": "CR-003-PAD-2026"
+        }
+      ],
+      "identidades_avatar": [
+        {
+          "estilo_visual": "azul",
+          "identidade_avatar": "menino",
+          "apresentacao_visual": "masculina",
+          "nome_publico": "Menino Azul"
+        },
+        {
+          "estilo_visual": "rosa",
+          "identidade_avatar": "menina",
+          "apresentacao_visual": "feminina",
+          "nome_publico": "Menina Rosa"
+        },
+        {
+          "estilo_visual": "arco_iris",
+          "identidade_avatar": "neutro",
+          "apresentacao_visual": "neutra",
+          "nome_publico": "Neutro Arco-íris"
+        }
+      ],
+      "identidade_avatar": {
+        "azul": "menino",
+        "rosa": "menina",
+        "arco_iris": "neutro"
+      },
+      "apresentacao_visual": {
+        "azul": "masculina",
+        "rosa": "feminina",
+        "arco_iris": "neutra"
+      },
+      "nomes_publicos_identidades": {
+        "azul": "Menino Azul",
+        "rosa": "Menina Rosa",
+        "arco_iris": "Neutro Arco-íris"
+      },
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "variacoes_criadas",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "assets_arquivados": [
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/003-pig-primeirinhos-padrao.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/003-pig-primeirinhos-azul.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/003-pig-primeirinhos-rosa.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/003-pig-primeirinhos-arco-iris.png"
+          ]
+        }
+      ]
     },
     {
       "numero": "004",
@@ -247,42 +363,32 @@
         "vila_pig"
       ],
       "variacoes_planejadas": [
-        "padrao",
         "azul",
         "rosa",
         "arco_iris"
       ],
       "assets_variacoes_futuras": {
-        "padrao": "assets/characters/004-pig-crianca-padrao.png",
         "azul": "assets/characters/004-pig-crianca-azul.png",
         "rosa": "assets/characters/004-pig-crianca-rosa.png",
         "arco_iris": "assets/characters/004-pig-crianca-arco-iris.png"
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "padrao": "criada",
-        "azul": "criada",
-        "rosa": "criada",
-        "arco_iris": "criada"
+        "azul": "pendente",
+        "rosa": "pendente",
+        "arco_iris": "pendente"
       },
-      "variacoes_criadas": [
-        "padrao",
-        "azul",
-        "rosa",
-        "arco_iris"
-      ],
+      "variacoes_criadas": [],
       "schema_version_personagem": "2.0.0",
       "uid": "AVA-004",
       "numero_legacy": "004",
       "card_code": "CR-004-AVA-2026",
       "uids_variacoes": {
-        "padrao": "AVA-004-PAD",
         "azul": "AVA-004-AZL",
         "rosa": "AVA-004-RSA",
         "arco_iris": "AVA-004-ARC"
       },
       "card_codes_variacoes": {
-        "padrao": "CR-004-PAD-2026",
         "azul": "CR-004-AZL-2026",
         "rosa": "CR-004-RSA-2026",
         "arco_iris": "CR-004-ARC-2026"
@@ -307,7 +413,75 @@
       "publicavel": true,
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "camisa_calca_tenis",
-      "marcadores_visuais": []
+      "marcadores_visuais": [],
+      "estilos_visuais_ativos": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
+      "variacoes_descontinuadas": [
+        {
+          "estilo": "padrao",
+          "status": "descontinuado",
+          "motivo": "Substituído pelo sistema visual de três identidades",
+          "publicavel": false,
+          "asset_anterior": "assets/characters/004-pig-crianca-padrao.png",
+          "arquivado_em": "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/004-pig-crianca-padrao.png",
+          "status_anterior": "criada",
+          "uid_anterior": "AVA-004-PAD",
+          "card_code_anterior": "CR-004-PAD-2026"
+        }
+      ],
+      "identidades_avatar": [
+        {
+          "estilo_visual": "azul",
+          "identidade_avatar": "menino",
+          "apresentacao_visual": "masculina",
+          "nome_publico": "Menino Azul"
+        },
+        {
+          "estilo_visual": "rosa",
+          "identidade_avatar": "menina",
+          "apresentacao_visual": "feminina",
+          "nome_publico": "Menina Rosa"
+        },
+        {
+          "estilo_visual": "arco_iris",
+          "identidade_avatar": "neutro",
+          "apresentacao_visual": "neutra",
+          "nome_publico": "Neutro Arco-íris"
+        }
+      ],
+      "identidade_avatar": {
+        "azul": "menino",
+        "rosa": "menina",
+        "arco_iris": "neutro"
+      },
+      "apresentacao_visual": {
+        "azul": "masculina",
+        "rosa": "feminina",
+        "arco_iris": "neutra"
+      },
+      "nomes_publicos_identidades": {
+        "azul": "Menino Azul",
+        "rosa": "Menina Rosa",
+        "arco_iris": "Neutro Arco-íris"
+      },
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "variacoes_criadas",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "assets_arquivados": [
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/004-pig-crianca-padrao.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/004-pig-crianca-azul.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/004-pig-crianca-rosa.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/004-pig-crianca-arco-iris.png"
+          ]
+        }
+      ]
     },
     {
       "numero": "005",
@@ -346,42 +520,32 @@
         "vila_pig"
       ],
       "variacoes_planejadas": [
-        "padrao",
         "azul",
         "rosa",
         "arco_iris"
       ],
       "assets_variacoes_futuras": {
-        "padrao": "assets/characters/005-pig-pre-adolescente-padrao.png",
         "azul": "assets/characters/005-pig-pre-adolescente-azul.png",
         "rosa": "assets/characters/005-pig-pre-adolescente-rosa.png",
         "arco_iris": "assets/characters/005-pig-pre-adolescente-arco-iris.png"
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "padrao": "criada",
-        "azul": "criada",
-        "rosa": "criada",
-        "arco_iris": "criada"
+        "azul": "pendente",
+        "rosa": "pendente",
+        "arco_iris": "pendente"
       },
-      "variacoes_criadas": [
-        "padrao",
-        "azul",
-        "rosa",
-        "arco_iris"
-      ],
+      "variacoes_criadas": [],
       "schema_version_personagem": "2.0.0",
       "uid": "AVA-005",
       "numero_legacy": "005",
       "card_code": "CR-005-AVA-2026",
       "uids_variacoes": {
-        "padrao": "AVA-005-PAD",
         "azul": "AVA-005-AZL",
         "rosa": "AVA-005-RSA",
         "arco_iris": "AVA-005-ARC"
       },
       "card_codes_variacoes": {
-        "padrao": "CR-005-PAD-2026",
         "azul": "CR-005-AZL-2026",
         "rosa": "CR-005-RSA-2026",
         "arco_iris": "CR-005-ARC-2026"
@@ -406,7 +570,75 @@
       "publicavel": true,
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "camisa_calca_tenis",
-      "marcadores_visuais": []
+      "marcadores_visuais": [],
+      "estilos_visuais_ativos": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
+      "variacoes_descontinuadas": [
+        {
+          "estilo": "padrao",
+          "status": "descontinuado",
+          "motivo": "Substituído pelo sistema visual de três identidades",
+          "publicavel": false,
+          "asset_anterior": "assets/characters/005-pig-pre-adolescente-padrao.png",
+          "arquivado_em": "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/005-pig-pre-adolescente-padrao.png",
+          "status_anterior": "criada",
+          "uid_anterior": "AVA-005-PAD",
+          "card_code_anterior": "CR-005-PAD-2026"
+        }
+      ],
+      "identidades_avatar": [
+        {
+          "estilo_visual": "azul",
+          "identidade_avatar": "masculino",
+          "apresentacao_visual": "masculina",
+          "nome_publico": "Masculino Azul"
+        },
+        {
+          "estilo_visual": "rosa",
+          "identidade_avatar": "feminino",
+          "apresentacao_visual": "feminina",
+          "nome_publico": "Feminino Rosa"
+        },
+        {
+          "estilo_visual": "arco_iris",
+          "identidade_avatar": "neutro",
+          "apresentacao_visual": "neutra",
+          "nome_publico": "Neutro Arco-íris"
+        }
+      ],
+      "identidade_avatar": {
+        "azul": "masculino",
+        "rosa": "feminino",
+        "arco_iris": "neutro"
+      },
+      "apresentacao_visual": {
+        "azul": "masculina",
+        "rosa": "feminina",
+        "arco_iris": "neutra"
+      },
+      "nomes_publicos_identidades": {
+        "azul": "Masculino Azul",
+        "rosa": "Feminino Rosa",
+        "arco_iris": "Neutro Arco-íris"
+      },
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "variacoes_criadas",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "assets_arquivados": [
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/005-pig-pre-adolescente-padrao.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/005-pig-pre-adolescente-azul.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/005-pig-pre-adolescente-rosa.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/005-pig-pre-adolescente-arco-iris.png"
+          ]
+        }
+      ]
     },
     {
       "numero": "006",
@@ -445,42 +677,32 @@
         "vila_pig"
       ],
       "variacoes_planejadas": [
-        "padrao",
         "azul",
         "rosa",
         "arco_iris"
       ],
       "assets_variacoes_futuras": {
-        "padrao": "assets/characters/006-pig-adolescente-padrao.png",
         "azul": "assets/characters/006-pig-adolescente-azul.png",
         "rosa": "assets/characters/006-pig-adolescente-rosa.png",
         "arco_iris": "assets/characters/006-pig-adolescente-arco-iris.png"
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "padrao": "criada",
-        "azul": "criada",
-        "rosa": "criada",
-        "arco_iris": "criada"
+        "azul": "pendente",
+        "rosa": "pendente",
+        "arco_iris": "pendente"
       },
-      "variacoes_criadas": [
-        "padrao",
-        "azul",
-        "rosa",
-        "arco_iris"
-      ],
+      "variacoes_criadas": [],
       "schema_version_personagem": "2.0.0",
       "uid": "AVA-006",
       "numero_legacy": "006",
       "card_code": "CR-006-AVA-2026",
       "uids_variacoes": {
-        "padrao": "AVA-006-PAD",
         "azul": "AVA-006-AZL",
         "rosa": "AVA-006-RSA",
         "arco_iris": "AVA-006-ARC"
       },
       "card_codes_variacoes": {
-        "padrao": "CR-006-PAD-2026",
         "azul": "CR-006-AZL-2026",
         "rosa": "CR-006-RSA-2026",
         "arco_iris": "CR-006-ARC-2026"
@@ -505,7 +727,75 @@
       "publicavel": true,
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "camisa_calca_tenis",
-      "marcadores_visuais": []
+      "marcadores_visuais": [],
+      "estilos_visuais_ativos": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
+      "variacoes_descontinuadas": [
+        {
+          "estilo": "padrao",
+          "status": "descontinuado",
+          "motivo": "Substituído pelo sistema visual de três identidades",
+          "publicavel": false,
+          "asset_anterior": "assets/characters/006-pig-adolescente-padrao.png",
+          "arquivado_em": "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/006-pig-adolescente-padrao.png",
+          "status_anterior": "criada",
+          "uid_anterior": "AVA-006-PAD",
+          "card_code_anterior": "CR-006-PAD-2026"
+        }
+      ],
+      "identidades_avatar": [
+        {
+          "estilo_visual": "azul",
+          "identidade_avatar": "masculino",
+          "apresentacao_visual": "masculina",
+          "nome_publico": "Masculino Azul"
+        },
+        {
+          "estilo_visual": "rosa",
+          "identidade_avatar": "feminino",
+          "apresentacao_visual": "feminina",
+          "nome_publico": "Feminino Rosa"
+        },
+        {
+          "estilo_visual": "arco_iris",
+          "identidade_avatar": "neutro",
+          "apresentacao_visual": "neutra",
+          "nome_publico": "Neutro Arco-íris"
+        }
+      ],
+      "identidade_avatar": {
+        "azul": "masculino",
+        "rosa": "feminino",
+        "arco_iris": "neutro"
+      },
+      "apresentacao_visual": {
+        "azul": "masculina",
+        "rosa": "feminina",
+        "arco_iris": "neutra"
+      },
+      "nomes_publicos_identidades": {
+        "azul": "Masculino Azul",
+        "rosa": "Feminino Rosa",
+        "arco_iris": "Neutro Arco-íris"
+      },
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "variacoes_criadas",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "assets_arquivados": [
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/006-pig-adolescente-padrao.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/006-pig-adolescente-azul.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/006-pig-adolescente-rosa.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/006-pig-adolescente-arco-iris.png"
+          ]
+        }
+      ]
     },
     {
       "numero": "007",
@@ -544,42 +834,32 @@
         "vila_pig"
       ],
       "variacoes_planejadas": [
-        "padrao",
         "azul",
         "rosa",
         "arco_iris"
       ],
       "assets_variacoes_futuras": {
-        "padrao": "assets/characters/007-pig-jovem-padrao.png",
         "azul": "assets/characters/007-pig-jovem-azul.png",
         "rosa": "assets/characters/007-pig-jovem-rosa.png",
         "arco_iris": "assets/characters/007-pig-jovem-arco-iris.png"
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "padrao": "criada",
-        "azul": "criada",
-        "rosa": "criada",
-        "arco_iris": "criada"
+        "azul": "pendente",
+        "rosa": "pendente",
+        "arco_iris": "pendente"
       },
-      "variacoes_criadas": [
-        "padrao",
-        "azul",
-        "rosa",
-        "arco_iris"
-      ],
+      "variacoes_criadas": [],
       "schema_version_personagem": "2.0.0",
       "uid": "AVA-007",
       "numero_legacy": "007",
       "card_code": "CR-007-AVA-2026",
       "uids_variacoes": {
-        "padrao": "AVA-007-PAD",
         "azul": "AVA-007-AZL",
         "rosa": "AVA-007-RSA",
         "arco_iris": "AVA-007-ARC"
       },
       "card_codes_variacoes": {
-        "padrao": "CR-007-PAD-2026",
         "azul": "CR-007-AZL-2026",
         "rosa": "CR-007-RSA-2026",
         "arco_iris": "CR-007-ARC-2026"
@@ -604,7 +884,75 @@
       "publicavel": true,
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "camisa_calca_tenis",
-      "marcadores_visuais": []
+      "marcadores_visuais": [],
+      "estilos_visuais_ativos": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
+      "variacoes_descontinuadas": [
+        {
+          "estilo": "padrao",
+          "status": "descontinuado",
+          "motivo": "Substituído pelo sistema visual de três identidades",
+          "publicavel": false,
+          "asset_anterior": "assets/characters/007-pig-jovem-padrao.png",
+          "arquivado_em": "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/007-pig-jovem-padrao.png",
+          "status_anterior": "criada",
+          "uid_anterior": "AVA-007-PAD",
+          "card_code_anterior": "CR-007-PAD-2026"
+        }
+      ],
+      "identidades_avatar": [
+        {
+          "estilo_visual": "azul",
+          "identidade_avatar": "masculino",
+          "apresentacao_visual": "masculina",
+          "nome_publico": "Masculino Azul"
+        },
+        {
+          "estilo_visual": "rosa",
+          "identidade_avatar": "feminino",
+          "apresentacao_visual": "feminina",
+          "nome_publico": "Feminino Rosa"
+        },
+        {
+          "estilo_visual": "arco_iris",
+          "identidade_avatar": "neutro",
+          "apresentacao_visual": "neutra",
+          "nome_publico": "Neutro Arco-íris"
+        }
+      ],
+      "identidade_avatar": {
+        "azul": "masculino",
+        "rosa": "feminino",
+        "arco_iris": "neutro"
+      },
+      "apresentacao_visual": {
+        "azul": "masculina",
+        "rosa": "feminina",
+        "arco_iris": "neutra"
+      },
+      "nomes_publicos_identidades": {
+        "azul": "Masculino Azul",
+        "rosa": "Feminino Rosa",
+        "arco_iris": "Neutro Arco-íris"
+      },
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "variacoes_criadas",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "assets_arquivados": [
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/007-pig-jovem-padrao.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/007-pig-jovem-azul.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/007-pig-jovem-rosa.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/007-pig-jovem-arco-iris.png"
+          ]
+        }
+      ]
     },
     {
       "numero": "008",
@@ -643,42 +991,32 @@
         "vila_pig"
       ],
       "variacoes_planejadas": [
-        "padrao",
         "azul",
         "rosa",
         "arco_iris"
       ],
       "assets_variacoes_futuras": {
-        "padrao": "assets/characters/008-pig-jovem-adulto-padrao.png",
         "azul": "assets/characters/008-pig-jovem-adulto-azul.png",
         "rosa": "assets/characters/008-pig-jovem-adulto-rosa.png",
         "arco_iris": "assets/characters/008-pig-jovem-adulto-arco-iris.png"
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "padrao": "criada",
-        "azul": "criada",
-        "rosa": "criada",
-        "arco_iris": "criada"
+        "azul": "pendente",
+        "rosa": "pendente",
+        "arco_iris": "pendente"
       },
-      "variacoes_criadas": [
-        "padrao",
-        "azul",
-        "rosa",
-        "arco_iris"
-      ],
+      "variacoes_criadas": [],
       "schema_version_personagem": "2.0.0",
       "uid": "AVA-008",
       "numero_legacy": "008",
       "card_code": "CR-008-AVA-2026",
       "uids_variacoes": {
-        "padrao": "AVA-008-PAD",
         "azul": "AVA-008-AZL",
         "rosa": "AVA-008-RSA",
         "arco_iris": "AVA-008-ARC"
       },
       "card_codes_variacoes": {
-        "padrao": "CR-008-PAD-2026",
         "azul": "CR-008-AZL-2026",
         "rosa": "CR-008-RSA-2026",
         "arco_iris": "CR-008-ARC-2026"
@@ -703,7 +1041,75 @@
       "publicavel": true,
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "camisa_calca_tenis",
-      "marcadores_visuais": []
+      "marcadores_visuais": [],
+      "estilos_visuais_ativos": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
+      "variacoes_descontinuadas": [
+        {
+          "estilo": "padrao",
+          "status": "descontinuado",
+          "motivo": "Substituído pelo sistema visual de três identidades",
+          "publicavel": false,
+          "asset_anterior": "assets/characters/008-pig-jovem-adulto-padrao.png",
+          "arquivado_em": "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/008-pig-jovem-adulto-padrao.png",
+          "status_anterior": "criada",
+          "uid_anterior": "AVA-008-PAD",
+          "card_code_anterior": "CR-008-PAD-2026"
+        }
+      ],
+      "identidades_avatar": [
+        {
+          "estilo_visual": "azul",
+          "identidade_avatar": "masculino",
+          "apresentacao_visual": "masculina",
+          "nome_publico": "Masculino Azul"
+        },
+        {
+          "estilo_visual": "rosa",
+          "identidade_avatar": "feminino",
+          "apresentacao_visual": "feminina",
+          "nome_publico": "Feminino Rosa"
+        },
+        {
+          "estilo_visual": "arco_iris",
+          "identidade_avatar": "neutro",
+          "apresentacao_visual": "neutra",
+          "nome_publico": "Neutro Arco-íris"
+        }
+      ],
+      "identidade_avatar": {
+        "azul": "masculino",
+        "rosa": "feminino",
+        "arco_iris": "neutro"
+      },
+      "apresentacao_visual": {
+        "azul": "masculina",
+        "rosa": "feminina",
+        "arco_iris": "neutra"
+      },
+      "nomes_publicos_identidades": {
+        "azul": "Masculino Azul",
+        "rosa": "Feminino Rosa",
+        "arco_iris": "Neutro Arco-íris"
+      },
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "variacoes_criadas",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "assets_arquivados": [
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/008-pig-jovem-adulto-padrao.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/008-pig-jovem-adulto-azul.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/008-pig-jovem-adulto-rosa.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/008-pig-jovem-adulto-arco-iris.png"
+          ]
+        }
+      ]
     },
     {
       "numero": "009",
@@ -742,42 +1148,32 @@
         "vila_pig"
       ],
       "variacoes_planejadas": [
-        "padrao",
         "azul",
         "rosa",
         "arco_iris"
       ],
       "assets_variacoes_futuras": {
-        "padrao": "assets/characters/009-pig-adulto-padrao.png",
         "azul": "assets/characters/009-pig-adulto-azul.png",
         "rosa": "assets/characters/009-pig-adulto-rosa.png",
         "arco_iris": "assets/characters/009-pig-adulto-arco-iris.png"
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "padrao": "criada",
-        "azul": "criada",
-        "rosa": "criada",
-        "arco_iris": "criada"
+        "azul": "pendente",
+        "rosa": "pendente",
+        "arco_iris": "pendente"
       },
-      "variacoes_criadas": [
-        "padrao",
-        "azul",
-        "rosa",
-        "arco_iris"
-      ],
+      "variacoes_criadas": [],
       "schema_version_personagem": "2.0.0",
       "uid": "AVA-009",
       "numero_legacy": "009",
       "card_code": "CR-009-AVA-2026",
       "uids_variacoes": {
-        "padrao": "AVA-009-PAD",
         "azul": "AVA-009-AZL",
         "rosa": "AVA-009-RSA",
         "arco_iris": "AVA-009-ARC"
       },
       "card_codes_variacoes": {
-        "padrao": "CR-009-PAD-2026",
         "azul": "CR-009-AZL-2026",
         "rosa": "CR-009-RSA-2026",
         "arco_iris": "CR-009-ARC-2026"
@@ -802,7 +1198,75 @@
       "publicavel": true,
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "camisa_calca_tenis",
-      "marcadores_visuais": []
+      "marcadores_visuais": [],
+      "estilos_visuais_ativos": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
+      "variacoes_descontinuadas": [
+        {
+          "estilo": "padrao",
+          "status": "descontinuado",
+          "motivo": "Substituído pelo sistema visual de três identidades",
+          "publicavel": false,
+          "asset_anterior": "assets/characters/009-pig-adulto-padrao.png",
+          "arquivado_em": "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/009-pig-adulto-padrao.png",
+          "status_anterior": "criada",
+          "uid_anterior": "AVA-009-PAD",
+          "card_code_anterior": "CR-009-PAD-2026"
+        }
+      ],
+      "identidades_avatar": [
+        {
+          "estilo_visual": "azul",
+          "identidade_avatar": "masculino",
+          "apresentacao_visual": "masculina",
+          "nome_publico": "Masculino Azul"
+        },
+        {
+          "estilo_visual": "rosa",
+          "identidade_avatar": "feminino",
+          "apresentacao_visual": "feminina",
+          "nome_publico": "Feminino Rosa"
+        },
+        {
+          "estilo_visual": "arco_iris",
+          "identidade_avatar": "neutro",
+          "apresentacao_visual": "neutra",
+          "nome_publico": "Neutro Arco-íris"
+        }
+      ],
+      "identidade_avatar": {
+        "azul": "masculino",
+        "rosa": "feminino",
+        "arco_iris": "neutro"
+      },
+      "apresentacao_visual": {
+        "azul": "masculina",
+        "rosa": "feminina",
+        "arco_iris": "neutra"
+      },
+      "nomes_publicos_identidades": {
+        "azul": "Masculino Azul",
+        "rosa": "Feminino Rosa",
+        "arco_iris": "Neutro Arco-íris"
+      },
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "variacoes_criadas",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "assets_arquivados": [
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/009-pig-adulto-padrao.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/009-pig-adulto-azul.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/009-pig-adulto-rosa.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/009-pig-adulto-arco-iris.png"
+          ]
+        }
+      ]
     },
     {
       "numero": "010",
@@ -841,42 +1305,32 @@
         "vila_pig"
       ],
       "variacoes_planejadas": [
-        "padrao",
         "azul",
         "rosa",
         "arco_iris"
       ],
       "assets_variacoes_futuras": {
-        "padrao": "assets/characters/010-pig-coroa-padrao.png",
         "azul": "assets/characters/010-pig-coroa-azul.png",
         "rosa": "assets/characters/010-pig-coroa-rosa.png",
         "arco_iris": "assets/characters/010-pig-coroa-arco-iris.png"
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "padrao": "criada",
-        "azul": "criada",
-        "rosa": "criada",
-        "arco_iris": "criada"
+        "azul": "pendente",
+        "rosa": "pendente",
+        "arco_iris": "pendente"
       },
-      "variacoes_criadas": [
-        "padrao",
-        "azul",
-        "rosa",
-        "arco_iris"
-      ],
+      "variacoes_criadas": [],
       "schema_version_personagem": "2.0.0",
       "uid": "AVA-010",
       "numero_legacy": "010",
       "card_code": "CR-010-AVA-2026",
       "uids_variacoes": {
-        "padrao": "AVA-010-PAD",
         "azul": "AVA-010-AZL",
         "rosa": "AVA-010-RSA",
         "arco_iris": "AVA-010-ARC"
       },
       "card_codes_variacoes": {
-        "padrao": "CR-010-PAD-2026",
         "azul": "CR-010-AZL-2026",
         "rosa": "CR-010-RSA-2026",
         "arco_iris": "CR-010-ARC-2026"
@@ -901,7 +1355,75 @@
       "publicavel": true,
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "camisa_calca_tenis",
-      "marcadores_visuais": []
+      "marcadores_visuais": [],
+      "estilos_visuais_ativos": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
+      "variacoes_descontinuadas": [
+        {
+          "estilo": "padrao",
+          "status": "descontinuado",
+          "motivo": "Substituído pelo sistema visual de três identidades",
+          "publicavel": false,
+          "asset_anterior": "assets/characters/010-pig-coroa-padrao.png",
+          "arquivado_em": "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/010-pig-coroa-padrao.png",
+          "status_anterior": "criada",
+          "uid_anterior": "AVA-010-PAD",
+          "card_code_anterior": "CR-010-PAD-2026"
+        }
+      ],
+      "identidades_avatar": [
+        {
+          "estilo_visual": "azul",
+          "identidade_avatar": "masculino",
+          "apresentacao_visual": "masculina",
+          "nome_publico": "Masculino Azul"
+        },
+        {
+          "estilo_visual": "rosa",
+          "identidade_avatar": "feminino",
+          "apresentacao_visual": "feminina",
+          "nome_publico": "Feminino Rosa"
+        },
+        {
+          "estilo_visual": "arco_iris",
+          "identidade_avatar": "neutro",
+          "apresentacao_visual": "neutra",
+          "nome_publico": "Neutro Arco-íris"
+        }
+      ],
+      "identidade_avatar": {
+        "azul": "masculino",
+        "rosa": "feminino",
+        "arco_iris": "neutro"
+      },
+      "apresentacao_visual": {
+        "azul": "masculina",
+        "rosa": "feminina",
+        "arco_iris": "neutra"
+      },
+      "nomes_publicos_identidades": {
+        "azul": "Masculino Azul",
+        "rosa": "Feminino Rosa",
+        "arco_iris": "Neutro Arco-íris"
+      },
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "variacoes_criadas",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "assets_arquivados": [
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/010-pig-coroa-padrao.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/010-pig-coroa-azul.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/010-pig-coroa-rosa.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/010-pig-coroa-arco-iris.png"
+          ]
+        }
+      ]
     },
     {
       "numero": "011",
@@ -940,42 +1462,32 @@
         "vila_pig"
       ],
       "variacoes_planejadas": [
-        "padrao",
         "azul",
         "rosa",
         "arco_iris"
       ],
       "assets_variacoes_futuras": {
-        "padrao": "assets/characters/011-pig-senior-padrao.png",
         "azul": "assets/characters/011-pig-senior-azul.png",
         "rosa": "assets/characters/011-pig-senior-rosa.png",
         "arco_iris": "assets/characters/011-pig-senior-arco-iris.png"
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "padrao": "criada",
-        "azul": "criada",
-        "rosa": "criada",
-        "arco_iris": "criada"
+        "azul": "pendente",
+        "rosa": "pendente",
+        "arco_iris": "pendente"
       },
-      "variacoes_criadas": [
-        "padrao",
-        "azul",
-        "rosa",
-        "arco_iris"
-      ],
+      "variacoes_criadas": [],
       "schema_version_personagem": "2.0.0",
       "uid": "AVA-011",
       "numero_legacy": "011",
       "card_code": "CR-011-AVA-2026",
       "uids_variacoes": {
-        "padrao": "AVA-011-PAD",
         "azul": "AVA-011-AZL",
         "rosa": "AVA-011-RSA",
         "arco_iris": "AVA-011-ARC"
       },
       "card_codes_variacoes": {
-        "padrao": "CR-011-PAD-2026",
         "azul": "CR-011-AZL-2026",
         "rosa": "CR-011-RSA-2026",
         "arco_iris": "CR-011-ARC-2026"
@@ -1000,7 +1512,75 @@
       "publicavel": true,
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "camisa_calca_tenis",
-      "marcadores_visuais": []
+      "marcadores_visuais": [],
+      "estilos_visuais_ativos": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
+      "variacoes_descontinuadas": [
+        {
+          "estilo": "padrao",
+          "status": "descontinuado",
+          "motivo": "Substituído pelo sistema visual de três identidades",
+          "publicavel": false,
+          "asset_anterior": "assets/characters/011-pig-senior-padrao.png",
+          "arquivado_em": "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/011-pig-senior-padrao.png",
+          "status_anterior": "criada",
+          "uid_anterior": "AVA-011-PAD",
+          "card_code_anterior": "CR-011-PAD-2026"
+        }
+      ],
+      "identidades_avatar": [
+        {
+          "estilo_visual": "azul",
+          "identidade_avatar": "masculino",
+          "apresentacao_visual": "masculina",
+          "nome_publico": "Masculino Azul"
+        },
+        {
+          "estilo_visual": "rosa",
+          "identidade_avatar": "feminino",
+          "apresentacao_visual": "feminina",
+          "nome_publico": "Feminino Rosa"
+        },
+        {
+          "estilo_visual": "arco_iris",
+          "identidade_avatar": "neutro",
+          "apresentacao_visual": "neutra",
+          "nome_publico": "Neutro Arco-íris"
+        }
+      ],
+      "identidade_avatar": {
+        "azul": "masculino",
+        "rosa": "feminino",
+        "arco_iris": "neutro"
+      },
+      "apresentacao_visual": {
+        "azul": "masculina",
+        "rosa": "feminina",
+        "arco_iris": "neutra"
+      },
+      "nomes_publicos_identidades": {
+        "azul": "Masculino Azul",
+        "rosa": "Feminino Rosa",
+        "arco_iris": "Neutro Arco-íris"
+      },
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "variacoes_criadas",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "assets_arquivados": [
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/011-pig-senior-padrao.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/011-pig-senior-azul.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/011-pig-senior-rosa.png",
+            "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/011-pig-senior-arco-iris.png"
+          ]
+        }
+      ]
     }
   ]
 }

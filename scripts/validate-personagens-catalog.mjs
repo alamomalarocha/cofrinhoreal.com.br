@@ -169,40 +169,62 @@ expect("visual_markers", tooManyMarkers.length === 0, `${tooManyMarkers.length} 
 const statuses = new Set(["criada", "pendente"]);
 const invalidImageStatuses = people.filter((person) => !statuses.has(person.status_imagem));
 expect("image_status", invalidImageStatuses.length === 0, `${invalidImageStatuses.length} status de imagem invalidos`);
-const newlyCreated = people.filter((person) => Number(person.numero) > 202 && person.status_imagem === "criada");
-expect("no_generated_images", newlyCreated.length === 0, `${newlyCreated.length} novos personagens marcados como imagem criada`);
+const unexpectedlyCreated = people.filter((person) => person.numero !== "001" && person.status_imagem === "criada");
+expect("only_principal_created", unexpectedlyCreated.length === 0, `${unexpectedlyCreated.length} personagens alem do 001 marcados como imagem criada`);
 
-for (const number of ["001", "201"]) {
-  const person = people.find((item) => item.numero === number);
-  expect(`protected_${number}`, Boolean(person), `personagem protegido ${number} ausente`);
-  if (person) expect(`protected_${number}_png`, isPng(person.asset_futuro), `PNG protegido ausente ou invalido: ${person.asset_futuro}`);
+const pigPrincipal = people.find((item) => item.numero === "001");
+expect("protected_001", Boolean(pigPrincipal), "Pig Principal 001 ausente");
+if (pigPrincipal) {
+  expect("protected_001_status", pigPrincipal.status_imagem === "criada", `status inesperado: ${pigPrincipal.status_imagem}`);
+  expect("protected_001_png", isPng(pigPrincipal.asset_futuro), `PNG protegido ausente ou invalido: ${pigPrincipal.asset_futuro}`);
 }
 
-const expectedAvatarStatuses = {
-  "002": { padrao: "criada", azul: "criada", rosa: "criada", arco_iris: "criada" },
-  "003": { padrao: "criada", azul: "criada", rosa: "criada", arco_iris: "criada" },
-  "004": { padrao: "criada", azul: "criada", rosa: "criada", arco_iris: "criada" },
-  "005": { padrao: "criada", azul: "criada", rosa: "criada", arco_iris: "criada" },
-  "006": { padrao: "criada", azul: "criada", rosa: "criada", arco_iris: "criada" },
-  "007": { padrao: "criada", azul: "criada", rosa: "criada", arco_iris: "criada" },
-  "008": { padrao: "criada", azul: "criada", rosa: "criada", arco_iris: "criada" },
-  "009": { padrao: "criada", azul: "criada", rosa: "criada", arco_iris: "criada" },
-  "010": { padrao: "criada", azul: "criada", rosa: "criada", arco_iris: "criada" },
-  "011": { padrao: "criada", azul: "criada", rosa: "criada", arco_iris: "criada" },
-};
+const vantajinho = people.find((item) => item.numero === "201");
+expect("vantajinho_preserved", Boolean(vantajinho), "Vantajinho 201 ausente");
+if (vantajinho) {
+  expect("vantajinho_reset", vantajinho.status_imagem === "pendente", `status inesperado: ${vantajinho.status_imagem}`);
+  const resetHistory = (vantajinho.historico_status_imagem || []).find((item) => item.evento === "reset_visual_tres_identidades_2026_07");
+  expect("vantajinho_history", Boolean(resetHistory), "historico do reset visual ausente");
+  expect("vantajinho_archive", Boolean(resetHistory?.asset_arquivado && fileExists(resetHistory.asset_arquivado)), "asset arquivado do Vantajinho ausente");
+}
+
+const expectedAvatarStatuses = Object.fromEntries(
+  Array.from({ length: 10 }, (_, index) => [
+    String(index + 2).padStart(3, "0"),
+    { azul: "pendente", rosa: "pendente", arco_iris: "pendente" },
+  ]),
+);
 for (const [number, expected] of Object.entries(expectedAvatarStatuses)) {
   const avatar = people.find((person) => person.numero === number);
   if (!avatar) {
     fail(`avatar_${number}`, "avatar ausente");
     continue;
   }
+  expect(`avatar_${number}_styles`, JSON.stringify(avatar.variacoes_planejadas) === JSON.stringify(["azul", "rosa", "arco_iris"]), "ordem ou estilos ativos divergentes");
+  expect(`avatar_${number}_no_padrao`, !("padrao" in (avatar.status_variacoes || {})) && !("padrao" in (avatar.assets_variacoes_futuras || {})), "estilo padrao ainda esta ativo");
+  const discontinued = (avatar.variacoes_descontinuadas || []).find((item) => item.estilo === "padrao");
+  expect(
+    `avatar_${number}_padrao_history`,
+    discontinued?.status === "descontinuado"
+      && discontinued?.motivo === "Substituído pelo sistema visual de três identidades"
+      && discontinued?.publicavel === false
+      && Boolean(discontinued?.asset_anterior)
+      && Boolean(discontinued?.arquivado_em),
+    "registro auditavel da variacao padrao ausente ou incompleto",
+  );
+  const expectedNames = Number(number) <= 4
+    ? ["Menino Azul", "Menina Rosa", "Neutro Arco-íris"]
+    : ["Masculino Azul", "Feminino Rosa", "Neutro Arco-íris"];
+  expect(
+    `avatar_${number}_identities`,
+    JSON.stringify((avatar.identidades_avatar || []).map((item) => item.nome_publico)) === JSON.stringify(expectedNames),
+    "rotulos publicos das identidades divergentes",
+  );
   for (const [style, status] of Object.entries(expected)) {
     const actual = avatar.status_variacoes?.[style];
     expect(`avatar_${number}_${style}`, actual === status, `esperado ${status}, encontrado ${actual}`);
-    if (status === "criada") {
-      const asset = avatar.assets_variacoes_futuras?.[style];
-      expect(`avatar_${number}_${style}_png`, isPng(asset), `PNG ausente ou invalido: ${asset}`);
-    }
+    const asset = avatar.assets_variacoes_futuras?.[style];
+    expect(`avatar_${number}_${style}_asset`, Boolean(asset), `asset futuro ausente: ${style}`);
   }
 }
 

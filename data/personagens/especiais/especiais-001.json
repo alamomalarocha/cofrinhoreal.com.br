@@ -34,7 +34,7 @@
         "educação financeira"
       ],
       "ideia_visual": "Quati brasileiro esperto, simpático e travesso, com moedas fictícias e expressão educativa.",
-      "status_imagem": "criada",
+      "status_imagem": "pendente",
       "asset_futuro": "assets/characters/201-vantajinho.png",
       "tags": [
         "personagem_especial",
@@ -80,7 +80,18 @@
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "O Vantajinho mostra, de forma leve, que descuido e impulso podem ter consequencias educativas.",
       "marcadores_visuais": [],
-      "nome_exibicao": "Vantajinho"
+      "nome_exibicao": "Vantajinho",
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "criada",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/201-vantajinho.png",
+          "asset_arquivado": "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/especiais/201-vantajinho.png"
+        }
+      ]
     },
     {
       "schema_version_personagem": "2.0.0",
@@ -161,7 +172,18 @@
       "variacoes_planejadas": [],
       "assets_variacoes_futuras": {},
       "status_variacoes": {},
-      "fontes": []
+      "fontes": [],
+      "historico_status_imagem": [
+        {
+          "evento": "reset_visual_tres_identidades_2026_07",
+          "registrado_em": "2026-07-14",
+          "status_anterior": "pendente",
+          "status_novo": "pendente",
+          "motivo": "Imagem preservada como rascunho após adoção do novo sistema de três identidades e uso exclusivo do Pig Principal como referência visual oficial.",
+          "asset_anterior": "assets/characters/202-mestre-satochi.png",
+          "asset_arquivado": null
+        }
+      ]
     }
   ]
 }

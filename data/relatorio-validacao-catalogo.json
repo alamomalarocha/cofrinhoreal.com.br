@@ -56,8 +56,8 @@
     "folclore_pesquisa_concluida": 0,
     "lotes_fonte": 40,
     "lotes_publicos": 27,
-    "imagens_principais_criadas": 2,
-    "variacoes_criadas": 40
+    "imagens_principais_criadas": 1,
+    "variacoes_criadas": 0
   },
   "verificacoes": [
     {
@@ -131,7 +131,7 @@
       "details": "ok"
     },
     {
-      "id": "no_generated_images",
+      "id": "only_principal_created",
       "status": "ok",
       "details": "ok"
     },
@@ -141,27 +141,52 @@
       "details": "ok"
     },
     {
+      "id": "protected_001_status",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
       "id": "protected_001_png",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "protected_201",
+      "id": "vantajinho_preserved",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "protected_201_png",
+      "id": "vantajinho_reset",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_002_padrao",
+      "id": "vantajinho_history",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_002_padrao_png",
+      "id": "vantajinho_archive",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_002_styles",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_002_no_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_002_padrao_history",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_002_identities",
       "status": "ok",
       "details": "ok"
     },
@@ -171,7 +196,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_002_azul_png",
+      "id": "avatar_002_azul_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -181,7 +206,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_002_rosa_png",
+      "id": "avatar_002_rosa_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -191,17 +216,27 @@
       "details": "ok"
     },
     {
-      "id": "avatar_002_arco_iris_png",
+      "id": "avatar_002_arco_iris_asset",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_003_padrao",
+      "id": "avatar_003_styles",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_003_padrao_png",
+      "id": "avatar_003_no_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_003_padrao_history",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_003_identities",
       "status": "ok",
       "details": "ok"
     },
@@ -211,7 +246,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_003_azul_png",
+      "id": "avatar_003_azul_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -221,7 +256,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_003_rosa_png",
+      "id": "avatar_003_rosa_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -231,17 +266,27 @@
       "details": "ok"
     },
     {
-      "id": "avatar_003_arco_iris_png",
+      "id": "avatar_003_arco_iris_asset",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_004_padrao",
+      "id": "avatar_004_styles",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_004_padrao_png",
+      "id": "avatar_004_no_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_004_padrao_history",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_004_identities",
       "status": "ok",
       "details": "ok"
     },
@@ -251,7 +296,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_004_azul_png",
+      "id": "avatar_004_azul_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -261,7 +306,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_004_rosa_png",
+      "id": "avatar_004_rosa_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -271,17 +316,27 @@
       "details": "ok"
     },
     {
-      "id": "avatar_004_arco_iris_png",
+      "id": "avatar_004_arco_iris_asset",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_005_padrao",
+      "id": "avatar_005_styles",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_005_padrao_png",
+      "id": "avatar_005_no_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_005_padrao_history",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_005_identities",
       "status": "ok",
       "details": "ok"
     },
@@ -291,7 +346,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_005_azul_png",
+      "id": "avatar_005_azul_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -301,7 +356,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_005_rosa_png",
+      "id": "avatar_005_rosa_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -311,17 +366,27 @@
       "details": "ok"
     },
     {
-      "id": "avatar_005_arco_iris_png",
+      "id": "avatar_005_arco_iris_asset",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_006_padrao",
+      "id": "avatar_006_styles",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_006_padrao_png",
+      "id": "avatar_006_no_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_006_padrao_history",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_006_identities",
       "status": "ok",
       "details": "ok"
     },
@@ -331,7 +396,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_006_azul_png",
+      "id": "avatar_006_azul_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -341,7 +406,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_006_rosa_png",
+      "id": "avatar_006_rosa_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -351,17 +416,27 @@
       "details": "ok"
     },
     {
-      "id": "avatar_006_arco_iris_png",
+      "id": "avatar_006_arco_iris_asset",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_007_padrao",
+      "id": "avatar_007_styles",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_007_padrao_png",
+      "id": "avatar_007_no_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_007_padrao_history",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_007_identities",
       "status": "ok",
       "details": "ok"
     },
@@ -371,7 +446,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_007_azul_png",
+      "id": "avatar_007_azul_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -381,7 +456,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_007_rosa_png",
+      "id": "avatar_007_rosa_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -391,17 +466,27 @@
       "details": "ok"
     },
     {
-      "id": "avatar_007_arco_iris_png",
+      "id": "avatar_007_arco_iris_asset",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_008_padrao",
+      "id": "avatar_008_styles",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_008_padrao_png",
+      "id": "avatar_008_no_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_008_padrao_history",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_008_identities",
       "status": "ok",
       "details": "ok"
     },
@@ -411,7 +496,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_008_azul_png",
+      "id": "avatar_008_azul_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -421,7 +506,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_008_rosa_png",
+      "id": "avatar_008_rosa_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -431,17 +516,27 @@
       "details": "ok"
     },
     {
-      "id": "avatar_008_arco_iris_png",
+      "id": "avatar_008_arco_iris_asset",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_009_padrao",
+      "id": "avatar_009_styles",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_009_padrao_png",
+      "id": "avatar_009_no_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_009_padrao_history",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_009_identities",
       "status": "ok",
       "details": "ok"
     },
@@ -451,7 +546,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_009_azul_png",
+      "id": "avatar_009_azul_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -461,7 +556,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_009_rosa_png",
+      "id": "avatar_009_rosa_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -471,17 +566,27 @@
       "details": "ok"
     },
     {
-      "id": "avatar_009_arco_iris_png",
+      "id": "avatar_009_arco_iris_asset",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_010_padrao",
+      "id": "avatar_010_styles",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_010_padrao_png",
+      "id": "avatar_010_no_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_010_padrao_history",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_010_identities",
       "status": "ok",
       "details": "ok"
     },
@@ -491,7 +596,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_010_azul_png",
+      "id": "avatar_010_azul_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -501,7 +606,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_010_rosa_png",
+      "id": "avatar_010_rosa_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -511,17 +616,27 @@
       "details": "ok"
     },
     {
-      "id": "avatar_010_arco_iris_png",
+      "id": "avatar_010_arco_iris_asset",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_011_padrao",
+      "id": "avatar_011_styles",
       "status": "ok",
       "details": "ok"
     },
     {
-      "id": "avatar_011_padrao_png",
+      "id": "avatar_011_no_padrao",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_011_padrao_history",
+      "status": "ok",
+      "details": "ok"
+    },
+    {
+      "id": "avatar_011_identities",
       "status": "ok",
       "details": "ok"
     },
@@ -531,7 +646,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_011_azul_png",
+      "id": "avatar_011_azul_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -541,7 +656,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_011_rosa_png",
+      "id": "avatar_011_rosa_asset",
       "status": "ok",
       "details": "ok"
     },
@@ -551,7 +666,7 @@
       "details": "ok"
     },
     {
-      "id": "avatar_011_arco_iris_png",
+      "id": "avatar_011_arco_iris_asset",
       "status": "ok",
       "details": "ok"
     },
