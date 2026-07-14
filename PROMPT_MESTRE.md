@@ -1,71 +1,76 @@
-# Prompt mestre - Cofrinho Real
+# Prompt mestre — Cofrinho Real
 
-Versao de posicionamento: 2026-07-12.
+Versão vigente: 2026-07-14.
 
 ## Essência
 
-O Cofrinho Real e um universo educativo estático em protótipo. O Pig Principal e mascote, guia, professor-amigo e defensor digital. A experiência pública apresenta personagens, histórias, jogos, famílias, cultura brasileira, profissões e PigCoins fictícios.
+O Cofrinho Real é um universo educativo estático em protótipo. O Pig Principal é mascote, guia, professor-amigo e defensor digital. A experiência pública apresenta personagens, histórias, jogos, famílias, cultura brasileira, profissões e PigCoins fictícios.
 
 Mensagem central: **Aprender, brincar e crescer com o Pig.**
 
-## PigCoin
+## Limites permanentes
 
-PigCoin e fictício, educativo e sem valor financeiro. Não e moeda, criptoativo, investimento, prêmio, compra, saque, PIX ou promessa de valorizacao. Pode representar progresso narrativo e recompensas internas não financeiras.
+- Não criar backend funcional, banco real, login real, PIX, aplicativo real ou movimentação financeira.
+- Não criar criptoativo, compra, saque, aposta, cassino, loot box, FOMO ou publicidade comportamental para menores.
+- Não afirmar conformidade total; o projeto permanece uma arquitetura em pesquisa, sujeita a revisão profissional.
+- Não publicar perfis culturais sensíveis sem pesquisa e revisão aprovadas.
 
-## Proteção
+## Identidade visual
 
-- Melhor interesse, privacidade e segurança por padrão.
-- Conteúdo adequado por idade e jurisdição.
-- Sem aposta, cassino, loot box, FOMO, pressão de consumo ou publicidade comportamental para menores.
-- Sem chat, rede social, mensagem de desconhecidos, localização pública ou coleta real no protótipo.
-- Estilo de avatar não define gênero, idade, orientação, identidade ou permissão.
+Somente o Pig Principal permanece como imagem oficial após o reset.
 
-## Internacionalização
+O Pig Principal é a referência visual obrigatória de toda a nova produção.
 
-Não existe idade global fixa. Pais, jurisdição, idioma, classificação, responsável e nivel editorial são dimensões separadas. Dados incertos permanecem `null`; países permanecem desabilitados até revisão profissional.
+O sistema de quatro variações foi substituído por três identidades visuais: Azul/Masculino, Rosa/Feminino e Arco-íris/Neutro.
 
-## Experiência
+Valores técnicos e ordem oficial:
 
-Antes de qualquer login futuro, usar Pig Principal universal. Depois de uma autenticação futura, a experiência poderá adaptar idioma, jurisdição, acessibilidade, faixa de conteúdo e supervisão, sem inferências indevidas.
+1. `azul`
+2. `rosa`
+3. `arco_iris`
 
-## Restrições permanentes desta fase
+`padrao` está descontinuado, não é publicável e não pode voltar aos filtros, cards, fila ativa ou novos prompts.
 
-Não criar backend funcional, banco real, login real, PIX, dinheiro real, criptoativo real, compra, saque, chat, rede social, verificação documental ou coleta de dados de crianças.
+As três identidades são escolhas visuais de avatar. Não representam documento legal, sexo cadastral, orientação, diagnóstico ou dado sensível confirmado.
 
-Não afirmar conformidade total. Usar “arquitetura em pesquisa”, “sujeito a revisão jurídica” e “protótipo em desenvolvimento”.
+## Produção de imagens
 
-## Documentos de referência
+O ChatGPT cria imagens; o Codex planeja, valida, salva, registra, compila, documenta, commita e publica. O Codex não deve gerar imagens por conta própria neste fluxo.
 
-- `docs/REPOSICIONAMENTO_PUBLICO_PIGCOIN.md`
-- `docs/PROTECAO_INFANTOJUVENIL.md`
-- `docs/INTERNACIONALIZACAO_E_CONFORMIDADE.md`
-- `docs/CONTEUDO_POR_IDADE.md`
-- `docs/AUDITORIA_EXPOSICAO_CONCEITO_TROCO_001.md`
+No fluxo manual, o próximo prompt deve ser enviado antes da publicação da imagem atual.
 
-## Fluxo de imagens
+O prompt visual deve ser curto e exclusivamente artístico. Não misturar JSON, CSV, documentação, Git, caminho técnico ou publicação no pedido enviado ao ChatGPT Images.
 
-O ChatGPT cria as imagens; o Codex valida, salva, registra, compila, documenta, commita e pública.
+## Automação segura
 
-Quando uma imagem oficial for recebida, o Codex deve:
+A automação não poderá iniciar geração paga sem autorização explícita de Alamo.
 
-1. validar número, nome, slug, estilo, arquivo, formato PNG, transparência e elementos proibidos;
-2. identificar o próximo item pendente, excluindo o asset atual;
-3. enviar a Alamo o prompt visual puro da próxima imagem antes de alterar arquivos ou iniciar a publicação da imagem atual;
-4. continuar a publicação da imagem recebida;
-5. encerrar com um relatório curto, sem repetir o prompt já enviado.
+- `IMAGE_PROVIDER=disabled` por padrão.
+- `IMAGE_STORAGE_MODE=local` por padrão.
+- Dry-run, piloto limitado, validação e retomada são obrigatórios antes de qualquer execução real futura.
+- Chaves, tokens e segredos nunca podem ser registrados em arquivos ou logs.
+- A publicação em Git continua bloqueada para produção massiva.
 
-O prompt visual deve ser curto e exclusivamente artístico. Não misturar instruções de JSON, CSV, documentação, Git ou publicação ao pedido enviado ao ChatGPT Images.
+## Português e acessibilidade
 
-Consulta somente de leitura:
+- Texto público em português brasileiro correto.
+- Identificadores técnicos, slugs, caminhos, UIDs e chaves permanecem sem acentos.
+- HTML usa `lang="pt-BR"` e UTF-8.
+- Imagens precisam de alternativa textual e respeito a `prefers-reduced-motion` quando houver animação.
 
-```powershell
-node scripts/next-image-prompt.mjs --exclude "assets/characters/ITEM-ATUAL.png"
-```
+## Leitura obrigatória
+
+- `docs/DECISOES_MESTRAS_PROJETO.md`
+- `data/decisoes-projeto.json`
+- `docs/RESET_VISUAL_TRES_IDENTIDADES.md`
+- `docs/GUIA_IDENTIDADES_AVATARES.md`
+- `docs/REFERENCIA_PIG_PRINCIPAL.md`
+- `docs/PROTOCOLO_IMAGENS_PERSONAGENS.md`
+- `docs/AUTOMACAO_IMAGENS_PERSONAGENS.md`
+- `docs/GUIA_PORTUGUES_E_TERMINOLOGIA.md`
 
 <!-- CATALOGO_BRASILEIRO_INICIO -->
 ## Leitura estrutural obrigatória
-
-Antes de qualquer tarefa estrutural, ler docs/DECISOES_MESTRAS_PROJETO.md e data/decisoes-projeto.json.
 
 A expansão do catálogo não autoriza publicar perfis culturais sensíveis, criar imagens bloqueadas ou expor estratégia interna.
 <!-- CATALOGO_BRASILEIRO_FIM -->

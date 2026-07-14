@@ -33,6 +33,13 @@ function countBy(items, field) {
   }, {});
 }
 
+function normalizeIdentifier(value) {
+  return String(value ?? "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
 function duplicates(items, field) {
   const seen = new Set();
   const repeated = new Set();
@@ -280,7 +287,7 @@ const unsafeCommunityPeople = communityPeople.filter((person) =>
 );
 expect("traditional_safety", unsafeCommunityPeople.length === 0, `${unsafeCommunityPeople.length} perfis tradicionais fora das regras de seguranca`);
 
-const migrationPeople = people.filter((person) => person.categoria === "migracoes");
+const migrationPeople = people.filter((person) => normalizeIdentifier(person.categoria) === "migracoes");
 const mixedPeople = people.filter((person) => person.categoria === "familias_mistas");
 expect("migration_slots", migrationPeople.length >= 30, `esperado >= 30, encontrado ${migrationPeople.length}`);
 expect("mixed_family_slots", mixedPeople.length >= 30, `esperado >= 30, encontrado ${mixedPeople.length}`);

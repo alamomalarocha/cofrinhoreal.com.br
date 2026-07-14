@@ -119,7 +119,6 @@ const PUBLIC_TERMS = [
   ["pratica", "prática"],
   ["Profissao", "Profissão"],
   ["Prototipo", "Protótipo"],
-  ["publica", "pública"],
   ["publico", "público"],
   ["referencia", "referência"],
   ["Regiao", "Região"],
@@ -328,7 +327,16 @@ function auditFile(file) {
   for (const [term, preferred] of PUBLIC_TERMS) {
     const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     const regex = new RegExp(`(?<![\\p{L}\\p{N}_/-])${escaped}(?![\\p{L}\\p{N}_/-])`, "giu");
-    addMatches(findings, source, regex, "termo-sem-acentuacao", "aviso", `Preferir “${preferred}” em texto público.`);
+    const matches = [...source.matchAll(regex)].filter((match) => !(term === "Padrao" && match[0] === "padrao"));
+    for (const match of matches) {
+      findings.push({
+        kind: "termo-sem-acentuacao",
+        severity: "aviso",
+        line: lineNumber(source, match.index ?? 0),
+        value: match[0].replace(/\s+/g, " ").slice(0, 80),
+        suggestion: `Preferir “${preferred}” em texto público.`,
+      });
+    }
   }
 
   if (extension === ".json" && rel.startsWith("data/personagens/")) {

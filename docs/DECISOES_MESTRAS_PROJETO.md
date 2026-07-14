@@ -1,6 +1,6 @@
 # Decisões Mestras do Projeto
 
-Atualizado em 2026-07-12. A fonte estruturada correspondente e `data/decisoes-projeto.json`.
+Atualizado em 2026-07-14. A fonte estruturada correspondente é `data/decisoes-projeto.json`.
 
 ## Regras de uso
 
@@ -92,3 +92,49 @@ A galeria pública consome lotes filtrados e não inclui perfis culturais bloque
 Motivo: Impedir publicação acidental de pesquisa incompleta.
 
 Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-011 - Reset visual preserva somente o Pig Principal
+
+Somente o Pig Principal permanece como imagem oficial após o reset.
+
+As 41 imagens anteriores foram arquivadas em `assets/characters/_drafts/reset-visual-tres-identidades-2026-07/`. O ponto de retorno é a tag `checkpoint-pre-reset-visual-automacao-imagens-2026-07`.
+
+Motivo: reconstruir o acervo com consistência sem apagar o histórico.
+
+Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-012 - Três identidades visuais
+
+O sistema de quatro variações foi substituído por três identidades visuais: Azul/Masculino, Rosa/Feminino e Arco-íris/Neutro.
+
+O identificador `padrao` está descontinuado e pode aparecer apenas em registros históricos.
+
+Motivo: eliminar a ambiguidade do antigo estilo padrão e tornar as opções públicas mais claras.
+
+Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-013 - Referência visual obrigatória
+
+O Pig Principal é a referência visual obrigatória de toda a nova produção.
+
+Motivo: garantir unidade de linguagem 3D/cartoon premium sem clonar o personagem 001.
+
+Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-014 - Autorização para geração paga
+
+A automação não poderá iniciar geração paga sem autorização explícita de Alamo.
+
+Provedor e armazenamento permanecem desativados. O piloto atual foi somente `dry-run`, com custo real zero.
+
+Motivo: impedir custos, chamadas externas e publicação remota não autorizados.
+
+Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-015 - Ordem do fluxo manual
+
+No fluxo manual, o próximo prompt deve ser enviado antes da publicação da imagem atual.
+
+Motivo: manter a sequência produtiva sem misturar o pedido visual com a operação técnica.
+
+Status: `vigente`. Visibilidade: `publica`. Substitui a redação operacional da `DEC-010`, preservada como histórico.

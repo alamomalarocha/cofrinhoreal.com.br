@@ -1,57 +1,60 @@
 # Cofrinho Real
 
-Protótipo visual estático do universo Pig: personagens, histórias, jogos e PigCoins fictícios para educação financeira, educação digital, energia, segurança e escolhas responsáveis.
+Protótipo visual estático do universo Pig, com personagens, histórias, jogos e PigCoins fictícios para educação financeira, educação digital, segurança e escolhas responsáveis.
 
-## Posicionamento público atual
+## Posicionamento
 
 **Aprender, brincar e crescer com o Pig.**
 
-PigCoin e uma linguagem educativa interna. Não e dinheiro, criptoativo, investimento, prêmio conversivel ou promessa de ganho. O projeto não possui backend funcional, banco real, login real, PIX, compra, saque ou movimentação real.
+PigCoin é uma linguagem educativa interna. Não é dinheiro, criptoativo, investimento, prêmio conversível nem promessa de ganho. O projeto não possui backend funcional, banco real, login real, PIX, aplicativo real ou movimentação financeira.
 
-## Páginas
+## Estado visual vigente
 
-- `index.html`: apresentacao pública.
-- `pig-coins.html`: PigCoin fictício e narrativa educativa.
-- `educacao.html`: trilhas por idade e temas.
-- `jogos.html`: jogos educativos conceituais.
+- Somente `001 — Pig Principal` permanece com imagem oficial criada após o reset.
+- O Pig Principal é a referência visual obrigatória da nova produção.
+- Os avatares `002` a `011` usam exatamente três identidades ativas: `azul`, `rosa` e `arco_iris`.
+- A variação `padrao` foi descontinuada e preservada apenas no arquivo histórico.
+- As imagens anteriores foram arquivadas em `assets/characters/_drafts/reset-visual-tres-identidades-2026-07/`.
+
+O sistema de quatro variações foi substituído por três identidades visuais: Azul/Masculino, Rosa/Feminino e Arco-íris/Neutro.
+
+## Páginas e dados
+
+- `index.html`: apresentação pública.
 - `personagens.html`: Coleção Pig orientada por dados.
-- `familias.html`: famílias e supervisão responsável.
-- `seguranca.html`: segurança digital em linguagem educativa.
-- `faq.html`: dúvidas e limites do protótipo.
-
-## Dados e arquitetura
-
-- `data/vila-pig-personagens.json`: catálogo de personagens e variações.
-- `data/content/`: níveis e descritores editoriais internos.
-- `data/compliance/jurisdictions/`: pesquisa por jurisdição, com contas reais desabilitadas.
-- `schemas/`: contratos JSON.
-- `locales/`: esqueletos de localização.
-- `legal/`: estruturas de pesquisa, não textos aprovados.
+- `personagens.js`: carregamento e filtros da coleção.
+- `data/vila-pig-personagens.json`: catálogo compilado.
+- `data/fila-imagens-personagens.json`: fila determinística de imagens.
+- `data/image-automation/`: estado local e relatórios da automação segura.
+- `scripts/images/`: planejamento, validação e execução controlada.
 
 ## Validação
 
 ```powershell
+node scripts/build-personagens-catalog.mjs
+node scripts/validate-personagens-catalog.mjs
 node scripts/validate-universo-pig.mjs
 node scripts/audit-pt-br.mjs
-node scripts/next-image-prompt.mjs --exclude "assets/characters/ITEM-ATUAL.png"
+node scripts/next-image-prompt.mjs --dry-run
+node scripts/images/status.mjs
+node scripts/images/runner.mjs --pilot --limit 12 --dry-run --no-publish --no-push
 node --check script.js
 node --check personagens.js
 git diff --check
 ```
 
-## Avisos
+## Segurança operacional
 
-- Repositório e site de protótipo em validação, mantidos com `noindex`.
-- Pesquisa técnica não equivale a parecer jurídico.
-- Nenhum pais esta habilitado para conta real.
-- A Coleção Pig não envolve compra de cards, raridade paga, aposta ou loot box.
+A automação não poderá iniciar geração paga sem autorização explícita de Alamo. Provedor e armazenamento remoto permanecem desabilitados por padrão; segredos nunca entram no repositório.
 
-Consulte [docs/README.md](docs/README.md) para o indice técnico.
+No fluxo manual, o próximo prompt deve ser enviado antes da publicação da imagem atual.
 
-O fluxo de imagens envia o prompt visual puro do próximo item antes de publicar a imagem atual. Consulte `docs/PROTOCOLO_IMAGENS_PERSONAGENS.md` e `docs/GUIA_PORTUGUES_E_TERMINOLOGIA.md`.
+## Documentação
+
+Consulte [docs/README.md](docs/README.md), [docs/RESET_VISUAL_TRES_IDENTIDADES.md](docs/RESET_VISUAL_TRES_IDENTIDADES.md) e [docs/AUTOMACAO_IMAGENS_PERSONAGENS.md](docs/AUTOMACAO_IMAGENS_PERSONAGENS.md).
 
 <!-- CATALOGO_BRASILEIRO_INICIO -->
 ## Catálogo brasileiro de personagens
 
-O repositório compila 3251 registros fixos a partir de lotes segmentados em `data/personagens/`. A Coleção Pig pública apenas perfis liberados. Consulte `docs/CATALOGO_BRASILEIRO_PERSONAGENS.md` e `data/relatorio-validacao-catalogo.json`. O projeto continua um protótipo visual estático.
+O repositório compila 3.251 registros fixos a partir de lotes segmentados em `data/personagens/`. A Coleção Pig publica somente perfis liberados. Consulte `docs/CATALOGO_BRASILEIRO_PERSONAGENS.md` e `data/relatorio-validacao-catalogo.json`.
 <!-- CATALOGO_BRASILEIRO_FIM -->

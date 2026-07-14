@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "atualizado_em": "2026-07-13",
+  "atualizado_em": "2026-07-14",
   "principio": "Fonte cumulativa de decisões estruturais; substituições exigem referência explícita.",
   "decisoes": [
     {
@@ -122,7 +122,7 @@
       "status": "vigente",
       "decisao_substituida": null,
       "visibilidade": "publica",
-      "observacoes": "O próximo item é 202 - Mestre Satochi - principal."
+      "observacoes": "A sequência vigente é recompilada pela fila oficial e usa apenas as três identidades ativas."
     },
     {
       "id": "DEC-009",
@@ -154,6 +154,85 @@
       "decisao_substituida": null,
       "visibilidade": "publica",
       "observacoes": "O prompt visual para o ChatGPT deve ser curto. Instruções de JSON, Git, documentação e publicação não devem ser misturadas ao pedido de criação de imagem."
+    },
+    {
+      "id": "DEC-011",
+      "data": "2026-07-14",
+      "titulo": "Reset visual preserva somente o Pig Principal",
+      "descricao": "Somente o Pig Principal permanece como imagem oficial após o reset.",
+      "motivo": "Reconstruir o acervo com consistência sem apagar o histórico anterior.",
+      "arquivos_afetados": [
+        "assets/characters/001-pig-principal.png",
+        "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/",
+        "docs/RESET_VISUAL_TRES_IDENTIDADES.md"
+      ],
+      "status": "vigente",
+      "decisao_substituida": null,
+      "visibilidade": "publica",
+      "observacoes": "O ponto de retorno é a tag checkpoint-pre-reset-visual-automacao-imagens-2026-07."
+    },
+    {
+      "id": "DEC-012",
+      "data": "2026-07-14",
+      "titulo": "Três identidades visuais de avatar",
+      "descricao": "O sistema de quatro variações foi substituído por três identidades visuais: Azul/Masculino, Rosa/Feminino e Arco-íris/Neutro.",
+      "motivo": "Eliminar a ambiguidade do antigo estilo padrão e tornar as opções públicas mais claras.",
+      "arquivos_afetados": [
+        "data/vila-pig-personagens.json",
+        "data/fila-imagens-personagens.json",
+        "personagens.js",
+        "docs/GUIA_IDENTIDADES_AVATARES.md"
+      ],
+      "status": "vigente",
+      "decisao_substituida": null,
+      "visibilidade": "publica",
+      "observacoes": "O identificador padrao é somente histórico e está descontinuado."
+    },
+    {
+      "id": "DEC-013",
+      "data": "2026-07-14",
+      "titulo": "Pig Principal como referência obrigatória de produção",
+      "descricao": "O Pig Principal é a referência visual obrigatória de toda a nova produção.",
+      "motivo": "Garantir unidade de linguagem 3D/cartoon premium em um catálogo de grande escala.",
+      "arquivos_afetados": [
+        "assets/characters/001-pig-principal.png",
+        "docs/REFERENCIA_PIG_PRINCIPAL.md"
+      ],
+      "status": "vigente",
+      "decisao_substituida": null,
+      "visibilidade": "publica",
+      "observacoes": "Referência define família visual, não clonagem do personagem."
+    },
+    {
+      "id": "DEC-014",
+      "data": "2026-07-14",
+      "titulo": "Geração paga exige autorização explícita",
+      "descricao": "A automação não poderá iniciar geração paga sem autorização explícita de Alamo.",
+      "motivo": "Impedir custos, chamadas externas ou publicação remota não autorizados.",
+      "arquivos_afetados": [
+        "data/image-automation/config.json",
+        "scripts/images/",
+        "docs/CUSTO_E_LIMITES_GERACAO_IMAGENS.md"
+      ],
+      "status": "vigente",
+      "decisao_substituida": null,
+      "visibilidade": "publica",
+      "observacoes": "Provedor e armazenamento permanecem desativados; o piloto teve custo real zero."
+    },
+    {
+      "id": "DEC-015",
+      "data": "2026-07-14",
+      "titulo": "Próximo prompt antecede a publicação manual",
+      "descricao": "No fluxo manual, o próximo prompt deve ser enviado antes da publicação da imagem atual.",
+      "motivo": "Manter o trabalho em sequência sem misturar o pedido visual com a operação técnica.",
+      "arquivos_afetados": [
+        "docs/PROTOCOLO_IMAGENS_PERSONAGENS.md",
+        "docs/GUIA_OPERACAO_FILA_IMAGENS.md"
+      ],
+      "status": "vigente",
+      "decisao_substituida": "DEC-010",
+      "visibilidade": "publica",
+      "observacoes": "DEC-010 permanece como histórico da mesma regra; DEC-015 fixa a redação vigente."
     }
   ]
 }
