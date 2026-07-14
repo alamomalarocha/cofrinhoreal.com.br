@@ -12,22 +12,21 @@
   const progressLabel = document.querySelector("[data-load-progress-label]");
   const progressBar = document.querySelector("[data-load-progress-bar]");
   const collectionYear = "2026";
-  const assetVersion = "42";
+  const assetVersion = "43";
   const pageSize = 24;
   const batchSize = 3;
+  const activeAvatarStyles = ["azul", "rosa", "arco_iris"];
 
   const styleCodes = {
-    padrao: "PAD",
     azul: "AZL",
     rosa: "RSA",
     arco_iris: "ARC",
   };
 
   const styleLabels = {
-    padrao: "Padrão",
-    azul: "Azul",
-    rosa: "Rosa",
-    arco_iris: "Arco-íris",
+    azul: "Azul — Menino/Masculino",
+    rosa: "Rosa — Menina/Feminino",
+    arco_iris: "Arco-íris — Neutro",
   };
 
   const categoryLabels = {
@@ -171,7 +170,10 @@
 
   function modelsFromPerson(person) {
     if (person.tipo_personagem !== "avatar_usuario") return [createModel(person)];
-    const styles = person.variacoes_planejadas || ["padrao", "azul", "rosa", "arco_iris"];
+    const plannedStyles = Array.isArray(person.variacoes_planejadas)
+      ? person.variacoes_planejadas
+      : activeAvatarStyles;
+    const styles = activeAvatarStyles.filter((style) => plannedStyles.includes(style));
     return styles.map((style) =>
       createModel(person, {
         style,
@@ -179,6 +181,14 @@
         status: person.status_variacoes?.[style] || "pendente",
       })
     );
+  }
+
+  function publicIdentityLabel(person, style) {
+    if (style === "arco_iris") return "Neutro Arco-íris";
+    const isChild = Number(person.numero) >= 2 && Number(person.numero) <= 4;
+    if (style === "azul") return isChild ? "Menino Azul" : "Masculino Azul";
+    if (style === "rosa") return isChild ? "Menina Rosa" : "Feminino Rosa";
+    return styleLabels[style] || humanize(style);
   }
 
   function phaseLabel(person) {
@@ -206,10 +216,10 @@
     const displayStatus = status === "criada" ? "Criado" : "Pendente";
     const category = categoryFor(person);
     const cardCode = codeFor(person, style);
-    const styleLabel = style ? styleLabels[style] || style : "Principal";
+    const styleLabel = style ? publicIdentityLabel(person, style) : "Principal";
     const created = status === "criada" && image;
     const name = displayName(person);
-    const title = style ? name + " " + styleLabel : name;
+    const title = style ? name + " — " + styleLabel : name;
     const imageMarkup = created
       ? '<img src="' + escapeHtml(versionedAsset(image)) + '" alt="' + escapeHtml(title) + '" loading="lazy" />'
       : '<div class="card-placeholder" aria-label="Imagem pendente"><span>' +
@@ -219,6 +229,7 @@
     return (
       '<article class="collectible-card ' +
       (created ? "is-created" : "is-pending") +
+      (style ? " identity-" + style.replace("_", "-") : "") +
       '">' +
       '<div class="collectible-topline"><span>CARD No ' +
       escapeHtml(person.numero) +

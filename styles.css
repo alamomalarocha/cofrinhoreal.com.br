@@ -1726,6 +1726,21 @@ h3 {
   pointer-events: none;
 }
 
+.collectible-card.identity-azul {
+  border-top: 3px solid #4f9fe8;
+}
+
+.collectible-card.identity-rosa {
+  border-top: 3px solid var(--pink);
+}
+
+.collectible-card.identity-arco-iris {
+  border-top: 3px solid transparent;
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(90deg, #ef4444, #f59e0b, #facc15, #22c55e, #3b82f6, #8b5cf6) border-box;
+}
+
 .collectible-topline,
 .collectible-body,
 .collectible-footer,
