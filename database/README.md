@@ -1,19 +1,19 @@
 # Database
 
-Esta pasta sera usada futuramente para documentar modelo de dados, migracoes e decisoes de banco.
+Esta pasta será usada futuramente para documentar modelo de dados, migrações e decisões de banco.
 
 ## Estado atual
 
-Nao criar banco de dados agora.
+Não criar banco de dados agora.
 
 Antes de qualquer implementacao, definir entidades como:
 
-- usuarios
+- usuários
 - comerciantes
 - cofrinhos
 - transacoes
 - Pig Coins
 - contas infantis
-- responsaveis
+- responsáveis
 - auditoria
 

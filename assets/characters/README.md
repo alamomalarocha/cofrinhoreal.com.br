@@ -4,7 +4,7 @@ Esta pasta esta reservada para imagens futuras dos personagens da Vila Fazenda P
 
 Nenhuma imagem oficial de personagem foi criada nesta fase.
 
-## Padrao obrigatorio
+## Padrão obrigatório
 
 Cada imagem futura deve seguir:
 
@@ -33,4 +33,4 @@ O caminho final deve bater com o campo `asset_futuro` em:
 
 Todos os personagens estao com imagem pendente.
 
-Nao adicionar placeholder como se fosse arte final.
+Não adicionar placeholder como se fosse arte final.

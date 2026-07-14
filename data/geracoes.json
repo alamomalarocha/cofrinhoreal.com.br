@@ -2,9 +2,9 @@
   "schema_version": "1.0.0",
   "atualizado_em": "2026-07-12",
   "politica": {
-    "identificacao": "O id_estavel baseado no periodo e a chave permanente.",
-    "nomes": "Nomes de geracoes sao convencoes culturais editaveis, nao categorias cientificas exatas.",
-    "uso": "A geracao informa somente uma coorte de nascimento e nunca presume personalidade, inteligencia, comportamento ou capacidade financeira."
+    "identificacao": "O id_estavel baseado no período é a chave permanente.",
+    "nomes": "Nomes de gerações são convenções culturais editáveis, não categorias científicas exatas.",
+    "uso": "A geração informa somente uma coorte de nascimento e nunca presume personalidade, inteligência, comportamento ou capacidade financeira."
   },
   "fontes": [
     {
@@ -23,7 +23,7 @@
   "geracoes": [
     {
       "id_estavel": "cohort_1928_1945",
-      "nome_exibicao": "Geracao Silenciosa",
+      "nome_exibicao": "Geração Silenciosa",
       "slug": "geracao-silenciosa",
       "ano_inicio": 1928,
       "ano_fim": 1945,
@@ -43,7 +43,7 @@
     },
     {
       "id_estavel": "cohort_1965_1980",
-      "nome_exibicao": "Geracao X",
+      "nome_exibicao": "Geração X",
       "slug": "geracao-x",
       "ano_inicio": 1965,
       "ano_fim": 1980,
@@ -53,7 +53,7 @@
     },
     {
       "id_estavel": "cohort_1981_1996",
-      "nome_exibicao": "Geracao Y / Millennials",
+      "nome_exibicao": "Geração Y / Millennials",
       "slug": "geracao-y-millennials",
       "ano_inicio": 1981,
       "ano_fim": 1996,
@@ -63,7 +63,7 @@
     },
     {
       "id_estavel": "cohort_1997_2009",
-      "nome_exibicao": "Geracao Z",
+      "nome_exibicao": "Geração Z",
       "slug": "geracao-z",
       "ano_inicio": 1997,
       "ano_fim": 2009,
@@ -73,7 +73,7 @@
     },
     {
       "id_estavel": "cohort_2010_2024",
-      "nome_exibicao": "Geracao Alpha",
+      "nome_exibicao": "Geração Alpha",
       "slug": "geracao-alpha",
       "ano_inicio": 2010,
       "ano_fim": 2024,
@@ -83,7 +83,7 @@
     },
     {
       "id_estavel": "cohort_2025_2039",
-      "nome_exibicao": "Geracao Beta",
+      "nome_exibicao": "Geração Beta",
       "slug": "geracao-beta",
       "ano_inicio": 2025,
       "ano_fim": 2039,
@@ -93,7 +93,7 @@
     },
     {
       "id_estavel": "cohort_2040_2054",
-      "nome_exibicao": "Geracao Gamma",
+      "nome_exibicao": "Geração Gamma",
       "slug": "geracao-gamma",
       "ano_inicio": 2040,
       "ano_fim": 2054,
@@ -103,7 +103,7 @@
     },
     {
       "id_estavel": "cohort_2055_2069",
-      "nome_exibicao": "Geracao Delta",
+      "nome_exibicao": "Geração Delta",
       "slug": "geracao-delta",
       "ano_inicio": 2055,
       "ano_fim": 2069,
@@ -113,7 +113,7 @@
     },
     {
       "id_estavel": "cohort_2070_2084",
-      "nome_exibicao": "Geracao Epsilon",
+      "nome_exibicao": "Geração Epsilon",
       "slug": "geracao-epsilon",
       "ano_inicio": 2070,
       "ano_fim": 2084,
@@ -123,7 +123,7 @@
     },
     {
       "id_estavel": "cohort_2085_2099",
-      "nome_exibicao": "Geracao Zeta",
+      "nome_exibicao": "Geração Zeta",
       "slug": "geracao-zeta",
       "ano_inicio": 2085,
       "ano_fim": 2099,
@@ -133,7 +133,7 @@
     },
     {
       "id_estavel": "cohort_2100_2114",
-      "nome_exibicao": "Geracao Eta",
+      "nome_exibicao": "Geração Eta",
       "slug": "geracao-eta",
       "ano_inicio": 2100,
       "ano_fim": 2114,
@@ -143,7 +143,7 @@
     },
     {
       "id_estavel": "cohort_2115_2129",
-      "nome_exibicao": "Geracao Theta",
+      "nome_exibicao": "Geração Theta",
       "slug": "geracao-theta",
       "ano_inicio": 2115,
       "ano_fim": 2129,
@@ -153,7 +153,7 @@
     },
     {
       "id_estavel": "cohort_2130_2144",
-      "nome_exibicao": "Geracao Iota",
+      "nome_exibicao": "Geração Iota",
       "slug": "geracao-iota",
       "ano_inicio": 2130,
       "ano_fim": 2144,

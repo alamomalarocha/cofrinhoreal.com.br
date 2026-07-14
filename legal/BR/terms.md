@@ -9,8 +9,8 @@ legal_review: aguardando_revisao
 
 # Termos - estrutura de pesquisa
 
-Rascunho de organizacao, sem vigencia. O prototipo oferece apenas conteudo demonstrativo e educativo. PigCoin e ficticio, nao e moeda, criptoativo, investimento, premio ou promessa de ganho.
+Rascunho de organização, sem vigência. O protótipo oferece apenas conteúdo demonstrativo e educativo. PigCoin e fictício, não e moeda, criptoativo, investimento, prêmio ou promessa de ganho.
 
-## Historico
+## Histórico
 
 - 0.1.0: estrutura inicial de pesquisa.

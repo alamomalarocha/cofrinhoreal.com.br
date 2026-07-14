@@ -3,11 +3,11 @@
   "fonte": {
     "data_consulta": "2026-07-12",
     "status": "importado_de_fonte_oficial",
-    "titulo": "Censo Demografico 2022 - Etnias e linguas indigenas, Apendice 2",
+    "titulo": "Censo Demográfico 2022 - Etnias e línguas indígenas, Apêndice 2",
     "instituicao": "IBGE",
     "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Etnias_e_Linguas_Indigenas_principais_caracteristicas_sociodemograficas_Resultados_do_universo/Apendices/xlsx/"
   },
-  "criterio": "295 nomes oficiais apos retirar categorias residuais, nao especificadas e sem declaracao do apendice.",
+  "criterio": "295 nomes oficiais após retirar categorias residuais, não especificadas e sem declaração do apêndice.",
   "linguas": [
     {
       "codigo_ibge": "1010110001",

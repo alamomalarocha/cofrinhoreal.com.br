@@ -1,10 +1,10 @@
-# Usuario
+# Usuário
 
-O usuario do Cofrinho Real pode ser crianca, adolescente, adulto, responsavel, avo, padrinho ou comerciante.
+O usuário do Cofrinho Real pode ser criança, adolescente, adulto, responsável, avo, padrinho ou comerciante.
 
 ## Perfil
 
-Cada usuario deve possuir, no futuro:
+Cada usuário deve possuir, no futuro:
 
 - foto
 - nome
@@ -12,11 +12,11 @@ Cada usuario deve possuir, no futuro:
 - senha
 - telefone
 - QR Code
-- numero do cofrinho
+- número do cofrinho
 
-## Experiencia
+## Experiência
 
-A experiencia deve ser:
+A experiência deve ser:
 
 - simples
 - segura
@@ -27,5 +27,5 @@ A experiencia deve ser:
 
 ## Cuidado
 
-Usuarios infantis exigem protecao extra, controle de responsaveis e linguagem apropriada.
+Usuários infantis exigem proteção extra, controle de responsáveis e linguagem apropriada.
 

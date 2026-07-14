@@ -4,12 +4,12 @@ Pig e o mascote oficial e o coracao emocional do Cofrinho Real.
 
 ## Funcoes
 
-- Acompanhar o usuario.
+- Acompanhar o usuário.
 - Celebrar conquistas.
 - Ajudar metas.
 - Ensinar com carinho.
-- Evoluir por faixa etaria.
-- Abrir caminho para a Familia Pig no futuro.
+- Evoluir por faixa etária.
+- Abrir caminho para a Família Pig no futuro.
 
 ## Personalidade
 
@@ -22,17 +22,17 @@ Pig e o mascote oficial e o coracao emocional do Cofrinho Real.
 
 ## Regras
 
-Pig nunca deve pressionar, culpar ou manipular o usuario.
+Pig nunca deve pressionar, culpar ou manipular o usuário.
 
-Pig deve ajudar a pessoa a refletir e cuidar melhor do proprio dinheiro.
+Pig deve ajudar a pessoa a refletir e cuidar melhor do próprio dinheiro.
 
-## Familia Pig
+## Família Pig
 
-A Familia Pig e o universo futuro de personagens ligados ao Pig principal.
+A Família Pig e o universo futuro de personagens ligados ao Pig principal.
 
-Ela pode representar crianca, adolescente, adulto, comerciante, Pig Vovó, Pig Vovô, familia, escola, bairro e relacoes de confianca.
+Ela pode representar criança, adolescente, adulto, comerciante, Pig Vovó, Pig Vovô, família, escola, bairro e relações de confiança.
 
-No MVP, nao criar todos os personagens. Primeiro deve existir um Pig principal forte e coerente. Depois, os personagens poderao ser criados por fases.
+No MVP, não criar todos os personagens. Primeiro deve existir um Pig principal forte e coerente. Depois, os personagens poderao ser criados por fases.
 
 Documento principal: `docs/FAMILIA_PIG.md`.
 
@@ -44,33 +44,33 @@ Regra conceitual:
 
 > O Pig e o guia. O avatar e a pessoa. A Vila Pig e a comunidade.
 
-O Pig principal continua sendo o personagem central da marca. O avatar dentro do app representa o usuario. Os demais personagens pertencem a comunidade narrativa da Vila Pig.
+O Pig principal continua sendo o personagem central da marca. O avatar dentro do app representa o usuário. Os demais personagens pertencem a comunidade narrativa da Vila Pig.
 
-Base estatica atual:
+Base estática atual:
 
 - `data/vila-pig-personagens.json`
 - `data/vila-pig-personagens.csv`
 
-Cada personagem possui numero, slug e caminho futuro de imagem.
+Cada personagem possui número, slug e caminho futuro de imagem.
 
 ## Logo/arte principal atual
 
-Neste momento, a arte principal atual do Pig e do Cofrinho Real no prototipo visual e:
+Neste momento, a arte principal atual do Pig e do Cofrinho Real no protótipo visual e:
 
 `assets/brand/cofrinho-real-pig-logo-principal.png`
 
 Ela mostra o Pig como mascote, o nome Cofrinho Real, o nome Pig e o slogan "Guarde. Cresça. Realize."
 
-Essa imagem deve ser usada como referencia principal visual do projeto ate nova orientacao. Ela ainda pode ser substituida futuramente.
+Essa imagem deve ser usada como referência principal visual do projeto até nova orientação. Ela ainda pode ser substituida futuramente.
 
-## Uso no prototipo visual publicado
+## Uso no protótipo visual publicado
 
-O Pig deve aparecer no header, no mockup do app, nas secoes de familia, nos materiais A4 e nas mensagens educativas de forma consistente.
+O Pig deve aparecer no header, no mockup do app, nas secoes de família, nos materiais A4 e nas mensagens educativas de forma consistente.
 
-No prototipo atual, qualquer imagem, botao ou texto do Pig deve reforcar:
+No protótipo atual, qualquer imagem, botao ou texto do Pig deve reforcar:
 
 - carinho;
-- confianca;
-- educacao;
-- familia;
-- ausencia de aposta, vicio ou pressao de consumo.
+- confiança;
+- educação;
+- família;
+- ausencia de aposta, vício ou pressão de consumo.

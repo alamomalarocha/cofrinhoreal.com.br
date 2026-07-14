@@ -1,15 +1,15 @@
 # Doacoes
 
-Doacoes sao uma possibilidade futura.
+Doacoes são uma possibilidade futura.
 
-## Direcao
+## Direção
 
 Permitir apoiar:
 
 - instituicoes
 - animais
 - hospitais
-- criancas
+- crianças
 - causas sociais
 
 ## Regras

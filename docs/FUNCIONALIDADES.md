@@ -1,19 +1,19 @@
-# Funcionalidades do prototipo
+# Funcionalidades do protótipo
 
 ## Disponiveis
 
-- Navegacao estatica por temas.
-- Conteudo educativo demonstrativo.
-- Colecao Pig com busca, filtros e paginacao local.
-- PigCoin ficticio como narrativa.
+- Navegação estática por temas.
+- Conteúdo educativo demonstrativo.
+- Coleção Pig com busca, filtros e paginacao local.
+- PigCoin fictício como narrativa.
 - Teaser futuro sem data ou desbloqueio.
 
 ## Conceituais
 
-- Localizacao por idioma e pais.
-- Curadoria por nivel editorial e classificacao local.
-- Supervisao responsavel conforme jurisdicao.
+- Localização por idioma e pais.
+- Curadoria por nivel editorial e classificação local.
+- Supervisão responsável conforme jurisdição.
 
-## Nao disponiveis
+## Não disponiveis
 
-Backend, banco, conta, autenticacao, coleta de dados, compra, pagamento, saque, chat, rede social e publicidade comportamental.
+Backend, banco, conta, autenticação, coleta de dados, compra, pagamento, saque, chat, rede social e publicidade comportamental.

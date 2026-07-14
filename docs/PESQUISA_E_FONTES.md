@@ -5,17 +5,17 @@
 Priorizar:
 
 1. IBGE e Censo;
-2. CBO e Ministerio do Trabalho e Emprego;
+2. CBO e Ministério do Trabalho e Emprego;
 3. IPHAN e Centro Nacional de Folclore e Cultura Popular;
 4. Funai;
 5. Fundacao Cultural Palmares;
 6. ministerios e legislacao oficial;
-7. universidades, museus e arquivos historicos;
+7. universidades, museus e arquivos históricos;
 8. organizacoes representativas e fontes regionais confiaveis.
 
 ## Registro minimo
 
-Cada fato cultural, territorial, profissional ou historico deve poder armazenar:
+Cada fato cultural, territorial, profissional ou histórico deve poder armazenar:
 
 ```json
 {
@@ -29,12 +29,12 @@ Cada fato cultural, territorial, profissional ou historico deve poder armazenar:
 ## Status
 
 - `revisado`: fonte suficiente para o campo registrado.
-- `pendente`: ainda nao confirmado.
-- `consulta_obrigatoria`: exige participacao de comunidade ou especialistas.
-- `cbo_pendente`: ocupacao ainda precisa ser conferida na CBO.
+- `pendente`: ainda não confirmado.
+- `consulta_obrigatoria`: exige participação de comunidade ou especialistas.
+- `cbo_pendente`: ocupação ainda precisa ser conferida na CBO.
 - `reservado`: estrutura futura, sem afirmacao factual.
 
-Sem fonte suficiente, nao inventar e nao publicar como confirmado.
+Sem fonte suficiente, não inventar e não publicar como confirmado.
 
 ## Fontes consultadas nesta reorganizacao
 

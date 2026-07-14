@@ -7,10 +7,10 @@
   "categoria_atual": "validacao_e_revisao",
   "quantidade_criada": 3251,
   "lacunas": [
-    "Revisar culturalmente os 391 slots ligados aos nomes oficiais de povos indigenas.",
+    "Revisar culturalmente os 391 slots ligados aos nomes oficiais de povos indígenas.",
     "Pesquisar individualmente os segmentos de comunidades tradicionais.",
-    "Pesquisar 92 variacoes folcloricas antes de nomear ou publicar.",
-    "Confirmar fontes especificas para historias migratorias e familias mistas."
+    "Pesquisar 92 variações folclóricas antes de nomear ou publicar.",
+    "Confirmar fontes específicas para histórias migratórias e famílias mistas."
   ],
   "proximo_comando_exato": "node scripts/build-personagens-catalog.mjs && node scripts/validate-personagens-catalog.mjs"
 }

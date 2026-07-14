@@ -3,8 +3,8 @@
   "fonte": {
     "data_consulta": "2026-07-12",
     "status": "importado_de_fonte_oficial",
-    "titulo": "Classificacao Brasileira de Ocupacoes - CBO 2002, ocupacoes",
-    "instituicao": "Ministerio do Trabalho e Emprego",
+    "titulo": "Classificação Brasileira de Ocupações - CBO 2002, ocupações",
+    "instituicao": "Ministério do Trabalho e Emprego",
     "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/cbo/servicos/downloads"
   },
   "ocupacoes": [
@@ -1422,7 +1422,7 @@
     },
     {
       "codigo": "214945",
-      "titulo": "Engenheiro de logistica"
+      "titulo": "Engenheiro de logística"
     },
     {
       "codigo": "215105",
@@ -2958,7 +2958,7 @@
     },
     {
       "codigo": "252715",
-      "titulo": "Analista de logistica"
+      "titulo": "Analista de logística"
     },
     {
       "codigo": "252720",
@@ -5262,7 +5262,7 @@
     },
     {
       "codigo": "414140",
-      "titulo": "Auxiliar de logistica"
+      "titulo": "Auxiliar de logística"
     },
     {
       "codigo": "414205",

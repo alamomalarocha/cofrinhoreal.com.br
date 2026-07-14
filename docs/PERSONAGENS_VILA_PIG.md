@@ -1,6 +1,6 @@
 # Personagens da Vila Fazenda Pig
 
-Este documento registra a base oficial de personagens colecionaveis da Vila Fazenda Pig.
+Este documento registra a base oficial de personagens colecionáveis da Vila Fazenda Pig.
 
 ## Quantidade atual
 
@@ -10,13 +10,13 @@ O card `001` e sempre o **Pig Principal**.
 
 ## Separacao conceitual
 
-O Pig Principal, os avatares do usuario e os personagens da Vila Pig nao sao a mesma coisa.
+O Pig Principal, os avatares do usuário e os personagens da Vila Pig não são a mesma coisa.
 
 - `001 - Pig Principal`: mascote/guia da marca, professor-amigo e rosto do Cofrinho Real.
-- `002` a `011`: avatares base por faixa etaria do usuario.
-- `012` em diante: personagens fixos da Vila Pig / Familia Pig, usados no universo narrativo.
+- `002` a `011`: avatares base por faixa etária do usuário.
+- `012` em diante: personagens fixos da Vila Pig / Família Pig, usados no universo narrativo.
 
-O Avatar Pig do usuario deve ser tratado como personalizacao visual opcional, com a pergunta:
+O Avatar Pig do usuário deve ser tratado como personalização visual opcional, com a pergunta:
 
 > Como voce quer personalizar seu Pig?
 
@@ -24,7 +24,7 @@ Texto de apoio:
 
 > Voce pode mudar isso depois.
 
-As opcoes publicas de avatar sao estilos visuais: Pig Azul, Pig Rosa, Pig Arco-iris e Pig Padrao. Elas nao representam declaracao obrigatoria de identidade pessoal.
+As opções publicas de avatar são estilos visuais: Pig Azul, Pig Rosa, Pig Arco-íris e Pig Padrão. Elas não representam declaracao obrigatória de identidade pessoal.
 
 Nomes internos planejados:
 
@@ -33,29 +33,29 @@ Nomes internos planejados:
 - `avatar_style: arco_iris`
 - `avatar_style: padrao`
 
-Nao usar publicamente "menino", "menina", "LGBT", "neutro" ou "o que voce e".
+Não usar publicamente "menino", "menina", "LGBT", "neutro" ou "o que voce e".
 
-Nao criar variacoes por estilo agora. Os personagens `002` a `011` continuam sendo a sequencia de avatares base/padrao por idade, mas ja possuem variacoes planejadas para `padrao`, `azul`, `rosa` e `arco_iris`.
+Não criar variações por estilo agora. Os personagens `002` a `011` continuam sendo a sequencia de avatares base/padrao por idade, mas ja possuem variações planejadas para `padrao`, `azul`, `rosa` e `arco_iris`.
 
 ## Imagem oficial criada
 
 - `001` Pig Principal: `assets/characters/001-pig-principal.png`
 
-As imagens antigas de `002` a `010` foram movidas para `assets/characters/_drafts/` e nao contam como assets oficiais.
+As imagens antigas de `002` a `010` foram movidas para `assets/characters/_drafts/` e não contam como assets oficiais.
 
 A ordem inicial oficial e:
 
 - `001` Pig Principal
-- `002` Pig Bebe
+- `002` Pig Bebê
 - `003` Pig Primeirinhos
-- `004` Pig Crianca
-- `005` Pig Pre-Adolescente
+- `004` Pig Criança
+- `005` Pig Pré-adolescente
 - `006` Pig Adolescente
 - `007` Pig Jovem
 - `008` Pig Jovem Adulto
 - `009` Pig Adulto
 - `010` Pig Coroa
-- `011` Pig Senior
+- `011` Pig Sênior
 - `012` Pinguinha
 - `013` Mae Helena
 - `014` Pai Raimundo
@@ -100,16 +100,16 @@ A base contempla:
 
 - mascote e guias;
 - avatares por idade;
-- familia principal;
-- familia estendida;
+- família principal;
+- família estendida;
 - avos dos dois lados;
 - escola;
 - cantina e eventos escolares;
-- comercio local;
-- vizinhanca;
+- comércio local;
+- vizinhança;
 - parentes e visitantes;
-- relacoes de confianca;
-- proposito social futuro;
+- relações de confiança;
+- propósito social futuro;
 - comunidade educativa.
 
 ## Uso futuro
@@ -117,13 +117,13 @@ A base contempla:
 Os personagens poderao ser usados em:
 
 - app;
-- cards colecionaveis;
+- cards colecionáveis;
 - jogos educativos futuros;
 - videos;
 - materiais A4;
-- campanhas de familia, escola, comercio e comunidade.
+- campanhas de família, escola, comércio e comunidade.
 
-No MVP atual, eles existem apenas como estrutura documental e base de dados estatica.
+No MVP atual, eles existem apenas como estrutura documental e base de dados estática.
 
 ## Uso no website
 
@@ -139,7 +139,7 @@ Ele e o contraponto educativo do Pig. No dinheiro real, ele apenas orienta. No P
 
 Dados oficiais:
 
-- numero: 201
+- número: 201
 - nome: Vantajinho
 - slug: vantajinho
 - tipo_personagem: personagem_especial
@@ -149,22 +149,22 @@ Dados oficiais:
 - status_imagem: criada
 - asset_futuro: assets/characters/201-vantajinho.png
 
-## Colecao Pig
+## Coleção Pig
 
-A Colecao Pig e a representacao visual em cards dos personagens, avatares e especiais do universo Cofrinho Real. Os cards sao institucionais, educativos e colecionaveis apenas no sentido visual. Nao possuem valor financeiro, nao sao vendidos e nao devem ser tratados como aposta, cassino, loot box ou mecanismo de recompensa financeira.
+A Coleção Pig e a representação visual em cards dos personagens, avatares e especiais do universo Cofrinho Real. Os cards são institucionais, educativos e colecionáveis apenas no sentido visual. Não possuem valor financeiro, não são vendidos e não devem ser tratados como aposta, cassino, loot box ou mecanismo de recompensa financeira.
 
-A pagina estatica `personagens.html` deve ser atualizada sempre que uma imagem oficial de personagem ou avatar for criada.
+A página estática `personagens.html` deve ser atualizada sempre que uma imagem oficial de personagem ou avatar for criada.
 
-## Catalogo escalavel
+## Catálogo escalavel
 
-O numero 200 deixou de ser limite de expansao. Os numeros legados permanecem, enquanto `uid`, `numero_legacy` e `card_code` permitem crescimento para milhares de registros. A matriz de cobertura define prioridades por necessidade cultural e educativa, nao por contagem.
+O número 200 deixou de ser limite de expansão. Os números legados permanecem, enquanto `uid`, `numero_legacy` e `card_code` permitem crescimento para milhares de registros. A matriz de cobertura define prioridades por necessidade cultural e educativa, não por contagem.
 
 Ver `ARQUITETURA_UNIVERSO_PIG.md`, `MATRIZ_COBERTURA_PERSONAGENS.md` e `data/backlog-personagens.csv`.
 
 <!-- CATALOGO_BRASILEIRO_INICIO -->
-## Catalogo brasileiro compilado
+## Catálogo brasileiro compilado
 
-Em 2026-07-12, o catalogo passou a ter 3251 registros fixos, 1430 familias e cobertura das 27 UFs. As fontes ficam em `data/personagens/`; os arquivos monoliticos sao gerados. Perfis culturais sensiveis permanecem nao publicaveis ate pesquisa e revisao.
+Em 2026-07-12, o catálogo passou a ter 3251 registros fixos, 1430 famílias e cobertura das 27 UFs. As fontes ficam em `data/personagens/`; os arquivos monolíticos são gerados. Perfis culturais sensíveis permanecem não publicáveis até pesquisa e revisão.
 
-Referencias: `docs/CATALOGO_BRASILEIRO_PERSONAGENS.md`, `docs/REVISAO_CULTURAL_PERSONAGENS.md` e `data/relatorio-validacao-catalogo.json`.
+Referências: `docs/CATALOGO_BRASILEIRO_PERSONAGENS.md`, `docs/REVISAO_CULTURAL_PERSONAGENS.md` e `data/relatorio-validacao-catalogo.json`.
 <!-- CATALOGO_BRASILEIRO_FIM -->

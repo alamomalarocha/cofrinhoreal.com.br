@@ -1,6 +1,6 @@
 # Tests
 
-Esta pasta sera usada futuramente para testes.
+Esta pasta será usada futuramente para testes.
 
 ## Tipos previstos
 
@@ -8,10 +8,10 @@ Esta pasta sera usada futuramente para testes.
 - testes de integracao
 - testes de interface
 - testes de acessibilidade
-- testes de seguranca
+- testes de segurança
 - testes de regras de negocio
 
 ## Estado atual
 
-Sem testes automatizados enquanto nao houver sistema implementado.
+Sem testes automatizados enquanto não houver sistema implementado.
 

@@ -1,8 +1,8 @@
 # Cobertura Regional e por UF
 
-## Regioes
+## Regiões
 
-| Regiao | Personagens |
+| Região | Personagens |
 | --- | ---: |
 | norte | 390 |
 | nordeste | 570 |
@@ -42,4 +42,4 @@
 | GO | 84 |
 | DF | 60 |
 
-A distribuicao usa capitais e municipios do interior e inclui contextos urbanos e rurais. Os personagens sao ficticios e nao representam sozinhos toda a diversidade de seu estado.
+A distribuicao usa capitais e municipios do interior e inclui contextos urbanos e rurais. Os personagens são fictícios e não representam sozinhos toda a diversidade de seu estado.

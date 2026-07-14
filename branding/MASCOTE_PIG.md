@@ -2,9 +2,9 @@
 
 Pig e o centro emocional da marca.
 
-Ele acompanha, celebra, ensina e cresce junto com o usuario.
+Ele acompanha, celebra, ensina e cresce junto com o usuário.
 
-## Direcao
+## Direção
 
 - Fofo.
 - Confiavel.

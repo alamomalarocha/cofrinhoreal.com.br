@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "atualizado_em": "2026-07-12",
-  "regra": "Os registros sao trilhas de pesquisa e nao autorizam estereotipos ou atribuicoes regionais automaticas.",
+  "regra": "Os registros são trilhas de pesquisa e não autorizam estereótipos ou atribuições regionais automáticas.",
   "categorias": [
     {"id": "origem_povo_indigena_especifico", "nome": "Povo indigena especifico", "tipo": "povo_especifico", "status_pesquisa": "consulta_obrigatoria"},
     {"id": "origem_afro_brasileira", "nome": "Afro-brasileira", "tipo": "origem_etnico_cultural", "status_pesquisa": "pendente"},
@@ -29,7 +29,7 @@
   ],
   "fontes_base": [
     {
-      "titulo": "Censo Demografico 2022",
+      "titulo": "Censo Demográfico 2022",
       "instituicao": "IBGE",
       "url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html",
       "data_acesso": "2026-07-12"

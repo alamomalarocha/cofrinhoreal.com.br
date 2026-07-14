@@ -1,4 +1,4 @@
-# Pesquisa e Referencias 001
+# Pesquisa e Referências 001
 
 ## Data
 
@@ -6,25 +6,25 @@
 
 ## Objetivo
 
-Registrar uma pesquisa rapida para orientar o refinamento visual e documental do prototipo estatico do Cofrinho Real.
+Registrar uma pesquisa rapida para orientar o refinamento visual e documental do protótipo estático do Cofrinho Real.
 
-Este documento nao e parecer juridico, nao confirma conformidade completa com LGPD e nao autoriza operacao financeira real.
+Este documento não e parecer jurídico, não confirma conformidade completa com LGPD e não autoriza operação financeira real.
 
 ## LGPD, privacidade e cookies
 
 Fontes consultadas:
 
-- ANPD — Guia Orientativo Cookies e Protecao de Dados Pessoais: https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-orientativo-cookies-e-protecao-de-dados-pessoais.pdf
-- ANPD — Guia de Seguranca da Informacao para Agentes de Tratamento de Pequeno Porte: https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-publica-guia-de-seguranca-para-agentes-de-tratamento-de-pequeno-porte
+- ANPD — Guia Orientativo Cookies e Proteção de Dados Pessoais: https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-orientativo-cookies-e-protecao-de-dados-pessoais.pdf
+- ANPD — Guia de Segurança da Informação para Agentes de Tratamento de Pequeno Porte: https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-publica-guia-de-seguranca-para-agentes-de-tratamento-de-pequeno-porte
 
-Decisoes para o prototipo:
+Decisões para o protótipo:
 
 - Manter linguagem simples sobre privacidade.
-- Informar que o prototipo nao coleta cadastro real.
-- Informar que nao ha login funcional, PIX real, conta real ou movimentacao de dinheiro.
-- Criar paginas estaticas iniciais de privacidade, termos, cookies e direitos.
-- Usar aviso de cookies/privacidade apenas como comunicacao inicial.
-- Nao afirmar que o projeto esta juridicamente pronto.
+- Informar que o protótipo não coleta cadastro real.
+- Informar que não há login funcional, PIX real, conta real ou movimentação de dinheiro.
+- Criar páginas estáticas iniciais de privacidade, termos, cookies e direitos.
+- Usar aviso de cookies/privacidade apenas como comunicação inicial.
+- Não afirmar que o projeto esta juridicamente pronto.
 
 ## Badges App Store e Google Play
 
@@ -33,11 +33,11 @@ Fontes consultadas:
 - Apple — App Store Marketing Resources and Identity Guidelines: https://developer.apple.com/app-store/marketing/guidelines/
 - Google Play — Badge Guidelines: https://partnermarketinghub.withgoogle.com/brands/google-play/visual-identity/badge-guidelines/
 
-Decisoes para o prototipo:
+Decisões para o protótipo:
 
-- Como ainda nao existe app publicado, nao usar links reais de loja.
-- Nao usar assets oficiais como se o app ja estivesse disponivel.
-- Manter botoes visuais provisórios com microtexto "Aplicativo em fase de prototipo visual".
+- Como ainda não existe app publicado, não usar links reais de loja.
+- Não usar assets oficiais como se o app ja estivesse disponivel.
+- Manter botoes visuais provisórios com microtexto "Aplicativo em fase de protótipo visual".
 - Registrar que qualquer uso futuro de badges oficiais deve seguir as regras da Apple e do Google.
 
 ## Cloudflare Pages
@@ -48,15 +48,15 @@ Fontes consultadas:
 - Cloudflare Pages — Headers: https://developers.cloudflare.com/pages/configuration/headers/
 - Cloudflare Pages — Debugging Pages: https://developers.cloudflare.com/pages/configuration/debugging-pages/
 
-Decisoes para o prototipo:
+Decisões para o protótipo:
 
 - Manter `robots.txt` bloqueando indexacao temporariamente.
 - Manter `meta robots` com `noindex`.
 - Manter `_headers` com `X-Robots-Tag`.
 - Evitar configuracoes agressivas de cache manual.
-- Continuar usando cache busting simples em CSS/JS durante validacao visual.
+- Continuar usando cache busting simples em CSS/JS durante validação visual.
 
-## Referencias visuais
+## Referências visuais
 
 Fontes consultadas:
 
@@ -68,17 +68,17 @@ Fontes consultadas:
 Aprendizados para o Cofrinho Real:
 
 - Interface deve ser simples, clara e legivel.
-- Mascote precisa reforcar apoio e companhia, nao pressao.
+- Mascote precisa reforcar apoio e companhia, não pressão.
 - Marca deve ter sistema visual consistente para crescer.
 - Produto brasileiro pode ser moderno sem parecer frio.
-- Nao copiar nenhum site ou app; usar apenas como inspiracao de qualidade.
+- Não copiar nenhum site ou app; usar apenas como inspiracao de qualidade.
 
 ## Resultado aplicado
 
 Esta pesquisa orientou:
 
 - Header mais completo, com busca visual, Entrar e Criar conta.
-- Paginas estaticas de privacidade, termos, cookies e direitos.
-- Avisos mais claros de prototipo visual.
+- Páginas estáticas de privacidade, termos, cookies e direitos.
+- Avisos mais claros de protótipo visual.
 - Botões de app tratados como provisórios.
-- Documentacao de jogos educativos sem aposta, loot box ou vicio.
+- Documentação de jogos educativos sem aposta, loot box ou vício.

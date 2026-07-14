@@ -2,9 +2,9 @@
 
 ## Objetivo
 
-Registrar a direcao futura para jogos, albuns e desafios educativos do Cofrinho Real.
+Registrar a direção futura para jogos, álbuns e desafios educativos do Cofrinho Real.
 
-No MVP atual, nao criar jogos funcionais.
+No MVP atual, não criar jogos funcionais.
 
 ## Principio central
 
@@ -16,10 +16,10 @@ Toda ideia deve responder:
 
 ## Permitido no futuro
 
-- Albuns educativos.
+- Álbuns educativos.
 - Desafios de guardar pequenos valores.
 - Metas familiares.
-- Temas como Copa, Olimpiadas, animais, profissoes, matematica simples e historia do dinheiro.
+- Temas como Copa, Olimpiadas, animais, profissões, matematica simples e história do dinheiro.
 - Recompensas internas por aprendizado e constancia.
 - Pig Coins como marco simbolico sem valor financeiro.
 
@@ -31,8 +31,8 @@ Toda ideia deve responder:
 - Roleta.
 - FOMO.
 - Compra de vantagem.
-- Ranking financeiro entre criancas.
-- Pressao para voltar ao app.
+- Ranking financeiro entre crianças.
+- Pressão para voltar ao app.
 - Promessa de ganho financeiro.
 
 ## Pig Coins nos jogos
@@ -51,4 +51,4 @@ Elas nunca podem:
 
 O site mostra apenas uma secao conceitual de jogos educativos.
 
-Nao ha jogo funcional, placar, cadastro, recompensa real ou mecanica interativa complexa.
+Não há jogo funcional, placar, cadastro, recompensa real ou mecânica interativa complexa.

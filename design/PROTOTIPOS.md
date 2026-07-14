@@ -1,10 +1,10 @@
 # Prototipos
 
-Esta pasta podera documentar prototipos navegaveis, fluxos e decisoes de interface.
+Esta pasta poderá documentar prototipos navegaveis, fluxos e decisões de interface.
 
 ## Estado atual
 
-O projeto esta em fase de organizacao.
+O projeto esta em fase de organização.
 
-Nao criar implementacoes novas sem alinhar com o MVP.
+Não criar implementacoes novas sem alinhar com o MVP.
 

@@ -1,8 +1,8 @@
-# Organizacao Digital Alamo - 2026-07-04
+# Organização Digital Alamo - 2026-07-04
 
-Este documento registra a nova base de trabalho digital para projetos, codigo, GitHub, Cloudflare, Google Drive, iPhone, notebook e Codex.
+Este documento registra a nova base de trabalho digital para projetos, código, GitHub, Cloudflare, Google Drive, iPhone, notebook e Codex.
 
-Regra central: nao comecar do zero, nao apagar nada sem confirmacao, nao usar caminhos antigos sem confirmar, nao usar a conta GitHub antiga para novos repositorios e nao mexer em Cloudflare/DNS sem plano e backup.
+Regra central: não comecar do zero, não apagar nada sem confirmacao, não usar caminhos antigos sem confirmar, não usar a conta GitHub antiga para novos repositorios e não mexer em Cloudflare/DNS sem plano e backup.
 
 ## Contas principais
 
@@ -18,8 +18,8 @@ Daqui para frente:
 
 - Usar `alamomalarocha@gmail.com` como conta Google principal.
 - Usar GitHub novo: `alamomalarocha`.
-- Usar iCloud apenas para Apple ID, App Store, Buscar iPhone, iCloud necessario e backup do WhatsApp.
-- Nao criar nada novo em contas antigas.
+- Usar iCloud apenas para Apple ID, App Store, Buscar iPhone, iCloud necessário e backup do WhatsApp.
+- Não criar nada novo em contas antigas.
 - Se recuperar acesso a contas antigas, migrar/salvar tudo antes de remover ou apagar.
 
 ## Google Drive e notebook
@@ -60,7 +60,7 @@ Regras:
 - Todo projeto deve ficar preferencialmente em `H:\Meu Drive\01 - Projetos`.
 - Evitar usar `C:\ALAMO-PROJETOS` como local principal.
 - Se um projeto ainda estiver em `C:\` ou OneDrive, confirmar antes de mover.
-- Antes de mover qualquer projeto, verificar se e repositorio Git e se tem `.git`.
+- Antes de mover qualquer projeto, verificar se e repositório Git e se tem `.git`.
 
 Conta Google Drive antiga/profissional:
 
@@ -68,26 +68,26 @@ Conta Google Drive antiga/profissional:
 contato@cofrinhoreal.com.br
 ```
 
-Observacao: essa conta ainda pode estar conectada temporariamente no notebook por seguranca. Nao desconectar/remover sem confirmar que tudo importante ja foi copiado para o Drive novo.
+Observação: essa conta ainda pode estar conectada temporariamente no notebook por segurança. Não desconectar/remover sem confirmar que tudo importante ja foi copiado para o Drive novo.
 
 ## iPhone
 
-Configuracao atual:
+Configuração atual:
 
-- Gmail e o app padrao de e-mail.
-- Chrome e o navegador padrao.
+- Gmail e o app padrão de e-mail.
+- Chrome e o navegador padrão.
 - Google Calendar esta instalado e logado em `alamomalarocha@gmail.com`.
 - Google Fotos esta logado em `alamomalarocha@gmail.com`.
 - Google Drive aparece no app Arquivos.
 - Contatos foram migrados do iCloud para o Google novo.
 - Contatos do iCloud foram desligados no iPhone.
-- Conta padrao dos contatos: Gmail.
+- Conta padrão dos contatos: Gmail.
 
 Contatos:
 
 - iCloud tinha 306 contatos.
 - Google novo ficou com 293 contatos.
-- Google Contatos nao encontrou duplicados para mesclar.
+- Google Contatos não encontrou duplicados para mesclar.
 
 Calendario:
 
@@ -99,9 +99,9 @@ Fotos:
 - Google Fotos esta na conta nova.
 - Backup do Google Fotos estava concluido.
 - iCloud ainda tem fotos antigas, aproximadamente 2.745 itens.
-- Transferencia via `privacy.apple.com` foi bloqueada porque a Protecao Avancada de Dados do iCloud esta ativa.
-- Nao apagar fotos do iCloud.
-- Resolver depois com calma se sera necessario desligar temporariamente Protecao Avancada de Dados ou baixar/subir pelo notebook.
+- Transferencia via `privacy.apple.com` foi bloqueada porque a Proteção Avancada de Dados do iCloud esta ativa.
+- Não apagar fotos do iCloud.
+- Resolver depois com calma se será necessário desligar temporariamente Proteção Avancada de Dados ou baixar/subir pelo notebook.
 
 Caminho oficial no app Arquivos do iPhone:
 
@@ -129,17 +129,17 @@ E-mail da conta GitHub nova:
 alamomalarocha@gmail.com
 ```
 
-Motivo da mudanca:
+Motivo da mudança:
 
 - A conta antiga `alamoarocha` ficou inacessivel no navegador por senha/2FA antigos.
-- GitHub Support informou que nao pode desativar, burlar ou remover 2FA.
+- GitHub Support informou que não pode desativar, burlar ou remover 2FA.
 - Ticket aberto no GitHub Support: `#4534977`.
 
 Regras:
 
 - Todo novo trabalho GitHub deve usar `github.com/alamomalarocha`.
-- A conta antiga `alamoarocha` fica apenas como referencia historica.
-- Nao tentar publicar/push para `github.com/alamoarocha`.
+- A conta antiga `alamoarocha` fica apenas como referência historica.
+- Não tentar publicar/push para `github.com/alamoarocha`.
 - Antes de qualquer push, verificar o remote.
 
 Autor dos commits no GitHub Desktop:
@@ -170,7 +170,7 @@ https://github.com/alamomalarocha/...
 
 ### GIRTAB
 
-Repositorio novo:
+Repositório novo:
 
 ```text
 https://github.com/alamomalarocha/girtabusa
@@ -186,7 +186,7 @@ Status:
 
 ### CELULARS
 
-Repositorio novo:
+Repositório novo:
 
 ```text
 https://github.com/alamomalarocha/celulars-site
@@ -224,7 +224,7 @@ Arquivos importantes confirmados:
 
 ### Cofrinho Real
 
-Repositorio novo:
+Repositório novo:
 
 ```text
 https://github.com/alamomalarocha/cofrinhoreal.com.br
@@ -246,9 +246,9 @@ C:\Users\alamo\OneDrive\Documents\cofrinhoreal.com.br 2
 
 Confirmacoes:
 
-- E repositorio Git: sim.
+- E repositório Git: sim.
 - Existe `.git`: sim.
-- Ultimo commit local registrado no momento da migracao: `ef9c881 Add avatar 004 Pig Crianca padrao image`.
+- Último commit local registrado no momento da migração: `ef9c881 Add avatar 004 Pig Crianca padrao image`.
 
 Arquivos/pastas importantes confirmados:
 
@@ -277,19 +277,19 @@ Arquivos/pastas importantes confirmados:
 - `scripts`
 - `tests`
 
-Pastas que nao sao o projeto principal:
+Pastas que não são o projeto principal:
 
 ```text
 H:\Meu Drive\01 - Projetos\Alamo Projetos\COFRINHO REAL\Pig-Cofrinho-Real
 ```
 
-Parece pasta de imagens/assets. Tem `Avatares`, `Logos-CR-Pig`, `Logo-Vantajinho`. Nao e o repositorio principal.
+Parece pasta de imagens/assets. Tem `Avatares`, `Logos-CR-Pig`, `Logo-Vantajinho`. Não e o repositório principal.
 
 ```text
 H:\Meu Drive\06 - Backup\Notebook\BACKUP DESKTOP\Pig-Cofrinho-Real
 ```
 
-Parece backup. Nao usar como principal sem confirmar.
+Parece backup. Não usar como principal sem confirmar.
 
 ## Cloudflare
 
@@ -305,11 +305,11 @@ Cloudflare antigo:
 
 Regras:
 
-- Nao adicionar dominio no Cloudflare novo sem plano.
-- Nao trocar nameservers no GoDaddy sem copiar DNS antes.
-- Nao mexer em DNS se os sites estao funcionando.
+- Não adicionar dominio no Cloudflare novo sem plano.
+- Não trocar nameservers no GoDaddy sem copiar DNS antes.
+- Não mexer em DNS se os sites estao funcionando.
 - Primeiro terminar GitHub novo e repositorios.
-- Depois planejar migracao Cloudflare com backup completo.
+- Depois planejar migração do Cloudflare com backup completo.
 
 ## GoDaddy e dominios
 
@@ -324,8 +324,8 @@ Dominios principais:
 Regras:
 
 - GoDaddy e o registrador.
-- Se for necessario migrar para Cloudflare novo, sera possivel trocar nameservers pelo GoDaddy.
-- Nao trocar nameservers ainda.
+- Se for necessário migrar para Cloudflare novo, será possível trocar nameservers pelo GoDaddy.
+- Não trocar nameservers ainda.
 - Antes de qualquer troca, copiar todos os DNS atuais: A, CNAME, MX, TXT, SPF, DKIM, DMARC, registros do Google Workspace, registros do GitHub/Cloudflare Pages, redirects e subdominios.
 
 ## Regras para Codex e desenvolvimento
@@ -334,14 +334,14 @@ Sempre fazer antes de alterar:
 
 1. Identificar projeto correto.
 2. Confirmar caminho completo.
-3. Confirmar se e repositorio Git.
+3. Confirmar se e repositório Git.
 4. Confirmar remote.
 5. Confirmar branch.
-6. Confirmar se ha mudancas locais.
-7. Nao apagar nada.
-8. Nao mover arquivos sem confirmacao.
-9. Nao dar commit/push sem autorizacao.
-10. Nao publicar sem revisar.
+6. Confirmar se há mudanças locais.
+7. Não apagar nada.
+8. Não mover arquivos sem confirmacao.
+9. Não dar commit/push sem autorizacao.
+10. Não publicar sem revisar.
 
 Sempre usar:
 
@@ -350,17 +350,17 @@ Sempre usar:
 - Pasta base: `H:\Meu Drive\01 - Projetos`
 - Entrada oficial: `H:\Meu Drive\99 - Entrada`
 
-Nao usar como destino principal:
+Não usar como destino principal:
 
 - `C:\ALAMO-PROJETOS`
 - `C:\Users\alamo\OneDrive\Documents`
 - GitHub antigo `alamoarocha`
 
-Excecao atual:
+Exceção atual:
 
 - Cofrinho Real ainda esta em `C:\Users\alamo\OneDrive\Documents\cofrinhoreal.com.br 2`.
 - Antes de mover, confirmar com Alamo.
-- Nao mover automaticamente.
+- Não mover automaticamente.
 
 ## Projeto CELULARS
 
@@ -375,13 +375,13 @@ Site:
 - Vitrine/catalogo sem checkout.
 - Fechamento pelo WhatsApp institucional: `+1 786-546-6540`.
 
-CTA padrao:
+CTA padrão:
 
 ```text
 Consultar pelo WhatsApp
 ```
 
-Mensagem padrao:
+Mensagem padrão:
 
 ```text
 Ola, tenho interesse em comprar iPhone pela CELULARS. Gostaria de receber atendimento para consultar modelos, disponibilidade e condicoes de compra.
@@ -416,12 +416,12 @@ Frete Brasil:
 Atacado:
 
 - Area protegida para cliente B2B validado.
-- Nao publicar tabela real aberta.
-- Cloudflare Access podera proteger a area futuramente.
+- Não publicar tabela real aberta.
+- Cloudflare Access poderá proteger a area futuramente.
 
 Importante:
 
-- Nao alterar preco, PTAX, filtros, WhatsApp ou logica principal sem confirmacao.
+- Não alterar preco, PTAX, filtros, WhatsApp ou logica principal sem confirmacao.
 
 CDVS / iPhone 15:
 
@@ -432,9 +432,9 @@ CDVS / iPhone 15:
 
 Regras:
 
-- Nao substituir imagens em massa.
-- Nao aplicar CDVS a outros modelos antes de validar iPhone 15.
-- Nao alterar catalogo oficial antes de aprovacao final.
+- Não substituir imagens em massa.
+- Não aplicar CDVS a outros modelos antes de validar iPhone 15.
+- Não alterar catálogo oficial antes de aprovação final.
 
 ## Projeto GIRTAB
 
@@ -452,10 +452,10 @@ girtabusa.com
 
 Atuacao:
 
-- Trading, logistica e procurement para America Latina.
+- Trading, logística e procurement para América Latina.
 - Foco em iPhones e produtos Apple novos e recondicionados.
 
-Publico:
+Público:
 
 - B2B LATAM, especialmente Brasil.
 
@@ -465,7 +465,7 @@ Contato correto no site:
 contact@celulars.com.br
 ```
 
-Nao usar no site:
+Não usar no site:
 
 ```text
 gtandlllc@gmail.com
@@ -473,7 +473,7 @@ gtandlllc@gmail.com
 
 Linguagem:
 
-- Nao alegar parceria/autorizacao Apple ou operadoras.
+- Não alegar parceria/autorizacao Apple ou operadoras.
 - Usar termos como `U.S. supplier network`, `verified sourcing channels`, `trade-in and refurbished device market`.
 
 ## Projeto Cofrinho Real
@@ -492,9 +492,9 @@ Universo:
 
 Objetivo:
 
-- Educacao financeira ludica para criancas e familias.
+- Educação financeira ludica para crianças e famílias.
 
-Repositorio novo:
+Repositório novo:
 
 ```text
 https://github.com/alamomalarocha/cofrinhoreal.com.br
@@ -505,7 +505,7 @@ Antes de evoluir:
 1. Ler `PROMPT_MESTRE.md`.
 2. Ler `IDENTIDADE_VISUAL.md`.
 3. Ler `docs/README.md`.
-4. Ler este documento quando a tarefa envolver organizacao, GitHub, Drive, Cloudflare ou migracao.
+4. Ler este documento quando a tarefa envolver organização, GitHub, Drive, Cloudflare ou migração.
 
 Status:
 
@@ -514,7 +514,7 @@ Status:
 - Sem banco real.
 - Sem login funcional.
 - Sem PIX real.
-- Sem movimentacao real de dinheiro.
+- Sem movimentação real de dinheiro.
 
 Tom:
 
@@ -522,35 +522,35 @@ Tom:
 - Infantil.
 - Educativo.
 - Divertido.
-- Responsavel.
+- Responsável.
 
 Vantajinho:
 
 - Pode ser apresentado como "esperto demais".
-- Catchphrase: "O Vantajinho olha tao longe para ganhar vantagem que tropeca no proprio rabo."
+- Catchphrase: "O Vantajinho olha tao longe para ganhar vantagem que tropeca no próprio rabo."
 
 PigCoin:
 
-- Usar analogia educativa inspirada na historia do Bitcoin: moeda alternativa, descentralizada, sem autoridade central, mineracao, energia, criptografia, escassez e seguranca.
-- Sempre em formato ficticio, ludico e educativo para criancas.
-- Nao parecer investimento real.
+- Usar analogia educativa inspirada na história do Bitcoin: moeda alternativa, descentralizada, sem autoridade central, mineração, energia, criptografia, escassez e segurança.
+- Sempre em formato fictício, lúdico e educativo para crianças.
+- Não parecer investimento real.
 
 ## Proximos passos recomendados
 
-1. Nao mexer no Cloudflare ainda.
+1. Não mexer no Cloudflare ainda.
 2. Confirmar que os tres repositorios novos estao no GitHub:
    - `alamomalarocha/girtabusa`
    - `alamomalarocha/celulars-site`
    - `alamomalarocha/cofrinhoreal.com.br`
 3. Atualizar cada projeto Codex com este contexto novo.
 4. Depois revisar GitHub Pages/Cloudflare Pages de cada site.
-5. Depois planejar migracao Cloudflare com GoDaddy:
+5. Depois planejar a migração do Cloudflare com a GoDaddy:
    - mapear DNS atual;
    - adicionar dominio no Cloudflare novo;
    - conferir registros;
    - trocar nameservers no GoDaddy somente quando estiver tudo pronto.
 6. Depois resolver iCloud Fotos antigas.
-7. Depois remover/desconectar contas antigas com seguranca.
+7. Depois remover/desconectar contas antigas com segurança.
 
 ## Regra final
 
@@ -563,4 +563,4 @@ A nova base de trabalho do Alamo e:
 - Entrada: `H:\Meu Drive\99 - Entrada`
 - Apple/iCloud: `alamoarocha@icloud.com`
 
-Nao usar conta/caminho antigo sem perguntar antes.
+Não usar conta/caminho antigo sem perguntar antes.

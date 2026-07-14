@@ -2,20 +2,20 @@
 
 ## Fase atual
 
-- Site estatico reposicionado em PigCoin ficticio, educacao e entretenimento.
-- Colecao Pig orientada por dados.
-- Arquitetura de pesquisa por jurisdicao, idade e conteudo.
-- Paginas legais como rascunhos sem vigencia.
+- Site estático reposicionado em PigCoin fictício, educação e entretenimento.
+- Coleção Pig orientada por dados.
+- Arquitetura de pesquisa por jurisdição, idade e conteúdo.
+- Páginas legais como rascunhos sem vigência.
 
-## Proximas validacoes
+## Próximas validacoes
 
-- Revisar clareza publica, acessibilidade e responsividade.
+- Revisar clareza pública, acessibilidade e responsividade.
 - Continuar imagens dos avatares sem reiniciar a sequencia.
-- Mapear conteudo educativo para classificacoes oficiais com especialistas.
-- Revisar protecao infantojuvenil e internacionalizacao profissionalmente.
+- Mapear conteúdo educativo para classificacoes oficiais com especialistas.
+- Revisar proteção infantojuvenil e internacionalização profissionalmente.
 
-## Nao autorizado
+## Não autorizado
 
 Backend, conta real, coleta de dados, pagamento, compra, saque, PIX, criptoativo, chat, rede social ou publicidade para menores.
 
-Qualquer funcionalidade reservada depende de decisao expressa e nova auditoria.
+Qualquer funcionalidade reservada depende de decisão expressa e nova auditoria.

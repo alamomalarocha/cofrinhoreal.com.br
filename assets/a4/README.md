@@ -2,4 +2,4 @@
 
 Espaco reservado para materiais imprimiveis futuros para comerciantes.
 
-No prototipo atual, os materiais A4 sao apenas previas visuais no site.
+No protótipo atual, os materiais A4 são apenas previas visuais no site.

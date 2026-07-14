@@ -12,7 +12,7 @@
   const progressLabel = document.querySelector("[data-load-progress-label]");
   const progressBar = document.querySelector("[data-load-progress-bar]");
   const collectionYear = "2026";
-  const assetVersion = "41";
+  const assetVersion = "42";
   const pageSize = 24;
   const batchSize = 3;
 
@@ -24,27 +24,27 @@
   };
 
   const styleLabels = {
-    padrao: "Padrao",
+    padrao: "Padrão",
     azul: "Azul",
     rosa: "Rosa",
-    arco_iris: "Arco-iris",
+    arco_iris: "Arco-íris",
   };
 
   const categoryLabels = {
     mascote_principal: "Mascote Principal",
-    avatar_usuario: "Avatar do Usuario",
+    avatar_usuario: "Avatar do usuário",
     personagem_especial: "Personagem Especial",
     personagem_especial_educativo: "Especial Educativo",
     personagem_vila: "Vila Pig",
     personagem_regional: "Brasil na Vila Pig",
-    personagem_educativo: "Educacao na Vila Pig",
-    familia_principal: "Familia Pig",
-    familia_estendida: "Familia Pig",
+    personagem_educativo: "Educação na Vila Pig",
+    familia_principal: "Família Pig",
+    familia_estendida: "Família Pig",
   };
 
   const typeLabels = {
     mascote_principal: "Mascote",
-    avatar_usuario: "Avatar do usuario",
+    avatar_usuario: "Avatar do usuário",
     personagem_especial: "Especial",
     personagem_especial_educativo: "Especial educativo",
     personagem_vila: "Vila Pig",
@@ -99,6 +99,10 @@
     );
   }
 
+  function displayName(person) {
+    return person.nome_exibicao || person.nome;
+  }
+
   function codeFor(person, style) {
     if (style) {
       return (
@@ -111,7 +115,7 @@
 
   function footerLine(person) {
     if (person.numero === "201") {
-      return "No dinheiro real, ele so ensina. No PigCoin, ele entra no jogo.";
+      return "No dinheiro real, ele só ensina. No PigCoin, ele entra no jogo.";
     }
     if (person.tipo_personagem === "avatar_usuario") {
       return "Aprender acompanha todas as fases da vida.";
@@ -119,7 +123,7 @@
     if (person.tipo_personagem === "mascote_principal") {
       return "O Pig acompanha cada pequena conquista.";
     }
-    return "Uma historia da Vila Pig para aprender com carinho.";
+    return "Uma história da Vila Pig para aprender com carinho.";
   }
 
   function versionedAsset(assetPath) {
@@ -204,7 +208,8 @@
     const cardCode = codeFor(person, style);
     const styleLabel = style ? styleLabels[style] || style : "Principal";
     const created = status === "criada" && image;
-    const title = style ? person.nome + " " + styleLabel : person.nome;
+    const name = displayName(person);
+    const title = style ? name + " " + styleLabel : name;
     const imageMarkup = created
       ? '<img src="' + escapeHtml(versionedAsset(image)) + '" alt="' + escapeHtml(title) + '" loading="lazy" />'
       : '<div class="card-placeholder" aria-label="Imagem pendente"><span>' +
@@ -236,10 +241,10 @@
       "<div><dt>Fase</dt><dd>" +
       escapeHtml(phaseLabel(person)) +
       "</dd></div>" +
-      "<div><dt>Regiao</dt><dd>" +
+      "<div><dt>Região</dt><dd>" +
       escapeHtml(locationLabel(person)) +
       "</dd></div>" +
-      "<div><dt>Codigo</dt><dd>" +
+      "<div><dt>Código</dt><dd>" +
       escapeHtml(cardCode) +
       "</dd></div>" +
       "</dl></div>" +
@@ -261,6 +266,7 @@
         person.numero,
         person.uid,
         person.card_code,
+        displayName(person),
         person.nome,
         person.nome_completo,
         person.slug,
@@ -320,8 +326,8 @@
     const totalProfiles = state.manifest.total_publicavel;
     const failures = state.failedLots ? " | " + state.failedLots + " lote(s) com falha" : "";
     progressLabel.textContent = state.loadingComplete
-      ? "Catalogo carregado: " + state.loadedLots + " lotes e " + state.loadedProfiles + " perfis." + failures
-      : "Carregando catalogo: lote " + state.loadedLots + " de " + totalLots + " | " + state.loadedProfiles + " de " + totalProfiles + " perfis.";
+      ? "Catálogo carregado: " + state.loadedLots + " lotes e " + state.loadedProfiles + " perfis." + failures
+      : "Carregando catálogo: lote " + state.loadedLots + " de " + totalLots + " | " + state.loadedProfiles + " de " + totalProfiles + " perfis.";
     progressBar.style.width = percentage + "%";
     progress.classList.toggle("is-complete", state.loadingComplete);
   }
@@ -337,7 +343,7 @@
     if (!matches.length) {
       statusLabel.textContent = state.loadingComplete
         ? "Nenhum card corresponde aos filtros atuais."
-        : "Nenhum card carregado corresponde aos filtros atuais. O catalogo ainda esta chegando.";
+        : "Nenhum card carregado corresponde aos filtros atuais. O catálogo ainda está chegando.";
     } else {
       const loadingText = state.loadingComplete ? "" : " enquanto os demais lotes carregam";
       statusLabel.textContent =
@@ -345,7 +351,7 @@
     }
 
     pagination.hidden = totalPages <= 1;
-    pageLabel.textContent = "Pagina " + state.page + " de " + totalPages;
+    pageLabel.textContent = "Página " + state.page + " de " + totalPages;
     pagination.querySelector('[data-page-action="previous"]').disabled = state.page <= 1;
     pagination.querySelector('[data-page-action="next"]').disabled = state.page >= totalPages;
     updateSummary();
@@ -419,7 +425,7 @@
 
   async function fetchJson(url) {
     const response = await fetch(url, { cache: "no-store" });
-    if (!response.ok) throw new Error(url + " indisponivel");
+    if (!response.ok) throw new Error(url + " indisponível");
     return response.json();
   }
 
@@ -473,14 +479,14 @@
       buildLookups(catalogs);
       populateFilters(catalogs, manifest);
 
-      if (!manifest.lotes?.length) throw new Error("Manifesto publico sem lotes");
+      if (!manifest.lotes?.length) throw new Error("Manifesto público sem lotes");
       await loadLotBatch(manifest.lotes.slice(0, 1));
       void loadRemainingLots(manifest.lotes.slice(1));
     } catch (error) {
       gallery.innerHTML = "";
       statusLabel.textContent =
-        "Nao foi possivel carregar a colecao. Abra por um servidor local para ler os dados estaticos.";
-      if (progressLabel) progressLabel.textContent = "Falha ao carregar o catalogo publico.";
+        "Não foi possível carregar a coleção. Abra por um servidor local para ler os dados estáticos.";
+      if (progressLabel) progressLabel.textContent = "Falha ao carregar o catálogo público.";
       console.error(error);
     }
   }

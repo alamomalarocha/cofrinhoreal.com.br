@@ -6,6 +6,7 @@
     {
       "numero": "002",
       "nome": "Pig Bebe",
+      "nome_exibicao": "Pig Bebê",
       "slug": "pig-bebe",
       "apelido": "Bebe",
       "aliases": [
@@ -14,11 +15,11 @@
         "pig bebe"
       ],
       "tipo": "avatar_usuario",
-      "categoria": "Avatares do usuario",
+      "categoria": "Avatares do usuário",
       "faixa_etaria": "0 a 2 anos",
-      "papel": "Avatar para conta administrada por responsaveis",
-      "descricao_curta": "Avatar macio e ludico para os primeiros anos.",
-      "historia": "Pig Bebe representa uma fase de vida do usuario, sem ser personagem fixo da historia.",
+      "papel": "Avatar para conta administrada por responsáveis",
+      "descricao_curta": "Avatar macio e lúdico para os primeiros anos.",
+      "historia": "Pig Bebê representa uma fase de vida do usuário, sem ser personagem fixo da história.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -26,10 +27,10 @@
       "uso_no_projeto": [
         "app",
         "perfil",
-        "educacao financeira",
-        "personalizacao futura"
+        "educação financeira",
+        "personalização futura"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuario, expressao simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpatica e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/002-pig-bebe.png",
       "tags": [
@@ -110,6 +111,7 @@
     {
       "numero": "003",
       "nome": "Pig Primeirinhos",
+      "nome_exibicao": "Pig Primeirinhos",
       "slug": "pig-primeirinhos",
       "apelido": "Primeirinhos",
       "aliases": [
@@ -118,11 +120,11 @@
         "pig primeirinhos"
       ],
       "tipo": "avatar_usuario",
-      "categoria": "Avatares do usuario",
+      "categoria": "Avatares do usuário",
       "faixa_etaria": "3 a 5 anos",
-      "papel": "Avatar para primeiras cores, numeros e vinculo com o cofrinho",
-      "descricao_curta": "Avatar infantil, seguro e brincalhao.",
-      "historia": "Pig Primeirinhos representa uma fase de vida do usuario, sem ser personagem fixo da historia.",
+      "papel": "Avatar para primeiras cores, números e vínculo com o cofrinho",
+      "descricao_curta": "Avatar infantil, seguro e brincalhão.",
+      "historia": "Pig Primeirinhos representa uma fase de vida do usuário, sem ser personagem fixo da história.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -130,10 +132,10 @@
       "uso_no_projeto": [
         "app",
         "perfil",
-        "educacao financeira",
-        "personalizacao futura"
+        "educação financeira",
+        "personalização futura"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuario, expressao simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpatica e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/003-pig-primeirinhos.png",
       "tags": [
@@ -211,6 +213,7 @@
     {
       "numero": "004",
       "nome": "Pig Crianca",
+      "nome_exibicao": "Pig Criança",
       "slug": "pig-crianca",
       "apelido": "Crianca",
       "aliases": [
@@ -219,11 +222,11 @@
         "pig crianca"
       ],
       "tipo": "avatar_usuario",
-      "categoria": "Avatares do usuario",
+      "categoria": "Avatares do usuário",
       "faixa_etaria": "6 a 9 anos",
       "papel": "Avatar para moedas, metas simples e jogos educativos",
       "descricao_curta": "Avatar curioso, escolar e alegre.",
-      "historia": "Pig Crianca representa uma fase de vida do usuario, sem ser personagem fixo da historia.",
+      "historia": "Pig Criança representa uma fase de vida do usuário, sem ser personagem fixo da história.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -231,10 +234,10 @@
       "uso_no_projeto": [
         "app",
         "perfil",
-        "educacao financeira",
-        "personalizacao futura"
+        "educação financeira",
+        "personalização futura"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuario, expressao simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpatica e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/004-pig-crianca.png",
       "tags": [
@@ -309,6 +312,7 @@
     {
       "numero": "005",
       "nome": "Pig Pre-Adolescente",
+      "nome_exibicao": "Pig Pré-Adolescente",
       "slug": "pig-pre-adolescente",
       "apelido": "Pre",
       "aliases": [
@@ -317,11 +321,11 @@
         "pig pre adolescente"
       ],
       "tipo": "avatar_usuario",
-      "categoria": "Avatares do usuario",
+      "categoria": "Avatares do usuário",
       "faixa_etaria": "10 a 12 anos",
       "papel": "Avatar para primeiras escolhas, autonomia e responsabilidade",
       "descricao_curta": "Avatar moderno, ainda infantil e seguro.",
-      "historia": "Pig Pre-Adolescente representa uma fase de vida do usuario, sem ser personagem fixo da historia.",
+      "historia": "Pig Pré-adolescente representa uma fase de vida do usuário, sem ser personagem fixo da história.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -329,10 +333,10 @@
       "uso_no_projeto": [
         "app",
         "perfil",
-        "educacao financeira",
-        "personalizacao futura"
+        "educação financeira",
+        "personalização futura"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuario, expressao simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpatica e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/005-pig-pre-adolescente.png",
       "tags": [
@@ -407,6 +411,7 @@
     {
       "numero": "006",
       "nome": "Pig Adolescente",
+      "nome_exibicao": "Pig Adolescente",
       "slug": "pig-adolescente",
       "apelido": "Adolescente",
       "aliases": [
@@ -415,11 +420,11 @@
         "pig adolescente"
       ],
       "tipo": "avatar_usuario",
-      "categoria": "Avatares do usuario",
+      "categoria": "Avatares do usuário",
       "faixa_etaria": "13 a 17 anos",
       "papel": "Avatar para consumo consciente, metas e PigCoins",
       "descricao_curta": "Avatar jovem, confiante e moderno.",
-      "historia": "Pig Adolescente representa uma fase de vida do usuario, sem ser personagem fixo da historia.",
+      "historia": "Pig Adolescente representa uma fase de vida do usuário, sem ser personagem fixo da história.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -427,10 +432,10 @@
       "uso_no_projeto": [
         "app",
         "perfil",
-        "educacao financeira",
-        "personalizacao futura"
+        "educação financeira",
+        "personalização futura"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuario, expressao simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpatica e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/006-pig-adolescente.png",
       "tags": [
@@ -505,6 +510,7 @@
     {
       "numero": "007",
       "nome": "Pig Jovem",
+      "nome_exibicao": "Pig Jovem",
       "slug": "pig-jovem",
       "apelido": "Jovem",
       "aliases": [
@@ -513,11 +519,11 @@
         "pig jovem"
       ],
       "tipo": "avatar_usuario",
-      "categoria": "Avatares do usuario",
+      "categoria": "Avatares do usuário",
       "faixa_etaria": "18 a 24 anos",
       "papel": "Avatar para faculdade, trabalho e metas pessoais",
       "descricao_curta": "Avatar jovem adulto e casual.",
-      "historia": "Pig Jovem representa uma fase de vida do usuario, sem ser personagem fixo da historia.",
+      "historia": "Pig Jovem representa uma fase de vida do usuário, sem ser personagem fixo da história.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -525,10 +531,10 @@
       "uso_no_projeto": [
         "app",
         "perfil",
-        "educacao financeira",
-        "personalizacao futura"
+        "educação financeira",
+        "personalização futura"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuario, expressao simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpatica e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/007-pig-jovem.png",
       "tags": [
@@ -603,6 +609,7 @@
     {
       "numero": "008",
       "nome": "Pig Jovem Adulto",
+      "nome_exibicao": "Pig Jovem Adulto",
       "slug": "pig-jovem-adulto",
       "apelido": "Jovem Adulto",
       "aliases": [
@@ -611,11 +618,11 @@
         "pig jovem adulto"
       ],
       "tipo": "avatar_usuario",
-      "categoria": "Avatares do usuario",
+      "categoria": "Avatares do usuário",
       "faixa_etaria": "25 a 34 anos",
       "papel": "Avatar para vida independente e controle pessoal",
       "descricao_curta": "Avatar moderno, simples e organizado.",
-      "historia": "Pig Jovem Adulto representa uma fase de vida do usuario, sem ser personagem fixo da historia.",
+      "historia": "Pig Jovem Adulto representa uma fase de vida do usuário, sem ser personagem fixo da história.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -623,10 +630,10 @@
       "uso_no_projeto": [
         "app",
         "perfil",
-        "educacao financeira",
-        "personalizacao futura"
+        "educação financeira",
+        "personalização futura"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuario, expressao simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpatica e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/008-pig-jovem-adulto.png",
       "tags": [
@@ -701,6 +708,7 @@
     {
       "numero": "009",
       "nome": "Pig Adulto",
+      "nome_exibicao": "Pig Adulto",
       "slug": "pig-adulto",
       "apelido": "Adulto",
       "aliases": [
@@ -709,11 +717,11 @@
         "pig adulto"
       ],
       "tipo": "avatar_usuario",
-      "categoria": "Avatares do usuario",
+      "categoria": "Avatares do usuário",
       "faixa_etaria": "35 a 49 anos",
-      "papel": "Avatar para familia, trabalho, comercio e envio de Pig",
-      "descricao_curta": "Avatar adulto, equilibrado e confiavel.",
-      "historia": "Pig Adulto representa uma fase de vida do usuario, sem ser personagem fixo da historia.",
+      "papel": "Avatar para família, trabalho, comércio e envio de Pig",
+      "descricao_curta": "Avatar adulto, equilibrado e confiável.",
+      "historia": "Pig Adulto representa uma fase de vida do usuário, sem ser personagem fixo da história.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -721,10 +729,10 @@
       "uso_no_projeto": [
         "app",
         "perfil",
-        "educacao financeira",
-        "personalizacao futura"
+        "educação financeira",
+        "personalização futura"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuario, expressao simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpatica e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/009-pig-adulto.png",
       "tags": [
@@ -799,6 +807,7 @@
     {
       "numero": "010",
       "nome": "Pig Coroa",
+      "nome_exibicao": "Pig Coroa",
       "slug": "pig-coroa",
       "apelido": "Coroa",
       "aliases": [
@@ -807,11 +816,11 @@
         "pig coroa"
       ],
       "tipo": "avatar_usuario",
-      "categoria": "Avatares do usuario",
+      "categoria": "Avatares do usuário",
       "faixa_etaria": "50 a 64 anos",
-      "papel": "Avatar para experiencia e apoio a familia",
+      "papel": "Avatar para experiência e apoio à família",
       "descricao_curta": "Avatar maduro, acolhedor e bem-humorado.",
-      "historia": "Pig Coroa representa uma fase de vida do usuario, sem ser personagem fixo da historia.",
+      "historia": "Pig Coroa representa uma fase de vida do usuário, sem ser personagem fixo da história.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -819,10 +828,10 @@
       "uso_no_projeto": [
         "app",
         "perfil",
-        "educacao financeira",
-        "personalizacao futura"
+        "educação financeira",
+        "personalização futura"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuario, expressao simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpatica e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/010-pig-coroa.png",
       "tags": [
@@ -897,6 +906,7 @@
     {
       "numero": "011",
       "nome": "Pig Senior",
+      "nome_exibicao": "Pig Sênior",
       "slug": "pig-senior",
       "apelido": "Senior",
       "aliases": [
@@ -905,11 +915,11 @@
         "pig senior"
       ],
       "tipo": "avatar_usuario",
-      "categoria": "Avatares do usuario",
+      "categoria": "Avatares do usuário",
       "faixa_etaria": "65+",
-      "papel": "Avatar para avos, netos, carinho e legado",
-      "descricao_curta": "Avatar senior simples, afetuoso e simpatico.",
-      "historia": "Pig Senior representa uma fase de vida do usuario, sem ser personagem fixo da historia.",
+      "papel": "Avatar para avós, netos, carinho e legado",
+      "descricao_curta": "Avatar sênior simples, afetuoso e simpático.",
+      "historia": "Pig Sênior representa uma fase de vida do usuário, sem ser personagem fixo da história.",
       "relacoes": [
         "Pig",
         "Vila Fazenda Pig"
@@ -917,10 +927,10 @@
       "uso_no_projeto": [
         "app",
         "perfil",
-        "educacao financeira",
-        "personalizacao futura"
+        "educação financeira",
+        "personalização futura"
       ],
-      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuario, expressao simpatica e sem caricatura.",
+      "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpatica e sem caricatura.",
       "status_imagem": "pendente",
       "asset_futuro": "assets/characters/011-pig-senior.png",
       "tags": [

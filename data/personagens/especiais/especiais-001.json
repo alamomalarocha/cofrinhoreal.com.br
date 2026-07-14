@@ -30,10 +30,10 @@
         "app",
         "jogos educativos futuros",
         "PigCoins",
-        "cards colecionaveis",
-        "educacao financeira"
+        "cards colecionáveis",
+        "educação financeira"
       ],
-      "ideia_visual": "Quati brasileiro esperto, simpatico e travesso, com moedas ficticias e expressao educativa.",
+      "ideia_visual": "Quati brasileiro esperto, simpático e travesso, com moedas fictícias e expressão educativa.",
       "status_imagem": "criada",
       "asset_futuro": "assets/characters/201-vantajinho.png",
       "tags": [
@@ -79,7 +79,8 @@
       "publicavel": true,
       "status_revisao_cultural": "nao_aplicavel",
       "visual_brief": "O Vantajinho mostra, de forma leve, que descuido e impulso podem ter consequencias educativas.",
-      "marcadores_visuais": []
+      "marcadores_visuais": [],
+      "nome_exibicao": "Vantajinho"
     },
     {
       "schema_version_personagem": "2.0.0",
@@ -88,6 +89,7 @@
       "uid": "ESP-MESTRE-SATOCHI",
       "card_code": "CR-202-ESP-2026",
       "nome": "Mestre Satochi",
+      "nome_exibicao": "Mestre Satochi",
       "nome_completo": "Mestre Satochi",
       "nome_status": "confirmado",
       "apelido": "",
@@ -126,25 +128,25 @@
       "profissoes_anteriores": [],
       "profissao_futura_desejada": null,
       "situacao_profissional": "a_pesquisar",
-      "papel_na_vila": "Guia ficticio de conceitos digitais e planejamento.",
-      "papel": "Guia ficticio de conceitos digitais e planejamento.",
-      "descricao_curta": "Inventor misterioso e inteiramente ficticio do PigCoin educativo.",
-      "historia": "Explica conceitos ficticios de energia, criptografia, seguranca, planejamento e sustentabilidade sem representar pessoa real.",
+      "papel_na_vila": "Guia fictício de conceitos digitais e planejamento.",
+      "papel": "Guia fictício de conceitos digitais e planejamento.",
+      "descricao_curta": "Inventor misterioso e inteiramente fictício do PigCoin educativo.",
+      "historia": "Explica conceitos fictícios de energia, criptografia, segurança, planejamento e sustentabilidade sem representar pessoa real.",
       "personalidade": [
         "acolhedor",
         "curioso"
       ],
-      "objetivo": "Participar da vida comunitaria com respeito e planejamento.",
-      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
-      "papel_educativo": "Mostrar escolhas cotidianas e cooperacao.",
+      "objetivo": "Participar da vida comunitária com respeito e planejamento.",
+      "meta_financeira_educativa": "Organizar pequenas metas de forma consciente e sem pressão de consumo.",
+      "papel_educativo": "Mostrar escolhas cotidianas e cooperação.",
       "comidas_relacionadas": [],
       "festas_relacionadas": [],
       "musicas_dancas_relacionadas": [],
       "folclore_relacionado": [],
       "folclore": [],
-      "visual_brief": "Porquinho adulto, roupa simples de inventor e um pequeno caderno tecnico.",
+      "visual_brief": "Porquinho adulto, roupa simples de inventor e um pequeno caderno técnico.",
       "marcadores_visuais": [
-        "caderno tecnico",
+        "caderno técnico",
         "roupa de inventor sem marca"
       ],
       "apresentacao_editorial": "nao_aplicavel",

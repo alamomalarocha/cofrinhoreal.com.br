@@ -1,17 +1,17 @@
-# Deploy estatico do Cofrinho Real
+# Deploy estático do Cofrinho Real
 
-Este projeto esta preparado para publicacao estatica inicial em GitHub e Cloudflare Pages.
+Este projeto esta preparado para publicação estática inicial em GitHub e Cloudflare Pages.
 
-Importante: esta versao ainda e apenas um prototipo visual em validacao.
+Importante: esta versao ainda e apenas um protótipo visual em validação.
 
-Nao existe:
+Não existe:
 
 - backend
 - banco de dados
 - login funcional
 - integracao PIX
-- movimentacao real de dinheiro
-- conta real de usuario ou comerciante
+- movimentação real de dinheiro
+- conta real de usuário ou comerciante
 
 ## Arquivos principais
 
@@ -26,14 +26,14 @@ Nao existe:
 
 ## Antes de publicar
 
-1. Abra o prototipo localmente.
+1. Abra o protótipo localmente.
 2. Revise os textos.
-3. Confirme que o aviso de prototipo visual aparece no hero.
+3. Confirme que o aviso de protótipo visual aparece no hero.
 4. Confirme que `robots.txt`, `_headers` e a meta tag `robots` devem continuar com `noindex`.
 
 Enquanto o site estiver em teste, manter `noindex`.
 
-Quando decidir tornar o site publico para buscas, remover ou alterar:
+Quando decidir tornar o site público para buscas, remover ou alterar:
 
 - `<meta name="robots" content="noindex, nofollow, noarchive" />` em `index.html`
 - o bloqueio em `robots.txt`
@@ -41,7 +41,7 @@ Quando decidir tornar o site publico para buscas, remover ou alterar:
 
 ## Publicar no GitHub
 
-1. Crie um repositorio no GitHub, por exemplo:
+1. Crie um repositório no GitHub, por exemplo:
 
 ```text
 cofrinhoreal.com.br
@@ -71,7 +71,7 @@ git add .
 git commit -m "Preparar prototipo visual estatico"
 ```
 
-6. Conecte o repositorio remoto do GitHub:
+6. Conecte o repositório remoto do GitHub:
 
 ```powershell
 git remote add origin https://github.com/SEU_USUARIO/cofrinhoreal.com.br.git
@@ -92,8 +92,8 @@ Alternativa: o GitHub tambem permite adicionar um projeto local usando GitHub CL
 2. Va em `Workers & Pages`.
 3. Crie um novo projeto do Pages.
 4. Conecte a conta do GitHub.
-5. Selecione o repositorio do Cofrinho Real.
-6. Configure como site estatico simples:
+5. Selecione o repositório do Cofrinho Real.
+6. Configure como site estático simples:
 
 ```text
 Framework preset: None
@@ -101,7 +101,7 @@ Build command: deixar em branco
 Build output directory: /
 ```
 
-Se a interface pedir outro formato para a pasta de saida, use a raiz do repositorio.
+Se a interface pedir outro formato para a pasta de saida, use a raiz do repositório.
 
 7. Clique para fazer o primeiro deploy.
 8. A Cloudflare criara uma URL temporaria parecida com:
@@ -123,7 +123,7 @@ cofrinhoreal.com.br
 ```
 
 4. Siga as instrucoes da Cloudflare para DNS.
-5. Se o dominio estiver em outro registrador, como GoDaddy, pode ser necessario apontar os nameservers para a Cloudflare.
+5. Se o dominio estiver em outro registrador, como GoDaddy, pode ser necessário apontar os nameservers para a Cloudflare.
 6. Aguarde a propagacao de DNS e emissao do certificado SSL.
 
 Opcionalmente, tambem configure:
@@ -134,18 +134,18 @@ www.cofrinhoreal.com.br
 
 E redirecione uma versao para a outra quando o site estiver pronto.
 
-## Configuracao atual de indexacao
+## Configuração atual de indexacao
 
-Esta publicacao inicial esta preparada para evitar indexacao por buscadores:
+Esta publicação inicial esta preparada para evitar indexacao por buscadores:
 
 - `robots.txt` bloqueia todos os crawlers.
 - `index.html` possui meta robots `noindex`.
 - `_headers` envia `X-Robots-Tag: noindex`.
 
-Isso e intencional enquanto o site for apenas um prototipo visual.
+Isso e intencional enquanto o site for apenas um protótipo visual.
 
-## Referencias oficiais
+## Referências oficiais
 
 - Cloudflare Pages Git integration: https://developers.cloudflare.com/pages/configuration/git-integration/
 - Cloudflare Pages custom domains: https://developers.cloudflare.com/pages/configuration/custom-domains/
-- GitHub: adicionar codigo local ao GitHub: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
+- GitHub: adicionar código local ao GitHub: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github

@@ -1,10 +1,10 @@
 # Regras de produto atuais
 
-- Cofrinho Real e um prototipo educativo, nao uma instituicao financeira.
-- PigCoin e ficticio e sem valor financeiro.
-- Nao existe compra, venda, saque, PIX, investimento ou promessa de ganho.
-- Conteudo deve ser adequado por idade, classificacao e jurisdicao.
-- Estilo de avatar nao define identidade ou permissao.
-- Menores nao recebem publicidade comportamental, pressao de consumo, contato de desconhecidos ou localizacao publica.
-- Aposta, cassino, loot box e FOMO sao proibidos.
-- Nenhum pais e marcado como operacional sem revisao profissional.
+- Cofrinho Real e um protótipo educativo, não uma instituicao financeira.
+- PigCoin e fictício e sem valor financeiro.
+- Não existe compra, venda, saque, PIX, investimento ou promessa de ganho.
+- Conteúdo deve ser adequado por idade, classificação e jurisdição.
+- Estilo de avatar não define identidade ou permissão.
+- Menores não recebem publicidade comportamental, pressão de consumo, contato de desconhecidos ou localização pública.
+- Aposta, cassino, loot box e FOMO são proibidos.
+- Nenhum pais e marcado como operacional sem revisão profissional.

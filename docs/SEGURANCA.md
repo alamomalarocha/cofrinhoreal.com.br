@@ -1,13 +1,13 @@
-# Seguranca
+# Segurança
 
-O Pig atua como guardiao digital e o Vantajinho representa atalhos suspeitos. A abordagem deve ensinar senhas, privacidade, golpes, verificacao de fontes, energia e criptografia sem ensinar fraude.
+O Pig atua como guardiao digital e o Vantajinho representa atalhos suspeitos. A abordagem deve ensinar senhas, privacidade, golpes, verificação de fontes, energia e criptografia sem ensinar fraude.
 
 ## Padroes futuros
 
-- Privacidade e seguranca por padrao.
+- Privacidade e segurança por padrão.
 - Minimizacao de dados.
-- Sem mensagens de desconhecidos ou localizacao publica para menores.
-- Sem compra, publicidade comportamental, chat ou rede social no prototipo.
-- Controle do responsavel conforme regra local.
+- Sem mensagens de desconhecidos ou localização pública para menores.
+- Sem compra, publicidade comportamental, chat ou rede social no protótipo.
+- Controle do responsável conforme regra local.
 
-Esta documentacao nao comprova seguranca operacional; nao existe sistema real nesta fase.
+Esta documentação não comprova segurança operacional; não existe sistema real nesta fase.

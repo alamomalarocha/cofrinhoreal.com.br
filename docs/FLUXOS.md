@@ -1,17 +1,17 @@
 # Fluxos conceituais atuais
 
-## Experiencia publica
+## Experiência pública
 
-1. Pessoa conhece o Pig e o aviso de prototipo.
-2. Explora PigCoin ficticio, educacao, jogos, personagens ou seguranca.
-3. Encontra conteudo resumido por fase e links para paginas internas.
-4. Pode abrir a Colecao Pig e usar busca, filtros e paginacao locais.
+1. Pessoa conhece o Pig e o aviso de protótipo.
+2. Explora PigCoin fictício, educação, jogos, personagens ou segurança.
+3. Encontra conteúdo resumido por fase e links para páginas internas.
+4. Pode abrir a Coleção Pig e usar busca, filtros e paginacao locais.
 
-## Responsavel e conteudo futuro
+## Responsável e conteúdo futuro
 
-1. Jurisdicao define regras aplicaveis.
-2. Faixa de conteudo e classificacao local sao avaliadas separadamente.
-3. Responsavel participa quando exigido.
-4. Conteudo incompativel e bloqueado na entrega, nao apenas escondido.
+1. Jurisdição define regras aplicaveis.
+2. Faixa de conteúdo e classificação local são avaliadas separadamente.
+3. Responsável participa quando exigido.
+4. Conteúdo incompativel e bloqueado na entrega, não apenas escondido.
 
-Nenhum fluxo real de conta, dados, compra, pagamento ou comunicacao foi implementado.
+Nenhum fluxo real de conta, dados, compra, pagamento ou comunicação foi implementado.

@@ -1,15 +1,15 @@
 # Folclore e Cultura Brasileira
 
-## Catalogo de pesquisa
+## Catálogo de pesquisa
 
-`data/folclore-brasileiro.json` inicia trilhas para Saci-Perere, Cuca, Curupira, Iara, Boto-cor-de-rosa, Boitata, Mula sem Cabeca e Negrinho do Pastoreio.
+`data/folclore-brasileiro.json` inicia trilhas para Saci-Perere, Cuca, Curupira, Iara, Boto-cor-de-rosa, Boitata, Mula sem Cabeça e Negrinho do Pastoreio.
 
-Esses registros ainda nao sao autorizacao para criar imagens.
+Esses registros ainda não são autorizacao para criar imagens.
 
 Cada figura deve registrar:
 
 - origem conhecida;
-- regioes onde a narrativa circula;
+- regiões onde a narrativa circula;
 - versoes regionais;
 - fontes;
 - status de pesquisa;
@@ -17,13 +17,13 @@ Cada figura deve registrar:
 
 ## Direitos e originalidade
 
-As imagens devem ser interpretacoes proprias do Cofrinho Real. Nao copiar versoes de televisao, cinema, livros, jogos ou marcas.
+As imagens devem ser interpretacoes proprias do Cofrinho Real. Não copiar versoes de televisao, cinema, livros, jogos ou marcas.
 
-Uma narrativa que circula em varias regioes nao deve ser artificialmente atribuida a um unico estado.
+Uma narrativa que circula em varias regiões não deve ser artificialmente atribuida a um único estado.
 
 ## Fontes base
 
-- IPHAN, Patrimonio Imaterial: https://www.gov.br/iphan/pt-br/patrimonio-cultural/patrimonio-imaterial
-- IPHAN, Programa Nacional do Patrimonio Imaterial: https://www.gov.br/iphan/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-nacional-do-patrimonio-imaterial-pnpi
+- IPHAN, Patrimônio Imaterial: https://www.gov.br/iphan/pt-br/patrimonio-cultural/patrimonio-imaterial
+- IPHAN, Programa Nacional do Patrimônio Imaterial: https://www.gov.br/iphan/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-nacional-do-patrimonio-imaterial-pnpi
 
-Fontes regionais e detentores das tradicoes devem complementar essas referencias antes da publicacao de personagens.
+Fontes regionais e detentores das tradicoes devem complementar essas referências antes da publicação de personagens.

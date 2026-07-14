@@ -1,9 +1,9 @@
-# Cobertura de Profissoes
+# Cobertura de Profissões
 
 - 2728 ocupacoes catalogadas.
 - 2694 ocupacoes importadas da CBO.
 - 700 ocupacoes distintas atribuidas aos personagens, acima da meta de 600.
-- 20 slots futuros estaveis e nao publicaveis.
+- 20 slots futuros estaveis e não publicáveis.
 
 ## Categorias catalogadas
 
@@ -20,4 +20,4 @@
 | tecnologia | 3 |
 | tradicional | 1 |
 
-Profissoes futuras sao hipoteses de pesquisa, nao previsoes nem fatos. Consulte `data/profissoes-futuras.json`.
+Profissões futuras são hipoteses de pesquisa, não previsoes nem fatos. Consulte `data/profissoes-futuras.json`.

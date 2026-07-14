@@ -12,6 +12,169 @@ import {
 const CATALOG_DATE = "2026-07-12";
 const CATALOG_YEAR = 2026;
 
+const PUBLIC_TEXT_REPLACEMENTS = new Map([
+  ["acentuacao", "acentuação"],
+  ["aplicavel", "aplicável"],
+  ["apos", "após"],
+  ["arco-iris", "arco-íris"],
+  ["autodenominacao", "autodenominação"],
+  ["bebe", "bebê"],
+  ["bebes", "bebês"],
+  ["catalogo", "catálogo"],
+  ["classificacao", "classificação"],
+  ["codigo", "código"],
+  ["colecao", "coleção"],
+  ["comercio", "comércio"],
+  ["comunitaria", "comunitária"],
+  ["comunitarias", "comunitárias"],
+  ["comunitario", "comunitário"],
+  ["comunitarios", "comunitários"],
+  ["concluida", "concluída"],
+  ["construcao", "construção"],
+  ["conteudo", "conteúdo"],
+  ["cooperacao", "cooperação"],
+  ["crianca", "criança"],
+  ["criancas", "crianças"],
+  ["demografico", "demográfico"],
+  ["educacao", "educação"],
+  ["especifica", "específica"],
+  ["especificas", "específicas"],
+  ["expressao", "expressão"],
+  ["familia", "família"],
+  ["familias", "famílias"],
+  ["ficticia", "fictícia"],
+  ["ficticio", "fictício"],
+  ["ficticias", "fictícias"],
+  ["ficticios", "fictícios"],
+  ["folclorica", "folclórica"],
+  ["folcloricas", "folclóricas"],
+  ["gamificacao", "gamificação"],
+  ["generico", "genérico"],
+  ["generica", "genérica"],
+  ["geracao", "geração"],
+  ["historias", "histórias"],
+  ["inferencias", "inferências"],
+  ["indigenas", "indígenas"],
+  ["indio", "índio"],
+  ["linguas", "línguas"],
+  ["logistica", "logística"],
+  ["mantem", "mantém"],
+  ["migracao", "migração"],
+  ["migracoes", "migrações"],
+  ["migratoria", "migratória"],
+  ["migratorias", "migratórias"],
+  ["migratorio", "migratório"],
+  ["ministerio", "ministério"],
+  ["municipio", "município"],
+  ["municipios", "municípios"],
+  ["nao", "não"],
+  ["nucleo", "núcleo"],
+  ["nucleos", "núcleos"],
+  ["ocupacao", "ocupação"],
+  ["ocupacoes", "ocupações"],
+  ["orientacao", "orientação"],
+  ["pagina", "página"],
+  ["padrao", "padrão"],
+  ["patrimonio", "patrimônio"],
+  ["pre-adolescente", "pré-adolescente"],
+  ["pressao", "pressão"],
+  ["pratica", "prática"],
+  ["praticas", "práticas"],
+  ["profissao", "profissão"],
+  ["profissoes", "profissões"],
+  ["prototipo", "protótipo"],
+  ["publica", "pública"],
+  ["publicas", "públicas"],
+  ["publico", "público"],
+  ["publicos", "públicos"],
+  ["referencia", "referência"],
+  ["referencias", "referências"],
+  ["regiao", "região"],
+  ["regioes", "regiões"],
+  ["relacao", "relação"],
+  ["relacoes", "relações"],
+  ["revisao", "revisão"],
+  ["robotica", "robótica"],
+  ["sao", "são"],
+  ["seguranca", "segurança"],
+  ["senior", "sênior"],
+  ["simbolo", "símbolo"],
+  ["sensiveis", "sensíveis"],
+  ["sensivel", "sensível"],
+  ["suposicao", "suposição"],
+  ["tecnica", "técnica"],
+  ["tecnicas", "técnicas"],
+  ["tecnico", "técnico"],
+  ["tecnicos", "técnicos"],
+  ["territorio", "território"],
+  ["territorios", "territórios"],
+  ["usuario", "usuário"],
+  ["usuarios", "usuários"],
+  ["variacao", "variação"],
+  ["variacoes", "variações"],
+  ["vinculo", "vínculo"],
+  ["vinculos", "vínculos"],
+  ["vizinhanca", "vizinhança"],
+]);
+
+function preserveReplacementCase(source, replacement) {
+  if (source === source.toUpperCase()) return replacement.toUpperCase();
+  if (source[0] === source[0].toUpperCase()) {
+    return replacement[0].toUpperCase() + replacement.slice(1);
+  }
+  return replacement;
+}
+
+function normalizePublicText(value) {
+  if (typeof value !== "string" || !value) return value;
+  let normalized = value;
+  const entries = [...PUBLIC_TEXT_REPLACEMENTS.entries()].sort((a, b) => b[0].length - a[0].length);
+  for (const [source, replacement] of entries) {
+    const escaped = source.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const regex = new RegExp(`(?<![\\p{L}\\p{N}_])${escaped}(?![\\p{L}\\p{N}_])`, "giu");
+    normalized = normalized.replace(regex, (match) => preserveReplacementCase(match, replacement));
+  }
+  return normalized;
+}
+
+function normalizePublicRecord(record) {
+  const normalized = { ...record };
+  const fields = [
+    "nome_exibicao",
+    "papel_na_vila",
+    "papel",
+    "descricao_curta",
+    "historia",
+    "objetivo",
+    "meta_financeira_educativa",
+    "papel_educativo",
+    "visual_brief",
+    "ideia_visual",
+  ];
+  for (const field of fields) {
+    if (typeof normalized[field] === "string") normalized[field] = normalizePublicText(normalized[field]);
+  }
+  normalized.nome_exibicao = normalizePublicText(normalized.nome_exibicao || normalized.nome || "");
+  if (Array.isArray(normalized.marcadores_visuais)) {
+    normalized.marcadores_visuais = normalized.marcadores_visuais.map(normalizePublicText);
+  }
+  if (normalized.profissao_atual?.nome_exibicao) {
+    normalized.profissao_atual = {
+      ...normalized.profissao_atual,
+      nome_exibicao: normalizePublicText(normalized.profissao_atual.nome_exibicao),
+    };
+  }
+  return normalized;
+}
+
+function normalizePublicMetadata(record, fields) {
+  const normalized = { ...record };
+  for (const field of fields) {
+    if (typeof normalized[field] === "string") normalized[field] = normalizePublicText(normalized[field]);
+  }
+  return normalized;
+}
+
 const SOURCE_IDS = {
   ibgeNames: "ibge-nomes-brasil",
   ibgeLocalities: "ibge-localidades",
@@ -29,7 +192,7 @@ const SOURCES = [
       title: "Nomes no Brasil",
       institution: "IBGE",
       url: "https://censo2022.ibge.gov.br/nomes/",
-      subject: "Referencia editorial para nomes brasileiros",
+      subject: "Referência editorial para nomes brasileiros",
     }),
   },
   {
@@ -38,32 +201,32 @@ const SOURCES = [
       title: "API de Localidades",
       institution: "IBGE",
       url: "https://servicodados.ibge.gov.br/api/docs/localidades",
-      subject: "Regioes, UFs e municipios",
+      subject: "Regiões, UFs e municípios",
     }),
   },
   {
     id: SOURCE_IDS.ibgeIndigenous,
     ...sourceRecord({
-      title: "Censo Demografico 2022 - Etnias e linguas indigenas",
+      title: "Censo Demográfico 2022 - Etnias e línguas indígenas",
       institution: "IBGE",
       url: "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Etnias_e_Linguas_Indigenas_principais_caracteristicas_sociodemograficas_Resultados_do_universo/Apendices/xlsx/",
-      subject: "Lista oficial de povos, etnias ou grupos indigenas",
+      subject: "Lista oficial de povos, etnias ou grupos indígenas",
     }),
   },
   {
     id: SOURCE_IDS.mteCbo,
     ...sourceRecord({
-      title: "Classificacao Brasileira de Ocupacoes - CBO 2002",
-      institution: "Ministerio do Trabalho e Emprego",
+      title: "Classificação Brasileira de Ocupações - CBO 2002",
+      institution: "Ministério do Trabalho e Emprego",
       url: "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/cbo/servicos/downloads/cbo2002-ocupacao.csv",
-      subject: "Ocupacoes oficiais",
+      subject: "Ocupações oficiais",
     }),
   },
   {
     id: SOURCE_IDS.mdaCommunities,
     ...sourceRecord({
       title: "Povos e Comunidades Tradicionais",
-      institution: "Ministerio do Desenvolvimento Agrario e Agricultura Familiar",
+      institution: "Ministério do Desenvolvimento Agrário e Agricultura Familiar",
       url: "https://www.gov.br/mda/pt-br/assuntos/povos-e-comunidades-tradicionais",
       subject: "Segmentos de povos e comunidades tradicionais",
     }),
@@ -71,19 +234,19 @@ const SOURCES = [
   {
     id: SOURCE_IDS.iphan,
     ...sourceRecord({
-      title: "Patrimonio Cultural Imaterial",
+      title: "Patrimônio Cultural Imaterial",
       institution: "IPHAN",
       url: "https://www.gov.br/iphan/pt-br/patrimonio-cultural/patrimonio-imaterial",
-      subject: "Referencia para pesquisa cultural e folclore",
+      subject: "Referência para pesquisa cultural e folclore",
     }),
   },
   {
     id: SOURCE_IDS.immigrationMuseum,
     ...sourceRecord({
       title: "Acervo e pesquisa",
-      institution: "Museu da Imigracao do Estado de Sao Paulo",
+      institution: "Museu da Imigração do Estado de São Paulo",
       url: "https://museudaimigracao.org.br/acervo-e-pesquisa/pesquisa",
-      subject: "Trilhas de pesquisa sobre migracoes",
+      subject: "Trilhas de pesquisa sobre migrações",
     }),
   },
 ];
@@ -105,12 +268,12 @@ const REGION_NAMES = {
 };
 
 const CAPITALS = {
-  AC: "Rio Branco", AL: "Maceio", AP: "Macapa", AM: "Manaus", BA: "Salvador",
-  CE: "Fortaleza", DF: "Brasilia", ES: "Vitoria", GO: "Goiania", MA: "Sao Luis",
-  MT: "Cuiaba", MS: "Campo Grande", MG: "Belo Horizonte", PA: "Belem", PB: "Joao Pessoa",
+  AC: "Rio Branco", AL: "Maceió", AP: "Macapá", AM: "Manaus", BA: "Salvador",
+  CE: "Fortaleza", DF: "Brasília", ES: "Vitória", GO: "Goiânia", MA: "São Luís",
+  MT: "Cuiabá", MS: "Campo Grande", MG: "Belo Horizonte", PA: "Belém", PB: "João Pessoa",
   PR: "Curitiba", PE: "Recife", PI: "Teresina", RJ: "Rio de Janeiro", RN: "Natal",
-  RS: "Porto Alegre", RO: "Porto Velho", RR: "Boa Vista", SC: "Florianopolis",
-  SP: "Sao Paulo", SE: "Aracaju", TO: "Palmas",
+  RS: "Porto Alegre", RO: "Porto Velho", RR: "Boa Vista", SC: "Florianópolis",
+  SP: "São Paulo", SE: "Aracaju", TO: "Palmas",
 };
 
 const HOUSEHOLD_COUNTS = {
@@ -248,11 +411,16 @@ function nextOccupation() {
   return {
     id: `CBO-${occupation.codigo}`,
     codigo_cbo: occupation.codigo,
-    titulo: occupation.titulo,
+    titulo: occupationDisplayName(occupation.titulo),
   };
 }
 
+function occupationDisplayName(title) {
+  return normalizePublicText(title);
+}
+
 function normalizeExisting(record) {
+  record = normalizePublicRecord(record);
   const number = formatPersonNumber(Number(record.numero));
   return {
     ...record,
@@ -268,7 +436,7 @@ function normalizeExisting(record) {
     publicavel: record.publicavel !== false,
     status_pesquisa: record.status_pesquisa || "confirmado_projeto",
     status_revisao_cultural: record.status_revisao_cultural || "nao_aplicavel",
-    visual_brief: record.visual_brief || record.padrao_visual_avatar || record.descricao_curta || "Personagem existente da Vila Pig.",
+    visual_brief: normalizePublicText(record.visual_brief || record.padrao_visual_avatar || record.descricao_curta || "Personagem existente da Vila Pig."),
     marcadores_visuais: Array.isArray(record.marcadores_visuais) ? record.marcadores_visuais.slice(0, 2) : [],
     fontes: Array.isArray(record.fontes) ? record.fontes : [],
   };
@@ -317,6 +485,7 @@ function createCharacter({
     uid,
     card_code: cardCode,
     nome: name,
+    nome_exibicao: normalizePublicText(name),
     nome_completo: fullName,
     nome_status: nameStatus,
     apelido: "",
@@ -353,21 +522,21 @@ function createCharacter({
     profissoes_anteriores: [],
     profissao_futura_desejada: null,
     situacao_profissional: profession ? "ocupacao_atual_ficcional" : age != null && age < 18 ? "estudante_ou_infancia" : "a_pesquisar",
-    papel_na_vila: role,
-    papel: role,
-    descricao_curta: description,
-    historia: story,
+    papel_na_vila: normalizePublicText(role),
+    papel: normalizePublicText(role),
+    descricao_curta: normalizePublicText(description),
+    historia: normalizePublicText(story),
     personalidade: ["acolhedor", "curioso"],
-    objetivo: "Participar da vida comunitaria com respeito e planejamento.",
-    meta_financeira_educativa: "Organizar pequenas metas de forma consciente e sem pressao de consumo.",
-    papel_educativo: "Mostrar escolhas cotidianas e cooperacao.",
+    objetivo: "Participar da vida comunitária com respeito e planejamento.",
+    meta_financeira_educativa: "Organizar pequenas metas de forma consciente e sem pressão de consumo.",
+    papel_educativo: "Mostrar escolhas cotidianas e cooperação.",
     comidas_relacionadas: [],
     festas_relacionadas: [],
     musicas_dancas_relacionadas: [],
     folclore_relacionado: folklore,
     folclore: folklore,
-    visual_brief: visualBrief,
-    marcadores_visuais: visualMarkers.slice(0, 2),
+    visual_brief: normalizePublicText(visualBrief),
+    marcadores_visuais: visualMarkers.slice(0, 2).map(normalizePublicText),
     apresentacao_editorial: editorialPresentation,
     status_pesquisa: researchStatus,
     status_revisao_cultural: culturalReview,
@@ -386,6 +555,10 @@ function addFamily(family) {
   families.push({
     schema_version: "2.0.0",
     ...family,
+    nome_exibicao: normalizePublicText(family.nome_exibicao),
+    composicao: Array.isArray(family.composicao)
+      ? family.composicao.map(normalizePublicText)
+      : normalizePublicText(family.composicao),
   });
 }
 
@@ -538,7 +711,7 @@ for (const ufRecord of ufs) {
 
     addFamily({
       uid: familyId,
-      nome_exibicao: `Familia ${surnameA} ${surnameB}`,
+      nome_exibicao: `Família ${surnameA} ${surnameB}`,
       sobrenome: `${surnameA} ${surnameB}`,
       slug: `${slugify(surnameA)}-${slugify(surnameB)}-${ufRecord.sigla.toLowerCase()}-${String(familySequence).padStart(4, "0")}`,
       tipo: pattern.label,
@@ -874,7 +1047,7 @@ for (let index = 0; index < 20; index += 1) {
 
 const cboProfessions = occupations.map((occupation) => ({
   id_estavel: `CBO-${occupation.codigo}`,
-  nome_exibicao: occupation.titulo,
+  nome_exibicao: occupationDisplayName(occupation.titulo),
   categoria: "atual_cbo",
   status: "oficial_cbo",
   cbo: occupation.codigo,
@@ -884,20 +1057,27 @@ const cboProfessions = occupations.map((occupation) => ({
 
 const preservedProfessionIds = new Set(cboProfessions.map((profession) => profession.id_estavel));
 const preservedStarterProfessions = starterProfessions.profissoes.filter((profession) => !preservedProfessionIds.has(profession.id_estavel));
+const normalizedProfessionSource = normalizePublicMetadata(starterProfessions.fonte_base ?? {}, ["titulo", "instituicao"]);
 writeJson("data/profissoes.json", {
   ...starterProfessions,
   schema_version: "2.0.0",
   atualizado_em: CATALOG_DATE,
   total_cbo_importado: cboProfessions.length,
-  profissoes: [...preservedStarterProfessions, ...cboProfessions],
+  fonte_base: normalizedProfessionSource,
+  profissoes: [...preservedStarterProfessions, ...cboProfessions].map(normalizePublicRecord),
 });
 
+const normalizedFolkloreSources = (existingFolklore.fontes_base ?? []).map((source) =>
+  normalizePublicMetadata(source, ["titulo", "instituicao"]),
+);
 writeJson("data/folclore-brasileiro.json", {
   ...existingFolklore,
   schema_version: "2.0.0",
   atualizado_em: CATALOG_DATE,
-  observacao_cobertura: "Os oito registros nomeados sao referencias iniciais. Os demais sao slots nao publicaveis e nao contam como pesquisa cultural concluida.",
-  figuras: folkloreFigures,
+  politica_visual: normalizePublicText(existingFolklore.politica_visual),
+  fontes_base: normalizedFolkloreSources,
+  observacao_cobertura: "Os oito registros nomeados são referências iniciais. Os demais são slots não publicáveis e não contam como pesquisa cultural concluída.",
+  figuras: folkloreFigures.map(normalizePublicRecord),
 });
 
 writeJson("data/fontes-catalogo.json", {
@@ -910,9 +1090,9 @@ writeJson("data/familias-catalogo.json", {
   schema_version: "2.0.0",
   atualizado_em: CATALOG_DATE,
   politicas: [
-    "Nenhuma familia representa sozinha uma regiao, povo, origem ou comunidade.",
-    "Clusters culturais sensiveis permanecem internos ate pesquisa e revisao adequadas.",
-    "Relacoes e nomes pessoais nao sao inventados para preencher lacunas culturais.",
+    "Nenhuma família representa sozinha uma região, povo, origem ou comunidade.",
+    "Clusters culturais sensíveis permanecem internos até pesquisa e revisão adequadas.",
+    "Relações e nomes pessoais não são inventados para preencher lacunas culturais.",
   ],
   total: families.length,
   familias: families,
@@ -923,7 +1103,7 @@ writeJson("data/familias-vila-pig.json", {
   atualizado_em: CATALOG_DATE,
   politicas: [
     "Arquivo de compatibilidade gerado a partir de data/familias-catalogo.json.",
-    "Nenhuma familia sozinha representa todo um povo, pais, regiao ou comunidade.",
+    "Nenhuma família sozinha representa todo um povo, país, região ou comunidade.",
   ],
   familias: families,
 });
@@ -932,7 +1112,7 @@ writeJson("data/povos-indigenas.json", {
   schema_version: "1.0.0",
   atualizado_em: CATALOG_DATE,
   fonte: SOURCE_IDS.ibgeIndigenous,
-  regra_publicacao: "Perfis pessoais e visuais dependem de pesquisa suficiente e consulta; a lista oficial nao autoriza inferencias culturais.",
+  regra_publicacao: "Perfis pessoais e visuais dependem de pesquisa suficiente e consulta; a lista oficial não autoriza inferências culturais.",
   total: indigenousPeoples.length,
   povos: indigenousPeoples.map((people, index) => ({
     id: `povo-${slugify(people.nome_oficial)}`,
@@ -946,8 +1126,8 @@ writeJson("data/povos-indigenas.json", {
     populacao: null,
     fontes: [SOURCE_IDS.ibgeIndigenous],
     status_pesquisa: "lista_oficial_confirmada_detalhes_pendentes",
-    orientacao_representacao: "Nao criar nome pessoal, roupa, pintura, simbolo ou pratica sem fonte e revisao cultural.",
-    restricoes_culturais: ["nao inventar", "nao usar indio generico", "nao publicar sem revisao"],
+    orientacao_representacao: "Não criar nome pessoal, roupa, pintura, símbolo ou prática sem fonte e revisão cultural.",
+    restricoes_culturais: ["não inventar", "não usar índio genérico", "não publicar sem revisão"],
     familia_planejada: `FAM-IND-${String(index + 1).padStart(4, "0")}`,
     slots_personagens: [`IND-${String(index + 1).padStart(4, "0")}`],
   })),
@@ -986,10 +1166,10 @@ writeJson("data/catalogo-continuation-state.json", {
   categoria_atual: "validacao_e_revisao",
   quantidade_criada: allCharacters.length,
   lacunas: [
-    "Revisar culturalmente os 391 slots ligados aos nomes oficiais de povos indigenas.",
+    "Revisar culturalmente os 391 slots ligados aos nomes oficiais de povos indígenas.",
     "Pesquisar individualmente os segmentos de comunidades tradicionais.",
-    "Pesquisar 92 variacoes folcloricas antes de nomear ou publicar.",
-    "Confirmar fontes especificas para historias migratorias e familias mistas.",
+    "Pesquisar 92 variações folclóricas antes de nomear ou publicar.",
+    "Confirmar fontes específicas para histórias migratórias e famílias mistas.",
   ],
   proximo_comando_exato: "node scripts/build-personagens-catalog.mjs && node scripts/validate-personagens-catalog.mjs",
 });

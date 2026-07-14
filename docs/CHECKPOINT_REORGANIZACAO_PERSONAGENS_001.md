@@ -12,18 +12,18 @@
 - sincronizacao inicial: `main` igual a `origin/main`;
 - estado inicial: Git limpo.
 
-## Inventario preservado
+## Inventário preservado
 
 - 201 personagens;
-- 39 variacoes de avatar criadas;
+- 39 variações de avatar criadas;
 - nenhum arquivo marcado como criado estava ausente;
 - 001 Pig Principal preservado;
 - 201 Vantajinho preservado;
 - logos oficiais preservadas;
-- proximo item de imagem preservado: `011 - Pig Senior - arco_iris`.
+- próximo item de imagem preservado: `011 - Pig Senior - arco_iris`.
 
-## Estrategia
+## Estratégia
 
-A migracao adiciona campos e catalogos sem apagar campos legados. O script `scripts/migrate-universo-pig.mjs` e idempotente, e `scripts/validate-universo-pig.mjs` verifica os contratos.
+A migração adiciona campos e catálogos sem apagar campos legados. O script `scripts/migrate-universo-pig.mjs` é idempotente, e `scripts/validate-universo-pig.mjs` verifica os contratos.
 
 Nenhuma imagem e criada nesta reorganizacao.

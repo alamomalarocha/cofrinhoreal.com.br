@@ -6,8 +6,8 @@ O Cofrinho Real fala com carinho, clareza e respeito.
 
 - Frases curtas.
 - Linguagem positiva.
-- Convites, nao ordens.
-- Reflexao, nao culpa.
+- Convites, não ordens.
+- Reflexao, não culpa.
 
 ## Evitar
 

@@ -1,11 +1,11 @@
-# Reposicionamento publico PigCoin
+# Reposicionamento público PigCoin
 
 Checkpoint: 2026-07-12.
 
-A apresentacao publica temporaria prioriza PigCoin ficticio, educacao, historias, jogos, personagens, familias, cultura, energia e seguranca digital.
+A apresentacao pública temporaria prioriza PigCoin fictício, educação, histórias, jogos, personagens, famílias, cultura, energia e segurança digital.
 
 Mensagem central: **Aprender, brincar e crescer com o Pig.**
 
-PigCoin nao e dinheiro, criptoativo, investimento, premio conversivel ou promessa de ganho. Nao existe compra, venda, saque, PIX, conta ou movimentacao real.
+PigCoin não e dinheiro, criptoativo, investimento, prêmio conversivel ou promessa de ganho. Não existe compra, venda, saque, PIX, conta ou movimentação real.
 
-A experiencia publica usa o Pig Principal universal. Uma experiencia futura podera adaptar idioma, jurisdicao, faixa de conteudo, acessibilidade e supervisao, sem inferir identidade pelo avatar.
+A experiência pública usa o Pig Principal universal. Uma experiência futura poderá adaptar idioma, jurisdição, faixa de conteúdo, acessibilidade e supervisão, sem inferir identidade pelo avatar.

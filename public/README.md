@@ -1,6 +1,6 @@
 # Public
 
-Esta pasta sera usada futuramente para arquivos publicos servidos pela aplicacao.
+Esta pasta será usada futuramente para arquivos publicos servidos pela aplicação.
 
 ## Exemplos futuros
 
@@ -11,5 +11,5 @@ Esta pasta sera usada futuramente para arquivos publicos servidos pela aplicacao
 
 ## Estado atual
 
-Nao mover arquivos automaticamente sem uma decisao de arquitetura.
+Não mover arquivos automaticamente sem uma decisão de arquitetura.
 

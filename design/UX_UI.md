@@ -1,14 +1,14 @@
 # UX e UI
 
-Direcao para experiencia e interface do Cofrinho Real.
+Direção para experiência e interface do Cofrinho Real.
 
-## Principios
+## Princípios
 
 - Simplicidade antes de complexidade.
 - Clareza antes de efeito visual.
 - Carinho sem infantilizar adultos.
-- Educacao sem julgamento.
-- Confianca sem frieza bancaria.
+- Educação sem julgamento.
+- Confiança sem frieza bancaria.
 
 ## Interfaces
 

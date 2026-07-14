@@ -1,14 +1,14 @@
-# Template de Decisao Privada
+# Template de Decisão Privada
 
-Este arquivo e apenas um modelo publico e nao contem informacao confidencial. O conteudo real deve ficar fora do repositorio, em local privado aprovado.
+Este arquivo e apenas um modelo público e não contem informação confidencial. O conteúdo real deve ficar fora do repositório, em local privado aprovado.
 
 - ID:
 - Data:
 - Titulo:
-- Responsavel:
-- Descricao reservada:
+- Responsável:
+- Descrição reservada:
 - Motivo:
 - Arquivos ou areas afetadas:
 - Status:
-- Decisao substituida:
-- Data de revisao:
+- Decisão substituida:
+- Data de revisão:

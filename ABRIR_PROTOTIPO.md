@@ -1,15 +1,15 @@
-# Como abrir o prototipo localmente
+# Como abrir o protótipo localmente
 
-Este projeto e um prototipo visual estatico.
+Este projeto e um protótipo visual estático.
 
-Nao existe backend, banco de dados, login funcional, PIX real ou publicacao operacional.
+Não existe backend, banco de dados, login funcional, PIX real ou publicação operacional.
 
 ## Opcao 1 — Abrir direto pelo arquivo
 
 Esta e a forma mais simples.
 
 1. Abra o Explorador de Arquivos do Windows.
-2. Va ate a pasta:
+2. Va até a pasta:
 
 ```text
 C:\Users\alamo\OneDrive\Documents\cofrinhoreal.com.br 2
@@ -21,7 +21,7 @@ C:\Users\alamo\OneDrive\Documents\cofrinhoreal.com.br 2
 index.html
 ```
 
-O site deve abrir no navegador padrao.
+O site deve abrir no navegador padrão.
 
 Se preferir pelo PowerShell:
 
@@ -54,14 +54,14 @@ Ctrl + C
 
 ## Arquivos principais
 
-O prototipo depende principalmente destes arquivos:
+O protótipo depende principalmente destes arquivos:
 
 - `index.html`
 - `styles.css`
 - `script.js`
 - `assets/favicon.svg`
 
-## Observacao
+## Observação
 
 Se a porta `8000` ja estiver em uso, tente outra porta:
 

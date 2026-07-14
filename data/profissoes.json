@@ -3,8 +3,8 @@
   "atualizado_em": "2026-07-12",
   "principio": "Na Vila Pig, todo trabalho digno tem valor - do dindim vendido na rua ao foguete projetado para o espaco.",
   "fonte_base": {
-    "titulo": "Classificacao Brasileira de Ocupacoes",
-    "instituicao": "Ministerio do Trabalho e Emprego",
+    "titulo": "Classificação Brasileira de Ocupações",
+    "instituicao": "Ministério do Trabalho e Emprego",
     "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/cbo/pagina-inicial/",
     "data_acesso": "2026-07-12"
   },
@@ -49,7 +49,7 @@
     },
     {
       "id_estavel": "PROF-HIS-0004",
-      "nome_exibicao": "Tecnico de maquina de escrever",
+      "nome_exibicao": "Técnico de maquina de escrever",
       "categoria": "historica_ou_transformada",
       "status": "rara",
       "cbo": null,
@@ -283,7 +283,7 @@
     },
     {
       "id_estavel": "PROF-TEC-0002",
-      "nome_exibicao": "Especialista em seguranca digital",
+      "nome_exibicao": "Especialista em segurança digital",
       "categoria": "tecnologia",
       "status": "atual",
       "cbo": null,
@@ -292,7 +292,7 @@
     },
     {
       "id_estavel": "PROF-TEC-0003",
-      "nome_exibicao": "Tecnica em robotica",
+      "nome_exibicao": "Técnica em robótica",
       "categoria": "tecnologia",
       "status": "emergente",
       "cbo": null,
@@ -310,7 +310,7 @@
     },
     {
       "id_estavel": "PROF-FUT-2040-0001",
-      "nome_exibicao": "Profissao futura em definicao",
+      "nome_exibicao": "Profissão futura em definicao",
       "slug": "profissao-futura-2040-0001",
       "categoria": "futura",
       "area": "tecnologia-e-sociedade",
@@ -321,7 +321,7 @@
     },
     {
       "id_estavel": "PROF-FUT-2060-0001",
-      "nome_exibicao": "Profissao futura em definicao",
+      "nome_exibicao": "Profissão futura em definicao",
       "slug": "profissao-futura-2060-0001",
       "categoria": "futura",
       "area": "ambiente-e-cidades",
@@ -4215,7 +4215,7 @@
     },
     {
       "id_estavel": "CBO-214945",
-      "nome_exibicao": "Engenheiro de logistica",
+      "nome_exibicao": "Engenheiro de logística",
       "categoria": "atual_cbo",
       "status": "oficial_cbo",
       "cbo": "214945",
@@ -8439,7 +8439,7 @@
     },
     {
       "id_estavel": "CBO-252715",
-      "nome_exibicao": "Analista de logistica",
+      "nome_exibicao": "Analista de logística",
       "categoria": "atual_cbo",
       "status": "oficial_cbo",
       "cbo": "252715",
@@ -14775,7 +14775,7 @@
     },
     {
       "id_estavel": "CBO-414140",
-      "nome_exibicao": "Auxiliar de logistica",
+      "nome_exibicao": "Auxiliar de logística",
       "categoria": "atual_cbo",
       "status": "oficial_cbo",
       "cbo": "414140",

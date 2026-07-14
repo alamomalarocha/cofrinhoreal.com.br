@@ -1,17 +1,17 @@
 # Chat Futuro
 
-Chat nao faz parte do MVP.
+Chat não faz parte do MVP.
 
 ## Possibilidades futuras
 
 - Suporte simples.
 - Mensagens familiares controladas.
-- Comunicacao entre responsavel e conta infantil.
+- Comunicação entre responsável e conta infantil.
 - Orientacoes educativas.
 
 ## Cuidados
 
-- Protecao de menores.
+- Proteção de menores.
 - Moderacao.
 - Privacidade.
 - Registro de abuso.

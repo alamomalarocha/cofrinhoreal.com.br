@@ -1,12 +1,12 @@
-# Revisao Cultural de Personagens
+# Revisão Cultural de Personagens
 
 ## Estados
 
 - `confirmado`: pesquisa documental suficiente para o campo.
-- `parcial`: conteudo generico, ainda limitado.
-- `pendente`: pesquisa nao iniciada ou incompleta.
+- `parcial`: conteúdo genérico, ainda limitado.
+- `pendente`: pesquisa não iniciada ou incompleta.
 - `requer_consulta`: depende de consulta cultural ou territorial.
-- `requer_especialista`: nao publicar nem criar imagem antes da revisao.
+- `requer_especialista`: não publicar nem criar imagem antes da revisão.
 
 ## Bloqueios atuais
 

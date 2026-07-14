@@ -1,18 +1,18 @@
 # API
 
-Esta pasta sera usada futuramente para contratos, rotas e documentacao da API.
+Esta pasta será usada futuramente para contratos, rotas e documentação da API.
 
 ## Estado atual
 
-Nao criar API agora.
+Não criar API agora.
 
 Antes de implementar, documentar:
 
-- autenticacao
-- permissoes
+- autenticação
+- permissões
 - endpoints
 - erros
 - limites
-- seguranca
+- segurança
 - versionamento
 

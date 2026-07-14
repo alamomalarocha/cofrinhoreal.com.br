@@ -1,14 +1,14 @@
-# Educacao financeira
+# Educação financeira
 
-O projeto ensina escolhas, espera, planejamento, seguranca e responsabilidade com exemplos ficticios. Nao oferece recomendacao personalizada nem operacao financeira.
+O projeto ensina escolhas, espera, planejamento, segurança e responsabilidade com exemplos fictícios. Não oferece recomendacao personalizada nem operação financeira.
 
 ## Progressao editorial
 
-- Primeira infancia: contar, esperar e reconhecer formas.
+- Primeira infância: contar, esperar e reconhecer formas.
 - Infantil: metas simples, querer versus precisar e consumo consciente.
-- Pre-adolescente: planejamento, comparacao, energia e seguranca digital.
+- Pré-adolescente: planejamento, comparacao, energia e segurança digital.
 - Adolescente: risco, inflacao, juros conceituais, golpes e simulacoes.
 - Adulto: planejamento geral e familiar.
-- Senior: golpes, acessibilidade, organizacao e legado.
+- Sênior: golpes, acessibilidade, organização e legado.
 
-O acesso real futuro dependeria da idade atual, jurisdicao, classificacao e supervisao, nao da geracao ou do estilo do avatar.
+O acesso real futuro dependeria da idade atual, jurisdição, classificação e supervisão, não da geração ou do estilo do avatar.

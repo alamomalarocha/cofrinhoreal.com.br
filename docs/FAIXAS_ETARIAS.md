@@ -1,19 +1,19 @@
 # Faixas Etarias
 
-O Cofrinho Real cresce junto com o usuario.
+O Cofrinho Real cresce junto com o usuário.
 
 ## Fases
 
-- Pig Bebe: 0 a 2 anos.
+- Pig Bebê: 0 a 2 anos.
 - Pig Primeirinhos: 3 a 5 anos.
-- Pig Crianca: 6 a 9 anos.
-- Pig Pre-Adolescente: 10 a 12 anos.
+- Pig Criança: 6 a 9 anos.
+- Pig Pré-adolescente: 10 a 12 anos.
 - Pig Adolescente: 13 a 17 anos.
 - Pig Jovem: 18 a 24 anos.
 - Pig Jovem Adulto: 25 a 34 anos.
 - Pig Adulto: 35 a 49 anos.
 - Pig Coroa: 50 a 64 anos.
-- Pig Senior / Vovo / Vovo: 65+.
+- Pig Sênior / Vovo / Vovo: 65+.
 
 ## Regra visual
 
@@ -23,29 +23,29 @@ Mas tudo deve continuar parecendo Cofrinho Real.
 
 ## Regra de produto
 
-Cada idade deve receber liberdade, informacao e controle adequados ao seu momento de vida.
+Cada idade deve receber liberdade, informação e controle adequados ao seu momento de vida.
 
-## Relacao com a Familia Pig
+## Relação com a Família Pig
 
-A Familia Pig pode representar fases e relacoes diferentes:
+A Família Pig pode representar fases e relações diferentes:
 
-- Pig Crianca.
+- Pig Criança.
 - Pig Adolescente.
 - Pig Adulto.
 - Pig Vovó.
 - Pig Vovô.
-- Pig Familia.
+- Pig Família.
 - Pig Comerciante.
 
-Essas variacoes devem ser criadas por fases, sem sobrecarregar o MVP.
+Essas variações devem ser criadas por fases, sem sobrecarregar o MVP.
 
 Documento principal: `docs/FAMILIA_PIG.md`.
 
 Documento especifico de avatares: `docs/AVATARES.md`.
 
-## Opcoes publicas de avatar
+## Opções publicas de avatar
 
-As opcoes de avatar sao estilos visuais: Pig Azul, Pig Rosa, Pig Arco-iris e Pig Padrao. Elas nao representam declaracao obrigatoria de identidade pessoal.
+As opções de avatar são estilos visuais: Pig Azul, Pig Rosa, Pig Arco-íris e Pig Padrão. Elas não representam declaracao obrigatória de identidade pessoal.
 
 Pergunta oficial no onboarding:
 
@@ -55,23 +55,23 @@ Texto de apoio:
 
 > Voce pode mudar isso depois.
 
-Opcoes publicas:
+Opções publicas:
 
 1. **Pig Azul**: estilo azul, calmo, classico e amigavel.
 2. **Pig Rosa**: estilo rosa, doce, afetivo e carinhoso.
-3. **Pig Arco-iris**: estilo colorido, livre e inclusivo.
-4. **Pig Padrao**: visual padrao do Cofrinho Real, para quem prefere nao escolher ou nao informar.
+3. **Pig Arco-íris**: estilo colorido, livre e inclusivo.
+4. **Pig Padrão**: visual padrão do Cofrinho Real, para quem prefere não escolher ou não informar.
 
 Regras publicas:
 
-- nao usar publicamente "menino";
-- nao usar publicamente "menina";
-- nao usar publicamente "LGBT";
-- nao usar publicamente "neutro";
-- nao perguntar "o que voce e";
-- nao coletar informacao sensivel;
-- nao transformar escolha visual em declaracao de identidade pessoal;
-- tratar tudo como personalizacao visual do avatar.
+- não usar publicamente "menino";
+- não usar publicamente "menina";
+- não usar publicamente "LGBT";
+- não usar publicamente "neutro";
+- não perguntar "o que voce e";
+- não coletar informação sensível;
+- não transformar escolha visual em declaracao de identidade pessoal;
+- tratar tudo como personalização visual do avatar.
 
 Nomes internos:
 
@@ -82,9 +82,9 @@ Nomes internos:
 
 Esses valores representam apenas estilo visual.
 
-## Variacoes futuras por idade
+## Variações futuras por idade
 
-Cada faixa etaria de avatar podera futuramente receber as variacoes `padrao`, `azul`, `rosa` e `arco_iris`.
+Cada faixa etária de avatar poderá futuramente receber as variações `padrao`, `azul`, `rosa` e `arco_iris`.
 
 Exemplo futuro:
 
@@ -95,10 +95,10 @@ assets/characters/004-pig-crianca-rosa.png
 assets/characters/004-pig-crianca-arco-iris.png
 ```
 
-Nao criar essas imagens agora.
+Não criar essas imagens agora.
 
 ## Documento de compatibilidade
 
 Este documento preserva a nomenclatura historica. A fonte estruturada atual das fases e `data/fases-vida.json`, documentada em `GERACOES_E_FASES_DA_VIDA.md`.
 
-Faixa etaria e fase da vida nao substituem geracao. A fase muda com a idade; a coorte de nascimento permanece.
+Faixa etária e fase da vida não substituem geração. A fase muda com a idade; a coorte de nascimento permanece.

@@ -2,14 +2,14 @@
 
 ## Objetivo
 
-`data/matriz-cobertura-brasil.csv` registra o que ja foi pesquisado, representado e ilustrado. A matriz serve para descobrir lacunas reais, nao para atingir um numero arbitrario.
+`data/matriz-cobertura-brasil.csv` registra o que ja foi pesquisado, representado e ilustrado. A matriz serve para descobrir lacunas reais, não para atingir um número arbitrario.
 
 Campos principais:
 
-- regiao, UF, territorio e bioma;
-- familia, origem cultural e comunidade;
-- profissao;
-- geracao e fase da vida;
+- região, UF, território e bioma;
+- família, origem cultural e comunidade;
+- profissão;
+- geração e fase da vida;
 - folclore;
 - UID do personagem;
 - status de pesquisa, personagem e imagem;
@@ -19,18 +19,18 @@ Campos principais:
 
 1. inserir uma necessidade de cobertura;
 2. pesquisar fontes oficiais e regionais;
-3. consultar comunidades quando aplicavel;
-4. aprovar conceito e cuidados de representacao;
+3. consultar comunidades quando aplicável;
+4. aprovar conceito e cuidados de representação;
 5. criar personagem e UID;
 6. criar imagem;
-7. atualizar matriz e Colecao Pig.
+7. atualizar matriz e Coleção Pig.
 
-`data/backlog-personagens.csv` guarda temas ainda sem personagem. Uma linha pendente nao deve aparecer como fato confirmado no site.
+`data/backlog-personagens.csv` guarda temas ainda sem personagem. Uma linha pendente não deve aparecer como fato confirmado no site.
 
 <!-- CATALOGO_BRASILEIRO_INICIO -->
-## Catalogo brasileiro compilado
+## Catálogo brasileiro compilado
 
-Em 2026-07-12, o catalogo passou a ter 3251 registros fixos, 1430 familias e cobertura das 27 UFs. As fontes ficam em `data/personagens/`; os arquivos monoliticos sao gerados. Perfis culturais sensiveis permanecem nao publicaveis ate pesquisa e revisao.
+Em 2026-07-12, o catálogo passou a ter 3251 registros fixos, 1430 famílias e cobertura das 27 UFs. As fontes ficam em `data/personagens/`; os arquivos monolíticos são gerados. Perfis culturais sensíveis permanecem não publicáveis até pesquisa e revisão.
 
-Referencias: `docs/CATALOGO_BRASILEIRO_PERSONAGENS.md`, `docs/REVISAO_CULTURAL_PERSONAGENS.md` e `data/relatorio-validacao-catalogo.json`.
+Referências: `docs/CATALOGO_BRASILEIRO_PERSONAGENS.md`, `docs/REVISAO_CULTURAL_PERSONAGENS.md` e `data/relatorio-validacao-catalogo.json`.
 <!-- CATALOGO_BRASILEIRO_FIM -->

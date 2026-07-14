@@ -9,8 +9,8 @@ legal_review: aguardando_revisao
 
 # Cookies - estrutura de pesquisa
 
-Inventario e classificacao de cookies ainda devem ser feitos antes de qualquer uso alem do estritamente necessario. Nao ha autorizacao para publicidade comportamental dirigida a menores.
+Inventário e classificação de cookies ainda devem ser feitos antes de qualquer uso alem do estritamente necessário. Não há autorizacao para publicidade comportamental dirigida a menores.
 
-## Historico
+## Histórico
 
 - 0.1.0: estrutura inicial de pesquisa.

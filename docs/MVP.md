@@ -1,20 +1,20 @@
 # MVP visual atual
 
-O MVP e um site estatico de apresentacao e pesquisa.
+O MVP e um site estático de apresentacao e pesquisa.
 
 Inclui:
 - Home educativa;
-- PigCoin ficticio;
-- paginas de educacao, jogos, familias e seguranca;
-- Colecao Pig;
+- PigCoin fictício;
+- páginas de educação, jogos, famílias e segurança;
+- Coleção Pig;
 - teaser sem data ou desbloqueio real;
 - dados e schemas de pesquisa.
 
-Nao inclui:
-- backend, banco, login, autenticacao ou conta;
-- coleta de dados de criancas;
+Não inclui:
+- backend, banco, login, autenticação ou conta;
+- coleta de dados de crianças;
 - pagamento, compra, saque, PIX ou dinheiro real;
 - criptoativo real, aposta, chat ou rede social;
-- alegacao de conformidade juridica.
+- alegação de conformidade jurídica.
 
-O objetivo e validar linguagem, navegacao, personagens, temas educativos e organizacao de conteudo.
+O objetivo e validar linguagem, navegação, personagens, temas educativos e organização de conteúdo.

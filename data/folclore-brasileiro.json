@@ -1,16 +1,16 @@
 {
   "schema_version": "2.0.0",
   "atualizado_em": "2026-07-12",
-  "politica_visual": "Criar interpretacoes originais depois de pesquisa. Nao copiar versoes protegidas de televisao, cinema, livros ou marcas.",
+  "politica_visual": "Criar interpretacoes originais depois de pesquisa. Não copiar versoes protegidas de televisao, cinema, livros ou marcas.",
   "fontes_base": [
     {
-      "titulo": "Patrimonio Imaterial",
+      "titulo": "Patrimônio Imaterial",
       "instituicao": "IPHAN",
       "url": "https://www.gov.br/iphan/pt-br/patrimonio-cultural/patrimonio-imaterial",
       "data_acesso": "2026-07-12"
     },
     {
-      "titulo": "Programa Nacional do Patrimonio Imaterial",
+      "titulo": "Programa Nacional do Patrimônio Imaterial",
       "instituicao": "IPHAN",
       "url": "https://www.gov.br/iphan/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-nacional-do-patrimonio-imaterial-pnpi",
       "data_acesso": "2026-07-12"
@@ -25,7 +25,8 @@
       "regioes_circulacao": [],
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Saci-Perere"
     },
     {
       "uid": "FOL-BR-CUCA-0001",
@@ -35,7 +36,8 @@
       "regioes_circulacao": [],
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Cuca"
     },
     {
       "uid": "FOL-BR-CURUPIRA-0001",
@@ -45,7 +47,8 @@
       "regioes_circulacao": [],
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Curupira"
     },
     {
       "uid": "FOL-BR-IARA-0001",
@@ -55,7 +58,8 @@
       "regioes_circulacao": [],
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Iara"
     },
     {
       "uid": "FOL-BR-BOTO-0001",
@@ -65,7 +69,8 @@
       "regioes_circulacao": [],
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Boto-cor-de-rosa"
     },
     {
       "uid": "FOL-BR-BOITATA-0001",
@@ -75,7 +80,8 @@
       "regioes_circulacao": [],
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Boitata"
     },
     {
       "uid": "FOL-BR-MULA-0001",
@@ -85,7 +91,8 @@
       "regioes_circulacao": [],
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Mula sem Cabeca"
     },
     {
       "uid": "FOL-BR-NEGRINHO-0001",
@@ -95,7 +102,8 @@
       "regioes_circulacao": [],
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Negrinho do Pastoreio"
     },
     {
       "uid": "FOL-PESQ-0009",
@@ -106,7 +114,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 009"
     },
     {
       "uid": "FOL-PESQ-0010",
@@ -117,7 +126,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 010"
     },
     {
       "uid": "FOL-PESQ-0011",
@@ -128,7 +138,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 011"
     },
     {
       "uid": "FOL-PESQ-0012",
@@ -139,7 +150,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 012"
     },
     {
       "uid": "FOL-PESQ-0013",
@@ -150,7 +162,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 013"
     },
     {
       "uid": "FOL-PESQ-0014",
@@ -161,7 +174,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 014"
     },
     {
       "uid": "FOL-PESQ-0015",
@@ -172,7 +186,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 015"
     },
     {
       "uid": "FOL-PESQ-0016",
@@ -183,7 +198,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 016"
     },
     {
       "uid": "FOL-PESQ-0017",
@@ -194,7 +210,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 017"
     },
     {
       "uid": "FOL-PESQ-0018",
@@ -205,7 +222,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 018"
     },
     {
       "uid": "FOL-PESQ-0019",
@@ -216,7 +234,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 019"
     },
     {
       "uid": "FOL-PESQ-0020",
@@ -227,7 +246,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 020"
     },
     {
       "uid": "FOL-PESQ-0021",
@@ -238,7 +258,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 021"
     },
     {
       "uid": "FOL-PESQ-0022",
@@ -249,7 +270,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 022"
     },
     {
       "uid": "FOL-PESQ-0023",
@@ -260,7 +282,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 023"
     },
     {
       "uid": "FOL-PESQ-0024",
@@ -271,7 +294,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 024"
     },
     {
       "uid": "FOL-PESQ-0025",
@@ -282,7 +306,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 025"
     },
     {
       "uid": "FOL-PESQ-0026",
@@ -293,7 +318,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 026"
     },
     {
       "uid": "FOL-PESQ-0027",
@@ -304,7 +330,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 027"
     },
     {
       "uid": "FOL-PESQ-0028",
@@ -315,7 +342,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 028"
     },
     {
       "uid": "FOL-PESQ-0029",
@@ -326,7 +354,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 029"
     },
     {
       "uid": "FOL-PESQ-0030",
@@ -337,7 +366,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 030"
     },
     {
       "uid": "FOL-PESQ-0031",
@@ -348,7 +378,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 031"
     },
     {
       "uid": "FOL-PESQ-0032",
@@ -359,7 +390,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 032"
     },
     {
       "uid": "FOL-PESQ-0033",
@@ -370,7 +402,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 033"
     },
     {
       "uid": "FOL-PESQ-0034",
@@ -381,7 +414,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 034"
     },
     {
       "uid": "FOL-PESQ-0035",
@@ -392,7 +426,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 035"
     },
     {
       "uid": "FOL-PESQ-0036",
@@ -403,7 +438,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 036"
     },
     {
       "uid": "FOL-PESQ-0037",
@@ -414,7 +450,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 037"
     },
     {
       "uid": "FOL-PESQ-0038",
@@ -425,7 +462,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 038"
     },
     {
       "uid": "FOL-PESQ-0039",
@@ -436,7 +474,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 039"
     },
     {
       "uid": "FOL-PESQ-0040",
@@ -447,7 +486,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 040"
     },
     {
       "uid": "FOL-PESQ-0041",
@@ -458,7 +498,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 041"
     },
     {
       "uid": "FOL-PESQ-0042",
@@ -469,7 +510,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 042"
     },
     {
       "uid": "FOL-PESQ-0043",
@@ -480,7 +522,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 043"
     },
     {
       "uid": "FOL-PESQ-0044",
@@ -491,7 +534,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 044"
     },
     {
       "uid": "FOL-PESQ-0045",
@@ -502,7 +546,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 045"
     },
     {
       "uid": "FOL-PESQ-0046",
@@ -513,7 +558,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 046"
     },
     {
       "uid": "FOL-PESQ-0047",
@@ -524,7 +570,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 047"
     },
     {
       "uid": "FOL-PESQ-0048",
@@ -535,7 +582,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 048"
     },
     {
       "uid": "FOL-PESQ-0049",
@@ -546,7 +594,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 049"
     },
     {
       "uid": "FOL-PESQ-0050",
@@ -557,7 +606,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 050"
     },
     {
       "uid": "FOL-PESQ-0051",
@@ -568,7 +618,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 051"
     },
     {
       "uid": "FOL-PESQ-0052",
@@ -579,7 +630,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 052"
     },
     {
       "uid": "FOL-PESQ-0053",
@@ -590,7 +642,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 053"
     },
     {
       "uid": "FOL-PESQ-0054",
@@ -601,7 +654,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 054"
     },
     {
       "uid": "FOL-PESQ-0055",
@@ -612,7 +666,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 055"
     },
     {
       "uid": "FOL-PESQ-0056",
@@ -623,7 +678,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 056"
     },
     {
       "uid": "FOL-PESQ-0057",
@@ -634,7 +690,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 057"
     },
     {
       "uid": "FOL-PESQ-0058",
@@ -645,7 +702,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 058"
     },
     {
       "uid": "FOL-PESQ-0059",
@@ -656,7 +714,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 059"
     },
     {
       "uid": "FOL-PESQ-0060",
@@ -667,7 +726,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 060"
     },
     {
       "uid": "FOL-PESQ-0061",
@@ -678,7 +738,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 061"
     },
     {
       "uid": "FOL-PESQ-0062",
@@ -689,7 +750,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 062"
     },
     {
       "uid": "FOL-PESQ-0063",
@@ -700,7 +762,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 063"
     },
     {
       "uid": "FOL-PESQ-0064",
@@ -711,7 +774,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 064"
     },
     {
       "uid": "FOL-PESQ-0065",
@@ -722,7 +786,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 065"
     },
     {
       "uid": "FOL-PESQ-0066",
@@ -733,7 +798,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 066"
     },
     {
       "uid": "FOL-PESQ-0067",
@@ -744,7 +810,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 067"
     },
     {
       "uid": "FOL-PESQ-0068",
@@ -755,7 +822,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 068"
     },
     {
       "uid": "FOL-PESQ-0069",
@@ -766,7 +834,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 069"
     },
     {
       "uid": "FOL-PESQ-0070",
@@ -777,7 +846,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 070"
     },
     {
       "uid": "FOL-PESQ-0071",
@@ -788,7 +858,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 071"
     },
     {
       "uid": "FOL-PESQ-0072",
@@ -799,7 +870,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 072"
     },
     {
       "uid": "FOL-PESQ-0073",
@@ -810,7 +882,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 073"
     },
     {
       "uid": "FOL-PESQ-0074",
@@ -821,7 +894,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 074"
     },
     {
       "uid": "FOL-PESQ-0075",
@@ -832,7 +906,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 075"
     },
     {
       "uid": "FOL-PESQ-0076",
@@ -843,7 +918,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 076"
     },
     {
       "uid": "FOL-PESQ-0077",
@@ -854,7 +930,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 077"
     },
     {
       "uid": "FOL-PESQ-0078",
@@ -865,7 +942,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 078"
     },
     {
       "uid": "FOL-PESQ-0079",
@@ -876,7 +954,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 079"
     },
     {
       "uid": "FOL-PESQ-0080",
@@ -887,7 +966,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 080"
     },
     {
       "uid": "FOL-PESQ-0081",
@@ -898,7 +978,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 081"
     },
     {
       "uid": "FOL-PESQ-0082",
@@ -909,7 +990,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 082"
     },
     {
       "uid": "FOL-PESQ-0083",
@@ -920,7 +1002,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 083"
     },
     {
       "uid": "FOL-PESQ-0084",
@@ -931,7 +1014,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 084"
     },
     {
       "uid": "FOL-PESQ-0085",
@@ -942,7 +1026,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 085"
     },
     {
       "uid": "FOL-PESQ-0086",
@@ -953,7 +1038,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 086"
     },
     {
       "uid": "FOL-PESQ-0087",
@@ -964,7 +1050,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 087"
     },
     {
       "uid": "FOL-PESQ-0088",
@@ -975,7 +1062,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 088"
     },
     {
       "uid": "FOL-PESQ-0089",
@@ -986,7 +1074,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 089"
     },
     {
       "uid": "FOL-PESQ-0090",
@@ -997,7 +1086,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 090"
     },
     {
       "uid": "FOL-PESQ-0091",
@@ -1008,7 +1098,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 091"
     },
     {
       "uid": "FOL-PESQ-0092",
@@ -1019,7 +1110,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 092"
     },
     {
       "uid": "FOL-PESQ-0093",
@@ -1030,7 +1122,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 093"
     },
     {
       "uid": "FOL-PESQ-0094",
@@ -1041,7 +1134,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 094"
     },
     {
       "uid": "FOL-PESQ-0095",
@@ -1052,7 +1146,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 095"
     },
     {
       "uid": "FOL-PESQ-0096",
@@ -1063,7 +1158,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 096"
     },
     {
       "uid": "FOL-PESQ-0097",
@@ -1074,7 +1170,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 097"
     },
     {
       "uid": "FOL-PESQ-0098",
@@ -1085,7 +1182,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 098"
     },
     {
       "uid": "FOL-PESQ-0099",
@@ -1096,7 +1194,8 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 099"
     },
     {
       "uid": "FOL-PESQ-0100",
@@ -1107,8 +1206,10 @@
       "versoes_regionais": [],
       "status_pesquisa": "pendente",
       "publicavel": false,
-      "fontes": []
+      "fontes": [],
+      "nome_exibicao": "Variação folclórica em pesquisa 100"
     }
   ],
-  "observacao_cobertura": "Os oito registros nomeados sao referencias iniciais. Os demais sao slots nao publicaveis e nao contam como pesquisa cultural concluida."
+  "observacao_cobertura": "Os oito registros nomeados são referências iniciais. Os demais são slots não publicáveis e não contam como pesquisa cultural concluída.",
+  "fontes": []
 }

@@ -1,13 +1,13 @@
-# Conteudo por idade
+# Conteúdo por idade
 
-Os niveis de `data/content/content-levels.json` sao editoriais e internos. Eles nao substituem classificacao oficial, consentimento ou regra de responsavel.
+Os níveis de `data/content/content-levels.json` são editoriais e internos. Eles não substituem classificação oficial, consentimento ou regra de responsável.
 
 ## Separacoes obrigatorias
 
-- Geracao: contexto historico de nascimento; nao muda.
+- Geração: contexto histórico de nascimento; não muda.
 - Fase da vida: muda ao longo do tempo.
-- Classificacao legal: depende do pais.
-- Nivel de conteudo: orienta curadoria e entrega.
-- Estilo do avatar: escolha visual; nao define genero, idade, orientacao ou permissao.
+- Classificação legal: depende do pais.
+- Nivel de conteúdo: orienta curadoria e entrega.
+- Estilo do avatar: escolha visual; não define gênero, idade, orientação ou permissão.
 
-Conteudos evoluem de cores, contagem e historias curtas para planejamento, seguranca digital, risco conceitual, tecnologia, golpes e acessibilidade. Simulacoes nao envolvem dinheiro real nem recomendacao personalizada.
+Conteúdos evoluem de cores, contagem e histórias curtas para planejamento, segurança digital, risco conceitual, tecnologia, golpes e acessibilidade. Simulacoes não envolvem dinheiro real nem recomendacao personalizada.

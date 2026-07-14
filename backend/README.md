@@ -1,18 +1,18 @@
 # Backend
 
-Esta pasta sera usada futuramente para o backend do Cofrinho Real.
+Esta pasta será usada futuramente para o backend do Cofrinho Real.
 
 ## Estado atual
 
-Nao criar backend agora.
+Não criar backend agora.
 
 Antes de qualquer implementacao, definir:
 
 - linguagem
 - framework
-- autenticacao
-- seguranca
+- autenticação
+- segurança
 - modelo de dados
 - custos
-- estrategia de hospedagem
+- estratégia de hospedagem
 

@@ -1,22 +1,22 @@
-# Internacionalizacao e conformidade
+# Internacionalização e conformidade
 
-Status: pesquisa interna, sujeita a revisao juridica. Ultima consulta: 2026-07-12.
+Status: pesquisa interna, sujeita a revisão jurídica. Ultima consulta: 2026-07-12.
 
-O Cofrinho Real continua um prototipo estatico. A arquitetura separa idioma, pais, jurisdicao, classificacao local, nivel editorial e permissoes. Nenhum pais esta habilitado para contas reais.
+O Cofrinho Real continua um protótipo estático. A arquitetura separa idioma, pais, jurisdição, classificação local, nivel editorial e permissões. Nenhum pais esta habilitado para contas reais.
 
-## Principios
+## Princípios
 
-- Nao existe idade universal para consentimento, conta independente ou supervisao.
-- Uma regra so pode sair de `research_only` com fonte oficial vigente e revisao profissional.
+- Não existe idade universal para consentimento, conta independente ou supervisão.
+- Uma regra so pode sair de `research_only` com fonte oficial vigente e revisão profissional.
 - Campos incertos permanecem `null`; recursos reais permanecem desabilitados.
-- Pais, idioma, fuso, formato de data, acessibilidade e documentos legais sao configuracoes separadas.
+- Pais, idioma, fuso, formato de data, acessibilidade e documentos legais são configuracoes separadas.
 
 ## Estrutura
 
-- `data/compliance/jurisdictions/`: perfis de pesquisa por jurisdicao.
-- `locales/`: esqueletos de traducao, nao traducoes aprovadas.
-- `legal/`: rascunhos versionados, sem vigencia.
-- `schemas/`: contratos de dados para validacao futura.
+- `data/compliance/jurisdictions/`: perfis de pesquisa por jurisdição.
+- `locales/`: esqueletos de traducao, não traducoes aprovadas.
+- `legal/`: rascunhos versionados, sem vigência.
+- `schemas/`: contratos de dados para validação futura.
 
 ## Fontes iniciais
 
@@ -24,4 +24,4 @@ O Cofrinho Real continua um prototipo estatico. A arquitetura separa idioma, pai
 - Estados Unidos: [COPPA](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa).
 - Uniao Europeia: [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj), [Digital Services Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065).
 
-Pesquisa tecnica nao equivale a parecer juridico.
+Pesquisa técnica não equivale a parecer jurídico.

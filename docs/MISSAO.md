@@ -2,21 +2,21 @@
 
 Transformar pequenos valores em grandes conquistas.
 
-O Cofrinho Real existe para ajudar pessoas e familias a criarem uma relacao saudavel com dinheiro, planejamento, economia e solidariedade.
+O Cofrinho Real existe para ajudar pessoas e famílias a criarem uma relação saudavel com dinheiro, planejamento, economia e solidariedade.
 
-## Principios
+## Princípios
 
 - Educar sem julgar.
 - Incentivar economia sem avareza.
 - Valorizar sonhos reais.
-- Ajudar familias a ensinar dinheiro com carinho.
+- Ajudar famílias a ensinar dinheiro com carinho.
 - Manter o dinheiro circulando de forma simples entre pessoas e comerciantes.
 
-## Pergunta obrigatoria
+## Pergunta obrigatória
 
-Toda decisao deve responder:
+Toda decisão deve responder:
 
 > Isso faz bem para as pessoas?
 
-Se a resposta nao for sim, a decisao deve ser revista.
+Se a resposta não for sim, a decisão deve ser revista.
 

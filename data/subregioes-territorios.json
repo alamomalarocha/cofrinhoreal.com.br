@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "atualizado_em": "2026-07-12",
-  "regra": "Tipos de territorio nao substituem recortes oficiais do IBGE e podem coexistir no mesmo personagem.",
+  "regra": "Tipos de território não substituem recortes oficiais do IBGE e podem coexistir no mesmo personagem.",
   "tipos": [
     {"id": "territorio_capital", "nome": "Capital", "status_pesquisa": "taxonomia"},
     {"id": "territorio_interior", "nome": "Interior", "status_pesquisa": "taxonomia"},
@@ -23,7 +23,7 @@
       "data_acesso": "2026-07-12"
     },
     {
-      "titulo": "Terras Indigenas: Dados Geoespaciais e Mapas",
+      "titulo": "Terras Indígenas: Dados Geoespaciais e Mapas",
       "instituicao": "Funai",
       "url": "https://www.gov.br/funai/pt-br/atuacao/terras-indigenas/geoprocessamento-e-mapas",
       "data_acesso": "2026-07-12"
