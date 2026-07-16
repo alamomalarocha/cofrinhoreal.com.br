@@ -1,6 +1,6 @@
 # Fila de criação de imagens
 
-Atualizado em 2026-07-14.
+Atualizado em 2026-07-16.
 
 ## Fonte
 
@@ -24,10 +24,12 @@ Itens bloqueados não recebem imagem até a pendência cultural, editorial ou ju
 ## Operação
 
 ```powershell
-node scripts/images/status.mjs
-node scripts/images/plan.mjs --limit 12
-node scripts/images/runner.mjs --pilot --limit 12 --dry-run --no-publish --no-push
+npm run images:status
+npm run images:plan -- --limit 3
+npm run images:pilot
 ```
+
+O piloto automatizado é separado da fila geral e contém somente o personagem 002 nas identidades `azul`, `rosa` e `arco_iris`. Ele não altera a ordem da fila, não inclui `padrao` e não atualiza o catálogo automaticamente.
 
 O fluxo manual permanece uma imagem por vez. No fluxo manual, o próximo prompt deve ser enviado antes da publicação da imagem atual.
 

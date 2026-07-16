@@ -1,34 +1,64 @@
 # Custos e limites da geração de imagens
 
-Atualizado em 2026-07-14.
+Atualizado em 2026-07-16.
 
 ## Regra obrigatória
 
-A automação não poderá iniciar geração paga sem autorização explícita de Alamo.
+A automação não poderá iniciar geração paga sem autorização explícita de Alamo e orçamento positivo.
 
 ## Estado atual
 
-- Provedor de imagem: desativado.
-- Armazenamento remoto: desativado.
+- Provedor configurado: OpenAI, desabilitado.
+- Modelo fixado: `gpt-image-2-2026-04-21`.
+- Fallback: `gpt-image-2`.
+- Qualidade: média.
+- Tamanho: `1024x1536`.
 - Modo: `dry-run`.
-- Custo real do piloto: US$ 0,00.
+- Custo real: US$ 0,00.
 - Imagens geradas pelo pipeline: 0.
 
-## Limites antes de qualquer piloto pago futuro
+## Fonte de preço
 
-Devem ser definidos explicitamente:
+A configuração usa a página oficial de preços da OpenAI, consultada em 2026-07-16:
 
-- quantidade máxima de imagens;
-- custo máximo em dólares;
-- custo estimado por imagem;
-- número máximo de tentativas;
-- intervalo entre requisições;
-- política de parada por erro;
-- política de revisão humana;
-- lote máximo por commit.
+- texto de entrada: US$ 5,00 por milhão de tokens;
+- imagem de referência: US$ 8,00 por milhão de tokens;
+- saída estimada por imagem média: US$ 0,041;
+- margem de segurança: 20%.
 
-## Autorização
+Referência: `https://developers.openai.com/api/docs/pricing`.
 
-Alterar uma variável, arquivo de configuração ou flag não equivale a autorização. A execução paga futura exige pedido claro de Alamo, confirmação do valor máximo e relatório prévio em `dry-run`.
+## Estimativa do piloto
 
-Em caso de divergência entre custo projetado e limite autorizado, o processo deve parar antes da primeira chamada.
+Com os valores conservadores atuais:
+
+- três imagens e uma tentativa por item: máximo estimado de aproximadamente US$ 0,1843;
+- três imagens e até três tentativas por item: máximo estimado de aproximadamente US$ 0,5529.
+
+O valor é uma estimativa preventiva, não uma cobrança garantida. Consulte sempre antes de qualquer autorização:
+
+```powershell
+npm run images:estimate-cost -- --max-attempts 1
+npm run images:estimate-cost -- --max-attempts 3
+```
+
+## Cobrança separada
+
+Créditos ou assinatura do ChatGPT não substituem faturamento da API. Uma futura execução pela API exige conta de API configurada e poderá gerar cobrança separada.
+
+## Travas
+
+Alterar uma única variável não autoriza geração. A chamada exige:
+
+1. autorização explícita de Alamo;
+2. `provider.enabled=true`;
+3. modo de execução real;
+4. `IMAGE_GENERATION_AUTHORIZED=true`;
+5. `IMAGE_PROVIDER=openai`;
+6. flag `--execute-paid-generation`;
+7. `IMAGE_MAX_COST_USD` positivo e suficiente;
+8. `OPENAI_API_KEY` no ambiente;
+9. referências obrigatórias disponíveis;
+10. ausência do arquivo de parada.
+
+Em qualquer divergência, o processo deve parar antes da primeira chamada.

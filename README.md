@@ -28,30 +28,26 @@ O sistema de quatro variações foi substituído por três identidades visuais: 
 - `data/image-automation/`: estado local e relatórios da automação segura.
 - `scripts/images/`: planejamento, validação e execução controlada.
 
-## Validação
+## Validação e piloto seguro
 
 ```powershell
-node scripts/build-personagens-catalog.mjs
-node scripts/validate-personagens-catalog.mjs
-node scripts/validate-universo-pig.mjs
-node scripts/audit-pt-br.mjs
-node scripts/next-image-prompt.mjs --dry-run
-node scripts/images/status.mjs
-node scripts/images/runner.mjs --pilot --limit 12 --dry-run --no-publish --no-push
-node --check script.js
-node --check personagens.js
-git diff --check
+npm test
+npm run images:estimate-cost -- --max-attempts 1
+npm run images:pilot
+npm run images:status
 ```
 
 ## Segurança operacional
 
-A automação não poderá iniciar geração paga sem autorização explícita de Alamo. Provedor e armazenamento remoto permanecem desabilitados por padrão; segredos nunca entram no repositório.
+O adaptador real da OpenAI está implementado, mas permanece desabilitado por padrão. Nenhuma chamada paga foi feita.
+
+Uma execução paga exige simultaneamente autorização explícita, provedor habilitado, flag de execução, chave fora do repositório e orçamento positivo. O piloto também permanece bloqueado enquanto faltar a referência visual aprovada da fase bebê.
 
 No fluxo manual, o próximo prompt deve ser enviado antes da publicação da imagem atual.
 
 ## Documentação
 
-Consulte [docs/README.md](docs/README.md), [docs/RESET_VISUAL_TRES_IDENTIDADES.md](docs/RESET_VISUAL_TRES_IDENTIDADES.md) e [docs/AUTOMACAO_IMAGENS_PERSONAGENS.md](docs/AUTOMACAO_IMAGENS_PERSONAGENS.md).
+Consulte [docs/README.md](docs/README.md), [docs/AUTOMACAO_IMAGENS_PERSONAGENS.md](docs/AUTOMACAO_IMAGENS_PERSONAGENS.md), [docs/PILOTO_TRES_IDENTIDADES_BEBE.md](docs/PILOTO_TRES_IDENTIDADES_BEBE.md) e [docs/CONFIGURACAO_SEGURA_API_IMAGENS.md](docs/CONFIGURACAO_SEGURA_API_IMAGENS.md).
 
 <!-- CATALOGO_BRASILEIRO_INICIO -->
 ## Catálogo brasileiro de personagens

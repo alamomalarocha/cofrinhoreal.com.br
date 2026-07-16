@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "atualizado_em": "2026-07-14",
+  "atualizado_em": "2026-07-16",
   "principio": "Fonte cumulativa de decisões estruturais; substituições exigem referência explícita.",
   "decisoes": [
     {
@@ -233,6 +233,24 @@
       "decisao_substituida": "DEC-010",
       "visibilidade": "publica",
       "observacoes": "DEC-010 permanece como histórico da mesma regra; DEC-015 fixa a redação vigente."
+    },
+    {
+      "id": "DEC-016",
+      "data": "2026-07-16",
+      "titulo": "Piloto pago de três imagens bloqueado por segurança e referência",
+      "descricao": "O piloto real fica restrito ao personagem 002 nas identidades azul, rosa e arco_iris. O adaptador OpenAI permanece desabilitado e a ausência da referência aprovada da fase bebê bloqueia a execução paga.",
+      "motivo": "Validar o pipeline completo com escopo mínimo, custo controlado e revisão humana antes de qualquer escala.",
+      "arquivos_afetados": [
+        "data/image-automation/config.json",
+        "data/image-automation/pilot-002-three-identities.json",
+        "assets/references/reference-manifest.json",
+        "docs/PILOTO_TRES_IDENTIDADES_BEBE.md",
+        "docs/CONFIGURACAO_SEGURA_API_IMAGENS.md"
+      ],
+      "status": "vigente",
+      "decisao_substituida": null,
+      "visibilidade": "publica",
+      "observacoes": "A identidade padrao não participa. Nenhuma chamada paga foi executada e a atualização do catálogo continua dependente de aprovação humana."
     }
   ]
 }

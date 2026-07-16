@@ -1,39 +1,44 @@
 # Validação automática de imagens
 
-Atualizado em 2026-07-14.
+Atualizado em 2026-07-16.
 
-## Validação de arquivo
+## Pipeline técnico
 
 ```powershell
-node scripts/images/validate-file.mjs --file assets/characters/ARQUIVO.png
+npm run images:remove-background -- --input entrada.png --output recortada.png
+npm run images:validate -- --file recortada.png
 ```
 
-O validador verifica:
+O removedor trabalha localmente sobre um fundo técnico uniforme. Nenhum serviço externo é chamado.
+
+## O que o validador verifica
 
 - assinatura e estrutura PNG;
 - dimensões e tamanho do arquivo;
 - canal alfa real;
-- proporção de transparência;
-- bordas opacas que indiquem fundo embutido;
+- proporção mínima de transparência;
+- bordas opacas que indiquem fundo incorporado;
+- resíduos do fundo técnico;
+- sombra externa excessiva;
 - possível checkerboard falso;
-- figura vazia ou próxima demais das bordas.
+- figura vazia ou próxima demais das bordas;
+- hash perceptual para apoiar detecção de duplicatas.
 
-## Validação do item da fila
+## O que continua humano
 
-```powershell
-node scripts/images/validate-visual.mjs --asset assets/characters/ARQUIVO.png
-```
+A validação automática não decide sozinha:
 
-A validação automática não afirma sozinha que há um único personagem, corpo inteiro, identidade correta ou ausência de texto. Esses pontos exigem revisão humana ou um provedor visual autorizado.
+- se existe exatamente um personagem;
+- se corpo, mãos, orelhas e pés estão íntegros;
+- se a fase da vida está correta;
+- se a identidade Azul, Rosa ou Arco-íris está semanticamente coerente;
+- se há texto, símbolo ou elemento cultural inadequado;
+- se o recorte preservou o acabamento visual.
 
-## Remoção local de fundo
+Esses pontos exigem revisão humana obrigatória.
 
-```powershell
-node scripts/images/remove-background.mjs --input entrada.png --output saida.png --dry-run
-```
+## Estados e aprovação
 
-O resultado só pode substituir o original após inspeção visual. Se o recorte remover orelhas, pés, roupa ou contornos, o arquivo deve ser rejeitado.
+Um arquivo tecnicamente válido avança para `aguardando_revisao`. A aprovação ou rejeição é registrada por `scripts/images/review.mjs`. Somente um arquivo com estado humano `aprovada` pode ser enviado à atualização local do catálogo.
 
-## Regra de aprovação
-
-Arquivo válido avança apenas para `aguardando_revisao`. A publicação exige aprovação humana registrada. Checkerboard desenhado, fundo escuro, halo forte, cortes ou elementos proibidos causam rejeição.
+Checkerboard desenhado, fundo escuro, halo forte, corte, sombra de cenário ou elemento proibido causam rejeição.

@@ -1,6 +1,6 @@
 # Prompt mestre — Cofrinho Real
 
-Versão vigente: 2026-07-14.
+Versão vigente: 2026-07-16.
 
 ## Essência
 
@@ -45,11 +45,14 @@ O prompt visual deve ser curto e exclusivamente artístico. Não misturar JSON, 
 
 A automação não poderá iniciar geração paga sem autorização explícita de Alamo.
 
-- `IMAGE_PROVIDER=disabled` por padrão.
-- `IMAGE_STORAGE_MODE=local` por padrão.
-- Dry-run, piloto limitado, validação e retomada são obrigatórios antes de qualquer execução real futura.
+- O adaptador oficial da OpenAI está implementado com `gpt-image-2-2026-04-21` e fallback `gpt-image-2`, mas `provider.enabled` permanece `false`.
+- `IMAGE_PROVIDER=disabled`, `IMAGE_GENERATION_AUTHORIZED=false`, `IMAGE_MAX_COST_USD=0` e `IMAGE_STORAGE_MODE=local` por padrão.
+- A chamada real usa edição de imagem com referências binárias curadas; caminhos escritos no prompt não substituem anexos.
+- O piloto fixo possui somente `002 — Pig Bebe` nas identidades `azul`, `rosa` e `arco_iris`. `padrao` não participa.
+- A ausência de referência aprovada da fase bebê bloqueia o piloto pago.
+- Fundo técnico, remoção local, validação PNG, revisão humana e aprovação do catálogo são etapas separadas e obrigatórias.
+- Publicação remota e upload para R2 permanecem desabilitados e não implementados.
 - Chaves, tokens e segredos nunca podem ser registrados em arquivos ou logs.
-- A publicação em Git continua bloqueada para produção massiva.
 
 ## Português e acessibilidade
 
@@ -67,6 +70,9 @@ A automação não poderá iniciar geração paga sem autorização explícita d
 - `docs/REFERENCIA_PIG_PRINCIPAL.md`
 - `docs/PROTOCOLO_IMAGENS_PERSONAGENS.md`
 - `docs/AUTOMACAO_IMAGENS_PERSONAGENS.md`
+- `docs/IMPLEMENTACAO_ADAPTADOR_OPENAI_IMAGENS.md`
+- `docs/PILOTO_TRES_IDENTIDADES_BEBE.md`
+- `docs/CONFIGURACAO_SEGURA_API_IMAGENS.md`
 - `docs/GUIA_PORTUGUES_E_TERMINOLOGIA.md`
 
 <!-- CATALOGO_BRASILEIRO_INICIO -->

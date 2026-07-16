@@ -1,6 +1,6 @@
 # Decisões Mestras do Projeto
 
-Atualizado em 2026-07-14. A fonte estruturada correspondente é `data/decisoes-projeto.json`.
+Atualizado em 2026-07-16. A fonte estruturada correspondente é `data/decisoes-projeto.json`.
 
 ## Regras de uso
 
@@ -138,3 +138,13 @@ No fluxo manual, o próximo prompt deve ser enviado antes da publicação da ima
 Motivo: manter a sequência produtiva sem misturar o pedido visual com a operação técnica.
 
 Status: `vigente`. Visibilidade: `publica`. Substitui a redação operacional da `DEC-010`, preservada como histórico.
+
+### DEC-016 - Piloto pago de três imagens bloqueado por segurança e referência
+
+O piloto automatizado real fica restrito ao `002 — Pig Bebe` nas identidades `azul`, `rosa` e `arco_iris`. A identidade histórica `padrao` não participa.
+
+O adaptador OpenAI existe, mas permanece desabilitado. Uma execução paga exige autorização explícita, orçamento positivo, todas as travas técnicas e referência aprovada da fase bebê.
+
+Motivo: validar o pipeline completo com escopo mínimo, custo controlado e revisão humana antes de qualquer escala.
+
+Status: `vigente`. Visibilidade: `publica`.

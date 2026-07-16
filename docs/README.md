@@ -38,6 +38,10 @@ O Pig Principal é a referência visual obrigatória de toda a nova produção.
 - `PLANO_IMAGENS_PERSONAGENS_001.md`: planejamento da produção após o reset.
 - `FILA_CRIACAO_IMAGENS.md`: origem, ordem e bloqueios da fila.
 - `AUTOMACAO_IMAGENS_PERSONAGENS.md`: arquitetura local, segura e retomável.
+- `IMPLEMENTACAO_ADAPTADOR_OPENAI_IMAGENS.md`: adaptador real, referências binárias e barreiras.
+- `PILOTO_TRES_IDENTIDADES_BEBE.md`: escopo exato das três imagens do piloto.
+- `CONFIGURACAO_SEGURA_API_IMAGENS.md`: variáveis, orçamento e ativação futura.
+- `CHECKPOINT_IMPLEMENTACAO_PILOTO_001.md`: estado mensurável e ponto de retorno.
 - `GUIA_OPERACAO_FILA_IMAGENS.md`: comandos operacionais e estados.
 - `VALIDACAO_AUTOMATICA_IMAGENS.md`: critérios técnicos e visuais.
 - `ARMAZENAMENTO_IMAGENS_ESCALA.md`: estratégia para milhares de assets.
@@ -79,13 +83,10 @@ No fluxo manual, o próximo prompt deve ser enviado antes da publicação da ima
 ## Validação recomendada
 
 ```powershell
-node scripts/build-personagens-catalog.mjs
-node scripts/validate-personagens-catalog.mjs
-node scripts/validate-universo-pig.mjs
-node scripts/audit-pt-br.mjs
-node scripts/next-image-prompt.mjs --dry-run
-node scripts/images/status.mjs
-node scripts/images/runner.mjs --pilot --limit 12 --dry-run --no-publish --no-push
+npm test
+npm run images:estimate-cost -- --max-attempts 1
+npm run images:pilot
+npm run images:status
 ```
 
 <!-- CATALOGO_BRASILEIRO_INICIO -->

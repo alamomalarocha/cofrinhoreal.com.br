@@ -1,5 +1,5 @@
-# Referencia da fase bebe
+# Referência da fase bebê
 
-Adicionar aqui uma imagem PNG aprovada que represente proporcoes e postura da fase de 0 a 2 anos.
+Adicionar aqui uma imagem PNG aprovada que represente proporções e postura da fase de 0 a 2 anos.
 
-Enquanto nao houver um PNG nesta pasta, o piloto pago permanece bloqueado. O arquivo nao deve substituir nem duplicar o Pig Principal.
+Enquanto não houver um PNG nesta pasta, o piloto pago permanece bloqueado. O arquivo não deve substituir nem duplicar o Pig Principal.
