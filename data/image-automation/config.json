@@ -2,16 +2,25 @@
   "schema_version": "1.0.0",
   "mode": "dry-run",
   "provider": {
-    "name": "disabled",
+    "name": "openai",
     "enabled": false,
-    "model": "image-provider-not-configured",
-    "estimated_cost_usd_per_image": 0,
-    "implementation": "safe-placeholder"
+    "model": "gpt-image-2-2026-04-21",
+    "fallback_model": "gpt-image-2",
+    "estimated_cost_usd_per_image": 0.041,
+    "implementation": "official-openai-sdk",
+    "quality": "medium",
+    "size": "1024x1536",
+    "output_format": "png",
+    "technical_background": "#777777"
   },
   "authorization": {
     "environment_variable": "IMAGE_GENERATION_AUTHORIZED",
-    "required_value": "ALAMO_AUTORIZOU_GERACAO_PAGA",
-    "require_execute_flag": true
+    "required_value": "true",
+    "provider_environment_variable": "IMAGE_PROVIDER",
+    "required_provider": "openai",
+    "execute_flag": "--execute-paid-generation",
+    "require_execute_flag": true,
+    "budget_environment_variable": "IMAGE_MAX_COST_USD"
   },
   "limits": {
     "max_cost_usd": 0,

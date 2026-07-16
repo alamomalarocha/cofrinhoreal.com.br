@@ -3,7 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
+    "test": "node --test tests/images/*.test.mjs",
     "images:plan": "node scripts/images/plan.mjs",
     "images:pilot": "node scripts/images/runner.mjs --pilot --limit 12 --dry-run",
     "images:auto": "node scripts/images/runner.mjs --resume",
@@ -11,5 +15,8 @@
     "images:stop": "node scripts/images/stop.mjs",
     "images:review": "node scripts/images/review.mjs",
     "images:publish": "node scripts/images/publish.mjs"
+  },
+  "dependencies": {
+    "openai": "6.39.0"
   }
 }
