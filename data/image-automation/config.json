@@ -36,7 +36,13 @@
     "max_height": 4096,
     "min_transparent_fraction": 0.08,
     "max_edge_opaque_fraction": 0.08,
-    "background_color_tolerance": 38
+    "background_color_tolerance": 38,
+    "background_feather": 24,
+    "background_shadow_tolerance": 34,
+    "max_residual_background_fraction": 0.02,
+    "max_external_shadow_fraction": 0.015,
+    "max_checkerboard_score": 0.35,
+    "min_margin_fraction": 0.015
   },
   "review_policy": "automatic-safe",
   "storage": {

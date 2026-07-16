@@ -11,6 +11,8 @@
     "images:plan": "node scripts/images/plan.mjs",
     "images:pilot": "node scripts/images/runner.mjs --pilot --limit 12 --dry-run",
     "images:auto": "node scripts/images/runner.mjs --resume",
+    "images:remove-background": "node scripts/images/remove-background.mjs",
+    "images:validate": "node scripts/images/validate-file.mjs",
     "images:status": "node scripts/images/status.mjs",
     "images:stop": "node scripts/images/stop.mjs",
     "images:review": "node scripts/images/review.mjs",
