@@ -13,6 +13,17 @@
     "output_format": "png",
     "technical_background": "#777777"
   },
+  "pricing": {
+    "source": "https://developers.openai.com/api/docs/pricing",
+    "checked_at": "2026-07-16",
+    "currency": "USD",
+    "text_input_usd_per_million_tokens": 5,
+    "image_input_usd_per_million_tokens": 8,
+    "image_output_usd_per_image": 0.041,
+    "default_text_input_tokens_per_request": 400,
+    "default_reference_image_tokens_per_request": 1024,
+    "safety_margin_fraction": 0.2
+  },
   "authorization": {
     "environment_variable": "IMAGE_GENERATION_AUTHORIZED",
     "required_value": "true",
@@ -55,13 +66,16 @@
   },
   "references": {
     "pig_principal": "assets/characters/001-pig-principal.png",
+    "manifest": "assets/references/reference-manifest.json",
     "phase_directory": "assets/references/fases-vida",
     "identity_directory": "assets/references/identidades",
     "profession_directory": "assets/references/profissoes"
   },
   "pilot": {
-    "numbers": ["004", "006", "009", "011"],
+    "manifest": "data/image-automation/pilot-002-three-identities.json",
+    "numbers": ["002"],
     "identities": ["azul", "rosa", "arco_iris"],
-    "total": 12
+    "total": 3,
+    "human_review_required": true
   }
 }

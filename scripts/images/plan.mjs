@@ -3,7 +3,7 @@ import { loadContext, parseArgs, planRecord, selectPlan } from "./lib.mjs";
 const args = parseArgs();
 const context = loadContext();
 const items = selectPlan(context, args);
-const plan = items.map((item) => planRecord(item, context));
+const plan = items.map((item) => planRecord(item, context, { pilot: args["--pilot"] === true }));
 const totalCost = plan.reduce((sum, item) => sum + item.custo_estimado_usd, 0);
 
 console.log(JSON.stringify({

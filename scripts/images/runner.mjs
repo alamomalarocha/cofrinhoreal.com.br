@@ -24,7 +24,7 @@ for (const item of items) {
   const cost = estimatedCost(item, context.config);
   if (maxCost > 0 && projectedCost + cost > maxCost) break;
   projectedCost += cost;
-  records.push(planRecord(item, context));
+  records.push(planRecord(item, context, { pilot: args["--pilot"] === true }));
 }
 if (!dryRun) {
   throw new Error("Execução paga não foi iniciada: o adaptador de geração real permanece desativado.");

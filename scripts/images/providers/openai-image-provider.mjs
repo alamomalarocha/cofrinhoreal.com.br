@@ -51,6 +51,7 @@ export function createOpenAIImageProvider({
       apiKey,
       referenceBytes,
       referenceName,
+      referenceFiles,
       prompt,
       model,
       fallbackModel,
@@ -61,7 +62,15 @@ export function createOpenAIImageProvider({
       pauseMs = 1500,
     }) {
       const sdk = await resolveSdk(apiKey);
-      const image = await sdk.toFile(referenceBytes, referenceName, { type: "image/png" });
+      const inputs = referenceFiles?.length
+        ? referenceFiles
+        : [{ bytes: referenceBytes, name: referenceName }];
+      const imageFiles = await Promise.all(inputs.map((input) => sdk.toFile(
+        input.bytes,
+        input.name,
+        { type: "image/png" }
+      )));
+      const image = imageFiles.length === 1 ? imageFiles[0] : imageFiles;
       let selectedModel = model;
       let lastError;
 

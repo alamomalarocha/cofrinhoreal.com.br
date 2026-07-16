@@ -1,4 +1,5 @@
 import { buildVisualPrompt, loadContext, normalizeAsset, parseArgs, selectPlan, sha256 } from "./lib.mjs";
+import { buildPilotPrompt, pilotItemForAsset } from "./pilot-lib.mjs";
 
 const args = parseArgs();
 const context = loadContext();
@@ -10,7 +11,9 @@ if (args["--asset"]) {
   item = selectPlan(context, { ...args, "--limit": 1 })[0];
 }
 if (!item) throw new Error("Nenhum item elegível encontrado para construir o prompt.");
-const prompt = buildVisualPrompt(item);
+const pilot = args["--pilot"] === true
+  || Boolean(pilotItemForAsset(context.pilot, item.asset_futuro));
+const prompt = pilot ? buildPilotPrompt(item, context.pilot) : buildVisualPrompt(item);
 console.log(JSON.stringify({
   uid: item.uid,
   numero: item.numero,

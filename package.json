@@ -9,7 +9,8 @@
   "scripts": {
     "test": "node --test tests/images/*.test.mjs",
     "images:plan": "node scripts/images/plan.mjs",
-    "images:pilot": "node scripts/images/runner.mjs --pilot --limit 12 --dry-run",
+    "images:pilot": "node scripts/images/runner.mjs --pilot --limit 3 --dry-run --no-publish --no-push",
+    "images:estimate-cost": "node scripts/images/estimate-cost.mjs",
     "images:auto": "node scripts/images/runner.mjs --resume",
     "images:remove-background": "node scripts/images/remove-background.mjs",
     "images:validate": "node scripts/images/validate-file.mjs",

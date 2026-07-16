@@ -3,14 +3,18 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   appendJsonl,
-  buildVisualPrompt,
   loadContext,
   normalizeAsset,
   parseArgs,
+  planRecord,
   selectPlan,
-  sha256,
   stateEvent,
 } from "./lib.mjs";
+import {
+  assertPilotReferencesReady,
+  pilotItemForAsset,
+  pilotReferenceReadiness,
+} from "./pilot-lib.mjs";
 import { createOpenAIImageProvider } from "./providers/openai-image-provider.mjs";
 import {
   assertGenerationAuthorized,
@@ -31,15 +35,29 @@ export async function generateOne({
   const item = selectPlan(context, { ...args, "--limit": 1 })[0];
   if (!item) throw new Error("Nenhum item elegivel encontrado.");
 
-  const prompt = buildVisualPrompt(item);
+  const pilot = args["--pilot"] === true
+    || Boolean(pilotItemForAsset(context.pilot, item.asset_futuro));
+  const record = planRecord(item, context, { pilot });
+  const prompt = record.prompt;
+  const readiness = pilot
+    ? pilotReferenceReadiness(item, context.pilot)
+    : {
+      ready: true,
+      references: [{
+        asset: context.config.references.pig_principal,
+        available: true,
+        required: true,
+      }],
+    };
   const request = {
     uid: item.uid,
     arquivo: normalizeAsset(item.asset_futuro),
     prompt,
-    prompt_hash: sha256(prompt),
+    prompt_hash: record.prompt_hash,
     model: context.config.provider.model,
     fallback_model: context.config.provider.fallback_model,
-    reference: context.config.references.pig_principal,
+    references: readiness.references,
+    references_ready: readiness.ready,
     quality: context.config.provider.quality,
     size: context.config.provider.size,
     output_format: context.config.provider.output_format,
@@ -58,7 +76,16 @@ export async function generateOne({
 
   assertGenerationAuthorized(context.config, args, env);
   assertStopNotRequested(ROOT);
-  const referencePath = path.join(ROOT, request.reference);
+  if (pilot) assertPilotReferencesReady(item, context.pilot);
+  const referenceFiles = request.references
+    .filter((reference) => reference.available && reference.asset)
+    .map((reference) => {
+      const referencePath = path.join(ROOT, reference.asset);
+      return {
+        bytes: fs.readFileSync(referencePath),
+        name: path.basename(referencePath),
+      };
+    });
   const rawDirectory = path.join(
     ROOT,
     "data",
@@ -82,9 +109,8 @@ export async function generateOne({
   try {
     const result = await imageProvider.generateEdit({
       apiKey: env.OPENAI_API_KEY,
-      referenceBytes: fs.readFileSync(referencePath),
-      referenceName: path.basename(referencePath),
-      prompt: `${prompt}\nFundo tecnico solido uniforme ${context.config.provider.technical_background}.`,
+      referenceFiles,
+      prompt,
       model: request.model,
       fallbackModel: request.fallback_model,
       quality: request.quality,

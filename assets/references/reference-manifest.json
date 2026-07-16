@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-07-16",
+  "policy": "Reference files are curated inputs. They are not generated or published automatically.",
+  "references": {
+    "pig_principal": {
+      "directory": "assets/references/pig-principal",
+      "source_asset": "assets/characters/001-pig-principal.png",
+      "sha256": "56fef39d6300dd6836ca384e7845ca3e3dca15d2fec56cd23f0e10c5d017b3c8",
+      "status": "available-without-duplication"
+    },
+    "fase_bebe": {
+      "directory": "assets/references/fases-vida/bebe",
+      "status": "missing-required-png",
+      "blocks_paid_pilot": true
+    },
+    "identidades": {
+      "directory": "assets/references/identidades",
+      "status": "instruction-only"
+    },
+    "profissoes": {
+      "directory": "assets/references/profissoes",
+      "status": "planned"
+    }
+  }
+}

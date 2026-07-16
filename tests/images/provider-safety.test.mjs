@@ -81,6 +81,43 @@ test("official adapter uses binary image edit request without network in tests",
   assert.equal(result.png_bytes.toString(), "fake-png");
 });
 
+test("official adapter sends every curated reference as a binary image input", async () => {
+  let request;
+  const provider = createOpenAIImageProvider({
+    client: {
+      images: {
+        edit: async (payload) => {
+          request = payload;
+          return {
+            data: [{ b64_json: Buffer.from("fake-png").toString("base64") }],
+          };
+        },
+      },
+    },
+  });
+  await provider.generateEdit({
+    apiKey: "unused",
+    referenceFiles: [
+      { bytes: Buffer.from("pig-principal"), name: "001-pig-principal.png" },
+      { bytes: Buffer.from("fase-bebe"), name: "fase-bebe.png" },
+    ],
+    prompt: "test prompt",
+    model: "gpt-image-2-2026-04-21",
+    fallbackModel: "gpt-image-2",
+    quality: "medium",
+    size: "1024x1536",
+    outputFormat: "png",
+    maxAttempts: 1,
+  });
+  assert.equal(Array.isArray(request.image), true);
+  assert.deepEqual(request.image.map((image) => image.name), [
+    "001-pig-principal.png",
+    "fase-bebe.png",
+  ]);
+  assert.equal(request.image[0].bytes.toString(), "pig-principal");
+  assert.equal(request.image[1].bytes.toString(), "fase-bebe");
+});
+
 test("error classes and log sanitization are deterministic", () => {
   assert.deepEqual(classifyOpenAIError({ status: 429 }), {
     type: "rate_limit",

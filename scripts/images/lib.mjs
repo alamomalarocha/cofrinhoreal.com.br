@@ -2,6 +2,11 @@ import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  buildPilotPrompt,
+  loadPilotManifest,
+  pilotReferenceReadiness
+} from "./pilot-lib.mjs";
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 export const AUTOMATION_DIR = path.join(ROOT, "data/image-automation");
@@ -96,12 +101,14 @@ export function numberOption(args, name, fallback) {
 }
 
 export function loadContext() {
+  const config = readJson("data/image-automation/config.json");
   return {
-    config: readJson("data/image-automation/config.json"),
+    config,
     styles: readJson("data/image-automation/style-system.json"),
     queue: readJson("data/fila-imagens-personagens.json"),
     catalog: readJson("data/vila-pig-personagens.json"),
     events: readJsonl("data/image-automation/state.jsonl"),
+    pilot: loadPilotManifest(config.pilot.manifest)
   };
 }
 
@@ -211,20 +218,20 @@ export function selectPlan(context, args) {
   const states = latestStates(context.events);
   let items = filterQueue(context.queue.itens, args, states);
   if (args["--pilot"]) {
-    const numbers = new Set(context.config.pilot.numbers);
-    const identities = new Set(context.config.pilot.identities);
-    items = items.filter((item) => numbers.has(item.numero) && identities.has(item.estilo));
-    items.sort((a, b) => {
-      const numberDiff = context.config.pilot.numbers.indexOf(a.numero) - context.config.pilot.numbers.indexOf(b.numero);
-      return numberDiff || context.config.pilot.identities.indexOf(a.estilo) - context.config.pilot.identities.indexOf(b.estilo);
+    const queueByAsset = new Map(items.map((item) => [normalizeAsset(item.asset_futuro), item]));
+    items = context.pilot.items.map((pilotItem) => {
+      const item = queueByAsset.get(normalizeAsset(pilotItem.asset));
+      if (!item) throw new Error(`Item do piloto nao esta elegivel na fila: ${pilotItem.asset}`);
+      return item;
     });
   }
   const limit = numberOption(args, "--limit", args["--pilot"] ? context.config.pilot.total : 25);
   return items.slice(0, limit || items.length);
 }
 
-export function planRecord(item, context) {
-  const prompt = buildVisualPrompt(item);
+export function planRecord(item, context, { pilot = false } = {}) {
+  const prompt = pilot ? buildPilotPrompt(item, context.pilot) : buildVisualPrompt(item);
+  const readiness = pilot ? pilotReferenceReadiness(item, context.pilot) : null;
   return {
     ordem: item.ordem,
     uid: item.uid,
@@ -234,15 +241,19 @@ export function planRecord(item, context) {
     arquivo: normalizeAsset(item.asset_futuro),
     prompt,
     prompt_hash: sha256(prompt),
-    referencias: [
-      context.config.references.pig_principal,
-      `${context.config.references.phase_directory}/${item.fase_vida || "sem-fase"}.png`,
-      item.estilo ? `${context.config.references.identity_directory}/${item.estilo}.png` : null,
-    ].filter(Boolean),
+    referencias: pilot
+      ? readiness.references
+      : [
+        context.config.references.pig_principal,
+        `${context.config.references.phase_directory}/${item.fase_vida || "sem-fase"}.png`,
+        item.estilo ? `${context.config.references.identity_directory}/${item.estilo}.png` : null
+      ].filter(Boolean),
+    referencias_prontas: readiness?.ready ?? null,
+    bloqueios_referencia: readiness?.blocking ?? [],
     validacoes: ["arquivo PNG", "canal alfa real", "margens", "uma figura", "sem texto ou logo", "identidade visual"],
     modelo: context.config.provider.model,
     custo_estimado_usd: estimatedCost(item, context.config),
-    politica_revisao: reviewPolicy(item),
+    politica_revisao: pilot ? "human-mandatory" : reviewPolicy(item),
     armazenamento: storagePlan(item, context.config),
   };
 }
