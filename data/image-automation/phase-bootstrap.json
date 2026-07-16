@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Bootstrap automatico de bases tecnicas privadas para as fases de vida do universo Pig.",
+  "storage": {
+    "directory": "data/image-automation/phase-bases",
+    "public": false,
+    "cataloged": false
+  },
+  "global_pose": {
+    "bebe": {
+      "position": "sentado de frente",
+      "body": "corpo inteiro, pernas visiveis",
+      "arms": "maos repousadas naturalmente sobre as pernas",
+      "ears": "orelhas levemente baixas para os lados",
+      "camera": "camera frontal",
+      "expression": "expressao acolhedora"
+    },
+    "em_pe": {
+      "position": "em pe, frontal",
+      "body": "corpo inteiro, pes paralelos",
+      "arms": "bracos relaxados ao lado do corpo, maos abertas ou naturalmente relaxadas",
+      "ears": "orelhas levemente baixas para os lados",
+      "camera": "mesma altura relativa, distancia de camera e iluminacao entre as fases",
+      "expression": "expressao acolhedora"
+    }
+  },
+  "object_rule": {
+    "maximum_objects": 1,
+    "maximum_visual_markers": 2,
+    "instruction": "Quando necessario, uma mao segura um unico objeto e a outra permanece relaxada. Nunca usar maos nos bolsos como pose global."
+  },
+  "identity_derivation": {
+    "source": "approved-phase-base",
+    "preserve": [
+      "anatomia",
+      "rosto",
+      "focinho",
+      "olhos",
+      "orelhas",
+      "corpo",
+      "pose",
+      "camera",
+      "enquadramento",
+      "iluminacao",
+      "tamanho",
+      "posicao dos pes",
+      "posicao das maos"
+    ],
+    "may_change": [
+      "roupa",
+      "cores",
+      "tracos discretos de apresentacao",
+      "cabelo ou topete quando necessario"
+    ],
+    "identities": [
+      "azul",
+      "rosa",
+      "arco_iris"
+    ]
+  },
+  "phases": [
+    {
+      "key": "fase_bebe",
+      "numero": "002",
+      "name": "Pig Bebe",
+      "slug": "pig-bebe",
+      "age": "0 a 2 anos",
+      "pose": "bebe",
+      "base_asset": "data/image-automation/phase-bases/002-pig-bebe-base.png",
+      "technical_clothing": "roupa tecnica neutra, lisa e simples"
+    },
+    {
+      "key": "fase_primeirinhos",
+      "numero": "003",
+      "name": "Pig Primeirinhos",
+      "slug": "pig-primeirinhos",
+      "age": "3 a 5 anos",
+      "pose": "em_pe",
+      "base_asset": "data/image-automation/phase-bases/003-pig-primeirinhos-base.png",
+      "technical_clothing": "camisa off-white lisa, short bege claro e tenis branco simples"
+    },
+    {
+      "key": "fase_crianca",
+      "numero": "004",
+      "name": "Pig Crianca",
+      "slug": "pig-crianca",
+      "age": "6 a 9 anos",
+      "pose": "em_pe",
+      "base_asset": "data/image-automation/phase-bases/004-pig-crianca-base.png",
+      "technical_clothing": "camisa off-white lisa, short bege claro e tenis branco simples"
+    },
+    {
+      "key": "fase_pre_adolescente",
+      "numero": "005",
+      "name": "Pig Pre-Adolescente",
+      "slug": "pig-pre-adolescente",
+      "age": "10 a 12 anos",
+      "pose": "em_pe",
+      "base_asset": "data/image-automation/phase-bases/005-pig-pre-adolescente-base.png",
+      "technical_clothing": "camisa off-white lisa, short bege claro e tenis branco simples"
+    },
+    {
+      "key": "fase_adolescente",
+      "numero": "006",
+      "name": "Pig Adolescente",
+      "slug": "pig-adolescente",
+      "age": "13 a 17 anos",
+      "pose": "em_pe",
+      "base_asset": "data/image-automation/phase-bases/006-pig-adolescente-base.png",
+      "technical_clothing": "camisa off-white lisa, calca bege clara e tenis branco simples"
+    },
+    {
+      "key": "fase_jovem",
+      "numero": "007",
+      "name": "Pig Jovem",
+      "slug": "pig-jovem",
+      "age": "18 a 24 anos",
+      "pose": "em_pe",
+      "base_asset": "data/image-automation/phase-bases/007-pig-jovem-base.png",
+      "technical_clothing": "camisa off-white lisa, calca bege clara e tenis branco simples"
+    },
+    {
+      "key": "fase_jovem_adulto",
+      "numero": "008",
+      "name": "Pig Jovem Adulto",
+      "slug": "pig-jovem-adulto",
+      "age": "25 a 34 anos",
+      "pose": "em_pe",
+      "base_asset": "data/image-automation/phase-bases/008-pig-jovem-adulto-base.png",
+      "technical_clothing": "camisa off-white lisa, calca bege clara e tenis branco simples"
+    },
+    {
+      "key": "fase_adulto",
+      "numero": "009",
+      "name": "Pig Adulto",
+      "slug": "pig-adulto",
+      "age": "35 a 49 anos",
+      "pose": "em_pe",
+      "base_asset": "data/image-automation/phase-bases/009-pig-adulto-base.png",
+      "technical_clothing": "camisa off-white lisa, calca bege clara e tenis branco simples"
+    },
+    {
+      "key": "fase_maduro",
+      "numero": "010",
+      "name": "Pig Coroa",
+      "slug": "pig-coroa",
+      "age": "50 a 64 anos",
+      "pose": "em_pe",
+      "base_asset": "data/image-automation/phase-bases/010-pig-coroa-base.png",
+      "technical_clothing": "camisa off-white lisa, calca bege clara e tenis branco simples"
+    },
+    {
+      "key": "fase_senior",
+      "numero": "011",
+      "name": "Pig Senior",
+      "slug": "pig-senior",
+      "age": "65 anos ou mais",
+      "pose": "em_pe",
+      "base_asset": "data/image-automation/phase-bases/011-pig-senior-base.png",
+      "technical_clothing": "camisa off-white lisa, calca bege clara e tenis branco simples"
+    }
+  ]
+}

@@ -21,17 +21,25 @@ npm run images:estimate-cost -- --max-attempts 1
 npm run images:pilot
 ```
 
-`images:pilot` é sempre `dry-run`, limitado a três itens, sem publicação e sem push.
+`images:pilot` é sempre `dry-run`, começa pela base privada do Pig Bebê, sem publicação e sem push.
 
-## Piloto fixo
+## Piloto automático
 
-O manifesto `data/image-automation/pilot-002-three-identities.json` contém apenas:
+O manifesto `data/image-automation/pilot-002-three-identities.json` contém:
 
-1. `002-pig-bebe-azul.png`
-2. `002-pig-bebe-rosa.png`
-3. `002-pig-bebe-arco-iris.png`
+1. base técnica privada do Pig Bebê;
+2. identidade Azul;
+3. identidade Rosa;
+4. identidade Arco-íris.
 
-O piloto pago não pode começar enquanto `assets/references/reference-manifest.json` indicar ausência da referência aprovada da fase bebê.
+A base é gerada usando o Pig Principal como referência binária. As identidades permanecem bloqueadas até a base atingir o estado `aprovada`.
+
+O checkpoint fica em `data/image-automation/runtime/runner-checkpoint.json` e é persistido depois de cada item planejado.
+
+```powershell
+npm run images:pilot
+npm run images:auto -- --resume --until-complete --max-cost-usd 0 --max-attempts 3 --pause-ms 1500 --commit-batch-size 25 --review-policy human-mandatory --stop-on-error
+```
 
 ## Remoção de fundo e validação
 
@@ -74,3 +82,15 @@ npm run images:stop -- --clear
 O comando real vive em `scripts/images/generate.mjs`, mas não deve ser executado sem autorização explícita. Além da autorização humana, todas as travas documentadas em `CONFIGURACAO_SEGURA_API_IMAGENS.md` precisam estar satisfeitas.
 
 O adaptador usa edição de imagem com referências binárias. Escrever um caminho no prompt não anexa uma referência.
+
+O comando futuro de geração da base é documentado apenas para uso após autorização explícita:
+
+```powershell
+$env:IMAGE_PROVIDER="openai"
+$env:IMAGE_GENERATION_AUTHORIZED="true"
+$env:IMAGE_MAX_COST_USD="VALOR_AUTORIZADO"
+$env:OPENAI_API_KEY="CHAVE_LOCAL"
+npm run images:generate -- --pilot --resume --execute-paid-generation --max-cost-usd VALOR_AUTORIZADO
+```
+
+Mesmo com essas variáveis, `provider.enabled` precisa ser habilitado por uma alteração separada e autorizada. No estado atual, o comando continua bloqueado.

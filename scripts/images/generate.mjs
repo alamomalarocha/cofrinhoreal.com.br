@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   appendJsonl,
+  latestStates,
   loadContext,
   normalizeAsset,
   parseArgs,
@@ -13,7 +14,6 @@ import {
 import {
   assertPilotReferencesReady,
   pilotItemForAsset,
-  pilotReferenceReadiness,
 } from "./pilot-lib.mjs";
 import { createOpenAIImageProvider } from "./providers/openai-image-provider.mjs";
 import {
@@ -39,16 +39,11 @@ export async function generateOne({
     || Boolean(pilotItemForAsset(context.pilot, item.asset_futuro));
   const record = planRecord(item, context, { pilot });
   const prompt = record.prompt;
-  const readiness = pilot
-    ? pilotReferenceReadiness(item, context.pilot)
-    : {
-      ready: true,
-      references: [{
-        asset: context.config.references.pig_principal,
-        available: true,
-        required: true,
-      }],
-    };
+  const readiness = {
+    ready: record.referencias_prontas !== false,
+    references: record.referencias,
+    blocking: record.bloqueios_referencia,
+  };
   const request = {
     uid: item.uid,
     arquivo: normalizeAsset(item.asset_futuro),
@@ -76,7 +71,16 @@ export async function generateOne({
 
   assertGenerationAuthorized(context.config, args, env);
   assertStopNotRequested(ROOT);
-  if (pilot) assertPilotReferencesReady(item, context.pilot);
+  if (pilot) {
+    assertPilotReferencesReady(item, context.pilot, {
+      states: latestStates(context.events),
+    });
+  } else if (!readiness.ready) {
+    const details = readiness.blocking
+      .map((reference) => `${reference.asset}:${reference.error}`)
+      .join(", ");
+    throw new Error(`Geracao bloqueada por referencia obrigatoria: ${details}`);
+  }
   const referenceFiles = request.references
     .filter((reference) => reference.available && reference.asset)
     .map((reference) => {

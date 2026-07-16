@@ -3,9 +3,11 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   appendJsonl,
+  findAutomationItem,
   loadContext,
   normalizeAsset,
   parseArgs,
+  ROOT,
   stateEvent,
 } from "./lib.mjs";
 import {
@@ -19,11 +21,9 @@ import {
   writeJsonFile,
 } from "./workspace.mjs";
 
-function findQueueItem(context, asset) {
+function findReviewItem(context, asset) {
   const normalized = normalizeAsset(asset);
-  const item = context.queue.itens.find(
-    (candidate) => normalizeAsset(candidate.asset_futuro) === normalized,
-  );
+  const item = findAutomationItem(context, normalized);
   if (!item) throw new Error(`Asset nao encontrado na fila: ${normalized}`);
   return item;
 }
@@ -85,6 +85,7 @@ export function reviewAsset({
   context = loadContext(),
   reviewRoot,
   stateFile,
+  projectRoot = ROOT,
   now = new Date(),
 }) {
   if (!["approve", "reject"].includes(action)) {
@@ -95,7 +96,7 @@ export function reviewAsset({
 
   const root = ensureReviewWorkspace(reviewRoot);
   const normalized = normalizeAsset(asset);
-  const item = findQueueItem(context, normalized);
+  const item = findReviewItem(context, normalized);
   const validationFile = reportPath(root, normalized, "validation");
   const visualFile = reportPath(root, normalized, "visual");
   const reviewFile = reportPath(root, normalized, "review");
@@ -144,9 +145,16 @@ export function reviewAsset({
     visual_report: visualFile,
     sha256: validation.sha256,
     perceptual_hash: validation.perceptual_hash,
+    kind: item.kind || "character",
     catalog_updated: false,
     published: false,
   };
+  if (action === "approve" && item.kind === "phase_base") {
+    const internalTarget = path.join(projectRoot, ...normalized.split("/"));
+    copyPreservingSource(destination, internalTarget);
+    report.internal_phase_base_installed = true;
+    report.internal_phase_base_file = internalTarget;
+  }
   writeJsonFile(reviewFile, report);
   appendState(
     { stateFile },
@@ -162,7 +170,10 @@ export function reviewAsset({
 
 export function reviewStatus({ context = loadContext(), reviewRoot } = {}) {
   const root = ensureReviewWorkspace(reviewRoot);
-  return context.queue.itens.map((item) => {
+  const bases = context.phaseBootstrap.phases
+    .map((phase) => findAutomationItem(context, phase.base_asset))
+    .filter(Boolean);
+  return [...bases, ...context.queue.itens].map((item) => {
     const asset = normalizeAsset(item.asset_futuro);
     const review = readJsonIfExists(reportPath(root, asset, "review"));
     return {

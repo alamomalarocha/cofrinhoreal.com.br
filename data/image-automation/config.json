@@ -67,7 +67,8 @@
   "references": {
     "pig_principal": "assets/characters/001-pig-principal.png",
     "manifest": "assets/references/reference-manifest.json",
-    "phase_directory": "assets/references/fases-vida",
+    "phase_bootstrap": "data/image-automation/phase-bootstrap.json",
+    "phase_base_directory": "data/image-automation/phase-bases",
     "identity_directory": "assets/references/identidades",
     "profession_directory": "assets/references/profissoes"
   },
@@ -75,7 +76,16 @@
     "manifest": "data/image-automation/pilot-002-three-identities.json",
     "numbers": ["002"],
     "identities": ["azul", "rosa", "arco_iris"],
-    "total": 3,
+    "total": 4,
+    "base_requires_human_approval": true,
+    "derive_identities_from_approved_base": true,
     "human_review_required": true
+  },
+  "runner": {
+    "checkpoint": "data/image-automation/runtime/runner-checkpoint.json",
+    "persist_after_every_step": true,
+    "resume_without_duplicates": true,
+    "until_complete_default": false,
+    "stop_on_error_default": true
   }
 }

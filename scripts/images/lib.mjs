@@ -3,9 +3,17 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
+  buildIdentityPrompt,
+  buildPhaseBasePrompt,
   buildPilotPrompt,
   loadPilotManifest,
-  pilotReferenceReadiness
+  loadPhaseBootstrap,
+  phaseBaseForAsset,
+  phaseBaseItemForPhase,
+  phaseByKey,
+  phaseWorkflowItems,
+  pilotReferenceReadiness,
+  pilotWorkflowItems,
 } from "./pilot-lib.mjs";
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
@@ -105,6 +113,7 @@ export function loadContext() {
   return {
     config,
     styles: readJson("data/image-automation/style-system.json"),
+    phaseBootstrap: loadPhaseBootstrap(config.references.phase_bootstrap),
     queue: readJson("data/fila-imagens-personagens.json"),
     catalog: readJson("data/vila-pig-personagens.json"),
     events: readJsonl("data/image-automation/state.jsonl"),
@@ -214,25 +223,135 @@ export function filterQueue(items, args, states = new Map()) {
     .sort((left, right) => Number(left.ordem) - Number(right.ordem));
 }
 
+export function findAutomationItem(context, asset) {
+  const normalized = normalizeAsset(asset);
+  const queueItem = context.queue.itens.find(
+    (candidate) => normalizeAsset(candidate.asset_futuro) === normalized,
+  );
+  if (queueItem) return queueItem;
+  const phase = phaseBaseForAsset(context.phaseBootstrap, normalized);
+  return phase ? phaseBaseItemForPhase(phase) : null;
+}
+
 export function selectPlan(context, args) {
   const states = latestStates(context.events);
-  let items = filterQueue(context.queue.itens, args, states);
   if (args["--pilot"]) {
-    const queueByAsset = new Map(items.map((item) => [normalizeAsset(item.asset_futuro), item]));
-    items = context.pilot.items.map((pilotItem) => {
-      const item = queueByAsset.get(normalizeAsset(pilotItem.asset));
-      if (!item) throw new Error(`Item do piloto nao esta elegivel na fila: ${pilotItem.asset}`);
-      return item;
+    const items = pilotWorkflowItems({
+      manifest: context.pilot,
+      phaseBootstrap: context.phaseBootstrap,
+      queueItems: context.queue.itens,
+      states,
+      resume: args["--resume"] === true,
     });
+    const limit = numberOption(args, "--limit", context.config.pilot.total);
+    return items.slice(0, limit || items.length);
   }
-  const limit = numberOption(args, "--limit", args["--pilot"] ? context.config.pilot.total : 25);
+  const queueItems = filterQueue(context.queue.itens, args, states);
+  const items = phaseWorkflowItems({
+    phaseBootstrap: context.phaseBootstrap,
+    queueItems,
+    states,
+    resume: args["--resume"] === true,
+  });
+  const limit = numberOption(args, "--limit", 25);
   return items.slice(0, limit || items.length);
 }
 
-export function planRecord(item, context, { pilot = false } = {}) {
-  const prompt = pilot ? buildPilotPrompt(item, context.pilot) : buildVisualPrompt(item);
-  const readiness = pilot ? pilotReferenceReadiness(item, context.pilot) : null;
+function referenceRecord({
+  key,
+  asset,
+  states,
+  requiredState = null,
+}) {
+  const normalized = normalizeAsset(asset);
+  const available = fs.existsSync(fromRoot(normalized));
+  const latest = states.get(normalized);
+  const stateMatches = !requiredState
+    || latest?.status === requiredState
+    || (requiredState === "aprovada" && latest?.status === "publicada");
+  let error = null;
+  if (!available) error = "missing-reference";
+  else if (!stateMatches) error = "reference-not-approved";
   return {
+    key,
+    asset: normalized,
+    required: true,
+    available: available && stateMatches,
+    required_state: requiredState,
+    state_matches: stateMatches,
+    error,
+  };
+}
+
+export function planRecord(item, context, { pilot = false } = {}) {
+  const states = latestStates(context.events);
+  const phase = phaseByKey(context.phaseBootstrap, item.fase_vida);
+  const basePhase = phaseBaseForAsset(context.phaseBootstrap, item.asset_futuro);
+  const identity = context.phaseBootstrap.identity_derivation.identities.includes(item.estilo)
+    ? item.estilo
+    : null;
+  const prompt = pilot
+    ? buildPilotPrompt(item, context.pilot, context.phaseBootstrap)
+    : basePhase
+      ? buildPhaseBasePrompt(
+        basePhase,
+        context.phaseBootstrap,
+        context.config.provider.technical_background,
+      )
+      : phase && identity
+        ? buildIdentityPrompt(
+          identity,
+          phase,
+          context.phaseBootstrap,
+          context.config.provider.technical_background,
+        )
+        : buildVisualPrompt(item);
+  let readiness = null;
+  if (pilot) {
+    readiness = pilotReferenceReadiness(item, context.pilot, { states });
+  } else {
+    const references = basePhase
+      ? [
+        referenceRecord({
+          key: "pig_principal",
+          asset: context.config.references.pig_principal,
+          states,
+        }),
+      ]
+      : phase && identity
+        ? [
+          referenceRecord({
+            key: "phase_base",
+            asset: phase.base_asset,
+            states,
+            requiredState: "aprovada",
+          }),
+        ]
+        : [
+          referenceRecord({
+            key: "pig_principal",
+            asset: context.config.references.pig_principal,
+            states,
+          }),
+          phase
+            ? referenceRecord({
+              key: "phase_base",
+              asset: phase.base_asset,
+              states,
+              requiredState: "aprovada",
+            })
+            : null,
+        ].filter(Boolean);
+    const blocking = references.filter((reference) => !reference.available);
+    readiness = {
+      ready: blocking.length === 0,
+      blocking,
+      references,
+    };
+  }
+  const references = readiness.references;
+  return {
+    kind: item.kind || "character",
     ordem: item.ordem,
     uid: item.uid,
     numero: item.numero,
@@ -241,13 +360,7 @@ export function planRecord(item, context, { pilot = false } = {}) {
     arquivo: normalizeAsset(item.asset_futuro),
     prompt,
     prompt_hash: sha256(prompt),
-    referencias: pilot
-      ? readiness.references
-      : [
-        context.config.references.pig_principal,
-        `${context.config.references.phase_directory}/${item.fase_vida || "sem-fase"}.png`,
-        item.estilo ? `${context.config.references.identity_directory}/${item.estilo}.png` : null
-      ].filter(Boolean),
+    referencias: references,
     referencias_prontas: readiness?.ready ?? null,
     bloqueios_referencia: readiness?.blocking ?? [],
     validacoes: ["arquivo PNG", "canal alfa real", "margens", "uma figura", "sem texto ou logo", "identidade visual"],
@@ -260,7 +373,7 @@ export function planRecord(item, context, { pilot = false } = {}) {
 
 export function generationAuthorized(config, args) {
   return config.provider.enabled === true
-    && args["--execute"] === true
+    && args[config.authorization.execute_flag || "--execute-paid-generation"] === true
     && process.env[config.authorization.environment_variable] === config.authorization.required_value;
 }
 

@@ -2,34 +2,26 @@
 
 Atualizado em 2026-07-14.
 
-## Responsabilidades
+## Fluxo automatizado principal
 
-- O ChatGPT Images cria a imagem quando Alamo solicitar.
-- Alamo revisa e envia a imagem aprovada ao Codex.
-- O Codex não cria a imagem no fluxo manual: valida, salva, atualiza dados e documentação, faz commit e push quando autorizado.
+O pipeline orquestra geração, remoção de fundo, validação, revisão, salvamento, atualização e retomada. Ele não depende de uma nova referência manual para iniciar cada fase.
 
-## Ordem obrigatória
+O Pig Principal é a única referência visual inicial fornecida manualmente. Cada fase recebe uma base técnica privada gerada pelo pipeline. Azul, Rosa e Arco-íris são derivados dessa mesma base após aprovação humana.
 
-1. Consultar o próximo item elegível na fila.
-2. Entregar a Alamo somente o prompt visual puro, curto e sem instruções técnicas.
-3. Receber a imagem e o prompt técnico separadamente.
-4. Validar número, nome, slug, identidade, caminho, PNG e transparência.
-5. Inspecionar um personagem, corpo inteiro, enquadramento e elementos proibidos.
-6. Rejeitar qualquer arquivo fora do padrão antes de alterar o catálogo.
-7. Salvar no caminho canônico.
-8. Atualizar JSON, CSV, fila, documentação e Coleção Pig.
-9. Executar validações do projeto.
-10. Fazer commit e push autorizados.
+A aprovação humana valida o molde; não transforma o processo em criação manual.
 
-No fluxo manual, o próximo prompt deve ser enviado antes da publicação da imagem atual.
+## Ordem automática
 
-## Prompt visual
+1. Gerar a base técnica privada da fase.
+2. Remover o fundo e validar.
+3. Solicitar aprovação humana da base.
+4. Derivar as três identidades da base aprovada.
+5. Validar e revisar o conjunto.
+6. Liberar os personagens elegíveis.
+7. Salvar estado após cada passo.
+8. Atualizar catálogo e publicar somente quando autorizado.
 
-O prompt visual contém apenas personagem, fase da vida, identidade, roupa, pose, estilo e fundo transparente. Não contém caminho, JSON, CSV, documentação, commit, push, backend ou instruções operacionais.
-
-## Prompt técnico
-
-O prompt técnico identifica número, nome, slug, identidade, arquivo, dados a atualizar e mensagem do commit. Ele é usado somente depois que a imagem existir.
+O fluxo manual ChatGPT → Alamo → Codex permanece apenas como contingência, sem ser requisito do bootstrap das fases.
 
 ## Segurança
 
@@ -39,5 +31,7 @@ O prompt técnico identifica número, nome, slug, identidade, arquivo, dados a a
 - Não publicar perfil cultural bloqueado.
 - Não usar imagens em painel ou com múltiplos personagens.
 - Não iniciar geração paga automaticamente.
+- Não publicar nem catalogar bases técnicas.
+- Não gerar identidades independentemente quando existe uma base aprovada.
 
-Consulte `AUTOMACAO_IMAGENS_PERSONAGENS.md` e `GUIA_OPERACAO_FILA_IMAGENS.md`.
+Consulte `BOOTSTRAP_AUTOMATICO_FASES.md`, `AUTOMACAO_IMAGENS_PERSONAGENS.md` e `GUIA_OPERACAO_FILA_IMAGENS.md`.

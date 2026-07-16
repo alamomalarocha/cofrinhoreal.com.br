@@ -144,6 +144,48 @@ test("human approval preserves the validated file and records reviewer metadata"
   assert.equal(fs.existsSync(stagePath(workspace.reviewRoot, "approved", blueAsset)), true);
 });
 
+test("approved phase base is installed privately without catalog publication", () => {
+  const workspace = temporaryWorkspace();
+  const asset = "data/image-automation/phase-bases/002-pig-bebe-base.png";
+  const context = {
+    config: {
+      validation: { duplicate_phash_distance_max: 4 },
+      storage: { enabled: false, upload_implemented: false },
+    },
+    queue: { itens: [] },
+    phaseBootstrap: {
+      phases: [{
+        key: "fase_bebe",
+        numero: "002",
+        name: "Pig Bebe",
+        slug: "pig-bebe",
+        age: "0 a 2 anos",
+        pose: "bebe",
+        base_asset: asset,
+        technical_clothing: "roupa tecnica neutra",
+      }],
+    },
+  };
+  writeCandidate(workspace.reviewRoot, asset);
+  const report = reviewAsset({
+    action: "approve",
+    asset,
+    reviewer: "Alamo",
+    reason: "Base tecnica aprovada para derivacoes.",
+    context,
+    reviewRoot: workspace.reviewRoot,
+    stateFile: workspace.stateFile,
+    projectRoot: workspace.catalogRoot,
+  });
+  assert.equal(report.kind, "phase_base");
+  assert.equal(report.internal_phase_base_installed, true);
+  assert.equal(report.catalog_updated, false);
+  assert.equal(
+    fs.existsSync(path.join(workspace.catalogRoot, ...asset.split("/"))),
+    true,
+  );
+});
+
 test("duplicate approval is blocked but rejection preserves its evidence", () => {
   const workspace = temporaryWorkspace();
   writeCandidate(workspace.reviewRoot, blueAsset);

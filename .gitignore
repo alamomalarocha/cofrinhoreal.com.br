@@ -4,3 +4,6 @@
 data/image-automation/STOP
 data/image-automation/runs/
 data/image-automation/tmp/
+data/image-automation/runtime/
+data/image-automation/phase-bases/*.png
+!data/image-automation/phase-bases/README.md

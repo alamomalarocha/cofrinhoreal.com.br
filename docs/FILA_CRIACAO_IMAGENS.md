@@ -29,8 +29,8 @@ npm run images:plan -- --limit 3
 npm run images:pilot
 ```
 
-O piloto automatizado é separado da fila geral e contém somente o personagem 002 nas identidades `azul`, `rosa` e `arco_iris`. Ele não altera a ordem da fila, não inclui `padrao` e não atualiza o catálogo automaticamente.
+O piloto automatizado é separado da fila geral. Ele começa pela base técnica privada do personagem 002 e, após aprovação, deriva as identidades `azul`, `rosa` e `arco_iris`. Ele não altera a ordem da fila, não inclui `padrao` e não atualiza o catálogo automaticamente.
 
-O fluxo manual permanece uma imagem por vez. No fluxo manual, o próximo prompt deve ser enviado antes da publicação da imagem atual.
+O fluxo automatizado é o caminho principal. O fluxo manual permanece disponível apenas como contingência.
 
 Consulte `GUIA_OPERACAO_FILA_IMAGENS.md` e `CUSTO_E_LIMITES_GERACAO_IMAGENS.md`.

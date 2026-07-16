@@ -9,9 +9,10 @@
   "scripts": {
     "test": "node --test tests/images/*.test.mjs",
     "images:plan": "node scripts/images/plan.mjs",
-    "images:pilot": "node scripts/images/runner.mjs --pilot --limit 3 --dry-run --no-publish --no-push",
+    "images:pilot": "node scripts/images/runner.mjs --pilot --resume --dry-run --no-publish --no-push --max-cost-usd 0 --stop-on-error",
+    "images:generate": "node scripts/images/generate.mjs",
     "images:estimate-cost": "node scripts/images/estimate-cost.mjs",
-    "images:auto": "node scripts/images/runner.mjs --resume",
+    "images:auto": "node scripts/images/runner.mjs --resume --until-complete --stop-on-error",
     "images:remove-background": "node scripts/images/remove-background.mjs",
     "images:validate": "node scripts/images/validate-file.mjs",
     "images:status": "node scripts/images/status.mjs",

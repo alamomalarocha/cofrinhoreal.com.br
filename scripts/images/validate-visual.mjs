@@ -1,6 +1,12 @@
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { fromRoot, loadContext, normalizeAsset, parseArgs } from "./lib.mjs";
+import {
+  findAutomationItem,
+  fromRoot,
+  loadContext,
+  normalizeAsset,
+  parseArgs,
+} from "./lib.mjs";
 import { decodePng } from "./png-lib.mjs";
 import { validateImageFile } from "./validate-file.mjs";
 import {
@@ -102,9 +108,7 @@ function runCli() {
   const context = loadContext();
   if (!args["--asset"]) throw new Error("Use --asset CAMINHO.");
   const asset = normalizeAsset(args["--asset"]);
-  const item = context.queue.itens.find(
-    (candidate) => normalizeAsset(candidate.asset_futuro) === asset,
-  );
+  const item = findAutomationItem(context, asset);
   if (!item) throw new Error(`Asset nao encontrado na fila: ${asset}`);
   const root = ensureReviewWorkspace(args["--review-root"]);
   const filePath = args["--file"]

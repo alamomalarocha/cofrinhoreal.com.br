@@ -34,10 +34,10 @@ SHA-256 registrado:
 
 `56fef39d6300dd6836ca384e7845ca3e3dca15d2fec56cd23f0e10c5d017b3c8`
 
-## Referências por fase
+## Bases por fase
 
-Além do Pig Principal, o piloto exige uma referência aprovada da fase da vida. Para o personagem 002, o diretório esperado é:
+Além do Pig Principal, cada identidade usa uma base técnica aprovada da sua fase. Essa base não é fornecida manualmente: ela é gerada pelo pipeline e armazenada de forma privada em:
 
-`assets/references/fases-vida/bebe/`
+`data/image-automation/phase-bases/`
 
-Enquanto o manifesto indicar `missing-required-png`, a execução paga deve ser bloqueada antes da chamada externa.
+O Pig Principal orienta a geração da base. Depois da aprovação humana, a base passa a ser a única referência das três identidades daquela fase.

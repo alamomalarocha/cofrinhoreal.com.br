@@ -2,28 +2,36 @@
 
 Atualizado em 2026-07-16.
 
-## Escopo imutável do piloto
+## Escopo do piloto
 
-O piloto contém exatamente:
+O piloto contém exatamente uma base técnica privada e três identidades derivadas:
 
-1. `assets/characters/002-pig-bebe-azul.png`
-2. `assets/characters/002-pig-bebe-rosa.png`
-3. `assets/characters/002-pig-bebe-arco-iris.png`
+1. `data/image-automation/phase-bases/002-pig-bebe-base.png`
+2. `assets/characters/002-pig-bebe-azul.png`
+3. `assets/characters/002-pig-bebe-rosa.png`
+4. `assets/characters/002-pig-bebe-arco-iris.png`
 
-Não inclui `padrao`, outros personagens ou expansão automática da fila.
+Não inclui `padrao`, outros personagens ou publicação automática.
 
-## Referências obrigatórias
+## Referência inicial
 
-- Pig Principal: disponível em `assets/characters/001-pig-principal.png`.
-- Fase bebê: esperada em `assets/references/fases-vida/bebe/`.
+O Pig Principal em `assets/characters/001-pig-principal.png` é a única referência visual inicial fornecida manualmente. O adaptador envia seus bytes na requisição.
 
-O manifesto `assets/references/reference-manifest.json` marca a fase bebê como `missing-required-png`. Essa ausência bloqueia uma execução paga.
+Não existe referência manual da fase bebê. O pipeline gera a base técnica, remove o fundo, valida e aguarda aprovação humana.
 
 ## Prompts
 
-Os três prompts estão fixados em `data/image-automation/pilot-002-three-identities.json`. Cada item possui hash SHA-256 para detectar alteração acidental.
+Os prompts são construídos de forma determinística a partir de `data/image-automation/phase-bootstrap.json`, `data/image-automation/style-system.json` e `data/image-automation/pilot-002-three-identities.json`. Cada registro planejado possui hash SHA-256.
 
-Identidades:
+Base:
+
+- bebê de 0 a 2 anos;
+- sentado de frente, corpo inteiro e pernas visíveis;
+- mãos sobre as pernas e orelhas levemente baixas;
+- roupa técnica neutra;
+- sem miniatura da referência, painel, comparação, texto, logo, moeda ou cenário.
+
+Identidades derivadas da base aprovada:
 
 - Azul: camisa azul, short azul-claro e tênis branco.
 - Rosa: camisa rosa, short rosa-claro e tênis branco.
@@ -33,16 +41,15 @@ Todos usam fundo técnico uniforme `#777777`, sem cenário nem sombra externa, p
 
 ## Processo previsto
 
-1. Resolver e validar referências.
-2. Estimar custo máximo.
-3. Verificar todas as travas.
-4. Gerar na área temporária.
-5. Remover fundo localmente.
-6. Validar PNG e transparência.
-7. Aguardar revisão humana.
-8. Aprovar ou rejeitar individualmente.
-9. Atualizar catálogo local somente após aprovação.
-10. Publicar remotamente apenas em uma fase futura e autorizada.
+1. Validar o Pig Principal binário.
+2. Estimar custo máximo e verificar todas as travas.
+3. Gerar a base na área privada temporária.
+4. Remover o fundo e validar tecnicamente.
+5. Aguardar aprovação humana da base.
+6. Derivar Azul, Rosa e Arco-íris da mesma base.
+7. Validar e revisar o conjunto.
+8. Atualizar catálogo local somente após aprovação.
+9. Publicar remotamente apenas em fase futura e autorizada.
 
 ## Estado atual
 
@@ -51,4 +58,5 @@ Todos usam fundo técnico uniforme `#777777`, sem cenário nem sombra externa, p
 - revisão automática: não permitida;
 - atualização automática do catálogo: desabilitada;
 - publicação remota: indisponível;
-- execução paga: bloqueada pela configuração e pela referência de fase ausente.
+- base real gerada: não;
+- execução paga: bloqueada pela configuração, autorização e orçamento.

@@ -50,5 +50,11 @@ O commit de documentação é criado após a validação final.
 - orçamento padrão zero;
 - provedor desabilitado;
 - publicação remota desabilitada;
-- referência da fase bebê ausente e bloqueante;
+- bootstrap automático da base bebê configurado, ainda sem geração real;
 - catálogo não é atualizado sem aprovação humana.
+
+## Correção de direção de 2026-07-16
+
+A dependência de uma referência manual da fase bebê foi removida. O piloto agora começa pela base técnica privada, gerada com o Pig Principal binário. As três identidades são derivadas somente depois da aprovação dessa base.
+
+Nenhuma chamada externa ou paga foi executada durante a correção.

@@ -26,6 +26,14 @@
   },
   "active_order": ["azul", "rosa", "arco_iris"],
   "discontinued": ["padrao"],
+  "global_pose": {
+    "fase_bebe": "sentado de frente, corpo inteiro, pernas visiveis, maos sobre as pernas, orelhas levemente baixas",
+    "demais_fases": "em pe, corpo inteiro, frontal, pes paralelos, bracos ao lado do corpo, maos abertas ou relaxadas, orelhas levemente baixas",
+    "hands_in_pockets": false,
+    "maximum_objects": 1,
+    "maximum_visual_markers": 2
+  },
+  "derivation_rule": "As identidades Azul, Rosa e Arco-iris devem ser edicoes da mesma base tecnica aprovada, preservando anatomia, pose, camera, enquadramento, iluminacao, tamanho, pes e maos.",
   "negative_rules": [
     "sem texto",
     "sem letras",
@@ -35,6 +43,9 @@
     "sem logo",
     "sem cenário",
     "sem painel",
-    "sem outros personagens"
+    "sem outros personagens",
+    "sem miniatura da referencia",
+    "sem painel de comparacao",
+    "sem imagem dentro da imagem"
   ]
 }

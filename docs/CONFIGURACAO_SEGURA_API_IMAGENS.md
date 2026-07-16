@@ -31,7 +31,7 @@ Uma futura chamada paga só pode ocorrer quando todas as condições forem satis
 6. O comando incluir `--execute-paid-generation`.
 7. `IMAGE_MAX_COST_USD` for positivo e cobrir a estimativa com margem.
 8. `OPENAI_API_KEY` existir no ambiente local.
-9. Todas as referências obrigatórias estiverem disponíveis.
+9. O Pig Principal estiver disponível e, para identidades, a base técnica da fase estiver aprovada.
 10. O arquivo `data/image-automation/STOP` não existir.
 
 Nenhuma condição isolada é suficiente.
@@ -62,4 +62,4 @@ Referência oficial: `https://help.openai.com/en/articles/8156019`.
 
 ## Estado atual
 
-Configuração segura, provedor desabilitado, orçamento zero e referência de fase ausente. Não há ação manual pendente de cobrança.
+Configuração segura, provedor desabilitado e orçamento zero. A base de fase ainda não foi gerada, mas não existe dependência de referência manual. Não há ação pendente de cobrança.

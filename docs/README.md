@@ -34,12 +34,13 @@ O Pig Principal é a referência visual obrigatória de toda a nova produção.
 
 ## Produção e automação de imagens
 
-- `PROTOCOLO_IMAGENS_PERSONAGENS.md`: fluxo manual oficial ChatGPT → Alamo → Codex.
+- `BOOTSTRAP_AUTOMATICO_FASES.md`: geração privada das bases de fase e derivação das identidades.
+- `PROTOCOLO_IMAGENS_PERSONAGENS.md`: fluxo automatizado principal e contingência manual.
 - `PLANO_IMAGENS_PERSONAGENS_001.md`: planejamento da produção após o reset.
 - `FILA_CRIACAO_IMAGENS.md`: origem, ordem e bloqueios da fila.
 - `AUTOMACAO_IMAGENS_PERSONAGENS.md`: arquitetura local, segura e retomável.
 - `IMPLEMENTACAO_ADAPTADOR_OPENAI_IMAGENS.md`: adaptador real, referências binárias e barreiras.
-- `PILOTO_TRES_IDENTIDADES_BEBE.md`: escopo exato das três imagens do piloto.
+- `PILOTO_TRES_IDENTIDADES_BEBE.md`: base técnica do bebê e três identidades derivadas.
 - `CONFIGURACAO_SEGURA_API_IMAGENS.md`: variáveis, orçamento e ativação futura.
 - `CHECKPOINT_IMPLEMENTACAO_PILOTO_001.md`: estado mensurável e ponto de retorno.
 - `GUIA_OPERACAO_FILA_IMAGENS.md`: comandos operacionais e estados.
@@ -49,7 +50,7 @@ O Pig Principal é a referência visual obrigatória de toda a nova produção.
 
 A automação não poderá iniciar geração paga sem autorização explícita de Alamo.
 
-No fluxo manual, o próximo prompt deve ser enviado antes da publicação da imagem atual.
+O pipeline automático é o fluxo principal. A criação manual permanece apenas como contingência.
 
 ## Português e conteúdo
 

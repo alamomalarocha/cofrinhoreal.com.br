@@ -131,19 +131,19 @@ Motivo: impedir custos, chamadas externas e publicação remota não autorizados
 
 Status: `vigente`. Visibilidade: `publica`.
 
-### DEC-015 - Ordem do fluxo manual
+### DEC-015 - Ordem do fluxo manual de contingência
 
-No fluxo manual, o próximo prompt deve ser enviado antes da publicação da imagem atual.
+Quando o fluxo manual de contingência for usado, o próximo prompt deve ser enviado antes da publicação da imagem atual.
 
 Motivo: manter a sequência produtiva sem misturar o pedido visual com a operação técnica.
 
-Status: `vigente`. Visibilidade: `publica`. Substitui a redação operacional da `DEC-010`, preservada como histórico.
+Status: `vigente como contingência`. Visibilidade: `publica`. O bootstrap automático das fases é o fluxo principal.
 
-### DEC-016 - Piloto pago de três imagens bloqueado por segurança e referência
+### DEC-016 - Piloto automático de base e três identidades bloqueado por segurança
 
-O piloto automatizado real fica restrito ao `002 — Pig Bebe` nas identidades `azul`, `rosa` e `arco_iris`. A identidade histórica `padrao` não participa.
+O piloto automatizado real fica restrito à base técnica privada do `002 — Pig Bebe` e às identidades `azul`, `rosa` e `arco_iris`. A identidade histórica `padrao` não participa.
 
-O adaptador OpenAI existe, mas permanece desabilitado. Uma execução paga exige autorização explícita, orçamento positivo, todas as travas técnicas e referência aprovada da fase bebê.
+O adaptador OpenAI existe, mas permanece desabilitado. Uma execução paga exige autorização explícita, orçamento positivo e todas as travas técnicas. A base bebê será gerada pelo pipeline usando o Pig Principal binário e aprovada antes da derivação das identidades.
 
 Motivo: validar o pipeline completo com escopo mínimo, custo controlado e revisão humana antes de qualquer escala.
 

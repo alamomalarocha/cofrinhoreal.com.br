@@ -21,16 +21,18 @@ Os primeiros 30 itens correspondem aos personagens 002 a 011, cada um nas três 
 
 ## Fases
 
-1. Planejamento e prompt em `dry-run`.
-2. Criação manual, uma imagem por vez.
-3. Validação técnica e revisão humana.
-4. Atualização de catálogo e Coleção Pig.
-5. Commit e publicação do site estático.
-6. Expansão apenas após aprovação da onda anterior.
+1. Planejamento e bootstrap da base da fase em `dry-run`.
+2. Geração automática da base técnica privada.
+3. Remoção de fundo, validação e aprovação humana do molde.
+4. Derivação automática das três identidades.
+5. Validação técnica e revisão humana do conjunto.
+6. Atualização de catálogo e Coleção Pig.
+7. Commit e publicação autorizados.
+8. Expansão apenas após aprovação da onda anterior.
 
 ## Automação futura
 
-A infraestrutura local está preparada para planejar e validar. Provedor pago e armazenamento remoto permanecem desativados.
+A infraestrutura local está preparada para gerar bases de fase, derivar identidades, planejar, validar e retomar. Provedor pago e armazenamento remoto permanecem desativados.
 
 A automação não poderá iniciar geração paga sem autorização explícita de Alamo.
 
