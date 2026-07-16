@@ -1,7 +1,14 @@
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { fromRoot, loadContext, normalizeAsset, parseArgs } from "./lib.mjs";
 import { decodePng } from "./png-lib.mjs";
 import { validateImageFile } from "./validate-file.mjs";
+import {
+  ensureReviewWorkspace,
+  reportPath,
+  stagePath,
+  writeJsonFile,
+} from "./workspace.mjs";
 
 function colorMetrics(image) {
   const buckets = {
@@ -58,31 +65,65 @@ function identitySignal(style, metrics) {
   return { metric: "not_applicable", value: null, passes: true };
 }
 
-const args = parseArgs();
-const context = loadContext();
-if (!args["--asset"]) throw new Error("Use --asset CAMINHO.");
-const asset = normalizeAsset(args["--asset"]);
-const item = context.queue.itens.find((candidate) => normalizeAsset(candidate.asset_futuro) === asset);
-if (!item) throw new Error(`Asset nao encontrado na fila: ${asset}`);
-const filePath = fromRoot(asset);
-const fileValidation = validateImageFile(filePath, context.config, { expectedAsset: asset });
-const colors = fileValidation.valid ? colorMetrics(decodePng(filePath)) : null;
-const signal = colors ? identitySignal(item.estilo, colors) : null;
-const result = {
+export function validateVisualImage({
+  filePath,
   asset,
-  expected_identity: item.estilo || null,
-  file_validation: fileValidation,
-  objective_color_metrics: colors,
-  objective_identity_signal: signal,
-  automatic_decision: fileValidation.valid && signal?.passes ? "aguardando_revisao" : "falhou",
-  human_review_required: true,
-  not_automatically_asserted: [
-    "quantidade de personagens",
-    "corpo inteiro",
-    "fase de vida",
-    "ausencia semantica de texto ou logo",
-    "fidelidade ao Pig Principal",
-  ],
-};
-console.log(JSON.stringify(result, null, 2));
-if (result.automatic_decision === "falhou") process.exitCode = 1;
+  item,
+  config,
+}) {
+  const normalized = normalizeAsset(asset);
+  const fileValidation = validateImageFile(filePath, config, {
+    expectedAsset: normalized,
+  });
+  const colors = fileValidation.valid ? colorMetrics(decodePng(filePath)) : null;
+  const signal = colors ? identitySignal(item.estilo, colors) : null;
+  return {
+    schema_version: "1.0.0",
+    asset: normalized,
+    expected_identity: item.estilo || null,
+    file_validation: fileValidation,
+    objective_color_metrics: colors,
+    objective_identity_signal: signal,
+    automatic_decision:
+      fileValidation.valid && signal?.passes ? "aguardando_revisao" : "falhou",
+    human_review_required: true,
+    not_automatically_asserted: [
+      "quantidade de personagens",
+      "corpo inteiro",
+      "fase de vida",
+      "ausencia semantica de texto ou logo",
+      "fidelidade ao Pig Principal",
+    ],
+  };
+}
+
+function runCli() {
+  const args = parseArgs();
+  const context = loadContext();
+  if (!args["--asset"]) throw new Error("Use --asset CAMINHO.");
+  const asset = normalizeAsset(args["--asset"]);
+  const item = context.queue.itens.find(
+    (candidate) => normalizeAsset(candidate.asset_futuro) === asset,
+  );
+  if (!item) throw new Error(`Asset nao encontrado na fila: ${asset}`);
+  const root = ensureReviewWorkspace(args["--review-root"]);
+  const filePath = args["--file"]
+    ? path.resolve(fromRoot(), String(args["--file"]))
+    : stagePath(root, "validated", asset);
+  const result = validateVisualImage({
+    filePath,
+    asset,
+    item,
+    config: context.config,
+  });
+  const output = args["--report"]
+    ? path.resolve(fromRoot(), String(args["--report"]))
+    : reportPath(root, asset, "visual");
+  writeJsonFile(output, result);
+  console.log(JSON.stringify({ ...result, report: output }, null, 2));
+  if (result.automatic_decision === "falhou") process.exitCode = 1;
+}
+
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  runCli();
+}

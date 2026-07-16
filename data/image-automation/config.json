@@ -42,9 +42,10 @@
     "max_residual_background_fraction": 0.02,
     "max_external_shadow_fraction": 0.015,
     "max_checkerboard_score": 0.35,
-    "min_margin_fraction": 0.015
+    "min_margin_fraction": 0.015,
+    "duplicate_phash_distance_max": 4
   },
-  "review_policy": "automatic-safe",
+  "review_policy": "human-mandatory",
   "storage": {
     "provider": "r2-planned",
     "enabled": false,

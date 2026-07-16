@@ -16,6 +16,7 @@
     "images:status": "node scripts/images/status.mjs",
     "images:stop": "node scripts/images/stop.mjs",
     "images:review": "node scripts/images/review.mjs",
+    "images:update-catalog": "node scripts/images/update-catalog.mjs",
     "images:publish": "node scripts/images/publish.mjs"
   },
   "dependencies": {
