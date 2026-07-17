@@ -23,6 +23,14 @@ import {
   safeErrorMessage,
   sanitizeForLog,
 } from "./safety.mjs";
+import {
+  createExclusiveBudget,
+  estimatedAttemptCost,
+  PILOT_MAX_COST_USD,
+  requiredExclusiveBudget,
+} from "./budget.mjs";
+import { loadRuntimeEnvironment } from "./env-file.mjs";
+import { runPreflight } from "./preflight.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 
@@ -31,9 +39,16 @@ export async function generateOne({
   context = loadContext(),
   env = process.env,
   provider,
+  preflightSystem,
 } = {}) {
-  const item = selectPlan(context, { ...args, "--limit": 1 })[0];
-  if (!item) throw new Error("Nenhum item elegivel encontrado.");
+  const runtimeEnv = loadRuntimeEnvironment(args, env);
+  const items = selectPlan(context, args);
+  if (items.length !== 1) {
+    const error = new Error(`Geracao exige exatamente um item; selecionados: ${items.length}.`);
+    error.code = "GENERATION_SELECTION_NOT_EXCLUSIVE";
+    throw error;
+  }
+  const [item] = items;
 
   const pilot = args["--pilot"] === true
     || Boolean(pilotItemForAsset(context.pilot, item.asset_futuro));
@@ -49,7 +64,7 @@ export async function generateOne({
     arquivo: normalizeAsset(item.asset_futuro),
     prompt,
     prompt_hash: record.prompt_hash,
-    model: context.config.provider.model,
+    model: context.config.provider.primary_model || context.config.provider.model,
     fallback_model: context.config.provider.fallback_model,
     references: readiness.references,
     references_ready: readiness.ready,
@@ -58,18 +73,48 @@ export async function generateOne({
     output_format: context.config.provider.output_format,
     estimated_cost_usd: Number(context.config.provider.estimated_cost_usd_per_image || 0),
   };
-  const gate = generationGate(context.config, args, env);
+  const maxAttempts = Number(args["--max-attempts"] || context.config.limits.max_attempts);
+  const preflight = args["--only-phase-base"] !== undefined
+    ? runPreflight({
+      args,
+      context,
+      env: runtimeEnv,
+      root: ROOT,
+      system: preflightSystem,
+    })
+    : null;
 
-  if (args["--dry-run"] || !gate.authorized) {
+  if (preflight?.status === "BLOCKED") {
+    const error = new Error(`Pre-voo bloqueado: ${preflight.failures.join(", ")}.`);
+    error.code = "PREFLIGHT_BLOCKED";
+    error.preflight = preflight;
+    throw error;
+  }
+
+  const conditions = {
+    requiredPhase: "002",
+    maxAllowedBudgetUsd: PILOT_MAX_COST_USD,
+    requiredBudgetUsd: requiredExclusiveBudget(context.config, maxAttempts),
+    selectionCount: items.length,
+    gitClean: preflight ? preflight.checks.find((entry) => entry.name === "git_clean")?.passed : false,
+    referenceReady: readiness.ready,
+    stopAbsent: !fs.existsSync(path.join(ROOT, "data", "image-automation", "STOP")),
+    baseAbsent: !fs.existsSync(path.join(ROOT, request.arquivo)),
+  };
+  const gate = generationGate(context.config, args, runtimeEnv, conditions);
+
+  if (args["--dry-run"] === true) {
     return sanitizeForLog({
       mode: "dry-run",
       paid_generation_started: false,
+      api_calls: 0,
+      preflight,
       gate,
       request,
     });
   }
 
-  assertGenerationAuthorized(context.config, args, env);
+  assertGenerationAuthorized(context.config, args, runtimeEnv, conditions);
   assertStopNotRequested(ROOT);
   if (pilot) {
     assertPilotReferencesReady(item, context.pilot, {
@@ -103,6 +148,11 @@ export async function generateOne({
   const imageProvider = provider || createOpenAIImageProvider({
     stopRequested: () => fs.existsSync(path.join(ROOT, "data", "image-automation", "STOP")),
   });
+  const budget = createExclusiveBudget({
+    asset: request.arquivo,
+    maxCostUsd: gate.max_cost_usd,
+    estimatedCostPerAttempt: estimatedAttemptCost(context.config),
+  });
 
   appendJsonl("data/image-automation/state.jsonl", stateEvent(item, "gerando", {
     prompt_hash: request.prompt_hash,
@@ -112,7 +162,7 @@ export async function generateOne({
 
   try {
     const result = await imageProvider.generateEdit({
-      apiKey: env.OPENAI_API_KEY,
+      apiKey: runtimeEnv.OPENAI_API_KEY,
       referenceFiles,
       prompt,
       model: request.model,
@@ -120,14 +170,38 @@ export async function generateOne({
       quality: request.quality,
       size: request.size,
       outputFormat: request.output_format,
-      maxAttempts: context.config.limits.max_attempts,
+      maxAttempts,
       pauseMs: context.config.limits.pause_ms,
+      allowModelFallback: args["--allow-model-fallback"] === true,
+      beforeAttempt: ({ attempt, model }) => budget.beforeAttempt({
+        asset: request.arquivo,
+        attempt,
+        model,
+      }),
+      onAttempt: ({ attempt, model, result, classification }) => {
+        const attemptRecord = budget.recordAttempt({
+          asset: request.arquivo,
+          attempt,
+          model,
+          result: result === "success" ? "success" : classification,
+        });
+        appendJsonl("data/image-automation/runtime/attempts.jsonl", {
+          timestamp: new Date().toISOString(),
+          ...attemptRecord,
+        });
+      },
     });
     fs.writeFileSync(rawPath, result.png_bytes);
     appendJsonl("data/image-automation/state.jsonl", stateEvent(item, "gerada", {
       tentativas: result.attempts,
       modelo: result.model,
       request_id: result.request_id,
+      budget: budget.snapshot(),
+      next_steps: [
+        "remove-background",
+        "validate-rgba",
+        "human-review-queue",
+      ],
       arquivo_temporario: path.relative(ROOT, rawPath).replaceAll("\\", "/"),
     }));
     return sanitizeForLog({

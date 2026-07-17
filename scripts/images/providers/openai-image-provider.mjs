@@ -61,6 +61,8 @@ export function createOpenAIImageProvider({
       outputFormat,
       maxAttempts = 3,
       pauseMs = 1500,
+      beforeAttempt = () => {},
+      onAttempt = () => {},
     }) {
       const sdk = await resolveSdk(apiKey);
       const inputs = referenceFiles?.length
@@ -82,6 +84,7 @@ export function createOpenAIImageProvider({
           error.attempts = attempt - 1;
           throw error;
         }
+        await beforeAttempt({ attempt, model: selectedModel });
         try {
           const response = await sdk.client.images.edit({
             model: selectedModel,
@@ -90,6 +93,12 @@ export function createOpenAIImageProvider({
             quality,
             size,
             output_format: outputFormat,
+          });
+          await onAttempt({
+            attempt,
+            model: selectedModel,
+            result: "success",
+            classification: "success",
           });
           return {
             png_bytes: Buffer.from(responseBase64(response), "base64"),
@@ -101,6 +110,12 @@ export function createOpenAIImageProvider({
         } catch (error) {
           lastError = error;
           const classification = classifyOpenAIError(error);
+          await onAttempt({
+            attempt,
+            model: selectedModel,
+            result: "error",
+            classification: classification.type,
+          });
           if (classification.type === "model_unavailable"
               && fallbackModel
               && selectedModel !== fallbackModel) {

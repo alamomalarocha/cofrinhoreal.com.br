@@ -235,6 +235,29 @@ export function findAutomationItem(context, asset) {
 
 export function selectPlan(context, args) {
   const states = latestStates(context.events);
+  if (args["--only-phase-base"] !== undefined) {
+    const requested = String(args["--only-phase-base"]).trim().padStart(3, "0");
+    const phases = context.phaseBootstrap.phases.filter(
+      (phase) => String(phase.numero).padStart(3, "0") === requested,
+    );
+    if (phases.length !== 1) {
+      const error = new Error(
+        `Selecao exclusiva invalida para a base ${requested}: ${phases.length} fases encontradas.`,
+      );
+      error.code = "EXCLUSIVE_PHASE_BASE_SELECTION_INVALID";
+      throw error;
+    }
+    const item = phaseBaseItemForPhase(phases[0]);
+    const latest = states.get(normalizeAsset(item.asset_futuro));
+    if (
+      args["--resume"] === true
+      && latest
+      && ["aprovada", "publicada"].includes(latest.status)
+    ) {
+      return [];
+    }
+    return [item];
+  }
   if (args["--pilot"]) {
     const items = pilotWorkflowItems({
       manifest: context.pilot,

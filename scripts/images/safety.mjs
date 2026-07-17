@@ -12,36 +12,55 @@ export class SafetyLockError extends Error {
   }
 }
 
-function isTrue(value) {
+export function isTrue(value) {
   return String(value || "").trim().toLowerCase() === "true";
 }
 
-function finitePositive(value) {
+export function finitePositive(value) {
   const number = Number(value);
   return Number.isFinite(number) && number > 0 ? number : 0;
 }
 
-export function generationGate(config, args = {}, env = process.env) {
+export function effectiveMaxCost(config, args = {}, env = process.env) {
+  const authorization = config.authorization || {};
+  const cliBudget = finitePositive(args["--max-cost-usd"]);
+  const envBudget = finitePositive(env[authorization.budget_environment_variable || "IMAGE_MAX_COST_USD"]);
+  const configBudget = finitePositive(config.limits?.max_cost_usd);
+  return cliBudget || envBudget || configBudget;
+}
+
+export function generationGate(config, args = {}, env = process.env, conditions = {}) {
   const authorization = config.authorization || {};
   const provider = config.provider || {};
   const limits = config.limits || {};
   const executeFlag = authorization.execute_flag || "--execute-paid-generation";
-  const estimatedCost = finitePositive(provider.estimated_cost_usd_per_image);
-  const cliBudget = finitePositive(args["--max-cost-usd"]);
-  const envBudget = finitePositive(env[authorization.budget_environment_variable || "IMAGE_MAX_COST_USD"]);
-  const configBudget = finitePositive(limits.max_cost_usd);
-  const maxCostUsd = cliBudget || envBudget || configBudget;
+  const estimatedCost = finitePositive(conditions.requiredBudgetUsd)
+    || finitePositive(provider.estimated_cost_usd_per_image);
+  const maxCostUsd = effectiveMaxCost(config, args, env);
+  const requiredPhase = String(conditions.requiredPhase || "002").padStart(3, "0");
+  const selectedPhase = String(args["--only-phase-base"] || "").padStart(3, "0");
+  const storageMode = env.IMAGE_STORAGE_MODE || config.runtime_defaults?.IMAGE_STORAGE_MODE;
   const checks = {
-    execute_mode: config.mode === "execute",
-    provider_enabled: provider.enabled === true,
     provider_is_openai: provider.name === "openai",
     provider_environment: env[authorization.provider_environment_variable || "IMAGE_PROVIDER"]
       === (authorization.required_provider || "openai"),
     explicit_authorization: isTrue(env[authorization.environment_variable || "IMAGE_GENERATION_AUTHORIZED"]),
     explicit_execute_flag: args[executeFlag] === true,
     positive_budget: maxCostUsd > 0,
+    budget_within_pilot_ceiling: maxCostUsd <= Number(conditions.maxAllowedBudgetUsd || 0.19),
     budget_covers_request: maxCostUsd >= estimatedCost && estimatedCost > 0,
     api_key_present: Boolean(String(env.OPENAI_API_KEY || "").trim()),
+    exact_phase_base: selectedPhase === requiredPhase,
+    single_selection: conditions.selectionCount === 1,
+    no_publish: args["--no-publish"] === true,
+    no_push: args["--no-push"] === true,
+    human_review: args["--review-policy"] === "human-mandatory",
+    publication_disabled: !isTrue(env.IMAGE_PUBLICATION_AUTHORIZED),
+    local_storage: storageMode === "local",
+    git_clean: conditions.gitClean === true,
+    reference_ready: conditions.referenceReady === true,
+    stop_absent: conditions.stopAbsent === true,
+    private_base_absent: conditions.baseAbsent === true,
   };
   return {
     authorized: Object.values(checks).every(Boolean),
@@ -52,8 +71,8 @@ export function generationGate(config, args = {}, env = process.env) {
   };
 }
 
-export function assertGenerationAuthorized(config, args = {}, env = process.env) {
-  const gate = generationGate(config, args, env);
+export function assertGenerationAuthorized(config, args = {}, env = process.env, conditions = {}) {
+  const gate = generationGate(config, args, env, conditions);
   if (!gate.authorized) {
     const missing = Object.entries(gate.checks)
       .filter(([, passed]) => !passed)

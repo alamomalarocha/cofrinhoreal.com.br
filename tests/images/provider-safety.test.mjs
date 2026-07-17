@@ -42,13 +42,32 @@ test("generation is blocked by default and cannot reach a provider", () => {
 });
 
 test("all explicit locks are required", () => {
-  const args = { "--execute-paid-generation": true, "--max-cost-usd": "0.10" };
+  const args = {
+    "--execute-paid-generation": true,
+    "--max-cost-usd": "0.19",
+    "--only-phase-base": "002",
+    "--no-publish": true,
+    "--no-push": true,
+    "--review-policy": "human-mandatory",
+  };
   const env = {
     OPENAI_API_KEY: "test-key",
     IMAGE_GENERATION_AUTHORIZED: "true",
     IMAGE_PROVIDER: "openai",
+    IMAGE_PUBLICATION_AUTHORIZED: "false",
+    IMAGE_STORAGE_MODE: "local",
   };
-  assert.equal(generationGate(executableConfig, args, env).authorized, true);
+  const conditions = {
+    requiredPhase: "002",
+    requiredBudgetUsd: 0.18,
+    maxAllowedBudgetUsd: 0.19,
+    selectionCount: 1,
+    gitClean: true,
+    referenceReady: true,
+    stopAbsent: true,
+    baseAbsent: true,
+  };
+  assert.equal(generationGate(executableConfig, args, env, conditions).authorized, true);
 });
 
 test("official adapter uses binary image edit request without network in tests", async () => {
