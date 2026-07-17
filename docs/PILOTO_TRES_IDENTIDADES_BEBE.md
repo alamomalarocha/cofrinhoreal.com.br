@@ -60,3 +60,9 @@ Todos usam fundo técnico uniforme `#777777`, sem cenário nem sombra externa, p
 - publicação remota: indisponível;
 - base real gerada: não;
 - execução paga: bloqueada pela configuração, autorização e orçamento.
+
+## Primeira execução isolada
+
+A ativação inicial não abrange as três identidades. Ela seleciona somente a base privada `002-pig-bebe-base.png` por meio de `--only-phase-base 002`. Qualquer seleção vazia, múltipla ou diferente deve abortar antes da API.
+
+O teto rígido e exclusivo é US$ 0,19 para até três tentativas dessa base. O saldo é verificado antes de cada tentativa e o registro deve conter modelo, estimativa, número da tentativa, resultado e orçamento restante. Depois de uma geração futura, o fluxo permitido é: arquivo bruto privado, remoção local do fundo, validação RGBA e fila de revisão humana. Nenhum status público, identidade derivada, publicação ou push automático pode avançar.

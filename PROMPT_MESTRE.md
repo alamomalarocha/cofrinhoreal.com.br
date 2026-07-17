@@ -54,6 +54,16 @@ A automação não poderá iniciar geração paga sem autorização explícita d
 - Publicação remota e upload para R2 permanecem desabilitados e não implementados.
 - Chaves, tokens e segredos nunca podem ser registrados em arquivos ou logs.
 
+### Primeiro piloto privado
+
+- O único alvo autorizado para preparação é `data/image-automation/phase-bases/002-pig-bebe-base.png`.
+- Modelo principal fixado: `gpt-image-2-2026-04-21`.
+- Alias de contingência: `gpt-image-2`, bloqueado por padrão e permitido somente com `--allow-model-fallback` explícito.
+- Orçamento máximo exclusivo: US$ 0,19, verificado antes de cada tentativa.
+- Revisão humana, `--no-publish` e `--no-push` são obrigatórios.
+- O checkpoint anterior à ativação é `checkpoint-pre-ativacao-base-002-2026-07`.
+- A frase de autorização futura precisa ser exatamente: **Autorizo gerar somente a base privada 002 — Pig Bebê, com orçamento máximo de US$ 0,19, sem publicação, sem push e sem fallback automático de modelo.**
+
 ## Português e acessibilidade
 
 - Texto público em português brasileiro correto.

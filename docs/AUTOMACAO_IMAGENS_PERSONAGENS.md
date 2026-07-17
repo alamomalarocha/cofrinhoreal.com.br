@@ -36,6 +36,10 @@ A automação não poderá iniciar geração paga sem autorização explícita d
 - Revisão humana é obrigatória; aprovação automática do catálogo não existe.
 - Publicação remota e upload para R2 permanecem indisponíveis.
 - Um arquivo `data/image-automation/STOP` interrompe a preparação de novos itens.
+- `images:preflight` precisa aprovar as barreiras estruturais antes de uma execução real.
+- O primeiro piloto exige `--only-phase-base 002` e aborta se houver mais de um alvo.
+- O alias `gpt-image-2` não é fallback automático; exige `--allow-model-fallback` explícito.
+- O orçamento exclusivo da base 002 não pode ultrapassar US$ 0,19.
 
 ## Estados
 
@@ -55,6 +59,8 @@ O piloto automático contém uma base técnica privada e três identidades públ
 
 Ele usa `gpt-image-2-2026-04-21`, qualidade média, formato PNG e fundo técnico uniforme para remoção local posterior. O primeiro passo é gerar a base do Pig Bebê com o Pig Principal enviado como arquivo binário. Após aprovação humana da base, as três identidades são derivadas exclusivamente dela.
 
-Não existe dependência de referência manual da fase bebê. A execução paga continua bloqueada por configuração, autorização e orçamento.
+Não existe dependência de referência manual da fase bebê. A primeira execução futura fica restrita à base privada, sem derivar identidades. A execução paga continua bloqueada por configuração, autorização e orçamento.
+
+O pré-voo e o runner não mudam o estado para `gerando` quando uma trava falha. Os relatórios de runtime ficam em caminhos ignorados pelo Git e não podem registrar chaves.
 
 Consulte `BOOTSTRAP_AUTOMATICO_FASES.md`, `IMPLEMENTACAO_ADAPTADOR_OPENAI_IMAGENS.md`, `PILOTO_TRES_IDENTIDADES_BEBE.md` e `CONFIGURACAO_SEGURA_API_IMAGENS.md`.

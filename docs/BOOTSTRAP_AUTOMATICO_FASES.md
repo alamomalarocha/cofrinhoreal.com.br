@@ -68,3 +68,9 @@ Com `--resume`, o pipeline retoma o passo incompleto sem reiniciar nem duplicar 
 - nenhuma base real gerada;
 - nenhuma imagem publicada;
 - nenhum status de personagem alterado.
+
+## Piloto isolado da fase bebê
+
+Antes de automatizar outras fases, somente a base privada 002 pode ser selecionada com `--only-phase-base 002`. O pré-voo aborta seleção múltipla, base já existente, referência ausente, Git sujo, arquivo `STOP`, revisão diferente de `human-mandatory`, publicação ou push habilitados e orçamento inválido.
+
+Uma geração futura não libera automaticamente as identidades. A base deve passar por remoção local do fundo, validação RGBA e revisão humana antes de qualquer próxima decisão.

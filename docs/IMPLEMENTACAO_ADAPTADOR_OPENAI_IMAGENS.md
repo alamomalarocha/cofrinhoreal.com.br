@@ -27,7 +27,7 @@ Fallback:
 
 `gpt-image-2`
 
-O fallback só é tentado quando o modelo fixado estiver indisponível. Falhas de autenticação, orçamento ou validação não devem acionar fallback.
+O fallback é bloqueado por padrão. Ele só pode ser considerado quando o modelo fixado estiver indisponível **e** o operador informar `--allow-model-fallback`. Falhas de autenticação, orçamento ou validação nunca acionam fallback.
 
 ## Entradas
 
@@ -58,6 +58,10 @@ Antes de criar o cliente da OpenAI, o código valida:
 - chave presente;
 - referências obrigatórias;
 - arquivo de parada ausente.
+- seleção exata de uma única base com `--only-phase-base 002`;
+- `--no-publish`, `--no-push` e `--review-policy human-mandatory`;
+- Git limpo e pré-voo aprovado;
+- orçamento exclusivo suficiente antes de cada tentativa.
 
 Qualquer falha encerra o fluxo antes da chamada.
 
@@ -70,3 +74,5 @@ Qualquer falha encerra o fluxo antes da chamada.
 ## Estado
 
 Implementado e coberto por testes locais sem rede. Não ativado. Não executado contra a API.
+
+O estimador reconhece tanto o snapshot `gpt-image-2-2026-04-21` quanto o alias de preço `gpt-image-2`, usando a fonte oficial consultada em 2026-07-16. O snapshot continua sendo o modelo de execução; o alias não substitui o snapshot sem autorização explícita.

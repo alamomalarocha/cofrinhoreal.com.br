@@ -32,16 +32,16 @@ O sistema de quatro variações foi substituído por três identidades visuais: 
 
 ```powershell
 npm test
-npm run images:estimate-cost -- --max-attempts 1
-npm run images:pilot
+npm run images:preflight -- --only-phase-base 002 --dry-run --max-cost-usd 0.19 --no-publish --no-push --review-policy human-mandatory
+npm run images:generate -- --only-phase-base 002 --resume --dry-run --max-cost-usd 0.19 --max-attempts 3 --no-publish --no-push --review-policy human-mandatory
 npm run images:status
 ```
 
 ## Segurança operacional
 
-O adaptador real da OpenAI está implementado, mas permanece desabilitado por padrão. Nenhuma chamada paga foi feita.
+O adaptador real da OpenAI está implementado, mas permanece desabilitado por padrão. Nenhuma chamada paga foi feita. O piloto seleciona exclusivamente a base privada `002`, usa `gpt-image-2-2026-04-21` e bloqueia o alias `gpt-image-2` salvo quando `--allow-model-fallback` for informado de modo explícito.
 
-Uma execução paga exige simultaneamente autorização explícita, provedor habilitado, flag de execução, chave fora do repositório e orçamento positivo. O piloto também permanece bloqueado enquanto faltar a referência visual aprovada da fase bebê.
+Uma execução paga exige simultaneamente autorização explícita, provedor habilitado, flag de execução, chave fora do repositório, pré-voo aprovado e orçamento exclusivo suficiente. O teto rígido do primeiro piloto é US$ 0,19, sem publicação, push automático ou avanço de catálogo.
 
 No fluxo manual, o próximo prompt deve ser enviado antes da publicação da imagem atual.
 

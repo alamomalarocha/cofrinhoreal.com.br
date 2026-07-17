@@ -251,6 +251,23 @@
       "decisao_substituida": null,
       "visibilidade": "publica",
       "observacoes": "A identidade padrao não participa. Nenhuma chamada paga foi executada e a atualização do catálogo continua dependente de aprovação humana."
+    },
+    {
+      "id": "DEC-017",
+      "data": "2026-07-16",
+      "titulo": "Primeira ativação restrita a uma base privada",
+      "descricao": "A primeira ativação futura fica restrita à base privada 002 — Pig Bebê, selecionada exclusivamente, com snapshot oficial fixado, orçamento máximo de US$ 0,19, revisão humana obrigatória, sem publicação e sem push automático.",
+      "motivo": "Provar seleção, custo, retomada e revisão do menor escopo possível antes de qualquer derivação de identidade ou escala.",
+      "arquivos_afetados": [
+        "scripts/images/preflight.mjs",
+        "scripts/images/generate.mjs",
+        "data/image-automation/config.json",
+        "docs/CONFIGURACAO_SEGURA_API_IMAGENS.md"
+      ],
+      "status": "vigente",
+      "decisao_substituida": null,
+      "visibilidade": "publica",
+      "observacoes": "Snapshot gpt-image-2-2026-04-21; alias gpt-image-2 sem fallback automático; checkpoint checkpoint-pre-ativacao-base-002-2026-07 sobre ff3394e373a720d597379c538d0c1399ac6d4eea; chamadas pagas: 0."
     }
   ]
 }

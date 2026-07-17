@@ -83,14 +83,13 @@ O comando real vive em `scripts/images/generate.mjs`, mas não deve ser executad
 
 O adaptador usa edição de imagem com referências binárias. Escrever um caminho no prompt não anexa uma referência.
 
-O comando futuro de geração da base é documentado apenas para uso após autorização explícita:
+O pré-voo e a simulação exata do primeiro piloto são:
 
 ```powershell
-$env:IMAGE_PROVIDER="openai"
-$env:IMAGE_GENERATION_AUTHORIZED="true"
-$env:IMAGE_MAX_COST_USD="VALOR_AUTORIZADO"
-$env:OPENAI_API_KEY="CHAVE_LOCAL"
-npm run images:generate -- --pilot --resume --execute-paid-generation --max-cost-usd VALOR_AUTORIZADO
+npm run images:preflight -- --only-phase-base 002 --dry-run --max-cost-usd 0.19 --no-publish --no-push --review-policy human-mandatory
+npm run images:generate -- --only-phase-base 002 --resume --dry-run --max-cost-usd 0.19 --max-attempts 3 --no-publish --no-push --review-policy human-mandatory
 ```
 
-Mesmo com essas variáveis, `provider.enabled` precisa ser habilitado por uma alteração separada e autorizada. No estado atual, o comando continua bloqueado.
+O ambiente real previsto fica fora do repositório em `C:\Users\alamo\.config\cofrinho-real\image-api.env`. Consulte `CONFIGURACAO_SEGURA_API_IMAGENS.md` para o comando futuro completo. Mesmo com esse arquivo, `provider.enabled` precisa ser habilitado por alteração separada e autorizada. No estado atual, o comando continua bloqueado.
+
+Se `npm` não estiver disponível no terminal, use `scripts/resolve-node.ps1` para localizar Node.js 20 ou superior. O script não instala dependências. Os dry-runs desta implementação foram validados com o executável Node resolvido diretamente porque `npm` não estava disponível no ambiente de validação.

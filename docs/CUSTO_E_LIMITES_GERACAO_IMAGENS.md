@@ -35,6 +35,8 @@ Com os valores conservadores atuais:
 - três imagens e uma tentativa por item: máximo estimado de aproximadamente US$ 0,1843;
 - três imagens e até três tentativas por item: máximo estimado de aproximadamente US$ 0,5529.
 
+O primeiro piloto autorizado tecnicamente é menor: somente a base privada 002. Com até três tentativas, a reserva preventiva atual é US$ 0,18429 e o teto rígido exclusivo é US$ 0,19, deixando US$ 0,00571 de margem. O orçamento não pode ser compartilhado com identidades ou outros itens.
+
 O valor é uma estimativa preventiva, não uma cobrança garantida. Consulte sempre antes de qualquer autorização:
 
 ```powershell
@@ -60,5 +62,11 @@ Alterar uma única variável não autoriza geração. A chamada exige:
 8. `OPENAI_API_KEY` no ambiente;
 9. referências obrigatórias disponíveis;
 10. ausência do arquivo de parada.
+11. seleção exclusiva da base 002;
+12. saldo suficiente antes de cada tentativa;
+13. ausência de publicação e push automáticos;
+14. revisão humana obrigatória.
 
 Em qualquer divergência, o processo deve parar antes da primeira chamada.
+
+Cada tentativa futura deve registrar, sem segredos: modelo, estimativa reservada, tentativa, resultado e saldo restante. O snapshot oficial é `gpt-image-2-2026-04-21`; o preço é associado ao alias/base `gpt-image-2`, conforme a fonte consultada em 2026-07-16.

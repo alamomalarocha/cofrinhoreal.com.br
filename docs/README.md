@@ -42,6 +42,7 @@ O Pig Principal é a referência visual obrigatória de toda a nova produção.
 - `IMPLEMENTACAO_ADAPTADOR_OPENAI_IMAGENS.md`: adaptador real, referências binárias e barreiras.
 - `PILOTO_TRES_IDENTIDADES_BEBE.md`: base técnica do bebê e três identidades derivadas.
 - `CONFIGURACAO_SEGURA_API_IMAGENS.md`: variáveis, orçamento e ativação futura.
+- `examples/image-api.env.example`: exemplo seguro, sem chave e sem autorização.
 - `CHECKPOINT_IMPLEMENTACAO_PILOTO_001.md`: estado mensurável e ponto de retorno.
 - `GUIA_OPERACAO_FILA_IMAGENS.md`: comandos operacionais e estados.
 - `VALIDACAO_AUTOMATICA_IMAGENS.md`: critérios técnicos e visuais.
@@ -85,10 +86,12 @@ O pipeline automático é o fluxo principal. A criação manual permanece apenas
 
 ```powershell
 npm test
-npm run images:estimate-cost -- --max-attempts 1
-npm run images:pilot
+npm run images:preflight -- --only-phase-base 002 --dry-run --max-cost-usd 0.19 --no-publish --no-push --review-policy human-mandatory
+npm run images:generate -- --only-phase-base 002 --resume --dry-run --max-cost-usd 0.19 --max-attempts 3 --no-publish --no-push --review-policy human-mandatory
 npm run images:status
 ```
+
+O primeiro piloto é exclusivamente a base privada 002. O ambiente real, quando autorizado, deve ficar fora do repositório em `C:\Users\alamo\.config\cofrinho-real\image-api.env`.
 
 <!-- CATALOGO_BRASILEIRO_INICIO -->
 ## Catálogo brasileiro completo

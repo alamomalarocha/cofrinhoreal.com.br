@@ -25,4 +25,3 @@ export function providerModelSelection(provider = {}) {
     fallback: fallbackModel ? resolveImageModel(fallbackModel) : null,
   };
 }
-
