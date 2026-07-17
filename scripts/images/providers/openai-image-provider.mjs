@@ -55,6 +55,7 @@ export function createOpenAIImageProvider({
       prompt,
       model,
       fallbackModel,
+      allowModelFallback = false,
       quality,
       size,
       outputFormat,
@@ -103,6 +104,13 @@ export function createOpenAIImageProvider({
           if (classification.type === "model_unavailable"
               && fallbackModel
               && selectedModel !== fallbackModel) {
+            if (!allowModelFallback) {
+              error.classification = classification.type;
+              error.code = "MODEL_FALLBACK_AUTHORIZATION_REQUIRED";
+              error.attempts = attempt;
+              error.fallback_model = fallbackModel;
+              throw error;
+            }
             selectedModel = fallbackModel;
             continue;
           }

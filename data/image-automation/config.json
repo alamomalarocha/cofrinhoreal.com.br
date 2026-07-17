@@ -1,9 +1,17 @@
 {
   "schema_version": "1.0.0",
   "mode": "dry-run",
+  "runtime_defaults": {
+    "IMAGE_PROVIDER": "disabled",
+    "IMAGE_GENERATION_AUTHORIZED": false,
+    "IMAGE_PUBLICATION_AUTHORIZED": false,
+    "IMAGE_MAX_COST_USD": 0,
+    "IMAGE_STORAGE_MODE": "local"
+  },
   "provider": {
     "name": "openai",
     "enabled": false,
+    "primary_model": "gpt-image-2-2026-04-21",
     "model": "gpt-image-2-2026-04-21",
     "fallback_model": "gpt-image-2",
     "estimated_cost_usd_per_image": 0.041,
@@ -11,10 +19,13 @@
     "quality": "medium",
     "size": "1024x1536",
     "output_format": "png",
+    "background": "opaque",
     "technical_background": "#777777"
   },
   "pricing": {
     "source": "https://developers.openai.com/api/docs/pricing",
+    "model_documentation": "https://developers.openai.com/api/docs/models/gpt-image-2",
+    "pricing_base_model": "gpt-image-2",
     "checked_at": "2026-07-16",
     "currency": "USD",
     "text_input_usd_per_million_tokens": 5,
@@ -58,6 +69,7 @@
   },
   "review_policy": "human-mandatory",
   "storage": {
+    "mode": "local",
     "provider": "r2-planned",
     "enabled": false,
     "upload_implemented": false,

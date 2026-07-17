@@ -1,6 +1,7 @@
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadContext, numberOption, parseArgs } from "./lib.mjs";
+import { resolveImageModel } from "./model-config.mjs";
 
 export function estimateScenario({
   count,
@@ -31,12 +32,16 @@ export function estimateScenario({
 
 export function buildCostReport({
   pricing,
+  model = "gpt-image-2-2026-04-21",
+  quality = "medium",
+  size = "1024x1536",
   attempts = 1,
   textInputTokens = pricing.default_text_input_tokens_per_request,
   referenceImageTokens = pricing.default_reference_image_tokens_per_request,
   scenarios = [1, 3, 10, 100],
   maxCostUsd = null
 } = {}) {
+  const modelInfo = resolveImageModel(model);
   const estimates = scenarios.map((count) => estimateScenario({
     count,
     attempts,
@@ -50,9 +55,14 @@ export function buildCostReport({
     paid_generation_started: false,
     pricing_source: pricing.source,
     pricing_checked_at: pricing.checked_at,
-    model: "gpt-image-2-2026-04-21",
-    quality: "medium",
-    size: "1024x1536",
+    requested_model: modelInfo.requested_model,
+    pricing_base_model: modelInfo.pricing_base_model,
+    model_kind: modelInfo.kind,
+    pricing_source: pricing.source,
+    pricing_checked_at: pricing.checked_at,
+    model: modelInfo.requested_model,
+    quality,
+    size,
     assumptions: {
       attempts_per_image: attempts,
       text_input_tokens_per_attempt: textInputTokens,
@@ -86,6 +96,9 @@ if (isMain) {
     : numberOption(args, "--max-cost-usd", null);
   const report = buildCostReport({
     pricing: config.pricing,
+    model: config.provider.primary_model || config.provider.model,
+    quality: config.provider.quality,
+    size: config.provider.size,
     attempts,
     textInputTokens,
     referenceImageTokens,

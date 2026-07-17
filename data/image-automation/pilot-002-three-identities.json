@@ -3,6 +3,7 @@
   "pilot_id": "pilot-002-auto-bootstrap",
   "description": "Piloto automatico: gera e aprova a base tecnica do Pig Bebe antes de derivar as tres identidades.",
   "phase_key": "fase_bebe",
+  "primary_model": "gpt-image-2-2026-04-21",
   "model": "gpt-image-2-2026-04-21",
   "fallback_model": "gpt-image-2",
   "quality": "medium",
