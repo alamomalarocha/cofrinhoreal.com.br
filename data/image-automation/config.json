@@ -13,7 +13,7 @@
     "enabled": false,
     "primary_model": "gpt-image-2-2026-04-21",
     "model": "gpt-image-2-2026-04-21",
-    "fallback_model": "gpt-image-2",
+    "fallback_model": null,
     "estimated_cost_usd_per_image": 0.041,
     "implementation": "official-openai-sdk",
     "quality": "medium",

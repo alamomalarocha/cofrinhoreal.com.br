@@ -181,7 +181,7 @@ test("official adapter sends every curated reference as a binary image input", a
   assert.equal(request.image[1].bytes.toString(), "fase-bebe");
 });
 
-test("official snapshot and alias share the GPT Image 2 pricing base", () => {
+test("official snapshot keeps its pricing base while pilot fallback is disabled", () => {
   assert.equal(
     resolveImageModel("gpt-image-2-2026-04-21").pricing_base_model,
     "gpt-image-2",
@@ -189,19 +189,19 @@ test("official snapshot and alias share the GPT Image 2 pricing base", () => {
   assert.equal(resolveImageModel("gpt-image-2").kind, "official-alias");
   const selection = providerModelSelection({
     primary_model: "gpt-image-2-2026-04-21",
-    fallback_model: "gpt-image-2",
+    fallback_model: null,
   });
   assert.equal(selection.primary.kind, "official-snapshot");
-  assert.equal(selection.fallback.kind, "official-alias");
+  assert.equal(selection.fallback, null);
 });
 
-test("model fallback is blocked by default", async () => {
-  let calls = 0;
+test("model unavailability never switches to another model", async () => {
+  const models = [];
   const provider = createOpenAIImageProvider({
     client: {
       images: {
-        edit: async () => {
-          calls += 1;
+        edit: async ({ model }) => {
+          models.push(model);
           const error = new Error("model not found");
           error.code = "model_not_found";
           throw error;
@@ -216,43 +216,11 @@ test("model fallback is blocked by default", async () => {
       referenceName: "001-pig-principal.png",
       prompt: "test prompt",
       model: "gpt-image-2-2026-04-21",
-      fallbackModel: "gpt-image-2",
-      maxAttempts: 3,
+      maxAttempts: 1,
     }),
-    (error) => error.code === "MODEL_FALLBACK_AUTHORIZATION_REQUIRED",
+    (error) => error.classification === "model_unavailable" && error.attempts === 1,
   );
-  assert.equal(calls, 1);
-});
-
-test("model fallback requires the explicit authorization flag", async () => {
-  const models = [];
-  const provider = createOpenAIImageProvider({
-    client: {
-      images: {
-        edit: async ({ model }) => {
-          models.push(model);
-          if (model === "gpt-image-2-2026-04-21") {
-            const error = new Error("model not found");
-            error.code = "model_not_found";
-            throw error;
-          }
-          return { data: [{ b64_json: Buffer.from("fallback-png").toString("base64") }] };
-        },
-      },
-    },
-  });
-  const result = await provider.generateEdit({
-    apiKey: "unused",
-    referenceBytes: Buffer.from("reference"),
-    referenceName: "001-pig-principal.png",
-    prompt: "test prompt",
-    model: "gpt-image-2-2026-04-21",
-    fallbackModel: "gpt-image-2",
-    allowModelFallback: true,
-    maxAttempts: 2,
-  });
-  assert.deepEqual(models, ["gpt-image-2-2026-04-21", "gpt-image-2"]);
-  assert.equal(result.model, "gpt-image-2");
+  assert.deepEqual(models, ["gpt-image-2-2026-04-21"]);
 });
 
 test("error classes and log sanitization are deterministic", () => {

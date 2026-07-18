@@ -10,7 +10,7 @@ A automação não poderá iniciar geração paga sem autorização explícita d
 
 - Provedor configurado: OpenAI, desabilitado.
 - Modelo fixado: `gpt-image-2-2026-04-21`.
-- Fallback: `gpt-image-2`.
+- Fallback: inexistente; nenhuma troca de modelo é permitida.
 - Qualidade: média.
 - Tamanho: `1024x1536`.
 - Modo: `dry-run`.

@@ -45,7 +45,7 @@ O prompt visual deve ser curto e exclusivamente artístico. Não misturar JSON, 
 
 A automação não poderá iniciar geração paga sem autorização explícita de Alamo.
 
-- O adaptador oficial da OpenAI está implementado com `gpt-image-2-2026-04-21` e fallback `gpt-image-2`, mas `provider.enabled` permanece `false`.
+- O adaptador oficial da OpenAI está implementado exclusivamente com `gpt-image-2-2026-04-21`, sem fallback, e `provider.enabled` permanece `false`.
 - `IMAGE_PROVIDER=disabled`, `IMAGE_GENERATION_AUTHORIZED=false`, `IMAGE_MAX_COST_USD=0` e `IMAGE_STORAGE_MODE=local` por padrão.
 - A chamada real usa edição de imagem com referências binárias curadas; caminhos escritos no prompt não substituem anexos.
 - O piloto fixo possui somente `002 — Pig Bebe` nas identidades `azul`, `rosa` e `arco_iris`. `padrao` não participa.
@@ -58,7 +58,7 @@ A automação não poderá iniciar geração paga sem autorização explícita d
 
 - O único alvo autorizado para preparação é `data/image-automation/phase-bases/002-pig-bebe-base.png`.
 - Modelo principal fixado: `gpt-image-2-2026-04-21`.
-- Alias de contingência: `gpt-image-2`, bloqueado por padrão e permitido somente com `--allow-model-fallback` explícito.
+- Fallback e troca de modelo: inexistentes; qualquer falha exige nova decisão humana.
 - Orçamento máximo exclusivo: US$ 0,19, verificado antes de cada tentativa.
 - Revisão humana, `--no-publish` e `--no-push` são obrigatórios.
 - O checkpoint anterior à ativação é `checkpoint-pre-ativacao-base-002-2026-07`.

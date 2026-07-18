@@ -39,7 +39,7 @@ npm run images:status
 
 ## Segurança operacional
 
-O adaptador real da OpenAI está implementado, mas permanece desabilitado por padrão. Nenhuma chamada paga foi feita. O piloto seleciona exclusivamente a base privada `002`, usa `gpt-image-2-2026-04-21` e bloqueia o alias `gpt-image-2` salvo quando `--allow-model-fallback` for informado de modo explícito.
+O adaptador real da OpenAI está implementado, mas permanece desabilitado por padrão. Nenhuma chamada paga foi feita. O piloto seleciona exclusivamente a base privada `002`, usa somente `gpt-image-2-2026-04-21` e não possui fallback ou troca de modelo.
 
 Uma execução paga exige simultaneamente autorização explícita, provedor habilitado, flag de execução, chave fora do repositório, pré-voo aprovado e orçamento exclusivo suficiente. O teto rígido do primeiro piloto é US$ 0,19, sem publicação, push automático ou avanço de catálogo.
 

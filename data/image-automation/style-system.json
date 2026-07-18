@@ -27,7 +27,7 @@
   "active_order": ["azul", "rosa", "arco_iris"],
   "discontinued": ["padrao"],
   "global_pose": {
-    "fase_bebe": "sentado de frente, corpo inteiro, pernas visiveis, maos sobre as pernas, orelhas levemente baixas",
+    "fase_bebe": "em pe, fase de primeiros passos, corpo inteiro, pes ligeiramente separados, bracos relaxados, maos e pes visiveis",
     "demais_fases": "em pe, corpo inteiro, frontal, pes paralelos, bracos ao lado do corpo, maos abertas ou relaxadas, orelhas levemente baixas",
     "hands_in_pockets": false,
     "maximum_objects": 1,

@@ -153,7 +153,7 @@ Status: `vigente`. Visibilidade: `publica`.
 
 A primeira ativação futura fica restrita à base privada `002 — Pig Bebê`, selecionada por `--only-phase-base 002`, com snapshot `gpt-image-2-2026-04-21`, orçamento exclusivo máximo de US$ 0,19, revisão humana obrigatória, sem publicação e sem push automático.
 
-O alias `gpt-image-2` permanece bloqueado como fallback, salvo quando `--allow-model-fallback` for informado explicitamente. O ponto de retorno anterior à ativação é a tag `checkpoint-pre-ativacao-base-002-2026-07`, criada sobre o commit `ff3394e373a720d597379c538d0c1399ac6d4eea`.
+Não existe fallback ou troca de modelo no piloto 002. Qualquer falha do snapshot fixado encerra a única tentativa e exige nova decisão humana. O ponto de retorno anterior à ativação é a tag `checkpoint-pre-ativacao-base-002-2026-07`, criada sobre o commit `ff3394e373a720d597379c538d0c1399ac6d4eea`.
 
 Motivo: provar seleção, custo, retomada e revisão do menor escopo possível antes de qualquer derivação de identidade ou escala.
 

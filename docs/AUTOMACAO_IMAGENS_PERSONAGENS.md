@@ -38,7 +38,7 @@ A automação não poderá iniciar geração paga sem autorização explícita d
 - Um arquivo `data/image-automation/STOP` interrompe a preparação de novos itens.
 - `images:preflight` precisa aprovar as barreiras estruturais antes de uma execução real.
 - O primeiro piloto exige `--only-phase-base 002` e aborta se houver mais de um alvo.
-- O alias `gpt-image-2` não é fallback automático; exige `--allow-model-fallback` explícito.
+- Não existe fallback ou troca de modelo; qualquer falha encerra a única tentativa.
 - O orçamento exclusivo da base 002 não pode ultrapassar US$ 0,19.
 
 ## Estados

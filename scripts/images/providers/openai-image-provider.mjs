@@ -54,8 +54,6 @@ export function createOpenAIImageProvider({
       referenceFiles,
       prompt,
       model,
-      fallbackModel,
-      allowModelFallback = false,
       quality,
       size,
       outputFormat,
@@ -74,7 +72,7 @@ export function createOpenAIImageProvider({
         { type: "image/png" }
       )));
       const image = imageFiles.length === 1 ? imageFiles[0] : imageFiles;
-      let selectedModel = model;
+      const selectedModel = model;
       let lastError;
 
       for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
@@ -116,19 +114,6 @@ export function createOpenAIImageProvider({
             result: "error",
             classification: classification.type,
           });
-          if (classification.type === "model_unavailable"
-              && fallbackModel
-              && selectedModel !== fallbackModel) {
-            if (!allowModelFallback) {
-              error.classification = classification.type;
-              error.code = "MODEL_FALLBACK_AUTHORIZATION_REQUIRED";
-              error.attempts = attempt;
-              error.fallback_model = fallbackModel;
-              throw error;
-            }
-            selectedModel = fallbackModel;
-            continue;
-          }
           if (!classification.retryable || attempt >= maxAttempts) {
             error.classification = classification.type;
             error.attempts = attempt;

@@ -110,11 +110,23 @@ export function buildPhaseBasePrompt(
   phaseBootstrap,
   technicalBackground = "#777777",
 ) {
+  const sections = phase.prompt_sections || {};
+  const sectionLines = [
+    ["Conceito", sections.concept],
+    ["Anatomia obrigatoria", sections.anatomy],
+    ["Expressao obrigatoria", sections.expression],
+    ["Composicao obrigatoria", sections.composition],
+    ["Elementos proibidos", sections.prohibited],
+    ["Integridade anatomica", sections.integrity],
+  ]
+    .filter(([, values]) => Array.isArray(values) && values.length > 0)
+    .map(([label, values]) => `${label}: ${values.join("; ")}.`);
   return [
     "Use o PNG anexado do Pig Principal como a unica referencia visual binaria da identidade do personagem.",
     `Crie uma unica base tecnica interna da fase ${phase.name}, representando ${phase.age}.`,
     `Pose obrigatoria: ${poseDescription(phase, phaseBootstrap)}.`,
     `Roupa: ${phase.technical_clothing}.`,
+    ...sectionLines,
     `Fundo tecnico uniforme ${technicalBackground}, apropriado para remocao posterior.`,
     "Preserve a familia visual do Pig Principal, mas adapte claramente anatomia e proporcoes para a fase da vida.",
     "Nunca renderize, copie ou mostre a imagem de referencia dentro do resultado: sem miniatura, inset, moldura, painel, comparacao ou segundo personagem.",

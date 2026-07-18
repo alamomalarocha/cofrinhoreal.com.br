@@ -41,7 +41,7 @@ function avatarClothing(number, style) {
 }
 
 function avatarVisualBrief(person) {
-  const pose = person.numero === "002" ? "sentado" : "em pé";
+  const pose = person.numero === "002" ? "em pé, na fase de primeiros passos" : "em pé";
   return `${avatarAgeCopy[person.numero] || "Porquinho do universo Cofrinho Real"}, corpo inteiro, ${pose}, centralizado, estilo 3D/cartoon premium, coerente com o Pig Principal do Cofrinho Real`;
 }
 

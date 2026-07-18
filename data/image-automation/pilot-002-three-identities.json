@@ -5,7 +5,7 @@
   "phase_key": "fase_bebe",
   "primary_model": "gpt-image-2-2026-04-21",
   "model": "gpt-image-2-2026-04-21",
-  "fallback_model": "gpt-image-2",
+  "fallback_model": null,
   "quality": "medium",
   "size": "1024x1536",
   "output_format": "png",

@@ -26,9 +26,9 @@ As bases ficam em `data/image-automation/phase-bases/`. Elas não recebem númer
 
 ### Bebê
 
-- sentado de frente;
+- em pé, na fase de primeiros passos;
 - corpo inteiro e pernas visíveis;
-- mãos repousadas sobre as pernas;
+- braços relaxados, com mãos e pés completamente visíveis;
 - orelhas levemente baixas;
 - câmera frontal e expressão acolhedora.
 

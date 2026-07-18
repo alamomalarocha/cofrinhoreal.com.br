@@ -75,7 +75,7 @@ Configuração segura, provedor desabilitado e orçamento zero. A base de fase a
 - commit-base: `ff3394e373a720d597379c538d0c1399ac6d4eea`;
 - provedor: OpenAI implementado, `provider.enabled=false` e `IMAGE_PROVIDER=disabled`;
 - modelo principal: `gpt-image-2-2026-04-21`;
-- alias de fallback: `gpt-image-2`, bloqueado sem `--allow-model-fallback`;
+- fallback: explicitamente desabilitado; nenhuma troca de modelo é permitida;
 - orçamento versionado: US$ 0;
 - fila da primeira execução: somente a base privada 002;
 - base privada existente: não;

@@ -7,13 +7,13 @@
     "cataloged": false
   },
   "global_pose": {
-    "bebe": {
-      "position": "sentado de frente",
-      "body": "corpo inteiro, pernas visiveis",
-      "arms": "maos repousadas naturalmente sobre as pernas",
-      "ears": "orelhas levemente baixas para os lados",
-      "camera": "camera frontal",
-      "expression": "expressao acolhedora"
+    "bebe_primeiros_passos": {
+      "position": "em pe, na fase de primeiros passos, com rotacao corporal muito leve",
+      "body": "corpo inteiro, pes ligeiramente separados, equilibrio infantil natural",
+      "arms": "bracos relaxados, maos e pes completamente visiveis",
+      "ears": "orelhas proporcionalmente um pouco maiores",
+      "camera": "camera aproximadamente na altura do personagem, perspectiva natural",
+      "expression": "expressao doce, curiosa, atenta, segura e levemente alegre"
     },
     "em_pe": {
       "position": "em pe, frontal",
@@ -65,9 +65,42 @@
       "name": "Pig Bebe",
       "slug": "pig-bebe",
       "age": "0 a 2 anos",
-      "pose": "bebe",
+      "pose": "bebe_primeiros_passos",
       "base_asset": "data/image-automation/phase-bases/002-pig-bebe-base.png",
-      "technical_clothing": "roupa tecnica neutra, lisa e simples"
+      "technical_clothing": "camiseta lisa de manga curta, short simples e tenis infantil simples, em cores neutras e discretas, sem estampa, letra, numero, marca, logotipo ou identidade predominantemente azul, rosa ou arco-iris",
+      "prompt_sections": {
+        "concept": [
+          "um unico Pig Bebe, inequivocamente bebe, na fase de primeiros passos",
+          "pertencente ao mesmo Universo Pig e com parentesco visual claro com o Pig Principal",
+          "nao ser miniatura, clone ou copia reduzida do Pig Principal"
+        ],
+        "anatomy": [
+          "cabeca proporcionalmente maior que o corpo e formato arredondado",
+          "bochechas suavemente cheias, focinho menor e delicado, orelhas proporcionalmente um pouco maiores",
+          "pescoco curto e pouco perceptivel, corpo curto e arredondado, barriga suavemente saliente",
+          "bracos e pernas curtos, maos e pes pequenos",
+          "sem musculatura, ombros largos, cintura adulta, pernas longas ou corpo de adulto reduzido"
+        ],
+        "expression": [
+          "doce, curiosa, atenta, segura e levemente alegre",
+          "sorriso pequeno e natural, olhos amigaveis",
+          "sem gargalhada exagerada, choro, medo, tristeza, susto ou expressao vazia"
+        ],
+        "composition": [
+          "um unico personagem, corpo inteiro dentro do quadro, centralizado, com maos e pes visiveis",
+          "margens de seguranca, perspectiva natural e camera aproximadamente na altura do personagem",
+          "nenhuma ambientacao, cenario ou sombra dramatica"
+        ],
+        "prohibited": [
+          "texto, letras, numeros, logotipos, marcas, PigCoin, moeda, dinheiro, cofrinho, medalha, estrela, cracha, etiqueta ou patch",
+          "brinquedo, chupeta, mamadeira, bone, chapeu, touca, laco, flor, joia, bolsa, mochila, acessorio ou movel",
+          "objeto nas maos, outro personagem, imagem da referencia, miniatura, painel, moldura, inset ou comparacao"
+        ],
+        "integrity": [
+          "exatamente dois olhos, duas orelhas, dois bracos, duas maos, duas pernas e dois pes",
+          "sem membros duplicados, dedos extras, olhos desalinhados, focinho deformado, roupa fundida ao corpo ou tenis deformado"
+        ]
+      }
     },
     {
       "key": "fase_primeirinhos",

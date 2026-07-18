@@ -25,11 +25,13 @@ Os prompts são construídos de forma determinística a partir de `data/image-au
 
 Base:
 
-- bebê de 0 a 2 anos;
-- sentado de frente, corpo inteiro e pernas visíveis;
-- mãos sobre as pernas e orelhas levemente baixas;
-- roupa técnica neutra;
+- bebê inequivocamente na fase de primeiros passos;
+- em pé, corpo inteiro, com mãos e pés visíveis;
+- camiseta lisa de manga curta, short simples e tênis infantil em cores neutras;
+- parentesco visual claro com o Pig Principal, sem ser miniatura ou cópia reduzida;
 - sem miniatura da referência, painel, comparação, texto, logo, moeda ou cenário.
+
+A ficha artística oficial, o prompt consolidado e os critérios de revisão estão em `FICHA_VISUAL_BASE_002_PIG_BEBE.md`.
 
 Identidades derivadas da base aprovada:
 
