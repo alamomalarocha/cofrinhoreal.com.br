@@ -40,8 +40,10 @@ export async function generateOne({
   env = process.env,
   provider,
   preflightSystem,
+  loadEnvironment = loadRuntimeEnvironment,
+  preflightRunner = runPreflight,
 } = {}) {
-  const runtimeEnv = loadRuntimeEnvironment(args, env);
+  const runtimeEnv = loadEnvironment(args, env);
   const items = selectPlan(context, args);
   if (items.length !== 1) {
     const error = new Error(`Geracao exige exatamente um item; selecionados: ${items.length}.`);
@@ -75,10 +77,10 @@ export async function generateOne({
   };
   const maxAttempts = Number(args["--max-attempts"] || context.config.limits.max_attempts);
   const preflight = args["--only-phase-base"] !== undefined
-    ? runPreflight({
+    ? preflightRunner({
       args,
       context,
-      env: runtimeEnv,
+      runtimeEnv,
       root: ROOT,
       system: preflightSystem,
     })

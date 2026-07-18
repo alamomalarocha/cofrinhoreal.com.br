@@ -26,7 +26,8 @@ export function effectiveMaxCost(config, args = {}, env = process.env) {
   const cliBudget = finitePositive(args["--max-cost-usd"]);
   const envBudget = finitePositive(env[authorization.budget_environment_variable || "IMAGE_MAX_COST_USD"]);
   const configBudget = finitePositive(config.limits?.max_cost_usd);
-  return cliBudget || envBudget || configBudget;
+  const limits = [cliBudget, envBudget, configBudget].filter((value) => value > 0);
+  return limits.length > 0 ? Math.min(...limits) : 0;
 }
 
 export function generationGate(config, args = {}, env = process.env, conditions = {}) {

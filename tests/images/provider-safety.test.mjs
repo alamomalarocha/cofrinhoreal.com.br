@@ -3,6 +3,7 @@ import test from "node:test";
 import {
   assertGenerationAuthorized,
   generationGate,
+  safeErrorMessage,
   sanitizeForLog,
 } from "../../scripts/images/safety.mjs";
 import {
@@ -72,10 +73,12 @@ test("all explicit locks are required", () => {
 
 test("official adapter uses binary image edit request without network in tests", async () => {
   let request;
+  let calls = 0;
   const provider = createOpenAIImageProvider({
     client: {
       images: {
         edit: async (payload) => {
+          calls += 1;
           request = payload;
           return {
             data: [{ b64_json: Buffer.from("fake-png").toString("base64") }],
@@ -102,6 +105,43 @@ test("official adapter uses binary image edit request without network in tests",
   assert.equal(request.size, "1024x1536");
   assert.equal(request.output_format, "png");
   assert.equal(result.png_bytes.toString(), "fake-png");
+  assert.equal(calls, 1);
+});
+
+test("single-attempt pilot failure stops without retry or fallback and sanitizes the error", async () => {
+  let calls = 0;
+  const provider = createOpenAIImageProvider({
+    client: {
+      images: {
+        edit: async () => {
+          calls += 1;
+          const error = new Error("temporary failure sk-synthetic-secret-value");
+          error.status = 503;
+          throw error;
+        },
+      },
+    },
+  });
+  let captured;
+  await assert.rejects(
+    provider.generateEdit({
+      apiKey: "unused",
+      referenceBytes: Buffer.from("reference"),
+      referenceName: "001-pig-principal.png",
+      prompt: "test prompt",
+      model: "gpt-image-2-2026-04-21",
+      fallbackModel: "gpt-image-2",
+      allowModelFallback: false,
+      maxAttempts: 1,
+    }),
+    (error) => {
+      captured = safeErrorMessage(error);
+      return true;
+    },
+  );
+  assert.equal(calls, 1);
+  assert.equal(captured.includes("sk-synthetic-secret-value"), false);
+  assert.match(captured, /\[REDACTED\]/u);
 });
 
 test("official adapter sends every curated reference as a binary image input", async () => {

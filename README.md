@@ -32,8 +32,8 @@ O sistema de quatro variações foi substituído por três identidades visuais: 
 
 ```powershell
 npm test
-npm run images:preflight -- --only-phase-base 002 --dry-run --max-cost-usd 0.19 --no-publish --no-push --review-policy human-mandatory
-npm run images:generate -- --only-phase-base 002 --resume --dry-run --max-cost-usd 0.19 --max-attempts 3 --no-publish --no-push --review-policy human-mandatory
+npm run images:preflight -- --only-phase-base 002 --dry-run --max-cost-usd 0.19 --max-attempts 1 --no-publish --no-push --review-policy human-mandatory
+npm run images:generate -- --only-phase-base 002 --resume --dry-run --max-cost-usd 0.19 --max-attempts 1 --no-publish --no-push --review-policy human-mandatory
 npm run images:status
 ```
 
