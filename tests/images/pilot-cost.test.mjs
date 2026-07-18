@@ -65,6 +65,8 @@ test("phase-base prompt is deterministic and protects against reference thumbnai
   assert.match(first, /unica referencia visual binaria/u);
   assert.match(first, /fase de primeiros passos/u);
   assert.match(first, /em pe/u);
+  assert.match(first, /sem aparencia de recem-nascido ou crianca escolar/u);
+  assert.doesNotMatch(first, /0 a 2 anos/u);
   assert.match(first, /camiseta lisa de manga curta, short simples e tenis infantil simples/u);
   assert.match(first, /maos e pes visiveis/u);
   assert.match(first, /parentesco visual claro com o Pig Principal/u);
@@ -74,6 +76,7 @@ test("phase-base prompt is deterministic and protects against reference thumbnai
   assert.match(first, /exatamente dois olhos, duas orelhas, dois bracos, duas maos, duas pernas e dois pes/u);
   assert.doesNotMatch(first, /sentado/u);
   assert.doesNotMatch(first, /maos (repousadas |)sobre as pernas/u);
+  assert.equal(context.phaseBootstrap.phases[0].age, "0 a 2 anos");
   assert.match(first, /sem miniatura, inset, moldura, painel, comparacao ou segundo personagem/u);
   assert.match(first, /Sem maos nos bolsos/u);
 });

@@ -111,6 +111,7 @@ export function buildPhaseBasePrompt(
   technicalBackground = "#777777",
 ) {
   const sections = phase.prompt_sections || {};
+  const visualAge = phase.visual_age || `${phase.name}, representando ${phase.age}`;
   const sectionLines = [
     ["Conceito", sections.concept],
     ["Anatomia obrigatoria", sections.anatomy],
@@ -123,7 +124,7 @@ export function buildPhaseBasePrompt(
     .map(([label, values]) => `${label}: ${values.join("; ")}.`);
   return [
     "Use o PNG anexado do Pig Principal como a unica referencia visual binaria da identidade do personagem.",
-    `Crie uma unica base tecnica interna da fase ${phase.name}, representando ${phase.age}.`,
+    `Crie uma unica base tecnica interna da fase ${visualAge}.`,
     `Pose obrigatoria: ${poseDescription(phase, phaseBootstrap)}.`,
     `Roupa: ${phase.technical_clothing}.`,
     ...sectionLines,

@@ -65,12 +65,14 @@
       "name": "Pig Bebe",
       "slug": "pig-bebe",
       "age": "0 a 2 anos",
+      "visual_age": "Pig Bebe na fase de primeiros passos, sem aparencia de recem-nascido ou crianca escolar",
       "pose": "bebe_primeiros_passos",
       "base_asset": "data/image-automation/phase-bases/002-pig-bebe-base.png",
       "technical_clothing": "camiseta lisa de manga curta, short simples e tenis infantil simples, em cores neutras e discretas, sem estampa, letra, numero, marca, logotipo ou identidade predominantemente azul, rosa ou arco-iris",
       "prompt_sections": {
         "concept": [
           "um unico Pig Bebe, inequivocamente bebe, na fase de primeiros passos",
+          "sem aparencia de recem-nascido ou crianca escolar",
           "pertencente ao mesmo Universo Pig e com parentesco visual claro com o Pig Principal",
           "nao ser miniatura, clone ou copia reduzida do Pig Principal"
         ],

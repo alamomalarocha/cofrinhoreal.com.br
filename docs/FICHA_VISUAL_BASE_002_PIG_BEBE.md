@@ -8,6 +8,8 @@ A base 002 é uma matriz técnica privada para validar a fase Pig Bebê. Não é
 
 Um único Pig Bebê, inequivocamente bebê, em pé na fase de primeiros passos. Deve pertencer ao mesmo Universo Pig e demonstrar parentesco visual claro com o Pig Principal sem ser miniatura, clone ou cópia reduzida.
 
+A faixa `0 a 2 anos` permanece somente como metadado interno de catálogo e classificação; ela não integra o prompt visual. A leitura visual autorizada é exclusivamente a fase de primeiros passos, sem aparência de recém-nascido ou criança escolar.
+
 Características obrigatórias:
 
 - cabeça proporcionalmente maior e formato arredondado;
