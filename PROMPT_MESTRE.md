@@ -2,6 +2,8 @@
 
 Versão vigente: 2026-07-16.
 
+> A política oficial de identidade, derivação e representatividade está em `docs/PADRAO_TRES_IDENTIDADES_E_REPRESENTATIVIDADE.md`; sua fonte estruturada autoritativa é `data/image-automation/style-system.json`.
+
 ## Essência
 
 O Cofrinho Real é um universo educativo estático em protótipo. O Pig Principal é mascote, guia, professor-amigo e defensor digital. A experiência pública apresenta personagens, histórias, jogos, famílias, cultura brasileira, profissões e PigCoins fictícios.

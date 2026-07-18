@@ -20,6 +20,7 @@ import {
 
 test("pilot starts with the private Pig Bebe phase base", () => {
   const context = loadContext();
+  context.events = [];
   const items = selectPlan(context, { "--pilot": true });
   assert.deepEqual(
     items.map((item) => item.asset_futuro),
@@ -58,6 +59,7 @@ test("all life phases declare one private base with the required pose", () => {
 
 test("phase-base prompt is deterministic and protects against reference thumbnails", () => {
   const context = loadContext();
+  context.events = [];
   const [item] = selectPlan(context, { "--pilot": true });
   const first = buildPilotPrompt(item, context.pilot, context.phaseBootstrap);
   const second = buildPilotPrompt(item, context.pilot, context.phaseBootstrap);
@@ -89,6 +91,7 @@ test("pilot manifest explicitly disables fallback", () => {
 
 test("pilot base consumes exactly the registered Pig Principal binary", async () => {
   const context = loadContext();
+  context.events = [];
   const base = phaseBaseItem(context.pilot, context.phaseBootstrap);
   const readiness = pilotReferenceReadiness(base, context.pilot);
   assert.equal(readiness.ready, true);
@@ -155,8 +158,8 @@ test("approved base unlocks three identities derived only from that base", () =>
       [base.asset_futuro],
     );
     const prompt = buildPilotPrompt(item, context.pilot, context.phaseBootstrap);
-    assert.match(prompt, /Preserve exatamente: anatomia, rosto, focinho/u);
-    assert.match(prompt, /Altere somente: roupa, cores/u);
+    assert.match(prompt, /Preserve exatamente: mesmo personagem, idade, fase da vida, anatomia essencial/u);
+    assert.match(prompt, /Altere somente: apresentacao masculina, feminina ou neutra, roupas, cores/u);
   }
 });
 

@@ -32,6 +32,9 @@
   "identity_derivation": {
     "source": "approved-phase-base",
     "preserve": [
+      "mesmo personagem",
+      "idade",
+      "fase da vida",
       "anatomia",
       "rosto",
       "focinho",
@@ -45,6 +48,10 @@
       "tamanho",
       "posicao dos pes",
       "posicao das maos"
+      ,"profissao ou funcao",
+      "origem regional",
+      "raca/cor",
+      "deficiencia"
     ],
     "may_change": [
       "roupa",

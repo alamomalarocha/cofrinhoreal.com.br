@@ -31,6 +31,13 @@ export function loadPhaseBootstrap(
   return readJson(relativePath, root);
 }
 
+export function loadStyleSystem(
+  relativePath = "data/image-automation/style-system.json",
+  root = ROOT,
+) {
+  return readJson(relativePath, root);
+}
+
 export function phaseByKey(phaseBootstrap, key) {
   return phaseBootstrap.phases.find((phase) => phase.key === key) || null;
 }
@@ -92,19 +99,6 @@ function poseDescription(phase, phaseBootstrap) {
   ].join("; ");
 }
 
-function identityClothing(identity) {
-  if (identity === "azul") {
-    return "roupa simples azul, lisa, sem marca ou simbolo";
-  }
-  if (identity === "rosa") {
-    return "roupa simples rosa, lisa, sem marca ou simbolo";
-  }
-  if (identity === "arco_iris") {
-    return "camisa com faixas horizontais fortes de arco-iris em vermelho, laranja, amarelo, verde, azul e roxo; parte inferior off-white";
-  }
-  throw new Error(`Identidade do piloto nao reconhecida: ${identity}`);
-}
-
 export function buildPhaseBasePrompt(
   phase,
   phaseBootstrap,
@@ -141,22 +135,36 @@ export function buildIdentityPrompt(
   phase,
   phaseBootstrap,
   technicalBackground = "#777777",
+  styleSystem = loadStyleSystem(),
 ) {
-  const preserve = phaseBootstrap.identity_derivation.preserve.join(", ");
-  const mayChange = phaseBootstrap.identity_derivation.may_change.join(", ");
+  const policy = styleSystem.identity_policy;
+  const definition = styleSystem.identities[identity];
+  if (!policy?.public_identities.includes(identity) || !definition) {
+    throw new Error(`Identidade publica nao reconhecida: ${identity}`);
+  }
+  const preserve = styleSystem.identity_derivation.preserve.join(", ");
+  const mayChange = styleSystem.identity_derivation.may_change.join(", ");
+  const requirements = styleSystem.identity_derivation.requirements.join("; ");
   return [
     `Use a base tecnica aprovada anexada de ${phase.name} como a unica referencia visual binaria.`,
-    `Edite o mesmo personagem para a identidade ${identity}.`,
+    `Edite o mesmo personagem para a identidade ${identity}, com papel ${definition.role} e apresentacao ${definition.presentation}.`,
+    `Leitura visual obrigatoria: ${definition.visual_reading}.`,
     `Preserve exatamente: ${preserve}.`,
     `Altere somente: ${mayChange}.`,
-    `Roupa: ${identityClothing(identity)}.`,
+    `Roupa permanente da identidade ${definition.permanent_clothing_identity}: ${definition.clothing}.`,
+    `Regras obrigatorias: ${requirements}.`,
+    definition.neutral
+      ? "Neutralidade visual nao equivale automaticamente a classificacao LGBT ou orientacao sexual."
+      : "A identidade visual nao determina automaticamente orientacao sexual ou classificacao LGBT.",
     "Nunca renderize, copie ou mostre a referencia dentro do resultado: sem miniatura, inset, moldura, painel ou comparacao.",
-    "Sem maos nos bolsos, texto, letra, numero, logo, moeda, medalha, cenario, objeto extra ou outro personagem.",
+    "Um unico personagem, corpo inteiro, centralizado.",
+    "Sem sexualizacao, exagero ou caricatura ofensiva.",
+    "Sem maos nos bolsos, texto, letra, numero, logotipo, moeda, medalha, cenario, objeto extra, outro personagem, referencia incorporada ou base tecnica visivel.",
     `Fundo tecnico uniforme ${technicalBackground}, apropriado para remocao posterior.`,
   ].join("\n");
 }
 
-export function buildPilotPrompt(item, manifest, phaseBootstrap) {
+export function buildPilotPrompt(item, manifest, phaseBootstrap, styleSystem = loadStyleSystem()) {
   const pilotItem = pilotItemForAsset(manifest, item.asset_futuro);
   if (!pilotItem) {
     throw new Error(`Item fora do piloto automatico: ${normalizeAsset(item.asset_futuro)}`);
@@ -170,6 +178,7 @@ export function buildPilotPrompt(item, manifest, phaseBootstrap) {
       phase,
       phaseBootstrap,
       manifest.technical_background,
+      styleSystem,
     );
 }
 

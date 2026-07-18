@@ -1,24 +1,53 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "official_reference": "assets/characters/001-pig-principal.png",
+  "identity_policy": {
+    "exactly_three_public_identities": true,
+    "public_identities": ["azul", "rosa", "arco_iris"],
+    "discontinued_identities": ["padrao"],
+    "pig_principal_is_identity": false,
+    "pig_principal_is_immutable": true,
+    "pig_principal_is_derivable": false,
+    "private_base_is_public_identity": false,
+    "private_base_is_neutral_identity": false,
+    "same_character_across_identities": true
+  },
   "identities": {
     "azul": {
       "technical_value": "azul",
+      "role": "menino_masculino",
+      "color_identity": "azul",
       "presentation": "masculina",
+      "visual_reading": "inequivocamente menino ou masculino conforme a idade",
+      "permanent_clothing_identity": "azul",
+      "neutral": false,
+      "automatic_lgbt_classification": false,
       "child_label": "Menino Azul",
       "adult_label": "Masculino Azul",
       "clothing": "camisa azul lisa, short ou calça azul-claro e tênis branco simples"
     },
     "rosa": {
       "technical_value": "rosa",
+      "role": "menina_feminina",
+      "color_identity": "rosa",
       "presentation": "feminina",
+      "visual_reading": "inequivocamente menina ou feminina conforme a idade",
+      "permanent_clothing_identity": "rosa",
+      "neutral": false,
+      "automatic_lgbt_classification": false,
       "child_label": "Menina Rosa",
       "adult_label": "Feminino Rosa",
       "clothing": "camisa rosa lisa, short ou calça rosa-claro e tênis branco simples"
     },
     "arco_iris": {
       "technical_value": "arco_iris",
+      "role": "neutro",
+      "color_identity": "arco_iris",
       "presentation": "neutra",
+      "visual_reading": "equilibrada, sem predominancia masculina ou feminina",
+      "permanent_clothing_identity": "arco_iris",
+      "neutral": true,
+      "automatic_lgbt_classification": false,
       "child_label": "Neutro Arco-íris",
       "adult_label": "Neutro Arco-íris",
       "clothing": "camisa com seis faixas fortes de arco-íris, short ou calça off-white e tênis branco simples"
@@ -26,6 +55,12 @@
   },
   "active_order": ["azul", "rosa", "arco_iris"],
   "discontinued": ["padrao"],
+  "identity_derivation": {
+    "source": "uma unica base tecnica privada aprovada",
+    "preserve": ["mesmo personagem", "idade", "fase da vida", "anatomia essencial", "formato do corpo", "rosto-base", "focinho", "olhos", "orelhas", "pele", "profissao ou funcao", "origem regional", "raca/cor", "deficiencia", "pose-base", "camera", "enquadramento", "iluminacao", "qualidade visual", "personalidade", "historia essencial"],
+    "may_change": ["apresentacao masculina, feminina ou neutra", "roupas", "cores", "cabelo ou topete", "detalhes visuais discretos adequados a idade"],
+    "requirements": ["azul exige leitura masculina adequada a idade", "rosa exige leitura feminina adequada a idade", "arco_iris exige equilibrio neutro sem predominancia masculina ou feminina", "mudancas devem ser adequadas a idade", "proibida sexualizacao de criancas", "proibida caricatura ofensiva", "a base privada nao pode aparecer no resultado", "o Pig Principal nao pode aparecer no resultado"]
+  },
   "global_pose": {
     "fase_bebe": "em pe, fase de primeiros passos, corpo inteiro, pes ligeiramente separados, bracos relaxados, maos e pes visiveis",
     "demais_fases": "em pe, corpo inteiro, frontal, pes paralelos, bracos ao lado do corpo, maos abertas ou relaxadas, orelhas levemente baixas",

@@ -2,6 +2,8 @@
 
 Atualizado em 2026-07-16.
 
+Este piloto obedece à política oficial em `docs/PADRAO_TRES_IDENTIDADES_E_REPRESENTATIVIDADE.md` e à fonte estruturada `data/image-automation/style-system.json`. A base é privada; Azul exige leitura menino/masculina, Rosa exige leitura menina/feminina e Arco-íris exige equilíbrio neutro, sem classificação LGBT automática.
+
 ## Escopo do piloto
 
 O piloto contém exatamente uma base técnica privada e três identidades derivadas:

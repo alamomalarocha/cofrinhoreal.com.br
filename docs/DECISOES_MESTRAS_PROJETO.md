@@ -2,6 +2,12 @@
 
 Atualizado em 2026-07-16. A fonte estruturada correspondente é `data/decisoes-projeto.json`.
 
+Para identidades públicas, derivação, Pig Principal, bases privadas e representatividade, a decisão mais recente e específica é `docs/PADRAO_TRES_IDENTIDADES_E_REPRESENTATIVIDADE.md`, estruturada em `data/image-automation/style-system.json`.
+
+### DEC-016 - Padrão permanente de três identidades
+
+O Pig Principal permanece imutável e fora das identidades. Existem exatamente Azul (menino/masculino), Rosa (menina/feminina) e Arco-íris (neutro), sempre derivadas como o mesmo personagem de uma única base privada aprovada. `padrao` está descontinuada. Representatividade será medida no catálogo total com dados atuais e preferencialmente oficiais, sem percentuais ou marcos inventados.
+
 ## Regras de uso
 
 - Ler este documento antes de qualquer alteracao estrutural.
