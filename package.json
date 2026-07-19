@@ -16,6 +16,7 @@
     "images:auto": "node scripts/images/runner.mjs --resume --until-complete --stop-on-error",
     "images:remove-background": "node scripts/images/remove-background.mjs",
     "images:validate": "node scripts/images/validate-file.mjs",
+    "images:validate-color-fidelity": "node scripts/images/validate-color-fidelity.mjs",
     "images:status": "node scripts/images/status.mjs",
     "images:stop": "node scripts/images/stop.mjs",
     "images:review": "node scripts/images/review.mjs",
