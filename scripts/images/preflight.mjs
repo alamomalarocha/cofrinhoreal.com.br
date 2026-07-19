@@ -125,16 +125,27 @@ export function runPreflight({
     selectionError = safeErrorMessage(error);
   }
   const item = items.length === 1 ? items[0] : null;
+  const requestedPhase = String(args["--only-phase-base"] || "").trim();
+  const normalizedPhase = requestedPhase.padStart(3, "0");
+  const phase = item
+    ? context.phaseBootstrap.phases.find((entry) => entry.numero === item.numero)
+    : null;
   let record = null;
   let recordError = null;
   if (item) {
     try {
-      record = planRecord(item, context, { pilot: true });
+      record = planRecord(item, context, { pilot: item.numero === "002" });
     } catch (error) {
       recordError = safeErrorMessage(error);
     }
   }
   const basePath = item ? path.join(root, normalizeAsset(item.asset_futuro)) : null;
+  const basename = basePath ? path.basename(basePath) : null;
+  const reviewRoot = path.join(root, "data", "image-automation", "tmp", "image-pilot-review");
+  const rawPath = basename ? path.join(reviewRoot, "raw", basename) : null;
+  const backgroundPath = basename ? path.join(reviewRoot, "background-removed", basename) : null;
+  const validatedPath = basename ? path.join(reviewRoot, "validated", basename) : null;
+  const phaseCeiling = item?.numero === "002" ? PILOT_MAX_COST_USD : 0.061430;
   const stopPath = path.join(root, "data", "image-automation", "STOP");
   const gitignorePath = path.join(root, ".gitignore");
   const gitignore = fs.existsSync(gitignorePath) ? fs.readFileSync(gitignorePath, "utf8") : "";
@@ -158,9 +169,12 @@ export function runPreflight({
     check("snapshot_is_primary", modelSelection?.primary.requested_model === "gpt-image-2-2026-04-21", modelSelection?.primary.requested_model),
     check("model_override_absent", args["--model"] === undefined && runtimeEnv.IMAGE_MODEL === undefined, "model is fixed by config"),
     check("fallback_blocked_by_default", args["--allow-model-fallback"] !== true, "requires --allow-model-fallback"),
-    check("exact_phase_requested", String(args["--only-phase-base"] || "").padStart(3, "0") === "002", args["--only-phase-base"]),
+    check("exact_phase_requested", /^[0-9]{1,3}$/u.test(requestedPhase) && normalizedPhase === item?.numero, args["--only-phase-base"]),
     check("single_phase_selected", items.length === 1 && !selectionError, selectionError || `${items.length} selected`),
-    check("selected_phase_is_002", item?.numero === "002", item?.numero || "none"),
+    check("selected_phase_declared", Boolean(phase), item?.numero || "none"),
+    check("phase_uid_matches", item?.uid === `PHASE-${item?.numero}-BASE`, item?.uid || "none"),
+    check("phase_kind_private", item?.kind === "phase_base" && item?.publicavel === false, item?.kind || "none"),
+    check("phase_asset_private", normalizeAsset(item?.asset_futuro || "").startsWith("data/image-automation/phase-bases/"), item?.asset_futuro || "none"),
     check("pilot_record_valid", Boolean(record) && !recordError, recordError || item?.uid || "none"),
     check("single_attempt_only", singleAttemptRequested, "--max-attempts must be exactly 1"),
     check(
@@ -168,6 +182,9 @@ export function runPreflight({
       runtime.baseAbsent ?? (Boolean(basePath) && !fs.existsSync(basePath)),
       basePath || "none",
     ),
+    check("raw_candidate_absent", item?.numero === "002" || (runtime.rawAbsent ?? (!rawPath || !fs.existsSync(rawPath))), rawPath || "none"),
+    check("background_candidate_absent", item?.numero === "002" || (runtime.backgroundAbsent ?? (!backgroundPath || !fs.existsSync(backgroundPath))), backgroundPath || "none"),
+    check("validated_candidate_absent", item?.numero === "002" || (runtime.validatedAbsent ?? (!validatedPath || !fs.existsSync(validatedPath))), validatedPath || "none"),
     check(
       "reference_ready",
       runtime.referenceReady ?? (record?.referencias_prontas === true),
@@ -196,9 +213,9 @@ export function runPreflight({
     check("publication_not_authorized", !isTrue(runtimeEnv.IMAGE_PUBLICATION_AUTHORIZED), "IMAGE_PUBLICATION_AUTHORIZED must not be true"),
     check("local_storage", (runtimeEnv.IMAGE_STORAGE_MODE || context.config.runtime_defaults?.IMAGE_STORAGE_MODE) === "local", runtimeEnv.IMAGE_STORAGE_MODE || context.config.runtime_defaults?.IMAGE_STORAGE_MODE),
     check("cli_budget_present", cliBudgetUsd > 0, "--max-cost-usd is required"),
-    check("cli_budget_within_pilot_ceiling", cliBudgetUsd <= PILOT_MAX_COST_USD, { cliBudgetUsd, ceiling: PILOT_MAX_COST_USD }),
+    check("cli_budget_within_pilot_ceiling", cliBudgetUsd <= phaseCeiling, { cliBudgetUsd, ceiling: phaseCeiling }),
     check("positive_exclusive_budget", maxCostUsd > 0, maxCostUsd),
-    check("budget_within_pilot_ceiling", maxCostUsd <= PILOT_MAX_COST_USD, { maxCostUsd, ceiling: PILOT_MAX_COST_USD }),
+    check("budget_within_pilot_ceiling", maxCostUsd <= phaseCeiling, { maxCostUsd, ceiling: phaseCeiling }),
     check("budget_covers_all_attempts", maxCostUsd >= requiredBudgetUsd, { maxCostUsd, requiredBudgetUsd }),
   ];
 

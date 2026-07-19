@@ -117,6 +117,15 @@
       "name": "Pig Primeirinhos",
       "slug": "pig-primeirinhos",
       "age": "3 a 5 anos",
+      "visual_age": "inequivocamente crianca pequena pre-escolar de 3 a 5 anos, nao bebe e nao crianca escolar mais velha",
+      "prompt_sections": {
+        "concept": ["mesmo Universo Pig, com parentesco visual claro com o Pig Principal sem ser clone", "fase pre-escolar claramente distinta das demais fases"],
+        "anatomy": ["cabeca ainda proporcionalmente grande, bochechas infantis e membros curtos", "postura mais coordenada que a fase bebe, sem corpo apenas redimensionado"],
+        "expression": ["curiosa, alegre, acolhedora e inequivocamente infantil"],
+        "composition": ["um personagem em pe, corpo inteiro, maos e pes visiveis, fundo uniforme #777777"],
+        "prohibited": ["azul, rosa ou arco-iris como apresentacao", "acessorios, objetos, texto, logos, simbolos, cenario, base 002, fase anterior ou rascunho"],
+        "integrity": ["anatomia completa sem membros extras", "unica referencia binaria: Pig Principal"]
+      },
       "pose": "em_pe",
       "base_asset": "data/image-automation/phase-bases/003-pig-primeirinhos-base.png",
       "technical_clothing": "camisa off-white lisa, short bege claro e tenis branco simples"
@@ -127,6 +136,15 @@
       "name": "Pig Crianca",
       "slug": "pig-crianca",
       "age": "6 a 9 anos",
+      "visual_age": "inequivocamente crianca de 6 a 9 anos, mais desenvolvida que 003 e sem parecer pre-adolescente",
+      "prompt_sections": {
+        "concept": ["crianca escolar do Universo Pig, relacionada mas nao clonada do Pig Principal"],
+        "anatomy": ["proporcoes infantis equilibradas, rosto arredondado", "bracos e pernas um pouco mais longos que 003, sem maturidade pre-adolescente"],
+        "expression": ["atenta, confiante, infantil e acolhedora"],
+        "composition": ["corpo inteiro em pe, maos e pes visiveis, fundo #777777"],
+        "prohibited": ["identidade azul, rosa ou arco-iris", "acessorio, objeto, texto, logo, simbolo, cenario, outra base ou rascunho"],
+        "integrity": ["anatomia completa e natural", "unica referencia binaria: Pig Principal"]
+      },
       "pose": "em_pe",
       "base_asset": "data/image-automation/phase-bases/004-pig-crianca-base.png",
       "technical_clothing": "camisa off-white lisa, short bege claro e tenis branco simples"
@@ -137,6 +155,15 @@
       "name": "Pig Pre-Adolescente",
       "slug": "pig-pre-adolescente",
       "age": "10 a 12 anos",
+      "visual_age": "inequivocamente pre-adolescente de 10 a 12 anos, em transicao corporal infantil",
+      "prompt_sections": {
+        "concept": ["pre-adolescente do Universo Pig, distinto de crianca e adolescente"],
+        "anatomy": ["membros mais alongados e rosto ainda jovem", "sem maturidade ou musculatura adulta e sem simples redimensionamento"],
+        "expression": ["jovem, segura, natural e acolhedora"],
+        "composition": ["corpo inteiro em pe, maos e pes visiveis, fundo #777777"],
+        "prohibited": ["apresentacao azul, rosa ou arco-iris", "sexualizacao, acessorio, objeto, texto, logo, cenario, outra base ou rascunho"],
+        "integrity": ["anatomia completa e proporcional", "unica referencia binaria: Pig Principal"]
+      },
       "pose": "em_pe",
       "base_asset": "data/image-automation/phase-bases/005-pig-pre-adolescente-base.png",
       "technical_clothing": "camisa off-white lisa, short bege claro e tenis branco simples"
@@ -147,6 +174,15 @@
       "name": "Pig Adolescente",
       "slug": "pig-adolescente",
       "age": "13 a 17 anos",
+      "visual_age": "inequivocamente adolescente de 13 a 17 anos, jovem sem adultizacao excessiva",
+      "prompt_sections": {
+        "concept": ["adolescente alto e jovem do Universo Pig, nao adulto e nao crianca"],
+        "anatomy": ["corpo mais alto e alongado, tracos jovens", "sem musculatura exagerada, sexualizacao ou corpo adulto redimensionado"],
+        "expression": ["confiante, amigavel, jovem e natural"],
+        "composition": ["corpo inteiro em pe, maos e pes visiveis, fundo #777777"],
+        "prohibited": ["identidade azul, rosa ou arco-iris", "acessorio, objeto, texto, logo, simbolo, cenario, outra base ou rascunho"],
+        "integrity": ["anatomia completa sem deformacoes", "unica referencia binaria: Pig Principal"]
+      },
       "pose": "em_pe",
       "base_asset": "data/image-automation/phase-bases/006-pig-adolescente-base.png",
       "technical_clothing": "camisa off-white lisa, calca bege clara e tenis branco simples"
@@ -157,6 +193,15 @@
       "name": "Pig Jovem",
       "slug": "pig-jovem",
       "age": "18 a 24 anos",
+      "visual_age": "inequivocamente jovem de 18 a 24 anos, adulto jovem sem parecer adolescente ou meia-idade",
+      "prompt_sections": {
+        "concept": ["jovem energico e acolhedor do Universo Pig, nao clone do Pig Principal"],
+        "anatomy": ["proporcoes adultas jovens completas e naturais", "sem sinais de meia-idade ou musculatura exagerada"],
+        "expression": ["energetica, segura, acolhedora e adulta jovem"],
+        "composition": ["corpo inteiro em pe, maos e pes visiveis, fundo #777777"],
+        "prohibited": ["apresentacao azul, rosa ou arco-iris", "acessorio, objeto, texto, logo, cenario, outra base ou rascunho"],
+        "integrity": ["anatomia completa e estavel", "unica referencia binaria: Pig Principal"]
+      },
       "pose": "em_pe",
       "base_asset": "data/image-automation/phase-bases/007-pig-jovem-base.png",
       "technical_clothing": "camisa off-white lisa, calca bege clara e tenis branco simples"
@@ -167,6 +212,15 @@
       "name": "Pig Jovem Adulto",
       "slug": "pig-jovem-adulto",
       "age": "25 a 34 anos",
+      "visual_age": "inequivocamente jovem adulto de 25 a 34 anos, com maturidade adulta discreta",
+      "prompt_sections": {
+        "concept": ["jovem adulto do Universo Pig com identidade propria e unidade familiar"],
+        "anatomy": ["proporcoes adultas completas, maduras e naturais", "sem sinais de meia-idade e sem clone redimensionado"],
+        "expression": ["madura, amigavel, segura e acolhedora"],
+        "composition": ["corpo inteiro em pe, maos e pes visiveis, fundo #777777"],
+        "prohibited": ["identidade azul, rosa ou arco-iris", "acessorio, objeto, texto, logo, cenario, outra base ou rascunho"],
+        "integrity": ["anatomia completa e proporcional", "unica referencia binaria: Pig Principal"]
+      },
       "pose": "em_pe",
       "base_asset": "data/image-automation/phase-bases/008-pig-jovem-adulto-base.png",
       "technical_clothing": "camisa off-white lisa, calca bege clara e tenis branco simples"
@@ -177,6 +231,15 @@
       "name": "Pig Adulto",
       "slug": "pig-adulto",
       "age": "35 a 49 anos",
+      "visual_age": "inequivocamente adulto de 35 a 49 anos, maduro sem parecer idoso",
+      "prompt_sections": {
+        "concept": ["adulto maduro do Universo Pig, relacionado sem ser clone do Pig Principal"],
+        "anatomy": ["proporcoes adultas estaveis e sinais de idade sutis", "sem fragilidade, caricatura ou aparencia idosa"],
+        "expression": ["madura, serena, acolhedora e ativa"],
+        "composition": ["corpo inteiro em pe, maos e pes visiveis, fundo #777777"],
+        "prohibited": ["apresentacao azul, rosa ou arco-iris", "acessorio, objeto, texto, logo, cenario, outra base ou rascunho"],
+        "integrity": ["anatomia completa e natural", "unica referencia binaria: Pig Principal"]
+      },
       "pose": "em_pe",
       "base_asset": "data/image-automation/phase-bases/009-pig-adulto-base.png",
       "technical_clothing": "camisa off-white lisa, calca bege clara e tenis branco simples"
@@ -187,6 +250,15 @@
       "name": "Pig Coroa",
       "slug": "pig-coroa",
       "age": "50 a 64 anos",
+      "visual_age": "inequivocamente maduro de 50 a 64 anos, envelhecimento natural sem fragilidade",
+      "prompt_sections": {
+        "concept": ["Pig Coroa maduro, respeitoso e ativo no Universo Pig"],
+        "anatomy": ["proporcoes maduras estaveis, sinais discretos de idade e grisalho sutil coerente", "sem caricatura ou aparencia de idoso fragil"],
+        "expression": ["serena, experiente, calorosa e confiante"],
+        "composition": ["corpo inteiro em pe, postura estavel, maos e pes visiveis, fundo #777777"],
+        "prohibited": ["identidade azul, rosa ou arco-iris", "bengala, acessorio, objeto, texto, logo, cenario, outra base ou rascunho"],
+        "integrity": ["anatomia completa e respeitosa", "unica referencia binaria: Pig Principal"]
+      },
       "pose": "em_pe",
       "base_asset": "data/image-automation/phase-bases/010-pig-coroa-base.png",
       "technical_clothing": "camisa off-white lisa, calca bege clara e tenis branco simples"
@@ -197,6 +269,15 @@
       "name": "Pig Senior",
       "slug": "pig-senior",
       "age": "65 anos ou mais",
+      "visual_age": "inequivocamente senior de 65 anos ou mais, envelhecimento gentil, ativo e respeitoso",
+      "prompt_sections": {
+        "concept": ["senior digno e acolhedor do Universo Pig, sem estereotipo de doenca ou tristeza"],
+        "anatomy": ["cabelo ou topete grisalho ou branco coerente, linhas de idade sutis e postura estavel", "sem fragilidade caricatural e sem corpo apenas redimensionado"],
+        "expression": ["serena, sabia, gentil, ativa e alegre de modo natural"],
+        "composition": ["corpo inteiro em pe, maos e pes visiveis, fundo #777777"],
+        "prohibited": ["apresentacao azul, rosa ou arco-iris", "bengala, acessorio, objeto, texto, logo, cenario, outra base ou rascunho"],
+        "integrity": ["anatomia completa e respeitosa", "unica referencia binaria: Pig Principal"]
+      },
       "pose": "em_pe",
       "base_asset": "data/image-automation/phase-bases/011-pig-senior-base.png",
       "technical_clothing": "camisa off-white lisa, calca bege clara e tenis branco simples"

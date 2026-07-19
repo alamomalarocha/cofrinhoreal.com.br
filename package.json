@@ -13,6 +13,7 @@
     "images:generate": "node scripts/images/generate.mjs",
     "images:preflight": "node scripts/images/preflight.mjs",
     "images:identity-preflight": "node scripts/images/identity-preflight.mjs",
+    "images:phase-bases-batch": "node scripts/images/phase-base-batch.mjs",
     "images:estimate-cost": "node scripts/images/estimate-cost.mjs",
     "images:auto": "node scripts/images/runner.mjs --resume --until-complete --stop-on-error",
     "images:remove-background": "node scripts/images/remove-background.mjs",

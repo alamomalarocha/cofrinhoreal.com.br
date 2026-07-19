@@ -99,8 +99,10 @@ export async function generateOne({
   const conditions = {
     selectionMode: identityMode ? "identity" : "phase_base",
     requiredUid: identityMode ? item.uid : null,
-    requiredPhase: "002",
-    maxAllowedBudgetUsd: identityMode ? IDENTITY_MAX_COST_USD : PILOT_MAX_COST_USD,
+    requiredPhase: identityMode ? null : item.numero,
+    maxAllowedBudgetUsd: identityMode
+      ? IDENTITY_MAX_COST_USD
+      : item.numero === "002" ? PILOT_MAX_COST_USD : 0.061430,
     requiredBudgetUsd: requiredExclusiveBudget(context.config, maxAttempts),
     selectionCount: items.length,
     gitClean: preflight ? preflight.checks.find((entry) => entry.name === "git_clean")?.passed : false,

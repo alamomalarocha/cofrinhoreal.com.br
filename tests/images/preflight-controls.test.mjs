@@ -363,7 +363,7 @@ test("preflight blocks any pilot budget above USD 0.19", () => {
   assert.ok(report.failures.includes("cli_budget_within_pilot_ceiling"));
 });
 
-test("preflight blocks missing budget, publication, push, fallback and a target other than 002", () => {
+test("preflight blocks missing budget, publication, push and fallback", () => {
   const scenarios = [
     {
       args: activationArgs({ "--max-cost-usd": "0" }),
@@ -389,11 +389,6 @@ test("preflight blocks missing budget, publication, push, fallback and a target 
       args: activationArgs({ "--allow-model-fallback": true }),
       env: activationEnv(),
       failure: "fallback_blocked_by_default",
-    },
-    {
-      args: activationArgs({ "--only-phase-base": "003" }),
-      env: activationEnv(),
-      failure: "exact_phase_requested",
     },
   ];
   for (const scenario of scenarios) {
