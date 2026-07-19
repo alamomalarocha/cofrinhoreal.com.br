@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "name": "identity-contrast-audit-002-004-006-011",
+  "phases": ["002", "003", "004", "006", "007", "008", "009", "010", "011"],
+  "blocked_phases": ["005"],
+  "identities": ["azul", "rosa", "arco_iris"],
+  "classifications": ["masculine_clear", "feminine_clear", "neutral_clear", "visual_review_required", "masculine_marker_on_neutral", "feminine_marker_on_neutral", "insufficient_masculine_reading", "ambiguous_identity_reading"],
+  "controls": { "api_calls": 0, "png_created": 0, "generation_authorized": false, "publish": false, "deploy": false, "catalog": false, "promote": false, "human_review_required": true },
+  "preliminary": {
+    "azul": {
+      "approved_no_change": ["AVA-006-AZL", "AVA-008-AZL", "AVA-009-AZL", "AVA-010-AZL", "AVA-011-AZL"],
+      "needs_regeneration": ["AVA-002-AZL", "AVA-003-AZL", "AVA-004-AZL"],
+      "review_required": ["AVA-007-AZL"]
+    },
+    "arco_iris": {
+      "approved_no_change": ["AVA-002-ARC", "AVA-003-ARC", "AVA-004-ARC", "AVA-007-ARC"],
+      "needs_regeneration": ["AVA-006-ARC", "AVA-008-ARC", "AVA-009-ARC", "AVA-010-ARC", "AVA-011-ARC"],
+      "beard": ["AVA-010-ARC"],
+      "mustache": ["AVA-010-ARC"],
+      "masculine_marker": ["AVA-006-ARC", "AVA-008-ARC", "AVA-009-ARC", "AVA-010-ARC", "AVA-011-ARC"],
+      "feminine_marker": [],
+      "review_required": []
+    }
+  }
+}

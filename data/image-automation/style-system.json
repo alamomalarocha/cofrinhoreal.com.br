@@ -46,16 +46,19 @@
       "role": "neutro",
       "color_identity": "arco_iris",
       "presentation": "neutra",
-      "visual_reading": "equilibrada, sem predominancia masculina ou feminina",
+      "visual_reading": "neutral_clear: verdadeiramente neutra, sem parecer claramente homem ou mulher; a neutralidade vem do rosto, cabelo, roupa, calcado e apresentacao completos, nunca apenas da cor arco-iris",
       "permanent_clothing_identity": "arco_iris",
       "neutral": true,
       "automatic_lgbt_classification": false,
       "child_label": "Neutro Arco-íris",
       "adult_label": "Neutro Arco-íris",
-      "clothing": "camisa com seis faixas fortes de arco-íris, short off-white e tênis branco simples"
+      "clothing": "roupa de corte neutro com linguagem arco-iris permanente, calcado e acessorios neutros",
+      "blocked_markers": ["barba", "bigode", "costeletas claramente masculinas", "maquiagem claramente feminina", "cilios exageradamente femininos", "penteado, roupa, calcado ou acessorio claramente masculino ou feminino"],
+      "neutral_aging": ["cabelos grisalhos", "rugas", "postura", "expressao", "sinais neutros apropriados a idade"]
     }
   },
   "active_order": ["azul", "rosa", "arco_iris"],
+  "audit_classifications": ["masculine_clear", "feminine_clear", "neutral_clear", "visual_review_required", "masculine_marker_on_neutral", "feminine_marker_on_neutral", "insufficient_masculine_reading", "ambiguous_identity_reading"],
   "discontinued": ["padrao"],
   "identity_derivation": {
     "source": "uma unica base tecnica privada aprovada",

@@ -230,3 +230,21 @@ Não existe fallback ou troca de modelo no piloto 002. Qualquer falha do snapsho
 Motivo: provar seleção, custo, retomada e revisão do menor escopo possível antes de qualquer derivação de identidade ou escala.
 
 Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-028 - Neutralidade visual real da identidade Arco-Íris
+
+Arco-Íris representa a opção neutra para quem não deseja escolher Rosa nem Azul e deve possuir aparência verdadeiramente neutra. A neutralidade não pode depender apenas da roupa Arco-Íris. O personagem não deve parecer claramente homem ou mulher nem possuir barba, bigode, costeletas, maquiagem, cílios, penteado, roupa, calçado ou acessórios claramente masculinos ou femininos. A roupa deve ter corte neutro e manter permanentemente a linguagem Arco-Íris.
+
+Idade, rosto, focinho, anatomia, pose e identidade da fase são preservados. O envelhecimento aparece por cabelos grisalhos, rugas, postura, expressão e outros sinais neutros, sem converter o personagem em homem ou mulher. Neutralidade visual e orientação sexual são conceitos diferentes. Nenhuma fase é sexualizada; crianças e adolescentes permanecem apropriados à idade.
+
+Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-029 - Contraste visual coerente entre Azul, Rosa e Arco-Íris
+
+Azul representa o universo masculino e deve possuir leitura claramente masculina que não dependa apenas da cor. Pode usar penteado, roupa, calçado e apresentação masculinos apropriados à idade; barba ou bigode são opcionais apenas nas fases adultas quando contribuírem para essa leitura. Menores não recebem marcadores adultos e a masculinidade não deve ser caricata, agressiva ou estereotipada.
+
+Rosa representa o universo feminino, deve possuir leitura claramente feminina sem depender apenas da cor e preserva o padrão já aprovado. Arco-Íris representa a opção neutra: não pode parecer homem ou mulher, receber barba ou bigode ou usar marcadores predominantemente masculinos ou femininos; combina rosto, cabelo, roupa e apresentação neutros.
+
+As três identidades devem parecer intencionalmente diferentes pelo desenho completo, continuando a representar o mesmo personagem da fase. Rosto, focinho, olhos, orelhas, corpo, altura, pose, expressão, enquadramento, mãos e pés são preservados. Nenhuma identidade é construída por exagero, ofensa ou sexualização; toda leitura é apropriada à idade.
+
+Status: `vigente`. Visibilidade: `publica`.

@@ -16,6 +16,7 @@
     "images:phase-bases-batch": "node scripts/images/phase-base-batch.mjs",
     "images:avatar-batch": "node scripts/images/avatar-batch.mjs",
     "images:rosa-correction": "node scripts/images/rosa-correction-batch.mjs",
+    "images:identity-contrast-audit": "node scripts/images/identity-contrast-audit.mjs",
     "images:estimate-cost": "node scripts/images/estimate-cost.mjs",
     "images:auto": "node scripts/images/runner.mjs --resume --until-complete --stop-on-error",
     "images:remove-background": "node scripts/images/remove-background.mjs",
