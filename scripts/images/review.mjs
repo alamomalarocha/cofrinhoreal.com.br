@@ -50,7 +50,28 @@ function reviewReports(root) {
     .filter(Boolean);
 }
 
-function assertNotDuplicate(root, asset, validation, maxDistance) {
+function officialSiblingIdentity(context, currentItem, priorItem, asset, priorReport) {
+  const official = context.styles?.identity_policy?.public_identities
+    || ["azul", "rosa", "arco_iris"];
+  const currentKind = currentItem.kind || "character";
+  const priorKind = priorItem?.kind || "character";
+  return Boolean(
+    priorItem
+    && currentKind === "character"
+    && priorKind === "character"
+    && String(currentItem.numero) === String(priorItem.numero)
+    && String(currentItem.slug || currentItem.nome) === String(priorItem.slug || priorItem.nome)
+    && currentItem.estilo !== priorItem.estilo
+    && official.includes(currentItem.estilo)
+    && official.includes(priorItem.estilo)
+    && currentItem.estilo !== "padrao"
+    && priorItem.estilo !== "padrao"
+    && asset !== priorReport.asset
+  );
+}
+
+function assertNotDuplicate(root, asset, item, validation, maxDistance, context) {
+  let perceptualSimilarityAllowed = false;
   for (const report of reviewReports(root)) {
     if (report.decision !== "approved" || report.asset === asset) continue;
     if (report.sha256 && report.sha256 === validation.sha256) {
@@ -61,11 +82,17 @@ function assertNotDuplicate(root, asset, validation, maxDistance) {
       validation.perceptual_hash,
     );
     if (distance <= maxDistance) {
+      const priorItem = findAutomationItem(context, report.asset);
+      if (officialSiblingIdentity(context, item, priorItem, asset, report)) {
+        perceptualSimilarityAllowed = true;
+        continue;
+      }
       throw new Error(
         `Possivel duplicata visual de ${report.asset} (distancia pHash ${distance}); aprovacao bloqueada.`,
       );
     }
   }
+  return perceptualSimilarityAllowed;
 }
 
 function appendState(options, event) {
@@ -120,9 +147,12 @@ export function reviewAsset({
     throw new Error("A revisao exige relatorio visual apto e revisao humana obrigatoria.");
   }
 
+  let perceptualSimilarityAllowed = false;
   if (action === "approve") {
     const maxDistance = Number(context.config.validation?.duplicate_phash_distance_max ?? 4);
-    assertNotDuplicate(root, normalized, validation, maxDistance);
+    perceptualSimilarityAllowed = assertNotDuplicate(
+      root, normalized, item, validation, maxDistance, context,
+    );
   }
 
   const decision = action === "approve" ? "approved" : "rejected";
@@ -149,6 +179,10 @@ export function reviewAsset({
     catalog_updated: false,
     published: false,
   };
+  if (perceptualSimilarityAllowed) {
+    report.perceptual_similarity_allowed = true;
+    report.perceptual_similarity_reason = "official_sibling_identities_same_character";
+  }
   if (action === "approve" && item.kind === "phase_base") {
     const internalTarget = path.join(projectRoot, ...normalized.split("/"));
     copyPreservingSource(destination, internalTarget);

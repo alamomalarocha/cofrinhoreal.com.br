@@ -23,6 +23,7 @@ import { solidCharacterFixture } from "../fixtures/image-fixtures.mjs";
 
 const blueAsset = "assets/characters/002-pig-bebe-azul.png";
 const pinkAsset = "assets/characters/002-pig-bebe-rosa.png";
+const rainbowAsset = "assets/characters/002-pig-bebe-arco-iris.png";
 
 function contextFixture() {
   return {
@@ -48,7 +49,18 @@ function contextFixture() {
           estilo: "rosa",
           asset_futuro: pinkAsset,
         },
+        {
+          uid: "AVA-002-ARC",
+          numero: "002",
+          nome: "Pig Bebe",
+          slug: "pig-bebe",
+          estilo: "arco_iris",
+          asset_futuro: rainbowAsset,
+        },
       ],
+    },
+    styles: {
+      identity_policy: { public_identities: ["azul", "rosa", "arco_iris"] },
     },
   };
 }
@@ -186,7 +198,7 @@ test("approved phase base is installed privately without catalog publication", (
   );
 });
 
-test("duplicate approval is blocked but rejection preserves its evidence", () => {
+test("exact duplicate approval is blocked but rejection preserves its evidence", () => {
   const workspace = temporaryWorkspace();
   writeCandidate(workspace.reviewRoot, blueAsset);
   reviewAsset({
@@ -222,6 +234,55 @@ test("duplicate approval is blocked but rejection preserves its evidence", () =>
   });
   assert.equal(rejected.decision, "rejected");
   assert.equal(fs.existsSync(stagePath(workspace.reviewRoot, "rejected", pinkAsset)), true);
+});
+
+test("official sibling identities allow close pHash with an auditable reason", () => {
+  const workspace = temporaryWorkspace();
+  const context = contextFixture();
+  for (const asset of [blueAsset, pinkAsset, rainbowAsset]) {
+    writeCandidate(workspace.reviewRoot, asset, asset === blueAsset ? [40, 120, 230] : asset === pinkAsset ? [230, 120, 160] : [80, 180, 120]);
+    const validationFile = reportPath(workspace.reviewRoot, asset, "validation");
+    const validation = readJsonIfExists(validationFile);
+    validation.perceptual_hash = "0020483060302800";
+    writeJsonFile(validationFile, validation);
+    const report = reviewAsset({
+      action: "approve", asset, reviewer: "Alamo", reason: "Identidade irma oficial.",
+      context, reviewRoot: workspace.reviewRoot, stateFile: workspace.stateFile,
+    });
+    if (asset === blueAsset) {
+      assert.equal(report.perceptual_similarity_allowed, undefined);
+    } else {
+      assert.equal(report.perceptual_similarity_allowed, true);
+      assert.equal(report.perceptual_similarity_reason, "official_sibling_identities_same_character");
+    }
+  }
+});
+
+test("close pHash remains blocked outside the exact official sibling policy", () => {
+  const scenarios = [
+    { label: "different number", mutate: (item) => { item.numero = "003"; item.slug = "other"; } },
+    { label: "standard identity", mutate: (item) => { item.estilo = "padrao"; } },
+    { label: "fourth identity", mutate: (item) => { item.estilo = "dourado"; } },
+    { label: "phase base", mutate: (item) => { item.kind = "phase_base"; } },
+    { label: "same style", mutate: (item) => { item.estilo = "azul"; } },
+  ];
+  for (const scenario of scenarios) {
+    const workspace = temporaryWorkspace();
+    const context = contextFixture();
+    writeCandidate(workspace.reviewRoot, blueAsset, [40, 120, 230]);
+    reviewAsset({ action: "approve", asset: blueAsset, reviewer: "Alamo", reason: "Primeiro.", context, reviewRoot: workspace.reviewRoot, stateFile: workspace.stateFile });
+    writeCandidate(workspace.reviewRoot, pinkAsset, [230, 120, 160]);
+    const firstValidation = readJsonIfExists(reportPath(workspace.reviewRoot, blueAsset, "validation"));
+    const secondValidationFile = reportPath(workspace.reviewRoot, pinkAsset, "validation");
+    const secondValidation = readJsonIfExists(secondValidationFile);
+    secondValidation.perceptual_hash = firstValidation.perceptual_hash;
+    writeJsonFile(secondValidationFile, secondValidation);
+    scenario.mutate(context.queue.itens.find((item) => item.asset_futuro === pinkAsset));
+    assert.throws(
+      () => reviewAsset({ action: "approve", asset: pinkAsset, reviewer: "Alamo", reason: scenario.label, context, reviewRoot: workspace.reviewRoot, stateFile: workspace.stateFile }),
+      /Possivel duplicata visual/u,
+    );
+  }
 });
 
 test("catalog dry-run is inert and authorized apply creates backups and updates records", () => {
