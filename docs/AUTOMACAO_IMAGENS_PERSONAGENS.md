@@ -12,7 +12,11 @@ A automação não poderá iniciar geração paga sem autorização explícita d
 
 - Configuração: `data/image-automation/config.json`.
 - Sistema visual: `data/image-automation/style-system.json`.
-- Eventos: `data/image-automation/state.jsonl`.
+- Eventos: `data/image-automation/state.jsonl`, um log append-only de runtime local,
+  privado e ignorado pelo Git. Ele é criado automaticamente quando necessário;
+  sua ausência em um clone novo é válida e equivale a um histórico vazio. O
+  arquivo `data/image-automation/state.example.jsonl` é somente uma referência
+  estrutural e não contém eventos operacionais.
 - Revisão: `data/image-automation/review-queue.jsonl`.
 - Erros: `data/image-automation/errors.jsonl`.
 - Manifesto do piloto: `data/image-automation/pilot-002-three-identities.json`.
