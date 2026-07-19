@@ -24,6 +24,7 @@ import { solidCharacterFixture } from "../fixtures/image-fixtures.mjs";
 const blueAsset = "assets/characters/002-pig-bebe-azul.png";
 const pinkAsset = "assets/characters/002-pig-bebe-rosa.png";
 const rainbowAsset = "assets/characters/002-pig-bebe-arco-iris.png";
+const baseAsset = "data/image-automation/phase-bases/002-pig-bebe-base.png";
 
 function contextFixture() {
   return {
@@ -59,10 +60,43 @@ function contextFixture() {
         },
       ],
     },
+    phaseBootstrap: {
+      phases: [{ numero: "002", name: "Pig Bebe", slug: "pig-bebe", base_asset: baseAsset }],
+    },
+    pilot: {
+      references: {
+        phase_base: {
+          role: "approved-phase-base", required: true, required_state: "aprovada", asset: baseAsset,
+        },
+      },
+      items: [
+        { uid: "AVA-002-AZL", kind: "identity", identity: "azul", asset: blueAsset, reference_keys: ["phase_base"] },
+        { uid: "AVA-002-RSA", kind: "identity", identity: "rosa", asset: pinkAsset, reference_keys: ["phase_base"] },
+        { uid: "AVA-002-ARC", kind: "identity", identity: "arco_iris", asset: rainbowAsset, reference_keys: ["phase_base"] },
+      ],
+    },
     styles: {
       identity_policy: { public_identities: ["azul", "rosa", "arco_iris"] },
     },
   };
+}
+
+function approvePhaseBase(workspace, context, overrides = {}) {
+  const asset = overrides.asset || baseAsset;
+  if (!context.phaseBootstrap.phases.some((phase) => phase.base_asset === asset)) {
+    context.phaseBootstrap.phases.push({ numero: "002", name: "Other", slug: "other", base_asset: asset });
+  }
+  writeCandidate(workspace.reviewRoot, asset, [100, 100, 100]);
+  const report = reviewAsset({
+    action: "approve", asset, reviewer: "Alamo", reason: "Base aprovada.", context,
+    reviewRoot: workspace.reviewRoot, stateFile: workspace.stateFile,
+    projectRoot: workspace.catalogRoot,
+  });
+  if (overrides.report) {
+    Object.assign(report, overrides.report);
+    writeJsonFile(reportPath(workspace.reviewRoot, asset, "review"), report);
+  }
+  return report;
 }
 
 function writeCandidate(reviewRoot, asset, color = [40, 120, 230]) {
@@ -254,8 +288,94 @@ test("official sibling identities allow close pHash with an auditable reason", (
     } else {
       assert.equal(report.perceptual_similarity_allowed, true);
       assert.equal(report.perceptual_similarity_reason, "official_sibling_identities_same_character");
+      assert.equal(report.perceptual_similarity_exceptions[0].sha256_equal, false);
     }
   }
+});
+
+test("all official identities allow close pHash to their directly declared approved phase base", () => {
+  for (const asset of [blueAsset, pinkAsset, rainbowAsset]) {
+    const workspace = temporaryWorkspace();
+    const context = contextFixture();
+    const base = approvePhaseBase(workspace, context);
+    writeCandidate(workspace.reviewRoot, asset, [40, 120, 230]);
+    const validationFile = reportPath(workspace.reviewRoot, asset, "validation");
+    const validation = readJsonIfExists(validationFile);
+    validation.perceptual_hash = base.perceptual_hash;
+    writeJsonFile(validationFile, validation);
+    const report = reviewAsset({
+      action: "approve", asset, reviewer: "Alamo", reason: "Identidade derivada.", context,
+      reviewRoot: workspace.reviewRoot, stateFile: workspace.stateFile,
+    });
+    assert.equal(report.perceptual_similarity_reason, "official_identity_derived_from_approved_phase_base");
+    assert.equal(report.perceptual_similarity_related_asset, baseAsset);
+    assert.equal(report.perceptual_similarity_related_kind, "phase_base");
+    assert.equal(report.perceptual_similarity_sha256_equal, false);
+    assert.deepEqual(report.perceptual_similarity_exceptions[0], {
+      reason: "official_identity_derived_from_approved_phase_base",
+      related_asset: baseAsset,
+      related_kind: "phase_base",
+      sha256_equal: false,
+      phash_distance: 0,
+    });
+  }
+});
+
+test("phase-base exception requires the complete authoritative relationship", () => {
+  const scenarios = [
+    { label: "unapproved base", report: { decision: "rejected" } },
+    { label: "wrong kind", report: { kind: "character" } },
+    { label: "undeclared base", mutate: (context) => { context.pilot.items[0].reference_keys = ["missing"]; } },
+    { label: "other number", report: { numero: "003" } },
+    { label: "standard identity", mutate: (context) => { context.queue.itens[0].estilo = "padrao"; } },
+    { label: "fourth identity", mutate: (context) => { context.queue.itens[0].estilo = "dourado"; } },
+    { label: "name similarity only", mutate: (context) => { context.pilot.items[0].reference_keys = []; } },
+    { label: "different character", mutate: (context) => { context.queue.itens[0].uid = "AVA-999-AZL"; } },
+  ];
+  for (const scenario of scenarios) {
+    const workspace = temporaryWorkspace();
+    const context = contextFixture();
+    const base = approvePhaseBase(workspace, context, { report: scenario.report });
+    scenario.mutate?.(context);
+    writeCandidate(workspace.reviewRoot, blueAsset, [40, 120, 230]);
+    const validationFile = reportPath(workspace.reviewRoot, blueAsset, "validation");
+    const validation = readJsonIfExists(validationFile);
+    validation.perceptual_hash = base.perceptual_hash;
+    writeJsonFile(validationFile, validation);
+    assert.throws(
+      () => reviewAsset({ action: "approve", asset: blueAsset, reviewer: "Alamo", reason: scenario.label, context, reviewRoot: workspace.reviewRoot, stateFile: workspace.stateFile }),
+      /Possivel duplicata visual/u,
+      scenario.label,
+    );
+  }
+});
+
+test("phase-base exception never allows identical SHA or a phase base as candidate", () => {
+  const workspace = temporaryWorkspace();
+  const context = contextFixture();
+  const base = approvePhaseBase(workspace, context);
+  writeCandidate(workspace.reviewRoot, blueAsset, [40, 120, 230]);
+  const validationFile = reportPath(workspace.reviewRoot, blueAsset, "validation");
+  const validation = readJsonIfExists(validationFile);
+  validation.sha256 = base.sha256;
+  validation.perceptual_hash = base.perceptual_hash;
+  writeJsonFile(validationFile, validation);
+  assert.throws(
+    () => reviewAsset({ action: "approve", asset: blueAsset, reviewer: "Alamo", reason: "same SHA", context, reviewRoot: workspace.reviewRoot, stateFile: workspace.stateFile }),
+    /Duplicata exata/u,
+  );
+
+  const secondBase = "data/image-automation/phase-bases/003-pig-base.png";
+  context.phaseBootstrap.phases.push({ numero: "003", name: "Pig", slug: "pig", base_asset: secondBase });
+  writeCandidate(workspace.reviewRoot, secondBase, [80, 80, 80]);
+  const secondValidationFile = reportPath(workspace.reviewRoot, secondBase, "validation");
+  const secondValidation = readJsonIfExists(secondValidationFile);
+  secondValidation.perceptual_hash = base.perceptual_hash;
+  writeJsonFile(secondValidationFile, secondValidation);
+  assert.throws(
+    () => reviewAsset({ action: "approve", asset: secondBase, reviewer: "Alamo", reason: "base candidate", context, reviewRoot: workspace.reviewRoot, stateFile: workspace.stateFile, projectRoot: workspace.catalogRoot }),
+    /Possivel duplicata visual/u,
+  );
 });
 
 test("close pHash remains blocked outside the exact official sibling policy", () => {
