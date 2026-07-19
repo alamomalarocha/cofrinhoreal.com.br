@@ -576,3 +576,15 @@ Em 2026-07-12, o catálogo passou a ter 3251 registros fixos, 1430 famílias e c
 
 Referências: `docs/CATALOGO_BRASILEIRO_PERSONAGENS.md`, `docs/REVISAO_CULTURAL_PERSONAGENS.md` e `data/relatorio-validacao-catalogo.json`.
 <!-- CATALOGO_BRASILEIRO_FIM -->
+
+<!-- image-automation:assets/characters/002-pig-bebe-azul.png -->
+- 002 - Pig Bebê - azul:
+  `assets/characters/002-pig-bebe-azul.png` aprovado e incorporado ao catalogo local em 2026-07-19T12:05:09.620Z.
+
+<!-- image-automation:assets/characters/002-pig-bebe-rosa.png -->
+- 002 - Pig Bebê - rosa:
+  `assets/characters/002-pig-bebe-rosa.png` aprovado e incorporado ao catalogo local em 2026-07-19T12:05:10.691Z.
+
+<!-- image-automation:assets/characters/002-pig-bebe-arco-iris.png -->
+- 002 - Pig Bebê - arco_iris:
+  `assets/characters/002-pig-bebe-arco-iris.png` aprovado e incorporado ao catalogo local em 2026-07-19T12:05:11.821Z.

@@ -30,3 +30,15 @@ O sistema de quatro variações foi substituído por três identidades visuais: 
 - Antes de qualquer login futuro, usar o Pig Principal como referência pública universal.
 
 Consulte `GUIA_IDENTIDADES_AVATARES.md`, `REFERENCIA_PIG_PRINCIPAL.md` e `RESET_VISUAL_TRES_IDENTIDADES.md`.
+
+<!-- image-automation:assets/characters/002-pig-bebe-azul.png -->
+- 002 - Pig Bebê - azul:
+  `assets/characters/002-pig-bebe-azul.png` aprovado e incorporado ao catalogo local em 2026-07-19T12:05:09.620Z.
+
+<!-- image-automation:assets/characters/002-pig-bebe-rosa.png -->
+- 002 - Pig Bebê - rosa:
+  `assets/characters/002-pig-bebe-rosa.png` aprovado e incorporado ao catalogo local em 2026-07-19T12:05:10.691Z.
+
+<!-- image-automation:assets/characters/002-pig-bebe-arco-iris.png -->
+- 002 - Pig Bebê - arco_iris:
+  `assets/characters/002-pig-bebe-arco-iris.png` aprovado e incorporado ao catalogo local em 2026-07-19T12:05:11.821Z.
