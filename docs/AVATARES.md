@@ -1,6 +1,12 @@
 # Avatares do Cofrinho Real
 
-Atualizado em 2026-07-14.
+Atualizado em 2026-07-19.
+
+## Catálogo aprovado para pré-publicação
+
+O catálogo oficial de aprovação está em `data/personagens/avatares/avatares-aprovados.json`. Ele contém exatamente 27 avatares revisados pelo responsável do projeto: três identidades nas fases 002, 003, 004, 006, 007, 008, 009, 010 e 011. Os PNGs byte-idênticos ficam em `assets/characters/`.
+
+A fase 005 permanece bloqueada e em preparação, sem UID ou PNG público. As imagens aprovadas ainda não foram publicadas nem implantadas; esta etapa é somente de pré-publicação.
 
 ## Separação de papéis
 

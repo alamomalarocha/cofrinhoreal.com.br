@@ -1,0 +1,7 @@
+import fs from "node:fs";import path from "node:path";import {fileURLToPath} from "node:url";import {fileSha256} from "./images/lib.mjs";import {decodePng} from "./images/png-lib.mjs";
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"..");const read=rel=>fs.readFileSync(path.join(root,rel),"utf8");const catalog=JSON.parse(read("data/personagens/avatares/avatares-aprovados.json"));
+if(catalog.avatars.length!==27)throw new Error("Catálogo deve conter 27 avatares.");
+for(const item of catalog.avatars){const file=path.join(root,item.public_path);if(!fs.existsSync(file)||fileSha256(file)!==item.sha256)throw new Error(`Asset inválido: ${item.uid}`);const png=decodePng(file);if(png.width!==item.width||png.height!==item.height)throw new Error(`Dimensão inválida: ${item.uid}`);if(!png.rgba.some((_,index)=>index%4===3&&png.rgba[index]<255))throw new Error(`Transparência ausente: ${item.uid}`);}
+for(const rel of ["index.html","personagens.html","approved-avatars.js","styles.css"]){const text=read(rel);if(/(?:file:\/\/|[A-Z]:\\|data\/image-automation\/(?:tmp|runtime))/i.test(text))throw new Error(`Caminho interno exposto: ${rel}`);}
+const html=read("personagens.html"),js=read("approved-avatars.js");if(!html.includes("data-approved-avatar-gallery")||!js.includes("avatares-aprovados.json"))throw new Error("Site não integra o catálogo aprovado.");
+console.log(JSON.stringify({build:"passed",approved_avatar_count:27,assets_verified:27,links_structurally_valid:true,local_paths_exposed:false},null,2));

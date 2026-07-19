@@ -31,7 +31,7 @@
         "personalização futura"
       ],
       "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpática e sem caricatura.",
-      "status_imagem": "pendente",
+      "status_imagem": "aprovada",
       "asset_futuro": "assets/characters/002-pig-bebe.png",
       "tags": [
         "avatar_usuario",
@@ -50,11 +50,15 @@
         "arco_iris": "assets/characters/002-pig-bebe-arco-iris.png"
       },
       "status_variacoes": {
-        "azul": "pendente",
-        "rosa": "pendente",
-        "arco_iris": "pendente"
+        "azul": "aprovada",
+        "rosa": "aprovada",
+        "arco_iris": "aprovada"
       },
-      "variacoes_criadas": [],
+      "variacoes_criadas": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
       "padrao_visual_avatar": "camisa_calca_tenis",
       "assets_variacoes_rascunho": {
         "padrao": "assets/characters/_drafts/avatars/002-pig-bebe-padrao-rascunho-pre-sistema-simples.png",
@@ -164,7 +168,25 @@
             "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/002-pig-bebe-arco-iris.png"
           ]
         }
-      ]
+      ],
+      "assets_variacoes": {
+        "azul": "assets/characters/002-pig-bebe-azul.png",
+        "rosa": "assets/characters/002-pig-bebe-rosa.png",
+        "arco-iris": "assets/characters/002-pig-bebe-arco-iris.png"
+      },
+      "hashes_variacoes": {
+        "azul": "a40699749e48941d7cbcf927bf49705e3526206821677fc210c7e8951da45d84",
+        "rosa": "64e3e71d2eb13267a412bbc45967d19867b6e2332f09014d78d8f66abb84f88b",
+        "arco-iris": "1540046e03a0b5170ec32eb267e6bd0d832ce0747804a0f87e1215ef5f69d31a"
+      },
+      "revisao_humana": {
+        "status": "aprovada",
+        "reviewer_role": "project_owner",
+        "approved_for_catalog": true,
+        "approved_for_site": true,
+        "published": false,
+        "deployed": false
+      }
     },
     {
       "numero": "003",
@@ -194,7 +216,7 @@
         "personalização futura"
       ],
       "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpática e sem caricatura.",
-      "status_imagem": "pendente",
+      "status_imagem": "aprovada",
       "asset_futuro": "assets/characters/003-pig-primeirinhos.png",
       "tags": [
         "avatar_usuario",
@@ -213,11 +235,15 @@
         "arco_iris": "assets/characters/003-pig-primeirinhos-arco-iris.png"
       },
       "status_variacoes": {
-        "azul": "pendente",
-        "rosa": "pendente",
-        "arco_iris": "pendente"
+        "azul": "aprovada",
+        "rosa": "aprovada",
+        "arco_iris": "aprovada"
       },
-      "variacoes_criadas": [],
+      "variacoes_criadas": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
       "padrao_visual_avatar": "camisa_calca_tenis",
       "assets_variacoes_rascunho": {
         "padrao": "assets/characters/_drafts/avatars/003-pig-primeirinhos-padrao-rascunho-pre-sistema-simples.png"
@@ -324,7 +350,25 @@
             "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/003-pig-primeirinhos-arco-iris.png"
           ]
         }
-      ]
+      ],
+      "assets_variacoes": {
+        "azul": "assets/characters/003-pig-primeirinhos-azul.png",
+        "rosa": "assets/characters/003-pig-primeirinhos-rosa.png",
+        "arco-iris": "assets/characters/003-pig-primeirinhos-arco-iris.png"
+      },
+      "hashes_variacoes": {
+        "azul": "f3708b7f02f5ba9f2d31e1457714a63a496731533ba75bd86d136a2f2344be59",
+        "rosa": "f04e582b40b2a782fba5ff304931e416a44c2d86935cf125f9f78541f3ed2066",
+        "arco-iris": "7c204f371d2d4d70d5743728d9119421275c4cb40a4c1d697600e9ec6c38fa1c"
+      },
+      "revisao_humana": {
+        "status": "aprovada",
+        "reviewer_role": "project_owner",
+        "approved_for_catalog": true,
+        "approved_for_site": true,
+        "published": false,
+        "deployed": false
+      }
     },
     {
       "numero": "004",
@@ -354,7 +398,7 @@
         "personalização futura"
       ],
       "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpática e sem caricatura.",
-      "status_imagem": "pendente",
+      "status_imagem": "aprovada",
       "asset_futuro": "assets/characters/004-pig-crianca.png",
       "tags": [
         "avatar_usuario",
@@ -374,11 +418,15 @@
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "azul": "pendente",
-        "rosa": "pendente",
-        "arco_iris": "pendente"
+        "azul": "aprovada",
+        "rosa": "aprovada",
+        "arco_iris": "aprovada"
       },
-      "variacoes_criadas": [],
+      "variacoes_criadas": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
       "schema_version_personagem": "2.0.0",
       "uid": "AVA-004",
       "numero_legacy": "004",
@@ -481,7 +529,25 @@
             "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/004-pig-crianca-arco-iris.png"
           ]
         }
-      ]
+      ],
+      "assets_variacoes": {
+        "azul": "assets/characters/004-pig-crianca-azul.png",
+        "rosa": "assets/characters/004-pig-crianca-rosa.png",
+        "arco-iris": "assets/characters/004-pig-crianca-arco-iris.png"
+      },
+      "hashes_variacoes": {
+        "azul": "d82cf489fac38fc9c681ea14b36e1b0de51cd01226b56417c3b6db0a7d21cad7",
+        "rosa": "aba30c76c92b0f6fcee79ac699104e5d117b9b5d1f72c31a368901a51dd30c7f",
+        "arco-iris": "ed94eb339d175291b388d2da98da4e9e0fd839d9ea1050202c2a6383353b3730"
+      },
+      "revisao_humana": {
+        "status": "aprovada",
+        "reviewer_role": "project_owner",
+        "approved_for_catalog": true,
+        "approved_for_site": true,
+        "published": false,
+        "deployed": false
+      }
     },
     {
       "numero": "005",
@@ -511,7 +577,7 @@
         "personalização futura"
       ],
       "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpática e sem caricatura.",
-      "status_imagem": "pendente",
+      "status_imagem": "bloqueada",
       "asset_futuro": "assets/characters/005-pig-pre-adolescente.png",
       "tags": [
         "avatar_usuario",
@@ -531,9 +597,9 @@
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "azul": "pendente",
-        "rosa": "pendente",
-        "arco_iris": "pendente"
+        "azul": "bloqueada",
+        "rosa": "bloqueada",
+        "arco_iris": "bloqueada"
       },
       "variacoes_criadas": [],
       "schema_version_personagem": "2.0.0",
@@ -668,7 +734,7 @@
         "personalização futura"
       ],
       "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpática e sem caricatura.",
-      "status_imagem": "pendente",
+      "status_imagem": "aprovada",
       "asset_futuro": "assets/characters/006-pig-adolescente.png",
       "tags": [
         "avatar_usuario",
@@ -688,11 +754,15 @@
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "azul": "pendente",
-        "rosa": "pendente",
-        "arco_iris": "pendente"
+        "azul": "aprovada",
+        "rosa": "aprovada",
+        "arco_iris": "aprovada"
       },
-      "variacoes_criadas": [],
+      "variacoes_criadas": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
       "schema_version_personagem": "2.0.0",
       "uid": "AVA-006",
       "numero_legacy": "006",
@@ -795,7 +865,25 @@
             "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/006-pig-adolescente-arco-iris.png"
           ]
         }
-      ]
+      ],
+      "assets_variacoes": {
+        "azul": "assets/characters/006-pig-adolescente-azul.png",
+        "rosa": "assets/characters/006-pig-adolescente-rosa.png",
+        "arco-iris": "assets/characters/006-pig-adolescente-arco-iris.png"
+      },
+      "hashes_variacoes": {
+        "azul": "1da8462238554d161c0cde2535f74e3c48e80ec273b66031304c5e7ffa5c73d3",
+        "rosa": "1ffd8528ebf218029cad736a4931aad537b4d5d1703709104aabb6005526ece0",
+        "arco-iris": "59e27490a0e2b274693fe74a088178349bdf70067906de5943ae8fd9cbf3c4f6"
+      },
+      "revisao_humana": {
+        "status": "aprovada",
+        "reviewer_role": "project_owner",
+        "approved_for_catalog": true,
+        "approved_for_site": true,
+        "published": false,
+        "deployed": false
+      }
     },
     {
       "numero": "007",
@@ -825,7 +913,7 @@
         "personalização futura"
       ],
       "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpática e sem caricatura.",
-      "status_imagem": "pendente",
+      "status_imagem": "aprovada",
       "asset_futuro": "assets/characters/007-pig-jovem.png",
       "tags": [
         "avatar_usuario",
@@ -845,11 +933,15 @@
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "azul": "pendente",
-        "rosa": "pendente",
-        "arco_iris": "pendente"
+        "azul": "aprovada",
+        "rosa": "aprovada",
+        "arco_iris": "aprovada"
       },
-      "variacoes_criadas": [],
+      "variacoes_criadas": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
       "schema_version_personagem": "2.0.0",
       "uid": "AVA-007",
       "numero_legacy": "007",
@@ -952,7 +1044,25 @@
             "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/007-pig-jovem-arco-iris.png"
           ]
         }
-      ]
+      ],
+      "assets_variacoes": {
+        "azul": "assets/characters/007-pig-jovem-azul.png",
+        "rosa": "assets/characters/007-pig-jovem-rosa.png",
+        "arco-iris": "assets/characters/007-pig-jovem-arco-iris.png"
+      },
+      "hashes_variacoes": {
+        "azul": "b4507bfa4867e04c960b7b68d32fa7c97e35ee8e13ef22bef23b57b6c98bb028",
+        "rosa": "443c67c8f078f63dfe58fefb65c04093c9ccb3fd10e21fc7c6c15fbbf677f737",
+        "arco-iris": "50984fdfb7a08f20b1f9d3dac4f712fe708853f14acbac5c44d4bac899c50c4b"
+      },
+      "revisao_humana": {
+        "status": "aprovada",
+        "reviewer_role": "project_owner",
+        "approved_for_catalog": true,
+        "approved_for_site": true,
+        "published": false,
+        "deployed": false
+      }
     },
     {
       "numero": "008",
@@ -982,7 +1092,7 @@
         "personalização futura"
       ],
       "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpática e sem caricatura.",
-      "status_imagem": "pendente",
+      "status_imagem": "aprovada",
       "asset_futuro": "assets/characters/008-pig-jovem-adulto.png",
       "tags": [
         "avatar_usuario",
@@ -1002,11 +1112,15 @@
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "azul": "pendente",
-        "rosa": "pendente",
-        "arco_iris": "pendente"
+        "azul": "aprovada",
+        "rosa": "aprovada",
+        "arco_iris": "aprovada"
       },
-      "variacoes_criadas": [],
+      "variacoes_criadas": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
       "schema_version_personagem": "2.0.0",
       "uid": "AVA-008",
       "numero_legacy": "008",
@@ -1109,7 +1223,25 @@
             "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/008-pig-jovem-adulto-arco-iris.png"
           ]
         }
-      ]
+      ],
+      "assets_variacoes": {
+        "azul": "assets/characters/008-pig-jovem-adulto-azul.png",
+        "rosa": "assets/characters/008-pig-jovem-adulto-rosa.png",
+        "arco-iris": "assets/characters/008-pig-jovem-adulto-arco-iris.png"
+      },
+      "hashes_variacoes": {
+        "azul": "a502c5c5868b39f4facedba611b45ef8bd1b1620a643443e740f8f82e5232645",
+        "rosa": "2a0b41b8ef8cb872ce290498960d02d193922d70aaea9b804ffd7240e3f4a9a9",
+        "arco-iris": "91e62af54ed279e4f35ebca531157bdc8e909a11590c9a2ca0eebf04a7f81839"
+      },
+      "revisao_humana": {
+        "status": "aprovada",
+        "reviewer_role": "project_owner",
+        "approved_for_catalog": true,
+        "approved_for_site": true,
+        "published": false,
+        "deployed": false
+      }
     },
     {
       "numero": "009",
@@ -1139,7 +1271,7 @@
         "personalização futura"
       ],
       "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpática e sem caricatura.",
-      "status_imagem": "pendente",
+      "status_imagem": "aprovada",
       "asset_futuro": "assets/characters/009-pig-adulto.png",
       "tags": [
         "avatar_usuario",
@@ -1159,11 +1291,15 @@
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "azul": "pendente",
-        "rosa": "pendente",
-        "arco_iris": "pendente"
+        "azul": "aprovada",
+        "rosa": "aprovada",
+        "arco_iris": "aprovada"
       },
-      "variacoes_criadas": [],
+      "variacoes_criadas": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
       "schema_version_personagem": "2.0.0",
       "uid": "AVA-009",
       "numero_legacy": "009",
@@ -1266,7 +1402,25 @@
             "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/009-pig-adulto-arco-iris.png"
           ]
         }
-      ]
+      ],
+      "assets_variacoes": {
+        "azul": "assets/characters/009-pig-adulto-azul.png",
+        "rosa": "assets/characters/009-pig-adulto-rosa.png",
+        "arco-iris": "assets/characters/009-pig-adulto-arco-iris.png"
+      },
+      "hashes_variacoes": {
+        "azul": "261879cfcf5d4868deaa4571507ec2293b9951a9d45e3b68690a7eda16f22b73",
+        "rosa": "f71091dcf6cc634f52c45d94b245d33a779def9eeb77771e187ecbef2e74a178",
+        "arco-iris": "b71089e05c6e0c735bda8ebb8b5b7c0fad672f77edd68c31ba6a9a3f909f3e61"
+      },
+      "revisao_humana": {
+        "status": "aprovada",
+        "reviewer_role": "project_owner",
+        "approved_for_catalog": true,
+        "approved_for_site": true,
+        "published": false,
+        "deployed": false
+      }
     },
     {
       "numero": "010",
@@ -1296,7 +1450,7 @@
         "personalização futura"
       ],
       "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpática e sem caricatura.",
-      "status_imagem": "pendente",
+      "status_imagem": "aprovada",
       "asset_futuro": "assets/characters/010-pig-coroa.png",
       "tags": [
         "avatar_usuario",
@@ -1316,11 +1470,15 @@
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "azul": "pendente",
-        "rosa": "pendente",
-        "arco_iris": "pendente"
+        "azul": "aprovada",
+        "rosa": "aprovada",
+        "arco_iris": "aprovada"
       },
-      "variacoes_criadas": [],
+      "variacoes_criadas": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
       "schema_version_personagem": "2.0.0",
       "uid": "AVA-010",
       "numero_legacy": "010",
@@ -1423,7 +1581,25 @@
             "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/010-pig-coroa-arco-iris.png"
           ]
         }
-      ]
+      ],
+      "assets_variacoes": {
+        "azul": "assets/characters/010-pig-coroa-azul.png",
+        "rosa": "assets/characters/010-pig-coroa-rosa.png",
+        "arco-iris": "assets/characters/010-pig-coroa-arco-iris.png"
+      },
+      "hashes_variacoes": {
+        "azul": "244030ffa8376e33acbbbb9f2af4da114a08fdf04363fd80e8f48a7d50054e11",
+        "rosa": "d9ec46948e6ad24e7dbe4ccf072539ab6aa50372a75d779247c136a7b6f743b2",
+        "arco-iris": "bb5a60fd3821044b30703f5e76a6782b8b743f6c77fb984d34fc4ae3d410e3c9"
+      },
+      "revisao_humana": {
+        "status": "aprovada",
+        "reviewer_role": "project_owner",
+        "approved_for_catalog": true,
+        "approved_for_site": true,
+        "published": false,
+        "deployed": false
+      }
     },
     {
       "numero": "011",
@@ -1453,7 +1629,7 @@
         "personalização futura"
       ],
       "ideia_visual": "Porquinho da Vila Pig com visual avatares do usuário, expressão simpática e sem caricatura.",
-      "status_imagem": "pendente",
+      "status_imagem": "aprovada",
       "asset_futuro": "assets/characters/011-pig-senior.png",
       "tags": [
         "avatar_usuario",
@@ -1473,11 +1649,15 @@
       },
       "padrao_visual_avatar": "camisa_calca_tenis",
       "status_variacoes": {
-        "azul": "pendente",
-        "rosa": "pendente",
-        "arco_iris": "pendente"
+        "azul": "aprovada",
+        "rosa": "aprovada",
+        "arco_iris": "aprovada"
       },
-      "variacoes_criadas": [],
+      "variacoes_criadas": [
+        "azul",
+        "rosa",
+        "arco_iris"
+      ],
       "schema_version_personagem": "2.0.0",
       "uid": "AVA-011",
       "numero_legacy": "011",
@@ -1580,7 +1760,25 @@
             "assets/characters/_drafts/reset-visual-tres-identidades-2026-07/avatares/011-pig-senior-arco-iris.png"
           ]
         }
-      ]
+      ],
+      "assets_variacoes": {
+        "azul": "assets/characters/011-pig-senior-azul.png",
+        "rosa": "assets/characters/011-pig-senior-rosa.png",
+        "arco-iris": "assets/characters/011-pig-senior-arco-iris.png"
+      },
+      "hashes_variacoes": {
+        "azul": "b94554cc76989400f3d9b5ce9f5c70f34009dbb7f39291db82a6c53501d97be3",
+        "rosa": "f1165c4b0069b2b27beee88d2b19e91b60d2d9653f0acb4ecf98af725df06ee7",
+        "arco-iris": "33ec902bde486fe8f5a774951f0be732dfc8214395f2078aec7fd797efbe6ad3"
+      },
+      "revisao_humana": {
+        "status": "aprovada",
+        "reviewer_role": "project_owner",
+        "approved_for_catalog": true,
+        "approved_for_site": true,
+        "published": false,
+        "deployed": false
+      }
     }
   ]
 }
