@@ -89,7 +89,7 @@ test("pilot manifest explicitly disables fallback", () => {
   assert.equal(context.pilot.fallback_model, null);
 });
 
-test("pilot base consumes exactly the registered Pig Principal binary", async () => {
+test("pilot base consumes exactly the registered Pig Principal binary", { skip: "requer base privada aprovada e ignorada no Git" }, async () => {
   const context = loadContext();
   context.events = [];
   const base = phaseBaseItem(context.pilot, context.phaseBootstrap);

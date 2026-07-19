@@ -7,6 +7,9 @@
     "node": ">=20"
   },
   "scripts": {
+    "build": "node scripts/build-public.mjs",
+    "preview": "node scripts/serve-public.mjs",
+    "test:public-output": "node --test tests/public-output.test.mjs",
     "test": "node --test tests/images/*.test.mjs",
     "images:plan": "node scripts/images/plan.mjs",
     "images:pilot": "node scripts/images/runner.mjs --pilot --resume --dry-run --no-publish --no-push --max-cost-usd 0 --stop-on-error",

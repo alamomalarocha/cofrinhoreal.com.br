@@ -42,7 +42,7 @@ test("exclusive identity selector rejects duplicates, phase base, unknown, priva
   assert.throws(() => selectPlan(context, args({ "--only-uid": ["AVA-002-AZL", "AVA-002-RSA"] })), /exatamente um UID/u);
 });
 
-test("identity preflight accepts structural dry-run without a key and uses only the approved base", () => {
+test("identity preflight accepts structural dry-run without a key and uses only the approved base", { skip: "requer base privada aprovada e ignorada no Git" }, () => {
   const report = runIdentityPreflight({ args: args(), env: {}, system: system() });
   assert.equal(report.status, "WARNING");
   assert.equal(report.api_calls, 0);
@@ -94,7 +94,7 @@ test("identity preflight enforces one attempt, cost ceiling, no publish, no push
   }
 });
 
-test("mocked identity generation dry-run never calls provider or writes a PNG", async () => {
+test("mocked identity generation dry-run never calls provider or writes a PNG", { skip: "requer base privada aprovada e ignorada no Git" }, async () => {
   let calls = 0;
   const result = await generateOne({
     args: args(), env: {}, preflightSystem: system(),
