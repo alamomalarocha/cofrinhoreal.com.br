@@ -12,17 +12,13 @@
     <meta name="theme-color" content="#ff4f83" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="site.webmanifest" />
-    <link rel="stylesheet" href="styles.css?v=44" />
+    <link rel="stylesheet" href="styles.css?v=45" />
   </head>
   <body>
     <header class="site-header">
       <div class="site-header-inner">
         <a class="brand" href="index.html" aria-label="Cofrinho Real, início">
-          <img
-            class="header-logo"
-            src="assets/brand/cofrinho-real-logo-header-full-transparent.png?v=42"
-            alt="Cofrinho Real"
-          />
+          <img class="header-logo" src="assets/characters/001-pig-principal.png?v=45" alt="" /><span class="header-wordmark">Cofrinho <strong>Real</strong></span>
         </a>
 
         <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="site-menu">
@@ -62,8 +58,8 @@
         </div>
         <aside class="collection-summary" aria-label="Resumo da Coleção Pig">
           <span>CR 2026</span>
-          <strong data-collection-count>Carregando cards...</strong>
-          <p>Cards oficiais, variações pendentes e especiais do Cofrinho Real.</p>
+          <strong data-collection-count>27 avatares aprovados</strong>
+          <p>Avatares oficiais aprovados e organizados por fase e identidade.</p>
         </aside>
       </section>
 
@@ -83,120 +79,16 @@
           <h2 id="approved-avatar-title">Três identidades em cada fase disponível.</h2>
           <p>Azul representa o universo masculino, Rosa o feminino e Arco-íris a opção neutra. A fase 005 permanece em preparação.</p>
         </div>
-        <div class="approved-phase-list" data-approved-avatar-gallery aria-live="polite"><p>Carregando avatares aprovados...</p></div>
-      </section>
-
-      <section class="section-shell collection-tools" aria-label="Filtros da Coleção Pig">
-        <div class="section-heading compact-heading">
-          <p class="eyebrow">álbum em construção</p>
-          <h2>Personagens e avatares em cards colecionáveis.</h2>
-          <p>
-            Os cards criados usam imagens oficiais. Os pendentes aparecem como espaço reservado para acompanhar a evolução da coleção.
-          </p>
+        <div class="approved-avatar-filters" data-approved-avatar-filters aria-label="Filtros dos avatares aprovados">
+          <button type="button" class="active" data-avatar-filter="todos">Todos (27)</button>
+          <button type="button" data-avatar-filter="azul">Azul</button>
+          <button type="button" data-avatar-filter="rosa">Rosa</button>
+          <button type="button" data-avatar-filter="arco-iris">Arco-?ris</button>
         </div>
-
-        <div class="collection-filters" data-character-filters>
-          <button type="button" class="active" data-filter="todos">Todos</button>
-          <button type="button" data-filter="mascote">Mascote</button>
-          <button type="button" data-filter="avatar">Avatares</button>
-          <button type="button" data-filter="especial">Especiais</button>
-          <button type="button" data-filter="vila">Vila Pig</button>
-          <button type="button" data-filter="azul">Azul</button>
-          <button type="button" data-filter="rosa">Rosa</button>
-          <button type="button" data-filter="arco_iris">Arco-íris</button>
-          <button type="button" data-filter="criado">Criados</button>
-          <button type="button" data-filter="pendente">Pendentes</button>
-        </div>
-
-        <form class="collection-advanced-filters" data-advanced-filters>
-          <label class="collection-search-field">
-            <span>Buscar na coleção</span>
-            <input
-              type="search"
-              placeholder="Nome, código, categoria ou palavra-chave"
-              autocomplete="off"
-              data-collection-search
-            />
-          </label>
-          <label>
-            <span>Tipo</span>
-            <select data-filter-field="tipo_personagem"><option value="">Todos</option></select>
-          </label>
-          <label>
-            <span>Região</span>
-            <select data-filter-field="regiao"><option value="">Todas</option></select>
-          </label>
-          <label>
-            <span>UF</span>
-            <select data-filter-field="uf"><option value="">Todas</option></select>
-          </label>
-          <label>
-            <span>Família</span>
-            <select data-filter-field="familia_uid"><option value="">Todas</option></select>
-          </label>
-          <label>
-            <span>Profissão</span>
-            <select data-filter-field="profissoes"><option value="">Todas</option></select>
-          </label>
-          <label>
-            <span>Geração</span>
-            <select data-filter-field="geracao"><option value="">Todas</option></select>
-          </label>
-          <label>
-            <span>Fase da vida</span>
-            <select data-filter-field="fase_vida"><option value="">Todas</option></select>
-          </label>
-          <label>
-            <span>Estilo</span>
-            <select data-filter-field="estilo"><option value="">Todos</option></select>
-          </label>
-          <label>
-            <span>Folclore</span>
-            <select data-filter-field="folclore"><option value="">Todos</option></select>
-          </label>
-          <label>
-            <span>Origem cultural</span>
-            <select data-filter-field="origens_culturais"><option value="">Todas</option></select>
-          </label>
-          <label>
-            <span>Comunidade</span>
-            <select data-filter-field="comunidades"><option value="">Todas</option></select>
-          </label>
-          <label>
-            <span>Status</span>
-            <select data-filter-field="status">
-              <option value="">Todos</option>
-              <option value="criada">Criados</option>
-              <option value="pendente">Pendentes</option>
-            </select>
-          </label>
-          <label>
-            <span>Publicação</span>
-            <select data-filter-field="publicavel">
-              <option value="">Todos</option>
-              <option value="true">Publicados</option>
-            </select>
-          </label>
-          <button class="collection-clear-filters" type="button" data-clear-filters>Limpar filtros</button>
-        </form>
+        <p class="approved-avatar-status" data-approved-avatar-status role="status">Preparando os 27 avatares aprovados...</p>
+        <div class="approved-phase-list" data-approved-avatar-gallery aria-live="polite"></div>
       </section>
-
-      <section class="section-shell collection-section" aria-live="polite">
-        <div class="collection-load-progress" data-load-progress role="status" aria-live="polite">
-          <span data-load-progress-label>Preparando catálogo...</span>
-          <div class="collection-load-track" aria-hidden="true">
-            <span data-load-progress-bar></span>
-          </div>
-        </div>
-        <div class="collection-status" data-collection-status>Carregando Coleção Pig...</div>
-        <div class="collectible-grid" data-character-gallery></div>
-        <nav class="collection-pagination" aria-label="Paginação da Coleção Pig" data-collection-pagination hidden>
-          <button type="button" data-page-action="previous">Anterior</button>
-          <span data-page-label>Página 1</span>
-          <button type="button" data-page-action="next">Próxima</button>
-        </nav>
-      </section>
-    </main>
+</main>
 
     <footer class="site-footer">
       <div>
@@ -219,8 +111,7 @@
       </nav>
       <p class="footer-prototype">Coleção educativa, sem compra, aposta ou valor financeiro.</p>
     </footer>
-    <script src="script.js?v=43"></script>
-    <script src="approved-avatars.js?v=1"></script>
-    <script src="personagens.js?v=43"></script>
+    <script src="script.js?v=45"></script>
+    <script src="approved-avatars.js?v=45"></script>
   </body>
 </html>
