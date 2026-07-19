@@ -223,7 +223,7 @@ export async function generateOne({
     });
   } catch (error) {
     const message = safeErrorMessage(error);
-    appendJsonl("data/image-automation/errors.jsonl", {
+    appendJsonl("data/image-automation/runtime/errors.jsonl", {
       type: "error",
       timestamp: new Date().toISOString(),
       uid: item.uid,

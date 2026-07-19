@@ -104,6 +104,20 @@ export function buildPhaseBasePrompt(
   phaseBootstrap,
   technicalBackground = "#777777",
 ) {
+  if (phase.numero === "006") {
+    return [
+      "Create one wholesome, fully clothed, non-human cartoon pig mascot for a children's educational financial-literacy application. This is a friendly adolescent-stage character design, standing in a neutral pose.",
+      "Design one stylized anthropomorphic pig mascot for a family-friendly, classroom-appropriate educational universe.",
+      "The mascot wears an off-white shirt covering the torso, light beige trousers covering the hips and legs, and simple white sneakers on both feet.",
+      "Use adolescent-stage proportions: a slightly taller and more elongated body than the preceding life stage, with youthful, friendly facial features and natural proportions consistent with the Pig Universe.",
+      "Show a neutral standing pose, friendly expression, full body, and clearly visible hands and feet.",
+      `Use a uniform technical background ${technicalBackground}.`,
+      "Create exactly one character. Keep the composition clean, simple, educational, and suitable for children and families.",
+      "Use the attached Pig Principal image as the only binary visual reference for family resemblance.",
+      "Keep the reference external to the finished artwork; the result contains only the new mascot on the uniform background.",
+      "Use a neutral off-white, light beige, and white technical-clothing palette, with no scenery, text, branding, symbols, handheld items, or decorative objects.",
+    ].join("\n");
+  }
   const sections = phase.prompt_sections || {};
   const visualAge = phase.visual_age || `${phase.name}, representando ${phase.age}`;
   const sectionLines = [
@@ -128,6 +142,10 @@ export function buildPhaseBasePrompt(
     "Sem maos nos bolsos, objeto, texto, letra, numero, logo, moeda, medalha ou cenario.",
     "Um unico personagem, corpo inteiro, centralizado.",
   ].join("\n");
+}
+
+export function phaseBasePromptRevision(phase) {
+  return phase.numero === "006" ? "phase-006-safe-v2" : "phase-base-v1";
 }
 
 export function buildIdentityPrompt(
