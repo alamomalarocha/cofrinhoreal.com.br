@@ -14,8 +14,8 @@
   "reviewer_role": "project_owner",
   "approved_for_site": true,
   "approved_for_publication": true,
-  "published": false,
-  "deployed": false,
+  "published": true,
+  "deployed": true,
   "yo_yo": "Master CR 1979",
   "separate_from_avatar_identities": true
 }

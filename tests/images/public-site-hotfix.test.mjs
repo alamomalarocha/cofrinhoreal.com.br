@@ -1,0 +1,14 @@
+﻿import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
+import test from "node:test";
+const root=path.resolve(import.meta.dirname,"../..");
+const htmlFiles=["index.html","personagens.html","pig-coins.html","educacao.html","jogos.html","familias.html","seguranca.html","faq.html","o-que-e.html","como-funciona.html","comerciantes.html"];
+const pages=htmlFiles.map((file)=>fs.readFileSync(path.join(root,file),"utf8"));
+const characters=pages[1];
+const renderer=fs.readFileSync(path.join(root,"approved-avatars.js"),"utf8");
+const css=fs.readFileSync(path.join(root,"styles.css"),"utf8");
+const catalog=JSON.parse(fs.readFileSync(path.join(root,"data/personagens/avatares/avatares-aprovados.json"),"utf8"));
+test("every public header uses the approved Pig and no legacy raster logo",()=>{for(const page of pages){assert.match(page,/header-logo[^>]+assets\/characters\/001-pig-principal\.png\?v=45/u);assert.match(page,/header-wordmark/u);assert.doesNotMatch(page,/assets\/brand\/cofrinho-real-logo-header/u);}assert.match(pages[0],/og:image[^>]+001-pig-principal\.png\?v=45/u);});
+test("character page exposes only the approved catalog renderer",()=>{assert.equal(catalog.avatars.length,27);assert.match(characters,/data-approved-avatar-gallery/u);assert.doesNotMatch(characters,/data-character-gallery|personagens\.js|collection-tools|Carregando cards|Preparando catálogo/u);assert.match(renderer,/approved_avatar_count!==27/u);assert.match(renderer,/data-avatar-filter/u);assert.match(renderer,/AbortController/u);});
+test("new cards use uniform public fields and responsive contain layout",()=>{for(const label of ["Identidade","Apresentação","Status","Aprovado e publicado"])assert.match(renderer,new RegExp(label,"u"));assert.match(css,/\.approved-avatar-card img\{[^}]*object-fit:contain/isu);assert.match(css,/\.header-logo\s*\{[^}]*object-fit:\s*contain/isu);assert.match(css,/@media \(max-width:720px\)\{\.approved-avatar-grid/isu);});
