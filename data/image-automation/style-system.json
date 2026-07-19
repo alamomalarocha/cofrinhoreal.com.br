@@ -31,13 +31,15 @@
       "role": "menina_feminina",
       "color_identity": "rosa",
       "presentation": "feminina",
-      "visual_reading": "inequivocamente menina ou feminina conforme a idade",
+      "visual_reading": "inequivocamente menina ou feminina conforme a idade por uma combinacao coerente de apresentacao, penteado, detalhes faciais discretos, corte da roupa, calcado e pequenos acessorios quando adequados; nunca apenas um personagem masculino recolorido",
       "permanent_clothing_identity": "rosa",
       "neutral": false,
       "automatic_lgbt_classification": false,
       "child_label": "Menina Rosa",
       "adult_label": "Feminino Rosa",
-      "clothing": "camisa rosa lisa, short rosa-claro e tênis branco simples"
+      "clothing": "roupa feminina de corte apropriado a fase da vida em paleta rosa harmoniosa, calcado e pequenos acessorios adequados quando uteis; a feminilidade nao depende apenas da cor",
+      "age_safeguards": ["bebe e crianca permanecem infantis, inocentes, totalmente vestidos e sem maquiagem adulta", "adolescente permanece apropriada a idade e sem apresentacao adulta exagerada", "adulta, coroa e senior preservam envelhecimento, rugas e identidade da fase"],
+      "not_required": ["cabelo longo", "uma caracteristica estereotipada unica"]
     },
     "arco_iris": {
       "technical_value": "arco_iris",
@@ -58,8 +60,8 @@
   "identity_derivation": {
     "source": "uma unica base tecnica privada aprovada",
     "preserve": ["mesmo personagem", "idade", "fase da vida", "anatomia essencial", "formato do corpo", "rosto-base", "focinho", "olhos", "orelhas", "pele", "profissao ou funcao", "origem regional", "raca/cor", "deficiencia", "pose-base", "camera", "enquadramento", "iluminacao", "qualidade visual", "personalidade", "historia essencial"],
-    "may_change": ["apresentacao especifica autorizada", "roupas", "cores"],
-    "requirements": ["azul exige leitura masculina adequada a idade", "rosa exige leitura feminina adequada a idade", "arco_iris exige equilibrio neutro sem predominancia masculina ou feminina", "mudancas devem ser adequadas a idade", "proibida sexualizacao de criancas", "proibida caricatura ofensiva", "a base privada nao pode aparecer no resultado", "o Pig Principal nao pode aparecer no resultado"]
+    "may_change": ["apresentacao especifica autorizada", "cabelo e penteado", "detalhes faciais discretos", "roupas e corte", "cores", "calcado", "pequenos acessorios"],
+    "requirements": ["azul exige leitura masculina adequada a idade", "rosa exige leitura feminina adequada a idade e nao pode ser apenas o azul ou personagem masculino recolorido de rosa", "a feminilidade rosa deve resultar do design completo e nao apenas da cor", "arco_iris exige equilibrio neutro sem predominancia masculina ou feminina e nao classifica orientacao sexual", "mudancas devem ser adequadas a idade", "proibida sexualizacao de criancas e adolescentes", "proibida caricatura ofensiva", "a base privada nao pode aparecer no resultado", "o Pig Principal nao pode aparecer no resultado"]
   },
   "global_pose": {
     "fase_bebe": "em pe, fase de primeiros passos, corpo inteiro, pes ligeiramente separados, bracos relaxados, maos e pes visiveis",

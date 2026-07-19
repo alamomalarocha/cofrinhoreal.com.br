@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "name": "avatar-rosa-correction-8",
+  "identity": "rosa",
+  "allowed_phases": ["003", "004", "006", "007", "008", "009", "010", "011"],
+  "blocked_phases": ["002", "005"],
+  "items": [
+    { "uid": "AVA-003-RSA", "phase": "003" },
+    { "uid": "AVA-004-RSA", "phase": "004" },
+    { "uid": "AVA-006-RSA", "phase": "006" },
+    { "uid": "AVA-007-RSA", "phase": "007" },
+    { "uid": "AVA-008-RSA", "phase": "008" },
+    { "uid": "AVA-009-RSA", "phase": "009" },
+    { "uid": "AVA-010-RSA", "phase": "010" },
+    { "uid": "AVA-011-RSA", "phase": "011" }
+  ],
+  "limits": {
+    "items": 8,
+    "max_attempts_per_item": 1,
+    "max_cost_usd_per_item": 0.061430,
+    "max_total_cost_usd": 0.491440,
+    "retry": false,
+    "fallback": false,
+    "stop_on_error": true,
+    "human_review_required": true,
+    "feminine_presentation_human_review_required": true,
+    "publish": false,
+    "deploy": false,
+    "push_images": false,
+    "catalog": false
+  }
+}

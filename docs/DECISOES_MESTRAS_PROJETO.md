@@ -81,6 +81,30 @@ Motivo: Preservar controle de qualidade e sequencia oficial.
 
 Status: `vigente`. Visibilidade: `publica`.
 
+### DEC-025 - Representação das identidades e diversidade do Universo Pig
+
+Azul representa o universo masculino, com características masculinas apropriadas à idade e ao papel. Rosa representa o universo feminino, com características femininas apropriadas à idade e ao papel; não pode ser apenas o personagem masculino usando roupa rosa. Arco-íris é a opção neutra para quem não deseja escolher Rosa nem Azul e não deve ser classificada automaticamente por orientação sexual.
+
+As três opções públicas permanecem disponíveis em cada fase principal. Todas preservam dignidade, coerência de idade e ausência de estereótipos ofensivos. Crianças e adolescentes nunca recebem características adultas ou sexualizadas.
+
+Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-026 - População sintética brasileira como norte editorial
+
+O Universo Pig deve lembrar a diversidade da vida real brasileira. Sexo, idade, regiões, cor ou raça, renda, profissões, escolaridade, composição familiar, deficiência e demais características podem usar dados brasileiros como referência. As porcentagens são orientação aproximada, não cotas rígidas, e não precisam fechar matematicamente em cada cena ou grupo pequeno; a coerência aparece no conjunto amplo.
+
+Cada personagem pode reunir várias características simultâneas, portanto categorias sobrepostas não são somadas como grupos separados. Quando dados forem incorporados, devem registrar fonte, ano e população estudada. Percentuais oficiais inexistentes não serão inventados; grupos mal medidos terão presença respeitosa definida editorialmente. Narrativa e qualidade não serão sacrificadas apenas para fechar números, e caricaturas sociais, regionais, econômicas, profissionais, religiosas ou identitárias devem ser evitadas.
+
+Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-027 - Pig Principal, ioiô e atividades fora das telas
+
+O Pig Principal gosta de brincar e praticar com ioiô. Essa é uma característica permanente do personagem e pode aparecer em histórias, ilustrações, missões, desafios e materiais da marca. A intenção é conectar o universo digital a atividades físicas, sociais e criativas, promovendo coordenação motora, disciplina, criatividade, convivência e equilíbrio do tempo de tela.
+
+Oficinas, encontros, campeonatos de ioiô, eventos e produtos físicos são possibilidades futuras e não devem ser apresentados como já existentes. Eventos para menores exigirão autorização dos responsáveis e regras de segurança.
+
+Status: `vigente`. Visibilidade: `publica`.
+
 ### DEC-018 - Proteção infantil e proibição de transferências entre crianças
 
 Crianças não negociam entre si, não enviam nem recebem PigCoins, presentes, créditos ou itens de outros usuários. Todo valor infantil vem exclusivamente do sistema. PigCoin é fictício, interno, não transferível e não sacável. Perfis infantis adotam segurança e privacidade por padrão, sem economia P2P ou contato financeiro com desconhecidos.
