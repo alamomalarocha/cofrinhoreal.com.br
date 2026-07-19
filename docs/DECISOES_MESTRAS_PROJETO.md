@@ -81,6 +81,48 @@ Motivo: Preservar controle de qualidade e sequencia oficial.
 
 Status: `vigente`. Visibilidade: `publica`.
 
+### DEC-018 - Proteção infantil e proibição de transferências entre crianças
+
+Crianças não negociam entre si, não enviam nem recebem PigCoins, presentes, créditos ou itens de outros usuários. Todo valor infantil vem exclusivamente do sistema. PigCoin é fictício, interno, não transferível e não sacável. Perfis infantis adotam segurança e privacidade por padrão, sem economia P2P ou contato financeiro com desconhecidos.
+
+Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-019 - Simulador patrimonial, tributário e de consequências financeiras
+
+PigBank, patrimônio, imóveis, veículos, empresas, títulos, empréstimos, financiamentos, juros, parcelas, impostos e declarações são simulações fictícias controladas pelo sistema. O Leão ensina fiscalização e responsabilidade; o Vantajinho apresenta golpes, atalhos e consequências, sem promessa de lucro ou movimentação financeira real.
+
+Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-020 - Educação para escolhas saudáveis, cidadania digital e iniciação à programação
+
+O universo aborda prevenção a drogas, álcool, cigarro e vaping, pressão social, recuperação, pedido de ajuda, golpes, fraude e criminalidade de forma educativa e apropriada por idade, sem ensinar condutas ilícitas. O PigLab oferece lógica, programação, bugs simulados e segurança digital em ambientes isolados e moderados.
+
+Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-021 - Mural da Evolução e publicação familiar protegida
+
+O Mural da Evolução é um recurso futuro protegido. Inicialmente mostra somente conquistas, títulos, cards, metas e evolução produzida pelo sistema. Perfis infantis são privados por padrão; não há mensagens, presentes, PigCoins, comentários livres ou dados de localização. Eventuais fotos dependerão de autorização adulta, limite diário, remoção de EXIF e moderação.
+
+Status: `planejada`. Visibilidade: `publica`.
+
+### DEC-022 - Rede social protegida, criptografia e autorização parental de amizades
+
+Qualquer recurso social futuro nasce privado, criptografado e apropriado por idade. Amizades de contas infantis exigem autorização parental verificável, controles familiares, bloqueio e denúncia. Contato de desconhecidos, descoberta irrestrita de perfis, troca de valores e mensagens sem salvaguardas permanecem proibidos.
+
+Status: `planejada`. Visibilidade: `publica`.
+
+### DEC-023 - Indicação familiar verificada e cidadania do Universo Pig
+
+Indicações futuras serão familiares e verificadas, sem recompensas financeiras, compra de acesso ou exposição pública de crianças. A cidadania do Universo Pig representa participação educativa, responsabilidades, conquistas e convivência segura; não cria documento oficial, ativo financeiro ou vínculo estatal real.
+
+Status: `planejada`. Visibilidade: `publica`.
+
+### DEC-024 - Eleições fictícias, partidos educativos e debates respeitosos
+
+Eleições, partidos e debates serão simulações educativas internas, sem vínculo com campanhas, partidos ou candidatos reais. O objetivo é ensinar cidadania, propostas, votação, pluralidade, checagem de informações e respeito. Não haverá propaganda política direcionada, microtargeting infantil ou persuasão partidária real.
+
+Status: `planejada`. Visibilidade: `publica`.
+
 ### DEC-010 - Próximo prompt enviado antes da publicação
 
 Quando uma imagem oficial for recebida, o Codex deve validar o arquivo e enviar o prompt visual puro da próxima imagem antes de iniciar a publicação da imagem atual, permitindo criação e publicação em paralelo.

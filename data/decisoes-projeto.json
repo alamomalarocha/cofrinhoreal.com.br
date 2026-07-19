@@ -268,6 +268,27 @@
       "decisao_substituida": null,
       "visibilidade": "publica",
       "observacoes": "Snapshot gpt-image-2-2026-04-21; alias gpt-image-2 sem fallback automático; checkpoint checkpoint-pre-ativacao-base-002-2026-07 sobre ff3394e373a720d597379c538d0c1399ac6d4eea; chamadas pagas: 0."
+    },
+    {
+      "id": "DEC-018", "data": "2026-07-19", "titulo": "Proteção infantil e proibição de transferências entre crianças", "descricao": "Contas infantis não transferem PigCoins, presentes, créditos ou itens entre usuários; todo valor infantil vem do sistema e o perfil é privado por padrão.", "motivo": "Eliminar economia P2P infantil e contato financeiro com desconhecidos.", "arquivos_afetados": ["docs/DECISOES_MESTRAS_PROJETO.md", "index.html"], "status": "vigente", "decisao_substituida": null, "visibilidade": "publica", "observacoes": "PigCoin fictício, interno, não transferível e não sacável."
+    },
+    {
+      "id": "DEC-019", "data": "2026-07-19", "titulo": "Simulador patrimonial, tributário e de consequências financeiras", "descricao": "PigBank, patrimônio, crédito, juros, impostos e declarações são simulações educativas fictícias controladas pelo sistema.", "motivo": "Ensinar decisões e consequências sem movimentação financeira real.", "arquivos_afetados": ["docs/DECISOES_MESTRAS_PROJETO.md", "index.html"], "status": "vigente", "decisao_substituida": null, "visibilidade": "publica", "observacoes": "Leão representa responsabilidade; Vantajinho representa golpes e atalhos."
+    },
+    {
+      "id": "DEC-020", "data": "2026-07-19", "titulo": "Educação para escolhas saudáveis, cidadania digital e iniciação à programação", "descricao": "Conteúdo apropriado por idade sobre prevenção, pressão social, pedido de ajuda, golpes, cidadania, lógica, programação e segurança digital.", "motivo": "Desenvolver autonomia e proteção sem ensinar condutas ilícitas.", "arquivos_afetados": ["docs/DECISOES_MESTRAS_PROJETO.md", "index.html"], "status": "vigente", "decisao_substituida": null, "visibilidade": "publica", "observacoes": "PigLab opera como conceito de ambiente isolado e moderado."
+    },
+    {
+      "id": "DEC-021", "data": "2026-07-19", "titulo": "Mural da Evolução e publicação familiar protegida", "descricao": "Recurso futuro para conquistas e progresso, privado por padrão e sujeito a autorização adulta, minimização de dados e moderação.", "motivo": "Permitir expressão segura sem expor rotina, localização ou informações financeiras da criança.", "arquivos_afetados": ["docs/DECISOES_MESTRAS_PROJETO.md", "index.html"], "status": "planejada", "decisao_substituida": null, "visibilidade": "publica", "observacoes": "Fotos não estão ativas no protótipo."
+    },
+    {
+      "id": "DEC-022", "data": "2026-07-19", "titulo": "Rede social protegida, criptografia e autorização parental de amizades", "descricao": "Recursos sociais futuros serão privados, criptografados, apropriados por idade e terão amizades infantis condicionadas à autorização parental.", "motivo": "Impedir contato irrestrito e descoberta pública de perfis infantis.", "arquivos_afetados": ["docs/DECISOES_MESTRAS_PROJETO.md"], "status": "planejada", "decisao_substituida": null, "visibilidade": "publica", "observacoes": "Sem troca de valores ou mensagens sem salvaguardas."
+    },
+    {
+      "id": "DEC-023", "data": "2026-07-19", "titulo": "Indicação familiar verificada e cidadania do Universo Pig", "descricao": "Indicações futuras serão familiares e verificadas; cidadania representa participação educativa e responsabilidades no universo fictício.", "motivo": "Criar pertencimento sem recompensa financeira nem exposição infantil.", "arquivos_afetados": ["docs/DECISOES_MESTRAS_PROJETO.md"], "status": "planejada", "decisao_substituida": null, "visibilidade": "publica", "observacoes": "Não cria documento oficial ou vínculo estatal real."
+    },
+    {
+      "id": "DEC-024", "data": "2026-07-19", "titulo": "Eleições fictícias, partidos educativos e debates respeitosos", "descricao": "Simulações internas ensinam propostas, votação, pluralidade, checagem de informações e respeito, sem vínculo partidário real.", "motivo": "Educar para cidadania sem propaganda política direcionada.", "arquivos_afetados": ["docs/DECISOES_MESTRAS_PROJETO.md"], "status": "planejada", "decisao_substituida": null, "visibilidade": "publica", "observacoes": "Sem microtargeting infantil ou persuasão partidária real."
     }
   ]
 }

@@ -293,6 +293,42 @@ test("official sibling identities allow close pHash with an auditable reason", (
   }
 });
 
+test("distinct approved official life stages allow close pHash but never identical SHA", () => {
+  const workspace = temporaryWorkspace();
+  const first = "data/image-automation/phase-bases/008-pig-jovem-adulto-base.png";
+  const second = "data/image-automation/phase-bases/009-pig-adulto-base.png";
+  const context = contextFixture();
+  context.queue.itens = [];
+  context.phaseBootstrap.phases = [
+    { numero: "008", name: "Pig Jovem Adulto", slug: "pig-jovem-adulto", base_asset: first },
+    { numero: "009", name: "Pig Adulto", slug: "pig-adulto", base_asset: second },
+  ];
+  for (const [asset, color] of [[first, [80, 160, 210]], [second, [90, 165, 205]]]) {
+    writeCandidate(workspace.reviewRoot, asset, color);
+    const validationFile = reportPath(workspace.reviewRoot, asset, "validation");
+    const validation = readJsonIfExists(validationFile);
+    validation.perceptual_hash = "0030304854282800";
+    writeJsonFile(validationFile, validation);
+    const visualFile = reportPath(workspace.reviewRoot, asset, "visual");
+    const visual = readJsonIfExists(visualFile);
+    Object.assign(visual, { human_decision: "approved", reviewer: "Alamo Rocha" });
+    writeJsonFile(visualFile, visual);
+  }
+  reviewAsset({
+    action: "approve", asset: first, reviewer: "Alamo Rocha", reason: "Fase oficial.",
+    context, reviewRoot: workspace.reviewRoot, stateFile: workspace.stateFile,
+    projectRoot: workspace.catalogRoot,
+  });
+  const report = reviewAsset({
+    action: "approve", asset: second, reviewer: "Alamo Rocha", reason: "Fase oficial distinta.",
+    context, reviewRoot: workspace.reviewRoot, stateFile: workspace.stateFile,
+    projectRoot: workspace.catalogRoot,
+  });
+  assert.equal(report.perceptual_similarity_allowed, true);
+  assert.equal(report.perceptual_similarity_reason, "official_life_stage_phase_series_same_universe");
+  assert.equal(report.perceptual_similarity_sha256_equal, false);
+});
+
 test("all official identities allow close pHash to their directly declared approved phase base", () => {
   for (const asset of [blueAsset, pinkAsset, rainbowAsset]) {
     const workspace = temporaryWorkspace();

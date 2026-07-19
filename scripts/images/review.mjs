@@ -100,7 +100,31 @@ function officialIdentityPhaseBase(context, currentItem, asset, priorReport) {
   );
 }
 
-function assertNotDuplicate(root, asset, item, validation, maxDistance, context) {
+function officialLifeStagePhaseBase(context, currentItem, asset, priorReport, visual) {
+  const eligible = new Set(["003", "004", "006", "007", "008", "009", "010", "011"]);
+  const currentPhase = context.phaseBootstrap?.phases?.find((phase) => (
+    String(phase.numero) === String(currentItem.numero)
+    && normalizeAsset(phase.base_asset) === asset
+  ));
+  const priorPhase = context.phaseBootstrap?.phases?.find((phase) => (
+    String(phase.numero) === String(priorReport.numero)
+    && normalizeAsset(phase.base_asset) === normalizeAsset(priorReport.asset)
+  ));
+  return Boolean(
+    currentItem.kind === "phase_base"
+    && priorReport.kind === "phase_base"
+    && currentPhase
+    && priorPhase
+    && eligible.has(String(currentItem.numero))
+    && eligible.has(String(priorReport.numero))
+    && String(currentItem.numero) !== String(priorReport.numero)
+    && visual?.human_decision === "approved"
+    && visual?.reviewer === "Alamo Rocha"
+    && asset.startsWith("data/image-automation/phase-bases/")
+  );
+}
+
+function assertNotDuplicate(root, asset, item, validation, maxDistance, context, visual) {
   const exceptions = [];
   for (const report of reviewReports(root)) {
     if (report.asset === asset) continue;
@@ -127,6 +151,16 @@ function assertNotDuplicate(root, asset, item, validation, maxDistance, context)
       if (officialIdentityPhaseBase(context, item, asset, report)) {
         exceptions.push({
           reason: "official_identity_derived_from_approved_phase_base",
+          related_asset: report.asset,
+          related_kind: "phase_base",
+          sha256_equal: false,
+          phash_distance: distance,
+        });
+        continue;
+      }
+      if (officialLifeStagePhaseBase(context, item, asset, report, visual)) {
+        exceptions.push({
+          reason: "official_life_stage_phase_series_same_universe",
           related_asset: report.asset,
           related_kind: "phase_base",
           sha256_equal: false,
@@ -198,7 +232,7 @@ export function reviewAsset({
   if (action === "approve") {
     const maxDistance = Number(context.config.validation?.duplicate_phash_distance_max ?? 4);
     perceptualSimilarityExceptions = assertNotDuplicate(
-      root, normalized, item, validation, maxDistance, context,
+      root, normalized, item, validation, maxDistance, context, visual,
     );
   }
 

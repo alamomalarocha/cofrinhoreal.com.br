@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "name": "public-avatar-batch-003-004-006-011",
+  "allowed_phases": ["003", "004", "006", "007", "008", "009", "010", "011"],
+  "blocked_phases": ["002", "005"],
+  "identities": [
+    { "key": "azul", "code": "AZL", "presentation": "masculina", "clothing": "roupa azul, paleta azul" },
+    { "key": "rosa", "code": "RSA", "presentation": "feminina", "clothing": "roupa rosa, paleta rosa" },
+    { "key": "arco_iris", "code": "ARC", "presentation": "neutra", "clothing": "roupa permanentemente arco-íris, sem texto ou símbolo adicional" }
+  ],
+  "limits": {
+    "items": 24,
+    "max_attempts_per_item": 1,
+    "max_cost_usd_per_item": 0.061430,
+    "max_total_cost_usd": 1.474320,
+    "retry": false,
+    "fallback": false,
+    "stop_on_error": true,
+    "human_review_required": true,
+    "publish": false,
+    "push": false,
+    "catalog": false
+  }
+}
