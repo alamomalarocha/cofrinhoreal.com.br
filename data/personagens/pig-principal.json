@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-07-19",
+  "id": "pig-principal",
+  "name": "Pig Principal",
+  "role": "personagem central",
+  "asset": "assets/characters/001-pig-principal.png",
+  "sha256": "efc4cb94ea1f52d0b27fdf78d931672d23d62de0b0128c57ec829e050ac0acd0",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "status": "approved",
+  "human_approved": true,
+  "reviewer_role": "project_owner",
+  "approved_for_site": true,
+  "approved_for_publication": true,
+  "published": false,
+  "deployed": false,
+  "yo_yo": "Master CR 1979",
+  "separate_from_avatar_identities": true
+}

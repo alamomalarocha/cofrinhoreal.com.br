@@ -248,3 +248,13 @@ Rosa representa o universo feminino, deve possuir leitura claramente feminina se
 As três identidades devem parecer intencionalmente diferentes pelo desenho completo, continuando a representar o mesmo personagem da fase. Rosto, focinho, olhos, orelhas, corpo, altura, pose, expressão, enquadramento, mãos e pés são preservados. Nenhuma identidade é construída por exagero, ofensa ou sexualização; toda leitura é apropriada à idade.
 
 Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-030 - Pig Principal juvenil e Master CR 1979
+
+O Pig Principal é o personagem central do Cofrinho Real e permanece separado do catálogo Azul, Rosa e Arco-íris; não constitui uma quarta identidade. Possui apresentação de menino-porquinho, aparência juvenil aproximada de 12 a 13 anos, rosto simpático, harmônico e reconhecível e corpo juvenil atlético, com ombros mais largos que a cintura, abdômen sem barriga e pernas firmes e proporcionais.
+
+Seu boné integra o visual oficial. Os olhos são castanhos claros com reflexos verde-oliva. A roupa tem amarelo dominante e detalhes menores, equilibrados, em azul e rosa. A mão esquerda faz sinal de legal e a mão direita controla o ioiô oficial Master CR 1979, preto brilhante e com `CR` dourado. O ioiô é acessório permanente e assinatura visual ligada a atividade física, criatividade e equilíbrio fora das telas.
+
+A revisão humana foi concluída pelo proprietário do projeto. O novo asset aprovado é a fonte visual oficial do Pig Principal e não exige nova correção da mão ou da corda. Qualquer substituição futura continuará dependendo de aprovação expressa.
+
+Status: `vigente`. Visibilidade: `publica`.
