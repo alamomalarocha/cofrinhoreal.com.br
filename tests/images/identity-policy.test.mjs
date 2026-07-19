@@ -25,25 +25,29 @@ test("authoritative policy exposes exactly the three ordered public identities",
   assert.ok(pilot.items.every((item) => item.identity !== "padrao"));
 });
 
-test("identity prompts consume the authoritative semantic definitions", () => {
+test("identity prompts are isolated, preserve structure and require exact clothing", () => {
   const { styles, phaseBootstrap } = loadContext();
   const phase = phaseByKey(phaseBootstrap, "fase_bebe");
   const prompts = Object.fromEntries(styles.active_order.map((identity) => [identity,
     buildIdentityPrompt(identity, phase, phaseBootstrap, "#777777", styles)]));
-  assert.match(prompts.azul, /papel menino_masculino/u);
-  assert.match(prompts.azul, /inequivocamente menino ou masculino conforme a idade/u);
-  assert.match(prompts.rosa, /papel menina_feminina/u);
-  assert.match(prompts.rosa, /inequivocamente menina ou feminina conforme a idade/u);
-  assert.match(prompts.arco_iris, /papel neutro/u);
+  assert.match(prompts.azul, /claramente masculina/u);
+  assert.match(prompts.azul, /camisa azul lisa, short azul-claro/u);
+  assert.doesNotMatch(prompts.azul, /feminina|neutra/u);
+  assert.match(prompts.rosa, /claramente feminina/u);
+  assert.match(prompts.rosa, /camisa rosa lisa, short rosa-claro/u);
+  assert.doesNotMatch(prompts.rosa, /masculina|neutra/u);
+  assert.match(prompts.arco_iris, /Apresentacao neutra equilibrada/u);
   assert.match(prompts.arco_iris, /sem predominancia masculina ou feminina/u);
-  assert.match(prompts.arco_iris, /nao equivale automaticamente a classificacao LGBT/u);
+  assert.match(prompts.arco_iris, /vermelho, laranja, amarelo, verde, azul e roxo/u);
+  assert.match(prompts.arco_iris, /short off-white/u);
   for (const prompt of Object.values(prompts)) {
     assert.match(prompt, /mesmo personagem/u);
-    assert.match(prompt, /idade/u);
-    assert.match(prompt, /anatomia essencial/u);
-    assert.match(prompt, /profissao ou funcao/u);
-    assert.match(prompt, /origem regional/u);
-    assert.match(prompt, /deficiencia/u);
+    assert.match(prompt, /mesmo cabelo ou topete/u);
+    assert.match(prompt, /mesma anatomia/u);
+    assert.match(prompt, /mesmas proporcoes/u);
+    assert.match(prompt, /mesma pose/u);
+    assert.match(prompt, /Nao altere cabelo ou topete/u);
+    assert.doesNotMatch(prompt, /short ou calca/u);
     assert.match(prompt, /Um unico personagem, corpo inteiro/u);
     assert.match(prompt, /Sem sexualizacao, exagero ou caricatura ofensiva/u);
     assert.match(prompt, /Sem maos nos bolsos, texto/u);
@@ -52,7 +56,7 @@ test("identity prompts consume the authoritative semantic definitions", () => {
     assert.match(prompt, /cenario/u);
     assert.match(prompt, /referencia incorporada/u);
     assert.match(prompt, /base tecnica visivel/u);
-    assert.match(prompt, /o Pig Principal nao pode aparecer no resultado/u);
-    assert.doesNotMatch(prompt, /identidade padrao/u);
+    assert.match(prompt, /Nao crie quarta identidade/u);
+    assert.match(prompt, /roupa bege/u);
   }
 });

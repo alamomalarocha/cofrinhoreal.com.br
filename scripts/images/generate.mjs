@@ -31,6 +31,7 @@ import {
 } from "./budget.mjs";
 import { loadRuntimeEnvironment } from "./env-file.mjs";
 import { runPreflight } from "./preflight.mjs";
+import { IDENTITY_MAX_COST_USD, runIdentityPreflight } from "./identity-preflight.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 
@@ -75,7 +76,10 @@ export async function generateOne({
     estimated_cost_usd: Number(context.config.provider.estimated_cost_usd_per_image || 0),
   };
   const maxAttempts = Number(args["--max-attempts"] || context.config.limits.max_attempts);
-  const preflight = args["--only-phase-base"] !== undefined
+  const identityMode = args["--only-uid"] !== undefined;
+  const preflight = identityMode
+    ? runIdentityPreflight({ args, context, runtimeEnv, root: ROOT, system: preflightSystem })
+    : args["--only-phase-base"] !== undefined
     ? preflightRunner({
       args,
       context,
@@ -93,14 +97,18 @@ export async function generateOne({
   }
 
   const conditions = {
+    selectionMode: identityMode ? "identity" : "phase_base",
+    requiredUid: identityMode ? item.uid : null,
     requiredPhase: "002",
-    maxAllowedBudgetUsd: PILOT_MAX_COST_USD,
+    maxAllowedBudgetUsd: identityMode ? IDENTITY_MAX_COST_USD : PILOT_MAX_COST_USD,
     requiredBudgetUsd: requiredExclusiveBudget(context.config, maxAttempts),
     selectionCount: items.length,
     gitClean: preflight ? preflight.checks.find((entry) => entry.name === "git_clean")?.passed : false,
     referenceReady: readiness.ready,
     stopAbsent: !fs.existsSync(path.join(ROOT, "data", "image-automation", "STOP")),
     baseAbsent: !fs.existsSync(path.join(ROOT, request.arquivo)),
+    targetAbsent: !fs.existsSync(path.join(ROOT, request.arquivo)),
+    baseApproved: identityMode ? preflight?.base?.approved === true : false,
   };
   const gate = generationGate(context.config, args, runtimeEnv, conditions);
 

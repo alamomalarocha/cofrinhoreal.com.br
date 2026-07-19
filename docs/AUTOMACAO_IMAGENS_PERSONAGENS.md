@@ -63,6 +63,14 @@ O piloto automático contém uma base técnica privada e três identidades públ
 
 Ele usa `gpt-image-2-2026-04-21`, qualidade média, formato PNG e fundo técnico uniforme para remoção local posterior. O primeiro passo é gerar a base do Pig Bebê com o Pig Principal enviado como arquivo binário. Após aprovação humana da base, as três identidades são derivadas exclusivamente dela.
 
+Cada identidade é selecionada isoladamente com `--only-uid`. No piloto 002,
+somente `AVA-002-AZL`, `AVA-002-RSA` e `AVA-002-ARC` são aceitos. O preflight
+exige uma tentativa, orçamento exclusivo de até US$ 0,061430, base privada
+aprovada com hash conhecido, ausência do destino público, `--no-publish`,
+`--no-push` e revisão humana obrigatória. A geração escreve primeiro apenas em
+`data/image-automation/tmp/image-pilot-review/raw/`; promoção para
+`assets/characters/` requer autorização humana posterior.
+
 Não existe dependência de referência manual da fase bebê. A primeira execução futura fica restrita à base privada, sem derivar identidades. A execução paga continua bloqueada por configuração, autorização e orçamento.
 
 O pré-voo e o runner não mudam o estado para `gerando` quando uma trava falha. Os relatórios de runtime ficam em caminhos ignorados pelo Git e não podem registrar chaves.

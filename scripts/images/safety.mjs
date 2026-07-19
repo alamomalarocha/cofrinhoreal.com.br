@@ -40,6 +40,7 @@ export function generationGate(config, args = {}, env = process.env, conditions 
   const maxCostUsd = effectiveMaxCost(config, args, env);
   const requiredPhase = String(conditions.requiredPhase || "002").padStart(3, "0");
   const selectedPhase = String(args["--only-phase-base"] || "").padStart(3, "0");
+  const identityMode = conditions.selectionMode === "identity";
   const storageMode = env.IMAGE_STORAGE_MODE || config.runtime_defaults?.IMAGE_STORAGE_MODE;
   const checks = {
     provider_is_openai: provider.name === "openai",
@@ -51,7 +52,9 @@ export function generationGate(config, args = {}, env = process.env, conditions 
     budget_within_pilot_ceiling: maxCostUsd <= Number(conditions.maxAllowedBudgetUsd || 0.19),
     budget_covers_request: maxCostUsd >= estimatedCost && estimatedCost > 0,
     api_key_present: Boolean(String(env.OPENAI_API_KEY || "").trim()),
-    exact_phase_base: selectedPhase === requiredPhase,
+    exact_selection: identityMode
+      ? String(args["--only-uid"] || "") === String(conditions.requiredUid || "")
+      : selectedPhase === requiredPhase,
     single_selection: conditions.selectionCount === 1,
     no_publish: args["--no-publish"] === true,
     no_push: args["--no-push"] === true,
@@ -61,7 +64,8 @@ export function generationGate(config, args = {}, env = process.env, conditions 
     git_clean: conditions.gitClean === true,
     reference_ready: conditions.referenceReady === true,
     stop_absent: conditions.stopAbsent === true,
-    private_base_absent: conditions.baseAbsent === true,
+    target_absent: identityMode ? conditions.targetAbsent === true : conditions.baseAbsent === true,
+    approved_base_ready: identityMode ? conditions.baseApproved === true : true,
   };
   return {
     authorized: Object.values(checks).every(Boolean),

@@ -142,26 +142,62 @@ export function buildIdentityPrompt(
   if (!policy?.public_identities.includes(identity) || !definition) {
     throw new Error(`Identidade publica nao reconhecida: ${identity}`);
   }
-  const preserve = styleSystem.identity_derivation.preserve.join(", ");
-  const mayChange = styleSystem.identity_derivation.may_change.join(", ");
-  const requirements = styleSystem.identity_derivation.requirements.join("; ");
+  const preserve = [
+    "mesmo personagem", "mesma idade", "mesmo rosto", "mesmos olhos", "mesmo focinho",
+    "mesmas orelhas", "mesma cabeca", "mesmo cabelo ou topete", "mesma anatomia",
+    "mesmas proporcoes", "mesma pose", "mesma posicao dos bracos e maos",
+    "mesma expressao", "mesma camera", "mesmo enquadramento", "mesma iluminacao",
+    "mesmo acabamento 3D", "mesma relacao visual com a matriz privada",
+  ].join(", ");
+  const clothing = {
+    azul: "camisa azul lisa, short azul-claro e tenis branco simples",
+    rosa: "camisa rosa lisa, short rosa-claro e tenis branco simples",
+    arco_iris: "camisa com seis faixas fortes claramente separadas, na ordem vermelho, laranja, amarelo, verde, azul e roxo; short off-white; tenis branco simples",
+  }[identity];
+  const presentation = {
+    azul: "Apresentacao claramente masculina e apropriada a idade, sem acessorios.",
+    rosa: "Apresentacao claramente feminina e apropriada a idade, com diferenciacao infantil sutil, sem maquiagem adulta e sem acessorios excessivos.",
+    arco_iris: "Apresentacao neutra equilibrada, sem predominancia masculina ou feminina; o arco-iris e somente uma identidade visual, nao orientacao sexual.",
+  }[identity];
   return [
     `Use a base tecnica aprovada anexada de ${phase.name} como a unica referencia visual binaria.`,
-    `Edite o mesmo personagem para a identidade ${identity}, com papel ${definition.role} e apresentacao ${definition.presentation}.`,
-    `Leitura visual obrigatoria: ${definition.visual_reading}.`,
+    `Edite o mesmo personagem somente para a identidade ${identity}.`,
+    presentation,
     `Preserve exatamente: ${preserve}.`,
-    `Altere somente: ${mayChange}.`,
-    `Roupa permanente da identidade ${definition.permanent_clothing_identity}: ${definition.clothing}.`,
-    `Regras obrigatorias: ${requirements}.`,
-    definition.neutral
-      ? "Neutralidade visual nao equivale automaticamente a classificacao LGBT ou orientacao sexual."
-      : "A identidade visual nao determina automaticamente orientacao sexual ou classificacao LGBT.",
+    "Altere somente roupa, cores e a apresentacao visual especifica autorizada.",
+    `Roupa obrigatoria: ${clothing}.`,
+    "Nao altere cabelo ou topete, pose, anatomia, proporcoes, rosto, expressao, bracos ou maos.",
+    "Sem acessorio, gorro, bone, laco, chupeta, chocalho, macacao, jardineira, maquiagem, calca, saia, vestido, objeto nas maos, envelhecimento ou adultizacao.",
+    "Nao crie quarta identidade nem use roupa bege como identidade publica.",
+    identity === "arco_iris" ? "Sem simbolo, bandeira, texto ou acessorio ideologico." : "Sem acessorios.",
     "Nunca renderize, copie ou mostre a referencia dentro do resultado: sem miniatura, inset, moldura, painel ou comparacao.",
     "Um unico personagem, corpo inteiro, centralizado.",
     "Sem sexualizacao, exagero ou caricatura ofensiva.",
     "Sem maos nos bolsos, texto, letra, numero, logotipo, moeda, medalha, cenario, objeto extra, outro personagem, referencia incorporada ou base tecnica visivel.",
     `Fundo tecnico uniforme ${technicalBackground}, apropriado para remocao posterior.`,
   ].join("\n");
+}
+
+export const IDENTITY_STRUCTURAL_CHECKLIST = Object.freeze([
+  "rosto_preservado", "olhos_preservados", "focinho_preservado", "orelhas_preservadas",
+  "cabelo_ou_topete_preservado", "anatomia_preservada", "proporcoes_preservadas",
+  "pose_preservada", "bracos_e_maos_preservados", "expressao_preservada",
+  "camera_preservada", "enquadramento_preservado", "iluminacao_preservada",
+  "mudanca_restrita_a_roupa_cor_e_apresentacao", "acessorios_ausentes",
+  "quarta_identidade_ausente",
+]);
+
+export function identityStructuralReviewTemplate({ uid, asset, baseAsset }) {
+  return {
+    schema_version: "1.0.0",
+    uid,
+    asset,
+    base_asset: baseAsset,
+    automatic_decision: "aguardando_revisao",
+    human_review_required: true,
+    automatic_metrics_informative_only: true,
+    checklist: Object.fromEntries(IDENTITY_STRUCTURAL_CHECKLIST.map((key) => [key, null])),
+  };
 }
 
 export function buildPilotPrompt(item, manifest, phaseBootstrap, styleSystem = loadStyleSystem()) {

@@ -24,7 +24,7 @@
       "automatic_lgbt_classification": false,
       "child_label": "Menino Azul",
       "adult_label": "Masculino Azul",
-      "clothing": "camisa azul lisa, short ou calça azul-claro e tênis branco simples"
+      "clothing": "camisa azul lisa, short azul-claro e tênis branco simples"
     },
     "rosa": {
       "technical_value": "rosa",
@@ -37,7 +37,7 @@
       "automatic_lgbt_classification": false,
       "child_label": "Menina Rosa",
       "adult_label": "Feminino Rosa",
-      "clothing": "camisa rosa lisa, short ou calça rosa-claro e tênis branco simples"
+      "clothing": "camisa rosa lisa, short rosa-claro e tênis branco simples"
     },
     "arco_iris": {
       "technical_value": "arco_iris",
@@ -50,7 +50,7 @@
       "automatic_lgbt_classification": false,
       "child_label": "Neutro Arco-íris",
       "adult_label": "Neutro Arco-íris",
-      "clothing": "camisa com seis faixas fortes de arco-íris, short ou calça off-white e tênis branco simples"
+      "clothing": "camisa com seis faixas fortes de arco-íris, short off-white e tênis branco simples"
     }
   },
   "active_order": ["azul", "rosa", "arco_iris"],
@@ -58,7 +58,7 @@
   "identity_derivation": {
     "source": "uma unica base tecnica privada aprovada",
     "preserve": ["mesmo personagem", "idade", "fase da vida", "anatomia essencial", "formato do corpo", "rosto-base", "focinho", "olhos", "orelhas", "pele", "profissao ou funcao", "origem regional", "raca/cor", "deficiencia", "pose-base", "camera", "enquadramento", "iluminacao", "qualidade visual", "personalidade", "historia essencial"],
-    "may_change": ["apresentacao masculina, feminina ou neutra", "roupas", "cores", "cabelo ou topete", "detalhes visuais discretos adequados a idade"],
+    "may_change": ["apresentacao especifica autorizada", "roupas", "cores"],
     "requirements": ["azul exige leitura masculina adequada a idade", "rosa exige leitura feminina adequada a idade", "arco_iris exige equilibrio neutro sem predominancia masculina ou feminina", "mudancas devem ser adequadas a idade", "proibida sexualizacao de criancas", "proibida caricatura ofensiva", "a base privada nao pode aparecer no resultado", "o Pig Principal nao pode aparecer no resultado"]
   },
   "global_pose": {

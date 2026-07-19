@@ -158,8 +158,9 @@ test("approved base unlocks three identities derived only from that base", () =>
       [base.asset_futuro],
     );
     const prompt = buildPilotPrompt(item, context.pilot, context.phaseBootstrap);
-    assert.match(prompt, /Preserve exatamente: mesmo personagem, idade, fase da vida, anatomia essencial/u);
-    assert.match(prompt, /Altere somente: apresentacao masculina, feminina ou neutra, roupas, cores/u);
+    assert.match(prompt, /Preserve exatamente: mesmo personagem, mesma idade, mesmo rosto/u);
+    assert.match(prompt, /mesmo cabelo ou topete, mesma anatomia, mesmas proporcoes, mesma pose/u);
+    assert.match(prompt, /Altere somente roupa, cores e a apresentacao visual especifica autorizada/u);
   }
 });
 
