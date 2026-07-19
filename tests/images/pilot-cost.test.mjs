@@ -20,6 +20,7 @@ import {
 
 test("pilot starts with the private Pig Bebe phase base", () => {
   const context = loadContext();
+  context.events = [];
   const items = selectPlan(context, { "--pilot": true });
   assert.deepEqual(
     items.map((item) => item.asset_futuro),
@@ -43,11 +44,12 @@ test("all life phases declare one private base with the required pose", () => {
       phase.base_asset,
       /^data\/image-automation\/phase-bases\/\d{3}-[\w-]+-base\.png$/u,
     );
-    assert.equal(phase.pose, index === 0 ? "bebe" : "em_pe");
+    assert.equal(phase.pose, index === 0 ? "bebe_primeiros_passos" : "em_pe");
   }
 
-  assert.match(phaseBootstrap.global_pose.bebe.position, /sentado/u);
-  assert.match(phaseBootstrap.global_pose.bebe.arms, /sobre as pernas/u);
+  assert.match(phaseBootstrap.global_pose.bebe_primeiros_passos.position, /em pe/u);
+  assert.match(phaseBootstrap.global_pose.bebe_primeiros_passos.position, /primeiros passos/u);
+  assert.match(phaseBootstrap.global_pose.bebe_primeiros_passos.arms, /maos e pes completamente visiveis/u);
   assert.match(phaseBootstrap.global_pose.em_pe.position, /em pe/u);
   assert.match(phaseBootstrap.global_pose.em_pe.body, /pes paralelos/u);
   assert.match(phaseBootstrap.global_pose.em_pe.arms, /maos abertas/u);
@@ -57,19 +59,39 @@ test("all life phases declare one private base with the required pose", () => {
 
 test("phase-base prompt is deterministic and protects against reference thumbnails", () => {
   const context = loadContext();
+  context.events = [];
   const [item] = selectPlan(context, { "--pilot": true });
   const first = buildPilotPrompt(item, context.pilot, context.phaseBootstrap);
   const second = buildPilotPrompt(item, context.pilot, context.phaseBootstrap);
   assert.equal(sha256(first), sha256(second));
   assert.match(first, /unica referencia visual binaria/u);
-  assert.match(first, /sentado de frente/u);
-  assert.match(first, /maos repousadas naturalmente sobre as pernas/u);
+  assert.match(first, /fase de primeiros passos/u);
+  assert.match(first, /em pe/u);
+  assert.match(first, /sem aparencia de recem-nascido ou crianca escolar/u);
+  assert.doesNotMatch(first, /0 a 2 anos/u);
+  assert.match(first, /camiseta lisa de manga curta, short simples e tenis infantil simples/u);
+  assert.match(first, /maos e pes visiveis/u);
+  assert.match(first, /parentesco visual claro com o Pig Principal/u);
+  assert.match(first, /nao ser miniatura, clone ou copia reduzida/u);
+  assert.match(first, /sem musculatura, ombros largos, cintura adulta, pernas longas ou corpo de adulto reduzido/u);
+  assert.match(first, /PigCoin, moeda, dinheiro, cofrinho/u);
+  assert.match(first, /exatamente dois olhos, duas orelhas, dois bracos, duas maos, duas pernas e dois pes/u);
+  assert.doesNotMatch(first, /sentado/u);
+  assert.doesNotMatch(first, /maos (repousadas |)sobre as pernas/u);
+  assert.equal(context.phaseBootstrap.phases[0].age, "0 a 2 anos");
   assert.match(first, /sem miniatura, inset, moldura, painel, comparacao ou segundo personagem/u);
   assert.match(first, /Sem maos nos bolsos/u);
 });
 
+test("pilot manifest explicitly disables fallback", () => {
+  const context = loadContext();
+  assert.equal(context.config.provider.fallback_model, null);
+  assert.equal(context.pilot.fallback_model, null);
+});
+
 test("pilot base consumes exactly the registered Pig Principal binary", async () => {
   const context = loadContext();
+  context.events = [];
   const base = phaseBaseItem(context.pilot, context.phaseBootstrap);
   const readiness = pilotReferenceReadiness(base, context.pilot);
   assert.equal(readiness.ready, true);
@@ -136,8 +158,9 @@ test("approved base unlocks three identities derived only from that base", () =>
       [base.asset_futuro],
     );
     const prompt = buildPilotPrompt(item, context.pilot, context.phaseBootstrap);
-    assert.match(prompt, /Preserve exatamente: anatomia, rosto, focinho/u);
-    assert.match(prompt, /Altere somente: roupa, cores/u);
+    assert.match(prompt, /Preserve exatamente: mesmo personagem, mesma idade, mesmo rosto/u);
+    assert.match(prompt, /mesmo cabelo ou topete, mesma anatomia, mesmas proporcoes, mesma pose/u);
+    assert.match(prompt, /Altere somente roupa, cores e a apresentacao visual especifica autorizada/u);
   }
 });
 

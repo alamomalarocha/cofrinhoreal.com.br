@@ -1,8 +1,6 @@
 # Assets de Personagens
 
-Esta pasta esta reservada para imagens futuras dos personagens da Vila Fazenda Pig.
-
-Nenhuma imagem oficial de personagem foi criada nesta fase.
+Esta pasta contém os assets públicos oficiais do universo Cofrinho Real. Os 27 avatares aprovados para pré-publicação são descritos em `data/personagens/avatares/avatares-aprovados.json`; publicação e deploy continuam pendentes de autorização separada.
 
 ## Padrão obrigatório
 

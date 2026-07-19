@@ -12,7 +12,11 @@ A automação não poderá iniciar geração paga sem autorização explícita d
 
 - Configuração: `data/image-automation/config.json`.
 - Sistema visual: `data/image-automation/style-system.json`.
-- Eventos: `data/image-automation/state.jsonl`.
+- Eventos: `data/image-automation/state.jsonl`, um log append-only de runtime local,
+  privado e ignorado pelo Git. Ele é criado automaticamente quando necessário;
+  sua ausência em um clone novo é válida e equivale a um histórico vazio. O
+  arquivo `data/image-automation/state.example.jsonl` é somente uma referência
+  estrutural e não contém eventos operacionais.
 - Revisão: `data/image-automation/review-queue.jsonl`.
 - Erros: `data/image-automation/errors.jsonl`.
 - Manifesto do piloto: `data/image-automation/pilot-002-three-identities.json`.
@@ -38,7 +42,7 @@ A automação não poderá iniciar geração paga sem autorização explícita d
 - Um arquivo `data/image-automation/STOP` interrompe a preparação de novos itens.
 - `images:preflight` precisa aprovar as barreiras estruturais antes de uma execução real.
 - O primeiro piloto exige `--only-phase-base 002` e aborta se houver mais de um alvo.
-- O alias `gpt-image-2` não é fallback automático; exige `--allow-model-fallback` explícito.
+- Não existe fallback ou troca de modelo; qualquer falha encerra a única tentativa.
 - O orçamento exclusivo da base 002 não pode ultrapassar US$ 0,19.
 
 ## Estados
@@ -58,6 +62,14 @@ O piloto automático contém uma base técnica privada e três identidades públ
 - `assets/characters/002-pig-bebe-arco-iris.png`
 
 Ele usa `gpt-image-2-2026-04-21`, qualidade média, formato PNG e fundo técnico uniforme para remoção local posterior. O primeiro passo é gerar a base do Pig Bebê com o Pig Principal enviado como arquivo binário. Após aprovação humana da base, as três identidades são derivadas exclusivamente dela.
+
+Cada identidade é selecionada isoladamente com `--only-uid`. No piloto 002,
+somente `AVA-002-AZL`, `AVA-002-RSA` e `AVA-002-ARC` são aceitos. O preflight
+exige uma tentativa, orçamento exclusivo de até US$ 0,061430, base privada
+aprovada com hash conhecido, ausência do destino público, `--no-publish`,
+`--no-push` e revisão humana obrigatória. A geração escreve primeiro apenas em
+`data/image-automation/tmp/image-pilot-review/raw/`; promoção para
+`assets/characters/` requer autorização humana posterior.
 
 Não existe dependência de referência manual da fase bebê. A primeira execução futura fica restrita à base privada, sem derivar identidades. A execução paga continua bloqueada por configuração, autorização e orçamento.
 

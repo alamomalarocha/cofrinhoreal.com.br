@@ -2,6 +2,8 @@
 
 Atualizado em 2026-07-16.
 
+Este piloto obedece à política oficial em `docs/PADRAO_TRES_IDENTIDADES_E_REPRESENTATIVIDADE.md` e à fonte estruturada `data/image-automation/style-system.json`. A base é privada; Azul exige leitura menino/masculina, Rosa exige leitura menina/feminina e Arco-íris exige equilíbrio neutro, sem classificação LGBT automática.
+
 ## Escopo do piloto
 
 O piloto contém exatamente uma base técnica privada e três identidades derivadas:
@@ -25,11 +27,13 @@ Os prompts são construídos de forma determinística a partir de `data/image-au
 
 Base:
 
-- bebê de 0 a 2 anos;
-- sentado de frente, corpo inteiro e pernas visíveis;
-- mãos sobre as pernas e orelhas levemente baixas;
-- roupa técnica neutra;
+- bebê inequivocamente na fase de primeiros passos;
+- em pé, corpo inteiro, com mãos e pés visíveis;
+- camiseta lisa de manga curta, short simples e tênis infantil em cores neutras;
+- parentesco visual claro com o Pig Principal, sem ser miniatura ou cópia reduzida;
 - sem miniatura da referência, painel, comparação, texto, logo, moeda ou cenário.
+
+A ficha artística oficial, o prompt consolidado e os critérios de revisão estão em `FICHA_VISUAL_BASE_002_PIG_BEBE.md`.
 
 Identidades derivadas da base aprovada:
 
@@ -65,4 +69,4 @@ Todos usam fundo técnico uniforme `#777777`, sem cenário nem sombra externa, p
 
 A ativação inicial não abrange as três identidades. Ela seleciona somente a base privada `002-pig-bebe-base.png` por meio de `--only-phase-base 002`. Qualquer seleção vazia, múltipla ou diferente deve abortar antes da API.
 
-O teto rígido e exclusivo é US$ 0,19 para até três tentativas dessa base. O saldo é verificado antes de cada tentativa e o registro deve conter modelo, estimativa, número da tentativa, resultado e orçamento restante. Depois de uma geração futura, o fluxo permitido é: arquivo bruto privado, remoção local do fundo, validação RGBA e fila de revisão humana. Nenhum status público, identidade derivada, publicação ou push automático pode avançar.
+O primeiro piloto permite exatamente uma tentativa dessa base. A estimativa registrada atualmente para essa chamada é de aproximadamente US$ 0,06143 e pode variar conforme a tabela de preços configurada. O teto rígido e exclusivo de US$ 0,19 é somente um limite financeiro e não autoriza retry. Se a chamada falhar, o processo para sem fallback e aguarda nova decisão humana. Depois de uma geração futura, o fluxo permitido é: arquivo bruto privado, remoção local do fundo, validação RGBA e fila de revisão humana. Nenhum status público, identidade derivada, publicação ou push automático pode avançar.

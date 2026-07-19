@@ -1,6 +1,12 @@
 # Avatares do Cofrinho Real
 
-Atualizado em 2026-07-14.
+Atualizado em 2026-07-19.
+
+## Catálogo aprovado para pré-publicação
+
+O catálogo oficial de aprovação está em `data/personagens/avatares/avatares-aprovados.json`. Ele contém exatamente 27 avatares revisados pelo responsável do projeto: três identidades nas fases 002, 003, 004, 006, 007, 008, 009, 010 e 011. Os PNGs byte-idênticos ficam em `assets/characters/`.
+
+A fase 005 permanece bloqueada e em preparação, sem UID ou PNG público. As imagens aprovadas ainda não foram publicadas nem implantadas; esta etapa é somente de pré-publicação.
 
 ## Separação de papéis
 
@@ -30,3 +36,15 @@ O sistema de quatro variações foi substituído por três identidades visuais: 
 - Antes de qualquer login futuro, usar o Pig Principal como referência pública universal.
 
 Consulte `GUIA_IDENTIDADES_AVATARES.md`, `REFERENCIA_PIG_PRINCIPAL.md` e `RESET_VISUAL_TRES_IDENTIDADES.md`.
+
+<!-- image-automation:assets/characters/002-pig-bebe-azul.png -->
+- 002 - Pig Bebê - azul:
+  `assets/characters/002-pig-bebe-azul.png` aprovado e incorporado ao catalogo local em 2026-07-19T12:05:09.620Z.
+
+<!-- image-automation:assets/characters/002-pig-bebe-rosa.png -->
+- 002 - Pig Bebê - rosa:
+  `assets/characters/002-pig-bebe-rosa.png` aprovado e incorporado ao catalogo local em 2026-07-19T12:05:10.691Z.
+
+<!-- image-automation:assets/characters/002-pig-bebe-arco-iris.png -->
+- 002 - Pig Bebê - arco_iris:
+  `assets/characters/002-pig-bebe-arco-iris.png` aprovado e incorporado ao catalogo local em 2026-07-19T12:05:11.821Z.

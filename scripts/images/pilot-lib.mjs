@@ -31,6 +31,13 @@ export function loadPhaseBootstrap(
   return readJson(relativePath, root);
 }
 
+export function loadStyleSystem(
+  relativePath = "data/image-automation/style-system.json",
+  root = ROOT,
+) {
+  return readJson(relativePath, root);
+}
+
 export function phaseByKey(phaseBootstrap, key) {
   return phaseBootstrap.phases.find((phase) => phase.key === key) || null;
 }
@@ -92,29 +99,43 @@ function poseDescription(phase, phaseBootstrap) {
   ].join("; ");
 }
 
-function identityClothing(identity) {
-  if (identity === "azul") {
-    return "roupa simples azul, lisa, sem marca ou simbolo";
-  }
-  if (identity === "rosa") {
-    return "roupa simples rosa, lisa, sem marca ou simbolo";
-  }
-  if (identity === "arco_iris") {
-    return "camisa com faixas horizontais fortes de arco-iris em vermelho, laranja, amarelo, verde, azul e roxo; parte inferior off-white";
-  }
-  throw new Error(`Identidade do piloto nao reconhecida: ${identity}`);
-}
-
 export function buildPhaseBasePrompt(
   phase,
   phaseBootstrap,
   technicalBackground = "#777777",
 ) {
+  if (phase.numero === "006") {
+    return [
+      "Create one wholesome, fully clothed, non-human cartoon pig mascot for a children's educational financial-literacy application. This is a friendly adolescent-stage character design, standing in a neutral pose.",
+      "Design one stylized anthropomorphic pig mascot for a family-friendly, classroom-appropriate educational universe.",
+      "The mascot wears an off-white shirt covering the torso, light beige trousers covering the hips and legs, and simple white sneakers on both feet.",
+      "Use adolescent-stage proportions: a slightly taller and more elongated body than the preceding life stage, with youthful, friendly facial features and natural proportions consistent with the Pig Universe.",
+      "Show a neutral standing pose, friendly expression, full body, and clearly visible hands and feet.",
+      `Use a uniform technical background ${technicalBackground}.`,
+      "Create exactly one character. Keep the composition clean, simple, educational, and suitable for children and families.",
+      "Use the attached Pig Principal image as the only binary visual reference for family resemblance.",
+      "Keep the reference external to the finished artwork; the result contains only the new mascot on the uniform background.",
+      "Use a neutral off-white, light beige, and white technical-clothing palette, with no scenery, text, branding, symbols, handheld items, or decorative objects.",
+    ].join("\n");
+  }
+  const sections = phase.prompt_sections || {};
+  const visualAge = phase.visual_age || `${phase.name}, representando ${phase.age}`;
+  const sectionLines = [
+    ["Conceito", sections.concept],
+    ["Anatomia obrigatoria", sections.anatomy],
+    ["Expressao obrigatoria", sections.expression],
+    ["Composicao obrigatoria", sections.composition],
+    ["Elementos proibidos", sections.prohibited],
+    ["Integridade anatomica", sections.integrity],
+  ]
+    .filter(([, values]) => Array.isArray(values) && values.length > 0)
+    .map(([label, values]) => `${label}: ${values.join("; ")}.`);
   return [
     "Use o PNG anexado do Pig Principal como a unica referencia visual binaria da identidade do personagem.",
-    `Crie uma unica base tecnica interna da fase ${phase.name}, representando ${phase.age}.`,
+    `Crie uma unica base tecnica interna da fase ${visualAge}.`,
     `Pose obrigatoria: ${poseDescription(phase, phaseBootstrap)}.`,
     `Roupa: ${phase.technical_clothing}.`,
+    ...sectionLines,
     `Fundo tecnico uniforme ${technicalBackground}, apropriado para remocao posterior.`,
     "Preserve a familia visual do Pig Principal, mas adapte claramente anatomia e proporcoes para a fase da vida.",
     "Nunca renderize, copie ou mostre a imagem de referencia dentro do resultado: sem miniatura, inset, moldura, painel, comparacao ou segundo personagem.",
@@ -123,27 +144,81 @@ export function buildPhaseBasePrompt(
   ].join("\n");
 }
 
+export function phaseBasePromptRevision(phase) {
+  return phase.numero === "006" ? "phase-006-safe-v2" : "phase-base-v1";
+}
+
 export function buildIdentityPrompt(
   identity,
   phase,
   phaseBootstrap,
   technicalBackground = "#777777",
+  styleSystem = loadStyleSystem(),
 ) {
-  const preserve = phaseBootstrap.identity_derivation.preserve.join(", ");
-  const mayChange = phaseBootstrap.identity_derivation.may_change.join(", ");
+  const policy = styleSystem.identity_policy;
+  const definition = styleSystem.identities[identity];
+  if (!policy?.public_identities.includes(identity) || !definition) {
+    throw new Error(`Identidade publica nao reconhecida: ${identity}`);
+  }
+  const preserve = [
+    "mesmo personagem", "mesma idade", "mesmo rosto", "mesmos olhos", "mesmo focinho",
+    "mesmas orelhas", "mesma cabeca", "mesmo cabelo ou topete", "mesma anatomia",
+    "mesmas proporcoes", "mesma pose", "mesma posicao dos bracos e maos",
+    "mesma expressao", "mesma camera", "mesmo enquadramento", "mesma iluminacao",
+    "mesmo acabamento 3D", "mesma relacao visual com a matriz privada",
+  ].join(", ");
+  const clothing = {
+    azul: "camisa azul lisa, short azul-claro e tenis branco simples",
+    rosa: "camisa rosa lisa, short rosa-claro e tenis branco simples",
+    arco_iris: "camisa com seis faixas fortes claramente separadas, na ordem vermelho, laranja, amarelo, verde, azul e roxo; short off-white; tenis branco simples",
+  }[identity];
+  const presentation = {
+    azul: "Apresentacao claramente masculina e apropriada a idade, sem acessorios.",
+    rosa: "Apresentacao claramente feminina e apropriada a idade, com diferenciacao infantil sutil, sem maquiagem adulta e sem acessorios excessivos.",
+    arco_iris: "Apresentacao neutra equilibrada, sem predominancia masculina ou feminina; o arco-iris e somente uma identidade visual, nao orientacao sexual.",
+  }[identity];
   return [
     `Use a base tecnica aprovada anexada de ${phase.name} como a unica referencia visual binaria.`,
-    `Edite o mesmo personagem para a identidade ${identity}.`,
+    `Edite o mesmo personagem somente para a identidade ${identity}.`,
+    presentation,
     `Preserve exatamente: ${preserve}.`,
-    `Altere somente: ${mayChange}.`,
-    `Roupa: ${identityClothing(identity)}.`,
+    "Altere somente roupa, cores e a apresentacao visual especifica autorizada.",
+    `Roupa obrigatoria: ${clothing}.`,
+    "Nao altere cabelo ou topete, pose, anatomia, proporcoes, rosto, expressao, bracos ou maos.",
+    "Sem acessorio, gorro, bone, laco, chupeta, chocalho, macacao, jardineira, maquiagem, calca, saia, vestido, objeto nas maos, envelhecimento ou adultizacao.",
+    "Nao crie quarta identidade nem use roupa bege como identidade publica.",
+    identity === "arco_iris" ? "Sem simbolo, bandeira, texto ou acessorio ideologico." : "Sem acessorios.",
     "Nunca renderize, copie ou mostre a referencia dentro do resultado: sem miniatura, inset, moldura, painel ou comparacao.",
-    "Sem maos nos bolsos, texto, letra, numero, logo, moeda, medalha, cenario, objeto extra ou outro personagem.",
+    "Um unico personagem, corpo inteiro, centralizado.",
+    "Sem sexualizacao, exagero ou caricatura ofensiva.",
+    "Sem maos nos bolsos, texto, letra, numero, logotipo, moeda, medalha, cenario, objeto extra, outro personagem, referencia incorporada ou base tecnica visivel.",
     `Fundo tecnico uniforme ${technicalBackground}, apropriado para remocao posterior.`,
   ].join("\n");
 }
 
-export function buildPilotPrompt(item, manifest, phaseBootstrap) {
+export const IDENTITY_STRUCTURAL_CHECKLIST = Object.freeze([
+  "rosto_preservado", "olhos_preservados", "focinho_preservado", "orelhas_preservadas",
+  "cabelo_ou_topete_preservado", "anatomia_preservada", "proporcoes_preservadas",
+  "pose_preservada", "bracos_e_maos_preservados", "expressao_preservada",
+  "camera_preservada", "enquadramento_preservado", "iluminacao_preservada",
+  "mudanca_restrita_a_roupa_cor_e_apresentacao", "acessorios_ausentes",
+  "quarta_identidade_ausente",
+]);
+
+export function identityStructuralReviewTemplate({ uid, asset, baseAsset }) {
+  return {
+    schema_version: "1.0.0",
+    uid,
+    asset,
+    base_asset: baseAsset,
+    automatic_decision: "aguardando_revisao",
+    human_review_required: true,
+    automatic_metrics_informative_only: true,
+    checklist: Object.fromEntries(IDENTITY_STRUCTURAL_CHECKLIST.map((key) => [key, null])),
+  };
+}
+
+export function buildPilotPrompt(item, manifest, phaseBootstrap, styleSystem = loadStyleSystem()) {
   const pilotItem = pilotItemForAsset(manifest, item.asset_futuro);
   if (!pilotItem) {
     throw new Error(`Item fora do piloto automatico: ${normalizeAsset(item.asset_futuro)}`);
@@ -157,6 +232,7 @@ export function buildPilotPrompt(item, manifest, phaseBootstrap) {
       phase,
       phaseBootstrap,
       manifest.technical_background,
+      styleSystem,
     );
 }
 

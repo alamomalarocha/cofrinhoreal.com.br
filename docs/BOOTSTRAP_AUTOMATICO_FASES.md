@@ -26,9 +26,9 @@ As bases ficam em `data/image-automation/phase-bases/`. Elas não recebem númer
 
 ### Bebê
 
-- sentado de frente;
+- em pé, na fase de primeiros passos;
 - corpo inteiro e pernas visíveis;
-- mãos repousadas sobre as pernas;
+- braços relaxados, com mãos e pés completamente visíveis;
 - orelhas levemente baixas;
 - câmera frontal e expressão acolhedora.
 
@@ -47,7 +47,15 @@ Mãos nos bolsos não fazem parte da pose oficial. Quando um personagem precisar
 
 Azul, Rosa e Arco-íris são edições da mesma base técnica aprovada. Devem preservar anatomia, rosto, focinho, olhos, orelhas, corpo, pose, câmera, enquadramento, iluminação, tamanho e posição de mãos e pés.
 
-Podem variar somente roupa, cores, traços discretos de apresentação e cabelo ou topete quando necessário.
+Podem variar somente roupa, cores e a apresentação visual específica autorizada.
+
+Para o piloto 002, cabelo ou topete, rosto, anatomia, proporções, pose, braços,
+mãos, expressão, câmera, enquadramento e iluminação permanecem imutáveis. Cada
+identidade usa somente a base privada aprovada como referência binária, nunca
+outra identidade, o Pig Principal ou rascunhos históricos. A fidelidade RGB
+compara o bruto da própria identidade com sua cópia após remoção de fundo; a
+preservação anatômica entre base e identidade depende de checklist humano e não
+pode ser aprovada automaticamente por pHash, dimensões ou bounding box.
 
 ## Proteções visuais
 

@@ -50,9 +50,85 @@ function reviewReports(root) {
     .filter(Boolean);
 }
 
-function assertNotDuplicate(root, asset, validation, maxDistance) {
+function officialSiblingIdentity(context, currentItem, priorItem, asset, priorReport) {
+  const official = context.styles?.identity_policy?.public_identities
+    || ["azul", "rosa", "arco_iris"];
+  const currentKind = currentItem.kind || "character";
+  const priorKind = priorItem?.kind || "character";
+  return Boolean(
+    priorItem
+    && currentKind === "character"
+    && priorKind === "character"
+    && String(currentItem.numero) === String(priorItem.numero)
+    && String(currentItem.slug || currentItem.nome) === String(priorItem.slug || priorItem.nome)
+    && currentItem.estilo !== priorItem.estilo
+    && official.includes(currentItem.estilo)
+    && official.includes(priorItem.estilo)
+    && currentItem.estilo !== "padrao"
+    && priorItem.estilo !== "padrao"
+    && asset !== priorReport.asset
+  );
+}
+
+function officialIdentityPhaseBase(context, currentItem, asset, priorReport) {
+  const officialUids = new Set(["AVA-002-AZL", "AVA-002-RSA", "AVA-002-ARC"]);
+  const officialStyles = new Set(["azul", "rosa", "arco_iris"]);
+  const pilotItem = context.pilot?.items?.find((entry) => (
+    entry.uid === currentItem.uid
+    && normalizeAsset(entry.asset) === asset
+  ));
+  const referenceKeys = pilotItem?.reference_keys;
+  if (!Array.isArray(referenceKeys) || referenceKeys.length !== 1) return false;
+  const reference = context.pilot?.references?.[referenceKeys[0]];
+  const baseAsset = normalizeAsset(reference?.asset || "");
+  return Boolean(
+    officialUids.has(currentItem.uid)
+    && officialStyles.has(currentItem.estilo)
+    && (currentItem.kind || "character") === "character"
+    && pilotItem?.kind === "identity"
+    && pilotItem.identity === currentItem.estilo
+    && reference?.role === "approved-phase-base"
+    && reference?.required === true
+    && reference?.required_state === "aprovada"
+    && baseAsset === "data/image-automation/phase-bases/002-pig-bebe-base.png"
+    && baseAsset === normalizeAsset(priorReport.asset)
+    && String(currentItem.numero) === String(priorReport.numero)
+    && priorReport.kind === "phase_base"
+    && priorReport.decision === "approved"
+    && asset.startsWith("assets/characters/")
+    && baseAsset.startsWith("data/image-automation/phase-bases/")
+  );
+}
+
+function officialLifeStagePhaseBase(context, currentItem, asset, priorReport, visual) {
+  const eligible = new Set(["003", "004", "006", "007", "008", "009", "010", "011"]);
+  const currentPhase = context.phaseBootstrap?.phases?.find((phase) => (
+    String(phase.numero) === String(currentItem.numero)
+    && normalizeAsset(phase.base_asset) === asset
+  ));
+  const priorPhase = context.phaseBootstrap?.phases?.find((phase) => (
+    String(phase.numero) === String(priorReport.numero)
+    && normalizeAsset(phase.base_asset) === normalizeAsset(priorReport.asset)
+  ));
+  return Boolean(
+    currentItem.kind === "phase_base"
+    && priorReport.kind === "phase_base"
+    && currentPhase
+    && priorPhase
+    && eligible.has(String(currentItem.numero))
+    && eligible.has(String(priorReport.numero))
+    && String(currentItem.numero) !== String(priorReport.numero)
+    && visual?.human_decision === "approved"
+    && visual?.reviewer === "Alamo Rocha"
+    && asset.startsWith("data/image-automation/phase-bases/")
+  );
+}
+
+function assertNotDuplicate(root, asset, item, validation, maxDistance, context, visual) {
+  const exceptions = [];
   for (const report of reviewReports(root)) {
-    if (report.decision !== "approved" || report.asset === asset) continue;
+    if (report.asset === asset) continue;
+    if (report.decision !== "approved" && report.kind !== "phase_base") continue;
     if (report.sha256 && report.sha256 === validation.sha256) {
       throw new Error(`Duplicata exata de ${report.asset}; aprovacao bloqueada.`);
     }
@@ -61,11 +137,43 @@ function assertNotDuplicate(root, asset, validation, maxDistance) {
       validation.perceptual_hash,
     );
     if (distance <= maxDistance) {
+      const priorItem = findAutomationItem(context, report.asset);
+      if (officialSiblingIdentity(context, item, priorItem, asset, report)) {
+        exceptions.push({
+          reason: "official_sibling_identities_same_character",
+          related_asset: report.asset,
+          related_kind: report.kind || "character",
+          sha256_equal: false,
+          phash_distance: distance,
+        });
+        continue;
+      }
+      if (officialIdentityPhaseBase(context, item, asset, report)) {
+        exceptions.push({
+          reason: "official_identity_derived_from_approved_phase_base",
+          related_asset: report.asset,
+          related_kind: "phase_base",
+          sha256_equal: false,
+          phash_distance: distance,
+        });
+        continue;
+      }
+      if (officialLifeStagePhaseBase(context, item, asset, report, visual)) {
+        exceptions.push({
+          reason: "official_life_stage_phase_series_same_universe",
+          related_asset: report.asset,
+          related_kind: "phase_base",
+          sha256_equal: false,
+          phash_distance: distance,
+        });
+        continue;
+      }
       throw new Error(
         `Possivel duplicata visual de ${report.asset} (distancia pHash ${distance}); aprovacao bloqueada.`,
       );
     }
   }
+  return exceptions;
 }
 
 function appendState(options, event) {
@@ -120,9 +228,12 @@ export function reviewAsset({
     throw new Error("A revisao exige relatorio visual apto e revisao humana obrigatoria.");
   }
 
+  let perceptualSimilarityExceptions = [];
   if (action === "approve") {
     const maxDistance = Number(context.config.validation?.duplicate_phash_distance_max ?? 4);
-    assertNotDuplicate(root, normalized, validation, maxDistance);
+    perceptualSimilarityExceptions = assertNotDuplicate(
+      root, normalized, item, validation, maxDistance, context, visual,
+    );
   }
 
   const decision = action === "approve" ? "approved" : "rejected";
@@ -149,6 +260,15 @@ export function reviewAsset({
     catalog_updated: false,
     published: false,
   };
+  if (perceptualSimilarityExceptions.length > 0) {
+    const primary = perceptualSimilarityExceptions[0];
+    report.perceptual_similarity_allowed = true;
+    report.perceptual_similarity_reason = primary.reason;
+    report.perceptual_similarity_related_asset = primary.related_asset;
+    report.perceptual_similarity_related_kind = primary.related_kind;
+    report.perceptual_similarity_sha256_equal = primary.sha256_equal;
+    report.perceptual_similarity_exceptions = perceptualSimilarityExceptions;
+  }
   if (action === "approve" && item.kind === "phase_base") {
     const internalTarget = path.join(projectRoot, ...normalized.split("/"));
     copyPreservingSource(destination, internalTarget);

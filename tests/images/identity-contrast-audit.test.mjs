@@ -1,0 +1,16 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import test from "node:test";
+import { buildIdentityContrastAudit } from "../../scripts/images/identity-contrast-audit.mjs";
+
+const decisions=JSON.parse(fs.readFileSync("data/decisoes-projeto.json","utf8"));
+const style=JSON.parse(fs.readFileSync("data/image-automation/style-system.json","utf8"));
+const config=JSON.parse(fs.readFileSync("data/image-automation/identity-contrast-audit.json","utf8"));
+
+test("DEC-001 through DEC-029 are unique and DEC-017 is intact",()=>{const ids=decisions.decisoes.map(x=>x.id);assert.equal(new Set(ids).size,ids.length);for(let n=1;n<=29;n++)assert(ids.includes(`DEC-${String(n).padStart(3,"0")}`));assert.equal(decisions.decisoes.find(x=>x.id==="DEC-017").titulo,"Primeira ativação restrita a uma base privada");});
+test("DEC-028 and DEC-029 define true neutral and coherent contrast",()=>{const d28=decisions.decisoes.find(x=>x.id==="DEC-028"),d29=decisions.decisoes.find(x=>x.id==="DEC-029");assert.match(d28.descricao,/visualmente neutra/u);assert.match(d28.descricao,/barba, bigode/u);assert.match(d29.descricao,/claramente masculina/u);assert.match(d29.descricao,/não apenas pela cor/u);});
+test("style blocks masculine and feminine markers on Rainbow",()=>{const arc=style.identities.arco_iris;assert.match(arc.visual_reading,/sem parecer claramente homem ou mulher/u);assert(arc.blocked_markers.includes("barba"));assert(arc.blocked_markers.includes("bigode"));assert(arc.blocked_markers.includes("maquiagem claramente feminina"));assert.match(arc.visual_reading,/nunca apenas da cor/u);assert(arc.neutral_aging.length>0);});
+test("audit is restricted, free, inert and human-reviewed",()=>{assert.deepEqual(config.phases,["002","003","004","006","007","008","009","010","011"]);assert.deepEqual(config.blocked_phases,["005"]);assert.deepEqual(config.identities,["azul","rosa","arco_iris"]);assert.deepEqual(config.controls,{api_calls:0,png_created:0,generation_authorized:false,publish:false,deploy:false,catalog:false,promote:false,human_review_required:true});});
+test("inventory has exactly 27 real immutable images and valid UIDs",()=>{const {inventory,result}=buildIdentityContrastAudit();assert.equal(inventory.length,27);assert.equal(new Set(inventory.map(x=>x.uid)).size,27);assert(inventory.every(x=>fs.existsSync(x.path)&&x.sha256.length===64));assert.equal(result.rosa.status,"previously_approved_unchanged");assert.equal(result.phase_005.status,"blocked");});
+test("preliminary classifications cover every Azul and Rainbow exactly once",()=>{for(const identity of ["azul","arco_iris"]){const groups=config.preliminary[identity];const keys=identity==="azul"?["approved_no_change","needs_regeneration","review_required"]:["approved_no_change","needs_regeneration","review_required"];const uids=keys.flatMap(k=>groups[k]);assert.equal(new Set(uids).size,9);assert.equal(uids.length,9);}assert(config.preliminary.arco_iris.beard.includes("AVA-010-ARC"));assert(config.preliminary.arco_iris.mustache.includes("AVA-010-ARC"));});
+test("audit code exposes no provider, generation, catalog, publish or deploy call",()=>{const src=fs.readFileSync("scripts/images/identity-contrast-audit.mjs","utf8");assert.doesNotMatch(src,/OPENAI_API_KEY|generateEdit|createOpenAIImageProvider|updateCatalog|deploy\(/u);});

@@ -44,3 +44,15 @@ A automação não poderá iniciar geração paga sem autorização explícita d
 - status coerente em JSON, CSV e fila;
 - card coerente na Coleção Pig;
 - documentação e Git atualizados.
+
+<!-- image-automation:assets/characters/002-pig-bebe-azul.png -->
+- 002 - Pig Bebê - azul:
+  `assets/characters/002-pig-bebe-azul.png` aprovado e incorporado ao catalogo local em 2026-07-19T12:05:09.620Z.
+
+<!-- image-automation:assets/characters/002-pig-bebe-rosa.png -->
+- 002 - Pig Bebê - rosa:
+  `assets/characters/002-pig-bebe-rosa.png` aprovado e incorporado ao catalogo local em 2026-07-19T12:05:10.691Z.
+
+<!-- image-automation:assets/characters/002-pig-bebe-arco-iris.png -->
+- 002 - Pig Bebê - arco_iris:
+  `assets/characters/002-pig-bebe-arco-iris.png` aprovado e incorporado ao catalogo local em 2026-07-19T12:05:11.821Z.

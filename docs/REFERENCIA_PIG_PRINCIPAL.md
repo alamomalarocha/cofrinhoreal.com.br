@@ -32,7 +32,7 @@ O adaptador da OpenAI envia o PNG do Pig Principal como referência binária na 
 
 SHA-256 registrado:
 
-`56fef39d6300dd6836ca384e7845ca3e3dca15d2fec56cd23f0e10c5d017b3c8`
+`efc4cb94ea1f52d0b27fdf78d931672d23d62de0b0128c57ec829e050ac0acd0`
 
 ## Bases por fase
 

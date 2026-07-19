@@ -31,6 +31,7 @@ import {
 } from "./budget.mjs";
 import { loadRuntimeEnvironment } from "./env-file.mjs";
 import { runPreflight } from "./preflight.mjs";
+import { IDENTITY_MAX_COST_USD, runIdentityPreflight } from "./identity-preflight.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 
@@ -40,8 +41,10 @@ export async function generateOne({
   env = process.env,
   provider,
   preflightSystem,
+  loadEnvironment = loadRuntimeEnvironment,
+  preflightRunner = runPreflight,
 } = {}) {
-  const runtimeEnv = loadRuntimeEnvironment(args, env);
+  const runtimeEnv = loadEnvironment(args, env);
   const items = selectPlan(context, args);
   if (items.length !== 1) {
     const error = new Error(`Geracao exige exatamente um item; selecionados: ${items.length}.`);
@@ -65,7 +68,6 @@ export async function generateOne({
     prompt,
     prompt_hash: record.prompt_hash,
     model: context.config.provider.primary_model || context.config.provider.model,
-    fallback_model: context.config.provider.fallback_model,
     references: readiness.references,
     references_ready: readiness.ready,
     quality: context.config.provider.quality,
@@ -74,11 +76,14 @@ export async function generateOne({
     estimated_cost_usd: Number(context.config.provider.estimated_cost_usd_per_image || 0),
   };
   const maxAttempts = Number(args["--max-attempts"] || context.config.limits.max_attempts);
-  const preflight = args["--only-phase-base"] !== undefined
-    ? runPreflight({
+  const identityMode = args["--only-uid"] !== undefined;
+  const preflight = identityMode
+    ? runIdentityPreflight({ args, context, runtimeEnv, root: ROOT, system: preflightSystem })
+    : args["--only-phase-base"] !== undefined
+    ? preflightRunner({
       args,
       context,
-      env: runtimeEnv,
+      runtimeEnv,
       root: ROOT,
       system: preflightSystem,
     })
@@ -92,14 +97,20 @@ export async function generateOne({
   }
 
   const conditions = {
-    requiredPhase: "002",
-    maxAllowedBudgetUsd: PILOT_MAX_COST_USD,
+    selectionMode: identityMode ? "identity" : "phase_base",
+    requiredUid: identityMode ? item.uid : null,
+    requiredPhase: identityMode ? null : item.numero,
+    maxAllowedBudgetUsd: identityMode
+      ? IDENTITY_MAX_COST_USD
+      : item.numero === "002" ? PILOT_MAX_COST_USD : 0.061430,
     requiredBudgetUsd: requiredExclusiveBudget(context.config, maxAttempts),
     selectionCount: items.length,
     gitClean: preflight ? preflight.checks.find((entry) => entry.name === "git_clean")?.passed : false,
     referenceReady: readiness.ready,
     stopAbsent: !fs.existsSync(path.join(ROOT, "data", "image-automation", "STOP")),
     baseAbsent: !fs.existsSync(path.join(ROOT, request.arquivo)),
+    targetAbsent: !fs.existsSync(path.join(ROOT, request.arquivo)),
+    baseApproved: identityMode ? preflight?.base?.approved === true : false,
   };
   const gate = generationGate(context.config, args, runtimeEnv, conditions);
 
@@ -166,13 +177,11 @@ export async function generateOne({
       referenceFiles,
       prompt,
       model: request.model,
-      fallbackModel: request.fallback_model,
       quality: request.quality,
       size: request.size,
       outputFormat: request.output_format,
       maxAttempts,
       pauseMs: context.config.limits.pause_ms,
-      allowModelFallback: args["--allow-model-fallback"] === true,
       beforeAttempt: ({ attempt, model }) => budget.beforeAttempt({
         asset: request.arquivo,
         attempt,
@@ -214,7 +223,7 @@ export async function generateOne({
     });
   } catch (error) {
     const message = safeErrorMessage(error);
-    appendJsonl("data/image-automation/errors.jsonl", {
+    appendJsonl("data/image-automation/runtime/errors.jsonl", {
       type: "error",
       timestamp: new Date().toISOString(),
       uid: item.uid,

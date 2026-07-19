@@ -86,6 +86,9 @@ export function parseArgs(argv = process.argv.slice(2)) {
       continue;
     }
     const [name, inline] = argument.split(/=(.*)/su, 2);
+    if (name === "--only-uid" && parsed[name] !== undefined) {
+      throw new Error("--only-uid aceita exatamente um UID.");
+    }
     if (inline !== undefined) {
       parsed[name] = inline;
       continue;
@@ -235,6 +238,27 @@ export function findAutomationItem(context, asset) {
 
 export function selectPlan(context, args) {
   const states = latestStates(context.events);
+  if (args["--only-uid"] !== undefined) {
+    if (args["--only-phase-base"] !== undefined) {
+      throw new Error("--only-uid nao pode ser combinado com --only-phase-base.");
+    }
+    const rawUid = args["--only-uid"];
+    if (Array.isArray(rawUid) || typeof rawUid !== "string" || !rawUid.trim() || /[,\s]/u.test(rawUid.trim())) {
+      throw new Error("--only-uid aceita exatamente um UID.");
+    }
+    const uid = rawUid.trim();
+    const allowed = new Set(["AVA-002-AZL", "AVA-002-RSA", "AVA-002-ARC"]);
+    if (!allowed.has(uid)) throw new Error(`UID de identidade nao autorizado: ${uid}.`);
+    const pilotItem = context.pilot.items.find((candidate) => candidate.uid === uid);
+    if (!pilotItem || pilotItem.kind !== "identity" || pilotItem.identity === "padrao") {
+      throw new Error(`UID nao corresponde a uma identidade publica oficial: ${uid}.`);
+    }
+    const item = context.queue.itens.find((candidate) => candidate.uid === uid);
+    if (!item || (item.kind && item.kind !== "character")) {
+      throw new Error(`UID nao corresponde a um personagem da fila: ${uid}.`);
+    }
+    return [item];
+  }
   if (args["--only-phase-base"] !== undefined) {
     const requested = String(args["--only-phase-base"]).trim().padStart(3, "0");
     const phases = context.phaseBootstrap.phases.filter(

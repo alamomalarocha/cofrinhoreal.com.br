@@ -23,11 +23,9 @@ Modelo principal:
 
 `gpt-image-2-2026-04-21`
 
-Fallback:
+Fallback: inexistente.
 
-`gpt-image-2`
-
-O fallback é bloqueado por padrão. Ele só pode ser considerado quando o modelo fixado estiver indisponível **e** o operador informar `--allow-model-fallback`. Falhas de autenticação, orçamento ou validação nunca acionam fallback.
+O adaptador não troca de modelo. Se o snapshot fixado estiver indisponível, a tentativa falha, o erro é sanitizado e o processo aguarda nova decisão humana.
 
 ## Entradas
 

@@ -185,11 +185,8 @@ export function sampleEdgeBackground(image, sampleStep = 8) {
   return [0, 1, 2].map((channel) => median(samples.map((sample) => sample[channel])));
 }
 
-function unblendChannel(observed, background, alpha) {
-  const normalized = Math.max(alpha / 255, 0.02);
-  return Math.max(0, Math.min(255, Math.round(
-    (observed - background * (1 - normalized)) / normalized,
-  )));
+function chromaSpread(rgb) {
+  return Math.max(...rgb) - Math.min(...rgb);
 }
 
 export function removeTechnicalBackground(image, {
@@ -203,7 +200,12 @@ export function removeTechnicalBackground(image, {
   const queue = [];
   const inner = Math.max(0, tolerance);
   const outer = inner + Math.max(1, feather);
-  const floodLimit = outer + Math.max(0, shadowTolerance);
+  // Shadow tolerance is retained as an API-compatible option, but must not
+  // widen the connected flood into light neutral subject details.
+  void shadowTolerance;
+  const floodLimit = outer;
+  const backgroundChroma = chromaSpread(background);
+  const neutralLimit = Math.max(12, backgroundChroma + 10);
   const enqueue = (x, y) => {
     const index = y * image.width + x;
     if (!visited[index]) {
@@ -230,25 +232,20 @@ export function removeTechnicalBackground(image, {
     const rgb = [rgba[offset], rgba[offset + 1], rgba[offset + 2]];
     const distance = colorDistance(rgb, background);
     const originalAlpha = rgba[offset + 3];
-    if (distance > floodLimit && originalAlpha > 8) continue;
+    const chroma = chromaSpread(rgb);
+    if ((distance > floodLimit || chroma > neutralLimit) && originalAlpha > 8) continue;
 
     let nextAlpha = originalAlpha;
     if (distance <= inner) nextAlpha = 0;
     else if (distance <= outer) {
       nextAlpha = Math.round(originalAlpha * ((distance - inner) / (outer - inner)));
-    } else if (distance <= floodLimit) {
-      const shadowScale = (distance - outer) / Math.max(1, floodLimit - outer);
-      nextAlpha = Math.round(originalAlpha * shadowScale * 0.35);
     }
 
     if (nextAlpha === 0 && originalAlpha > 0) removedPixels += 1;
     if (nextAlpha > 0 && nextAlpha < originalAlpha) featheredPixels += 1;
     rgba[offset + 3] = nextAlpha;
-    if (nextAlpha > 0 && nextAlpha < 255) {
-      rgba[offset] = unblendChannel(rgba[offset], background[0], nextAlpha);
-      rgba[offset + 1] = unblendChannel(rgba[offset + 1], background[1], nextAlpha);
-      rgba[offset + 2] = unblendChannel(rgba[offset + 2], background[2], nextAlpha);
-    }
+    // Preserve source RGB. Alpha-only removal cannot amplify small channel
+    // differences into artificial yellow/red colors at translucent edges.
 
     if (x > 0) enqueue(x - 1, y);
     if (x + 1 < image.width) enqueue(x + 1, y);
