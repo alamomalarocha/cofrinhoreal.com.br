@@ -15,7 +15,7 @@ test("public output contains all real routes and a real 404", () => {
   for (const page of pages) assert.equal(fs.existsSync(page === "index" ? path.join(dist, "index.html") : path.join(dist, page, "index.html")), true, page);
 });
 test("public output excludes repository and operational files", () => {
-  for (const relative of ["package.json", "README.md", "docs", "scripts", "tests", "data/image-automation", ".env", "runtime", "tmp"]) assert.equal(fs.existsSync(path.join(dist, relative)), false, relative);
+  for (const relative of ["package.json", "package-lock.json", "pnpm-lock.yaml", "README.md", "docs", "scripts", "tests", "cloudflare", "node_modules", "data/image-automation", ".env", "runtime", "tmp", "checkpoints", "wrangler.toml"]) assert.equal(fs.existsSync(path.join(dist, relative)), false, relative);
   const text = fs.readdirSync(dist, { recursive: true, withFileTypes: true }).filter((entry) => entry.isFile()).map((entry) => fs.readFileSync(path.join(entry.parentPath, entry.name), "utf8")).join("\n");
   assert.doesNotMatch(text, /OPENAI_API_KEY|req_[a-z0-9]+|[A-Z]:\\Users\\|AppData|Bearer\s+[A-Za-z0-9_-]+/iu);
 });
