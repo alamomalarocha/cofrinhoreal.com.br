@@ -1,0 +1,7 @@
+name = "cofrinhoreal-www-redirect"
+main = "worker.mjs"
+compatibility_date = "2026-07-19"
+
+routes = [
+  { pattern = "www.cofrinhoreal.com.br/*", zone_name = "cofrinhoreal.com.br" }
+]

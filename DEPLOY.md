@@ -1,151 +1,64 @@
-# Deploy estático do Cofrinho Real
+# Deploy seguro do Cofrinho Real
 
-Este projeto esta preparado para publicação estática inicial em GitHub e Cloudflare Pages.
+> **AVISO DE SEGURANÇA:** nunca publique a raiz deste repositório. Ela contém código, testes, documentação e dados operacionais que não pertencem ao site público. O Cloudflare Pages deve publicar exclusivamente `dist/`.
 
-Importante: esta versao ainda e apenas um protótipo visual em validação.
+O Cofrinho Real é um site estático em validação, mantido com `noindex`. O deploy oficial usa uma allowlist determinística: somente as páginas e os assets enumerados em `scripts/build-public.mjs` entram no output.
 
-Não existe:
-
-- backend
-- banco de dados
-- login funcional
-- integracao PIX
-- movimentação real de dinheiro
-- conta real de usuário ou comerciante
-
-## Arquivos principais
-
-- `index.html`
-- `styles.css`
-- `script.js`
-- `assets/`
-- `assets/favicon.svg`
-- `site.webmanifest`
-- `robots.txt`
-- `_headers`
-
-## Antes de publicar
-
-1. Abra o protótipo localmente.
-2. Revise os textos.
-3. Confirme que o aviso de protótipo visual aparece no hero.
-4. Confirme que `robots.txt`, `_headers` e a meta tag `robots` devem continuar com `noindex`.
-
-Enquanto o site estiver em teste, manter `noindex`.
-
-Quando decidir tornar o site público para buscas, remover ou alterar:
-
-- `<meta name="robots" content="noindex, nofollow, noarchive" />` em `index.html`
-- o bloqueio em `robots.txt`
-- o cabeçalho `X-Robots-Tag` em `_headers`
-
-## Publicar no GitHub
-
-1. Crie um repositório no GitHub, por exemplo:
+## Configuração persistente do Cloudflare Pages
 
 ```text
-cofrinhoreal.com.br
+Production branch: main
+Build command: npm run build
+Build output directory: dist
 ```
 
-2. No PowerShell, entre na pasta do projeto:
+O diretório de saída jamais deve ser `/`, `.` ou a raiz do repositório. Não use upload direto da árvore de trabalho.
+
+## Preparação e validação
 
 ```powershell
-cd "C:\Users\alamo\OneDrive\Documents\cofrinhoreal.com.br 2"
+npm ci
+npm run build
+npm test
+npm run test:public-output
+npm run test:responsive
+git diff --check
 ```
 
-3. Verifique o status:
+Confirme no relatório do build que o output é `dist`, que a quantidade de arquivos é a esperada e que a denylist está vazia. Revise o conteúdo com `git status --short` e `git diff`. No Git, faça staging explícito por arquivo, por exemplo:
 
 ```powershell
-git status
+git add DEPLOY.md scripts/build-public.mjs tests/public-output.test.mjs
 ```
 
-4. Adicione os arquivos:
+Nunca use staging indiscriminado neste projeto. `dist/` é gerado e não deve ser versionado.
 
-```powershell
-git add .
-```
+## Fronteira pública
 
-5. Crie o commit inicial:
+O build inclui somente a allowlist pública. Estes itens nunca pertencem ao deploy:
 
-```powershell
-git commit -m "Preparar prototipo visual estatico"
-```
+- `package.json`, lockfiles e README;
+- `docs/`, `scripts/`, `tests/` e fonte/configuração do Worker;
+- `data/image-automation/`, runtime, tmp e checkpoints;
+- `.env`, credenciais, tokens ou caminhos internos;
+- qualquer arquivo não enumerado pelo build.
 
-6. Conecte o repositório remoto do GitHub:
+O Worker `cofrinhoreal-www-redirect` é mantido em `cloudflare/www-redirect/` para auditoria e reprodução, mas essa pasta não faz parte de `dist/`.
 
-```powershell
-git remote add origin https://github.com/SEU_USUARIO/cofrinhoreal.com.br.git
-```
+## Verificação após o deploy
 
-7. Envie para o GitHub:
+1. Confirme que o deployment foi criado da branch `main` e do merge commit esperado.
+2. Confirme novamente `npm run build` e `dist` na configuração persistente do Pages.
+3. Teste as rotas reais e uma rota inexistente; a inexistente deve retornar HTTP 404, nunca a homepage com 200.
+4. Teste sem query e com cache-bust as rotas negativas, incluindo `/package.json`, `/README.md`, `/docs/`, `/scripts/`, `/tests/`, `/.env`, `/.git/`, `/package-lock.json`, `/wrangler.toml`, `/node_modules/`, `/data/`, `/tmp/` e checkpoints.
+5. Se um objeto operacional antigo ainda estiver no cache, faça purga direcionada; use purga integral do domínio apenas se a dirigida não for suficiente. Não crie arquivos substitutos nem redirecione vazamentos para a homepage.
+6. Valide desktop e mobile, console, rede, imagens, overflow, menu e filtros.
 
-```powershell
-git branch -M main
-git push -u origin main
-```
+## Prevenção de regressões
 
-Alternativa: o GitHub tambem permite adicionar um projeto local usando GitHub CLI ou upload pela interface web.
+- Sempre incremente uma única versão de cache para CSS e JavaScript quando esses assets mudarem.
+- Mantenha os testes de fronteira pública e de documentação ativos.
+- Preserve o `noindex` até autorização expressa para indexação; não publique sitemap antes disso.
+- Não altere DNS, Worker ou configuração do Pages sem registrar e testar a mudança.
 
-## Publicar no Cloudflare Pages
-
-1. Acesse o painel da Cloudflare.
-2. Va em `Workers & Pages`.
-3. Crie um novo projeto do Pages.
-4. Conecte a conta do GitHub.
-5. Selecione o repositório do Cofrinho Real.
-6. Configure como site estático simples:
-
-```text
-Framework preset: None
-Build command: deixar em branco
-Build output directory: /
-```
-
-Se a interface pedir outro formato para a pasta de saida, use a raiz do repositório.
-
-7. Clique para fazer o primeiro deploy.
-8. A Cloudflare criara uma URL temporaria parecida com:
-
-```text
-https://nome-do-projeto.pages.dev
-```
-
-Use essa URL para testar antes de ligar o dominio principal.
-
-## Conectar o dominio cofrinhoreal.com.br
-
-1. No projeto do Cloudflare Pages, abra `Custom domains`.
-2. Clique em `Set up a domain`.
-3. Informe:
-
-```text
-cofrinhoreal.com.br
-```
-
-4. Siga as instrucoes da Cloudflare para DNS.
-5. Se o dominio estiver em outro registrador, como GoDaddy, pode ser necessário apontar os nameservers para a Cloudflare.
-6. Aguarde a propagacao de DNS e emissao do certificado SSL.
-
-Opcionalmente, tambem configure:
-
-```text
-www.cofrinhoreal.com.br
-```
-
-E redirecione uma versao para a outra quando o site estiver pronto.
-
-## Configuração atual de indexacao
-
-Esta publicação inicial esta preparada para evitar indexacao por buscadores:
-
-- `robots.txt` bloqueia todos os crawlers.
-- `index.html` possui meta robots `noindex`.
-- `_headers` envia `X-Robots-Tag: noindex`.
-
-Isso e intencional enquanto o site for apenas um protótipo visual.
-
-## Referências oficiais
-
-- Cloudflare Pages Git integration: https://developers.cloudflare.com/pages/configuration/git-integration/
-- Cloudflare Pages custom domains: https://developers.cloudflare.com/pages/configuration/custom-domains/
-- GitHub: adicionar código local ao GitHub: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
+Referências: [Cloudflare Pages Git integration](https://developers.cloudflare.com/pages/configuration/git-integration/) e [Custom domains](https://developers.cloudflare.com/pages/configuration/custom-domains/).
