@@ -12,5 +12,8 @@
 | Administração | Mínima | Auditoria e moderação |
 | Mercado/social | Ausente | Supervisionado/protegido |
 | Dinheiro real | Proibido | Projeto separado |
+| Desktop | Apenas planejamento | Plataforma técnica de gestão e construção |
+| Aplicativo | Apenas planejamento | Experiência lúdica e narrativa |
+| Day Trade Pig | Proibido | Simulação educativa sujeita a nova aprovação |
 
 Persistência da Fase 1 é local e descartável por interface substituível. Usuários externos exigem backend privado e novos controles.

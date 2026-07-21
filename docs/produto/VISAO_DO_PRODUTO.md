@@ -10,4 +10,12 @@ Existe apenas no universo; não tem cotação ou equivalência; não pode ser co
 
 Princípios: segurança infantil, regras claras, auditoria, privacidade, acessibilidade, progressão sem promessa financeira e separação absoluta de dinheiro real.
 
+## Desktop e aplicativo
+
+O desktop será técnico, institucional, modular, informativo e orientado a gestão e construção. Poderá usar navegação lateral, métricas, gráficos, status, históricos, extratos, registros, documentação, projetos, patrimônio, configurações, identificadores e auditoria. Deve continuar claro para pessoas sem conhecimento técnico e não copiar identidade ou layout de terceiros.
+
+O aplicativo será lúdico, narrativo, visual, colorido, acolhedor e orientado à experiência e progressão. As duas superfícies compartilharão identidade, personagens, dados, regras, conta, patrimônio e economia educativa.
+
+Navegação futura possível do desktop: Visão Geral, Carteira PIG, Extrato, Mineração, Meu Patrimônio, Cartório Pig, Mercado Pig, Day Trade Pig, Projetos, Documentação e Configurações. Esta visão pode mudar e não amplia a Fase 1.
+
 A ideia futura do troco é projeto separado, sujeito a maturidade e análises jurídica, regulatória e de segurança. PIG Coins nunca serão convertidas.

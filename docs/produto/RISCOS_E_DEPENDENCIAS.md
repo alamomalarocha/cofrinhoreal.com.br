@@ -16,3 +16,14 @@
 | Regulação | Dinheiro real em projeto separado |
 | Dados de teste | Remoção integral ao encerrar o piloto |
 | Usuários externos | Backend privado e revisão antes de convite |
+| Desktop complexo | Hierarquia clara, acessibilidade e testes com usuários comuns |
+| Cópia de terceiros | Inspiração abstrata; identidade, textos e componentes próprios |
+| Portal de desenvolvedor confuso | Linguagem de construção sem jargão obrigatório ou terminal falso |
+| Day trade parecer aposta | Regras transparentes, pistas visíveis e explicação pedagógica |
+| Comportamento compulsivo | Limites, bloqueio diário, pausa e ausência de pressão |
+| Menor confundir PIG Coins com dinheiro | Avisos permanentes, sem cotação ou conversão |
+| Perda incentivar recuperação | Limite máximo, bloqueio e nenhum mecanismo de recuperação |
+| Excesso de notificações | Proibir notificações que pressionem operações |
+| Linguagem de lucro | Foco em risco, interpretação e aprendizagem |
+| Antecipação de fases | Day Trade Pig e mercado proibidos na Fase 1 |
+| Revisão futura | Avaliações pedagógica, infantil e jurídica obrigatórias |

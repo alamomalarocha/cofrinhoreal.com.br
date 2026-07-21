@@ -20,3 +20,12 @@
 - [ ] Testes de regras, privacidade, acessibilidade e segurança.
 
 Implementação exige autorização expressa e branch própria; publicação exige também desbloqueio do suporte.
+
+## Visão futura — sem autorização de implementação
+
+- [ ] Validar arquitetura de informação do desktop técnico e acessível.
+- [ ] Validar experiência lúdica e narrativa do aplicativo.
+- [ ] Revisar navegação futura conforme arquitetura e testes.
+- [ ] Submeter Day Trade Pig a nova decisão, revisão pedagógica, proteção infantil e revisão jurídica.
+- [ ] Definir modelo transparente de pistas, resultados e explicações.
+- [ ] Projetar limites e controles contra compulsão antes de qualquer protótipo funcional.

@@ -11,6 +11,7 @@ Atualizado em 2026-07-21. Fonte operacional principal; decisões numeradas perma
 - Em andamento: validação final desta documentação.
 - Bloqueios: chamado Cloudflare `#02245419`; implementação e Git remoto exigem nova autorização.
 - Decisões aprovadas: persistência local descartável por interface substituível; três perfis de teste; administração auditável; duas atividades; Terreno Inicial; piloto interno; remoção integral.
+- Direção futura aprovada: desktop como plataforma técnica de construção e gestão; aplicativo como experiência lúdica e narrativa; Vantajinho como guia narrativo; Day Trade Pig educativo sujeito a nova aprovação.
 - Decisões pendentes: valores das recompensas, duração e quantidade de usuários externos e desenho do backend privado.
 - Próximo passo: validação final; depois autorização separada para push e PR exclusivamente documentais.
 
@@ -21,6 +22,14 @@ Preparação documental agora; Fase 1 conforme [documento próprio](FASE_1_TESTE
 Último checkpoint: [CHECKPOINT_DIARIO.md](CHECKPOINT_DIARIO.md). Riscos: [RISCOS_E_DEPENDENCIAS.md](RISCOS_E_DEPENDENCIAS.md).
 
 Toda ideia nova deve ser classificada como fase atual, fase futura, decisão pendente, ideia, risco ou dependência. Registro não amplia escopo.
+
+## Direção de experiência futura
+
+No desktop, o usuário deverá sentir que constrói, configura, administra, analisa e acompanha o Universo Cofrinho Real. A linguagem será modular, profissional e acessível, inspirada genericamente em plataformas de infraestrutura, bancos digitais e portais de desenvolvedor, sem copiar marcas, layouts ou componentes de terceiros e sem virar terminal falso.
+
+No aplicativo, o usuário deverá sentir que vive o universo: experiência lúdica, colorida, narrativa, acolhedora e simplificada. Desktop e aplicativo compartilharão conta, dados, regras, personagens, patrimônio e economia educativa, com modos de apresentação diferentes.
+
+A Plataforma Day Trade Pig é visão futura, não pertence à Fase 1 e exigirá nova aprovação formal, revisão pedagógica, proteção infantil e revisão jurídica.
 
 ## Aprovação humana
 
