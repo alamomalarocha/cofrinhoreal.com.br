@@ -15,3 +15,15 @@ Proteções obrigatórias: limites diário, por operação e de perda; bloqueio 
 O Vantajinho apresentará pistas, regras, concentração de risco, limites, pausas, ganhos, perdas e comparação entre trade e investimento de longo prazo. É personagem da interface e não substitui administrador técnico, autorização, acesso, auditoria, backend ou controles programáticos.
 
 Antes de qualquer acesso de menores: nova aprovação, revisão pedagógica, proteção infantil, faixas etárias, consentimento, limites, testes de comportamento, prevenção de compulsão, moderação, auditoria e revisão jurídica. A DEC-018 e a proibição de P2P infantil permanecem.
+
+## Cofrinho Labs e ciclo de propostas
+
+Estados previstos: ideia, rascunho, protótipo, código de teste, enviado, em triagem, elegível, selecionado pela comunidade, aprovado tecnicamente, incluído no backlog, implementado e publicado. Votação nunca equivale a aprovação, merge, deploy ou compromisso de implementação.
+
+Triagem obrigatória antes de votação: segurança, proteção infantil, conteúdo, privacidade, acessibilidade, compatibilidade, direitos autorais, plágio, código malicioso, linguagem ofensiva, dados pessoais, alinhamento e viabilidade.
+
+No ciclo mensal, a equipe modera propostas; finalistas recebem sinal de preferência da comunidade; a equipe realiza revisão final e, se aprovada, implementa em branch controlada. Votação exige elegibilidade, prevenção de duplicidade e contas falsas, proibição de compra de votos ou vantagem por PIG Coins, transparência, auditoria e explicação para rejeição técnica.
+
+Reconhecimento futuro pode incluir badges, nível, histórico, destaque, crédito interno, certificado e PIG Coins fixas e limitadas. Não há pagamento, salário, contratação prometida, participação financeira, direito sobre o projeto ou prêmio real.
+
+Não haverá chat irrestrito, mensagens privadas entre menores, nome real público, executáveis, links livres, dados desnecessários, ranking humilhante ou competição compulsiva. Menores reais exigem consentimento e nova revisão. A votação mensal completa fica depois do piloto interno.

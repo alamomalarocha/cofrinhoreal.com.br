@@ -27,3 +27,16 @@
 | Linguagem de lucro | Foco em risco, interpretação e aprendizagem |
 | Antecipação de fases | Day Trade Pig e mercado proibidos na Fase 1 |
 | Revisão futura | Avaliações pedagógica, infantil e jurídica obrigatórias |
+| Código não confiável | Sandbox descartável e capacidades mínimas |
+| Escape de sandbox/XSS | Isolamento, CSP, validação e testes adversariais |
+| Rede e recursos | Allowlist, tempo, CPU, memória e tamanho limitados |
+| Malware e links | Triagem, bloqueio de binários e links livres |
+| Plágio e direitos autorais | Política, evidências e revisão humana |
+| Conteúdo e dados pessoais | Filtros, moderação, denúncia e minimização |
+| Fraude de votação | Elegibilidade, unicidade, auditoria e antifraude |
+| Competição excessiva | Sem ranking humilhante, gasto ou pressão |
+| Confusão protótipo/oficial | Estados claros e nenhuma integração automática |
+| Expectativa de implementação | Votação é sinal, não compromisso |
+| Escopo da Fase 1 | Módulo opcional ou transferência para Fase 2 |
+| Operação e infraestrutura | Capacidade de moderação e custo futuro |
+| Menores contornarem limites | Categorias explícitas, acesso e revisão infantil |

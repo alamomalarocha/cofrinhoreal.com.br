@@ -15,3 +15,11 @@ Itens posteriores não estão aprovados automaticamente para implementação.
 Antes de usuários externos, a Fase 2 exige backend privado, controles de acesso, política e remoção de dados testadas, revisão de privacidade e aprovação humana.
 
 O Day Trade Pig somente poderá entrar em planejamento executável após fases anteriores maduras, nova aprovação, revisão pedagógica, proteção infantil, definição etária, testes comportamentais, auditoria e revisão jurídica. Não está autorizado para menores reais nem para a Fase 1.
+
+## Posição pendente do Cofrinho Labs
+
+- **A — obrigatório na Fase 1:** não recomendado; amplia prazo, segurança e moderação do núcleo já aprovado.
+- **B — experimental opcional na Fase 1:** recomendação técnica, desde que isolado do caminho crítico, restrito ao piloto interno e com sandbox validada.
+- **C — primeira entrega da Fase 2:** alternativa mais segura se sandbox, moderação ou prazo não estiverem prontos.
+
+A escolha entre B e C depende de aprovação humana. Até lá, o escopo obrigatório da Fase 1 permanece inalterado.

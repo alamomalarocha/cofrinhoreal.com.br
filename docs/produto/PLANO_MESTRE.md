@@ -12,7 +12,8 @@ Atualizado em 2026-07-21. Fonte operacional principal; decisões numeradas perma
 - Bloqueios: chamado Cloudflare `#02245419`; implementação e Git remoto exigem nova autorização.
 - Decisões aprovadas: persistência local descartável por interface substituível; três perfis de teste; administração auditável; duas atividades; Terreno Inicial; piloto interno; remoção integral.
 - Direção futura aprovada: desktop como plataforma técnica de construção e gestão; aplicativo como experiência lúdica e narrativa; Vantajinho como guia narrativo; Day Trade Pig educativo sujeito a nova aprovação.
-- Decisões pendentes: valores das recompensas, duração e quantidade de usuários externos e desenho do backend privado.
+- Nova visão estratégica: `Cofrinho Labs — Área de Desenvolvedores`, nome provisório, para aprendizagem, criação e participação segura na evolução do Universo Cofrinho Real.
+- Decisões pendentes: valores das recompensas, duração e quantidade de usuários externos, desenho do backend privado e entrada do Cofrinho Labs na Fase 1.
 - Próximo passo: validação final; depois autorização separada para push e PR exclusivamente documentais.
 
 ## Backlog e histórico
@@ -30,6 +31,8 @@ No desktop, o usuário deverá sentir que constrói, configura, administra, anal
 No aplicativo, o usuário deverá sentir que vive o universo: experiência lúdica, colorida, narrativa, acolhedora e simplificada. Desktop e aplicativo compartilharão conta, dados, regras, personagens, patrimônio e economia educativa, com modos de apresentação diferentes.
 
 A Plataforma Day Trade Pig é visão futura, não pertence à Fase 1 e exigirá nova aprovação formal, revisão pedagógica, proteção infantil e revisão jurídica.
+
+O Cofrinho Labs poderá ocupar uma aba visível do desktop para ensinar programação, receber ideias e acompanhar propostas. Código de usuário será sempre não confiável, limitado a sandbox isolada e sem acesso ao projeto, Git, backend, secrets, banco, Cloudflare ou produção. A alternativa recomendada para análise humana é um módulo experimental opcional da Fase 1, não um requisito obrigatório; a decisão final permanece pendente.
 
 ## Aprovação humana
 

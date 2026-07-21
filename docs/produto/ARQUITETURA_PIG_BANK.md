@@ -13,3 +13,9 @@ Perfis iniciais: administrador técnico, adulto testador e personagem infantil f
 Toda ação administrativa registra ator, ação, perfil afetado, motivo, data e hora, identificador de correlação e evento no extrato. Alteração direta de saldo sem evento é proibida.
 
 Ao encerrar o piloto, apagar perfis, carteiras, eventos individualizados, patrimônios e sessões. Somente métricas anônimas previamente autorizadas podem permanecer.
+
+## Fronteira futura do Cofrinho Labs
+
+Código submetido é não confiável e somente poderá executar em sandbox descartável, sem secrets, backend, Git, Cloudflare, banco, filesystem do projeto ou produção. Rede deve ser bloqueada ou allowlisted. Aplicar limites de tempo, memória, CPU, tamanho, logs e reinicialização, validação de conteúdo e CSP restritiva.
+
+Não são permitidos código nativo, shell, PowerShell, Python irrestrito, pacotes arbitrários, binários, acesso ao código real ou deploy automático. HTML, CSS, JavaScript restrito, pseudocódigo e blocos exigem modelo explícito de capacidades.

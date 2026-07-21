@@ -29,3 +29,10 @@ Implementação exige autorização expressa e branch própria; publicação exi
 - [ ] Submeter Day Trade Pig a nova decisão, revisão pedagógica, proteção infantil e revisão jurídica.
 - [ ] Definir modelo transparente de pistas, resultados e explicações.
 - [ ] Projetar limites e controles contra compulsão antes de qualquer protótipo funcional.
+- [ ] Aprovar o nome definitivo do Cofrinho Labs.
+- [ ] Decidir entre módulo experimental da Fase 1 e primeira entrega da Fase 2.
+- [ ] Definir modelo de sandbox e capacidades permitidas.
+- [ ] Definir estados, moderação, direitos autorais e política de propostas.
+- [ ] Validar dois desafios educativos e explicações por nível.
+- [ ] Definir capacidade operacional da fila administrativa.
+- [ ] Adiar votação pública completa até depois do piloto interno.

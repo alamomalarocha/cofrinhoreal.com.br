@@ -15,5 +15,6 @@
 | Desktop | Apenas planejamento | Plataforma técnica de gestão e construção |
 | Aplicativo | Apenas planejamento | Experiência lúdica e narrativa |
 | Day Trade Pig | Proibido | Simulação educativa sujeita a nova aprovação |
+| Cofrinho Labs | Decisão pendente: módulo opcional | Ensino, propostas, votação moderada e participação |
 
 Persistência da Fase 1 é local e descartável por interface substituível. Usuários externos exigem backend privado e novos controles.

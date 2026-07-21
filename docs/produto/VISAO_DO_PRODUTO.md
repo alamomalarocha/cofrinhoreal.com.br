@@ -16,6 +16,12 @@ O desktop será técnico, institucional, modular, informativo e orientado a gest
 
 O aplicativo será lúdico, narrativo, visual, colorido, acolhedor e orientado à experiência e progressão. As duas superfícies compartilharão identidade, personagens, dados, regras, conta, patrimônio e economia educativa.
 
-Navegação futura possível do desktop: Visão Geral, Carteira PIG, Extrato, Mineração, Meu Patrimônio, Cartório Pig, Mercado Pig, Day Trade Pig, Projetos, Documentação e Configurações. Esta visão pode mudar e não amplia a Fase 1.
+Navegação futura possível do desktop: Visão Geral, Carteira PIG, Extrato, Mineração, Meu Patrimônio, Cartório Pig, Mercado Pig, Day Trade Pig, Cofrinho Labs, Projetos, Documentação e Configurações. Esta visão pode mudar e não amplia automaticamente a Fase 1.
+
+## Cofrinho Labs
+
+`Cofrinho Labs — Área de Desenvolvedores` é nome provisório para a área em que usuários aprendem lógica e programação, criam protótipos simples, enviam ideias e acompanham propostas. Sugestões de nome: Dev Pig, Laboratório de Desenvolvedores, Construa o Cofrinho e Cofrinho Dev.
+
+A experiência une aprendizagem, criação, desafio, reconhecimento e participação no backlog, sem promessa de contratação, pagamento, propriedade ou implementação garantida.
 
 A ideia futura do troco é projeto separado, sujeito a maturidade e análises jurídica, regulatória e de segurança. PIG Coins nunca serão convertidas.
