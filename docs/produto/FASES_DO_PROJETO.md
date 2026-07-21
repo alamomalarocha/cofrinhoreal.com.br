@@ -1,7 +1,7 @@
 # Fases do Projeto
 
 - **Preparação:** documentação e decisões, sem implementação.
-- **Fase 1:** perfil simulado, carteira, extrato, créditos do sistema, envio simulado, atividades, patrimônio simples e administração mínima.
+- **Fase 1:** três tipos de perfil de teste, carteira, extrato, créditos do sistema, envio simulado, duas atividades, Terreno Inicial e administração auditável.
 - **Fase 2:** piloto controlado, autenticação, família, consentimento e persistência.
 - **Fase 3:** patrimônio e Cartório Pig: imóveis fictícios, reformas, títulos e histórico.
 - **Fase 4:** emissão previsível, recompensas, impostos virtuais, Tesouro Pig e indicadores.
@@ -11,3 +11,5 @@
 - **Projeto separado:** eventual economia real, sem conversão de PIG Coins e com governança própria.
 
 Itens posteriores não estão aprovados automaticamente para implementação.
+
+Antes de usuários externos, a Fase 2 exige backend privado, controles de acesso, política e remoção de dados testadas, revisão de privacidade e aprovação humana.

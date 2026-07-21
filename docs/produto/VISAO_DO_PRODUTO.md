@@ -1,6 +1,6 @@
 # Visão do Produto
 
-O Pig Bank será o banco digital educativo do Universo Cofrinho Real. Cada usuário poderá ter perfil, carteira, saldo, extrato, recebimentos educativos, mineração, patrimônio virtual, títulos e histórico.
+O Pig Bank será o banco digital educativo do Universo Cofrinho Real. Na Fase 1, oferecerá perfis de teste, carteira, saldo, extrato, recebimentos educativos, duas atividades e o Terreno Inicial. Mineração avançada, patrimônio completo, títulos e Cartório Pig pertencem à visão futura.
 
 ## PIG Coin
 

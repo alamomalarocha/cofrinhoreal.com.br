@@ -14,3 +14,5 @@
 | Documento exposto | `dist/` exclusivo e teste |
 | Arquitetura prematura | Decidir persistência primeiro |
 | Regulação | Dinheiro real em projeto separado |
+| Dados de teste | Remoção integral ao encerrar o piloto |
+| Usuários externos | Backend privado e revisão antes de convite |
