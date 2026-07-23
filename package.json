@@ -10,6 +10,7 @@
     "build": "node scripts/build-public.mjs",
     "preview": "node scripts/serve-public.mjs",
     "test:public-output": "node --test tests/public-output.test.mjs",
+    "test:operational-path-guard": "node --test tests/operational-path-guard.test.mjs",
     "test": "node --test tests/images/*.test.mjs tests/deployment-guardrails.test.mjs",
     "images:plan": "node scripts/images/plan.mjs",
     "images:pilot": "node scripts/images/runner.mjs --pilot --resume --dry-run --no-publish --no-push --max-cost-usd 0 --stop-on-error",
