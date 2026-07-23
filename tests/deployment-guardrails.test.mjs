@@ -17,6 +17,23 @@ test("deployment documentation enforces the dist-only boundary", () => {
   assert.doesNotMatch(deploy, /use a raiz do repositório/iu);
 });
 
+test("internal product documentation stays behind the dist-only boundary", () => {
+  const productRoot = path.join(root, "docs", "produto");
+  const documents = fs.readdirSync(productRoot).filter((file) => file.endsWith(".md"));
+  assert.equal(documents.length, 12);
+  for (const file of documents) {
+    const source = fs.readFileSync(path.join(productRoot, file), "utf8");
+    assert.doesNotMatch(source, /Build output directory:\s*\//iu, file);
+    assert.doesNotMatch(source, /git add (?:\.|-A|--all)(?:\s|$)/iu, file);
+    assert.doesNotMatch(source, /publicar (?:a|pela) raiz do repositório/iu, file);
+  }
+
+  const build = read("scripts/build-public.mjs");
+  assert.match(build, /\(\?:docs\|scripts\|tests\|cloudflare/iu);
+  assert.match(build, /output_directory: "dist"/u);
+  assert.doesNotMatch(build, /copy\(["']docs\/produto/iu);
+});
+
 test("all changed CSS and JavaScript references use cache version 46", () => {
   const candidates = fs.readdirSync(root).filter((file) => file.endsWith(".html"));
   const sources = [...candidates, "approved-avatars.js", "scripts/build-public.mjs"];

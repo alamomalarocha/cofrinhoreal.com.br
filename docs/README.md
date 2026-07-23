@@ -9,6 +9,12 @@ Antes de uma alteração estrutural, leia:
 3. `data/decisoes-projeto.json`
 4. Os documentos relacionados ao tema da mudança.
 
+## Plano Mestre Vivo do produto
+
+- [`produto/README.md`](produto/README.md): índice da documentação interna de produto.
+- [`produto/PLANO_MESTRE.md`](produto/PLANO_MESTRE.md): fonte operacional, bloqueios e próximo passo.
+- `docs/produto/` é interno e nunca integra o output público `dist/`.
+
 ## Estado vigente
 
 - Catálogo compilado: 3.251 personagens.
