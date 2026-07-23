@@ -1,0 +1,54 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "cofrinhoreal-operational-path-guard",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-07-23",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "cofrinhoreal.com.br/package.json*",
+      "zone_name": "cofrinhoreal.com.br"
+    },
+    {
+      "pattern": "cofrinhoreal.com.br/package-lock.json*",
+      "zone_name": "cofrinhoreal.com.br"
+    },
+    {
+      "pattern": "cofrinhoreal.com.br/README.md*",
+      "zone_name": "cofrinhoreal.com.br"
+    },
+    {
+      "pattern": "cofrinhoreal.com.br/docs/*",
+      "zone_name": "cofrinhoreal.com.br"
+    },
+    {
+      "pattern": "cofrinhoreal.com.br/scripts/*",
+      "zone_name": "cofrinhoreal.com.br"
+    },
+    {
+      "pattern": "cofrinhoreal.com.br/tests/*",
+      "zone_name": "cofrinhoreal.com.br"
+    },
+    {
+      "pattern": "cofrinhoreal.com.br/data/image-automation/*",
+      "zone_name": "cofrinhoreal.com.br"
+    },
+    {
+      "pattern": "cofrinhoreal.com.br/tmp/*",
+      "zone_name": "cofrinhoreal.com.br"
+    },
+    {
+      "pattern": "cofrinhoreal.com.br/.env*",
+      "zone_name": "cofrinhoreal.com.br"
+    },
+    {
+      "pattern": "cofrinhoreal.com.br/.git/*",
+      "zone_name": "cofrinhoreal.com.br"
+    },
+    {
+      "pattern": "cofrinhoreal.com.br/wrangler.toml*",
+      "zone_name": "cofrinhoreal.com.br"
+    }
+  ]
+}
