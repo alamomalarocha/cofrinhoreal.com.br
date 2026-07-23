@@ -14,6 +14,8 @@ Resumo sem nova numeração e sem substituir `../DECISOES_MESTRAS_PROJETO.md`.
 - Dados locais descartáveis por camada substituível; administração privada e auditável; piloto interno.
 - DEC-018, divisão das fases e fluxo diário de trabalho.
 - Isolamento permanente entre Cofrinho Real e qualquer outro projeto, inclusive arquivos, decisões, código, credenciais, worktrees e operações.
+- Brasileirinho como personagem principal oficial, separado dos avatares, responsável pela explicação narrativa de governo, leis, regras, impostos, Tesouro, políticas públicas e bem comum.
+- Filosofia institucional justa, solidária, pragmática, não partidária e orientada à melhoria da vida da população, com responsabilidade fiscal, proteção social, desenvolvimento e rejeição de autoritarismo ou propaganda partidária.
 
 ## Aprovado como visão futura
 

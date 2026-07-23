@@ -16,6 +16,7 @@ Atualizado em 2026-07-23. Fonte operacional principal; decisões numeradas perma
 - Nova visão estratégica: `Cofrinho Labs — Área de Desenvolvedores`, nome provisório, para aprendizagem, criação e participação segura na evolução do Universo Cofrinho Real.
 - Decisões pendentes: valores das recompensas, duração e quantidade de usuários externos, desenho do backend privado e entrada do Cofrinho Labs na Fase 1.
 - Próximo marco: implementar, em branch e worktree próprios, a atualização visual do desktop. Ideias futuras não entram automaticamente nessa entrega.
+- Primeiro marco visual autorizado: fundação reutilizável de dashboard desktop, apresentação pública inicial do Brasileirinho e entrada explicativa do Cofrinho Labs, sem ativar serviços, contas ou deployment.
 
 ## Estado técnico de produção
 

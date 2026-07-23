@@ -8,6 +8,7 @@ const root = path.resolve(import.meta.dirname, "..");
 const dist = path.join(root, "dist");
 const pages = ["index", "comerciantes", "como-funciona", "cookies", "direitos", "educacao", "familias", "faq", "jogos", "o-que-e", "personagens", "pig-coins", "privacidade", "seguranca", "termos"];
 const catalog = JSON.parse(fs.readFileSync(path.join(dist, "data/personagens/avatares/avatares-aprovados.json"), "utf8"));
+const mainCharacters = JSON.parse(fs.readFileSync(path.join(dist, "data/personagens/personagens-principais.json"), "utf8"));
 const sha = (file) => crypto.createHash("sha256").update(fs.readFileSync(file)).digest("hex");
 
 test("public output contains all real routes and a real 404", () => {
@@ -21,7 +22,10 @@ test("public output excludes repository and operational files", () => {
 });
 test("official public images are byte-identical", () => {
   assert.equal(catalog.avatars.length, 27);
-  assert.equal(sha(path.join(dist, "assets/characters/001-pig-principal.png")), "efc4cb94ea1f52d0b27fdf78d931672d23d62de0b0128c57ec829e050ac0acd0");
+  assert.equal(mainCharacters.official_image_count, 29);
+  assert.equal(mainCharacters.main_character_count, 2);
+  assert.equal(mainCharacters.approved_avatar_count, 27);
+  for (const item of mainCharacters.characters) assert.equal(sha(path.join(dist, item.public_path)), item.sha256, item.uid);
   for (const item of catalog.avatars) assert.equal(sha(path.join(dist, item.public_path)), item.sha256, item.uid);
 });
 test("legal pages have branding and all pages use canonical root host", () => {

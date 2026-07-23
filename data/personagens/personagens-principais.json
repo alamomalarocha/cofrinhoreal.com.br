@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-07-23",
+  "official_image_count": 29,
+  "main_character_count": 2,
+  "approved_avatar_count": 27,
+  "characters": [
+    {
+      "uid": "MAIN-001-PIG",
+      "name": "Pig Principal",
+      "role": "Guia central e professor-amigo do Universo Cofrinho Real",
+      "public_path": "assets/characters/001-pig-principal.png",
+      "sha256": "efc4cb94ea1f52d0b27fdf78d931672d23d62de0b0128c57ec829e050ac0acd0",
+      "width": 1024,
+      "height": 1536,
+      "status": "approved"
+    },
+    {
+      "uid": "MAIN-002-BRA",
+      "name": "Brasileirinho",
+      "role": "Representante narrativo do governo, das regras, dos impostos, do Tesouro e do bem comum",
+      "public_path": "assets/characters/002-brasileirinho.png",
+      "sha256": "8772ba3de734f30f52bfdf5095b31172250dad14c413565e7c270c56344c616e",
+      "width": 1024,
+      "height": 1536,
+      "status": "approved"
+    }
+  ]
+}
