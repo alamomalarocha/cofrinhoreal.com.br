@@ -6,10 +6,10 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const output = path.join(root, "dist");
 const pages = ["index", "comerciantes", "como-funciona", "cookies", "direitos", "educacao", "familias", "faq", "jogos", "o-que-e", "personagens", "pig-coins", "privacidade", "seguranca", "termos"];
-const publicFiles = ["styles.css", "script.js", "approved-avatars.js", "site.webmanifest", "robots.txt", "_headers", "_redirects", "404.html", "assets/favicon.svg", "data/personagens/avatares/avatares-aprovados.json"];
+const publicFiles = ["styles.css", "script.js", "approved-avatars.js", "site.webmanifest", "robots.txt", "_headers", "_redirects", "404.html", "assets/favicon.svg", "data/personagens/avatares/avatares-aprovados.json", "data/personagens/personagens-principais.json"];
 const catalog = JSON.parse(fs.readFileSync(path.join(root, "data/personagens/avatares/avatares-aprovados.json"), "utf8"));
-const images = ["assets/characters/001-pig-principal.png", ...catalog.avatars.map((item) => item.public_path)];
-const pigSha = "efc4cb94ea1f52d0b27fdf78d931672d23d62de0b0128c57ec829e050ac0acd0";
+const mainCharacters = JSON.parse(fs.readFileSync(path.join(root, "data/personagens/personagens-principais.json"), "utf8"));
+const images = [...mainCharacters.characters.map((item) => item.public_path), ...catalog.avatars.map((item) => item.public_path)];
 const sha = (file) => crypto.createHash("sha256").update(fs.readFileSync(file)).digest("hex");
 const copy = (relative) => {
   const source = path.join(root, relative);
@@ -39,7 +39,8 @@ for (const page of pages) {
   if (page !== "index") fs.writeFileSync(path.join(output, `${page}.html`), html);
 }
 for (const file of [...publicFiles, ...images]) copy(file);
-if (sha(path.join(output, images[0])) !== pigSha) throw new Error("SHA do Pig Principal divergiu no build.");
+if (mainCharacters.official_image_count !== 29 || mainCharacters.main_character_count !== 2 || mainCharacters.approved_avatar_count !== 27) throw new Error("Inventário oficial de imagens divergiu.");
+for (const item of mainCharacters.characters) if (sha(path.join(output, item.public_path)) !== item.sha256) throw new Error(`SHA divergente: ${item.uid}`);
 for (const item of catalog.avatars) if (sha(path.join(output, item.public_path)) !== item.sha256) throw new Error(`SHA divergente: ${item.uid}`);
 const forbidden = /(^|\/)(?:docs|scripts|tests|cloudflare|node_modules|runtime|tmp|checkpoints|data\/image-automation)(?:\/|$)|(?:^|\/)(?:package(?:-lock)?\.json|pnpm-lock\.yaml|README\.md|\.env(?:\..*)?|wrangler\.toml)(?:$|\/)/iu;
 const built = fs.readdirSync(output, { recursive: true, withFileTypes: true }).filter((entry) => entry.isFile()).map((entry) => path.relative(output, path.join(entry.parentPath, entry.name)).replaceAll("\\", "/")).sort();

@@ -1,5 +1,14 @@
 # Assets Futuros dos Personagens
 
+## Brasileirinho oficial
+
+- Arquivo: `assets/characters/002-brasileirinho.png`
+- SHA-256: `8772ba3de734f30f52bfdf5095b31172250dad14c413565e7c270c56344c616e`
+- Dimensões: `1024 × 1536`
+- Papel: representante narrativo do governo, das regras, das leis, dos impostos, do Tesouro, das políticas públicas e do bem comum.
+
+O Brasileirinho é personagem principal separado. Não é avatar, não participa dos filtros Azul, Rosa ou Arco-íris, não substitui o Pig Principal e não altera os 27 avatares aprovados. O inventário público passa a ter 29 imagens oficiais: Pig Principal, Brasileirinho e 27 avatares.
+
 As imagens da Vila Pig serao criadas e arquivadas gradualmente, uma por vez, sempre respeitando número, slug e caminho oficial.
 
 ## Regra de nome

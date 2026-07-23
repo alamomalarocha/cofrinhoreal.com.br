@@ -13,6 +13,8 @@ const siteHeader = document.querySelector(".site-header");
 const siteHeaderInner = document.querySelector(".site-header-inner");
 const headerLogo = document.querySelector(".header-logo");
 const cookieKey = "cofrinhoRealPrototypePrivacyNotice";
+const desktopMenuButton = document.querySelector("[data-desktop-menu]");
+const desktopSidebar = document.querySelector("#desktop-sidebar");
 
 function getClosedHeaderHeight() {
   const innerStyles = siteHeaderInner ? window.getComputedStyle(siteHeaderInner) : null;
@@ -70,6 +72,11 @@ function closeMenu() {
   syncHeaderOffset();
 }
 
+function closeDesktopMenu() {
+  document.body.classList.remove("desktop-nav-open");
+  desktopMenuButton?.setAttribute("aria-expanded", "false");
+}
+
 function openLoginModal() {
   closeMenu();
   loginModal?.removeAttribute("hidden");
@@ -85,6 +92,17 @@ menuButton?.addEventListener("click", () => {
   const isOpen = document.body.classList.toggle("nav-open");
   menuButton.setAttribute("aria-expanded", String(isOpen));
   window.requestAnimationFrame(syncHeaderOffset);
+});
+
+desktopMenuButton?.addEventListener("click", () => {
+  const isOpen = document.body.classList.toggle("desktop-nav-open");
+  desktopMenuButton.setAttribute("aria-expanded", String(isOpen));
+});
+
+desktopSidebar?.addEventListener("click", (event) => {
+  if (event.target instanceof HTMLAnchorElement) {
+    closeDesktopMenu();
+  }
 });
 
 navPanel?.addEventListener("click", (event) => {
@@ -148,6 +166,7 @@ try {
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
     closeMenu();
+    closeDesktopMenu();
     closeLoginModal();
   }
 });

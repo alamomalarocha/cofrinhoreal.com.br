@@ -10,6 +10,7 @@
     "build": "node scripts/build-public.mjs",
     "preview": "node scripts/serve-public.mjs",
     "test:public-output": "node --test tests/public-output.test.mjs",
+    "test:desktop-visual": "node --test tests/desktop-visual-foundation.test.mjs",
     "test:operational-path-guard": "node --test tests/operational-path-guard.test.mjs",
     "test": "node --test tests/images/*.test.mjs tests/deployment-guardrails.test.mjs",
     "images:plan": "node scripts/images/plan.mjs",
@@ -33,6 +34,8 @@
     "images:publish": "node scripts/images/publish.mjs",
     "test:guardrails": "node --test tests/deployment-guardrails.test.mjs",
     "test:responsive": "node tests/public-responsive.mjs"
+    ,
+    "review:capture": "node scripts/capture-desktop-review.mjs"
   },
   "dependencies": {
     "openai": "6.39.0"
