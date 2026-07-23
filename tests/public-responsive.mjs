@@ -92,6 +92,20 @@ try {
     }
     await page.locator("body").press("Tab");
     assert.notEqual(await page.evaluate(() => document.activeElement?.tagName), "BODY", `keyboard focus at ${viewport.width}px`);
+    await page.goto(`${origin}/`, { waitUntil: "networkidle" });
+    assert.equal(await page.locator("html").getAttribute("lang"), "pt-BR");
+    assert.equal(await page.locator("main").count(), 1);
+    assert.equal(await page.locator('img[src*="002-brasileirinho"]').getAttribute("alt"), "Brasileirinho, pássaro personagem que representa o governo do Universo Cofrinho Real");
+    assert.equal(await page.locator("button:disabled").count() > 0, true);
+    const desktopMenu = page.locator("[data-desktop-menu]");
+    if (viewport.width <= 860) {
+      await desktopMenu.click();
+      assert.equal(await desktopMenu.getAttribute("aria-expanded"), "true");
+      await page.keyboard.press("Escape");
+      assert.equal(await desktopMenu.getAttribute("aria-expanded"), "false");
+    }
+    const headingOrder = await page.locator("h1, h2, h3").evaluateAll((nodes) => nodes.map((node) => Number(node.tagName.slice(1))));
+    assert.equal(headingOrder.every((level, index) => index === 0 || level <= headingOrder[index - 1] + 1), true, `heading order at ${viewport.width}px`);
     assert.deepEqual(consoleErrors, [], `console errors at ${viewport.width}px`);
     assert.deepEqual(pageErrors, [], `page errors at ${viewport.width}px`);
     assert.deepEqual(failedRequests, [], `network failures at ${viewport.width}px`);
