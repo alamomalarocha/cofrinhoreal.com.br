@@ -1,20 +1,38 @@
 # Plano Mestre Vivo do Cofrinho Real
 
-Atualizado em 2026-07-21. Fonte operacional principal; decisões numeradas permanecem em `../DECISOES_MESTRAS_PROJETO.md`.
+Atualizado em 2026-07-23. Fonte operacional principal; decisões numeradas permanecem em `../DECISOES_MESTRAS_PROJETO.md`.
 
 ## Estado e fase
 
-- Público: protótipo estático preservado; publicação bloqueada.
+- Público: protótipo estático preservado; qualquer novo deployment exige autorização deliberada.
 - Planejamento: Pig Bank educativo, Fase 1 privada.
 - Objetivo: fechar documentação, arquitetura, riscos e backlog antes de implementar.
 - Concluído: site institucional, proteção de `dist/`, PIG Coin educativa e DEC-018 preservada.
-- Em andamento: validação final desta documentação.
-- Bloqueios: chamado Cloudflare `#02245419`; implementação e Git remoto exigem nova autorização.
+- Concluído: PRs #5 e #6, Worker defensivo e correção da rota ampla `data/*` para `data/image-automation/*`.
+- Em andamento: publicação desta documentação aprovada no GitHub, sem deployment do site.
+- Bloqueio remanescente: chamado Cloudflare `#02245419` permanece aberto para o cache interno histórico do Pages. O bloqueio não impede push ou PR documental, mas impede declarar o cache eliminado.
 - Decisões aprovadas: persistência local descartável por interface substituível; três perfis de teste; administração auditável; duas atividades; Terreno Inicial; piloto interno; remoção integral.
 - Direção futura aprovada: desktop como plataforma técnica de construção e gestão; aplicativo como experiência lúdica e narrativa; Vantajinho como guia narrativo; Day Trade Pig educativo sujeito a nova aprovação.
 - Nova visão estratégica: `Cofrinho Labs — Área de Desenvolvedores`, nome provisório, para aprendizagem, criação e participação segura na evolução do Universo Cofrinho Real.
 - Decisões pendentes: valores das recompensas, duração e quantidade de usuários externos, desenho do backend privado e entrada do Cofrinho Labs na Fase 1.
-- Próximo passo: validação final; depois autorização separada para push e PR exclusivamente documentais.
+- Próximo marco: implementar, em branch e worktree próprios, a atualização visual do desktop. Ideias futuras não entram automaticamente nessa entrega.
+
+## Estado técnico de produção
+
+- `main` de referência antes desta consolidação: `3cf609601b40000cea5985c2a63babd2366507c9`.
+- PR #5 implantou o Worker `cofrinhoreal-operational-path-guard`; PR #6 corrigiu a rota ampla de dados sem remover a proteção operacional.
+- Versão implantada do Worker: `5cc14eb6-f45f-4d5a-b5d2-077e58fdf267`.
+- Classificação oficial: `EXPOSIÇÃO HISTÓRICA MITIGADA PELO WORKER`.
+- O Worker protege 11 rotas finais: `package.json*`, `package-lock.json*`, `README.md*`, `docs/*`, `scripts/*`, `tests/*`, `data/image-automation/*`, `tmp/*`, `.env*`, `.git/*` e `wrangler.toml*`, todas exclusivamente no domínio raiz.
+- A rota `data/*` foi removida porque alcançava o catálogo público; a proteção correta é `data/image-automation/*`.
+- O cache interno histórico do Cloudflare Pages não foi declarado eliminado. O chamado `#02245419` continua aberto.
+- Produção automática do Pages permanece desativada e previews automáticos permanecem em `none`. A integração GitHub continua conectada, com build `npm run build` e output exclusivo `dist`.
+- Pushes e PRs estão permitidos. Registros Pages `is_skipped=true`, com estágios `idle`, sem build, deploy, URL funcional ou alias, não constituem publicação.
+- O deployment canônico permanece `3b1d68e7-74fd-4b9c-add3-778029a4b39f`, publicando o commit `4da7be38aef3ea9a2ec3642c1a0f5b5f3089e575`, até nova autorização deliberada.
+
+## Isolamento permanente entre projetos
+
+Toda análise, decisão, arquivo, código, credencial, branch, worktree e operação do Cofrinho Real deve permanecer isolada de CELULARS, GIRTABUSA, PHIXCELL e de qualquer outro projeto. Conteúdo de outro projeto deve ser rejeitado, sem adaptação, registro ou execução. Na dúvida, a atividade deve parar para confirmação.
 
 ## Backlog e histórico
 
@@ -45,7 +63,7 @@ O Cofrinho Labs poderá ocupar uma aba visível do desktop para ensinar programa
 - [x] Patrimônio simplificado aprovado para a Fase 1
 - [x] Economia real mantida em projeto futuro separado
 - [x] Fluxo diário de trabalho aprovado
-- [ ] Documentação pronta para push e PR
+- [x] Documentação pronta para push e PR
 
 ## COMEÇAR O DIA — COFRINHO REAL
 

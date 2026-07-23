@@ -10,8 +10,11 @@
 | Dados excessivos | Minimização e descarte |
 | Recompensa compulsiva | Limites e revisão educativa |
 | Confusão patrimonial | Aviso de ficção |
-| Cache/publicação | Chamado `#02245419` |
+| Cache histórico do Pages | Exposição mitigada pelo Worker; chamado `#02245419` aberto; não declarar eliminação sem evidência |
+| Rotas defensivas excessivas | Manter somente as 11 rotas finais; `data/image-automation/*` nunca deve voltar a `data/*` |
+| Publicação involuntária | Produção automática desativada, preview `none` e deployment somente por autorização deliberada |
 | Documento exposto | `dist/` exclusivo e teste |
+| Mistura entre projetos | Isolamento permanente de arquivos, decisões, credenciais, worktrees e operações |
 | Arquitetura prematura | Decidir persistência primeiro |
 | Regulação | Dinheiro real em projeto separado |
 | Dados de teste | Remoção integral ao encerrar o piloto |

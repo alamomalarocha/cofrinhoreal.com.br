@@ -2,13 +2,15 @@
 
 ## Preparação
 
-- [ ] Revisar e aprovar documentos.
+- [x] Revisar e aprovar documentos.
 - [x] Definir persistência local descartável e tipos de perfil.
 - [x] Definir duas atividades, regras das recompensas e auditoria administrativa.
 - [x] Definir o Terreno Inicial limitado.
 - [ ] Decidir valores das recompensas com as telas.
 - [ ] Padronizar futuramente o público de `PigCoin` para `PIG Coin`, com autorização.
-- [ ] Aguardar o chamado Cloudflare `#02245419` antes de publicar.
+- [x] Implantar proteção temporária das rotas operacionais com correção da rota ampla de dados.
+- [ ] Acompanhar o chamado Cloudflare `#02245419` até haver evidência de eliminação do cache interno histórico.
+- [ ] Manter automações do Pages pausadas; autorizar separadamente qualquer deployment efetivo.
 
 ## Fase 1
 
@@ -19,7 +21,7 @@
 - [ ] Implementar remoção integral dos dados de teste.
 - [ ] Testes de regras, privacidade, acessibilidade e segurança.
 
-Implementação exige autorização expressa e branch própria; publicação exige também desbloqueio do suporte.
+Implementação exige autorização expressa, branch e worktree próprios. Push e PR de código não publicável podem ocorrer com autorização; publicação do site exige autorização deliberada e automações do Pages continuam pausadas.
 
 ## Visão futura — sem autorização de implementação
 
@@ -36,3 +38,11 @@ Implementação exige autorização expressa e branch própria; publicação exi
 - [ ] Validar dois desafios educativos e explicações por nível.
 - [ ] Definir capacidade operacional da fila administrativa.
 - [ ] Adiar votação pública completa até depois do piloto interno.
+
+## Próximo marco visual
+
+- [ ] Inventariar as páginas públicas atuais e definir a nova arquitetura desktop.
+- [ ] Separar elementos funcionais desta primeira atualização dos módulos marcados como `Em desenvolvimento`.
+- [ ] Projetar navegação, componentes de banco tecnológico, portal de desenvolvedor e entrada do Cofrinho Labs.
+- [ ] Implementar e testar em branch/worktree novos, sem antecipar funcionalidades futuras.
+- [ ] Submeter build e deployment deliberado a autorização separada.

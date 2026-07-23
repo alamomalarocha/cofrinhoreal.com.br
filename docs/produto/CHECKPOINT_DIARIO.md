@@ -1,5 +1,14 @@
 # Checkpoint Diário
 
+## 2026-07-23 — consolidação documental e segurança de borda
+
+- Base técnica integrada: `origin/main` em `3cf609601b40000cea5985c2a63babd2366507c9`.
+- PRs #5 e #6 concluídas; Worker `cofrinhoreal-operational-path-guard` implantado na versão `5cc14eb6-f45f-4d5a-b5d2-077e58fdf267`.
+- Estado: `EXPOSIÇÃO HISTÓRICA MITIGADA PELO WORKER`; cache interno histórico não declarado eliminado; chamado Cloudflare `#02245419` aberto.
+- Rotas finais: 11 padrões específicos, com `data/image-automation/*` no lugar da rota ampla `data/*`.
+- Pages: produção automática desativada, preview `none`, output `dist`; push e PR permitidos, deployment efetivo sujeito a autorização deliberada.
+- Próximo marco: planejar e implementar a atualização visual do desktop em branch/worktree novos, sem iniciar código neste checkpoint.
+
 ## 2026-07-21
 
 - Duração aproximada: uma jornada documental.

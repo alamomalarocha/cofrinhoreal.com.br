@@ -13,6 +13,7 @@ Resumo sem nova numeração e sem substituir `../DECISOES_MESTRAS_PROJETO.md`.
 - `Terreno Inicial` concedido pelo Pig Bank, não negociável nem transferível, sem reforma, imposto, valorização automática ou mercado.
 - Dados locais descartáveis por camada substituível; administração privada e auditável; piloto interno.
 - DEC-018, divisão das fases e fluxo diário de trabalho.
+- Isolamento permanente entre Cofrinho Real e qualquer outro projeto, inclusive arquivos, decisões, código, credenciais, worktrees e operações.
 
 ## Aprovado como visão futura
 
@@ -26,6 +27,10 @@ Patrimônio completo, Cartório Pig, títulos, avaliações, reformas, mercado s
 - Cofrinho Labs como área estratégica futura de aprendizagem, criação e participação, com código não confiável em sandbox e triagem obrigatória.
 
 Economia real é projeto independente; PIG Coins nunca serão convertidas.
+
+## Guardrail operacional vigente
+
+O Worker defensivo protege somente rotas operacionais específicas no domínio raiz. A correção da rota `data/*` para `data/image-automation/*` preserva o catálogo público. A mitigação não comprova eliminação do cache interno histórico do Pages; o chamado Cloudflare permanece aberto. As automações do Pages ficam pausadas, e todo deployment efetivo exige autorização deliberada.
 
 ## Decisão pendente
 
