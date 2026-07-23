@@ -6,6 +6,10 @@ Ele bloqueia somente caminhos operacionais específicos no domínio raiz. O
 Worker responde diretamente com `404`, não consulta o Pages e não usa
 bindings, secrets, Cache API, KV, D1, R2, Durable Objects ou logs.
 
+O prefixo de dados é limitado a `data/image-automation/*`. O catálogo público
+em `data/personagens/avatares/avatares-aprovados.json` precisa continuar
+acessível para renderizar a coleção de avatares.
+
 Os padrões de arquivo terminam em `*` porque o mecanismo de Workers Routes
 considera a query string ao escolher uma rota. Assim, a mesma proteção cobre
 a URL sem query e com cache-bust.
