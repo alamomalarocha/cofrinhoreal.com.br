@@ -41,7 +41,7 @@ test("learning, proposal and mobile contracts are explicit", () => {
   assert.equal((script.match(/topic:/gu) || []).length, 4);
   for (const level of ["fundamentos", "explorador", "construtor"]) assert.match(html, new RegExp(`data-labs-level="${level}"`, "u"));
   for (const field of ["titulo", "problema", "solucao", "beneficiados", "valorEducativo", "esboco", "cuidados"]) assert.match(html, new RegExp(`data-proposal-field="${field}"`, "u"));
-  assert.match(html, /editor completo do Cofrinho Labs foi desenvolvido para computadores/iu);
+  assert.match(html, /Abra o laboratório completo no computador/iu);
   assert.match(html, /Recompensa de demonstração: 2 PIG Coins educativas/iu);
 });
 
@@ -58,17 +58,21 @@ test("adaptive diagnosis is local, replaceable and permission-neutral", () => {
   assert.match(html, /aria-live="polite" aria-atomic="true" data-diagnostic-result/u);
 });
 
-test("mobile learning flow is compact, accessible and beginner-friendly", () => {
-  assert.equal((html.match(/data-mobile-toggle=/gu) || []).length, 5);
-  assert.equal((html.match(/data-mobile-panel/gu) || []).length, 5);
-  for (const id of ["diagnostico-conteudo", "aprendizado-conteudo", "propostas-conteudo", "processo-conteudo", "seguranca-conteudo"]) {
-    assert.match(html, new RegExp(`aria-controls="${id}"`, "u"));
+test("focused workspace navigation is compact, accessible and beginner-friendly", () => {
+  assert.equal((html.match(/data-labs-view=/gu) || []).length, 6);
+  for (const view of ["visao-geral", "diagnostico", "aprender", "criar", "ideia", "como-funciona"]) {
+    assert.match(html, new RegExp(`data-view-target="${view}"`, "u"));
+    assert.match(html, new RegExp(`id="view-${view}"`, "u"));
   }
-  assert.match(html, /labs-title-mobile[^]*Aprenda, crie e construa o Cofrinho Real/iu);
+  assert.equal((html.match(/data-proposal-step="/gu) || []).length, 3);
+  assert.match(html, /Aprenda, crie e construa o Cofrinho Real/iu);
   assert.match(html, /Sandbox educativa: este código não acessa o site real/iu);
   assert.match(html, /Demonstração local e temporária\. Estas PIG Coins/iu);
   assert.match(html, /Seu nível adapta explicações e desafios, mas nunca altera/iu);
   assert.match(html, /data-download-proposal>Salvar rascunho/iu);
   assert.match(html, /rascunho será salvo somente neste dispositivo/iu);
+  assert.match(html, /Abra o laboratório completo no computador/iu);
+  assert.match(script, /history\.pushState/iu);
+  assert.match(script, /popstate/iu);
   assert.doesNotMatch(script, /localStorage|sessionStorage|indexedDB|fetch\s*\(|XMLHttpRequest/iu);
 });

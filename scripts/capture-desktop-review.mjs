@@ -26,16 +26,21 @@ await new Promise((resolve, reject) => {
 fs.mkdirSync(output, { recursive: true });
 const browser = await chromium.launch();
 try {
-  for (const viewport of [
-    { name: "desktop-1440", width: 1440, height: 1000 },
-    { name: "mobile-390", width: 390, height: 844 },
-  ]) {
-    const page = await browser.newPage({ viewport });
-    await page.goto(`http://127.0.0.1:${port}/labs`, { waitUntil: "networkidle" });
-    await page.screenshot({
-      path: path.join(output, `${viewport.name}.png`),
-      fullPage: true,
-    });
+  const captures = [
+    { name: "entrada-desktop", width: 1440, height: 1000, view: "visao-geral" },
+    { name: "diagnostico-desktop", width: 1440, height: 1000, view: "diagnostico" },
+    { name: "desafio-desktop", width: 1440, height: 1000, view: "aprender" },
+    { name: "editor-desktop", width: 1440, height: 1000, view: "criar" },
+    { name: "proposta-desktop", width: 1440, height: 1000, view: "ideia" },
+    { name: "entrada-mobile", width: 390, height: 844, view: "visao-geral" },
+    { name: "diagnostico-mobile", width: 390, height: 844, view: "diagnostico" },
+    { name: "desafio-mobile", width: 390, height: 844, view: "aprender" },
+    { name: "proposta-mobile", width: 390, height: 844, view: "ideia" },
+  ];
+  for (const capture of captures) {
+    const page = await browser.newPage({ viewport: { width: capture.width, height: capture.height } });
+    await page.goto(`http://127.0.0.1:${port}/labs#${capture.view}`, { waitUntil: "networkidle" });
+    await page.screenshot({ path: path.join(output, `${capture.name}.png`), fullPage: true });
     await page.close();
   }
 } finally {

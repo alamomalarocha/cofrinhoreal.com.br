@@ -192,6 +192,10 @@ function renderChallenge() {
   });
   document.querySelector("[data-question-feedback]").textContent = "Escolha uma alternativa para receber uma explicação.";
   document.querySelector("[data-next-challenge]").disabled = true;
+  document.querySelector("[data-overview-level]").textContent = profile.label;
+  document.querySelector("[data-overview-progress]").textContent = `Desafio ${challengeIndex + 1} de ${challenges.length}`;
+  document.querySelector("[data-overview-score]").textContent = `${score} pontos`;
+  document.querySelector("[data-overview-challenge]").textContent = challenge.title;
 }
 
 function answerChallenge(button, option) {
@@ -204,6 +208,7 @@ function answerChallenge(button, option) {
   });
   if (correct) score += 10;
   document.querySelector("[data-session-score]").textContent = `${score} pontos de sessão`;
+  document.querySelector("[data-overview-score]").textContent = `${score} pontos`;
   document.querySelector("[data-question-feedback]").textContent = `${correct ? "Resposta correta." : `Ainda não. A resposta é ${challenge.answer}.`} ${challenge.explanation} ${learningProfiles[activeLevel].explanation}`;
   document.querySelector("[data-next-challenge]").disabled = false;
   if (correct) document.querySelector("[data-demo-reward]").hidden = false;
@@ -306,8 +311,29 @@ document.querySelector("[data-download-proposal]").addEventListener("click", () 
 document.querySelector("[data-reset-proposal]").addEventListener("click", () => {
   proposalFields.forEach((field) => { field.value = ""; });
   renderProposal();
+  showProposalStep(1);
   document.querySelector("[data-proposal-feedback]").textContent = "Rascunho local reiniciado.";
 });
+
+const proposalStepButtons = [...document.querySelectorAll("[data-proposal-step-target]")];
+const proposalSteps = [...document.querySelectorAll("[data-proposal-step]")];
+
+function showProposalStep(step) {
+  proposalSteps.forEach((panel) => { panel.hidden = panel.dataset.proposalStep !== String(step); });
+  proposalStepButtons.forEach((button) => {
+    const active = button.dataset.proposalStepTarget === String(step);
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-selected", String(active));
+  });
+  const heading = proposalSteps.find((panel) => panel.dataset.proposalStep === String(step))?.querySelector("h2");
+  if (heading && document.activeElement?.matches("[data-proposal-next], [data-proposal-step-target]")) {
+    heading.setAttribute("tabindex", "-1");
+    heading.focus();
+  }
+}
+
+proposalStepButtons.forEach((button) => button.addEventListener("click", () => showProposalStep(button.dataset.proposalStepTarget)));
+document.querySelectorAll("[data-proposal-next]").forEach((button) => button.addEventListener("click", () => showProposalStep(button.dataset.proposalNext)));
 
 const diagnosticAnswers = [...document.querySelectorAll("[data-diagnostic-answer]")];
 const diagnosticResult = document.querySelector("[data-diagnostic-result]");
@@ -351,42 +377,44 @@ redoDiagnostic.addEventListener("click", resetDiagnostic);
 acceptRecommendation.addEventListener("click", () => {
   if (!recommendedLevel) return;
   setLearningLevel(recommendedLevel, "Recomendação do diagnóstico aceita; você ainda pode escolher outro nível.");
-  if (window.matchMedia("(max-width: 860px)").matches) {
-    document.querySelector('[data-mobile-toggle="diagnostico-conteudo"]')?.click();
-    document.querySelector('[data-mobile-toggle="aprendizado-conteudo"]')?.click();
+  showView("aprender", { history: true, focus: true });
+});
+
+const views = [...document.querySelectorAll("[data-labs-view]")];
+const viewButtons = [...document.querySelectorAll("[data-view-target]")];
+const mobileViewSelect = document.querySelector("[data-mobile-view-select]");
+const validViews = new Set(views.map((view) => view.dataset.labsView));
+
+function showView(name, options = {}) {
+  const target = validViews.has(name) ? name : "visao-geral";
+  views.forEach((view) => {
+    const active = view.dataset.labsView === target;
+    view.hidden = !active;
+    view.classList.toggle("is-active", active);
+  });
+  viewButtons.forEach((button) => {
+    const active = button.dataset.viewTarget === target;
+    button.classList.toggle("is-active", active);
+    if (button.closest(".labs-view-nav")) {
+      if (active) button.setAttribute("aria-current", "page");
+      else button.removeAttribute("aria-current");
+    }
+  });
+  mobileViewSelect.value = target;
+  if (options.history && window.location.hash !== `#${target}`) history.pushState({ labsView: target }, "", `#${target}`);
+  if (options.focus) {
+    const heading = document.querySelector(`[data-labs-view="${target}"] h1`);
+    heading?.focus({ preventScroll: true });
   }
-  document.querySelector("#aprender").scrollIntoView({ block: "start" });
-});
-
-const mobileSections = [...document.querySelectorAll("[data-mobile-panel]")];
-const mobileToggles = [...document.querySelectorAll("[data-mobile-toggle]")];
-const compactLayout = window.matchMedia("(max-width: 860px)");
-
-function setMobilePanel(button, panel, open) {
-  button.setAttribute("aria-expanded", String(open));
-  panel.hidden = !open;
-  panel.closest(".labs-section")?.classList.toggle("is-mobile-collapsed", !open);
+  window.scrollTo({ top: 0, behavior: options.instant ? "auto" : "smooth" });
 }
 
-function syncMobileSections() {
-  mobileToggles.forEach((button) => {
-    const panel = document.getElementById(button.getAttribute("aria-controls"));
-    if (!panel) return;
-    const open = compactLayout.matches ? panel.dataset.mobileDefault === "open" : true;
-    setMobilePanel(button, panel, open);
-  });
-}
-
-mobileToggles.forEach((button) => {
-  button.addEventListener("click", () => {
-    const panel = document.getElementById(button.getAttribute("aria-controls"));
-    if (!panel) return;
-    setMobilePanel(button, panel, button.getAttribute("aria-expanded") !== "true");
-  });
-});
-compactLayout.addEventListener("change", syncMobileSections);
+viewButtons.forEach((button) => button.addEventListener("click", () => showView(button.dataset.viewTarget, { history: true, focus: true })));
+mobileViewSelect.addEventListener("change", () => showView(mobileViewSelect.value, { history: true, focus: true }));
+window.addEventListener("popstate", () => showView(window.location.hash.slice(1), { focus: true, instant: true }));
 
 restoreExample();
 renderChallenge();
 renderProposal();
-syncMobileSections();
+showProposalStep(1);
+showView(window.location.hash.slice(1), { instant: true });
