@@ -4,7 +4,7 @@ import { chromium } from "playwright";
 
 const port = 4187;
 const origin = `http://127.0.0.1:${port}`;
-const routes = ["/", "/personagens", "/o-que-e", "/cookies", "/direitos", "/privacidade", "/termos", "/rota-inexistente"];
+const routes = ["/", "/personagens", "/labs", "/o-que-e", "/cookies", "/direitos", "/privacidade", "/termos", "/rota-inexistente"];
 const viewports = [
   { width: 320, height: 720 },
   { width: 375, height: 812 },
@@ -106,6 +106,27 @@ try {
     }
     const headingOrder = await page.locator("h1, h2, h3").evaluateAll((nodes) => nodes.map((node) => Number(node.tagName.slice(1))));
     assert.equal(headingOrder.every((level, index) => index === 0 || level <= headingOrder[index - 1] + 1), true, `heading order at ${viewport.width}px`);
+    await page.goto(`${origin}/labs`, { waitUntil: "networkidle" });
+    assert.equal(await page.locator("[data-labs-preview]").getAttribute("sandbox"), "");
+    assert.equal(await page.locator("form").count(), 0);
+    assert.equal(await page.locator("[data-question-options] button").count(), 4);
+    await page.locator("[data-question-options] button").nth(1).click();
+    assert.match(await page.locator("[data-question-feedback]").textContent(), /Resposta correta/u);
+    if (viewport.width <= 860) {
+      assert.equal(await page.locator(".labs-desktop-only").isVisible(), false);
+      assert.equal(await page.locator(".labs-mobile-editor-message").isVisible(), true);
+    } else {
+      assert.equal(await page.locator(".labs-desktop-only").isVisible(), true);
+      assert.equal(await page.locator(".labs-mobile-editor-message").isVisible(), false);
+      await page.locator("[data-html-editor]").fill('<script>parent.document.body.dataset.xss="true"</script><form action="https://example.com"><input></form><img src="https://example.com/x.png"><button onclick="fetch(\'https://example.com\')">Teste</button>');
+      await page.locator("[data-css-editor]").fill('@import "https://example.com/x.css"; .teste{background:url(https://example.com/x.png)}');
+      await page.locator("[data-update-preview]").click();
+      const previewFrame = page.frameLocator("[data-labs-preview]");
+      assert.equal(await previewFrame.locator("script, form").count(), 0);
+      assert.equal(await previewFrame.locator("img").getAttribute("src"), null);
+      assert.equal(await previewFrame.locator("button").getAttribute("onclick"), null);
+      assert.equal(await page.locator("body").getAttribute("data-xss"), null);
+    }
     assert.deepEqual(consoleErrors, [], `console errors at ${viewport.width}px`);
     assert.deepEqual(pageErrors, [], `page errors at ${viewport.width}px`);
     assert.deepEqual(failedRequests, [], `network failures at ${viewport.width}px`);

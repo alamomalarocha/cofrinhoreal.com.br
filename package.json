@@ -11,6 +11,7 @@
     "preview": "node scripts/serve-public.mjs",
     "test:public-output": "node --test tests/public-output.test.mjs",
     "test:desktop-visual": "node --test tests/desktop-visual-foundation.test.mjs",
+    "test:labs": "node --test tests/cofrinho-labs.test.mjs",
     "test:operational-path-guard": "node --test tests/operational-path-guard.test.mjs",
     "test": "node --test tests/images/*.test.mjs tests/deployment-guardrails.test.mjs",
     "images:plan": "node scripts/images/plan.mjs",

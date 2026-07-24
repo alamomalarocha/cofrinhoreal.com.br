@@ -4,7 +4,7 @@ import { spawn } from "node:child_process";
 import { chromium } from "playwright";
 
 const root = path.resolve(import.meta.dirname, "..");
-const output = path.join(root, "docs", "review", "desktop-visual-foundation");
+const output = path.join(root, "docs", "review", "cofrinho-labs-foundation");
 const port = 4191;
 const server = spawn(process.execPath, ["scripts/serve-public.mjs"], {
   cwd: root,
@@ -31,9 +31,10 @@ try {
     { name: "mobile-390", width: 390, height: 844 },
   ]) {
     const page = await browser.newPage({ viewport });
-    await page.goto(`http://127.0.0.1:${port}/`, { waitUntil: "networkidle" });
-    await page.locator(".desktop-foundation").screenshot({
+    await page.goto(`http://127.0.0.1:${port}/labs`, { waitUntil: "networkidle" });
+    await page.screenshot({
       path: path.join(output, `${viewport.name}.png`),
+      fullPage: true,
     });
     await page.close();
   }

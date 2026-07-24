@@ -6,7 +6,7 @@ import test from "node:test";
 
 const root = path.resolve(import.meta.dirname, "..");
 const dist = path.join(root, "dist");
-const pages = ["index", "comerciantes", "como-funciona", "cookies", "direitos", "educacao", "familias", "faq", "jogos", "o-que-e", "personagens", "pig-coins", "privacidade", "seguranca", "termos"];
+const pages = ["index", "comerciantes", "como-funciona", "cookies", "direitos", "educacao", "familias", "faq", "jogos", "labs", "o-que-e", "personagens", "pig-coins", "privacidade", "seguranca", "termos"];
 const catalog = JSON.parse(fs.readFileSync(path.join(dist, "data/personagens/avatares/avatares-aprovados.json"), "utf8"));
 const mainCharacters = JSON.parse(fs.readFileSync(path.join(dist, "data/personagens/personagens-principais.json"), "utf8"));
 const sha = (file) => crypto.createHash("sha256").update(fs.readFileSync(file)).digest("hex");
