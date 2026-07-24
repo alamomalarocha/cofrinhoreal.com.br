@@ -33,6 +33,22 @@ Quatro desafios cobrem HTML, CSS, classes e acessibilidade básica. O nível é 
 
 Pontos, progresso, badge e PIG Coins são simulações da sessão. Não alteram carteira, não têm valor monetário, não prometem pagamento e desaparecem ao fechar a página.
 
+## Personalização adaptativa
+
+Antes dos desafios, um diagnóstico local e opcional combina experiência declarada e duas questões práticas para recomendar um ponto de partida não depreciativo:
+
+- Fundamentos: linguagem simples, mais dicas e código guiado;
+- Explorador: prática equilibrada e maior autonomia;
+- Construtor: desafios maiores e explicações mais profundas.
+
+O usuário pode aceitar ou substituir a recomendação, refazer o diagnóstico e informar que a atividade está muito fácil ou muito difícil. A adaptação modifica linguagem, quantidade de dicas, complexidade, código inicial, tamanho do desafio, profundidade das explicações e ajuda oferecida.
+
+Faixa etária, conhecimento e permissão permanecem separados. A categoria de proteção demonstrativa não entra na pontuação técnica. Idade nunca é inferida por avatar, aparência ou comportamento. Nenhum nível modifica a sandbox ou libera JavaScript, backend, rede, upload, API, Git ou filesystem.
+
+Um cadastro futuro poderá registrar, com minimização de dados e consentimento apropriado, faixa etária, categoria do perfil, experiência em programação e educação financeira, interesses, objetivos, forma preferida de aprender e autodescrição de nível. Nada disso é coletado nesta demonstração.
+
+O desempenho futuro poderá ajustar continuamente conteúdo e ajuda. Um Codex tutor futuro poderá explicar e orientar conforme esse contexto, sempre pelo backend privado e sem alterar permissões.
+
 ## Propostas locais
 
 O rascunho contém título, problema, solução, beneficiários, valor educativo, esboço e cuidados de segurança/acessibilidade. Ele pode ser resumido, copiado ou baixado em JSON pelo próprio navegador. Não existe envio, banco, publicação, compartilhamento ou voto.

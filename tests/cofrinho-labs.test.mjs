@@ -39,8 +39,21 @@ test("XSS vectors are filtered and CSP denies external communication", () => {
 
 test("learning, proposal and mobile contracts are explicit", () => {
   assert.equal((script.match(/topic:/gu) || []).length, 4);
-  for (const level of ["iniciante", "intermediario", "adulto-tecnico"]) assert.match(html, new RegExp(`data-labs-level="${level}"`, "u"));
+  for (const level of ["fundamentos", "explorador", "construtor"]) assert.match(html, new RegExp(`data-labs-level="${level}"`, "u"));
   for (const field of ["titulo", "problema", "solucao", "beneficiados", "valorEducativo", "esboco", "cuidados"]) assert.match(html, new RegExp(`data-proposal-field="${field}"`, "u"));
   assert.match(html, /editor completo do Cofrinho Labs foi desenvolvido para computadores/iu);
   assert.match(html, /Recompensa de demonstração: 2 PIG Coins educativas/iu);
+});
+
+test("adaptive diagnosis is local, replaceable and permission-neutral", () => {
+  assert.equal((html.match(/data-diagnostic-answer/gu) || []).length, 5);
+  assert.match(script, /total <= 3 \? "fundamentos" : total <= 7 \? "explorador" : "construtor"/u);
+  assert.match(script, /setLearningLevel\(button\.dataset\.labsLevel/u);
+  assert.match(script, /resetDiagnostic/u);
+  assert.match(script, /data-too-easy/u);
+  assert.match(script, /data-too-hard/u);
+  assert.doesNotMatch(script, /localStorage|sessionStorage|indexedDB|document\.cookie/iu);
+  assert.doesNotMatch(script, /data-demo-protection[^]*reduce/iu);
+  assert.match(html, /categoria etária fictícia[^]*nunca aumenta permissões/iu);
+  assert.match(html, /aria-live="polite" aria-atomic="true" data-diagnostic-result/u);
 });

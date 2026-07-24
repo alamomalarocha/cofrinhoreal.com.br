@@ -110,6 +110,22 @@ try {
     assert.equal(await page.locator("[data-labs-preview]").getAttribute("sandbox"), "");
     assert.equal(await page.locator("form").count(), 0);
     assert.equal(await page.locator("[data-question-options] button").count(), 4);
+    const diagnosticAnswers = page.locator("[data-diagnostic-answer]");
+    for (let index = 0; index < await diagnosticAnswers.count(); index += 1) await diagnosticAnswers.nth(index).selectOption("2");
+    await page.locator("[data-demo-protection]").selectOption("infantil");
+    await page.locator("[data-run-diagnostic]").click();
+    assert.equal(await page.locator("[data-recommended-level]").textContent(), "Construtor");
+    await page.locator("[data-accept-recommendation]").click();
+    assert.equal(await page.locator('[data-labs-level="construtor"]').getAttribute("aria-pressed"), "true");
+    await page.locator('[data-labs-level="fundamentos"]').click();
+    assert.equal(await page.locator('[data-labs-level="fundamentos"]').getAttribute("aria-pressed"), "true");
+    await page.locator("[data-too-easy]").click();
+    assert.equal(await page.locator('[data-labs-level="explorador"]').getAttribute("aria-pressed"), "true");
+    await page.locator("[data-too-hard]").click();
+    assert.equal(await page.locator('[data-labs-level="fundamentos"]').getAttribute("aria-pressed"), "true");
+    await page.locator("[data-redo-diagnostic]").click();
+    assert.equal(await diagnosticAnswers.nth(0).inputValue(), "");
+    assert.equal(await page.locator("[data-accept-recommendation]").isDisabled(), true);
     await page.locator("[data-question-options] button").nth(1).click();
     assert.match(await page.locator("[data-question-feedback]").textContent(), /Resposta correta/u);
     if (viewport.width <= 860) {

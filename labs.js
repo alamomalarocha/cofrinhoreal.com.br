@@ -22,6 +22,43 @@ button {
   font-weight: 700;
 }`;
 
+const learningProfiles = {
+  fundamentos: {
+    label: "Fundamentos",
+    summary: "linguagem simples, mais dicas e exemplo guiado",
+    explanation: "Vamos explicar cada conceito antes de avançar.",
+    html: initialHtml,
+    css: initialCss,
+  },
+  explorador: {
+    label: "Explorador",
+    summary: "dicas equilibradas, prática e mais autonomia",
+    explanation: "Você receberá contexto e poderá testar pequenas variações.",
+    html: `<main class="projeto">
+  <h1>Missão Explorador</h1>
+  <p>Organize este cartão e adapte o botão.</p>
+  <button class="acao" type="button">Começar</button>
+</main>`,
+    css: `.projeto { max-width: 420px; padding: 32px; border-radius: 20px; background-color: #e9f7ff; color: #18224b; }
+.acao { padding: 12px 20px; border: 0; border-radius: 12px; background-color: #007c91; color: white; font-weight: 700; }`,
+  },
+  construtor: {
+    label: "Construtor",
+    summary: "menos dicas, desafio maior e explicações mais profundas",
+    explanation: "As explicações relacionam semântica, manutenção e acessibilidade.",
+    html: `<main class="painel" aria-labelledby="titulo-projeto">
+  <header>
+    <p class="categoria">Projeto da sessão</p>
+    <h1 id="titulo-projeto">Painel Construtor</h1>
+  </header>
+  <button class="acao" type="button">Revisar ideia</button>
+</main>`,
+    css: `.painel { max-width: 520px; padding: 40px; border: 1px solid #cbd5e1; border-radius: 24px; background-color: #ffffff; color: #172033; }
+.categoria { color: #635bff; font-weight: 800; text-transform: uppercase; }
+.acao { padding: 12px 22px; border: 0; border-radius: 999px; background-color: #172033; color: white; font-weight: 700; }`,
+  },
+};
+
 const challenges = [
   {
     topic: "HTML · estrutura",
@@ -76,6 +113,9 @@ const editorFeedback = document.querySelector("[data-editor-feedback]");
 const editorLimit = document.querySelector("[data-editor-limit]");
 let challengeIndex = 0;
 let score = 0;
+let activeLevel = "fundamentos";
+let recommendedLevel = null;
+let extraHelp = false;
 
 function sanitizeHtml(source) {
   const documentValue = new DOMParser().parseFromString(source, "text/html");
@@ -122,23 +162,25 @@ function updateEditorLimit() {
 }
 
 function restoreExample() {
-  htmlEditor.value = initialHtml;
-  cssEditor.value = initialCss;
+  htmlEditor.value = learningProfiles[activeLevel].html;
+  cssEditor.value = learningProfiles[activeLevel].css;
   updateEditorLimit();
   renderPreview();
 }
 
 function renderChallenge() {
   const challenge = challenges[challengeIndex];
+  const profile = learningProfiles[activeLevel];
   document.querySelector("[data-challenge-counter]").textContent = `Desafio ${challengeIndex + 1} de ${challenges.length}`;
   document.querySelector("[data-session-score]").textContent = `${score} pontos de sessão`;
   document.querySelector("[data-progress-bar]").style.width = `${(challengeIndex / challenges.length) * 100}%`;
   document.querySelector("[data-challenge-topic]").textContent = challenge.topic;
   document.querySelector("[data-challenge-title]").textContent = challenge.title;
-  document.querySelector("[data-challenge-description]").textContent = challenge.description;
+  document.querySelector("[data-challenge-description]").textContent = `${challenge.description} ${profile.explanation}`;
   document.querySelector("[data-question-text]").textContent = challenge.question;
   document.querySelector("[data-context-title]").textContent = challenge.contextTitle;
-  document.querySelector("[data-context-copy]").textContent = challenge.contextCopy;
+  document.querySelector("[data-context-copy]").textContent = extraHelp ? `${challenge.contextCopy} Dica extra: compare o HTML com o CSS linha por linha.` : challenge.contextCopy;
+  document.querySelector("[data-adaptation-status]").textContent = `${profile.label}: ${profile.summary}${extraHelp ? "; ajuda adicional ativada" : ""}.`;
   const options = document.querySelector("[data-question-options]");
   options.replaceChildren();
   challenge.options.forEach((option) => {
@@ -162,24 +204,48 @@ function answerChallenge(button, option) {
   });
   if (correct) score += 10;
   document.querySelector("[data-session-score]").textContent = `${score} pontos de sessão`;
-  document.querySelector("[data-question-feedback]").textContent = `${correct ? "Resposta correta." : `Ainda não. A resposta é ${challenge.answer}.`} ${challenge.explanation}`;
+  document.querySelector("[data-question-feedback]").textContent = `${correct ? "Resposta correta." : `Ainda não. A resposta é ${challenge.answer}.`} ${challenge.explanation} ${learningProfiles[activeLevel].explanation}`;
   document.querySelector("[data-next-challenge]").disabled = false;
   if (correct) document.querySelector("[data-demo-reward]").hidden = false;
 }
 
-document.querySelectorAll("[data-labs-level]").forEach((button) => {
-  button.addEventListener("click", () => {
-    document.querySelectorAll("[data-labs-level]").forEach((item) => {
-      const selected = item === button;
-      item.classList.toggle("is-selected", selected);
-      item.setAttribute("aria-pressed", String(selected));
-    });
+function setLearningLevel(level, reason) {
+  if (!learningProfiles[level]) return;
+  activeLevel = level;
+  extraHelp = false;
+  document.querySelectorAll("[data-labs-level]").forEach((item) => {
+    const selected = item.dataset.labsLevel === level;
+    item.classList.toggle("is-selected", selected);
+    item.setAttribute("aria-pressed", String(selected));
   });
+  restoreExample();
+  renderChallenge();
+  document.querySelector("[data-adaptation-status]").textContent = `${learningProfiles[level].label}: ${learningProfiles[level].summary}. ${reason}`;
+}
+
+document.querySelectorAll("[data-labs-level]").forEach((button) => {
+  button.addEventListener("click", () => setLearningLevel(button.dataset.labsLevel, "Nível escolhido por você."));
 });
 
 document.querySelector("[data-next-challenge]").addEventListener("click", () => {
   challengeIndex = (challengeIndex + 1) % challenges.length;
   renderChallenge();
+});
+document.querySelector("[data-too-easy]").addEventListener("click", () => {
+  const order = ["fundamentos", "explorador", "construtor"];
+  const next = order[Math.min(order.indexOf(activeLevel) + 1, order.length - 1)];
+  setLearningLevel(next, next === activeLevel ? "Você já está no nível mais desafiador desta demonstração." : "Dificuldade aumentada a seu pedido.");
+});
+document.querySelector("[data-too-hard]").addEventListener("click", () => {
+  const order = ["fundamentos", "explorador", "construtor"];
+  const previous = order[Math.max(order.indexOf(activeLevel) - 1, 0)];
+  if (previous === activeLevel) {
+    extraHelp = true;
+    renderChallenge();
+    document.querySelector("[data-adaptation-status]").textContent = "Fundamentos: dificuldade mantida e ajuda adicional ativada.";
+  } else {
+    setLearningLevel(previous, "Dificuldade reduzida e ajuda ampliada a seu pedido.");
+  }
 });
 document.querySelector("[data-update-preview]").addEventListener("click", renderPreview);
 document.querySelector("[data-restore-example]").addEventListener("click", restoreExample);
@@ -241,6 +307,51 @@ document.querySelector("[data-reset-proposal]").addEventListener("click", () => 
   proposalFields.forEach((field) => { field.value = ""; });
   renderProposal();
   document.querySelector("[data-proposal-feedback]").textContent = "Rascunho local reiniciado.";
+});
+
+const diagnosticAnswers = [...document.querySelectorAll("[data-diagnostic-answer]")];
+const diagnosticResult = document.querySelector("[data-diagnostic-result]");
+const recommendedLevelNode = document.querySelector("[data-recommended-level]");
+const recommendationCopy = document.querySelector("[data-recommendation-copy]");
+const acceptRecommendation = document.querySelector("[data-accept-recommendation]");
+const redoDiagnostic = document.querySelector("[data-redo-diagnostic]");
+
+function runDiagnostic() {
+  if (diagnosticAnswers.some((answer) => answer.value === "")) {
+    diagnosticResult.dataset.state = "incomplete";
+    recommendedLevelNode.textContent = "Complete as cinco respostas";
+    recommendationCopy.textContent = "A categoria de proteção simulada é opcional e não participa desta recomendação.";
+    acceptRecommendation.disabled = true;
+    return;
+  }
+  const total = diagnosticAnswers.reduce((sum, answer) => sum + Number(answer.value), 0);
+  recommendedLevel = total <= 3 ? "fundamentos" : total <= 7 ? "explorador" : "construtor";
+  const profile = learningProfiles[recommendedLevel];
+  diagnosticResult.dataset.state = "ready";
+  recommendedLevelNode.textContent = profile.label;
+  recommendationCopy.textContent = `Pelas respostas declaradas e práticas, sugerimos ${profile.label}: ${profile.summary}. A categoria etária fictícia não alterou o resultado.`;
+  acceptRecommendation.disabled = false;
+  redoDiagnostic.hidden = false;
+}
+
+function resetDiagnostic() {
+  diagnosticAnswers.forEach((answer) => { answer.value = ""; });
+  document.querySelector("[data-demo-protection]").value = "nao-informada";
+  recommendedLevel = null;
+  diagnosticResult.dataset.state = "empty";
+  recommendedLevelNode.textContent = "Responda às perguntas";
+  recommendationCopy.textContent = "Usaremos somente suas respostas declaradas e práticas para sugerir o ponto de partida.";
+  acceptRecommendation.disabled = true;
+  redoDiagnostic.hidden = true;
+  diagnosticAnswers[0].focus();
+}
+
+document.querySelector("[data-run-diagnostic]").addEventListener("click", runDiagnostic);
+redoDiagnostic.addEventListener("click", resetDiagnostic);
+acceptRecommendation.addEventListener("click", () => {
+  if (!recommendedLevel) return;
+  setLearningLevel(recommendedLevel, "Recomendação do diagnóstico aceita; você ainda pode escolher outro nível.");
+  document.querySelector("#aprender").scrollIntoView({ block: "start" });
 });
 
 restoreExample();

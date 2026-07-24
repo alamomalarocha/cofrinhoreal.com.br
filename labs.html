@@ -51,20 +51,82 @@
         <p>O editor completo do Cofrinho Labs foi desenvolvido para computadores. No aplicativo você poderá acompanhar desafios, progresso e propostas.</p>
       </section>
 
+      <section class="labs-section section-shell" id="diagnostico" aria-labelledby="diagnostic-title">
+        <div class="labs-section-heading">
+          <div><p class="labs-eyebrow">perfil demonstrativo descartável</p><h2 id="diagnostic-title">Encontre um bom ponto de partida</h2></div>
+          <p>Este diagnóstico é local e opcional. Ele não identifica você, não infere idade e desaparece quando a página é fechada.</p>
+        </div>
+        <div class="labs-diagnostic-grid">
+          <div class="labs-diagnostic-card">
+            <div class="labs-profile-boundary">
+              <strong>Proteção e conhecimento são separados</strong>
+              <p>A categoria etária fictícia abaixo demonstra regras de proteção. Ela nunca aumenta permissões nem participa da pontuação técnica.</p>
+              <label for="demo-protection">Categoria de proteção simulada
+                <select id="demo-protection" data-demo-protection>
+                  <option value="nao-informada">Não informada</option>
+                  <option value="infantil">Perfil infantil fictício</option>
+                  <option value="adolescente">Perfil adolescente fictício</option>
+                  <option value="adulto">Perfil adulto fictício</option>
+                </select>
+              </label>
+            </div>
+            <div class="labs-diagnostic-questions" data-diagnostic-questions>
+              <label>Você já criou uma página em HTML?
+                <select data-diagnostic-answer>
+                  <option value="">Escolha uma resposta</option><option value="0">Ainda não</option><option value="1">Já acompanhei um exemplo</option><option value="2">Sim, criei uma página</option>
+                </select>
+              </label>
+              <label>Você sabe para que serve CSS?
+                <select data-diagnostic-answer>
+                  <option value="">Escolha uma resposta</option><option value="0">Ainda não</option><option value="1">Tenho uma ideia</option><option value="2">Sim, consigo explicar</option>
+                </select>
+              </label>
+              <label>Qual opção melhor descreve sua experiência?
+                <select data-diagnostic-answer>
+                  <option value="">Escolha uma resposta</option><option value="0">Quero começar com bastante ajuda</option><option value="1">Consigo adaptar exemplos</option><option value="2">Já construo pequenos projetos</option>
+                </select>
+              </label>
+              <label>Qual elemento cria um título principal?
+                <select data-diagnostic-answer>
+                  <option value="">Escolha uma resposta</option><option value="0">&lt;p&gt;</option><option value="2">&lt;h1&gt;</option><option value="0">&lt;style&gt;</option>
+                </select>
+              </label>
+              <label>Qual regra altera a cor de fundo?
+                <select data-diagnostic-answer>
+                  <option value="">Escolha uma resposta</option><option value="0">font-size</option><option value="2">background-color</option><option value="0">text-align</option>
+                </select>
+              </label>
+            </div>
+            <div class="labs-diagnostic-actions">
+              <button class="labs-button labs-button-primary" type="button" data-run-diagnostic>Ver recomendação</button>
+              <button class="labs-button labs-button-secondary" type="button" data-redo-diagnostic hidden>Refazer diagnóstico</button>
+            </div>
+          </div>
+          <aside class="labs-diagnostic-result" aria-live="polite" aria-atomic="true" data-diagnostic-result>
+            <p class="labs-eyebrow">recomendação da sessão</p>
+            <h3 data-recommended-level>Responda às perguntas</h3>
+            <p data-recommendation-copy>Usaremos somente suas respostas declaradas e práticas para sugerir o ponto de partida.</p>
+            <button class="labs-button labs-button-primary" type="button" data-accept-recommendation disabled>Aceitar nível sugerido</button>
+            <p class="labs-diagnostic-note">Você sempre poderá escolher outro nível ou ajustar a dificuldade durante os desafios.</p>
+          </aside>
+        </div>
+      </section>
+
       <section class="labs-section section-shell" id="aprender" aria-labelledby="learn-title">
         <div class="labs-section-heading">
           <div><p class="labs-eyebrow">trilha guiada</p><h2 id="learn-title">Aprenda no seu ritmo</h2></div>
           <p>Escolha explicitamente o nível. O Labs não tenta inferir sua idade, experiência ou identidade pelo avatar.</p>
         </div>
         <div class="labs-levels" role="group" aria-label="Escolha o nível">
-          <button type="button" class="is-selected" data-labs-level="iniciante" aria-pressed="true"><strong>Iniciante</strong><span>Conceitos em linguagem simples</span></button>
-          <button type="button" data-labs-level="intermediario" aria-pressed="false"><strong>Intermediário</strong><span>Estrutura e boas práticas</span></button>
-          <button type="button" data-labs-level="adulto-tecnico" aria-pressed="false"><strong>Adulto técnico</strong><span>Decisões e revisão crítica</span></button>
+          <button type="button" class="is-selected" data-labs-level="fundamentos" aria-pressed="true"><strong>Fundamentos</strong><span>Linguagem simples e mais dicas</span></button>
+          <button type="button" data-labs-level="explorador" aria-pressed="false"><strong>Explorador</strong><span>Estrutura, prática e autonomia</span></button>
+          <button type="button" data-labs-level="construtor" aria-pressed="false"><strong>Construtor</strong><span>Desafios maiores e explicações profundas</span></button>
         </div>
 
         <div class="labs-learning-grid">
           <article class="labs-challenge-card">
             <div class="labs-progress-row"><span data-challenge-counter>Desafio 1 de 4</span><span data-session-score>0 pontos de sessão</span></div>
+            <div class="labs-adaptation-status" data-adaptation-status role="status" aria-live="polite">Fundamentos: linguagem simples, mais dicas e exemplo guiado.</div>
             <div class="labs-progress-track" aria-hidden="true"><span data-progress-bar></span></div>
             <p class="labs-challenge-tag" data-challenge-topic>HTML · estrutura</p>
             <h3 data-challenge-title>O que dá significado à página?</h3>
@@ -77,6 +139,11 @@
               Escolha uma alternativa para receber uma explicação.
             </div>
             <button class="labs-button labs-button-primary" type="button" data-next-challenge disabled>Próximo desafio</button>
+            <div class="labs-difficulty-controls" aria-label="Ajustar dificuldade">
+              <span>Como está o desafio?</span>
+              <button type="button" data-too-easy>Está muito fácil</button>
+              <button type="button" data-too-hard>Está muito difícil</button>
+            </div>
           </article>
 
           <aside class="labs-context-card">

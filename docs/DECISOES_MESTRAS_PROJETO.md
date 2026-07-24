@@ -282,3 +282,13 @@ Propostas, seleção comunitária mensal e integração futura com Codex são ca
 Uma futura integração com Codex exigirá backend privado, autenticação, rate limiting, moderação, filtros, logs auditáveis, limites de custo e isolamento por sessão. Não terá acesso direto ao repositório nem permissões de produção, merge ou deploy.
 
 Status: `planejada`. Visibilidade: `publica`.
+
+### DEC-034 - Personalização adaptativa separa proteção, conhecimento e permissão
+
+As atividades poderão combinar faixa etária declarada, categoria do perfil, experiência, autodescrição, interesses, objetivos, diagnóstico inicial, desempenho e preferência por mais ou menos dificuldade. Idade nunca será inferida por avatar, aparência ou comportamento.
+
+Conhecimento técnico e permissão são dimensões diferentes. Uma pessoa jovem poderá demonstrar conhecimento avançado e receber conteúdo mais profundo, mantendo integralmente os guardrails da sua categoria etária. A adaptação altera linguagem, dicas, complexidade, código inicial, tamanho do desafio, explicações e ajuda; nunca libera JavaScript, backend, rede, upload, API, Git ou filesystem.
+
+O protótipo atual usa apenas um perfil fictício e descartável, diagnóstico local e níveis não depreciativos — Fundamentos, Explorador e Construtor. O usuário pode aceitar ou substituir a recomendação, refazer o diagnóstico e pedir mais ou menos dificuldade.
+
+Status: `vigente`. Visibilidade: `publica`.

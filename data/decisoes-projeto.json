@@ -316,6 +316,9 @@
     },
     {
       "id": "DEC-033", "data": "2026-07-23", "titulo": "Contribuições comunitárias e integração futura com Codex sob controle humano", "descricao": "Propostas, seleção comunitária e Codex são capacidades futuras. Toda contribuição exige triagem, moderação, revisão técnica, branch controlada, testes e aprovação. Codex futuro opera por backend privado, sem acesso direto ao repositório e sem permissões de produção, merge ou deploy.", "motivo": "Permitir participação educativa futura sem automatizar decisões, publicação ou execução de código de usuários.", "arquivos_afetados": ["labs.html", "docs/COFRINHO_LABS_ARQUITETURA_SEGURA.md", "docs/DECISOES_MESTRAS_PROJETO.md"], "status": "planejada", "decisao_substituida": null, "visibilidade": "publica", "observacoes": "Votação não significa aprovação; PIG Coins não compram votos; nenhuma API Codex foi conectada nesta entrega."
+    },
+    {
+      "id": "DEC-034", "data": "2026-07-23", "titulo": "Personalização adaptativa separa proteção, conhecimento e permissão", "descricao": "Atividades poderão combinar faixa etária declarada, categoria do perfil, experiência, autodescrição, interesses, objetivos, diagnóstico, desempenho e preferência de dificuldade. Idade nunca será inferida por avatar, aparência ou comportamento. Conhecimento técnico altera conteúdo e ajuda, nunca permissões ou guardrails.", "motivo": "Oferecer desafios adequados sem enfraquecer proteção infantil, rotular inteligência ou confundir habilidade com autorização.", "arquivos_afetados": ["labs.html", "labs.js", "docs/COFRINHO_LABS_ARQUITETURA_SEGURA.md", "docs/DECISOES_MESTRAS_PROJETO.md"], "status": "vigente", "decisao_substituida": null, "visibilidade": "publica", "observacoes": "O protótipo usa perfil fictício e descartável, diagnóstico local e níveis Fundamentos, Explorador e Construtor; não coleta nem persiste dados pessoais."
     }
   ]
 }
