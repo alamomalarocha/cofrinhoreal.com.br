@@ -5,8 +5,8 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const output = path.join(root, "dist");
-const pages = ["index", "comerciantes", "como-funciona", "cookies", "direitos", "educacao", "familias", "faq", "jogos", "o-que-e", "personagens", "pig-coins", "privacidade", "seguranca", "termos"];
-const publicFiles = ["styles.css", "script.js", "approved-avatars.js", "site.webmanifest", "robots.txt", "_headers", "_redirects", "404.html", "assets/favicon.svg", "data/personagens/avatares/avatares-aprovados.json", "data/personagens/personagens-principais.json"];
+const pages = ["index", "comerciantes", "como-funciona", "cookies", "direitos", "educacao", "familias", "faq", "jogos", "labs", "o-que-e", "personagens", "pig-coins", "privacidade", "seguranca", "termos"];
+const publicFiles = ["styles.css", "script.js", "labs.js", "approved-avatars.js", "site.webmanifest", "robots.txt", "_headers", "_redirects", "404.html", "assets/favicon.svg", "data/personagens/avatares/avatares-aprovados.json", "data/personagens/personagens-principais.json"];
 const catalog = JSON.parse(fs.readFileSync(path.join(root, "data/personagens/avatares/avatares-aprovados.json"), "utf8"));
 const mainCharacters = JSON.parse(fs.readFileSync(path.join(root, "data/personagens/personagens-principais.json"), "utf8"));
 const images = [...mainCharacters.characters.map((item) => item.public_path), ...catalog.avatars.map((item) => item.public_path)];
@@ -18,7 +18,7 @@ const copy = (relative) => {
   fs.mkdirSync(path.dirname(target), { recursive: true });
   fs.copyFileSync(source, target);
 };
-const legalHeader = `<header class="site-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Cofrinho Real, início"><img class="header-logo" src="assets/characters/001-pig-principal.png?v=46" alt="" /><span class="header-wordmark">Cofrinho <strong>Real</strong></span></a><button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="site-menu"><span></span><span></span><span></span></button><div class="nav-panel public-nav-panel" id="site-menu"><nav class="nav-links" aria-label="Navegação principal"><a href="/">Home</a><a href="/pig-coins">PigCoin</a><a href="/educacao">Educação</a><a href="/jogos">Jogos</a><a href="/personagens">Personagens</a><a href="/familias">Famílias</a><a href="/seguranca">Segurança</a><a href="/faq">FAQ</a></nav></div></div></header>`;
+const legalHeader = `<header class="site-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Cofrinho Real, início"><img class="header-logo" src="assets/characters/001-pig-principal.png?v=46" alt="" /><span class="header-wordmark">Cofrinho <strong>Real</strong></span></a><button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="site-menu"><span></span><span></span><span></span></button><div class="nav-panel public-nav-panel" id="site-menu"><nav class="nav-links" aria-label="Navegação principal"><a href="/">Home</a><a href="/pig-coins">PigCoin</a><a href="/educacao">Educação</a><a href="/jogos">Jogos</a><a href="/personagens">Personagens</a><a href="/labs">Labs</a><a href="/familias">Famílias</a><a href="/seguranca">Segurança</a><a href="/faq">FAQ</a></nav></div></div></header>`;
 const legalFooter = `<footer class="site-footer public-footer"><div><a class="brand footer-brand" href="/"><span class="brand-name">Cofrinho <strong>Real</strong></span></a><p>Aprender, brincar e crescer com o Pig.</p></div><nav aria-label="Links legais"><a href="/privacidade">Privacidade</a><a href="/termos">Termos</a><a href="/cookies">Cookies</a><a href="/direitos">Direitos</a></nav></footer>`;
 const legalPages = new Set(["cookies", "direitos", "privacidade", "termos"]);
 const metadata = (html, route) => {

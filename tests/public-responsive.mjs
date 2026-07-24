@@ -4,7 +4,7 @@ import { chromium } from "playwright";
 
 const port = 4187;
 const origin = `http://127.0.0.1:${port}`;
-const routes = ["/", "/personagens", "/o-que-e", "/cookies", "/direitos", "/privacidade", "/termos", "/rota-inexistente"];
+const routes = ["/", "/personagens", "/labs", "/o-que-e", "/cookies", "/direitos", "/privacidade", "/termos", "/rota-inexistente"];
 const viewports = [
   { width: 320, height: 720 },
   { width: 375, height: 812 },
@@ -106,6 +106,66 @@ try {
     }
     const headingOrder = await page.locator("h1, h2, h3").evaluateAll((nodes) => nodes.map((node) => Number(node.tagName.slice(1))));
     assert.equal(headingOrder.every((level, index) => index === 0 || level <= headingOrder[index - 1] + 1), true, `heading order at ${viewport.width}px`);
+    await page.goto(`${origin}/labs`, { waitUntil: "networkidle" });
+    assert.equal(await page.locator("[data-labs-preview]").getAttribute("sandbox"), "");
+    assert.equal(await page.locator("form").count(), 0);
+    assert.equal(await page.locator("[data-question-options] button").count(), 4);
+    assert.equal(await page.locator("[data-labs-view]:visible").count(), 1);
+    assert.equal(await page.locator('[data-labs-view="visao-geral"]').isVisible(), true);
+    if (viewport.width <= 860) await page.locator("[data-mobile-view-select]").selectOption("diagnostico");
+    else {
+      await page.locator('.labs-view-nav [data-view-target="diagnostico"]').focus();
+      await page.keyboard.press("Enter");
+    }
+    assert.equal(await page.locator('[data-labs-view="diagnostico"]').isVisible(), true);
+    assert.equal(await page.locator("#diagnostic-title").evaluate((node) => node === document.activeElement), true);
+    const diagnosticAnswers = page.locator("[data-diagnostic-answer]");
+    for (let index = 0; index < await diagnosticAnswers.count(); index += 1) await diagnosticAnswers.nth(index).selectOption("2");
+    await page.locator("[data-demo-protection]").selectOption("infantil");
+    await page.locator("[data-run-diagnostic]").click();
+    assert.equal(await page.locator("[data-recommended-level]").textContent(), "Construtor");
+    await page.locator("[data-accept-recommendation]").click();
+    assert.equal(await page.locator('[data-labs-level="construtor"]').getAttribute("aria-pressed"), "true");
+    await page.locator('[data-labs-level="fundamentos"]').click();
+    assert.equal(await page.locator('[data-labs-level="fundamentos"]').getAttribute("aria-pressed"), "true");
+    await page.locator("[data-too-easy]").click();
+    assert.equal(await page.locator('[data-labs-level="explorador"]').getAttribute("aria-pressed"), "true");
+    await page.locator("[data-too-hard]").click();
+    assert.equal(await page.locator('[data-labs-level="fundamentos"]').getAttribute("aria-pressed"), "true");
+    if (viewport.width <= 860) await page.locator("[data-mobile-view-select]").selectOption("diagnostico");
+    else await page.locator('.labs-view-nav [data-view-target="diagnostico"]').click();
+    await page.locator("[data-redo-diagnostic]").click();
+    assert.equal(await diagnosticAnswers.nth(0).inputValue(), "");
+    assert.equal(await page.locator("[data-accept-recommendation]").isDisabled(), true);
+    if (viewport.width <= 860) await page.locator("[data-mobile-view-select]").selectOption("aprender");
+    else await page.locator('.labs-view-nav [data-view-target="aprender"]').click();
+    await page.locator("[data-question-options] button").nth(1).click();
+    assert.match(await page.locator("[data-question-feedback]").textContent(), /Resposta correta/u);
+    if (viewport.width <= 860) await page.locator("[data-mobile-view-select]").selectOption("ideia");
+    else await page.locator('.labs-view-nav [data-view-target="ideia"]').click();
+    assert.equal(await page.locator("[data-proposal-step]:visible").count(), 1);
+    await page.locator('[data-proposal-next="2"]:visible').click();
+    assert.equal(await page.locator('[data-proposal-step="2"]').isVisible(), true);
+    await page.goBack();
+    assert.equal(await page.locator('[data-labs-view="aprender"]').isVisible(), true);
+    if (viewport.width <= 860) {
+      await page.locator("[data-mobile-view-select]").selectOption("criar");
+      assert.equal(await page.locator(".labs-desktop-only").isVisible(), false);
+      assert.equal(await page.locator(".labs-mobile-editor-message").isVisible(), true);
+      assert.match(await page.locator(".labs-mobile-editor-message").textContent(), /computador/u);
+    } else {
+      await page.locator('.labs-view-nav [data-view-target="criar"]').click();
+      assert.equal(await page.locator(".labs-desktop-only").isVisible(), true);
+      assert.equal(await page.locator(".labs-mobile-editor-message").isVisible(), false);
+      await page.locator("[data-html-editor]").fill('<script>parent.document.body.dataset.xss="true"</script><form action="https://example.com"><input></form><img src="https://example.com/x.png"><button onclick="fetch(\'https://example.com\')">Teste</button>');
+      await page.locator("[data-css-editor]").fill('@import "https://example.com/x.css"; .teste{background:url(https://example.com/x.png)}');
+      await page.locator("[data-update-preview]").click();
+      const previewFrame = page.frameLocator("[data-labs-preview]");
+      assert.equal(await previewFrame.locator("script, form").count(), 0);
+      assert.equal(await previewFrame.locator("img").getAttribute("src"), null);
+      assert.equal(await previewFrame.locator("button").getAttribute("onclick"), null);
+      assert.equal(await page.locator("body").getAttribute("data-xss"), null);
+    }
     assert.deepEqual(consoleErrors, [], `console errors at ${viewport.width}px`);
     assert.deepEqual(pageErrors, [], `page errors at ${viewport.width}px`);
     assert.deepEqual(failedRequests, [], `network failures at ${viewport.width}px`);

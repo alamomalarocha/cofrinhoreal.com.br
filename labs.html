@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cofrinho Labs | Aprenda e crie com segurança</title>
+    <meta name="description" content="Protótipo educativo local para aprender HTML, CSS, acessibilidade e estruturar ideias com segurança." />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta name="theme-color" content="#111b3f" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css?v=46" />
+  </head>
+  <body class="labs-page labs-workspace-page">
+    <header class="labs-header labs-workspace-header">
+      <a class="labs-brand" href="/" aria-label="Cofrinho Real, início">
+        <img src="assets/characters/001-pig-principal.png" width="1024" height="1536" alt="" />
+        <span><strong>Cofrinho Labs</strong><small>uma iniciativa Cofrinho Real</small></span>
+      </a>
+      <a class="labs-back-link" href="/">Voltar ao universo</a>
+    </header>
+
+    <main class="labs-app-shell">
+      <aside class="labs-app-sidebar" aria-label="Áreas do Cofrinho Labs">
+        <div class="labs-sidebar-intro">
+          <span class="labs-status-dot"></span>
+          <strong>Protótipo local</strong>
+          <small>Nada é enviado ou salvo automaticamente.</small>
+        </div>
+        <nav class="labs-view-nav" aria-label="Navegação interna do Cofrinho Labs">
+          <button type="button" class="is-active" data-view-target="visao-geral" aria-controls="view-visao-geral" aria-current="page"><span>01</span>Visão geral</button>
+          <button type="button" data-view-target="diagnostico" aria-controls="view-diagnostico"><span>02</span>Descobrir meu nível</button>
+          <button type="button" data-view-target="aprender" aria-controls="view-aprender"><span>03</span>Aprender</button>
+          <button type="button" data-view-target="criar" aria-controls="view-criar"><span>04</span>Criar</button>
+          <button type="button" data-view-target="ideia" aria-controls="view-ideia"><span>05</span>Minha ideia</button>
+          <button type="button" data-view-target="como-funciona" aria-controls="view-como-funciona"><span>06</span>Como funciona</button>
+        </nav>
+        <p class="labs-sidebar-security">Sem login, backend, JavaScript de usuário, carteira real ou acesso a serviços externos.</p>
+      </aside>
+
+      <div class="labs-app-content">
+        <nav class="labs-mobile-view-nav" aria-label="Área atual">
+          <label for="labs-mobile-view">Ir para</label>
+          <select id="labs-mobile-view" data-mobile-view-select>
+            <option value="visao-geral">Visão geral</option>
+            <option value="diagnostico">Descobrir meu nível</option>
+            <option value="aprender">Aprender</option>
+            <option value="criar">Criar</option>
+            <option value="ideia">Minha ideia</option>
+            <option value="como-funciona">Como funciona</option>
+          </select>
+        </nav>
+
+        <section class="labs-view is-active" id="view-visao-geral" data-labs-view="visao-geral" aria-labelledby="overview-title">
+          <div class="labs-overview-hero">
+            <div>
+              <p class="labs-eyebrow">developer platform educativa · protótipo local</p>
+              <h1 id="overview-title">Aprenda, crie e construa o Cofrinho Real.</h1>
+              <p class="labs-lead">Descubra seu nível, resolva um desafio e transforme uma ideia em um rascunho seguro.</p>
+              <div class="labs-hero-actions">
+                <button class="labs-button labs-button-primary" type="button" data-view-target="aprender">Começar meu desafio</button>
+                <button class="labs-button labs-button-secondary" type="button" data-view-target="como-funciona">Conhecer o Cofrinho Labs</button>
+              </div>
+            </div>
+            <img src="assets/characters/001-pig-principal.png" width="1024" height="1536" alt="Pig Principal, guia das atividades educativas" />
+          </div>
+
+          <div class="labs-overview-status">
+            <article><span>Nível atual</span><strong data-overview-level>Fundamentos</strong><button type="button" data-view-target="diagnostico">Descobrir meu nível</button></article>
+            <article><span>Progresso da sessão</span><strong data-overview-progress>Desafio 1 de 4</strong><small>Somente nesta aba</small></article>
+            <article><span>Recompensa demonstrativa</span><strong data-overview-score>0 pontos</strong><small>Sem carteira Pig Bank</small></article>
+          </div>
+
+          <div class="labs-next-step">
+            <div><p class="labs-eyebrow">próximo desafio</p><h2 data-overview-challenge>O que dá significado à página?</h2><p>Um conceito por vez, com dica e explicação imediata.</p></div>
+            <button class="labs-button labs-button-primary" type="button" data-view-target="aprender">Continuar aprendendo</button>
+          </div>
+
+          <div class="labs-shortcuts" aria-label="Atalhos">
+            <button type="button" data-view-target="aprender"><strong>Aprender</strong><span>Um desafio por vez</span></button>
+            <button type="button" data-view-target="criar"><strong>Criar</strong><span>Bancada HTML e CSS</span></button>
+            <button type="button" data-view-target="ideia"><strong>Minha ideia</strong><span>Rascunho em três passos</span></button>
+            <button type="button" data-view-target="como-funciona"><strong>Como funciona</strong><span>Limites e processo futuro</span></button>
+          </div>
+        </section>
+
+        <section class="labs-view" id="view-diagnostico" data-labs-view="diagnostico" aria-labelledby="diagnostic-title" hidden>
+          <header class="labs-view-heading"><p class="labs-eyebrow">perfil demonstrativo descartável</p><h1 id="diagnostic-title" tabindex="-1">Descobrir meu nível</h1><p>Cinco respostas locais sugerem um ponto de partida. Idade, conhecimento e permissão permanecem separados.</p></header>
+          <div class="labs-diagnostic-grid">
+            <div class="labs-diagnostic-card">
+              <div class="labs-profile-boundary">
+                <strong>Proteção e conhecimento são separados</strong>
+                <p>A categoria etária fictícia demonstra regras de proteção. Ela nunca aumenta permissões nem participa da pontuação técnica.</p>
+                <label for="demo-protection">Categoria de proteção simulada
+                  <select id="demo-protection" data-demo-protection><option value="nao-informada">Não informada</option><option value="infantil">Perfil infantil fictício</option><option value="adolescente">Perfil adolescente fictício</option><option value="adulto">Perfil adulto fictício</option></select>
+                </label>
+              </div>
+              <div class="labs-diagnostic-questions" data-diagnostic-questions>
+                <label>Você já criou uma página em HTML?<select data-diagnostic-answer><option value="">Escolha uma resposta</option><option value="0">Ainda não</option><option value="1">Já acompanhei um exemplo</option><option value="2">Sim, criei uma página</option></select></label>
+                <label>Você sabe para que serve CSS?<select data-diagnostic-answer><option value="">Escolha uma resposta</option><option value="0">Ainda não</option><option value="1">Tenho uma ideia</option><option value="2">Sim, consigo explicar</option></select></label>
+                <label>Qual opção melhor descreve sua experiência?<select data-diagnostic-answer><option value="">Escolha uma resposta</option><option value="0">Quero começar com bastante ajuda</option><option value="1">Consigo adaptar exemplos</option><option value="2">Já construo pequenos projetos</option></select></label>
+                <label>Qual elemento cria um título principal?<select data-diagnostic-answer><option value="">Escolha uma resposta</option><option value="0">&lt;p&gt;</option><option value="2">&lt;h1&gt;</option><option value="0">&lt;style&gt;</option></select></label>
+                <label>Qual regra altera a cor de fundo?<select data-diagnostic-answer><option value="">Escolha uma resposta</option><option value="0">font-size</option><option value="2">background-color</option><option value="0">text-align</option></select></label>
+              </div>
+              <div class="labs-diagnostic-actions"><button class="labs-button labs-button-primary" type="button" data-run-diagnostic>Ver recomendação</button><button class="labs-button labs-button-secondary" type="button" data-redo-diagnostic hidden>Refazer diagnóstico</button></div>
+            </div>
+            <aside class="labs-diagnostic-result" aria-live="polite" aria-atomic="true" data-diagnostic-result>
+              <p class="labs-eyebrow">recomendação da sessão</p><h2 data-recommended-level>Responda às perguntas</h2>
+              <p data-recommendation-copy>Usaremos somente suas respostas declaradas e práticas para sugerir o ponto de partida.</p>
+              <button class="labs-button labs-button-primary" type="button" data-accept-recommendation disabled>Aceitar nível sugerido</button>
+              <p class="labs-diagnostic-note">Você sempre poderá escolher outro nível ou ajustar a dificuldade.</p>
+            </aside>
+          </div>
+        </section>
+
+        <section class="labs-view" id="view-aprender" data-labs-view="aprender" aria-labelledby="learn-title" hidden>
+          <header class="labs-view-heading"><p class="labs-eyebrow">trilha guiada</p><h1 id="learn-title" tabindex="-1">Aprender</h1><p>Um desafio por vez, com explicações adaptadas e as mesmas regras de segurança.</p></header>
+          <p class="labs-permission-note">Seu nível adapta explicações e desafios, mas nunca altera as regras de segurança ou as permissões da conta.</p>
+          <div class="labs-levels" role="group" aria-label="Escolha o nível">
+            <button type="button" class="is-selected" data-labs-level="fundamentos" aria-pressed="true"><strong>Fundamentos</strong><span>Mais dicas</span></button>
+            <button type="button" data-labs-level="explorador" aria-pressed="false"><strong>Explorador</strong><span>Mais autonomia</span></button>
+            <button type="button" data-labs-level="construtor" aria-pressed="false"><strong>Construtor</strong><span>Mais profundidade</span></button>
+          </div>
+          <div class="labs-learning-grid">
+            <article class="labs-challenge-card">
+              <div class="labs-progress-row"><span data-challenge-counter>Desafio 1 de 4</span><span data-session-score>0 pontos de sessão</span></div>
+              <div class="labs-progress-track" aria-hidden="true"><span data-progress-bar></span></div>
+              <p class="labs-challenge-tag" data-challenge-topic>HTML · estrutura</p><h2 data-challenge-title>O que dá significado à página?</h2>
+              <p data-challenge-description>HTML organiza títulos, textos, botões e outras partes do conteúdo.</p>
+              <fieldset class="labs-question" data-question><legend data-question-text>Qual linguagem organiza a estrutura de uma página?</legend><div data-question-options></div></fieldset>
+              <div class="labs-feedback" data-question-feedback role="status" aria-live="polite">Escolha uma alternativa para receber uma explicação.</div>
+              <button class="labs-button labs-button-primary" type="button" data-next-challenge disabled>Próximo desafio</button>
+              <div class="labs-difficulty-controls" aria-label="Ajustar dificuldade"><span>Como está?</span><button type="button" data-too-easy>Muito fácil</button><button type="button" data-too-hard>Muito difícil</button></div>
+            </article>
+            <aside class="labs-context-card">
+              <p class="labs-eyebrow">dica contextual</p><h2 data-context-title>Estrutura antes do visual</h2><p data-context-copy>HTML descreve o que existe. CSS define como os elementos são apresentados.</p>
+              <div class="labs-adaptation-status" data-adaptation-status role="status" aria-live="polite">Fundamentos: linguagem simples, mais dicas e exemplo guiado.</div>
+              <p class="labs-temporary-reward">Demonstração local e temporária. Estas PIG Coins ainda não estão conectadas a uma carteira do Pig Bank.</p>
+              <div class="labs-demo-reward" hidden data-demo-reward><strong>+2 PIG Coins educativas</strong><p>Recompensa de demonstração: 2 PIG Coins educativas. Este saldo ainda não está conectado a uma carteira real do Pig Bank.</p></div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="labs-view labs-create-view" id="view-criar" data-labs-view="criar" aria-labelledby="editor-title" hidden>
+          <header class="labs-view-heading"><p class="labs-eyebrow">laboratório seguro</p><h1 id="editor-title" tabindex="-1">Criar</h1><p>Uma bancada ampla para experimentar HTML e CSS sem scripts, rede ou envio.</p></header>
+          <div class="labs-desktop-only labs-editor-workbench">
+            <div class="labs-editor-toolbar"><div><span class="labs-status-dot"></span><strong>Ambiente educativo isolado</strong></div><span data-editor-limit>0 / 6.000 caracteres</span></div>
+            <p class="labs-sandbox-notice">Sandbox educativa: este código não acessa o site real, não é enviado ao servidor e não será publicado automaticamente.</p>
+            <div class="labs-editor-grid">
+              <div class="labs-code-column"><label for="labs-html">HTML</label><textarea id="labs-html" data-html-editor spellcheck="false" maxlength="4000" aria-describedby="editor-security-note"></textarea><label for="labs-css">CSS</label><textarea id="labs-css" data-css-editor spellcheck="false" maxlength="2000" aria-describedby="editor-security-note"></textarea></div>
+              <div class="labs-preview-column"><div class="labs-preview-heading"><strong>Preview</strong><span>sem scripts · sem rede</span></div><iframe title="Preview seguro do código educativo" sandbox="" referrerpolicy="no-referrer" data-labs-preview></iframe><p id="editor-security-note">Scripts, formulários, embeds, links externos e URLs de rede são removidos.</p></div>
+            </div>
+            <div class="labs-editor-actions"><button class="labs-button labs-button-primary" type="button" data-update-preview>Atualizar preview</button><button class="labs-button labs-button-secondary" type="button" data-restore-example>Restaurar exemplo</button><span role="status" aria-live="polite" data-editor-feedback></span></div>
+          </div>
+          <div class="labs-mobile-editor-message"><strong>Abra o laboratório completo no computador</strong><p>No celular, acompanhe seu nível, desafios, progresso e rascunho. A bancada de código fica disponível em telas maiores.</p></div>
+        </section>
+
+        <section class="labs-view" id="view-ideia" data-labs-view="ideia" aria-labelledby="proposal-title" hidden>
+          <header class="labs-view-heading"><p class="labs-eyebrow">ideias responsáveis</p><h1 id="proposal-title" tabindex="-1">Minha ideia</h1><p>Piloto local — esta proposta ainda não foi enviada para análise.</p></header>
+          <div class="labs-proposal-stepper" role="tablist" aria-label="Etapas do rascunho">
+            <button type="button" class="is-active" role="tab" aria-selected="true" data-proposal-step-target="1">1. O problema</button>
+            <button type="button" role="tab" aria-selected="false" data-proposal-step-target="2">2. Sua solução</button>
+            <button type="button" role="tab" aria-selected="false" data-proposal-step-target="3">3. Benefícios e cuidados</button>
+          </div>
+          <div class="labs-proposal-grid">
+            <div class="labs-proposal-fields" aria-label="Rascunho local de proposta">
+              <section data-proposal-step="1"><h2>O problema</h2><label>Título<input type="text" maxlength="80" data-proposal-field="titulo" /></label><label>Problema identificado<textarea maxlength="500" data-proposal-field="problema"></textarea></label><button class="labs-button labs-button-primary" type="button" data-proposal-next="2">Continuar</button></section>
+              <section data-proposal-step="2" hidden><h2>Sua solução</h2><label>Solução proposta<textarea maxlength="800" data-proposal-field="solucao"></textarea></label><label>Esboço ou código<textarea maxlength="1000" data-proposal-field="esboco"></textarea></label><div class="labs-inline-actions"><button class="labs-button labs-button-secondary" type="button" data-proposal-next="1">Voltar</button><button class="labs-button labs-button-primary" type="button" data-proposal-next="3">Continuar</button></div></section>
+              <section data-proposal-step="3" hidden><h2>Benefícios e cuidados</h2><label>Quem será beneficiado<textarea maxlength="300" data-proposal-field="beneficiados"></textarea></label><label>Valor educativo<textarea maxlength="300" data-proposal-field="valorEducativo"></textarea></label><label>Cuidados de segurança e acessibilidade<textarea maxlength="500" data-proposal-field="cuidados"></textarea></label><button class="labs-button labs-button-secondary" type="button" data-proposal-next="2">Voltar</button></section>
+            </div>
+            <aside class="labs-proposal-summary"><p class="labs-eyebrow">resumo local</p><h2 data-proposal-title>Ideia ainda sem título</h2><dl data-proposal-summary></dl><div class="labs-proposal-actions"><button class="labs-button labs-button-primary" type="button" data-copy-proposal>Copiar texto</button><button class="labs-button labs-button-secondary" type="button" data-download-proposal>Salvar rascunho</button><button class="labs-text-button" type="button" data-reset-proposal>Reiniciar</button></div><p class="labs-local-draft-note">O rascunho será salvo somente neste dispositivo e ainda não será enviado ao projeto.</p><p role="status" aria-live="polite" data-proposal-feedback>Nada será enviado ou salvo automaticamente.</p></aside>
+          </div>
+        </section>
+
+        <section class="labs-view" id="view-como-funciona" data-labs-view="como-funciona" aria-labelledby="flow-title" hidden>
+          <header class="labs-view-heading"><p class="labs-eyebrow">processo futuro</p><h1 id="flow-title" tabindex="-1">Como funciona</h1><p>Votação nunca significará aprovação automática. Segurança, acessibilidade e viabilidade continuam obrigatórias.</p></header>
+          <ol class="labs-flow-phases"><li><span>01</span><strong>Aprender e criar</strong></li><li><span>02</span><strong>Enviar e revisar</strong></li><li><span>03</span><strong>Comunidade e seleção</strong></li><li><span>04</span><strong>Desenvolvimento e publicação</strong></li></ol>
+          <details class="labs-process-details"><summary>Ver os 12 estados do processo</summary><ol class="labs-flow"><li>Aprender</li><li>Criar</li><li>Enviar ideia</li><li>Triagem técnica</li><li>Elegibilidade</li><li>Comunidade</li><li>Revisão final</li><li>Backlog</li><li>Branch controlada</li><li>Testes</li><li>Aprovação</li><li>Publicação</li></ol></details>
+          <div class="labs-governance-note"><img src="assets/characters/002-brasileirinho.png" width="1024" height="1536" alt="Brasileirinho, guia das regras da comunidade" /><div><strong>O Brasileirinho lembra:</strong><p>Código de usuário nunca entra automaticamente em produção. Toda proposta passa por revisão humana, técnica e de segurança.</p></div></div>
+          <p class="labs-essential-security">Sempre ativo: sem login, backend, envio, JavaScript de usuário, carteira real ou acesso a serviços externos.</p>
+          <div class="labs-security-columns"><section><h2>Funciona agora</h2><p>Desafios locais, HTML e CSS sanitizados, preview isolado, resumo e download local.</p></section><section><h2>Não funciona</h2><p>Conta, chat, votação, carteira persistente, GitHub, Cloudflare, Codex ou publicação.</p></section><section><h2>Exige projeto futuro</h2><p>Backend privado, autenticação, moderação, auditoria, limites de custo e aprovação formal.</p></section></div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="labs-footer"><p><strong>Cofrinho Labs</strong> — protótipo público educativo sem backend.</p><a href="/">Voltar ao Cofrinho Real</a></footer>
+    <script src="script.js?v=46" defer></script>
+    <script src="labs.js?v=48" defer></script>
+  </body>
+</html>

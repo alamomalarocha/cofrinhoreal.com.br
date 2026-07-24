@@ -258,3 +258,37 @@ Seu boné integra o visual oficial. Os olhos são castanhos claros com reflexos 
 A revisão humana foi concluída pelo proprietário do projeto. O novo asset aprovado é a fonte visual oficial do Pig Principal e não exige nova correção da mão ou da corda. Qualquer substituição futura continuará dependendo de aprovação expressa.
 
 Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-031 - Divisão de capacidades entre desktop e aplicativo
+
+> O aplicativo permite viver e acompanhar o Universo Cofrinho Real. O desktop permite construir, desenvolver e administrar esse universo.
+
+O desktop prioriza Cofrinho Labs, editor, preview, projetos, documentação técnica, propostas, análises e administração avançada. O aplicativo prioriza carteira educativa, saldo fictício, extrato, notificações, missões, patrimônio, personagens e acompanhamento. As superfícies poderão compartilhar conta, dados, saldo, patrimônio, regras e histórico, sem precisar oferecer as mesmas ferramentas.
+
+Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-032 - Cofrinho Labs como protótipo público educativo sem backend
+
+A primeira fundação interativa do Cofrinho Labs oferece quatro desafios, escolha explícita de nível, edição local de HTML e CSS sanitizados, preview em iframe sem permissões, recompensa demonstrativa e estruturação local de propostas.
+
+Não existe backend, JavaScript de usuário, conta, persistência, envio, votação, carteira real, chat, ranking, upload ou coleta de dados pessoais. A DEC-018 permanece integralmente vigente.
+
+Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-033 - Contribuições comunitárias e integração futura com Codex sob controle humano
+
+Propostas, seleção comunitária mensal e integração futura com Codex são capacidades futuras e documentais. Votação não significa aprovação; PIG Coins não compram votos; código nunca entra automaticamente em produção.
+
+Uma futura integração com Codex exigirá backend privado, autenticação, rate limiting, moderação, filtros, logs auditáveis, limites de custo e isolamento por sessão. Não terá acesso direto ao repositório nem permissões de produção, merge ou deploy.
+
+Status: `planejada`. Visibilidade: `publica`.
+
+### DEC-034 - Personalização adaptativa separa proteção, conhecimento e permissão
+
+As atividades poderão combinar faixa etária declarada, categoria do perfil, experiência, autodescrição, interesses, objetivos, diagnóstico inicial, desempenho e preferência por mais ou menos dificuldade. Idade nunca será inferida por avatar, aparência ou comportamento.
+
+Conhecimento técnico e permissão são dimensões diferentes. Uma pessoa jovem poderá demonstrar conhecimento avançado e receber conteúdo mais profundo, mantendo integralmente os guardrails da sua categoria etária. A adaptação altera linguagem, dicas, complexidade, código inicial, tamanho do desafio, explicações e ajuda; nunca libera JavaScript, backend, rede, upload, API, Git ou filesystem.
+
+O protótipo atual usa apenas um perfil fictício e descartável, diagnóstico local e níveis não depreciativos — Fundamentos, Explorador e Construtor. O usuário pode aceitar ou substituir a recomendação, refazer o diagnóstico e pedir mais ou menos dificuldade.
+
+Status: `vigente`. Visibilidade: `publica`.
