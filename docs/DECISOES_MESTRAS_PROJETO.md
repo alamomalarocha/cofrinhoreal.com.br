@@ -258,3 +258,27 @@ Seu boné integra o visual oficial. Os olhos são castanhos claros com reflexos 
 A revisão humana foi concluída pelo proprietário do projeto. O novo asset aprovado é a fonte visual oficial do Pig Principal e não exige nova correção da mão ou da corda. Qualquer substituição futura continuará dependendo de aprovação expressa.
 
 Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-031 - Divisão de capacidades entre desktop e aplicativo
+
+> O aplicativo permite viver e acompanhar o Universo Cofrinho Real. O desktop permite construir, desenvolver e administrar esse universo.
+
+O desktop prioriza Cofrinho Labs, editor, preview, projetos, documentação técnica, propostas, análises e administração avançada. O aplicativo prioriza carteira educativa, saldo fictício, extrato, notificações, missões, patrimônio, personagens e acompanhamento. As superfícies poderão compartilhar conta, dados, saldo, patrimônio, regras e histórico, sem precisar oferecer as mesmas ferramentas.
+
+Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-032 - Cofrinho Labs como protótipo público educativo sem backend
+
+A primeira fundação interativa do Cofrinho Labs oferece quatro desafios, escolha explícita de nível, edição local de HTML e CSS sanitizados, preview em iframe sem permissões, recompensa demonstrativa e estruturação local de propostas.
+
+Não existe backend, JavaScript de usuário, conta, persistência, envio, votação, carteira real, chat, ranking, upload ou coleta de dados pessoais. A DEC-018 permanece integralmente vigente.
+
+Status: `vigente`. Visibilidade: `publica`.
+
+### DEC-033 - Contribuições comunitárias e integração futura com Codex sob controle humano
+
+Propostas, seleção comunitária mensal e integração futura com Codex são capacidades futuras e documentais. Votação não significa aprovação; PIG Coins não compram votos; código nunca entra automaticamente em produção.
+
+Uma futura integração com Codex exigirá backend privado, autenticação, rate limiting, moderação, filtros, logs auditáveis, limites de custo e isolamento por sessão. Não terá acesso direto ao repositório nem permissões de produção, merge ou deploy.
+
+Status: `planejada`. Visibilidade: `publica`.

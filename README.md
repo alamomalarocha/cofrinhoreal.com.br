@@ -49,6 +49,8 @@ No fluxo manual, o próximo prompt deve ser enviado antes da publicação da ima
 
 Consulte [docs/README.md](docs/README.md), [docs/AUTOMACAO_IMAGENS_PERSONAGENS.md](docs/AUTOMACAO_IMAGENS_PERSONAGENS.md), [docs/PILOTO_TRES_IDENTIDADES_BEBE.md](docs/PILOTO_TRES_IDENTIDADES_BEBE.md) e [docs/CONFIGURACAO_SEGURA_API_IMAGENS.md](docs/CONFIGURACAO_SEGURA_API_IMAGENS.md).
 
+O protótipo público local do Cofrinho Labs e seus limites estão documentados em [docs/COFRINHO_LABS_ARQUITETURA_SEGURA.md](docs/COFRINHO_LABS_ARQUITETURA_SEGURA.md).
+
 <!-- CATALOGO_BRASILEIRO_INICIO -->
 ## Catálogo brasileiro de personagens
 
