@@ -57,3 +57,18 @@ test("adaptive diagnosis is local, replaceable and permission-neutral", () => {
   assert.match(html, /categoria etária fictícia[^]*nunca aumenta permissões/iu);
   assert.match(html, /aria-live="polite" aria-atomic="true" data-diagnostic-result/u);
 });
+
+test("mobile learning flow is compact, accessible and beginner-friendly", () => {
+  assert.equal((html.match(/data-mobile-toggle=/gu) || []).length, 5);
+  assert.equal((html.match(/data-mobile-panel/gu) || []).length, 5);
+  for (const id of ["diagnostico-conteudo", "aprendizado-conteudo", "propostas-conteudo", "processo-conteudo", "seguranca-conteudo"]) {
+    assert.match(html, new RegExp(`aria-controls="${id}"`, "u"));
+  }
+  assert.match(html, /labs-title-mobile[^]*Aprenda, crie e construa o Cofrinho Real/iu);
+  assert.match(html, /Sandbox educativa: este código não acessa o site real/iu);
+  assert.match(html, /Demonstração local e temporária\. Estas PIG Coins/iu);
+  assert.match(html, /Seu nível adapta explicações e desafios, mas nunca altera/iu);
+  assert.match(html, /data-download-proposal>Salvar rascunho/iu);
+  assert.match(html, /rascunho será salvo somente neste dispositivo/iu);
+  assert.doesNotMatch(script, /localStorage|sessionStorage|indexedDB|fetch\s*\(|XMLHttpRequest/iu);
+});

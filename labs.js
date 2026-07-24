@@ -301,7 +301,7 @@ document.querySelector("[data-download-proposal]").addEventListener("click", () 
   link.download = "proposta-cofrinho-labs.json";
   link.click();
   URL.revokeObjectURL(url);
-  document.querySelector("[data-proposal-feedback]").textContent = "Arquivo JSON preparado localmente.";
+  document.querySelector("[data-proposal-feedback]").textContent = "Rascunho salvo localmente neste dispositivo.";
 });
 document.querySelector("[data-reset-proposal]").addEventListener("click", () => {
   proposalFields.forEach((field) => { field.value = ""; });
@@ -351,9 +351,42 @@ redoDiagnostic.addEventListener("click", resetDiagnostic);
 acceptRecommendation.addEventListener("click", () => {
   if (!recommendedLevel) return;
   setLearningLevel(recommendedLevel, "Recomendação do diagnóstico aceita; você ainda pode escolher outro nível.");
+  if (window.matchMedia("(max-width: 860px)").matches) {
+    document.querySelector('[data-mobile-toggle="diagnostico-conteudo"]')?.click();
+    document.querySelector('[data-mobile-toggle="aprendizado-conteudo"]')?.click();
+  }
   document.querySelector("#aprender").scrollIntoView({ block: "start" });
 });
+
+const mobileSections = [...document.querySelectorAll("[data-mobile-panel]")];
+const mobileToggles = [...document.querySelectorAll("[data-mobile-toggle]")];
+const compactLayout = window.matchMedia("(max-width: 860px)");
+
+function setMobilePanel(button, panel, open) {
+  button.setAttribute("aria-expanded", String(open));
+  panel.hidden = !open;
+  panel.closest(".labs-section")?.classList.toggle("is-mobile-collapsed", !open);
+}
+
+function syncMobileSections() {
+  mobileToggles.forEach((button) => {
+    const panel = document.getElementById(button.getAttribute("aria-controls"));
+    if (!panel) return;
+    const open = compactLayout.matches ? panel.dataset.mobileDefault === "open" : true;
+    setMobilePanel(button, panel, open);
+  });
+}
+
+mobileToggles.forEach((button) => {
+  button.addEventListener("click", () => {
+    const panel = document.getElementById(button.getAttribute("aria-controls"));
+    if (!panel) return;
+    setMobilePanel(button, panel, button.getAttribute("aria-expanded") !== "true");
+  });
+});
+compactLayout.addEventListener("change", syncMobileSections);
 
 restoreExample();
 renderChallenge();
 renderProposal();
+syncMobileSections();

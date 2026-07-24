@@ -123,17 +123,33 @@ try {
     assert.equal(await page.locator('[data-labs-level="explorador"]').getAttribute("aria-pressed"), "true");
     await page.locator("[data-too-hard]").click();
     assert.equal(await page.locator('[data-labs-level="fundamentos"]').getAttribute("aria-pressed"), "true");
+    if (viewport.width <= 860) await page.locator('[data-mobile-toggle="diagnostico-conteudo"]').click();
     await page.locator("[data-redo-diagnostic]").click();
     assert.equal(await diagnosticAnswers.nth(0).inputValue(), "");
     assert.equal(await page.locator("[data-accept-recommendation]").isDisabled(), true);
+    if (viewport.width <= 860) await page.locator('[data-mobile-toggle="diagnostico-conteudo"]').click();
     await page.locator("[data-question-options] button").nth(1).click();
     assert.match(await page.locator("[data-question-feedback]").textContent(), /Resposta correta/u);
     if (viewport.width <= 860) {
       assert.equal(await page.locator(".labs-desktop-only").isVisible(), false);
       assert.equal(await page.locator(".labs-mobile-editor-message").isVisible(), true);
+      assert.equal(await page.locator(".labs-title-mobile").isVisible(), true);
+      assert.equal(await page.locator(".labs-title-desktop").isVisible(), false);
+      const diagnosticToggle = page.locator('[data-mobile-toggle="diagnostico-conteudo"]');
+      const learningToggle = page.locator('[data-mobile-toggle="aprendizado-conteudo"]');
+      assert.equal(await diagnosticToggle.getAttribute("aria-expanded"), "false");
+      assert.equal(await learningToggle.getAttribute("aria-expanded"), "true");
+      const proposalToggle = page.locator('[data-mobile-toggle="propostas-conteudo"]');
+      await proposalToggle.focus();
+      await page.keyboard.press("Enter");
+      assert.equal(await proposalToggle.getAttribute("aria-expanded"), "true");
+      assert.equal(await page.locator("#propostas-conteudo").isVisible(), true);
     } else {
       assert.equal(await page.locator(".labs-desktop-only").isVisible(), true);
       assert.equal(await page.locator(".labs-mobile-editor-message").isVisible(), false);
+      assert.equal(await page.locator(".labs-title-desktop").isVisible(), true);
+      assert.equal(await page.locator(".labs-title-mobile").isVisible(), false);
+      for (const toggle of await page.locator("[data-mobile-toggle]").all()) assert.equal(await toggle.getAttribute("aria-expanded"), "true");
       await page.locator("[data-html-editor]").fill('<script>parent.document.body.dataset.xss="true"</script><form action="https://example.com"><input></form><img src="https://example.com/x.png"><button onclick="fetch(\'https://example.com\')">Teste</button>');
       await page.locator("[data-css-editor]").fill('@import "https://example.com/x.css"; .teste{background:url(https://example.com/x.png)}');
       await page.locator("[data-update-preview]").click();
